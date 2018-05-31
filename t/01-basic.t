@@ -134,6 +134,21 @@ subtest({
         %totals-expected,
         '%totals eqv %totals-expected'
     );
+
+    my Date $date .= new('2018-05-31');
+    my Hash:D @macros-on-date = $sustenance.gen-macros(:$date);
+    my %totals-on-date = @macros-on-date.first<totals>;
+    my %totals-on-date-expected =
+        :calories(860.0),
+        :carbohydrates(139.5),
+        :fat(13.5),
+        :protein(41.0);
+
+    is-deeply(
+        %totals-on-date,
+        %totals-on-date-expected,
+        '%totals-on-date eqv %totals-on-date-expected'
+    );
 });
 
 # vim: set filetype=perl6 foldmethod=marker foldlevel=0:

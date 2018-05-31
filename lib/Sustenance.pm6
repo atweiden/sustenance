@@ -41,7 +41,13 @@ multi method new(
 
 # method gen-macros {{{
 
-method gen-macros(::?CLASS:D: --> Array[Hash:D])
+multi method gen-macros(::?CLASS:D: Date:D :$date! --> Array[Hash:D])
+{
+    my Hash:D @meal = gen-macros($.pantry, @.meal).grep({ $_<date> eqv $date });
+    my Hash:D @macros = gen-macros(:@meal);
+}
+
+multi method gen-macros(::?CLASS:D: Date :date($) --> Array[Hash:D])
 {
     my Hash:D @meal = gen-macros($.pantry, @.meal);
     my Hash:D @macros = gen-macros(:@meal);
