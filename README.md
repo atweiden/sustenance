@@ -7,7 +7,7 @@ Calorie tracker
 
 ```perl6
 use Sustenance;
-Sustenance.new(:file<sustenance.toml>).get-macros;
+Sustenance.new(:file<sustenance.toml>).gen-macros;
 ```
 
 
