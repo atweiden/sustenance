@@ -136,7 +136,7 @@ subtest({
     );
 
     my Date $date .= new('2018-05-31');
-    my Hash:D @macros-on-date = $sustenance.gen-macros(:$date);
+    my Hash:D @macros-on-date = $sustenance.gen-macros($date);
     my %totals-on-date = @macros-on-date.first<totals>;
     my %totals-on-date-expected =
         :calories(860.0),
@@ -148,6 +148,22 @@ subtest({
         %totals-on-date,
         %totals-on-date-expected,
         '%totals-on-date eqv %totals-on-date-expected'
+    );
+
+    my Date $d1 .= new('2018-05-30');
+    my Date $d2 .= new('2018-06-01');
+    my Hash:D @macros-in-date-range = $sustenance.gen-macros($d1, $d2);
+    my %totals-in-date-range = @macros-in-date-range.first<totals>;
+    my %totals-in-date-range-expected =
+        :calories(860.0),
+        :carbohydrates(139.5),
+        :fat(13.5),
+        :protein(41.0);
+
+    is-deeply(
+        %totals-in-date-range,
+        %totals-in-date-range-expected,
+        '%totals-in-date-range eqv %totals-in-date-range-expected'
     );
 });
 
