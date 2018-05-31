@@ -43,8 +43,9 @@ multi method new(
 
 multi method gen-macros(::?CLASS:D: Date:D $d1, Date:D $d2 --> Array[Hash:D])
 {
+    my Range:D $date-range = $d1 .. $d2;
     my Hash:D @meal =
-        gen-macros($.pantry, @.meal).grep({ $_<date> ~~ $d1 .. $d2 });
+        gen-macros($.pantry, @.meal).grep({ $date-range.in-range($_<date>) });
     my Hash:D @macros = gen-macros(:@meal);
 }
 
