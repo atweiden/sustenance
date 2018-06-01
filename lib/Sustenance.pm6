@@ -45,14 +45,25 @@ multi method gen-macros(::?CLASS:D: Date:D $d1, Date:D $d2 --> Hash:D)
 {
     my Range:D $date-range = $d1 .. $d2;
     my Hash:D @meal =
-        gen-macros($.pantry, @.meal).grep({ $date-range.in-range(.<date>) });
+        gen-macros($.pantry, @.meal)
+            .grep({ $date-range.in-range(.<date>) });
+    my %macros = gen-macros(:@meal);
+}
+
+multi method gen-macros(::?CLASS:D: Date:D $date, Time:D $time --> Hash:D)
+{
+    my Hash:D @meal =
+        gen-macros($.pantry, @.meal)
+            .grep({ .<date> eqv $date })
+            .grep({ .<time> eqv $time });
     my %macros = gen-macros(:@meal);
 }
 
 multi method gen-macros(::?CLASS:D: Date:D $date --> Hash:D)
 {
     my Hash:D @meal =
-        gen-macros($.pantry, @.meal).grep({ .<date> eqv $date });
+        gen-macros($.pantry, @.meal)
+            .grep({ .<date> eqv $date });
     my %macros = gen-macros(:@meal);
 }
 
