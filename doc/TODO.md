@@ -1,7 +1,6 @@
 Todo
 ====
 
-- implement `bin/sustenance` CLI
 - add travis-ci
 
 ```perl6
