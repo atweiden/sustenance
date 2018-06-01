@@ -41,25 +41,25 @@ multi method new(
 
 # method gen-macros {{{
 
-multi method gen-macros(::?CLASS:D: Date:D $d1, Date:D $d2 --> Array[Hash:D])
+multi method gen-macros(::?CLASS:D: Date:D $d1, Date:D $d2 --> Hash:D)
 {
     my Range:D $date-range = $d1 .. $d2;
     my Hash:D @meal =
         gen-macros($.pantry, @.meal).grep({ $date-range.in-range(.<date>) });
-    my Hash:D @macros = gen-macros(:@meal);
+    my %macros = gen-macros(:@meal);
 }
 
-multi method gen-macros(::?CLASS:D: Date:D $date --> Array[Hash:D])
+multi method gen-macros(::?CLASS:D: Date:D $date --> Hash:D)
 {
     my Hash:D @meal =
         gen-macros($.pantry, @.meal).grep({ .<date> eqv $date });
-    my Hash:D @macros = gen-macros(:@meal);
+    my %macros = gen-macros(:@meal);
 }
 
-multi method gen-macros(::?CLASS:D: --> Array[Hash:D])
+multi method gen-macros(::?CLASS:D: --> Hash:D)
 {
     my Hash:D @meal = gen-macros($.pantry, @.meal);
-    my Hash:D @macros = gen-macros(:@meal);
+    my %macros = gen-macros(:@meal);
 }
 
 multi sub gen-macros(Pantry:D $pantry, Meal:D @m --> Array[Hash:D])
@@ -90,7 +90,7 @@ multi sub gen-macros(Portion:D @p, Pantry:D $pantry --> Array[Hash:D])
         });
 }
 
-multi sub gen-macros(Hash:D :@meal! --> Array[Hash:D])
+multi sub gen-macros(Hash:D :@meal! --> Hash:D)
 {
     my Hash:D @macros =
         @meal.map(-> %meal {
@@ -102,6 +102,8 @@ multi sub gen-macros(Hash:D :@meal! --> Array[Hash:D])
             my %totals = :$calories, :$protein, :$carbohydrates, :$fat;
             my %macros = :%meal, :%totals;
         });
+    my %totals = gen-macros(:@macros);
+    my %macros = :@macros, :%totals;
 }
 
 multi sub gen-macros(Hash:D :@portion! --> Array:D)
@@ -117,6 +119,21 @@ multi sub gen-macros(Hash:D :@portion! --> Array:D)
         $fat += %portion<macros><fat>;
     });
     my @macros = $calories, $protein, $carbohydrates, $fat;
+}
+
+multi sub gen-macros(Hash:D :@macros! --> Hash:D)
+{
+    my (Calories:D $calories,
+        Protein:D $protein,
+        Carbohydrates:D $carbohydrates,
+        Fat:D $fat) = 0.0;
+    @macros.map(-> %macros {
+        $calories += %macros<totals><calories>;
+        $protein += %macros<totals><protein>;
+        $carbohydrates += %macros<totals><carbohydrates>;
+        $fat += %macros<totals><fat>;
+    });
+    my %macros = :$calories, :$protein, :$carbohydrates, :$fat;
 }
 
 # end method gen-macros }}}

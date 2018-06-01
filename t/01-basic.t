@@ -121,8 +121,8 @@ subtest({
         '$sustenance eqv $sustenance-expected'
     );
 
-    my Hash:D @macros = $sustenance.gen-macros;
-    my %totals = @macros.first<totals>;
+    my %macros = $sustenance.gen-macros;
+    my %totals = %macros<totals>;
     my %totals-expected =
         :calories(860.0),
         :carbohydrates(139.5),
@@ -136,8 +136,8 @@ subtest({
     );
 
     my Date $date .= new('2018-05-31');
-    my Hash:D @macros-on-date = $sustenance.gen-macros($date);
-    my %totals-on-date = @macros-on-date.first<totals>;
+    my %macros-on-date = $sustenance.gen-macros($date);
+    my %totals-on-date = %macros-on-date<totals>;
     my %totals-on-date-expected =
         :calories(860.0),
         :carbohydrates(139.5),
@@ -152,8 +152,8 @@ subtest({
 
     my Date $d1 .= new('2018-05-30');
     my Date $d2 .= new('2018-06-01');
-    my Hash:D @macros-in-date-range = $sustenance.gen-macros($d1, $d2);
-    my %totals-in-date-range = @macros-in-date-range.first<totals>;
+    my %macros-in-date-range = $sustenance.gen-macros($d1, $d2);
+    my %totals-in-date-range = %macros-in-date-range<totals>;
     my %totals-in-date-range-expected =
         :calories(860.0),
         :carbohydrates(139.5),
