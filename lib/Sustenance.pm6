@@ -95,18 +95,14 @@ multi sub gen-macros(Hash:D :@meal! --> Hash:D)
     my Hash:D @macros =
         @meal.map(-> %meal {
             my Hash:D @portion = %meal<portion>.Array;
-            my (Calories:D $calories,
-                Protein:D $protein,
-                Carbohydrates:D $carbohydrates,
-                Fat:D $fat) = gen-macros(:@portion);
-            my %totals = :$calories, :$protein, :$carbohydrates, :$fat;
+            my %totals = gen-macros(:@portion);
             my %macros = :%meal, :%totals;
         });
     my %totals = gen-macros(:@macros);
     my %macros = :@macros, :%totals;
 }
 
-multi sub gen-macros(Hash:D :@portion! --> Array:D)
+multi sub gen-macros(Hash:D :@portion! --> Hash:D)
 {
     my (Calories:D $calories,
         Protein:D $protein,
@@ -118,7 +114,7 @@ multi sub gen-macros(Hash:D :@portion! --> Array:D)
         $carbohydrates += %portion<macros><carbohydrates>;
         $fat += %portion<macros><fat>;
     });
-    my @macros = $calories, $protein, $carbohydrates, $fat;
+    my %macros = :$calories, :$protein, :$carbohydrates, :$fat;
 }
 
 multi sub gen-macros(Hash:D :@macros! --> Hash:D)
