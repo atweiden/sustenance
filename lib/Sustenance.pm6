@@ -57,6 +57,23 @@ multi method gen-macros(
 
 multi method gen-macros(
     ::?CLASS:D:
+    Date:D $d1,
+    Date:D $d2,
+    Time:D $t1,
+    Time:D $t2
+    --> Hash:D
+)
+{
+    my Range:D $date-range = $d1 .. $d2;
+    my Hash:D @meal =
+        gen-macros($.pantry, @.meal)
+            .grep({ .<date> ~~ $date-range })
+            .grep({ in-time-range(.<time>, $t1, $t2) });
+    my %macros = gen-macros(:@meal);
+}
+
+multi method gen-macros(
+    ::?CLASS:D:
     Date:D $date,
     Time:D $t1,
     Time:D $t2

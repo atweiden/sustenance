@@ -67,6 +67,77 @@ class Time
     }
 }
 
+multi sub infix:<cmp>(
+    Time:D $t1,
+    Time:D $t2 where {
+        .hour eqv $t1.hour
+            && .minute eqv $t1.minute
+                && .second eqv $t1.second
+    }
+    --> Order:D
+) is export
+{
+    my Order:D $cmp = Same;
+}
+
+multi sub infix:<cmp>(
+    Time:D $t1,
+    Time:D $t2 where {
+        .hour eqv $t1.hour
+            && .minute eqv $t1.minute
+    }
+    --> Order:D
+) is export
+{
+    my Order:D $cmp = $t1.second cmp $t2.second;
+}
+
+multi sub infix:<cmp>(
+    Time:D $t1,
+    Time:D $t2 where {
+        .hour eqv $t1.hour
+    }
+    --> Order:D
+) is export
+{
+    my Order:D $cmp = $t1.minute cmp $t2.minute;
+}
+
+multi sub infix:<cmp>(
+    Time:D $t1,
+    Time:D $t2
+    --> Order:D
+) is export
+{
+    my Order:D $cmp = $t1.hour cmp $t2.hour;
+}
+
+multi sub in-time-range(
+    Time:D $time,
+    Time:D $t1 where {
+        ($time cmp $t1 ~~ More)
+            || ($time cmp $t1 ~~ Same)
+    },
+    Time:D $t2 where {
+        ($time cmp $t2 ~~ Less)
+            || ($time cmp $t2 ~~ Same)
+    }
+    --> Bool:D
+) is export
+{
+    my Bool:D $in-time-range = True;
+}
+
+multi sub in-time-range(
+    Time:D $,
+    Time:D $,
+    Time:D $
+    --> Bool:D
+) is export
+{
+    my Bool:D $in-time-range = False;
+}
+
 # end class Time }}}
 # class Portion {{{
 
