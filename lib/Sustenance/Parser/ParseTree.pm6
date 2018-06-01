@@ -60,6 +60,11 @@ class Time
     has UInt:D $.hour is required;
     has UInt:D $.minute is required;
     has Rat:D $.second is required;
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my %hash = :$!hour, :$!minute, :$!second;
+    }
 }
 
 # end class Time }}}
@@ -98,6 +103,7 @@ class Meal
 {
     has Date:D $.date is required;
     has Time:D $.time is required;
+    has DateTime:D $.date-time is required;
     has Portion:D @.portion is required;
 
     submethod BUILD(
@@ -108,6 +114,9 @@ class Meal
     )
     {
         $!time = Time.new(|%time);
+        my UInt:D ($year, $month, $day) = $!date.year, $!date.month, $!date.day;
+        my %date = :$year, :$month, :$day;
+        $!date-time = DateTime.new(|%date, |$!time.hash);
         @!portion = @portion.map(-> %portion { Portion.new(|%portion) });
     }
 

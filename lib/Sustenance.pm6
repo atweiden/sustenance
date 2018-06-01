@@ -41,16 +41,45 @@ multi method new(
 
 # method gen-macros {{{
 
-multi method gen-macros(::?CLASS:D: Date:D $d1, Date:D $d2 --> Hash:D)
+multi method gen-macros(
+    ::?CLASS:D:
+    Date:D $d1,
+    Date:D $d2
+    --> Hash:D
+)
 {
     my Range:D $date-range = $d1 .. $d2;
     my Hash:D @meal =
         gen-macros($.pantry, @.meal)
-            .grep({ $date-range.in-range(.<date>) });
+            .grep({ .<date> ~~ $date-range });
     my %macros = gen-macros(:@meal);
 }
 
-multi method gen-macros(::?CLASS:D: Date:D $date, Time:D $time --> Hash:D)
+multi method gen-macros(
+    ::?CLASS:D:
+    Date:D $date,
+    Time:D $t1,
+    Time:D $t2
+    --> Hash:D
+)
+{
+    my UInt:D ($year, $month, $day) = $date.year, $date.month, $date.day;
+    my %date = :$year, :$month, :$day;
+    my DateTime $dt1 .= new(|%date, |$t1.hash);
+    my DateTime $dt2 .= new(|%date, |$t2.hash);
+    my Range:D $date-time-range = $dt1 .. $dt2;
+    my Hash:D @meal =
+        gen-macros($.pantry, @.meal)
+            .grep({ .<date-time> ~~ $date-time-range });
+    my %macros = gen-macros(:@meal);
+}
+
+multi method gen-macros(
+    ::?CLASS:D:
+    Date:D $date,
+    Time:D $time
+    --> Hash:D
+)
 {
     my Hash:D @meal =
         gen-macros($.pantry, @.meal)
@@ -59,7 +88,11 @@ multi method gen-macros(::?CLASS:D: Date:D $date, Time:D $time --> Hash:D)
     my %macros = gen-macros(:@meal);
 }
 
-multi method gen-macros(::?CLASS:D: Date:D $date --> Hash:D)
+multi method gen-macros(
+    ::?CLASS:D:
+    Date:D $date
+    --> Hash:D
+)
 {
     my Hash:D @meal =
         gen-macros($.pantry, @.meal)
@@ -67,7 +100,10 @@ multi method gen-macros(::?CLASS:D: Date:D $date --> Hash:D)
     my %macros = gen-macros(:@meal);
 }
 
-multi method gen-macros(::?CLASS:D: --> Hash:D)
+multi method gen-macros(
+    ::?CLASS:D:
+    --> Hash:D
+)
 {
     my Hash:D @meal = gen-macros($.pantry, @.meal);
     my %macros = gen-macros(:@meal);
@@ -79,9 +115,10 @@ multi sub gen-macros(Pantry:D $pantry, Meal:D @m --> Array[Hash:D])
         @m.map(-> Meal:D $meal {
             my Date:D $date = $meal.date;
             my Time:D $time = $meal.time;
+            my DateTime:D $date-time = $meal.date-time;
             my Portion:D @p = $meal.portion;
             my Hash:D @portion = gen-macros(@p, $pantry);
-            my %meal = :$date, :$time, :@portion;
+            my %meal = :$date, :$time, :$date-time, :@portion;
         });
 }
 
