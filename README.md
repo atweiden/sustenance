@@ -27,6 +27,15 @@ time = 10:15:00
   servings = 1.5
 ```
 
+**cli**:
+
+```sh
+export PERL6LIB=lib
+bin/sustenance --date=2018-05-31 gen-macros sustenance.toml
+```
+
+**perl6**:
+
 ```perl6
 use Sustenance;
 Sustenance.new(:file<sustenance.toml>).gen-macros;
