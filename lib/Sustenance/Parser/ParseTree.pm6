@@ -67,6 +67,16 @@ class Time
     }
 }
 
+# generate C<Time> from C<hh:mm:ss> string
+sub gen-time(Str:D $t --> Time:D) is export
+{
+    my (Str:D $h, Str:D $m, Str:D $s) = $t.split(':');
+    my UInt:D $hour = Int($h);
+    my UInt:D $minute = Int($m);
+    my Rat:D $second = Rat($s);
+    my Time $time .= new(:$hour, :$minute, :$second);
+}
+
 multi sub infix:<cmp>(
     Time:D $t1,
     Time:D $t2 where {
