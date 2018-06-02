@@ -30,12 +30,12 @@ class Food
 
     method new(
         *%opts (
-            Str:D :$name! where .so,
-            Str:D :$serving-size! where .so,
-            Numeric:D :$calories! where * >= 0,
-            Numeric:D :$protein! where * >= 0,
-            Numeric:D :$carbs! where * >= 0,
-            Numeric:D :$fat! where * >= 0
+            Str:D :name($)! where .so,
+            Str:D :serving-size($)! where .so,
+            Numeric:D :calories($)! where * >= 0,
+            Numeric:D :protein($)! where * >= 0,
+            Numeric:D :carbs($)! where * >= 0,
+            Numeric:D :fat($)! where * >= 0
         )
         --> Food:D
     )
@@ -161,8 +161,8 @@ class Portion
 
     method new(
         *%opts (
-            Str:D :$food! where .so,
-            Numeric:D :$servings! where * >= 0
+            Str:D :food($)! where .so,
+            Numeric:D :servings($)! where * >= 0
         )
         --> Portion:D
     )
@@ -197,9 +197,9 @@ class Meal
 
     method new(
         *%opts (
-            Date:D :$date!,
-            :%time!,
-            :@portion!
+            Date:D :date($)!,
+            :time(%)!,
+            :portion(@)!
         )
         --> Meal:D
     )
