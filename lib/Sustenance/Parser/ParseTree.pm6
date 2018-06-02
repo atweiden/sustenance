@@ -124,14 +124,8 @@ multi sub infix:<cmp>(
 
 multi sub in-time-range(
     Time:D $time,
-    Time:D $t1 where {
-        ($time cmp $t1 ~~ More)
-            || ($time cmp $t1 ~~ Same)
-    },
-    Time:D $t2 where {
-        ($time cmp $t2 ~~ Less)
-            || ($time cmp $t2 ~~ Same)
-    }
+    Time:D $t1 where { $time cmp $t1 ~~ More|Same },
+    Time:D $t2 where { $time cmp $t2 ~~ Less|Same }
     --> Bool:D
 ) is export
 {
