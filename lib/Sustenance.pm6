@@ -2,6 +2,7 @@ use v6;
 use Sustenance::Parser::ParseTree;
 use Sustenance::Parser;
 use Sustenance::Types;
+use X::Sustenance;
 unit class Sustenance;
 
 has Pantry:D $.pantry is required;
