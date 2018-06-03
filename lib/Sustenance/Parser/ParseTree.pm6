@@ -42,6 +42,17 @@ class Food
     {
         self.bless(|%opts);
     }
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my %hash =
+            :$.name,
+            :$.serving-size,
+            :$.calories,
+            :$.protein,
+            :$.carbohydrates,
+            :$.fat;
+    }
 }
 
 # end class Food }}}
@@ -50,6 +61,12 @@ class Food
 class Pantry
 {
     has Food:D @.food is required;
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my Hash:D @food = @.food.map({ .hash });
+        my %hash = :@food;
+    }
 }
 
 # end class Pantry }}}
@@ -169,6 +186,11 @@ class Portion
     {
         self.bless(|%opts);
     }
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my %hash = :$.food, :$.servings;
+    }
 }
 
 # end class Portion }}}
@@ -205,6 +227,34 @@ class Meal
     )
     {
         self.bless(|%opts);
+    }
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my %date = hash($.date);
+        my %time = $.time.hash;
+        my %date-time = hash($.date-time);
+        my Hash:D @portion = @.portion.map({ .hash });
+        my %hash = :%date, :%time, :%date-time, :@portion;
+    }
+
+    proto sub hash(|)
+    {*}
+
+    multi sub hash(DateTime:D $date-time --> Hash:D)
+    {
+        my (UInt:D $year, UInt:D $month, UInt:D $day) =
+            $date-time.year, $date-time.month, $date-time.day;
+        my (UInt:D $hour, UInt:D $minute, Rat:D $second) =
+            $date-time.hour, $date-time.minute, $date-time.second;
+        my %hash = :$year, :$month, :$day, :$hour, :$minute, :$second;
+    }
+
+    multi sub hash(Date:D $date --> Hash:D)
+    {
+        my (UInt:D $year, UInt:D $month, UInt:D $day) =
+            $date.year, $date.month, $date.day;
+        my %hash = :$year, :$month, :$day;
     }
 }
 

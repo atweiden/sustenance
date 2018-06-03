@@ -3,6 +3,15 @@ use v6;
 use Sustenance;
 use Sustenance::Parser::ParseTree;
 
+# &to-json {{{
+
+my Str:D &to-json = sub ($arg --> Str:D)
+{
+    Rakudo::Internals::JSON.to-json($arg);
+};
+
+# end &to-json }}}
+
 # sub MAIN {{{
 
 # --- gen-macros {{{
@@ -104,6 +113,38 @@ multi sub MAIN(
 }
 
 # --- end help }}}
+# --- ls {{{
+
+multi sub MAIN(
+    'ls',
+    Str:D $file,
+    Bool:D :foods($)! where .so
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(:$file);
+    my Hash:D @ls = $sustenance.ls(:foods);
+    ls(@ls);
+}
+
+multi sub MAIN(
+    'ls',
+    Str:D $file,
+    Bool:D :meals($)! where .so
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(:$file);
+    my Hash:D @ls = $sustenance.ls(:meals);
+    ls(@ls);
+}
+
+sub ls(Hash:D @ls --> Nil)
+{
+    say(to-json(@ls));
+}
+
+# --- end ls }}}
 
 # end sub MAIN }}}
 # sub USAGE {{{
@@ -134,6 +175,22 @@ multi sub USAGE('gen-macros' --> Nil)
     say($HELP);
 }
 
+multi sub USAGE('ls' --> Nil)
+{
+    constant $HELP = q:to/EOF/.trim;
+    Usage:
+      sustenance --foods ls
+      sustenance --meals ls
+
+    Options
+      --foods
+        list foods
+      --meals
+        list meals
+    EOF
+    say($HELP);
+}
+
 multi sub USAGE(--> Nil)
 {
     constant $HELP = q:to/EOF/.trim;
@@ -141,8 +198,9 @@ multi sub USAGE(--> Nil)
       sustenance [-h] <command>
 
     Commands:
-      gen-macros        generate macronutrient profile
       help              show help for subcommands
+      gen-macros        generate macronutrient profile
+      ls                list data
 
     Options
       --help
