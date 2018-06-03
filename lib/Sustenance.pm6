@@ -145,7 +145,9 @@ multi sub gen-macros(Portion:D @p, Pantry:D $pantry --> Array:D)
         @p.map(-> Portion:D $portion {
             my FoodName:D $name = $portion.food;
             my Servings:D $servings = $portion.servings;
-            my Food:D $food = $pantry.food.first({ .name eq $name });
+            my Food:D $food =
+                $pantry.food.first({ .name eq $name })
+                    // die(X::Sustenance::FoodMissing.new(:$name));
             my Calories:D $calories = $food.calories * $servings;
             my Protein:D $protein = $food.protein * $servings;
             my Carbohydrates:D $carbohydrates = $food.carbohydrates * $servings;
