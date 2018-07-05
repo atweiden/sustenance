@@ -5,7 +5,9 @@ use v6;
 class X::Sustenance::FoodMissing
 {
     also is Exception;
+
     has Str:D $.name is required;
+
     method message(::?CLASS:D: --> Str:D)
     {
         my Str:D $message =
