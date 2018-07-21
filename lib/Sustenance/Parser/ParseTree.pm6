@@ -74,24 +74,65 @@ class Pantry
 
 class Time
 {
-    has UInt:D $.hour is required;
-    has UInt:D $.minute is required;
-    has Rat:D $.second is required;
+    has UInt:D $!hour is required;
+    has UInt:D $!minute is required;
+    has Rat:D $!second is required;
+
+    # --- accessor {{{
+
+    method hour(::?CLASS:D: --> UInt:D) { $!hour }
+    method minute(::?CLASS:D: --> UInt:D) { $!minute }
+    method second(::?CLASS:D: --> Rat:D) { $!second }
+
+    # --- end accessor }}}
+
+    multi submethod BUILD(
+        UInt:D :$!hour!,
+        UInt:D :$!minute!,
+        Rat:D :$!second!
+        --> Nil
+    )
+    {*}
+
+    multi submethod BUILD(
+        Str:D $t
+        --> Nil
+    )
+    {
+        my (Str:D $h, Str:D $m, Str:D $s) = $t.split(':');
+        $!hour = Int($h);
+        $!minute = Int($m);
+        $!second = Rat($s);
+    }
+
+    proto method new(|)
+    {*}
+
+    multi method new(
+        *%opts (
+            UInt:D :$hour!,
+            UInt:D :$minute!,
+            Rat:D :$second!
+        )
+        --> Time:D
+    )
+    {
+        self.bless(|%opts);
+    }
+
+    # instantiate C<Time> from C<hh:mm:ss> string
+    multi method new(
+        Str:D $t
+        --> Time:D
+    )
+    {
+        self.bless($t);
+    }
 
     method hash(::?CLASS:D: --> Hash:D)
     {
         my %hash = :$!hour, :$!minute, :$!second;
     }
-}
-
-# generate C<Time> from C<hh:mm:ss> string
-sub gen-time(Str:D $t --> Time:D) is export
-{
-    my (Str:D $h, Str:D $m, Str:D $s) = $t.split(':');
-    my UInt:D $hour = Int($h);
-    my UInt:D $minute = Int($m);
-    my Rat:D $second = Rat($s);
-    my Time $time .= new(:$hour, :$minute, :$second);
 }
 
 multi sub infix:<cmp>(

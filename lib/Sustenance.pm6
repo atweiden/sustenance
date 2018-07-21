@@ -5,8 +5,19 @@ use Sustenance::Types;
 use X::Sustenance;
 unit class Sustenance;
 
-has Pantry:D $.pantry is required;
-has Meal:D @.meal is required;
+# class attributes {{{
+
+has Pantry:D $!pantry is required;
+has Meal:D @!meal is required;
+
+# --- accessor {{{
+
+method pantry(::?CLASS:D:) { $!pantry }
+method meal(::?CLASS:D:) { @!meal }
+
+# --- end accessor }}}
+
+# end class attributes }}}
 
 # submethod BUILD {{{
 

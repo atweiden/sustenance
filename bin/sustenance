@@ -29,8 +29,8 @@ multi sub MAIN(
     my Sustenance $sustenance .= new(:$file);
     my Date $date1 .= new($d1);
     my Date $date2 .= new($d2);
-    my Time:D $time1 = gen-time($t1);
-    my Time:D $time2 = gen-time($t2);
+    my Time $time1 .= new($t1);
+    my Time $time2 .= new($t2);
     say($sustenance.gen-macros($date1, $date2, $time1, $time2));
 }
 
@@ -45,8 +45,8 @@ multi sub MAIN(
 {
     my Sustenance $sustenance .= new(:$file);
     my Date $date .= new($d);
-    my Time:D $time1 = gen-time($t1);
-    my Time:D $time2 = gen-time($t2);
+    my Time $time1 .= new($t1);
+    my Time $time2 .= new($t2);
     say($sustenance.gen-macros($date, $time1, $time2));
 }
 
@@ -60,7 +60,7 @@ multi sub MAIN(
 {
     my Sustenance $sustenance .= new(:$file);
     my Date $date .= new($d);
-    my Time:D $time = gen-time($t);
+    my Time $time .= new($t);
     say($sustenance.gen-macros($date, $time));
 }
 
