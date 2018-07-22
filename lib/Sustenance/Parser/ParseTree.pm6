@@ -239,10 +239,19 @@ class Portion
 
 class Meal
 {
-    has Date:D $.date is required;
-    has Time:D $.time is required;
-    has DateTime:D $.date-time is required;
-    has Portion:D @.portion is required;
+    has Date:D $!date is required;
+    has Time:D $!time is required;
+    has DateTime:D $!date-time is required;
+    has Portion:D @!portion is required;
+
+    # --- accessor {{{
+
+    method date(::?CLASS:D:) { $!date }
+    method time(::?CLASS:D:) { $!time }
+    method date-time(::?CLASS:D:) { $!date-time }
+    method portion(::?CLASS:D:) { @!portion }
+
+    # --- end accessor }}}
 
     submethod BUILD(
         Date:D :$!date!,
