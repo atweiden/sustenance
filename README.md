@@ -81,7 +81,7 @@ key        | type
 
 ### Dependencies
 
-- Rakudo Perl6
+- Rakudo Perl 6
 - [Config::TOML](https://github.com/atweiden/config-toml)
 
 
