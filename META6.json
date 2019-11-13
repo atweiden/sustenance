@@ -13,6 +13,7 @@
         "source"     : "https://github.com/atweiden/sustenance"
     },
     "provides" : {
+        "Concentric"                    : "lib/Concentric.pm6",
         "Sustenance"                    : "lib/Sustenance.pm6",
         "Sustenance::Parser"            : "lib/Sustenance/Parser.pm6",
         "Sustenance::Parser::ParseTree" : "lib/Sustenance/Parser/ParseTree.pm6",
