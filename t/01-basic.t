@@ -114,52 +114,39 @@ subtest({
     # --- end @meal }}}
 
     my Sustenance $sustenance-expected .= new(:$pantry, :@meal);
-
     is-deeply(
         $sustenance,
         $sustenance-expected,
         '$sustenance eqv $sustenance-expected'
     );
 
-    my %macros = $sustenance.gen-macros;
-    my %totals = %macros<totals>;
-    my %totals-expected =
-        :calories(860.0),
-        :carbohydrates(139.5),
-        :fat(13.5),
-        :protein(41.0);
-
-    is-deeply(
-        %totals,
-        %totals-expected,
-        '%totals eqv %totals-expected'
-    );
-
-    my Date $date .= new('2018-05-31');
-    my %macros-on-date = $sustenance.gen-macros($date);
+    my %macros-on-date = do {
+        my Date $date .= new('2018-05-31');
+        $sustenance.gen-macros($date);
+    };
     my %totals-on-date = %macros-on-date<totals>;
     my %totals-on-date-expected =
         :calories(860.0),
         :carbohydrates(139.5),
         :fat(13.5),
         :protein(41.0);
-
     is-deeply(
         %totals-on-date,
         %totals-on-date-expected,
         '%totals-on-date eqv %totals-on-date-expected'
     );
 
-    my Date $d1 .= new('2018-05-30');
-    my Date $d2 .= new('2018-06-01');
-    my %macros-in-date-range = $sustenance.gen-macros($d1, $d2);
+    my %macros-in-date-range = do {
+        my Date $d1 .= new('2018-05-30');
+        my Date $d2 .= new('2018-06-01');
+        $sustenance.gen-macros($d1, $d2);
+    }
     my %totals-in-date-range = %macros-in-date-range<totals>;
     my %totals-in-date-range-expected =
         :calories(860.0),
         :carbohydrates(139.5),
         :fat(13.5),
         :protein(41.0);
-
     is-deeply(
         %totals-in-date-range,
         %totals-in-date-range-expected,

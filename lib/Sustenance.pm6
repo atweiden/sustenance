@@ -129,12 +129,15 @@ multi method gen-macros(
     my %macros = gen-macros(:@meal);
 }
 
+# generate macros for the current date by default
 multi method gen-macros(
     ::?CLASS:D:
     --> Hash:D
 )
 {
-    my Hash:D @meal = gen-macros($.pantry, @.meal);
+    my Hash:D @meal =
+        gen-macros($.pantry, @.meal)
+            .grep({ .<date> eqv now.Date });
     my %macros = gen-macros(:@meal);
 }
 
