@@ -106,13 +106,22 @@ multi sub MAIN(
 
 multi sub MAIN(
     'gen-target-macros',
-    $activity-level,
-    $lean-mass-in-kg
+    Str:D :$weight! where .so,
+    Str:D :$height! where .so,
+    Str:D :$age! where .so,
+    Str:D :$gender! where .so,
+    Str:D :$activity-level! where .so
     --> Nil
 )
 {
     my $target-macros =
-        Concentric.gen-target-macros($activity-level, $lean-mass-in-kg);
+        Concentric.gen-target-macros(
+            :$weight,
+            :$height,
+            :$age,
+            :$gender,
+            :$activity-level
+        );
     say($target-macros);
 }
 
@@ -195,24 +204,40 @@ multi sub USAGE('gen-target-macros' --> Nil)
 {
     constant $HELP = q:to/EOF/.trim;
     Usage:
-      sustenance gen-target-macros <activity-level> <lean-mass-in-kg>
-      sustenance gen-target-macros lightly-active 59
+      sustenance --weight=<lean-mass-in-kg>
+                 --height=<height-in-cm>
+                 --age=<age-in-yrs>
+                 --gender=<gender>
+                 --activity-level=<activity-level>
+                 gen-target-macros
 
-    Parameters:
-      activity-level
-        sedentary
-          if you get little or no exercise
-        lightly-active
-          if you do light exercise 1-3 days per week
-        moderately-active
-          if you do moderate exercise 3-5 days per week
-        very-active
-          if you do hard exercise 6-7 days per week
-        extra-active
-          if you do very hard exercise and have a physical job or do 2x training
+    Options:
+      --weight=<lean-mass-in-kg>
+        Lean mass in kilograms
+      --height=<height-in-cm>
+        Height in centimeters
+      --age=<age-in-yrs>
+        Age in years
+      --gender=<gender>
+        Gender
+      --activity-level=<activity-level>
+        Activity level
 
-      lean-mass-in-kg
-        your weight in kilograms
+    Gender
+      | male
+      | female
+
+    Activity Level
+      | sedentary
+      |   If you get little or no exercise
+      | lightly-active
+      |   If you do light exercise 1-3 days per week
+      | moderately-active
+      |   If you do moderate exercise 3-5 days per week
+      | very-active
+      |   If you do hard exercise 6-7 days per week
+      | extra-active
+      |   If you do very hard exercise and have a physical job or do 2x training
     EOF
     say($HELP);
 }

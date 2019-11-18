@@ -8,130 +8,312 @@ Concentric
 
 =head SYNOPSIS
 
-lightly active athlete weighing 59 kg
-
+    # lightly active male athlete, age 31, weighing 59 kg at 175.26 cm
     use Concentric;
-    Concentric.gen-target-macros('lightly-active', 59);
+    Concentric.gen-target-macros(
+        :weight(59),
+        :height(175.26),
+        :age(31),
+        :gender<male>,
+        :activity-level<lightly-active>
+    );
 
 =head DESCRIPTION
 
-Calculates target calories for lean muscle mass gains, including
-recommended protein intake.
+Estimates daily caloric requirements for weight maintenance, muscle
+gains and fat loss.
 
-=head base metabolic rate (bmr)
+First calculates Basal Metabolic Rate (BMR) with the Mifflin St Jeor
+equation.
 
-B<base metabolic rate> represents how many calories you’d burn each
-day if you did literally nothing but lie in bed
+Then calculates Total Daily Energy Expenditure (TDEE) by taking the
+product of BMR and the appropriate Katch-McArdle multiplier for a given
+activity level.
 =end pod
 
-method gen-bmr($lean-mass-in-kg)
+=begin pod
+=head Basal Metabolic Rate (BMR)
+
+B<Basal Metabolic Rate (BMR)> is how many calories you'd burn each day
+if you did literally nothing but lie in bed. We calculate it using the
+L<https://en.wikipedia.org/wiki/Basal_metabolic_rate|Mifflin St Jeor
+equation>.
+
+BMR does not include calories burned from physical activity, the process
+of digestion, or things like walking from one room to another.
+=end pod
+
+method gen-bmr(
+    # body weight in kilograms
+    :$weight! where .so,
+    # height in centimeters
+    :$height! where .so,
+    # age in years
+    :$age! where .so,
+    # gender
+    :$gender! where .so
+)
 {
-    370 + (21.6 * $lean-mass-in-kg);
+    my $bmr = gen-bmr(:$weight, :$height, :$age, :$gender);
+}
+
+# mifflin st jeor equation (without gender-specific parameter for dry)
+sub mifflin-st-jeor-shared-gender(
+    :$weight! where .so,
+    :$height! where .so,
+    :$age! where .so
+)
+{
+    my $bmr-shared-gender =
+        (10 * $weight)
+      + (6.25 * $height)
+      - (5 * $age);
+}
+
+# mifflin st jeor equation (male)
+multi sub gen-bmr(
+    :$weight! where .so,
+    :$height! where .so,
+    :$age! where .so,
+    :gender($)! where 'male'
+)
+{
+    my $s = 5;
+    my $bmr-male =
+        mifflin-st-jeor-shared-gender(:$weight, :$height, :$age) + $s;
+}
+
+# mifflin st jeor equation (female)
+multi sub gen-bmr(
+    :$weight! where .so,
+    :$height! where .so,
+    :$age! where .so,
+    :gender($)! where 'female'
+)
+{
+    my $s = -161;
+    my $bmr-female =
+        mifflin-st-jeor-shared-gender(:$weight, :$height, :$age) + $s;
 }
 
 =begin pod
-=head actual daily burn
+=head Total Daily Energy Expenditure (TDEE)
 
-B<actual daily burn> is the number of calories you, as an athlete,
-must consume per day in order to maintain your current body composition
+B<Total Daily Energy Expenditure (TDEE)> is the total number of calories
+you burn in a given day. TDEE is determined by four key factors:
 
-=head2 activity level
+=item Basal Metabolic Rate
+=item Thermic Effect of Food
+=item Non-Exercise Activity Thermogenesis
+=item Thermic Effect of Activity (Exercise)
 
-most of you will fall in the range of moderately active to extra active
+For simplicity, we condense the three factors beyond BMR into a single
+Katch-McArdle multiplier. This multiplier is adjusted based on your
+I<Activity Level>.
+
+=head2 Activity Level
+
+If you get little or no exercise, your activity level is: C<sedentary>.
+
+If you do light exercise 1-3 days per week, your activity level is:
+C<lightly-active>.
+
+If you do moderate exercise 3-5 days per week, your activity level is:
+C<moderately-active>.
+
+If you do hard exercise 6-7 days per week, your activity level is:
+C<very-active>.
+
+If you do very hard exercise and have a physical job or do two-a-day
+training, your activity level is: C<extra-active>.
+
+Most of you will fall in the range of moderately active to extra active
 depending on how frequently you're training and exercising as well as
-how your daily life stacks up in terms of activity
+how your daily life stacks up in terms of activity.
 =end pod
 
-method gen-adb($bmr, $activity-level)
+method gen-tdee(:$bmr! where .so, :$activity-level! where .so)
 {
-    gen-adb($bmr, $activity-level);
+    gen-tdee($bmr, $activity-level);
 }
 
 # if you get little or no exercise
-multi sub gen-adb($bmr, $activity-level where 'sedentary') { $bmr * 1.2 }
+multi sub gen-tdee($bmr, $activity-level where 'sedentary')
+{
+    $bmr * 1.2;
+}
+
 # if you do light exercise 1-3 days per week
-multi sub gen-adb($bmr, $activity-level where 'lightly-active') { $bmr * 1.375 }
+multi sub gen-tdee($bmr, $activity-level where 'lightly-active')
+{
+    $bmr * 1.375;
+}
+
 # if you do moderate exercise 3-5 days per week
-multi sub gen-adb($bmr, $activity-level where 'moderately-active') { $bmr * 1.55 }
+multi sub gen-tdee($bmr, $activity-level where 'moderately-active')
+{
+    $bmr * 1.55;
+}
+
 # if you do hard exercise 6-7 days per week
-multi sub gen-adb($bmr, $activity-level where 'very-active') { $bmr * 1.725 }
+multi sub gen-tdee($bmr, $activity-level where 'very-active')
+{
+    $bmr * 1.725;
+}
+
 # if you do very hard exercise and have a physical job or do 2x training
-multi sub gen-adb($bmr, $activity-level where 'extra-active') { $bmr * 1.9 }
+multi sub gen-tdee($bmr, $activity-level where 'extra-active')
+{
+    $bmr * 1.9;
+}
 
 =begin pod
-=head recommended caloric intake
+=head Recommended Caloric Intake
 
-if you are looking to gain muscle mass, you will need to eat more than
-your maintenance calorie intake — a calorie surplus
+=head2 Goal: Muscle Gains
 
-ideally, you should add between 250-500 extra calories per day to your
-actual daily burn
+If your goal is to gain muscle, you will need to consume more calories
+than your TDEE — a caloric surplus.
 
-this will result in 0.5-1 lb of weight gain per week, and will help you
-stay lean as you build muscle
+Start by adding between 250-500 extra calories per day to your TDEE.
+Adjust your daily caloric intake in accordance with your results.
 
-any surplus greater than 500 calories can create additional fat mass,
-which is not productive to your goals
+=head2 Goal: Fat Loss
+
+If your goal is to lose fat, you will need to consume less calories than
+your TDEE — a caloric deficit.
+
+Start by subtracting between 250-500 calories per day from your TDEE,
+and adjust your daily caloric intake in accordance with your results.
 =end pod
 
-method gen-recommended-caloric-intake($adb)
+method gen-recommended-caloric-intake(:$tdee! where .so, :$goal! where .so)
 {
-    my $min = $adb + 250;
-    my $max = $adb + 500;
+    gen-recommended-caloric-intake(:$tdee, :$goal);
+}
+
+multi sub gen-recommended-caloric-intake(
+    :$tdee! where .so,
+    :goal($)! where 'muscle-gains'
+)
+{
+    my $min = $tdee + 250;
+    my $max = $tdee + 500;
     $min..$max;
 }
 
+multi sub gen-recommended-caloric-intake(
+    :$tdee! where .so,
+    :goal($)! where 'fat-loss'
+)
+{
+    my $min = $tdee - 500;
+    my $max = $tdee - 250;
+    $min..$max;
+}
 
 =begin pod
-=head recommended protein intake
+=head Recommended Protein Intake
 
-studies have shown efficacy of 1.4g protein per kg body weight is similar
-to efficacy of 1.6g protein per kg body weight
+Studies have shown the efficacy of consuming 1.4 grams of protein per
+kilogram body weight is similar to the efficacy of consuming 1.6 grams
+of protein per kilogram body weight.
 
-studies have shown uselessness of greater than 1.6g protein per kg
-body weight
+Studies have shown consuming greater than 1.6 grams of protein per
+kilogram body weight is no more effective than consuming 1.6 grams per
+kilogram body weight.
+
+Therefore, we recommend consuming between 1.4-1.6 grams of protein per
+kilogram body weight.
 =end pod
 
-method gen-recommended-protein-intake($lean-mass-in-kg)
+method gen-recommended-protein-intake(:$weight! where .so)
 {
-    my $min = $lean-mass-in-kg * 1.4;
-    my $max = $lean-mass-in-kg * 1.6;
+    my $min = $weight * 1.4;
+    my $max = $weight * 1.6;
     $min..$max;
+}
+
+sub fmtnum($number)
+{
+    sprintf('%.0f', $number);
 }
 
 sub format-recommendations(
-    $recommended-caloric-intake,
-    $recommended-protein-intake
+    :bmr($bmr-nofmt)! where .so,
+    :tdee($tdee-nofmt)! where .so,
+    :$recommended-calories-muscle-gains! where .so,
+    :$recommended-calories-fat-loss! where .so,
+    :$recommended-protein-intake! where .so
 )
 {
-    my $cal-min = $recommended-caloric-intake.min;
-    my $cal-max = $recommended-caloric-intake.max;
-    my $pro-min = $recommended-protein-intake.min;
-    my $pro-max = $recommended-protein-intake.max;
+    my $bmr =
+        fmtnum($bmr-nofmt);
+    my $tdee =
+        fmtnum($tdee-nofmt);
+    my $muscle-gains-calories-min =
+        fmtnum($recommended-calories-muscle-gains.min);
+    my $muscle-gains-calories-max =
+        fmtnum($recommended-calories-muscle-gains.max);
+    my $fat-loss-calories-min =
+        fmtnum($recommended-calories-fat-loss.min);
+    my $fat-loss-calories-max =
+        fmtnum($recommended-calories-fat-loss.max);
+    my $protein-min =
+        fmtnum($recommended-protein-intake.min);
+    my $protein-max =
+        fmtnum($recommended-protein-intake.max);
     qq:to/EOF/.trim
-    ------------------------------------------------------------------------------
-    calories (minimum): $cal-min
-    calories (maximum): $cal-max
-    protein (minimum): {$pro-min}g
-    protein (maximum): {$pro-max}g
-    ------------------------------------------------------------------------------
+    # Calories
+
+    Your estimated daily calorie maintenance level is: 「$tdee」
+
+        Basal Metabolic Rate (BMR): $bmr calories/day
+        Total Daily Energy Expenditure (TDEE): $tdee calories/day
+
+    For muscle gains, consume between $muscle-gains-calories-min and $muscle-gains-calories-max calories per day.
+
+    For fat loss, consume between $fat-loss-calories-min and $fat-loss-calories-max calories per day.
+
+    # Protein
+
+    Get {$protein-min}-{$protein-max}g of protein per day.
+
+    # Fat
+
+    Get 20-35% of your daily calories from healthy sources of fat.
+
+    # Carbohydrates
+
+    Get the rest of your daily calories from healthy sources of carbohydrates.
     EOF
 }
 
-method gen-target-macros($activity-level, $lean-mass-in-kg)
+method gen-target-macros(
+    :$age! where .so,
+    :$weight! where .so,
+    :$height! where .so,
+    :$gender! where .so,
+    :$activity-level! where .so
+)
 {
     my $bmr =
-        Concentric.gen-bmr($lean-mass-in-kg);
-    my $adb =
-        Concentric.gen-adb($bmr, $activity-level);
-    my $recommended-caloric-intake =
-        Concentric.gen-recommended-caloric-intake($adb);
+        Concentric.gen-bmr(:$weight, :$height, :$age, :$gender);
+    my $tdee =
+        Concentric.gen-tdee(:$bmr, :$activity-level);
+    my $recommended-calories-muscle-gains =
+        Concentric.gen-recommended-caloric-intake(:$tdee, :goal<muscle-gains>);
+    my $recommended-calories-fat-loss =
+        Concentric.gen-recommended-caloric-intake(:$tdee, :goal<fat-loss>);
     my $recommended-protein-intake =
-        Concentric.gen-recommended-protein-intake($lean-mass-in-kg);
+        Concentric.gen-recommended-protein-intake(:$weight);
     my $format-recommendations =
         format-recommendations(
-            $recommended-caloric-intake,
-            $recommended-protein-intake
+            :$bmr,
+            :$tdee,
+            :$recommended-calories-muscle-gains,
+            :$recommended-calories-fat-loss,
+            :$recommended-protein-intake
         );
 }
 
