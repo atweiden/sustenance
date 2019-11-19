@@ -1,27 +1,29 @@
 # Sustenance
 
-Calorie tracker and diet plan generator
-
+Calorie tracker and diet planner
 
 ## Synopsis
+
+### Count calories
 
 In `sustenance.toml`:
 
 ```toml
 # pantry
 [[food]]
-name = 'oats'
-serving-size = '1 cup'
-calories = 360
-protein = 14
-carbs = 58
-fat = 6
+name = 'rolled-oats'
+serving-size = '100g'
+calories = 382.1
+protein = 13.2
+carbs = 67.7
+fat = 6.5
 
 # meals
 [[meal]]
 date = 2018-05-31
 time = 10:15:00
 
+  # eat 150g rolled oats
   [[meal.portion]]
   food = 'oats'
   servings = 1.5
@@ -38,17 +40,48 @@ bin/sustenance --date=2018-05-31 gen-macros sustenance.toml
 
 ```perl6
 use Sustenance;
-Sustenance.new(:file<sustenance.toml>).gen-macros;
+my Date $date .= new('2018-05-31');
+Sustenance.new(:file<sustenance.toml>).gen-macros($date);
 ```
 
+### Make a diet plan
+
+Make a diet plan for a lightly active male athlete, age 31, weighing 59
+kg at 175.26 cm.
+
+**cli**:
+
+```sh
+export PERL6LIB=lib
+bin/sustenance \
+  --weight=59.4206 \
+  --height=175.26 \
+  --age=31 \
+  --gender=male \
+  --activity-level=moderately-active \
+  gen-diet-plan
+```
+
+**perl6**:
+
+```perl6
+use Sustenance::DietPlan;
+Sustenance::DietPlan.new(
+    :weight(59),
+    :height(175.26),
+    :age(31),
+    :gender<male>,
+    :activity-level<lightly-active>
+).gist;
+```
 
 ## Description
 
-Analyzes caloric intake from Sustenance TOML log.
+Processes daily caloric intake from [TOML][TOML] meal journal formatted
+per the [Synopsis](#Synopsis).
 
-Sustenance TOML log should be formatted per the synopsis. Sustenance
-TOML log must consist of at least one *food* entry and at least one
-*meal* entry.
+The Sustenance meal journal must consist of at least one *food* entry
+and at least one *meal* entry.
 
 Each *food* entry must have:
 
@@ -76,16 +109,17 @@ key        | type
 `food`     | string
 `servings` | number
 
-
 ## Installation
 
 ### Dependencies
 
 - Rakudo Perl 6
-- [Config::TOML](https://github.com/atweiden/config-toml)
-
+- [Config::TOML][Config::TOML]
 
 ## Licensing
 
 This is free and unencumbered public domain software. For more
 information, see http://unlicense.org/ or the accompanying UNLICENSE file.
+
+[Config::TOML]: https://github.com/atweiden/config-toml
+[TOML]: https://github.com/toml-lang/toml

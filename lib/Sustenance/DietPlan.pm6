@@ -20,18 +20,31 @@ Sustenance::DietPlan
 
 =head DESCRIPTION
 
-Estimates daily caloric requirements for weight maintenance, muscle
-gains and fat loss.
+Creates rudimentary diet plan for weight maintenance, muscle gains and
+fat loss.
 
-First calculates Basal Metabolic Rate (BMR) with the Mifflin St Jeor
+First estimates Basal Metabolic Rate (BMR) with the Mifflin St Jeor
 equation.
 
-Then calculates Total Daily Energy Expenditure (TDEE) by taking the
+Then estimates Total Daily Energy Expenditure (TDEE) by taking the
 product of BMR and the appropriate Katch-McArdle multiplier for a given
 activity level.
+
+Adds 250-500 calories on top of TDEE to estimate caloric intake
+requirements for muscle gains.
+
+Subtracts 250-500 calories from TDEE to estimate caloric intake
+requirements for fat loss.
+
+Recommends obtaining 1.4-1.6 grams of protein per kilogram body weight.
+
+Recommends obtaining 20-35% of daily calories from healthy sources of fat.
+
+Recommends obtaining remainder of daily calories from healthy sources
+of carbohydrates.
 =end pod
 
-# weight in kilograms
+# body weight in kilograms
 has $.weight is required;
 # height in centimeters
 has $.height is required;
@@ -48,14 +61,14 @@ has $!bmr =
 # total daily energy expenditure (katch-mcardle multipliers)
 has $!tdee =
     Sustenance::DietPlan.gen-tdee(:$!bmr, :$!activity-level);
-# caloric recommendations for muscle gain
-has $!recommended-calories-muscle-gains =
+# caloric recommendations for muscle gains
+has $!calories-muscle-gains =
     Sustenance::DietPlan.gen-calories(:$!tdee, :goal<muscle-gains>);
 # caloric recommendations for fat loss
-has $!recommended-calories-fat-loss =
+has $!calories-fat-loss =
     Sustenance::DietPlan.gen-calories(:$!tdee, :goal<fat-loss>);
 # protein intake recommendations
-has $!recommended-protein-intake =
+has $!protein =
     Sustenance::DietPlan.gen-protein(:$!weight);
 
 method gist(::?CLASS:D:)
@@ -65,17 +78,17 @@ method gist(::?CLASS:D:)
     my $tdee =
         fmtnum($!tdee);
     my $muscle-gains-calories-min =
-        fmtnum($!recommended-calories-muscle-gains.min);
+        fmtnum($!calories-muscle-gains.min);
     my $muscle-gains-calories-max =
-        fmtnum($!recommended-calories-muscle-gains.max);
+        fmtnum($!calories-muscle-gains.max);
     my $fat-loss-calories-min =
-        fmtnum($!recommended-calories-fat-loss.min);
+        fmtnum($!calories-fat-loss.min);
     my $fat-loss-calories-max =
-        fmtnum($!recommended-calories-fat-loss.max);
+        fmtnum($!calories-fat-loss.max);
     my $protein-min =
-        fmtnum($!recommended-protein-intake.min);
+        fmtnum($!protein.min);
     my $protein-max =
-        fmtnum($!recommended-protein-intake.max);
+        fmtnum($!protein.max);
 
     my $gist-calories = do {
         my $maintenance =
@@ -161,16 +174,16 @@ method hash(::?CLASS:D:)
 {
     my %recommended-calories =
         :muscle-gains({
-            :min($!recommended-calories-muscle-gains.min),
-            :max($!recommended-calories-muscle-gains.max)
+            :min($!calories-muscle-gains.min),
+            :max($!calories-muscle-gains.max)
         }),
         :fat-loss({
-            :min($!recommended-calories-fat-loss.min),
-            :max($!recommended-calories-fat-loss.max)
+            :min($!calories-fat-loss.min),
+            :max($!calories-fat-loss.max)
         });
     my %recommended-protein =
-        :min($!recommended-protein-intake.min),
-        :max($!recommended-protein-intake.max);
+        :min($!protein.min),
+        :max($!protein.max);
     my %hash =
         :$!bmr,
         :$!tdee,
@@ -186,8 +199,8 @@ if you did literally nothing but lie in bed. We calculate it using the
 L<https://en.wikipedia.org/wiki/Basal_metabolic_rate|Mifflin St Jeor
 equation>.
 
-BMR does not include calories burned from physical activity, the process
-of digestion, or things like walking from one room to another.
+BMR does not factor in calories burned from physical activity, the
+process of digestion, or things like walking from one room to another.
 =end pod
 
 method gen-bmr(
@@ -251,8 +264,8 @@ you burn in a given day. TDEE is determined by four key factors:
 =item Thermic Effect of Activity (Exercise)
 
 For simplicity, we condense the three factors beyond BMR into a single
-Katch-McArdle multiplier. This multiplier is adjusted based on your
-I<Activity Level>.
+factor called I<Activity Level>. The specified I<Activity Level> controls
+the Katch-McArdle multiplier on BMR.
 
 =head2 Activity Level
 
@@ -269,10 +282,6 @@ C<very-active>.
 
 If you do very hard exercise and have a physical job or do two-a-day
 training, your activity level is: C<extra-active>.
-
-Most of you will fall in the range of moderately active to extra active
-depending on how frequently you're training and exercising as well as
-how your daily life stacks up in terms of activity.
 =end pod
 
 method gen-tdee(:$bmr! where .so, :$activity-level! where .so)
@@ -315,19 +324,19 @@ multi sub gen-tdee($bmr, $activity-level where 'extra-active')
 
 =head2 Goal: Muscle Gains
 
-If your goal is to gain muscle, you will need to consume more calories
-than your TDEE — a caloric surplus.
+Muscle gains require creating a caloric surplus, i.e. consuming more
+calories than your TDEE.
 
-Start by adding between 250-500 extra calories per day to your TDEE.
-Adjust your daily caloric intake in accordance with your results.
+As a starting point, add 250-500 extra calories to your TDEE, and adjust
+based on results.
 
 =head2 Goal: Fat Loss
 
-If your goal is to lose fat, you will need to consume less calories than
-your TDEE — a caloric deficit.
+Fat loss requires creating a caloric deficit, i.e. consuming less calories
+than your TDEE.
 
-Start by subtracting between 250-500 calories per day from your TDEE,
-and adjust your daily caloric intake in accordance with your results.
+As a starting point, subtract 250-500 extra calories from your TDEE,
+and adjust based on results.
 =end pod
 
 method gen-calories(:$tdee! where .so, :$goal! where .so)
@@ -364,9 +373,6 @@ of protein per kilogram body weight.
 
 Studies have shown consuming greater than 1.6 grams of protein per
 kilogram body weight is no more effective than consuming 1.6 grams per
-kilogram body weight.
-
-Therefore, we recommend consuming between 1.4-1.6 grams of protein per
 kilogram body weight.
 =end pod
 
