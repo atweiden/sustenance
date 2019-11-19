@@ -1,7 +1,8 @@
 use v6;
 use lib 'lib';
-use Sustenance::Parser::ParseTree;
 use Sustenance;
+use Sustenance::Parser::ParseTree;
+use Sustenance::Types;
 use Test;
 
 plan(1);

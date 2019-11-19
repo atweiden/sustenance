@@ -1,6 +1,6 @@
 use v6;
-use Sustenance::Parser::ParseTree;
 use Sustenance::Parser;
+use Sustenance::Parser::ParseTree;
 use Sustenance::Types;
 use X::Sustenance;
 unit class Sustenance;
@@ -159,14 +159,14 @@ multi sub gen-macros(Portion:D @p, Pantry:D $pantry --> Array[Hash:D])
     my Hash:D @portion =
         @p.map(-> Portion:D $portion {
             my FoodName:D $name = $portion.food;
-            my Servings:D $servings = $portion.servings;
+            my Serving:D $servings = $portion.servings;
             my Food:D $food =
                 $pantry.food.first({ .name eq $name })
                     // die(X::Sustenance::FoodMissing.new(:$name));
-            my Calories:D $calories = $food.calories * $servings;
-            my Protein:D $protein = $food.protein * $servings;
-            my Carbohydrates:D $carbohydrates = $food.carbohydrates * $servings;
-            my Fat:D $fat = $food.fat * $servings;
+            my Kilocalorie:D $calories = $food.calories * $servings;
+            my Gram:D $protein = $food.protein * $servings;
+            my Gram:D $carbohydrates = $food.carbohydrates * $servings;
+            my Gram:D $fat = $food.fat * $servings;
             my %macros = :$calories, :$protein, :$carbohydrates, :$fat;
             my %portion = :food($name), :$servings, :%macros;
         });
@@ -186,10 +186,10 @@ multi sub gen-macros(Hash:D :@meal! --> Hash:D)
 
 multi sub gen-macros(Hash:D :@portion! --> Hash:D)
 {
-    my (Calories:D $calories,
-        Protein:D $protein,
-        Carbohydrates:D $carbohydrates,
-        Fat:D $fat) = 0.0;
+    my (Kilocalorie:D $calories,
+        Gram:D $protein,
+        Gram:D $carbohydrates,
+        Gram:D $fat) = 0.0;
     @portion.map(-> %portion {
         $calories += %portion<macros><calories>;
         $protein += %portion<macros><protein>;
@@ -201,10 +201,10 @@ multi sub gen-macros(Hash:D :@portion! --> Hash:D)
 
 multi sub gen-macros(Hash:D :@macros! --> Hash:D)
 {
-    my (Calories:D $calories,
-        Protein:D $protein,
-        Carbohydrates:D $carbohydrates,
-        Fat:D $fat) = 0.0;
+    my (Kilocalorie:D $calories,
+        Gram:D $protein,
+        Gram:D $carbohydrates,
+        Gram:D $fat) = 0.0;
     @macros.map(-> %macros {
         $calories += %macros<totals><calories>;
         $protein += %macros<totals><protein>;
@@ -229,4 +229,4 @@ multi method ls(::?CLASS:D: Bool:D :meals($)! where .so --> Array[Hash:D])
 
 # end method ls }}}
 
-# vim: set filetype=perl6 foldmethod=marker foldlevel=0:
+# vim: set filetype=perl6 foldmethod=marker foldlevel=0 nowrap:

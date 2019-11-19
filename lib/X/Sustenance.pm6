@@ -17,4 +17,4 @@ class X::Sustenance::FoodMissing
 
 # end X::Sustenance::FoodMissing }}}
 
-# vim: set filetype=perl6 foldmethod=marker foldlevel=0:
+# vim: set filetype=perl6 foldmethod=marker foldlevel=0 nowrap:

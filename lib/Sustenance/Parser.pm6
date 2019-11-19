@@ -1,7 +1,6 @@
 use v6;
 use Config::TOML;
 use Sustenance::Parser::ParseTree;
-use Sustenance::Types;
 unit class Sustenance::Parser;
 
 multi sub from-sustenance(Str:D :$file! where .so --> Hash:D) is export
@@ -24,4 +23,4 @@ multi sub from-sustenance(:%toml! --> Hash:D)
     my %sustenance = :$pantry, :@meal;
 }
 
-# vim: set filetype=perl6 foldmethod=marker foldlevel=0:
+# vim: set filetype=perl6 foldmethod=marker foldlevel=0 nowrap:
