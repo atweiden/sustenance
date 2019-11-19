@@ -99,7 +99,8 @@ Each *food* entry may have:
 
 key       | type
 ---       | ---
-`alcohol` | number (optional)
+`fiber`   | number or 2-element array of floats/integers
+`alcohol` | number
 
 Each *meal* entry must have:
 
