@@ -302,12 +302,12 @@ multi sub gen-macros(Hash:D :@macros! --> Hash:D)
 # end method gen-macros }}}
 # method ls {{{
 
-multi method ls(::?CLASS:D: Bool:D :foods($)! where .so --> Array[Hash:D])
+multi method ls(::?CLASS:D: Bool:D :food($)! where .so --> Array[Hash:D])
 {
     my Hash:D @ls = $.pantry.food.map({ .hash });
 }
 
-multi method ls(::?CLASS:D: Bool:D :meals($)! where .so --> Array[Hash:D])
+multi method ls(::?CLASS:D: Bool:D :meal($)! where .so --> Array[Hash:D])
 {
     my Hash:D @ls = @.meal.map({ .hash });
 }
