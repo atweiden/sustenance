@@ -48,6 +48,14 @@ protein = 4.6
 carbs = 15.4
 fat = 1.5
 
+[[food]]
+name = 'green-bean'
+serving-size = '100g'
+calories = 41.9
+protein = 1.9
+carbs = 7.9
+fat = 0.3
+
 # vanilla bean, in pod
 [[food]]
 name = 'vanilla-bean'
@@ -2670,14 +2678,6 @@ calories = 39.8
 protein = 0.8
 carbs = 8.7
 fat = 0.2
-
-[[food]]
-name = 'green-bean'
-serving-size = '100g'
-calories = 41.9
-protein = 1.9
-carbs = 7.9
-fat = 0.3
 
 [[food]]
 name = 'green-bell-pepper'
