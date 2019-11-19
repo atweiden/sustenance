@@ -77,6 +77,8 @@ Sustenance::DietPlan.new(
 
 ## Description
 
+### Calorie tracking
+
 Processes daily caloric intake from [TOML][TOML] meal
 journal formatted per the [synopsis](#synopsis) (see also:
 [doc/sample-pantry.toml](doc/sample-pantry.toml)).
@@ -109,6 +111,31 @@ key        | type
 ---        | ---
 `food`     | string
 `servings` | number
+
+### Diet planning
+
+Creates rudimentary diet plan for weight maintenance, muscle gains and
+fat loss.
+
+First estimates Basal Metabolic Rate (BMR) with the Mifflin St Jeor
+equation.
+
+Then estimates Total Daily Energy Expenditure (TDEE) by taking the
+product of BMR and the appropriate Katch-McArdle multiplier for a given
+activity level.
+
+Adds 250-500 calories on top of TDEE to estimate caloric intake
+requirements for muscle gains.
+
+Subtracts 250-500 calories from TDEE to estimate caloric intake
+requirements for fat loss.
+
+Recommends obtaining 1.4-1.6 grams of protein per kilogram body weight.
+
+Recommends obtaining 20-35% of daily calories from healthy sources of fat.
+
+Recommends obtaining remainder of daily calories from healthy sources
+of carbohydrates.
 
 ## Installation
 
