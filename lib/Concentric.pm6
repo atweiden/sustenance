@@ -104,12 +104,23 @@ method gist(::?CLASS:D:)
 
 method hash(::?CLASS:D:)
 {
+    my %recommended-calories =
+        :muscle-gains({
+            :min($!recommended-calories-muscle-gains.min),
+            :max($!recommended-calories-muscle-gains.max)
+        }),
+        :fat-loss({
+            :min($!recommended-calories-fat-loss.min),
+            :max($!recommended-calories-fat-loss.max)
+        });
+    my %recommended-protein =
+        :min($!recommended-protein-intake.min),
+        :max($!recommended-protein-intake.max);
     my %hash =
         :$!bmr,
         :$!tdee,
-        :$!recommended-calories-muscle-gains,
-        :$!recommended-calories-fat-loss,
-        :$!recommended-protein-intake;
+        :%recommended-calories,
+        :%recommended-protein;
 }
 
 =begin pod
