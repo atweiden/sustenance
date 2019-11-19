@@ -61,7 +61,8 @@ multi sub MAIN(
     my Date $date2 .= new($d2);
     my Time $time1 .= new($t1);
     my Time $time2 .= new($t2);
-    gen-macros($sustenance.gen-macros($date1, $date2, $time1, $time2));
+    my %macros = $sustenance.gen-macros($date1, $date2, $time1, $time2);
+    gen-macros(%macros);
 }
 
 multi sub MAIN(
@@ -77,7 +78,8 @@ multi sub MAIN(
     my Date $date .= new($d);
     my Time $time1 .= new($t1);
     my Time $time2 .= new($t2);
-    gen-macros($sustenance.gen-macros($date, $time1, $time2));
+    my %macros = $sustenance.gen-macros($date, $time1, $time2);
+    gen-macros(%macros);
 }
 
 multi sub MAIN(
@@ -91,7 +93,8 @@ multi sub MAIN(
     my Sustenance $sustenance .= new(:$file);
     my Date $date .= new($d);
     my Time $time .= new($t);
-    gen-macros($sustenance.gen-macros($date, $time));
+    my %macros = $sustenance.gen-macros($date, $time);
+    gen-macros(%macros);
 }
 
 multi sub MAIN(
@@ -105,7 +108,8 @@ multi sub MAIN(
     my Sustenance $sustenance .= new(:$file);
     my Date $date1 .= new($d1);
     my Date $date2 .= new($d2);
-    gen-macros($sustenance.gen-macros($date1, $date2));
+    my %macros = $sustenance.gen-macros($date1, $date2);
+    gen-macros(%macros);
 }
 
 multi sub MAIN(
@@ -117,7 +121,8 @@ multi sub MAIN(
 {
     my Sustenance $sustenance .= new(:$file);
     my Date $date .= new($d);
-    gen-macros($sustenance.gen-macros($date));
+    my %macros = $sustenance.gen-macros($date);
+    gen-macros(%macros);
 }
 
 multi sub MAIN(
@@ -127,12 +132,13 @@ multi sub MAIN(
 )
 {
     my Sustenance $sustenance .= new(:$file);
-    gen-macros($sustenance.gen-macros);
+    my %macros = $sustenance.gen-macros;
+    gen-macros(%macros);
 }
 
-sub gen-macros(%gen-macros --> Nil)
+sub gen-macros(%macros --> Nil)
 {
-    say(to-json(%gen-macros));
+    say(to-json(%macros));
 }
 
 # --- end gen-macros }}}
