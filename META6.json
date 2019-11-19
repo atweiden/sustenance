@@ -3,7 +3,7 @@
     "name"        : "Sustenance",
     "version"     : "0.0.1",
     "author"      : "atweiden",
-    "description" : "Calorie tracker and target macros generator",
+    "description" : "Calorie tracker and diet plan generator",
     "depends"     : ["Config::TOML"],
     "license"     : "Unlicense",
     "source-type" : "git",
@@ -13,8 +13,8 @@
         "source"     : "https://github.com/atweiden/sustenance"
     },
     "provides" : {
-        "Concentric"                    : "lib/Concentric.pm6",
         "Sustenance"                    : "lib/Sustenance.pm6",
+        "Sustenance::DietPlan"          : "lib/Sustenance/DietPlan.pm6",
         "Sustenance::Parser"            : "lib/Sustenance/Parser.pm6",
         "Sustenance::Parser::ParseTree" : "lib/Sustenance/Parser/ParseTree.pm6",
         "Sustenance::Types"             : "lib/Sustenance/Types.pm6",

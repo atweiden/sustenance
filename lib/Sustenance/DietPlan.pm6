@@ -1,16 +1,16 @@
 use v6;
-unit class Concentric;
+unit class Sustenance::DietPlan;
 
 =begin pod
 =head NAME
 
-Concentric
+Sustenance::DietPlan
 
 =head SYNOPSIS
 
     # lightly active male athlete, age 31, weighing 59 kg at 175.26 cm
-    use Concentric;
-    Concentric.new(
+    use Sustenance::DietPlan;
+    Sustenance::DietPlan.new(
         :weight(59),
         :height(175.26),
         :age(31),
@@ -44,19 +44,19 @@ has $.activity-level is required;
 
 # basal metabolic rate (mifflin st jeor equation)
 has $!bmr =
-    Concentric.gen-bmr(:$!weight, :$!height, :$!age, :$!gender);
+    Sustenance::DietPlan.gen-bmr(:$!weight, :$!height, :$!age, :$!gender);
 # total daily energy expenditure (katch-mcardle multipliers)
 has $!tdee =
-    Concentric.gen-tdee(:$!bmr, :$!activity-level);
+    Sustenance::DietPlan.gen-tdee(:$!bmr, :$!activity-level);
 # caloric recommendations for muscle gain
 has $!recommended-calories-muscle-gains =
-    Concentric.gen-recommended-caloric-intake(:$!tdee, :goal<muscle-gains>);
+    Sustenance::DietPlan.gen-calories(:$!tdee, :goal<muscle-gains>);
 # caloric recommendations for fat loss
 has $!recommended-calories-fat-loss =
-    Concentric.gen-recommended-caloric-intake(:$!tdee, :goal<fat-loss>);
+    Sustenance::DietPlan.gen-calories(:$!tdee, :goal<fat-loss>);
 # protein intake recommendations
 has $!recommended-protein-intake =
-    Concentric.gen-recommended-protein-intake(:$!weight);
+    Sustenance::DietPlan.gen-protein(:$!weight);
 
 method gist(::?CLASS:D:)
 {
@@ -76,30 +76,85 @@ method gist(::?CLASS:D:)
         fmtnum($!recommended-protein-intake.min);
     my $protein-max =
         fmtnum($!recommended-protein-intake.max);
-    qq:to/EOF/.trim
-    # Calories
 
-    Your estimated daily calorie maintenance level is: 「$tdee」
+    my $gist-calories = do {
+        my $maintenance =
+            "Your estimated daily calorie maintenance level is: 「$tdee」";
+        my $maintenance-bmr =
+            "Basal Metabolic Rate (BMR): $bmr calories/day";
+        my $maintenance-tdee =
+            "Total Daily Energy Expenditure (TDEE): $tdee calories/day";
+        my $muscle-gains =
+            'For muscle gains, consume between '
+            ~ $muscle-gains-calories-min
+            ~ ' and '
+            ~ $muscle-gains-calories-max
+            ~ ' calories per day.';
+        my $fat-loss =
+            'For fat loss, consume between '
+            ~ $fat-loss-calories-min
+            ~ ' and '
+            ~ $fat-loss-calories-max
+            ~ ' calories per day.';
+        qq:to/EOF/.trim;
+        # Calories
 
-        Basal Metabolic Rate (BMR): $bmr calories/day
-        Total Daily Energy Expenditure (TDEE): $tdee calories/day
+        $maintenance
 
-    For muscle gains, consume between $muscle-gains-calories-min and $muscle-gains-calories-max calories per day.
+            $maintenance-bmr
+            $maintenance-tdee
 
-    For fat loss, consume between $fat-loss-calories-min and $fat-loss-calories-max calories per day.
+        $muscle-gains
 
-    # Protein
+        $fat-loss
+        EOF
+    }
 
-    Get {$protein-min}-{$protein-max}g of protein per day.
+    my $gist-protein = do {
+        my $recommendation =
+            "Get {$protein-min}-{$protein-max}g of protein per day.";
+        qq:to/EOF/.trim;
+        # Protein
 
-    # Fat
+        $recommendation
+        EOF
+    }
 
-    Get 20-35% of your daily calories from healthy sources of fat.
+    my $gist-fat = do {
+        my $recommendation =
+            'Get 20-35% of your daily calories from healthy sources of fat.';
+        qq:to/EOF/.trim;
+        # Fat
 
-    # Carbohydrates
+        $recommendation
+        EOF
+    }
 
-    Get the rest of your daily calories from healthy sources of carbohydrates.
+    my $gist-carbohydrates = do {
+        my $recommendation =
+            'Get the rest of your daily calories '
+            ~ 'from healthy sources of carbohydrates.';
+        qq:to/EOF/.trim;
+        # Carbohydrates
+
+        $recommendation
+        EOF
+    }
+
+    my $gist = qq:to/EOF/.trim;
+    $gist-calories
+
+    $gist-protein
+
+    $gist-fat
+
+    $gist-carbohydrates
     EOF
+}
+
+sub fmtnum($number)
+{
+    sprintf('%.0f', $number);
 }
 
 method hash(::?CLASS:D:)
@@ -275,12 +330,12 @@ Start by subtracting between 250-500 calories per day from your TDEE,
 and adjust your daily caloric intake in accordance with your results.
 =end pod
 
-method gen-recommended-caloric-intake(:$tdee! where .so, :$goal! where .so)
+method gen-calories(:$tdee! where .so, :$goal! where .so)
 {
-    gen-recommended-caloric-intake(:$tdee, :$goal);
+    gen-calories(:$tdee, :$goal);
 }
 
-multi sub gen-recommended-caloric-intake(
+multi sub gen-calories(
     :$tdee! where .so,
     :goal($)! where 'muscle-gains'
 )
@@ -290,7 +345,7 @@ multi sub gen-recommended-caloric-intake(
     $min..$max;
 }
 
-multi sub gen-recommended-caloric-intake(
+multi sub gen-calories(
     :$tdee! where .so,
     :goal($)! where 'fat-loss'
 )
@@ -315,16 +370,11 @@ Therefore, we recommend consuming between 1.4-1.6 grams of protein per
 kilogram body weight.
 =end pod
 
-method gen-recommended-protein-intake(:$weight! where .so)
+method gen-protein(:$weight! where .so)
 {
     my $min = $weight * 1.4;
     my $max = $weight * 1.6;
     $min..$max;
-}
-
-sub fmtnum($number)
-{
-    sprintf('%.0f', $number);
 }
 
 # vim: set filetype=perl6 foldmethod=marker foldlevel=0 nowrap:

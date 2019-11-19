@@ -1,6 +1,6 @@
 # Sustenance
 
-Calorie tracker and target macros generator
+Calorie tracker and diet plan generator
 
 
 ## Synopsis
