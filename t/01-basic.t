@@ -127,6 +127,7 @@ subtest({
     };
     my %totals-on-date = %macros-on-date<totals>;
     my %totals-on-date-expected =
+        :alcohol(0.0),
         :calories(860.0),
         :carbohydrates(139.5),
         :fat(13.5),
@@ -144,6 +145,7 @@ subtest({
     }
     my %totals-in-date-range = %macros-in-date-range<totals>;
     my %totals-in-date-range-expected =
+        :alcohol(0.0),
         :calories(860.0),
         :carbohydrates(139.5),
         :fat(13.5),

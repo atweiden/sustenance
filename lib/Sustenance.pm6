@@ -93,7 +93,10 @@ multi method gen-macros(
 )
 {
     my UInt:D ($year, $month, $day) = $date.year, $date.month, $date.day;
-    my %date = :$year, :$month, :$day;
+    my %date =
+        :$year,
+        :$month,
+        :$day;
     my DateTime $dt1 .= new(|%date, |$t1.hash);
     my DateTime $dt2 .= new(|%date, |$t2.hash);
     my Range:D $date-time-range = $dt1 .. $dt2;
@@ -150,7 +153,11 @@ multi sub gen-macros(Pantry:D $pantry, Meal:D @m --> Array[Hash:D])
             my DateTime:D $date-time = $meal.date-time;
             my Portion:D @p = $meal.portion;
             my Hash:D @portion = gen-macros(@p, $pantry);
-            my %meal = :$date, :$time, :$date-time, :@portion;
+            my %meal =
+                :$date,
+                :$time,
+                :$date-time,
+                :@portion;
         });
 }
 
@@ -163,12 +170,26 @@ multi sub gen-macros(Portion:D @p, Pantry:D $pantry --> Array[Hash:D])
             my Food:D $food =
                 $pantry.food.first({ .name eq $name })
                     // die(X::Sustenance::FoodMissing.new(:$name));
-            my Kilocalorie:D $calories = $food.calories * $servings;
-            my Gram:D $protein = $food.protein * $servings;
-            my Gram:D $carbohydrates = $food.carbohydrates * $servings;
-            my Gram:D $fat = $food.fat * $servings;
-            my %macros = :$calories, :$protein, :$carbohydrates, :$fat;
-            my %portion = :food($name), :$servings, :%macros;
+            my Kilocalorie:D $calories =
+                $food.calories * $servings;
+            my Gram:D $protein =
+                $food.protein * $servings;
+            my Gram:D $carbohydrates =
+                $food.carbohydrates * $servings;
+            my Gram:D $fat =
+                $food.fat * $servings;
+            my Gram:D $alcohol =
+                $food.alcohol * $servings;
+            my %macros =
+                :$calories,
+                :$protein,
+                :$carbohydrates,
+                :$fat,
+                :$alcohol;
+            my %portion =
+                :food($name),
+                :$servings,
+                :%macros;
         });
 }
 
@@ -181,7 +202,9 @@ multi sub gen-macros(Hash:D :@meal! --> Hash:D)
             my %macros = :%meal, :%totals;
         });
     my %totals = gen-macros(:@macros);
-    my %macros = :@macros, :%totals;
+    my %macros =
+        :@macros,
+        :%totals;
 }
 
 multi sub gen-macros(Hash:D :@portion! --> Hash:D)
@@ -189,14 +212,21 @@ multi sub gen-macros(Hash:D :@portion! --> Hash:D)
     my (Kilocalorie:D $calories,
         Gram:D $protein,
         Gram:D $carbohydrates,
-        Gram:D $fat) = 0.0;
+        Gram:D $fat,
+        Gram:D $alcohol) = 0.0;
     @portion.map(-> %portion {
         $calories += %portion<macros><calories>;
         $protein += %portion<macros><protein>;
         $carbohydrates += %portion<macros><carbohydrates>;
         $fat += %portion<macros><fat>;
+        $alcohol += %portion<macros><alcohol>;
     });
-    my %macros = :$calories, :$protein, :$carbohydrates, :$fat;
+    my %macros =
+        :$calories,
+        :$protein,
+        :$carbohydrates,
+        :$fat,
+        :$alcohol;
 }
 
 multi sub gen-macros(Hash:D :@macros! --> Hash:D)
@@ -204,14 +234,21 @@ multi sub gen-macros(Hash:D :@macros! --> Hash:D)
     my (Kilocalorie:D $calories,
         Gram:D $protein,
         Gram:D $carbohydrates,
-        Gram:D $fat) = 0.0;
+        Gram:D $fat,
+        Gram:D $alcohol) = 0.0;
     @macros.map(-> %macros {
         $calories += %macros<totals><calories>;
         $protein += %macros<totals><protein>;
         $carbohydrates += %macros<totals><carbohydrates>;
         $fat += %macros<totals><fat>;
+        $alcohol += %macros<totals><alcohol>;
     });
-    my %macros = :$calories, :$protein, :$carbohydrates, :$fat;
+    my %macros =
+        :$calories,
+        :$protein,
+        :$carbohydrates,
+        :$fat,
+        :$alcohol;
 }
 
 # end method gen-macros }}}

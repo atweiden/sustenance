@@ -5,8 +5,8 @@ constant FoodName is export = SomeStr;
 constant ServingSize is export = SomeStr;
 
 subset Natural of Rat is export where * >= 0;
-constant Kilocalorie is export = Natural;
 constant Gram is export = Natural;
+constant Kilocalorie is export = Natural;
 
 subset Positive of Rat is export where * > 0;
 constant Serving is export = Positive;

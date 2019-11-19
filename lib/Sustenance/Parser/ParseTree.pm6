@@ -13,6 +13,7 @@ class Food
     # total carbohydrates, including all sources of fiber
     has Gram:D $.carbohydrates is required;
     has Gram:D $.fat is required;
+    has Gram:D $.alcohol = 0.0;
 
     submethod BUILD(
         Str:D :$!name!,
@@ -20,7 +21,8 @@ class Food
         Numeric:D :$calories!,
         Numeric:D :$protein!,
         Numeric:D :$carbs!,
-        Numeric:D :$fat!
+        Numeric:D :$fat!,
+        Numeric :$alcohol
         --> Nil
     )
     {
@@ -28,6 +30,7 @@ class Food
         $!protein = Rat($protein);
         $!carbohydrates = Rat($carbs);
         $!fat = Rat($fat);
+        $!alcohol = Rat($alcohol) if $alcohol;
     }
 
     method new(
@@ -37,7 +40,8 @@ class Food
             Numeric:D :calories($)! where * >= 0,
             Numeric:D :protein($)! where * >= 0,
             Numeric:D :carbs($)! where * >= 0,
-            Numeric:D :fat($)! where * >= 0
+            Numeric:D :fat($)! where * >= 0,
+            Numeric :alcohol($)
         )
         --> Food:D
     )
@@ -53,7 +57,8 @@ class Food
             :$.calories,
             :$.protein,
             :$.carbohydrates,
-            :$.fat;
+            :$.fat,
+            :$.alcohol;
     }
 }
 

@@ -97,6 +97,12 @@ key            | type
 `carbs`        | number
 `fat`          | number
 
+Each *food* entry may have:
+
+key       | type
+---       | ---
+`alcohol` | number (optional)
+
 Each *meal* entry must have:
 
 key       | type
