@@ -1,71 +1,87 @@
 # ==============================================================================
-# pantry {{{
+# food {{{
 
-# Hemp Pro 70 Original by Manitoba Hemp Foods Harvest
+# aka agave nectar
 [[food]]
-name = 'hemp-protein-powder'
-serving-size = '4 tbspn'
+name = 'agave-syrup'
+serving-size = '1 tbsp'
+protein = 0
+carbs = 13
+fiber = [ 0.0, 1.0 ]
+fat = 0.1
+
+# ground allspice
+[[food]]
+name = 'allspice'
+serving-size = '1 tbsp (6g)'
+protein = 0.4
+carbs = 4.3
+fiber = 1.3
+fat = 0.5
+
+# prunus amygdalus - almond
+# source: https://fineli.fi/fineli/en/elintarvikkeet/379
+[[food]]
+name = 'almond'
+serving-size = '100g'
+protein = 24.1
+carbs = 19.1
+fiber = [ 12.5, 0.552 ]
+fat = 51.2
+
+# musa sapientum - banana, without skin
+# source: https://fineli.fi/fineli/en/elintarvikkeet/11049
+[[food]]
+name = 'banana'
+serving-size = '100g'
+protein = 1.2
+carbs = 20.1
+fiber = [ 1.8, 0.56 ]
+fat = 0.4
+
+# hemp pro 70 original by manitoba hemp foods harvest
+[[food]]
+name = 'hemp-seed-protein-powder'
+serving-size = '4 tbsp'
 protein = 20
 carbs = 4.5
 fat = 4.5
 
+# quinoa, cooked without salt
+# source: https://fineli.fi/fineli/en/elintarvikkeet/31179
 [[food]]
-name = 'oats'
-serving-size = '1 cup'
-protein = 14
-carbs = 58
-fat = 6
+name = 'quinoa'
+serving-size = '100g'
+protein = 4.8
+carbs = 22.9
+fiber = [ 2.8, 0.0 ]
+fat = 2.4
 
+# avena sativa - oats, rolled, oat flakes
+# measured dry
+# source: https://fineli.fi/fineli/en/elintarvikkeet/153
 [[food]]
-name = 'agave-syrup'
-serving-size = '2 tbspn'
-protein = 0
-carbs = 32
-fat = 0
+name = 'rolled-oats'
+serving-size = '100g'
+protein = 13.6
+carbs = 70
+fiber = [ 10.0, 0.46 ]
+fat = 7.2
 
-[[food]]
-name = 'dried-cranberries'
-serving-size = '1 cup'
-protein = 1
-carbs = 32
-fat = 0
-
-# Date Crown Lulu Premium Emirates Dates
-[[food]]
-name = 'dates'
-serving-size = '12 pieces'
-protein = 3
-carbs = 80
-fat = 0.5
-
-[[food]]
-name = 'banana'
-serving-size = '1 medium (7-8" long)'
-protein = 1
-carbs = 27
-fat = 0.4
-
-[[food]]
-name = 'almonds'
-serving-size = '1 oz'
-protein = 6
-carbs = 5.5
-fat = 14
-
-# end pantry }}}
+# end food }}}
 # ==============================================================================
+# meal {{{
 
-# ==============================================================================
-# May 2018 {{{
+# 2019-11 {{{
 
 # --- [[meal]] {{{
 
 [[meal]]
-date = 2018-05-31
+date = 2019-11-19
 time = 10:15:00
 
   [[meal.portion]]
-  food = 'oats'
+  food = 'rolled-oats'
   servings = 1.5
 
   [[meal.portion]]
@@ -77,8 +93,33 @@ time = 10:15:00
   servings = 1
 
 # --- end [[meal]] }}}
+# --- [[meal]] {{{
 
-# end May 2018 }}}
+[[meal]]
+date = 2019-11-19
+time = 17:05:00
+
+  [[meal.portion]]
+  food = 'almond'
+  servings = 0.5
+
+  [[meal.portion]]
+  food = 'quinoa'
+  servings = 2.5
+
+  [[meal.portion]]
+  food = 'allspice'
+  servings = 1
+
+  [[meal.portion]]
+  food = 'banana'
+  servings = 0.75
+
+# --- end [[meal]] }}}
+
+# end 2019-11 }}}
+
+# end meal }}}
 # ==============================================================================
 
 # vim: set filetype=toml foldmethod=marker foldlevel=0:

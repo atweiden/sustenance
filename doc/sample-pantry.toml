@@ -3,13 +3,16 @@
 
 # --- bean {{{
 
+# vigna angularis - bean, adzuki bean, boiled without salt
 # aka azuki bean, japanese red bean, english red mung bean
+# source: https://fineli.fi/fineli/en/elintarvikkeet/31217
 [[food]]
 name = 'adzuki-bean'
 serving-size = '100g'
-protein = 7.5
-carbs = 25
-fat = 0.1
+protein = 9.3
+carbs = 26.8
+fiber = [ 5.5, 0.84 ]
+fat = 0.2
 
 # simple organic truth black beans
 [[food]]
@@ -35,13 +38,16 @@ protein = 6.2
 carbs = 14.6
 fat = 0
 
-# simple organic truth garbanzo beans aka chickpeas
+# cicer arietinum - chick pea in unsalted water
+# aka chickpeas
+# source: https://fineli.fi/fineli/en/elintarvikkeet/11089
 [[food]]
 name = 'garbanzo-bean'
 serving-size = '100g'
-protein = 4.6
-carbs = 15.4
-fat = 1.5
+protein = 8.4
+carbs = 22.6
+fiber = [ 5.0, 0.72 ]
+fat = 2.5
 
 [[food]]
 name = 'green-bean'
@@ -237,7 +243,7 @@ fat = 21.9
 # aka milled flax, flaxseed flour, ground flax, linseed meal
 # https://www.bobsredmill.com/organic-golden-flaxseed-meal.html
 [[food]]
-name = 'golden-flaxseed-meal'
+name = 'golden-flax-seed-meal'
 serving-size = '100g'
 protein = 23.1
 carbs = 30.8
@@ -419,12 +425,15 @@ protein = 2
 carbs = 8.5
 fat = 15
 
+# musa sapientum - banana, without skin
+# source: https://fineli.fi/fineli/en/elintarvikkeet/11049
 [[food]]
 name = 'banana'
 serving-size = '100g'
-protein = 1.1
-carbs = 23
-fat = 0.3
+protein = 1.2
+carbs = 20.1
+fiber = [ 1.8, 0.56 ]
+fat = 0.4
 
 [[food]]
 name = 'banana-pepper'
@@ -585,12 +594,14 @@ protein = 1.7
 carbs = 18.7
 fat = 1.2
 
-# pumpkin, cooked, boiled, drained, without salt
+# cucurbita pepo - pumpkin
+# source: https://fineli.fi/fineli/en/elintarvikkeet/350
 [[food]]
 name = 'pumpkin'
 serving-size = '100g'
-protein = 0.7
-carbs = 4.9
+protein = 0.8
+carbs = 4
+fiber = [ 2.0, 0.7 ]
 fat = 0.1
 
 [[food]]
@@ -967,13 +978,16 @@ protein = 7.3
 carbs = 78
 fat = 2.1
 
+# avena sativa - oats, rolled, oat flakes
 # measured dry
+# source: https://fineli.fi/fineli/en/elintarvikkeet/153
 [[food]]
 name = 'rolled-oats'
 serving-size = '100g'
-protein = 13.2
-carbs = 67.7
-fat = 6.5
+protein = 13.6
+carbs = 70
+fiber = [ 10.0, 0.46 ]
+fat = 7.2
 
 # cooked long-grain white rice
 [[food]]
@@ -1214,12 +1228,15 @@ fat = 4
 # --- end meat }}}
 # --- nut {{{
 
+# prunus amygdalus - almond
+# source: https://fineli.fi/fineli/en/elintarvikkeet/379
 [[food]]
 name = 'almond'
 serving-size = '100g'
-protein = 21.2
-carbs = 21.7
-fat = 49.4
+protein = 24.1
+carbs = 19.1
+fiber = [ 12.5, 0.552 ]
+fat = 51.2
 
 [[food]]
 name = 'brazil-nut'
@@ -1692,52 +1709,68 @@ fat = 7.5
 # --- end seafood }}}
 # --- seed {{{
 
-# https://www.bobsredmill.com/organic-chia-seed.html
+# salvia hispanica - chia seed
+# source: https://fineli.fi/fineli/en/elintarvikkeet/34847
 [[food]]
 name = 'chia-seed'
 serving-size = '100g'
-protein = 23.1
-carbs = 38.5
-fat = 26.9
+protein = 22.9
+carbs = 34.6
+# https://www.sciencedirect.com/science/article/pii/S0023643808001345
+fiber = [ 34.4, 0.95 ]
+fat = 33.9
 
-# whole golden flaxseed aka linseed
-# https://www.bobsredmill.com/golden-flaxseed.html
+# linum usitatissimus - linseed, whole
+# ideally whole golden flaxseed
+# source: https://fineli.fi/fineli/en/elintarvikkeet/30991?
 [[food]]
-name = 'golden-flaxseed'
+name = 'flax-seed'
 serving-size = '100g'
-protein = 19.4
-carbs = 32.3
-fat = 35.5
+protein = 22.1
+carbs = 28.8
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 26.4, 0.46 ]
+fat = 43.8
 
-# manitoba harvest hemp hearts, raw shelled hemp seeds, natural or organic
+# cannabis sativa - hemp seed, without hull
+# aka de-hulled or shelled hemp seeds, hemp hearts
+# source: https://fineli.fi/fineli/en/elintarvikkeet/35220
 [[food]]
 name = 'hemp-seed'
 serving-size = '100g'
-protein = 33.3
-carbs = 10
-fat = 43.3
+protein = 33
+carbs = 6.4
+fiber = 4
+fat = 53.6
 
+# cucurbita pepo - pumpkin seed
+# pumpkin seed kernels, shelled
 # aka pepitas
+# source: https://fineli.fi/fineli/en/elintarvikkeet/31211
 [[food]]
 name = 'pumpkin-seed'
 serving-size = '100g'
-protein = 19
-carbs = 54
-fat = 19
+protein = 35.1
+carbs = 8.9
+fiber = 6
+fat = 48
 
-# bob's red mill organic quinoa grain, dry
+# quinoa, cooked without salt
+# source: https://fineli.fi/fineli/en/elintarvikkeet/31179
 [[food]]
 name = 'quinoa'
 serving-size = '100g'
-protein = 15.2
-carbs = 65.2
-fat = 5.4
+protein = 4.8
+carbs = 22.9
+fiber = 2.8
+fat = 2.4
 
 [[food]]
 name = 'sunflower-seed'
 serving-size = '100g'
 protein = 19
 carbs = 15
+fiber = 9
 fat = 50
 
 # --- end seed }}}
@@ -1749,6 +1782,7 @@ name = 'allspice'
 serving-size = '1 tbsp (6g)'
 protein = 0.4
 carbs = 4.3
+fiber = 1.3
 fat = 0.5
 
 # ground berbere
@@ -1985,12 +2019,15 @@ protein = 0
 carbs = 0
 fat = 0
 
+# sesamum indicum - sesame seed, white, without hull
+# https://fineli.fi/fineli/en/elintarvikkeet/34245
 [[food]]
 name = 'sesame-seed'
-serving-size = '1 tbsp (8g)'
-protein = 1.4
-carbs = 2.1
-fat = 3.8
+serving-size = '1 tbsp (9g)'
+protein = 2.1
+carbs = 1.1
+fiber = 1
+fat = 5.1
 
 # ground tamarind
 [[food]]
@@ -1998,6 +2035,7 @@ name = 'tamarind'
 serving-size = '1 tbsp (7.5g)'
 protein = 0.2
 carbs = 4.7
+fiber = 0.4
 fat = 0.1
 
 # ground turmeric
@@ -2006,6 +2044,7 @@ name = 'turmeric'
 serving-size = '1 tbsp (9.4g)'
 protein = 0.9
 carbs = 6.3
+fiber = 2.1
 fat = 0.3
 
 [[food]]
@@ -2015,12 +2054,14 @@ protein = 0
 carbs = 92
 fat = 0
 
-# ground white pepper
+# piper nigrum - pepper, white pepper
+# source: https://fineli.fi/fineli/en/elintarvikkeet/11178
 [[food]]
 name = 'white-pepper'
-serving-size = '1 tbsp (7.1g)'
+serving-size = '1 tbsp (7g)'
 protein = 0.7
-carbs = 4.9
+carbs = 4.5
+fiber = 1.7
 fat = 0.1
 
 # jamaican whole allspice berries
@@ -2059,12 +2100,13 @@ protein = 20
 carbs = 4.5
 fat = 4.5
 
-# now pea protein, pure unflavored powder
+# https://justpea.com/products/justpea-pea-protein-powder
 [[food]]
 name = 'pea-protein-powder'
 serving-size = '100g'
-protein = 72
-carbs = 3
+protein = 80
+carbs = 4
+fiber = 4
 fat = 6
 
 # soy lecithin, granules or powder
@@ -2091,8 +2133,8 @@ fat = 14
 name = 'agave-syrup'
 serving-size = '1 tbsp'
 protein = 0
-carbs = 16
-fat = 0
+carbs = 13
+fat = 0.1
 
 # aka rice syrup, rice malt syrup
 [[food]]
@@ -2129,8 +2171,8 @@ fat = 0
 [[food]]
 name = 'honey'
 serving-size = '1 tbsp'
-protein = 0
-carbs = 16
+protein = 0.1
+carbs = 17
 fat = 0
 
 # indian jaggery unrefined brown non-centrifugal sugar aka afghani gur
