@@ -10,13 +10,13 @@ Concentric
 
     # lightly active male athlete, age 31, weighing 59 kg at 175.26 cm
     use Concentric;
-    Concentric.gen-target-macros(
+    Concentric.new(
         :weight(59),
         :height(175.26),
         :age(31),
         :gender<male>,
         :activity-level<lightly-active>
-    );
+    ).gist;
 
 =head DESCRIPTION
 
@@ -31,6 +31,87 @@ product of BMR and the appropriate Katch-McArdle multiplier for a given
 activity level.
 =end pod
 
+# weight in kilograms
+has $.weight is required;
+# height in centimeters
+has $.height is required;
+# age in years
+has $.age is required;
+# gender
+has $.gender is required;
+# activity level
+has $.activity-level is required;
+
+# basal metabolic rate (mifflin st jeor equation)
+has $!bmr =
+    Concentric.gen-bmr(:$!weight, :$!height, :$!age, :$!gender);
+# total daily energy expenditure (katch-mcardle multipliers)
+has $!tdee =
+    Concentric.gen-tdee(:$!bmr, :$!activity-level);
+# caloric recommendations for muscle gain
+has $!recommended-calories-muscle-gains =
+    Concentric.gen-recommended-caloric-intake(:$!tdee, :goal<muscle-gains>);
+# caloric recommendations for fat loss
+has $!recommended-calories-fat-loss =
+    Concentric.gen-recommended-caloric-intake(:$!tdee, :goal<fat-loss>);
+# protein intake recommendations
+has $!recommended-protein-intake =
+    Concentric.gen-recommended-protein-intake(:$!weight);
+
+method gist(::?CLASS:D:)
+{
+    my $bmr =
+        fmtnum($!bmr);
+    my $tdee =
+        fmtnum($!tdee);
+    my $muscle-gains-calories-min =
+        fmtnum($!recommended-calories-muscle-gains.min);
+    my $muscle-gains-calories-max =
+        fmtnum($!recommended-calories-muscle-gains.max);
+    my $fat-loss-calories-min =
+        fmtnum($!recommended-calories-fat-loss.min);
+    my $fat-loss-calories-max =
+        fmtnum($!recommended-calories-fat-loss.max);
+    my $protein-min =
+        fmtnum($!recommended-protein-intake.min);
+    my $protein-max =
+        fmtnum($!recommended-protein-intake.max);
+    qq:to/EOF/.trim
+    # Calories
+
+    Your estimated daily calorie maintenance level is: 「$tdee」
+
+        Basal Metabolic Rate (BMR): $bmr calories/day
+        Total Daily Energy Expenditure (TDEE): $tdee calories/day
+
+    For muscle gains, consume between $muscle-gains-calories-min and $muscle-gains-calories-max calories per day.
+
+    For fat loss, consume between $fat-loss-calories-min and $fat-loss-calories-max calories per day.
+
+    # Protein
+
+    Get {$protein-min}-{$protein-max}g of protein per day.
+
+    # Fat
+
+    Get 20-35% of your daily calories from healthy sources of fat.
+
+    # Carbohydrates
+
+    Get the rest of your daily calories from healthy sources of carbohydrates.
+    EOF
+}
+
+method hash(::?CLASS:D:)
+{
+    my %hash =
+        :$!bmr,
+        :$!tdee,
+        :$!recommended-calories-muscle-gains,
+        :$!recommended-calories-fat-loss,
+        :$!recommended-protein-intake;
+}
+
 =begin pod
 =head Basal Metabolic Rate (BMR)
 
@@ -44,13 +125,9 @@ of digestion, or things like walking from one room to another.
 =end pod
 
 method gen-bmr(
-    # body weight in kilograms
     :$weight! where .so,
-    # height in centimeters
     :$height! where .so,
-    # age in years
     :$age! where .so,
-    # gender
     :$gender! where .so
 )
 {
@@ -237,84 +314,6 @@ method gen-recommended-protein-intake(:$weight! where .so)
 sub fmtnum($number)
 {
     sprintf('%.0f', $number);
-}
-
-sub format-recommendations(
-    :bmr($bmr-nofmt)! where .so,
-    :tdee($tdee-nofmt)! where .so,
-    :$recommended-calories-muscle-gains! where .so,
-    :$recommended-calories-fat-loss! where .so,
-    :$recommended-protein-intake! where .so
-)
-{
-    my $bmr =
-        fmtnum($bmr-nofmt);
-    my $tdee =
-        fmtnum($tdee-nofmt);
-    my $muscle-gains-calories-min =
-        fmtnum($recommended-calories-muscle-gains.min);
-    my $muscle-gains-calories-max =
-        fmtnum($recommended-calories-muscle-gains.max);
-    my $fat-loss-calories-min =
-        fmtnum($recommended-calories-fat-loss.min);
-    my $fat-loss-calories-max =
-        fmtnum($recommended-calories-fat-loss.max);
-    my $protein-min =
-        fmtnum($recommended-protein-intake.min);
-    my $protein-max =
-        fmtnum($recommended-protein-intake.max);
-    qq:to/EOF/.trim
-    # Calories
-
-    Your estimated daily calorie maintenance level is: 「$tdee」
-
-        Basal Metabolic Rate (BMR): $bmr calories/day
-        Total Daily Energy Expenditure (TDEE): $tdee calories/day
-
-    For muscle gains, consume between $muscle-gains-calories-min and $muscle-gains-calories-max calories per day.
-
-    For fat loss, consume between $fat-loss-calories-min and $fat-loss-calories-max calories per day.
-
-    # Protein
-
-    Get {$protein-min}-{$protein-max}g of protein per day.
-
-    # Fat
-
-    Get 20-35% of your daily calories from healthy sources of fat.
-
-    # Carbohydrates
-
-    Get the rest of your daily calories from healthy sources of carbohydrates.
-    EOF
-}
-
-method gen-target-macros(
-    :$age! where .so,
-    :$weight! where .so,
-    :$height! where .so,
-    :$gender! where .so,
-    :$activity-level! where .so
-)
-{
-    my $bmr =
-        Concentric.gen-bmr(:$weight, :$height, :$age, :$gender);
-    my $tdee =
-        Concentric.gen-tdee(:$bmr, :$activity-level);
-    my $recommended-calories-muscle-gains =
-        Concentric.gen-recommended-caloric-intake(:$tdee, :goal<muscle-gains>);
-    my $recommended-calories-fat-loss =
-        Concentric.gen-recommended-caloric-intake(:$tdee, :goal<fat-loss>);
-    my $recommended-protein-intake =
-        Concentric.gen-recommended-protein-intake(:$weight);
-    my $format-recommendations =
-        format-recommendations(
-            :$bmr,
-            :$tdee,
-            :$recommended-calories-muscle-gains,
-            :$recommended-calories-fat-loss,
-            :$recommended-protein-intake
-        );
 }
 
 # vim: set filetype=perl6 foldmethod=marker foldlevel=0:

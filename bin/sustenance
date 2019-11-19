@@ -114,15 +114,15 @@ multi sub MAIN(
     --> Nil
 )
 {
-    my $target-macros =
-        Concentric.gen-target-macros(
+    my Concentric $concentric .=
+        new(
             :$weight,
             :$height,
             :$age,
             :$gender,
             :$activity-level
         );
-    say($target-macros);
+    say($concentric.gist);
 }
 
 # --- end gen-target-macros }}}
