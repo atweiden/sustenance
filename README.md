@@ -57,7 +57,7 @@ bin/sustenance \
   --height=175.26 \
   --age=31 \
   --gender=male \
-  --activity-level=moderately-active \
+  --activity-level=lightly-active \
   gen-diet-plan
 ```
 
@@ -87,35 +87,43 @@ and at least one *meal* entry.
 
 Each *food* entry must have:
 
-key            | type
----            | ---
-`name`         | string
-`serving-size` | string
-`protein`      | number
-`carbs`        | number
-`fat`          | number
+key            | description                               | value
+---            | ---                                       | ---
+`name`         | name of food                              | string
+`serving-size` | serving size                              | string
+`protein`      | grams of protein per serving              | number
+`carbs`        | grams of total carbohydrates¹ per serving | number
+`fat`          | grams of fat per serving                  | number
 
 Each *food* entry may have:
 
-key       | type
----       | ---
-`fiber`   | number or 2-element array of floats/integers
-`alcohol` | number
+key       | description                                                         | value
+---       | ---                                                                 | ---
+`fiber`   | grams of total fiber² per serving                                   | number
+`fiber`   | grams of total fiber per serving, `$insoluble-fiber / $total-fiber` | array of floats, array of integers
+`alcohol` | grams of alcohol per serving                                        | number
 
 Each *meal* entry must have:
 
-key       | type
----       | ---
-`date`    | date
-`time`    | time
-`portion` | array of hashes
+key       | description  | value
+---       | ---          | ---
+`date`    | `yyyy-mm-dd` | date
+`time`    | `hh:mm:ss`   | time
+`portion` | see below    | array of hashes
 
 Each meal *portion* must have:
 
-key        | type
----        | ---
-`food`     | string
-`servings` | number
+key        | description                | value
+---        | ---                        | ---
+`food`     | name of food               | string
+`servings` | number of servings of food | number
+
+¹: [total carbohydrates][total carbohydrates] includes all types
+of carbohydrates - sugars, sugar alcohols, starches and dietary
+fiber - per USA food labels (see: [international food labeling
+differences][international food labeling differences])
+
+²: *total fiber* includes both soluble and insoluble fiber
 
 ### Diet planning
 
@@ -156,3 +164,5 @@ information, see http://unlicense.org/ or the accompanying UNLICENSE file.
 
 [Config::TOML]: https://github.com/atweiden/config-toml
 [TOML]: https://github.com/toml-lang/toml
+[international food labeling differences]: https://www.esha.com/how-carbs-are-calculated-in-different-countries/
+[total carbohydrates]: https://www.accessdata.fda.gov/scripts/interactivenutritionfactslabel/factsheets/Total_Carbohydrate.pdf
