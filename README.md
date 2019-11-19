@@ -78,7 +78,7 @@ Sustenance::DietPlan.new(
 ## Description
 
 Processes daily caloric intake from [TOML][TOML] meal
-journal formatted per the [Synopsis](#Synopsis) (see also:
+journal formatted per the [synopsis](#synopsis) (see also:
 [doc/sample-pantry.toml](doc/sample-pantry.toml)).
 
 The Sustenance meal journal must consist of at least one *food* entry
