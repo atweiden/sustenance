@@ -174,16 +174,32 @@ multi sub gen-macros(Portion:D @p, Pantry:D $pantry --> Array[Hash:D])
                 $food.calories * $servings;
             my Gram:D $protein =
                 $food.protein * $servings;
-            my Gram:D $carbohydrates =
-                $food.carbohydrates * $servings;
+            my Gram:D $carbohydrates-total =
+                $food.carbohydrates.total * $servings;
+            my Gram:D $carbohydrates-net =
+                $food.carbohydrates.net * $servings;
+            my Gram:D $fiber-total =
+                $food.carbohydrates.fiber.total * $servings;
+            my Gram:D $fiber-soluble =
+                $food.carbohydrates.fiber.soluble * $servings;
+            my Gram:D $fiber-insoluble =
+                $food.carbohydrates.fiber.insoluble * $servings;
             my Gram:D $fat =
                 $food.fat * $servings;
             my Gram:D $alcohol =
                 $food.alcohol * $servings;
+            my %carbohydrates =
+                :total($carbohydrates-total),
+                :net($carbohydrates-net);
+            my %fiber =
+                :total($fiber-total),
+                :soluble($fiber-soluble),
+                :insoluble($fiber-insoluble);
             my %macros =
                 :$calories,
                 :$protein,
-                :$carbohydrates,
+                :%carbohydrates,
+                :%fiber,
                 :$fat,
                 :$alcohol;
             my %portion =
@@ -211,20 +227,36 @@ multi sub gen-macros(Hash:D :@portion! --> Hash:D)
 {
     my (Kilocalorie:D $calories,
         Gram:D $protein,
-        Gram:D $carbohydrates,
+        Gram:D $carbohydrates-total,
+        Gram:D $carbohydrates-net,
+        Gram:D $fiber-total,
+        Gram:D $fiber-soluble,
+        Gram:D $fiber-insoluble,
         Gram:D $fat,
         Gram:D $alcohol) = 0.0;
     @portion.map(-> %portion {
         $calories += %portion<macros><calories>;
         $protein += %portion<macros><protein>;
-        $carbohydrates += %portion<macros><carbohydrates>;
+        $carbohydrates-total += %portion<macros><carbohydrates><total>;
+        $carbohydrates-net += %portion<macros><carbohydrates><net>;
+        $fiber-total += %portion<macros><fiber><total>;
+        $fiber-soluble += %portion<macros><fiber><soluble>;
+        $fiber-insoluble += %portion<macros><fiber><insoluble>;
         $fat += %portion<macros><fat>;
         $alcohol += %portion<macros><alcohol>;
     });
+    my %carbohydrates =
+        :total($carbohydrates-total),
+        :net($carbohydrates-net);
+    my %fiber =
+        :total($fiber-total),
+        :soluble($fiber-soluble),
+        :insoluble($fiber-insoluble);
     my %macros =
         :$calories,
         :$protein,
-        :$carbohydrates,
+        :%carbohydrates,
+        :%fiber,
         :$fat,
         :$alcohol;
 }
@@ -233,20 +265,36 @@ multi sub gen-macros(Hash:D :@macros! --> Hash:D)
 {
     my (Kilocalorie:D $calories,
         Gram:D $protein,
-        Gram:D $carbohydrates,
+        Gram:D $carbohydrates-total,
+        Gram:D $carbohydrates-net,
+        Gram:D $fiber-total,
+        Gram:D $fiber-soluble,
+        Gram:D $fiber-insoluble,
         Gram:D $fat,
         Gram:D $alcohol) = 0.0;
     @macros.map(-> %macros {
         $calories += %macros<totals><calories>;
         $protein += %macros<totals><protein>;
-        $carbohydrates += %macros<totals><carbohydrates>;
+        $carbohydrates-total += %macros<totals><carbohydrates><total>;
+        $carbohydrates-net += %macros<totals><carbohydrates><net>;
+        $fiber-total += %macros<totals><fiber><total>;
+        $fiber-soluble += %macros<totals><fiber><soluble>;
+        $fiber-insoluble += %macros<totals><fiber><insoluble>;
         $fat += %macros<totals><fat>;
         $alcohol += %macros<totals><alcohol>;
     });
+    my %carbohydrates =
+        :total($carbohydrates-total),
+        :net($carbohydrates-net);
+    my %fiber =
+        :total($fiber-total),
+        :soluble($fiber-soluble),
+        :insoluble($fiber-insoluble);
     my %macros =
         :$calories,
         :$protein,
-        :$carbohydrates,
+        :%carbohydrates,
+        :%fiber,
         :$fat,
         :$alcohol;
 }

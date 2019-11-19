@@ -11,6 +11,8 @@ constant Kilocalorie is export = Natural;
 subset Positive of Rat is export where * > 0;
 constant Serving is export = Positive;
 
+subset Fraction of Rat is export where 0 <= * <= 1;
+
 # class Time {{{
 
 class Time
