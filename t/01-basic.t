@@ -18,7 +18,6 @@ subtest({
             new(
                 :name<hemp-protein-powder>,
                 :serving-size('4 tbspn'),
-                :calories(140.0),
                 :protein(20.0),
                 :carbs(4.5),
                 :fat(4.5)
@@ -27,7 +26,6 @@ subtest({
             new(
                 :name<oats>,
                 :serving-size('1 cup'),
-                :calories(360.0),
                 :protein(14.0),
                 :carbs(58.0),
                 :fat(6.0)
@@ -36,7 +34,6 @@ subtest({
             new(
                 :name<agave-syrup>,
                 :serving-size('2 tbspn'),
-                :calories(120.0),
                 :protein(0.0),
                 :carbs(32.0),
                 :fat(0.0)
@@ -45,7 +42,6 @@ subtest({
             new(
                 :name<dried-cranberries>,
                 :serving-size('1 cup'),
-                :calories(120.0),
                 :protein(1.0),
                 :carbs(32.0),
                 :fat(0.0)
@@ -54,7 +50,6 @@ subtest({
             new(
                 :name<dates>,
                 :serving-size('12 pieces'),
-                :calories(335.0),
                 :protein(3.0),
                 :carbs(80.0),
                 :fat(0.5)
@@ -63,7 +58,6 @@ subtest({
             new(
                 :name<banana>,
                 :serving-size('1 medium (7-8" long)'),
-                :calories(105.0),
                 :protein(1.0),
                 :carbs(27.0),
                 :fat(0.4)
@@ -72,7 +66,6 @@ subtest({
             new(
                 :name<almonds>,
                 :serving-size('1 oz'),
-                :calories(165.0),
                 :protein(6.0),
                 :carbs(5.5),
                 :fat(14.0)
@@ -128,7 +121,7 @@ subtest({
     my %totals-on-date = %macros-on-date<totals>;
     my %totals-on-date-expected =
         :alcohol(0.0),
-        :calories(860.0),
+        :calories(843.5),
         :carbohydrates(139.5),
         :fat(13.5),
         :protein(41.0);
@@ -146,7 +139,7 @@ subtest({
     my %totals-in-date-range = %macros-in-date-range<totals>;
     my %totals-in-date-range-expected =
         :alcohol(0.0),
-        :calories(860.0),
+        :calories(843.5),
         :carbohydrates(139.5),
         :fat(13.5),
         :protein(41.0);

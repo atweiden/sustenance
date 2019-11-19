@@ -13,7 +13,6 @@ In `sustenance.toml`:
 [[food]]
 name = 'rolled-oats'
 serving-size = '100g'
-calories = 382.1
 protein = 13.2
 carbs = 67.7
 fat = 6.5
@@ -92,7 +91,6 @@ key            | type
 ---            | ---
 `name`         | string
 `serving-size` | string
-`calories`     | number
 `protein`      | number
 `carbs`        | number
 `fat`          | number

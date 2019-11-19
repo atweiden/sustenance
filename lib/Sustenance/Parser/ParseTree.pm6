@@ -8,17 +8,41 @@ class Food
     has FoodName:D $.name is required;
     has ServingSize:D $.serving-size is required;
     # kcal per serving size of this food
-    has Kilocalorie:D $.calories is required;
     has Gram:D $.protein is required;
     # total carbohydrates, including all sources of fiber
     has Gram:D $.carbohydrates is required;
     has Gram:D $.fat is required;
     has Gram:D $.alcohol = 0.0;
 
+    # 1 gram of protein is 4 kcal
+    constant $KCAL-PER-G-PROTEIN = 4;
+    # 1 gram of carbohydrates is 4 kcal
+    constant $KCAL-PER-G-CARBOHYDRATES = 4;
+    # 1 gram of fat is 9 kcal
+    constant $KCAL-PER-G-FAT = 9;
+    # 1 gram of alcohol is 7 kcal
+    constant $KCAL-PER-G-ALCOHOL = 7;
+
+    method calories(::?CLASS:D: --> Kilocalorie:D)
+    {
+        my Kilocalorie:D $calories-from-protein =
+            $.protein * $KCAL-PER-G-PROTEIN;
+        my Kilocalorie:D $calories-from-carbohydrates =
+            $.carbohydrates * $KCAL-PER-G-CARBOHYDRATES;
+        my Kilocalorie:D $calories-from-fat =
+            $.fat * $KCAL-PER-G-FAT;
+        my Kilocalorie:D $calories-from-alcohol =
+            $.alcohol * $KCAL-PER-G-ALCOHOL;
+        my Kilocalorie:D $calories =
+            [+] $calories-from-protein,
+                $calories-from-carbohydrates,
+                $calories-from-fat,
+                $calories-from-alcohol;
+    }
+
     submethod BUILD(
         Str:D :$!name!,
         Str:D :$!serving-size!,
-        Numeric:D :$calories!,
         Numeric:D :$protein!,
         Numeric:D :$carbs!,
         Numeric:D :$fat!,
@@ -26,7 +50,6 @@ class Food
         --> Nil
     )
     {
-        $!calories = Rat($calories);
         $!protein = Rat($protein);
         $!carbohydrates = Rat($carbs);
         $!fat = Rat($fat);
@@ -37,7 +60,6 @@ class Food
         *%opts (
             Str:D :name($)! where .so,
             Str:D :serving-size($)! where .so,
-            Numeric:D :calories($)! where * >= 0,
             Numeric:D :protein($)! where * >= 0,
             Numeric:D :carbs($)! where * >= 0,
             Numeric:D :fat($)! where * >= 0,

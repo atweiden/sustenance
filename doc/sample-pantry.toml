@@ -7,7 +7,6 @@
 [[food]]
 name = 'adzuki-bean'
 serving-size = '100g'
-calories = 130.9
 protein = 7.5
 carbs = 25
 fat = 0.1
@@ -16,7 +15,6 @@ fat = 0.1
 [[food]]
 name = 'black-bean'
 serving-size = '100g'
-calories = 83.2
 protein = 5.4
 carbs = 15.4
 fat = 0
@@ -25,7 +23,6 @@ fat = 0
 [[food]]
 name = 'borlotti-bean'
 serving-size = '100g'
-calories = 78.3
 protein = 6.5
 carbs = 11.5
 fat = 0.7
@@ -34,7 +31,6 @@ fat = 0.7
 [[food]]
 name = 'cannellini-bean'
 serving-size = '100g'
-calories = 83.2
 protein = 6.2
 carbs = 14.6
 fat = 0
@@ -43,7 +39,6 @@ fat = 0
 [[food]]
 name = 'garbanzo-bean'
 serving-size = '100g'
-calories = 93.5
 protein = 4.6
 carbs = 15.4
 fat = 1.5
@@ -51,7 +46,6 @@ fat = 1.5
 [[food]]
 name = 'green-bean'
 serving-size = '100g'
-calories = 41.9
 protein = 1.9
 carbs = 7.9
 fat = 0.3
@@ -60,7 +54,6 @@ fat = 0.3
 [[food]]
 name = 'vanilla-bean'
 serving-size = '100g (5 pods)'
-calories = 255.1
 protein = 4.2
 carbs = 42.7
 fat = 7.5
@@ -73,7 +66,6 @@ fat = 7.5
 [[food]]
 name = 'chocolate-tree-belize-black-100%-chocolate-bar'
 serving-size = 'half bar (40g)'
-calories = 247.5
 protein = 5
 carbs = 13
 fat = 19.5
@@ -82,7 +74,6 @@ fat = 19.5
 [[food]]
 name = 'giddyyoyo-hundo-100%-dark-chocolate-bar'
 serving-size = '1 bar (62g)'
-calories = 400
 protein = 12
 carbs = 16
 fat = 32
@@ -92,7 +83,6 @@ fat = 32
 [[food]]
 name = 'ocho-100%-cacao-solomons-chocolate-bar'
 serving-size = 'half bar (47.5g)'
-calories = 288.5
 protein = 6
 carbs = 15.5
 fat = 22.5
@@ -101,7 +91,6 @@ fat = 22.5
 [[food]]
 name = 'pacari-raw-100%-organic-chocolate-bar'
 serving-size = '1 bar (50g)'
-calories = 328
 protein = 6
 carbs = 13
 fat = 28
@@ -110,7 +99,6 @@ fat = 28
 [[food]]
 name = 'pascha-sugar-free-100%-organic-chocolate-bar'
 serving-size = '8 pieces (56g)'
-calories = 348
 protein = 8
 carbs = 16
 fat = 28
@@ -119,7 +107,6 @@ fat = 28
 [[food]]
 name = 'pure7-80%-dark-chocolate-bar'
 serving-size = '1 bar (56g)'
-calories = 322
 protein = 8
 carbs = 32
 fat = 18
@@ -128,7 +115,6 @@ fat = 18
 [[food]]
 name = 'taza-100%-chocolate-for-baking'
 serving-size = '1 serving (1.5oz or 42g)'
-calories = 275
 protein = 6
 carbs = 11
 fat = 23
@@ -139,7 +125,6 @@ fat = 23
 [[food]]
 name = 'comté'
 serving-size = '100g'
-calories = 417.3
 protein = 28
 carbs = 0.5
 fat = 33.7
@@ -148,7 +133,6 @@ fat = 33.7
 [[food]]
 name = 'cow-milk'
 serving-size = '8 fl oz (248g)'
-calories = 149.9
 protein = 7.7
 carbs = 12
 fat = 7.9
@@ -156,7 +140,6 @@ fat = 7.9
 [[food]]
 name = 'ghee'
 serving-size = '100g'
-calories = 896.7
 protein = 0.3
 carbs = 0
 fat = 99.5
@@ -167,7 +150,6 @@ fat = 99.5
 [[food]]
 name = 'egg-white'
 serving-size = '1 egg white'
-calories = 16.1
 protein = 3.6
 carbs = 0.2
 fat = 0.1
@@ -175,7 +157,6 @@ fat = 0.1
 [[food]]
 name = 'whole-egg'
 serving-size = '1 whole egg'
-calories = 99
 protein = 6.8
 carbs = 1.3
 fat = 7.4
@@ -187,7 +168,6 @@ fat = 7.4
 [[food]]
 name = 'apple-cider-vinegar'
 serving-size = '1 tbsp'
-calories = 0
 protein = 0
 carbs = 0
 fat = 0
@@ -196,7 +176,6 @@ fat = 0
 [[food]]
 name = 'liquid-smoke'
 serving-size = '1 tbsp'
-calories = 0
 protein = 0
 carbs = 0
 fat = 0
@@ -205,7 +184,6 @@ fat = 0
 [[food]]
 name = 'moromi-vinegar'
 serving-size = '1 tbsp'
-calories = 0
 protein = 0
 carbs = 0
 fat = 0
@@ -214,7 +192,6 @@ fat = 0
 [[food]]
 name = 'vanilla-extract'
 serving-size = '1 tbsp'
-calories = 37.9
 protein = 0
 carbs = 1.6
 fat = 0
@@ -229,7 +206,6 @@ alcohol = 4.5
 [[food]]
 name = 'almond-flour'
 serving-size = '100g'
-calories = 621.2
 protein = 21.4
 carbs = 21.4
 fat = 50
@@ -238,7 +214,6 @@ fat = 50
 [[food]]
 name = 'arrowroot-flour'
 serving-size = '100g'
-calories = 354.1
 protein = 0.3
 carbs = 88
 fat = 0.1
@@ -247,7 +222,6 @@ fat = 0.1
 [[food]]
 name = 'chickpea-flour'
 serving-size = '100g'
-calories = 380.3
 protein = 22
 carbs = 58
 fat = 6.7
@@ -256,7 +230,6 @@ fat = 6.7
 [[food]]
 name = 'coconut-flour'
 serving-size = '100g'
-calories = 417
 protein = 18.8
 carbs = 56.3
 fat = 21.9
@@ -266,7 +239,6 @@ fat = 21.9
 [[food]]
 name = 'golden-flaxseed-meal'
 serving-size = '100g'
-calories = 527
 protein = 23.1
 carbs = 30.8
 fat = 34.6
@@ -275,7 +247,6 @@ fat = 34.6
 [[food]]
 name = 'hemp-seed-meal'
 serving-size = '100g'
-calories = 588.8
 protein = 35.7
 carbs = 7.1
 fat = 46.4
@@ -284,7 +255,6 @@ fat = 46.4
 [[food]]
 name = 'pumpkin-seed-meal'
 serving-size = '100g'
-calories = 589.2
 protein = 25
 carbs = 17.9
 fat = 46.4
@@ -292,7 +262,6 @@ fat = 46.4
 [[food]]
 name = 'quinoa-flour'
 serving-size = '100g'
-calories = 378
 protein = 14.3
 carbs = 64.3
 fat = 7.1
@@ -301,7 +270,6 @@ fat = 7.1
 [[food]]
 name = 'sunflower-seed-meal'
 serving-size = '100g'
-calories = 621.2
 protein = 21.4
 carbs = 21.4
 fat = 50
@@ -310,7 +278,6 @@ fat = 50
 [[food]]
 name = 'tapioca-flour'
 serving-size = '100g'
-calories = 356.8
 protein = 0.2
 carbs = 89
 fat = 0
@@ -318,7 +285,6 @@ fat = 0
 [[food]]
 name = 'teff-flour'
 serving-size = '100g'
-calories = 365.6
 protein = 13
 carbs = 73
 fat = 2.4
@@ -327,7 +293,6 @@ fat = 2.4
 [[food]]
 name = 'tiger-nut-flour'
 serving-size = '100g'
-calories = 622
 protein = 21
 carbs = 22
 fat = 50
@@ -340,7 +305,6 @@ fat = 50
 [[food]]
 name = 'dried-fig'
 serving-size = '100g'
-calories = 276.9
 protein = 3.3
 carbs = 63.9
 fat = 0.9
@@ -349,7 +313,6 @@ fat = 0.9
 [[food]]
 name = 'dried-goji-berry'
 serving-size = '100g'
-calories = 367.6
 protein = 14
 carbs = 77
 fat = 0.4
@@ -357,7 +320,6 @@ fat = 0.4
 [[food]]
 name = 'dried-mango'
 serving-size = '100g'
-calories = 327.6
 protein = 2.2
 carbs = 77
 fat = 1.2
@@ -366,7 +328,6 @@ fat = 1.2
 [[food]]
 name = 'dried-persimmon'
 serving-size = '100g'
-calories = 304.6
 protein = 1.4
 carbs = 73.4
 fat = 0.6
@@ -374,7 +335,6 @@ fat = 0.6
 [[food]]
 name = 'hachimitsu-umeboshi'
 serving-size = '100g'
-calories = 95.4
 protein = 1.4
 carbs = 22
 fat = 0.2
@@ -384,7 +344,6 @@ fat = 0.2
 [[food]]
 name = 'khenaizi-date'
 serving-size = '100g'
-calories = 334.8
 protein = 2.8
 carbs = 80
 fat = 0.4
@@ -393,7 +352,6 @@ fat = 0.4
 [[food]]
 name = 'pitted-date'
 serving-size = '100g'
-calories = 282
 protein = 2.3
 carbs = 65.5
 fat = 0.2
@@ -402,7 +360,6 @@ fat = 0.2
 [[food]]
 name = 'sultana'
 serving-size = '100g'
-calories = 338.1
 protein = 3.4
 carbs = 80
 fat = 0.5
@@ -410,7 +367,6 @@ fat = 0.5
 [[food]]
 name = 'sun-dried-tomato'
 serving-size = '100g'
-calories = 307
 protein = 14
 carbs = 56
 fat = 3
@@ -418,7 +374,6 @@ fat = 3
 [[food]]
 name = 'umeboshi'
 serving-size = '100g'
-calories = 46.2
 protein = 1.1
 carbs = 10
 fat = 0.2
@@ -428,7 +383,6 @@ fat = 0.2
 [[food]]
 name = 'zante-currant'
 serving-size = '100g'
-calories = 315.1
 protein = 4.1
 carbs = 74
 fat = 0.3
@@ -439,7 +393,6 @@ fat = 0.3
 [[food]]
 name = 'apple'
 serving-size = '100g'
-calories = 58.2
 protein = 0.3
 carbs = 13.8
 fat = 0.2
@@ -447,7 +400,6 @@ fat = 0.2
 [[food]]
 name = 'ataulfo-mango'
 serving-size = '100g'
-calories = 64.8
 protein = 0.6
 carbs = 17
 fat = 0
@@ -456,7 +408,6 @@ fat = 0
 [[food]]
 name = 'atemoya'
 serving-size = '100g'
-calories = 88.4
 protein = 1.8
 carbs = 19.4
 fat = 0.4
@@ -464,7 +415,6 @@ fat = 0.4
 [[food]]
 name = 'avocado'
 serving-size = '100g'
-calories = 177
 protein = 2
 carbs = 8.5
 fat = 15
@@ -472,7 +422,6 @@ fat = 15
 [[food]]
 name = 'banana'
 serving-size = '100g'
-calories = 99.1
 protein = 1.1
 carbs = 23
 fat = 0.3
@@ -480,7 +429,6 @@ fat = 0.3
 [[food]]
 name = 'banana-pepper'
 serving-size = '100g'
-calories = 32.9
 protein = 1.7
 carbs = 5.4
 fat = 0.5
@@ -488,7 +436,6 @@ fat = 0.5
 [[food]]
 name = 'blackberry'
 serving-size = '100g'
-calories = 43
 protein = 1.4
 carbs = 10
 fat = 0.5
@@ -496,7 +443,6 @@ fat = 0.5
 [[food]]
 name = 'blueberry'
 serving-size = '100g'
-calories = 63.5
 protein = 0.7
 carbs = 14.5
 fat = 0.3
@@ -504,7 +450,6 @@ fat = 0.3
 [[food]]
 name = 'cherry'
 serving-size = '1 cherry'
-calories = 5
 protein = 0.1
 carbs = 1.3
 fat = 0
@@ -512,7 +457,6 @@ fat = 0
 [[food]]
 name = 'cucumber'
 serving-size = '100g'
-calories = 36.2
 protein = 1.3
 carbs = 7.3
 fat = 0.2
@@ -521,7 +465,6 @@ fat = 0.2
 [[food]]
 name = 'goya'
 serving-size = '100g'
-calories = 20.5
 protein = 1
 carbs = 3.9
 fat = 0.1
@@ -529,7 +472,6 @@ fat = 0.1
 [[food]]
 name = 'grapefruit'
 serving-size = '100g'
-calories = 35.7
 protein = 0.6
 carbs = 8.1
 fat = 0.1
@@ -537,7 +479,6 @@ fat = 0.1
 [[food]]
 name = 'haskap-berry'
 serving-size = '100g'
-calories = 60
 protein = 1
 carbs = 14
 fat = 0.3
@@ -545,7 +486,6 @@ fat = 0.3
 [[food]]
 name = 'honeydew-melon'
 serving-size = '100g'
-calories = 39.3
 protein = 0.5
 carbs = 9.1
 fat = 0.1
@@ -553,7 +493,6 @@ fat = 0.1
 [[food]]
 name = 'jackfruit'
 serving-size = '100g'
-calories = 104.2
 protein = 1.7
 carbs = 23
 fat = 0.6
@@ -561,7 +500,6 @@ fat = 0.6
 [[food]]
 name = 'kiwi'
 serving-size = '100g'
-calories = 67.7
 protein = 1.1
 carbs = 14.7
 fat = 0.5
@@ -569,7 +507,6 @@ fat = 0.5
 [[food]]
 name = 'kumquat'
 serving-size = '100g'
-calories = 79.3
 protein = 1.9
 carbs = 15.9
 fat = 0.9
@@ -577,7 +514,6 @@ fat = 0.9
 [[food]]
 name = 'mango'
 serving-size = '100g'
-calories = 66.8
 protein = 0.8
 carbs = 15
 fat = 0.4
@@ -585,7 +521,6 @@ fat = 0.4
 [[food]]
 name = 'orange'
 serving-size = '100g'
-calories = 56.5
 protein = 0.9
 carbs = 13
 fat = 0.1
@@ -594,7 +529,6 @@ fat = 0.1
 [[food]]
 name = 'papaya'
 serving-size = '100g'
-calories = 48.7
 protein = 0.5
 carbs = 11
 fat = 0.3
@@ -603,7 +537,6 @@ fat = 0.3
 [[food]]
 name = 'passion-fruit'
 serving-size = '100g'
-calories = 108
 protein = 2.2
 carbs = 23.4
 fat = 0.7
@@ -611,7 +544,6 @@ fat = 0.7
 [[food]]
 name = 'pear'
 serving-size = '100g'
-calories = 62.5
 protein = 0.4
 carbs = 15
 fat = 0.1
@@ -620,7 +552,6 @@ fat = 0.1
 [[food]]
 name = 'persimmon'
 serving-size = '100g'
-calories = 78.6
 protein = 0.6
 carbs = 18.6
 fat = 0.2
@@ -628,7 +559,6 @@ fat = 0.2
 [[food]]
 name = 'pineapple'
 serving-size = '100g'
-calories = 50.1
 protein = 0.5
 carbs = 11.8
 fat = 0.1
@@ -636,7 +566,6 @@ fat = 0.1
 [[food]]
 name = 'pitaya-dragon-fruit'
 serving-size = '100g'
-calories = 55.5
 protein = 1.4
 carbs = 11.8
 fat = 0.3
@@ -645,7 +574,6 @@ fat = 0.3
 [[food]]
 name = 'plum'
 serving-size = '100g'
-calories = 51.1
 protein = 0.7
 carbs = 11.4
 fat = 0.3
@@ -653,7 +581,6 @@ fat = 0.3
 [[food]]
 name = 'pomegranate'
 serving-size = '100g'
-calories = 83
 protein = 1.7
 carbs = 18.7
 fat = 1.2
@@ -662,7 +589,6 @@ fat = 1.2
 [[food]]
 name = 'pumpkin'
 serving-size = '100g'
-calories = 23.3
 protein = 0.7
 carbs = 4.9
 fat = 0.1
@@ -670,7 +596,6 @@ fat = 0.1
 [[food]]
 name = 'raspberry'
 serving-size = '100g'
-calories = 58.7
 protein = 1.2
 carbs = 11.9
 fat = 0.7
@@ -678,7 +603,6 @@ fat = 0.7
 [[food]]
 name = 'saskatoon-berry'
 serving-size = '100g'
-calories = 83.7
 protein = 1.3
 carbs = 18.5
 fat = 0.5
@@ -686,7 +610,6 @@ fat = 0.5
 [[food]]
 name = 'star-fruit'
 serving-size = '100g'
-calories = 33.5
 protein = 1
 carbs = 6.7
 fat = 0.3
@@ -694,7 +617,6 @@ fat = 0.3
 [[food]]
 name = 'watermelon'
 serving-size = '100g'
-calories = 34.6
 protein = 0.6
 carbs = 7.6
 fat = 0.2
@@ -703,7 +625,6 @@ fat = 0.2
 [[food]]
 name = 'zucchini'
 serving-size = '100g'
-calories = 40.4
 protein = 2.5
 carbs = 5.8
 fat = 0.8
@@ -717,7 +638,6 @@ fat = 0.8
 [[food]]
 name = 'cornichon'
 serving-size = '100g'
-calories = 15.4
 protein = 0.8
 carbs = 2.6
 fat = 0.2
@@ -726,7 +646,6 @@ fat = 0.2
 [[food]]
 name = 'olive'
 serving-size = '20 olives (100g)'
-calories = 145
 protein = 1
 carbs = 3.8
 fat = 15.3
@@ -735,7 +654,6 @@ fat = 15.3
 [[food]]
 name = 'pickled-cucumber'
 serving-size = '1 medium-large spear (100g)'
-calories = 11
 protein = 0.3
 carbs = 2.3
 fat = 0.2
@@ -744,7 +662,6 @@ fat = 0.2
 [[food]]
 name = 'takuan-pickled-daikon-radish'
 serving-size = '100g'
-calories = 27.3
 protein = 1.4
 carbs = 5.2
 fat = 0.1
@@ -756,7 +673,6 @@ fat = 0.1
 [[food]]
 name = 'lemon-juice'
 serving-size = '4 fl oz (124g)'
-calories = 37.9
 protein = 0.4
 carbs = 8.4
 fat = 0.3
@@ -768,7 +684,6 @@ fat = 0.3
 [[food]]
 name = 'lime-juice'
 serving-size = '4 fl oz (112g)'
-calories = 41.3
 protein = 0.5
 carbs = 9.6
 fat = 0.1
@@ -783,7 +698,6 @@ fat = 0.1
 [[food]]
 name = 'black-trumpet-mushroom'
 serving-size = '100g'
-calories = 38.5
 protein = 1.5
 carbs = 7
 fat = 0.5
@@ -793,7 +707,6 @@ fat = 0.5
 [[food]]
 name = 'buna-shimeji-mushroom'
 serving-size = '100g'
-calories = 32
 protein = 2
 carbs = 6
 fat = 0
@@ -803,7 +716,6 @@ fat = 0
 [[food]]
 name = 'bunapi-shimeji-mushroom'
 serving-size = '100g'
-calories = 32
 protein = 2
 carbs = 6
 fat = 0
@@ -812,7 +724,6 @@ fat = 0
 [[food]]
 name = 'chanterelle-mushroom'
 serving-size = '100g'
-calories = 38.1
 protein = 1.5
 carbs = 6.9
 fat = 0.5
@@ -821,7 +732,6 @@ fat = 0.5
 [[food]]
 name = 'crimini-mushroom'
 serving-size = '100g'
-calories = 28.1
 protein = 2.5
 carbs = 4.3
 fat = 0.1
@@ -830,7 +740,6 @@ fat = 0.1
 [[food]]
 name = 'enokitake-mushroom'
 serving-size = '100g'
-calories = 44.7
 protein = 2.7
 carbs = 7.8
 fat = 0.3
@@ -840,7 +749,6 @@ fat = 0.3
 [[food]]
 name = 'eryngii-mushroom'
 serving-size = '100g'
-calories = 32
 protein = 2
 carbs = 7
 fat = 0
@@ -849,7 +757,6 @@ fat = 0
 [[food]]
 name = 'hiratake-mushroom'
 serving-size = '100g'
-calories = 41.2
 protein = 3.3
 carbs = 6.1
 fat = 0.4
@@ -859,7 +766,6 @@ fat = 0.4
 [[food]]
 name = 'maitake-mushroom'
 serving-size = '100g'
-calories = 24
 protein = 1
 carbs = 5
 fat = 0
@@ -868,7 +774,6 @@ fat = 0
 [[food]]
 name = 'matsutake-mushroom'
 serving-size = '100g'
-calories = 46.2
 protein = 2
 carbs = 8.2
 fat = 0.6
@@ -877,7 +782,6 @@ fat = 0.6
 [[food]]
 name = 'porcini-mushroom'
 serving-size = '100g'
-calories = 32.2
 protein = 2.5
 carbs = 5.1
 fat = 0.2
@@ -885,7 +789,6 @@ fat = 0.2
 [[food]]
 name = 'portobello-mushroom'
 serving-size = '100g'
-calories = 36.6
 protein = 3.4
 carbs = 4.4
 fat = 0.6
@@ -895,7 +798,6 @@ fat = 0.6
 [[food]]
 name = 'shiitake-mushroom'
 serving-size = '100g'
-calories = 40.5
 protein = 2.2
 carbs = 6.8
 fat = 0.5
@@ -904,7 +806,6 @@ fat = 0.5
 [[food]]
 name = 'yanagi-matsutake-mushroom'
 serving-size = '100g'
-calories = 28.1
 protein = 2.5
 carbs = 4.3
 fat = 0.1
@@ -918,7 +819,6 @@ fat = 0.1
 [[food]]
 name = 'burgundy-black-truffle'
 serving-size = '100g'
-calories = 472
 protein = 4
 carbs = 42
 fat = 32
@@ -927,7 +827,6 @@ fat = 32
 [[food]]
 name = 'muscat-black-truffle'
 serving-size = '100g'
-calories = 472
 protein = 4
 carbs = 42
 fat = 32
@@ -936,7 +835,6 @@ fat = 32
 [[food]]
 name = 'scorzone-black-truffle'
 serving-size = '100g'
-calories = 472
 protein = 4
 carbs = 42
 fat = 32
@@ -945,7 +843,6 @@ fat = 32
 [[food]]
 name = 'smooth-black-truffle'
 serving-size = '100g'
-calories = 472
 protein = 4
 carbs = 42
 fat = 32
@@ -954,7 +851,6 @@ fat = 32
 [[food]]
 name = 'sweet-black-truffle'
 serving-size = '100g'
-calories = 472
 protein = 4
 carbs = 42
 fat = 32
@@ -967,7 +863,6 @@ fat = 32
 [[food]]
 name = 'bianchetto-white-truffle'
 serving-size = '100g'
-calories = 472
 protein = 4
 carbs = 42
 fat = 32
@@ -976,7 +871,6 @@ fat = 32
 [[food]]
 name = 'white-truffle'
 serving-size = '100g'
-calories = 472
 protein = 4
 carbs = 42
 fat = 32
@@ -993,7 +887,6 @@ fat = 32
 [[food]]
 name = 'nutritional-yeast'
 serving-size = '1 tbsp (8.5g)'
-calories = 33
 protein = 3.8
 carbs = 3.1
 fat = 0.6
@@ -1006,7 +899,6 @@ fat = 0.6
 [[food]]
 name = 'amaranth'
 serving-size = '100g'
-calories = 105.6
 protein = 3.8
 carbs = 19
 fat = 1.6
@@ -1015,7 +907,6 @@ fat = 1.6
 [[food]]
 name = 'brown-rice'
 serving-size = '100g'
-calories = 112.4
 protein = 2.3
 carbs = 24
 fat = 0.8
@@ -1024,7 +915,6 @@ fat = 0.8
 [[food]]
 name = 'couscous'
 serving-size = '100g'
-calories = 109
 protein = 3.8
 carbs = 23
 fat = 0.2
@@ -1033,7 +923,6 @@ fat = 0.2
 [[food]]
 name = 'ezekiel-bread'
 serving-size = '1 slice (34g)'
-calories = 80
 protein = 4
 carbs = 15
 fat = 0.5
@@ -1042,7 +931,6 @@ fat = 0.5
 [[food]]
 name = 'ezekiel-bun'
 serving-size = '1 bun (76g)'
-calories = 185.5
 protein = 9
 carbs = 34
 fat = 1.5
@@ -1051,7 +939,6 @@ fat = 1.5
 [[food]]
 name = 'ezekiel-english-muffin'
 serving-size = '½ muffin (38g)'
-calories = 89
 protein = 4
 carbs = 16
 fat = 1
@@ -1060,7 +947,6 @@ fat = 1
 [[food]]
 name = 'ezekiel-pocket-bread'
 serving-size = '1 pocket bread (47g)'
-calories = 116.5
 protein = 7
 carbs = 21
 fat = 0.5
@@ -1069,7 +955,6 @@ fat = 0.5
 [[food]]
 name = 'ezekiel-spaghetti'
 serving-size = '2 oz (56g, ⅛ container)'
-calories = 210
 protein = 8
 carbs = 40
 fat = 2
@@ -1078,7 +963,6 @@ fat = 2
 [[food]]
 name = 'grits'
 serving-size = '100g'
-calories = 360.1
 protein = 7.3
 carbs = 78
 fat = 2.1
@@ -1087,7 +971,6 @@ fat = 2.1
 [[food]]
 name = 'rolled-oats'
 serving-size = '100g'
-calories = 382.1
 protein = 13.2
 carbs = 67.7
 fat = 6.5
@@ -1096,7 +979,6 @@ fat = 6.5
 [[food]]
 name = 'white-rice'
 serving-size = '100g'
-calories = 125.5
 protein = 2.7
 carbs = 28
 fat = 0.3
@@ -1105,7 +987,6 @@ fat = 0.3
 [[food]]
 name = 'wild-rice'
 serving-size = '100g'
-calories = 102.7
 protein = 4
 carbs = 21
 fat = 0.3
@@ -1117,7 +998,6 @@ fat = 0.3
 [[food]]
 name = 'basil'
 serving-size = '100g'
-calories = 29
 protein = 3.2
 carbs = 2.7
 fat = 0.6
@@ -1126,7 +1006,6 @@ fat = 0.6
 [[food]]
 name = 'bay-leaf'
 serving-size = '100g'
-calories = 406
 protein = 7.6
 carbs = 75
 fat = 8.4
@@ -1135,7 +1014,6 @@ fat = 8.4
 [[food]]
 name = 'dill'
 serving-size = '100g'
-calories = 51.9
 protein = 3.5
 carbs = 7
 fat = 1.1
@@ -1143,7 +1021,6 @@ fat = 1.1
 [[food]]
 name = 'garlic'
 serving-size = '100g'
-calories = 162.5
 protein = 6.4
 carbs = 33.1
 fat = 0.5
@@ -1151,7 +1028,6 @@ fat = 0.5
 [[food]]
 name = 'ginger-root'
 serving-size = '100g'
-calories = 86.4
 protein = 1.8
 carbs = 18
 fat = 0.8
@@ -1160,7 +1036,6 @@ fat = 0.8
 [[food]]
 name = 'oregano'
 serving-size = '100g'
-calories = 350.7
 protein = 9
 carbs = 69
 fat = 4.3
@@ -1169,7 +1044,6 @@ fat = 4.3
 [[food]]
 name = 'rosemary'
 serving-size = '100g'
-calories = 149.1
 protein = 3.3
 carbs = 20.7
 fat = 5.9
@@ -1178,7 +1052,6 @@ fat = 5.9
 [[food]]
 name = 'tarragon'
 serving-size = '100g'
-calories = 356.8
 protein = 23
 carbs = 50
 fat = 7.2
@@ -1187,7 +1060,6 @@ fat = 7.2
 [[food]]
 name = 'thyme'
 serving-size = '100g'
-calories = 133.7
 protein = 5.6
 carbs = 24
 fat = 1.7
@@ -1196,7 +1068,6 @@ fat = 1.7
 [[food]]
 name = 'whole-clove'
 serving-size = '100g'
-calories = 405
 protein = 6
 carbs = 66
 fat = 13
@@ -1206,7 +1077,6 @@ fat = 13
 [[food]]
 name = 'yomogi-powder'
 serving-size = '100g'
-calories = 352
 protein = 16.1
 carbs = 62.4
 fat = 4.3
@@ -1218,7 +1088,6 @@ fat = 4.3
 [[food]]
 name = 'beni-imo-purple-sweet-potato'
 serving-size = '100g'
-calories = 93.1
 protein = 1.3
 carbs = 21.3
 fat = 0.3
@@ -1227,7 +1096,6 @@ fat = 0.3
 [[food]]
 name = 'dried-beni-imo-purple-sweet-potato-powder'
 serving-size = '100g'
-calories = 370.5
 protein = 3
 carbs = 88.5
 fat = 0.5
@@ -1236,7 +1104,6 @@ fat = 0.5
 [[food]]
 name = 'dried-sweet-potato'
 serving-size = '100g'
-calories = 305
 protein = 3.2
 carbs = 72.6
 fat = 0.2
@@ -1245,7 +1112,6 @@ fat = 0.2
 [[food]]
 name = 'kabocha-squash'
 serving-size = '100g'
-calories = 23.3
 protein = 0.7
 carbs = 4.9
 fat = 0.1
@@ -1257,7 +1123,6 @@ fat = 0.1
 [[food]]
 name = 'red-lentil'
 serving-size = '100g (½ cup)'
-calories = 152.5
 protein = 12
 carbs = 25
 fat = 0.5
@@ -1266,7 +1131,6 @@ fat = 0.5
 [[food]]
 name = 'russet-potato'
 serving-size = '100g'
-calories = 96.9
 protein = 2.6
 carbs = 21.4
 fat = 0.1
@@ -1275,7 +1139,6 @@ fat = 0.1
 [[food]]
 name = 'sweet-potato'
 serving-size = '100g'
-calories = 92.6
 protein = 2
 carbs = 20.7
 fat = 0.2
@@ -1286,7 +1149,6 @@ fat = 0.2
 [[food]]
 name = 'bacon'
 serving-size = '100g'
-calories = 457.8
 protein = 34
 carbs = 1.7
 fat = 35
@@ -1295,7 +1157,6 @@ fat = 35
 [[food]]
 name = 'ham'
 serving-size = '100g'
-calories = 171.4
 protein = 22.6
 carbs = 0
 fat = 9
@@ -1303,7 +1164,6 @@ fat = 9
 [[food]]
 name = 'pork'
 serving-size = '100g'
-calories = 230
 protein = 26
 carbs = 0
 fat = 14
@@ -1311,7 +1171,6 @@ fat = 14
 [[food]]
 name = 'pork-baby-back-rib'
 serving-size = '100g'
-calories = 278.7
 protein = 15.9
 carbs = 0
 fat = 23.9
@@ -1319,7 +1178,6 @@ fat = 23.9
 [[food]]
 name = 'pork-chop'
 serving-size = '100g'
-calories = 203
 protein = 26
 carbs = 0
 fat = 11
@@ -1327,7 +1185,6 @@ fat = 11
 [[food]]
 name = 'pork-loin'
 serving-size = '100g'
-calories = 183.2
 protein = 26
 carbs = 0
 fat = 8.8
@@ -1336,7 +1193,6 @@ fat = 8.8
 [[food]]
 name = 'pork-rib'
 serving-size = '100g'
-calories = 363
 protein = 21
 carbs = 0
 fat = 31
@@ -1344,7 +1200,6 @@ fat = 31
 [[food]]
 name = 'pork-shoulder'
 serving-size = '100g'
-calories = 281
 protein = 23
 carbs = 0
 fat = 21
@@ -1352,7 +1207,6 @@ fat = 21
 [[food]]
 name = 'pork-tenderloin'
 serving-size = '100g'
-calories = 140
 protein = 26
 carbs = 0
 fat = 4
@@ -1363,7 +1217,6 @@ fat = 4
 [[food]]
 name = 'almond'
 serving-size = '100g'
-calories = 575
 protein = 21.2
 carbs = 21.7
 fat = 49.4
@@ -1371,7 +1224,6 @@ fat = 49.4
 [[food]]
 name = 'brazil-nut'
 serving-size = '100g'
-calories = 707
 protein = 14
 carbs = 12
 fat = 67
@@ -1379,7 +1231,6 @@ fat = 67
 [[food]]
 name = 'cashew'
 serving-size = '100g'
-calories = 588
 protein = 18
 carbs = 30
 fat = 44
@@ -1388,7 +1239,6 @@ fat = 44
 [[food]]
 name = 'chestnut'
 serving-size = '100g'
-calories = 201
 protein = 3
 carbs = 45.1
 fat = 0.8
@@ -1396,7 +1246,6 @@ fat = 0.8
 [[food]]
 name = 'hazelnut'
 serving-size = '100g'
-calories = 690
 protein = 15
 carbs = 18
 fat = 62
@@ -1404,7 +1253,6 @@ fat = 62
 [[food]]
 name = 'macadamia-nut'
 serving-size = '100g'
-calories = 771.6
 protein = 7.9
 carbs = 14
 fat = 76
@@ -1412,7 +1260,6 @@ fat = 76
 [[food]]
 name = 'peanut'
 serving-size = '100g'
-calories = 630
 protein = 24
 carbs = 21
 fat = 50
@@ -1420,7 +1267,6 @@ fat = 50
 [[food]]
 name = 'pecan'
 serving-size = '100g'
-calories = 740.8
 protein = 9.2
 carbs = 14
 fat = 72
@@ -1428,7 +1274,6 @@ fat = 72
 [[food]]
 name = 'pine-nut'
 serving-size = '100g'
-calories = 720
 protein = 14
 carbs = 13
 fat = 68
@@ -1436,7 +1281,6 @@ fat = 68
 [[food]]
 name = 'pistachio'
 serving-size = '100g'
-calories = 610
 protein = 21
 carbs = 28
 fat = 46
@@ -1445,7 +1289,6 @@ fat = 46
 [[food]]
 name = 'shredded-coconut'
 serving-size = '100g'
-calories = 733.9
 protein = 6.7
 carbs = 26.7
 fat = 66.7
@@ -1454,7 +1297,6 @@ fat = 66.7
 [[food]]
 name = 'tiger-nut'
 serving-size = '100g'
-calories = 407.7
 protein = 6.1
 carbs = 42.5
 fat = 23.7
@@ -1462,7 +1304,6 @@ fat = 23.7
 [[food]]
 name = 'walnut'
 serving-size = '100g'
-calories = 701
 protein = 15
 carbs = 14
 fat = 65
@@ -1473,7 +1314,6 @@ fat = 65
 [[food]]
 name = 'avocado-oil'
 serving-size = '1 tbsp (14g)'
-calories = 126
 protein = 0
 carbs = 0
 fat = 14
@@ -1481,7 +1321,6 @@ fat = 14
 [[food]]
 name = 'coconut-oil'
 serving-size = '1 tbsp (14g)'
-calories = 126
 protein = 0
 carbs = 0
 fat = 14
@@ -1489,7 +1328,6 @@ fat = 14
 [[food]]
 name = 'extra-virgin-olive-oil'
 serving-size = '1 tbsp (14g)'
-calories = 126
 protein = 0
 carbs = 0
 fat = 14
@@ -1497,7 +1335,6 @@ fat = 14
 [[food]]
 name = 'hemp-seed-oil'
 serving-size = '1 tbsp (14g)'
-calories = 126
 protein = 0
 carbs = 0
 fat = 14
@@ -1507,7 +1344,6 @@ fat = 14
 [[food]]
 name = 'palm-shortening'
 serving-size = '1 tbsp (14g)'
-calories = 126
 protein = 0
 carbs = 0
 fat = 14
@@ -1515,7 +1351,6 @@ fat = 14
 [[food]]
 name = 'truffle-oil'
 serving-size = '1 tbsp (14g)'
-calories = 126
 protein = 0
 carbs = 0
 fat = 14
@@ -1526,7 +1361,6 @@ fat = 14
 [[food]]
 name = 'chicken'
 serving-size = '100g'
-calories = 328
 protein = 19
 carbs = 0
 fat = 28
@@ -1534,7 +1368,6 @@ fat = 28
 [[food]]
 name = 'chicken-breast'
 serving-size = '100g'
-calories = 156.4
 protein = 31
 carbs = 0
 fat = 3.6
@@ -1543,7 +1376,6 @@ fat = 3.6
 [[food]]
 name = 'chicken-leg'
 serving-size = '100g'
-calories = 177
 protein = 24
 carbs = 0
 fat = 9
@@ -1551,7 +1383,6 @@ fat = 9
 [[food]]
 name = 'chicken-thigh'
 serving-size = '100g'
-calories = 239.9
 protein = 25.1
 carbs = 0
 fat = 15.5
@@ -1559,7 +1390,6 @@ fat = 15.5
 [[food]]
 name = 'chicken-wing'
 serving-size = '100g'
-calories = 249
 protein = 24
 carbs = 0
 fat = 17
@@ -1567,7 +1397,6 @@ fat = 17
 [[food]]
 name = 'duck'
 serving-size = '100g'
-calories = 328
 protein = 19
 carbs = 0
 fat = 28
@@ -1575,7 +1404,6 @@ fat = 28
 [[food]]
 name = 'duck-breast'
 serving-size = '100g'
-calories = 199
 protein = 25
 carbs = 0
 fat = 11
@@ -1584,7 +1412,6 @@ fat = 11
 [[food]]
 name = 'duck-leg'
 serving-size = '100g'
-calories = 207
 protein = 27
 carbs = 0
 fat = 11
@@ -1592,7 +1419,6 @@ fat = 11
 [[food]]
 name = 'turkey'
 serving-size = '100g'
-calories = 183
 protein = 29
 carbs = 0.1
 fat = 7.4
@@ -1600,7 +1426,6 @@ fat = 7.4
 [[food]]
 name = 'turkey-breast'
 serving-size = '100g'
-calories = 138.9
 protein = 30
 carbs = 0
 fat = 2.1
@@ -1609,7 +1434,6 @@ fat = 2.1
 [[food]]
 name = 'turkey-leg'
 serving-size = '100g'
-calories = 196.6
 protein = 28
 carbs = 0
 fat = 9.4
@@ -1622,7 +1446,6 @@ fat = 9.4
 [[food]]
 name = 'doenjang'
 serving-size = '1 tbsp (18g)'
-calories = 11.6
 protein = 1.9
 carbs = 1
 fat = 0
@@ -1632,7 +1455,6 @@ fat = 0
 [[food]]
 name = 'kombu-dashi'
 serving-size = '8 fl oz (224g)'
-calories = 0
 protein = 0
 carbs = 0
 fat = 0
@@ -1642,7 +1464,6 @@ fat = 0
 [[food]]
 name = 'tamari'
 serving-size = '1 tbsp (18g)'
-calories = 11.6
 protein = 1.9
 carbs = 1
 fat = 0
@@ -1651,7 +1472,6 @@ fat = 0
 [[food]]
 name = 'tamarind-paste'
 serving-size = '100g'
-calories = 280
 protein = 3
 carbs = 67
 fat = 0
@@ -1661,7 +1481,6 @@ fat = 0
 [[food]]
 name = 'tomato-paste'
 serving-size = '1 tbsp (16.5g)'
-calories = 16.1
 protein = 0.7
 carbs = 3.1
 fat = 0.1
@@ -1670,7 +1489,6 @@ fat = 0.1
 [[food]]
 name = 'worcestershire-sauce'
 serving-size = '1 tbsp (17g)'
-calories = 13.2
 protein = 0
 carbs = 3.3
 fat = 0
@@ -1681,7 +1499,6 @@ fat = 0
 [[food]]
 name = 'alligator'
 serving-size = '100g'
-calories = 136.1
 protein = 23
 carbs = 0
 fat = 4.9
@@ -1690,7 +1507,6 @@ fat = 4.9
 [[food]]
 name = 'canned-anchovy'
 serving-size = '100g'
-calories = 191
 protein = 27
 carbs = 1.8
 fat = 8.4
@@ -1698,7 +1514,6 @@ fat = 8.4
 [[food]]
 name = 'canned-sardine'
 serving-size = '100g'
-calories = 199
 protein = 25
 carbs = 0
 fat = 11
@@ -1707,7 +1522,6 @@ fat = 11
 [[food]]
 name = 'canned-tuna'
 serving-size = '100g'
-calories = 123
 protein = 24
 carbs = 0
 fat = 3
@@ -1715,7 +1529,6 @@ fat = 3
 [[food]]
 name = 'catfish'
 serving-size = '100g'
-calories = 136.8
 protein = 18
 carbs = 0
 fat = 7.2
@@ -1724,7 +1537,6 @@ fat = 7.2
 [[food]]
 name = 'caviar'
 serving-size = '100g'
-calories = 278
 protein = 25
 carbs = 4
 fat = 18
@@ -1732,7 +1544,6 @@ fat = 18
 [[food]]
 name = 'clam'
 serving-size = '100g'
-calories = 142.4
 protein = 26
 carbs = 5.1
 fat = 2
@@ -1740,7 +1551,6 @@ fat = 2
 [[food]]
 name = 'cod'
 serving-size = '100g'
-calories = 100.1
 protein = 23
 carbs = 0
 fat = 0.9
@@ -1748,7 +1558,6 @@ fat = 0.9
 [[food]]
 name = 'crab'
 serving-size = '100g'
-calories = 78.3
 protein = 18
 carbs = 0
 fat = 0.7
@@ -1756,7 +1565,6 @@ fat = 0.7
 [[food]]
 name = 'crayfish'
 serving-size = '100g'
-calories = 73
 protein = 16
 carbs = 0
 fat = 1
@@ -1764,7 +1572,6 @@ fat = 1
 [[food]]
 name = 'grouper'
 serving-size = '100g'
-calories = 111.7
 protein = 25
 carbs = 0
 fat = 1.3
@@ -1772,7 +1579,6 @@ fat = 1.3
 [[food]]
 name = 'halibut'
 serving-size = '100g'
-calories = 106.4
 protein = 23
 carbs = 0
 fat = 1.6
@@ -1780,7 +1586,6 @@ fat = 1.6
 [[food]]
 name = 'lobster'
 serving-size = '100g'
-calories = 133.5
 protein = 26
 carbs = 3.1
 fat = 1.9
@@ -1788,7 +1593,6 @@ fat = 1.9
 [[food]]
 name = 'mahi-mahi'
 serving-size = '100g'
-calories = 104.1
 protein = 24
 carbs = 0
 fat = 0.9
@@ -1796,7 +1600,6 @@ fat = 0.9
 [[food]]
 name = 'mussel'
 serving-size = '100g'
-calories = 166.1
 protein = 24
 carbs = 7.4
 fat = 4.5
@@ -1804,7 +1607,6 @@ fat = 4.5
 [[food]]
 name = 'oyster'
 serving-size = '100g'
-calories = 157
 protein = 19
 carbs = 9.9
 fat = 4.6
@@ -1812,7 +1614,6 @@ fat = 4.6
 [[food]]
 name = 'prawn'
 serving-size = '100g'
-calories = 113.3
 protein = 23
 carbs = 1.5
 fat = 1.7
@@ -1820,7 +1621,6 @@ fat = 1.7
 [[food]]
 name = 'salmon'
 serving-size = '100g'
-calories = 175.5
 protein = 27
 carbs = 0
 fat = 7.5
@@ -1828,7 +1628,6 @@ fat = 7.5
 [[food]]
 name = 'salmon-roe-caviar'
 serving-size = '100g'
-calories = 151.6
 protein = 22
 carbs = 1.5
 fat = 6.4
@@ -1836,7 +1635,6 @@ fat = 6.4
 [[food]]
 name = 'scallop'
 serving-size = '100g'
-calories = 112.8
 protein = 21
 carbs = 5.4
 fat = 0.8
@@ -1844,7 +1642,6 @@ fat = 0.8
 [[food]]
 name = 'sea-bass'
 serving-size = '100g'
-calories = 119.4
 protein = 24
 carbs = 0
 fat = 2.6
@@ -1852,7 +1649,6 @@ fat = 2.6
 [[food]]
 name = 'shrimp'
 serving-size = '100g'
-calories = 113.3
 protein = 23
 carbs = 1.5
 fat = 1.7
@@ -1860,7 +1656,6 @@ fat = 1.7
 [[food]]
 name = 'tilapia'
 serving-size = '100g'
-calories = 128.3
 protein = 26
 carbs = 0
 fat = 2.7
@@ -1868,7 +1663,6 @@ fat = 2.7
 [[food]]
 name = 'trout'
 serving-size = '100g'
-calories = 184.5
 protein = 27
 carbs = 0
 fat = 8.5
@@ -1877,7 +1671,6 @@ fat = 8.5
 [[food]]
 name = 'trout-roe-caviar'
 serving-size = '100g'
-calories = 168.1
 protein = 28
 carbs = 10.2
 fat = 1.7
@@ -1885,7 +1678,6 @@ fat = 1.7
 [[food]]
 name = 'tuna'
 serving-size = '100g'
-calories = 121.4
 protein = 29
 carbs = 0
 fat = 0.6
@@ -1893,7 +1685,6 @@ fat = 0.6
 [[food]]
 name = 'whitefish'
 serving-size = '100g'
-calories = 163.5
 protein = 24
 carbs = 0
 fat = 7.5
@@ -1905,7 +1696,6 @@ fat = 7.5
 [[food]]
 name = 'chia-seed'
 serving-size = '100g'
-calories = 488.5
 protein = 23.1
 carbs = 38.5
 fat = 26.9
@@ -1915,7 +1705,6 @@ fat = 26.9
 [[food]]
 name = 'golden-flaxseed'
 serving-size = '100g'
-calories = 526.3
 protein = 19.4
 carbs = 32.3
 fat = 35.5
@@ -1924,7 +1713,6 @@ fat = 35.5
 [[food]]
 name = 'hemp-seed'
 serving-size = '100g'
-calories = 562.9
 protein = 33.3
 carbs = 10
 fat = 43.3
@@ -1933,7 +1721,6 @@ fat = 43.3
 [[food]]
 name = 'pumpkin-seed'
 serving-size = '100g'
-calories = 463
 protein = 19
 carbs = 54
 fat = 19
@@ -1942,7 +1729,6 @@ fat = 19
 [[food]]
 name = 'quinoa'
 serving-size = '100g'
-calories = 370.2
 protein = 15.2
 carbs = 65.2
 fat = 5.4
@@ -1950,7 +1736,6 @@ fat = 5.4
 [[food]]
 name = 'sunflower-seed'
 serving-size = '100g'
-calories = 586
 protein = 19
 carbs = 15
 fat = 50
@@ -1962,7 +1747,6 @@ fat = 50
 [[food]]
 name = 'allspice'
 serving-size = '1 tbsp (6g)'
-calories = 23.3
 protein = 0.4
 carbs = 4.3
 fat = 0.5
@@ -1971,7 +1755,6 @@ fat = 0.5
 [[food]]
 name = 'berbere'
 serving-size = '1 tbsp (7.5g)'
-calories = 24
 protein = 0.9
 carbs = 3.3
 fat = 0.8
@@ -1980,7 +1763,6 @@ fat = 0.8
 [[food]]
 name = 'black-pepper'
 serving-size = '1 tbsp (6.9g)'
-calories = 22.2
 protein = 0.7
 carbs = 4.4
 fat = 0.2
@@ -1990,7 +1772,6 @@ fat = 0.2
 [[food]]
 name = 'blackening-seasoning'
 serving-size = '1 tbsp (7.5g)'
-calories = 16
 protein = 1
 carbs = 3
 fat = 0
@@ -1998,7 +1779,6 @@ fat = 0
 [[food]]
 name = 'caraway-seed'
 serving-size = '1 tbsp (6.7g)'
-calories = 27.4
 protein = 1.3
 carbs = 3.3
 fat = 1
@@ -2007,7 +1787,6 @@ fat = 1
 [[food]]
 name = 'cardamom'
 serving-size = '1 tbsp (5.8g)'
-calories = 22
 protein = 0.6
 carbs = 4
 fat = 0.4
@@ -2016,7 +1795,6 @@ fat = 0.4
 [[food]]
 name = 'cayenne'
 serving-size = '1 tbsp (5.3g)'
-calories = 22.5
 protein = 0.6
 carbs = 3
 fat = 0.9
@@ -2024,7 +1802,6 @@ fat = 0.9
 [[food]]
 name = 'celery-salt'
 serving-size = '1 tbsp (13g)'
-calories = 14.8
 protein = 0.6
 carbs = 1.3
 fat = 0.8
@@ -2033,7 +1810,6 @@ fat = 0.8
 [[food]]
 name = 'celery-seed'
 serving-size = '1 tbsp (6.5g)'
-calories = 30
 protein = 1.2
 carbs = 2.7
 fat = 1.6
@@ -2041,7 +1817,6 @@ fat = 1.6
 [[food]]
 name = 'chili-powder'
 serving-size = '1 tbsp (8g)'
-calories = 30.3
 protein = 1.1
 carbs = 4
 fat = 1.1
@@ -2050,7 +1825,6 @@ fat = 1.1
 [[food]]
 name = 'cinnamon'
 serving-size = '1 tbsp (7.8g)'
-calories = 27.3
 protein = 0.3
 carbs = 6.3
 fat = 0.1
@@ -2058,7 +1832,6 @@ fat = 0.1
 [[food]]
 name = 'cinnamon-stick'
 serving-size = '100g'
-calories = 350.8
 protein = 4
 carbs = 81
 fat = 1.2
@@ -2067,7 +1840,6 @@ fat = 1.2
 [[food]]
 name = 'clove'
 serving-size = '1 tbsp (6.5g)'
-calories = 26
 protein = 0.4
 carbs = 4.3
 fat = 0.8
@@ -2075,7 +1847,6 @@ fat = 0.8
 [[food]]
 name = 'crushed-red-pepper'
 serving-size = '1 tbsp (5.3g)'
-calories = 22.5
 protein = 0.6
 carbs = 3
 fat = 0.9
@@ -2084,7 +1855,6 @@ fat = 0.9
 [[food]]
 name = 'cumin'
 serving-size = '1 tbsp (6g)'
-calories = 26.9
 protein = 1.1
 carbs = 2.7
 fat = 1.3
@@ -2092,7 +1862,6 @@ fat = 1.3
 [[food]]
 name = 'curry-powder'
 serving-size = '1 tbsp (6.3g)'
-calories = 25.7
 protein = 0.9
 carbs = 3.5
 fat = 0.9
@@ -2101,7 +1870,6 @@ fat = 0.9
 [[food]]
 name = 'dried-basil'
 serving-size = '1 tbsp (3.3g)'
-calories = 10.5
 protein = 0.8
 carbs = 1.6
 fat = 0.1
@@ -2110,7 +1878,6 @@ fat = 0.1
 [[food]]
 name = 'dried-oregano'
 serving-size = '1 tbsp (4.2g)'
-calories = 15
 protein = 0.4
 carbs = 2.9
 fat = 0.2
@@ -2119,7 +1886,6 @@ fat = 0.2
 [[food]]
 name = 'dried-thyme'
 serving-size = '1 tbsp (3.5g)'
-calories = 12.7
 protein = 0.3
 carbs = 2.2
 fat = 0.3
@@ -2128,7 +1894,6 @@ fat = 0.3
 [[food]]
 name = 'garam-masala'
 serving-size = '1 tbsp (7.8g)'
-calories = 30.6
 protein = 0.9
 carbs = 4.5
 fat = 1
@@ -2136,7 +1901,6 @@ fat = 1
 [[food]]
 name = 'garlic-powder'
 serving-size = '1 tbsp (9.7g)'
-calories = 35.7
 protein = 1.6
 carbs = 7.1
 fat = 0.1
@@ -2145,7 +1909,6 @@ fat = 0.1
 [[food]]
 name = 'ginger'
 serving-size = '1 tbsp (5.2g)'
-calories = 18.6
 protein = 0.5
 carbs = 3.7
 fat = 0.2
@@ -2154,7 +1917,6 @@ fat = 0.2
 [[food]]
 name = 'marjoram'
 serving-size = '1 tbsp (1.7g)'
-calories = 5.7
 protein = 0.2
 carbs = 1
 fat = 0.1
@@ -2163,7 +1925,6 @@ fat = 0.1
 [[food]]
 name = 'mustard-powder'
 serving-size = '1 tbsp (6.3g)'
-calories = 34.3
 protein = 1.6
 carbs = 1.8
 fat = 2.3
@@ -2172,7 +1933,6 @@ fat = 2.3
 [[food]]
 name = 'mustard-seed'
 serving-size = '1 tbsp (11g)'
-calories = 34.3
 protein = 1.6
 carbs = 1.8
 fat = 2.3
@@ -2181,7 +1941,6 @@ fat = 2.3
 [[food]]
 name = 'nutmeg'
 serving-size = '1 tbsp (7g)'
-calories = 38.1
 protein = 0.4
 carbs = 3.5
 fat = 2.5
@@ -2189,7 +1948,6 @@ fat = 2.5
 [[food]]
 name = 'onion-powder'
 serving-size = '1 tbsp (6.9g)'
-calories = 25.7
 protein = 0.7
 carbs = 5.5
 fat = 0.1
@@ -2199,7 +1957,6 @@ fat = 0.1
 [[food]]
 name = 'paprika'
 serving-size = '1 tbsp (6.8g)'
-calories = 26.9
 protein = 1
 carbs = 3.7
 fat = 0.9
@@ -2208,7 +1965,6 @@ fat = 0.9
 [[food]]
 name = 'poultry-seasoning'
 serving-size = '1 tbsp (4.4g)'
-calories = 15.9
 protein = 1
 carbs = 3.7
 fat = 0.9
@@ -2217,7 +1973,6 @@ fat = 0.9
 [[food]]
 name = 'rubbed-sage'
 serving-size = '1 tbsp (18g)'
-calories = 8.3
 protein = 0.2
 carbs = 1.2
 fat = 0.3
@@ -2226,7 +1981,6 @@ fat = 0.3
 [[food]]
 name = 'salt'
 serving-size = '1 tbsp (18g)'
-calories = 0
 protein = 0
 carbs = 0
 fat = 0
@@ -2234,7 +1988,6 @@ fat = 0
 [[food]]
 name = 'sesame-seed'
 serving-size = '1 tbsp (8g)'
-calories = 48.2
 protein = 1.4
 carbs = 2.1
 fat = 3.8
@@ -2243,7 +1996,6 @@ fat = 3.8
 [[food]]
 name = 'tamarind'
 serving-size = '1 tbsp (7.5g)'
-calories = 20.5
 protein = 0.2
 carbs = 4.7
 fat = 0.1
@@ -2252,7 +2004,6 @@ fat = 0.1
 [[food]]
 name = 'turmeric'
 serving-size = '1 tbsp (9.4g)'
-calories = 31.5
 protein = 0.9
 carbs = 6.3
 fat = 0.3
@@ -2260,7 +2011,6 @@ fat = 0.3
 [[food]]
 name = 'vanilla-powder'
 serving-size = '100g'
-calories = 368
 protein = 0
 carbs = 92
 fat = 0
@@ -2269,7 +2019,6 @@ fat = 0
 [[food]]
 name = 'white-pepper'
 serving-size = '1 tbsp (7.1g)'
-calories = 23.3
 protein = 0.7
 carbs = 4.9
 fat = 0.1
@@ -2278,7 +2027,6 @@ fat = 0.1
 [[food]]
 name = 'whole-allspice'
 serving-size = '100g'
-calories = 391.1
 protein = 6.1
 carbs = 72.1
 fat = 8.7
@@ -2307,7 +2055,6 @@ fat = 8.7
 [[food]]
 name = 'hemp-seed-protein-powder'
 serving-size = '4 tbsp'
-calories = 140
 protein = 20
 carbs = 4.5
 fat = 4.5
@@ -2316,7 +2063,6 @@ fat = 4.5
 [[food]]
 name = 'pea-protein-powder'
 serving-size = '100g'
-calories = 354
 protein = 72
 carbs = 3
 fat = 6
@@ -2325,7 +2071,6 @@ fat = 6
 [[food]]
 name = 'soy-lecithin'
 serving-size = '1 tbsp (7.1g)'
-calories = 40
 protein = 0
 carbs = 1
 fat = 4
@@ -2334,7 +2079,6 @@ fat = 4
 [[food]]
 name = 'sunflower-lecithin'
 serving-size = '1 tbsp (15g)'
-calories = 130
 protein = 0
 carbs = 1
 fat = 14
@@ -2346,7 +2090,6 @@ fat = 14
 [[food]]
 name = 'agave-syrup'
 serving-size = '1 tbsp'
-calories = 64
 protein = 0
 carbs = 16
 fat = 0
@@ -2355,7 +2098,6 @@ fat = 0
 [[food]]
 name = 'brown-rice-syrup'
 serving-size = '1 tbsp'
-calories = 64
 protein = 0.5
 carbs = 15.5
 fat = 0
@@ -2364,7 +2106,6 @@ fat = 0
 [[food]]
 name = 'coconut-sugar'
 serving-size = '100g'
-calories = 400
 protein = 0
 carbs = 100
 fat = 0
@@ -2373,7 +2114,6 @@ fat = 0
 [[food]]
 name = 'coconut-syrup'
 serving-size = '1 tbsp'
-calories = 46
 protein = 0
 carbs = 11.5
 fat = 0
@@ -2382,7 +2122,6 @@ fat = 0
 [[food]]
 name = 'date-sugar'
 serving-size = '100g'
-calories = 392.4
 protein = 0.1
 carbs = 98
 fat = 0
@@ -2390,7 +2129,6 @@ fat = 0
 [[food]]
 name = 'honey'
 serving-size = '1 tbsp'
-calories = 64
 protein = 0
 carbs = 16
 fat = 0
@@ -2400,7 +2138,6 @@ fat = 0
 [[food]]
 name = 'jaggery-brown-sugar'
 serving-size = '100g'
-calories = 393.3
 protein = 0.1
 carbs = 98
 fat = 0.1
@@ -2410,7 +2147,6 @@ fat = 0.1
 [[food]]
 name = 'kokuto-brown-sugar'
 serving-size = '100g'
-calories = 393.3
 protein = 0.1
 carbs = 98
 fat = 0.1
@@ -2418,7 +2154,6 @@ fat = 0.1
 [[food]]
 name = 'maple-sugar'
 serving-size = '100g'
-calories = 366.2
 protein = 0.1
 carbs = 91
 fat = 0.2
@@ -2426,7 +2161,6 @@ fat = 0.2
 [[food]]
 name = 'maple-syrup'
 serving-size = '1 tbsp'
-calories = 64
 protein = 0
 carbs = 16
 fat = 0
@@ -2435,7 +2169,6 @@ fat = 0
 [[food]]
 name = 'molasses'
 serving-size = '100g'
-calories = 300.9
 protein = 0
 carbs = 75
 fat = 0.1
@@ -2446,7 +2179,6 @@ fat = 0.1
 [[food]]
 name = 'muscovado-brown-sugar'
 serving-size = '100g'
-calories = 393.3
 protein = 0.1
 carbs = 98
 fat = 0.1
@@ -2456,7 +2188,6 @@ fat = 0.1
 [[food]]
 name = 'piloncilo-brown-sugar'
 serving-size = '100g'
-calories = 393.3
 protein = 0.1
 carbs = 98
 fat = 0.1
@@ -2465,7 +2196,6 @@ fat = 0.1
 [[food]]
 name = 'stevia'
 serving-size = '1 tbsp (14g)'
-calories = 0
 protein = 0
 carbs = 0
 fat = 0
@@ -2473,7 +2203,6 @@ fat = 0
 [[food]]
 name = 'yacón-syrup'
 serving-size = '1 tbsp'
-calories = 44
 protein = 0
 carbs = 11
 fat = 0
@@ -2487,7 +2216,6 @@ fat = 0
 [[food]]
 name = 'seitan'
 serving-size = '100g'
-calories = 373.1
 protein = 75.2
 carbs = 13.8
 fat = 1.9
@@ -2496,7 +2224,6 @@ fat = 1.9
 [[food]]
 name = 'silken-tofu'
 serving-size = '100g'
-calories = 66.9
 protein = 7.2
 carbs = 1.2
 fat = 3.7
@@ -2505,7 +2232,6 @@ fat = 3.7
 [[food]]
 name = 'tempeh'
 serving-size = '100g'
-calories = 209.4
 protein = 20
 carbs = 7.6
 fat = 11
@@ -2514,7 +2240,6 @@ fat = 11
 [[food]]
 name = 'tofu'
 serving-size = '100g'
-calories = 92.5
 protein = 10
 carbs = 1.2
 fat = 5.3
@@ -2557,7 +2282,6 @@ fat = 5.3
 [[food]]
 name = 'alfalfa-sprout'
 serving-size = '100g'
-calories = 30.7
 protein = 4
 carbs = 2.1
 fat = 0.7
@@ -2565,7 +2289,6 @@ fat = 0.7
 [[food]]
 name = 'artichoke'
 serving-size = '100g'
-calories = 59
 protein = 3.3
 carbs = 11
 fat = 0.2
@@ -2574,7 +2297,6 @@ fat = 0.2
 [[food]]
 name = 'arugula'
 serving-size = '100g'
-calories = 31.5
 protein = 2.6
 carbs = 3.7
 fat = 0.7
@@ -2582,7 +2304,6 @@ fat = 0.7
 [[food]]
 name = 'asparagus'
 serving-size = '100g'
-calories = 27.8
 protein = 2.4
 carbs = 4.1
 fat = 0.2
@@ -2590,7 +2311,6 @@ fat = 0.2
 [[food]]
 name = 'bamboo-shoot'
 serving-size = '100g'
-calories = 23.2
 protein = 1.7
 carbs = 3.2
 fat = 0.4
@@ -2598,7 +2318,6 @@ fat = 0.4
 [[food]]
 name = 'broccoli'
 serving-size = '100g'
-calories = 42
 protein = 2.4
 carbs = 7.2
 fat = 0.4
@@ -2606,7 +2325,6 @@ fat = 0.4
 [[food]]
 name = 'brussels-sprout'
 serving-size = '100g'
-calories = 43.3
 protein = 2.6
 carbs = 7.1
 fat = 0.5
@@ -2614,7 +2332,6 @@ fat = 0.5
 [[food]]
 name = 'cabbage'
 serving-size = '100g'
-calories = 28.1
 protein = 1.3
 carbs = 5.5
 fat = 0.1
@@ -2622,7 +2339,6 @@ fat = 0.1
 [[food]]
 name = 'carrot'
 serving-size = '100g'
-calories = 43.8
 protein = 0.9
 carbs = 9.6
 fat = 0.2
@@ -2630,7 +2346,6 @@ fat = 0.2
 [[food]]
 name = 'cauliflower'
 serving-size = '100g'
-calories = 28.1
 protein = 1.8
 carbs = 4.1
 fat = 0.5
@@ -2639,7 +2354,6 @@ fat = 0.5
 [[food]]
 name = 'celery'
 serving-size = '100g'
-calories = 21
 protein = 0.8
 carbs = 4
 fat = 0.2
@@ -2648,7 +2362,6 @@ fat = 0.2
 [[food]]
 name = 'cilantro'
 serving-size = '100g'
-calories = 27.7
 protein = 2.1
 carbs = 3.7
 fat = 0.5
@@ -2657,7 +2370,6 @@ fat = 0.5
 [[food]]
 name = 'collard-green'
 serving-size = '100g'
-calories = 31.6
 protein = 2.1
 carbs = 4.9
 fat = 0.4
@@ -2666,7 +2378,6 @@ fat = 0.4
 [[food]]
 name = 'corn'
 serving-size = '100g'
-calories = 43.8
 protein = 2.6
 carbs = 18.6
 fat = 1
@@ -2674,7 +2385,6 @@ fat = 1
 [[food]]
 name = 'eggplant'
 serving-size = '100g'
-calories = 39.8
 protein = 0.8
 carbs = 8.7
 fat = 0.2
@@ -2682,7 +2392,6 @@ fat = 0.2
 [[food]]
 name = 'green-bell-pepper'
 serving-size = '100g'
-calories = 45.8
 protein = 2
 carbs = 9
 fat = 0.2
@@ -2691,7 +2400,6 @@ fat = 0.2
 [[food]]
 name = 'green-spring-onion'
 serving-size = '100g'
-calories = 38.2
 protein = 1.8
 carbs = 7.3
 fat = 0.2
@@ -2699,7 +2407,6 @@ fat = 0.2
 [[food]]
 name = 'horseradish'
 serving-size = '100g'
-calories = 55.1
 protein = 1.2
 carbs = 11
 fat = 0.7
@@ -2707,7 +2414,6 @@ fat = 0.7
 [[food]]
 name = 'iceberg-lettuce'
 serving-size = '100g'
-calories = 16.5
 protein = 0.9
 carbs = 3
 fat = 0.1
@@ -2715,7 +2421,6 @@ fat = 0.1
 [[food]]
 name = 'jalapeño'
 serving-size = '100g'
-calories = 38.2
 protein = 0.9
 carbs = 7
 fat = 0.4
@@ -2724,7 +2429,6 @@ fat = 0.4
 [[food]]
 name = 'leek'
 serving-size = '100g'
-calories = 64.7
 protein = 1.5
 carbs = 14
 fat = 0.3
@@ -2732,7 +2436,6 @@ fat = 0.3
 [[food]]
 name = 'mung-bean-sprout'
 serving-size = '100g'
-calories = 25.7
 protein = 2
 carbs = 4.2
 fat = 0.1
@@ -2740,7 +2443,6 @@ fat = 0.1
 [[food]]
 name = 'onion'
 serving-size = '100g'
-calories = 40
 protein = 1.1
 carbs = 9
 fat = 0.1
@@ -2748,7 +2450,6 @@ fat = 0.1
 [[food]]
 name = 'orange-bell-pepper'
 serving-size = '100g'
-calories = 32.2
 protein = 0.9
 carbs = 6.7
 fat = 0.2
@@ -2757,7 +2458,6 @@ fat = 0.2
 [[food]]
 name = 'parsley'
 serving-size = '100g'
-calories = 44.4
 protein = 3
 carbs = 6.3
 fat = 0.8
@@ -2765,7 +2465,6 @@ fat = 0.8
 [[food]]
 name = 'red-bell-pepper'
 serving-size = '100g'
-calories = 47.4
 protein = 1.9
 carbs = 9
 fat = 0.4
@@ -2773,7 +2472,6 @@ fat = 0.4
 [[food]]
 name = 'romaine-lettuce'
 serving-size = '100g'
-calories = 20.7
 protein = 1.2
 carbs = 3.3
 fat = 0.3
@@ -2782,7 +2480,6 @@ fat = 0.3
 [[food]]
 name = 'shishito-pepper'
 serving-size = '100g'
-calories = 33.1
 protein = 1.9
 carbs = 5.7
 fat = 0.3
@@ -2790,7 +2487,6 @@ fat = 0.3
 [[food]]
 name = 'spinach'
 serving-size = '100g'
-calories = 29.9
 protein = 3
 carbs = 3.8
 fat = 0.3
@@ -2798,7 +2494,6 @@ fat = 0.3
 [[food]]
 name = 'tamarillo'
 serving-size = '100g'
-calories = 26.8
 protein = 2
 carbs = 3.8
 fat = 0.4
@@ -2806,7 +2501,6 @@ fat = 0.4
 [[food]]
 name = 'tomato'
 serving-size = '100g'
-calories = 18
 protein = 0.9
 carbs = 3.9
 fat = 0.2
@@ -2814,7 +2508,6 @@ fat = 0.2
 [[food]]
 name = 'yellow-bell-pepper'
 serving-size = '100g'
-calories = 31
 protein = 1
 carbs = 6.3
 fat = 0.2
@@ -2826,7 +2519,6 @@ fat = 0.2
 [[food]]
 name = 'kimchi'
 serving-size = '100g'
-calories = 25.7
 protein = 2.2
 carbs = 4
 fat = 0.1
@@ -2835,7 +2527,6 @@ fat = 0.1
 [[food]]
 name = 'sauerkraut-golden-turmeric'
 serving-size = '100g'
-calories = 33.7
 protein = 2.7
 carbs = 4.6
 fat = 0.5
@@ -2844,7 +2535,6 @@ fat = 0.5
 [[food]]
 name = 'sauerkraut-ruby-perfection'
 serving-size = '100g'
-calories = 24.7
 protein = 1.9
 carbs = 3.6
 fat = 0.3
@@ -2857,7 +2547,6 @@ fat = 0.3
 [[food]]
 name = 'hitoegusa-sea-lettuce'
 serving-size = '100g'
-calories = 21.7
 protein = 0.6
 carbs = 4.6
 fat = 0.1
@@ -2867,7 +2556,6 @@ fat = 0.1
 [[food]]
 name = 'mozuku-seaweed'
 serving-size = '100g'
-calories = 11
 protein = 0.3
 carbs = 2
 fat = 0.2
@@ -2877,7 +2565,6 @@ fat = 0.2
 [[food]]
 name = 'umibudo-sea-grape'
 serving-size = '100g'
-calories = 7.7
 protein = 0.5
 carbs = 1.2
 fat = 0.1
