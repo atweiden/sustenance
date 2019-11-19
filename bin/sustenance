@@ -32,7 +32,7 @@ multi sub MAIN(
     my Date $date2 .= new($d2);
     my Time $time1 .= new($t1);
     my Time $time2 .= new($t2);
-    say($sustenance.gen-macros($date1, $date2, $time1, $time2));
+    gen-macros($sustenance.gen-macros($date1, $date2, $time1, $time2));
 }
 
 multi sub MAIN(
@@ -48,7 +48,7 @@ multi sub MAIN(
     my Date $date .= new($d);
     my Time $time1 .= new($t1);
     my Time $time2 .= new($t2);
-    say($sustenance.gen-macros($date, $time1, $time2));
+    gen-macros($sustenance.gen-macros($date, $time1, $time2));
 }
 
 multi sub MAIN(
@@ -62,7 +62,7 @@ multi sub MAIN(
     my Sustenance $sustenance .= new(:$file);
     my Date $date .= new($d);
     my Time $time .= new($t);
-    say($sustenance.gen-macros($date, $time));
+    gen-macros($sustenance.gen-macros($date, $time));
 }
 
 multi sub MAIN(
@@ -76,7 +76,7 @@ multi sub MAIN(
     my Sustenance $sustenance .= new(:$file);
     my Date $date1 .= new($d1);
     my Date $date2 .= new($d2);
-    say($sustenance.gen-macros($date1, $date2));
+    gen-macros($sustenance.gen-macros($date1, $date2));
 }
 
 multi sub MAIN(
@@ -88,7 +88,7 @@ multi sub MAIN(
 {
     my Sustenance $sustenance .= new(:$file);
     my Date $date .= new($d);
-    say($sustenance.gen-macros($date));
+    gen-macros($sustenance.gen-macros($date));
 }
 
 multi sub MAIN(
@@ -98,7 +98,12 @@ multi sub MAIN(
 )
 {
     my Sustenance $sustenance .= new(:$file);
-    say($sustenance.gen-macros);
+    gen-macros($sustenance.gen-macros);
+}
+
+sub gen-macros(%gen-macros --> Nil)
+{
+    say(to-json(%gen-macros));
 }
 
 # --- end gen-macros }}}
@@ -122,7 +127,12 @@ multi sub MAIN(
             :$gender,
             :$activity-level
         );
-    say($concentric.gist);
+    gen-target-macros($concentric.hash);
+}
+
+sub gen-target-macros(%concentric --> Nil)
+{
+    say(to-json(%concentric));
 }
 
 # --- end gen-target-macros }}}
