@@ -211,7 +211,6 @@ carbs = 0
 fat = 0
 
 # pure vanilla extract
-# has alcohol content of 4.5g (@ 7 calories per gram of alcohol)
 [[food]]
 name = 'vanilla-extract'
 serving-size = '1 tbsp'
@@ -219,6 +218,7 @@ calories = 37.9
 protein = 0
 carbs = 1.6
 fat = 0
+alcohol = 4.5
 
 # --- end flavoring }}}
 # --- flour {{{
