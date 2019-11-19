@@ -84,6 +84,7 @@ class Carbohydrates
         my %fiber = $.fiber.hash;
         my %hash =
             :$.total,
+            :$.net,
             :%fiber;
     }
 
