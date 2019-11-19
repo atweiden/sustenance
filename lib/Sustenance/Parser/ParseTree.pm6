@@ -7,8 +7,10 @@ class Food
 {
     has FoodName:D $.name is required;
     has ServingSize:D $.serving-size is required;
+    # kcal per serving size of this food
     has Kilocalorie:D $.calories is required;
     has Gram:D $.protein is required;
+    # total carbohydrates, including all sources of fiber
     has Gram:D $.carbohydrates is required;
     has Gram:D $.fat is required;
 
