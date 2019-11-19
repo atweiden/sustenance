@@ -2092,6 +2092,14 @@ fat = 8.7
 # --- end spread }}}
 # --- supplement {{{
 
+# plain creatine monohydrate powder
+[[food]]
+name = 'creatine-monohydrate-powder'
+serving-size = '1 tsp (5g)'
+protein = 0
+carbs = 0
+fat = 0
+
 # hemp pro 70 original by manitoba hemp foods harvest
 [[food]]
 name = 'hemp-seed-protein-powder'
