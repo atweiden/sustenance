@@ -1924,6 +1924,23 @@ protein = 0.3
 carbs = 2.2
 fat = 0.3
 
+[[food]]
+name = 'fennel-seed'
+serving-size = '1 tbsp (5.8g)'
+protein = 0.9
+carbs = 3
+fiber = 2.3
+fat = 0.9
+
+# ground fenugreek
+[[food]]
+name = 'fenugreek'
+serving-size = '1 tbsp (11g)'
+protein = 2.6
+carbs = 6.5
+fiber = 2.7
+fat = 0.7
+
 # ground garam masala
 [[food]]
 name = 'garam-masala'
@@ -1946,6 +1963,14 @@ serving-size = '1 tbsp (5.2g)'
 protein = 0.5
 carbs = 3.7
 fat = 0.2
+
+# ground lemongrass
+[[food]]
+name = 'lemongrass'
+serving-size = '1 tbsp (4.8g)'
+protein = 0.1
+carbs = 1.2
+fat = 0
 
 # ground marjoram
 [[food]]
@@ -2010,6 +2035,15 @@ serving-size = '1 tbsp (18g)'
 protein = 0.2
 carbs = 1.2
 fat = 0.3
+
+# ground saffron
+[[food]]
+name = 'saffron'
+serving-size = '1 tbsp (2.1g)'
+protein = 0.2
+carbs = 1.4
+fiber = 0.1
+fat = 0.1
 
 # ideally okinawa nuchi-masu salt, celtic sea salt
 [[food]]
@@ -2437,6 +2471,17 @@ name = 'eggplant'
 serving-size = '100g'
 protein = 0.8
 carbs = 8.7
+fat = 0.2
+
+# foeniculum vulgare var. azoricum - florence fennel
+# aka finocchio
+# source: https://fineli.fi/fineli/en/elintarvikkeet/30914
+[[food]]
+name = 'fennel'
+serving-size = '100g'
+protein = 0.9
+carbs = 4.2
+fiber = [ 2.4, 0.54 ]
 fat = 0.2
 
 [[food]]
