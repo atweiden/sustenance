@@ -10,18 +10,33 @@ class Fiber
     has Fraction:D $.percent-insoluble = 0.0;
     has Fraction:D $!percent-soluble = 1.0 - $!percent-insoluble;
 
-    multi method new(@total-then-percent-insoluble --> Fiber:D)
+    submethod BUILD(
+        Numeric :$total,
+        Numeric :$percent-insoluble
+        --> Nil
+    )
     {
-        my Gram:D $total =
-            Rat(@total-then-percent-insoluble.first);
-        my Fraction:D $percent-insoluble =
-            Rat(@total-then-percent-insoluble.tail);
+        $!total = Rat($total) if $total;
+        $!percent-insoluble = Rat($percent-insoluble) if $percent-insoluble;
+    }
+
+
+    proto method new(|)
+    {*}
+
+    multi method new(
+        @ (Numeric:D $total where * >= 0,
+           Numeric:D $percent-insoluble where 0 <= * <= 1)
+        --> Fiber:D)
+    {
         self.bless(:$total, :$percent-insoluble);
     }
 
-    multi method new(Numeric:D $t --> Fiber:D)
+    multi method new(
+        Numeric:D $total where * >= 0
+        --> Fiber:D
+    )
     {
-        my Gram:D $total = Rat($t);
         self.bless(:$total);
     }
 
@@ -120,29 +135,6 @@ class Food
     # 1 gram of alcohol is 7 kcal
     constant $KCAL-PER-G-ALCOHOL = 7;
 
-    method calories(::?CLASS:D: --> Kilocalorie:D)
-    {
-        my Kilocalorie:D $calories-from-protein =
-            $.protein * $KCAL-PER-G-PROTEIN;
-        my Kilocalorie:D $calories-from-carbohydrates =
-            $.carbohydrates.net * $KCAL-PER-G-CARBOHYDRATES;
-        my Kilocalorie:D $calories-from-fiber-soluble =
-            $.carbohydrates.fiber.soluble * $KCAL-PER-G-FIBER-SOLUBLE;
-        my Kilocalorie:D $calories-from-fiber-insoluble =
-            $.carbohydrates.fiber.insoluble * $KCAL-PER-G-FIBER-INSOLUBLE;
-        my Kilocalorie:D $calories-from-fat =
-            $.fat * $KCAL-PER-G-FAT;
-        my Kilocalorie:D $calories-from-alcohol =
-            $.alcohol * $KCAL-PER-G-ALCOHOL;
-        my Kilocalorie:D $calories =
-            [+] $calories-from-protein,
-                $calories-from-carbohydrates,
-                $calories-from-fiber-soluble,
-                $calories-from-fiber-insoluble,
-                $calories-from-fat,
-                $calories-from-alcohol;
-    }
-
     submethod BUILD(
         Str:D :$!name!,
         Str:D :$!serving-size!,
@@ -155,12 +147,14 @@ class Food
     )
     {
         $!protein = Rat($protein);
-        my Gram:D $carbohydrates-total = Rat($carbs);
-        my Fiber $fiber .= new($f) if $f;
-        my %opts;
-        %opts<total> = $carbohydrates-total;
-        %opts<fiber> = $fiber if $fiber;
-        $!carbohydrates = Carbohydrates.new(|%opts);
+        {
+            my Gram:D $total = Rat($carbs);
+            my Fiber $fiber .= new($f) if $f;
+            my %opts;
+            %opts<total> = $total;
+            %opts<fiber> = $fiber if $fiber;
+            $!carbohydrates = Carbohydrates.new(|%opts);
+        }
         $!fat = Rat($fat);
         $!alcohol = Rat($alcohol) if $alcohol;
     }
@@ -192,6 +186,29 @@ class Food
             :%carbohydrates,
             :$.fat,
             :$.alcohol;
+    }
+
+    method calories(::?CLASS:D: --> Kilocalorie:D)
+    {
+        my Kilocalorie:D $calories-from-protein =
+            $.protein * $KCAL-PER-G-PROTEIN;
+        my Kilocalorie:D $calories-from-carbohydrates =
+            $.carbohydrates.net * $KCAL-PER-G-CARBOHYDRATES;
+        my Kilocalorie:D $calories-from-fiber-soluble =
+            $.carbohydrates.fiber.soluble * $KCAL-PER-G-FIBER-SOLUBLE;
+        my Kilocalorie:D $calories-from-fiber-insoluble =
+            $.carbohydrates.fiber.insoluble * $KCAL-PER-G-FIBER-INSOLUBLE;
+        my Kilocalorie:D $calories-from-fat =
+            $.fat * $KCAL-PER-G-FAT;
+        my Kilocalorie:D $calories-from-alcohol =
+            $.alcohol * $KCAL-PER-G-ALCOHOL;
+        my Kilocalorie:D $calories =
+            [+] $calories-from-protein,
+                $calories-from-carbohydrates,
+                $calories-from-fiber-soluble,
+                $calories-from-fiber-insoluble,
+                $calories-from-fat,
+                $calories-from-alcohol;
     }
 }
 
