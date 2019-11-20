@@ -2593,6 +2593,15 @@ protein = 2
 carbs = 3.8
 fat = 0.4
 
+# aka bird's eye chili
+[[food]]
+name = 'thai-chili-pepper'
+serving-size = '100g'
+protein = 1.9
+carbs = 8.8
+fiber = 1.5
+fat = 0.4
+
 [[food]]
 name = 'tomato'
 serving-size = '100g'
