@@ -54,6 +54,11 @@ class Fiber
             :$.soluble;
     }
 
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
+    }
+
     method insoluble(::?CLASS:D: --> Gram:D)
     {
         my Gram:D $insoluble = $.total * $.percent-insoluble;
@@ -102,6 +107,11 @@ class Carbohydrates
             :$.total,
             :$.net,
             :%fiber;
+    }
+
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
     }
 
     # carbohydrates less all sources of fiber
@@ -189,6 +199,11 @@ class Food
             :$.alcohol;
     }
 
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
+    }
+
     method calories(::?CLASS:D: --> Kilocalorie:D)
     {
         my Kilocalorie:D $calories-from-protein =
@@ -225,6 +240,11 @@ class Pantry
         my Hash:D @food = @.food.map({ .hash });
         my %hash = :@food;
     }
+
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
+    }
 }
 
 # end class Pantry }}}
@@ -260,6 +280,11 @@ class Portion
         my %hash =
             :$.food,
             :$.servings;
+    }
+
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
     }
 }
 
@@ -326,6 +351,11 @@ class Meal
             :%time,
             :%date-time,
             :@portion;
+    }
+
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
     }
 }
 

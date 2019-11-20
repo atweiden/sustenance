@@ -170,7 +170,7 @@ sub fmtnum($number)
     sprintf('%.0f', $number);
 }
 
-method hash(::?CLASS:D:)
+method hash(::?CLASS:D: --> Hash:D)
 {
     my %recommended-calories =
         :muscle-gains({
@@ -189,6 +189,11 @@ method hash(::?CLASS:D:)
         :$!tdee,
         :%recommended-calories,
         :%recommended-protein;
+}
+
+method perl(::?CLASS:D: --> Str:D)
+{
+    my Str:D $perl = %.hash.perl;
 }
 
 =begin pod
