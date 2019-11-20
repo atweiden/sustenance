@@ -256,7 +256,9 @@ class Portion
 
     method hash(::?CLASS:D: --> Hash:D)
     {
-        my %hash = :$.food, :$.servings;
+        my %hash =
+            :$.food,
+            :$.servings;
     }
 }
 
@@ -287,8 +289,15 @@ class Meal
     )
     {
         $!time = Time.new(|%time);
-        my UInt:D ($year, $month, $day) = $!date.year, $!date.month, $!date.day;
-        my %date = :$year, :$month, :$day;
+        my UInt:D ($year,
+                   $month,
+                   $day) = $!date.year,
+                           $!date.month,
+                           $!date.day;
+        my %date =
+            :$year,
+            :$month,
+            :$day;
         $!date-time = DateTime.new(|%date, |$!time.hash);
         @!portion = @portion.map(-> %portion { Portion.new(|%portion) });
     }
@@ -311,7 +320,11 @@ class Meal
         my %time = $.time.hash;
         my %date-time = hash($.date-time);
         my Hash:D @portion = @.portion.map({ .hash });
-        my %hash = :%date, :%time, :%date-time, :@portion;
+        my %hash =
+            :%date,
+            :%time,
+            :%date-time,
+            :@portion;
     }
 
     proto sub hash(|)
@@ -319,18 +332,36 @@ class Meal
 
     multi sub hash(DateTime:D $date-time --> Hash:D)
     {
-        my (UInt:D $year, UInt:D $month, UInt:D $day) =
-            $date-time.year, $date-time.month, $date-time.day;
-        my (UInt:D $hour, UInt:D $minute, Rat:D $second) =
-            $date-time.hour, $date-time.minute, $date-time.second;
-        my %hash = :$year, :$month, :$day, :$hour, :$minute, :$second;
+        my (UInt:D $year,
+            UInt:D $month,
+            UInt:D $day) = $date-time.year,
+                           $date-time.month,
+                           $date-time.day;
+        my (UInt:D $hour,
+            UInt:D $minute,
+            Rat:D $second) = $date-time.hour,
+                             $date-time.minute,
+                             $date-time.second;
+        my %hash =
+            :$year,
+            :$month,
+            :$day,
+            :$hour,
+            :$minute,
+            :$second;
     }
 
     multi sub hash(Date:D $date --> Hash:D)
     {
-        my (UInt:D $year, UInt:D $month, UInt:D $day) =
-            $date.year, $date.month, $date.day;
-        my %hash = :$year, :$month, :$day;
+        my (UInt:D $year,
+            UInt:D $month,
+            UInt:D $day) = $date.year,
+                           $date.month,
+                           $date.day;
+        my %hash =
+            :$year,
+            :$month,
+            :$day;
     }
 }
 

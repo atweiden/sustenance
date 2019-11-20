@@ -92,7 +92,11 @@ multi method gen-macros(
     --> Hash:D
 )
 {
-    my UInt:D ($year, $month, $day) = $date.year, $date.month, $date.day;
+    my UInt:D ($year,
+               $month,
+               $day) = $date.year,
+                       $date.month,
+                       $date.day;
     my %date =
         :$year,
         :$month,
@@ -215,7 +219,9 @@ multi sub gen-macros(Hash:D :@meal! --> Hash:D)
         @meal.map(-> %meal {
             my Hash:D @portion = %meal<portion>.Array;
             my %totals = gen-macros(:@portion);
-            my %macros = :%meal, :%totals;
+            my %macros =
+                :%meal,
+                :%totals;
         });
     my %totals = gen-macros(:@macros);
     my %macros =

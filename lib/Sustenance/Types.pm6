@@ -42,7 +42,9 @@ class Time
         --> Nil
     )
     {
-        my (Str:D $h, Str:D $m, Str:D $s) = $t.split(':');
+        my (Str:D $h,
+            Str:D $m,
+            Str:D $s) = $t.split(':');
         $!hour = Int($h);
         $!minute = Int($m);
         $!second = Rat($s);
@@ -53,9 +55,9 @@ class Time
 
     multi method new(
         *%opts (
-            UInt:D :$hour!,
-            UInt:D :$minute!,
-            Rat:D :$second!
+            UInt:D :hour($)!,
+            UInt:D :minute($)!,
+            Rat:D :second($)!
         )
         --> Time:D
     )
@@ -74,7 +76,10 @@ class Time
 
     method hash(::?CLASS:D: --> Hash:D)
     {
-        my %hash = :$!hour, :$!minute, :$!second;
+        my %hash =
+            :$!hour,
+            :$!minute,
+            :$!second;
     }
 }
 
