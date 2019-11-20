@@ -1,5 +1,6 @@
 use v6;
 use Sustenance::Types;
+use Sustenance::Utils;
 
 # class Fiber {{{
 
@@ -316,52 +317,15 @@ class Meal
 
     method hash(::?CLASS:D: --> Hash:D)
     {
-        my %date = hash($.date);
+        my %date = Sustenance::Utils.hash($.date);
         my %time = $.time.hash;
-        my %date-time = hash($.date-time);
+        my %date-time = Sustenance::Utils.hash($.date-time);
         my Hash:D @portion = @.portion.map({ .hash });
         my %hash =
             :%date,
             :%time,
             :%date-time,
             :@portion;
-    }
-
-    proto sub hash(|)
-    {*}
-
-    multi sub hash(DateTime:D $date-time --> Hash:D)
-    {
-        my (UInt:D $year,
-            UInt:D $month,
-            UInt:D $day) = $date-time.year,
-                           $date-time.month,
-                           $date-time.day;
-        my (UInt:D $hour,
-            UInt:D $minute,
-            Rat:D $second) = $date-time.hour,
-                             $date-time.minute,
-                             $date-time.second;
-        my %hash =
-            :$year,
-            :$month,
-            :$day,
-            :$hour,
-            :$minute,
-            :$second;
-    }
-
-    multi sub hash(Date:D $date --> Hash:D)
-    {
-        my (UInt:D $year,
-            UInt:D $month,
-            UInt:D $day) = $date.year,
-                           $date.month,
-                           $date.day;
-        my %hash =
-            :$year,
-            :$month,
-            :$day;
     }
 }
 

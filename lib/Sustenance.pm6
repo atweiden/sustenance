@@ -153,13 +153,13 @@ multi sub gen-macros(Pantry:D $pantry, Meal:D @m --> Array[Hash:D])
     my Hash:D @meal =
         @m.map(-> Meal:D $meal {
             my Date:D $date = $meal.date;
-            my %time = $meal.time.hash;
+            my Time:D $time = $meal.time;
             my DateTime:D $date-time = $meal.date-time;
             my Portion:D @p = $meal.portion;
             my Hash:D @portion = gen-macros(@p, $pantry);
             my %meal =
                 :$date,
-                :%time,
+                :$time,
                 :$date-time,
                 :@portion;
         });

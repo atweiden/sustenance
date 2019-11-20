@@ -81,6 +81,11 @@ class Time
             :$!minute,
             :$!second;
     }
+
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
+    }
 }
 
 multi sub infix:<cmp>(
