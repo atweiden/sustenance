@@ -74,6 +74,8 @@ fat = 7.2
 
 # 2019-11 {{{
 
+# --- 2019-11-19 {{{
+
 # --- [[meal]] {{{
 
 [[meal]]
@@ -89,14 +91,18 @@ time = 10:15:00
   servings = 1.5
 
   [[meal.portion]]
-  food = 'hemp-protein-powder'
+  food = 'hemp-seed-protein-powder'
   servings = 1
 
 # --- end [[meal]] }}}
+
+# --- end 2019-11-19 }}}
+# --- 2019-11-20 {{{
+
 # --- [[meal]] {{{
 
 [[meal]]
-date = 2019-11-19
+date = 2019-11-20
 time = 17:05:00
 
   [[meal.portion]]
@@ -116,6 +122,8 @@ time = 17:05:00
   servings = 0.75
 
 # --- end [[meal]] }}}
+
+# --- end 2019-11-20 }}}
 
 # end 2019-11 }}}
 
