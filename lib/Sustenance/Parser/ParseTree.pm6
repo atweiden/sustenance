@@ -133,6 +133,11 @@ class Food
     has Gram:D $.fat is required;
     has Gram:D $.alcohol = 0.0;
 
+    # this food is also known as these names
+    has FoodName @.aka;
+    # source of data
+    has DataSource $.source;
+
     # 1 gram of protein is 4 kcal
     constant $KCAL-PER-G-PROTEIN = 4;
     # 1 gram of carbohydrates is 4 kcal
@@ -153,7 +158,9 @@ class Food
         Numeric:D :$carbs!,
         Numeric:D :$fat!,
         :fiber($f),
-        Numeric :$alcohol
+        Numeric :$alcohol,
+        :$aka,
+        Str :$source
         --> Nil
     )
     {
@@ -168,6 +175,8 @@ class Food
         }
         $!fat = Rat($fat);
         $!alcohol = Rat($alcohol) if $alcohol;
+        @!aka = |$aka if $aka;
+        $!source = $source if $source;
     }
 
     method new(
@@ -178,7 +187,9 @@ class Food
             Numeric:D :carbs($)! where * >= 0,
             Numeric:D :fat($)! where * >= 0,
             :fiber($),
-            Numeric :alcohol($)
+            Numeric :alcohol($),
+            :aka($),
+            Str :source($)
         )
         --> Food:D
     )
@@ -197,6 +208,9 @@ class Food
             :%carbohydrates,
             :$.fat,
             :$.alcohol;
+        %hash<aka> = @.aka if @.aka;
+        %hash<source> = $.source if $.source;
+        %hash;
     }
 
     method perl(::?CLASS:D: --> Str:D)

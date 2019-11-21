@@ -1,6 +1,7 @@
 use v6;
 
 subset SomeStr of Str is export where *.so;
+constant DataSource is export = SomeStr;
 constant FoodName is export = SomeStr;
 constant ServingSize is export = SomeStr;
 
