@@ -4,29 +4,28 @@
 # --- bean {{{
 
 # vigna angularis - bean, adzuki bean, boiled without salt
-# aka azuki bean, japanese red bean, english red mung bean
-# source: https://fineli.fi/fineli/en/elintarvikkeet/31217
 [[food]]
 name = 'adzuki-bean'
+aka = [ 'azuki-bean', 'japanese-red-bean', 'english-red-mung-bean' ]
 serving-size = '100g'
 protein = 9.3
 carbs = 26.8
 fiber = [ 5.5, 0.84 ]
 fat = 0.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31217'
 
 # phaseolus vulgaris - bean, black bean, turtle bean, in brine, canned
-# aka turtle bean
-# source: https://fineli.fi/fineli/en/elintarvikkeet/35638
 [[food]]
 name = 'black-bean'
+aka = 'turtle-bean'
 serving-size = '100g'
 protein = 6
 carbs = 16.6
 fiber = 6.9
 fat = 0.3
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/35638'
 
 # bioitalia 100% organic black-eyed peas, canned
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/436911/nutrients
 [[food]]
 name = 'black-eyed-pea'
 serving-size = '100g'
@@ -34,31 +33,31 @@ protein = 7.7
 carbs = 17.7
 fiber = 7.7
 fat = 1.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/436911/nutrients'
 
 # bioitalia 100% organic borlotti beans, canned
-# aka cranberry bean
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/393864/nutrients
 [[food]]
 name = 'borlotti-bean'
+aka = 'cranberry-bean'
 serving-size = '100g'
 protein = 5.4
 carbs = 21.5
 fiber = 5.4
 fat = 0.8
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/393864/nutrients'
 
 # whole foods cannellini beans, canned
-# aka white kidney beans
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/549373/nutrients
 [[food]]
 name = 'cannellini-bean'
+aka = 'white-kidney-bean'
 serving-size = '100g'
 protein = 5.4
 carbs = 13.9
 fiber = 4.6
 fat = 0.8
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/549373/nutrients'
 
 # vicia faba - bean, broad bean, fava bean, boiled with salt
-# source: https://fineli.fi/fineli/en/elintarvikkeet/31233
 [[food]]
 name = 'fava-bean'
 serving-size = '100g'
@@ -66,20 +65,20 @@ protein = 7.6
 carbs = 19.5
 fiber = 5.4
 fat = 0.4
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31233'
 
 # cicer arietinum - chick pea in unsalted water
-# aka chickpeas
-# source: https://fineli.fi/fineli/en/elintarvikkeet/11089
 [[food]]
 name = 'garbanzo-bean'
+aka = [ 'chick-pea', 'chickpea' ]
 serving-size = '100g'
 protein = 8.4
 carbs = 22.6
 fiber = [ 5.0, 0.72 ]
 fat = 2.5
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/11089'
 
 # whole foods great northern beans, canned
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/389328/nutrients
 [[food]]
 name = 'great-northern-bean'
 serving-size = '100g'
@@ -87,19 +86,20 @@ protein = 5.4
 carbs = 15.4
 fiber = 4.6
 fat = 0
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/389328/nutrients'
 
 # bean, green bean, string bean, boiled without salt
-# source: https://fineli.fi/fineli/en/elintarvikkeet/31547
 [[food]]
 name = 'green-bean'
+aka = [ 'french-bean', 'string-bean', 'snap-bean', 'haricot-vert' ]
 serving-size = '100g'
 protein = 2.3
 carbs = 8.1
 fiber = [ 2.7, 0.63 ]
 fat = 0.3
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31547'
 
 # phaseolus vulgaris l. - bean, kidney bean, boiled
-# source: https://fineli.fi/fineli/en/elintarvikkeet/31214
 [[food]]
 name = 'kidney-bean'
 serving-size = '100g'
@@ -107,9 +107,9 @@ protein = 8.6
 carbs = 22.7
 fiber = 7.4
 fat = 0.5
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31214'
 
 # lima beans, canned
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/367111/nutrients
 [[food]]
 name = 'lima-bean'
 serving-size = '100g'
@@ -117,9 +117,9 @@ protein = 3.2
 carbs = 13.6
 fiber = 3.2
 fat = 0.4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/367111/nutrients'
 
 # vigna radiata - bean, mung bean, boiled, with salt
-# source: https://fineli.fi/fineli/en/elintarvikkeet/31213
 [[food]]
 name = 'mung-bean'
 serving-size = '100g'
@@ -127,20 +127,20 @@ protein = 7.7
 carbs = 20.2
 fiber = 5.3
 fat = 0.4
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31213'
 
 # organic navy beans, canned
-# aka haricot, pearl haricot beans, white pea bean, and boston bean
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/514018/nutrients
 [[food]]
 name = 'navy-bean'
+aka = [ 'haricot', 'pearl-haricot-bean', 'white-pea-bean', 'boston-bean' ]
 serving-size = '100g'
 protein = 5.4
 carbs = 15.4
 fiber = 5.4
 fat = 0.8
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/514018/nutrients'
 
 # organic pinto beans, canned
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/466572/nutrients
 [[food]]
 name = 'pinto-bean'
 serving-size = '100g'
@@ -148,9 +148,9 @@ protein = 4.8
 carbs = 15.2
 fiber = 4.8
 fat = 0.8
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/466572/nutrients'
 
 # tesco madagascan vanilla pod
-# source: https://www.tesco.com/groceries/en-GB/products/296921851
 [[food]]
 name = 'vanilla-bean'
 serving-size = '100g'
@@ -158,12 +158,12 @@ protein = 4.2
 carbs = 55.4
 fiber = 12.7
 fat = 7.5
+source = 'https://www.tesco.com/groceries/en-GB/products/296921851'
 
 # --- end bean }}}
 # --- chocolate {{{
 
 # https://www.choctree.co.uk/product/pure-cacao-belize-black/
-# source: https://thechocolatebar.nz/collections/sugar-free-and-alternative-sugar/products/chocolate-tree-belize-black-100
 [[food]]
 name = 'chocolate-tree-belize-black-100%-chocolate-bar'
 serving-size = 'half bar (40g)'
@@ -171,25 +171,25 @@ protein = 5
 carbs = 24.5
 fiber = 11.5
 fat = 19.5
+source = 'https://thechocolatebar.nz/collections/sugar-free-and-alternative-sugar/products/chocolate-tree-belize-black-100'
 
-# source: https://shop.giddyyoyo.com/hundo-100-bar-dark-chocolate-bar-certified-organic-62g/
 [[food]]
 name = 'giddyyoyo-hundo-100%-dark-chocolate-bar'
 serving-size = '1 bar (62g)'
 protein = 12
 carbs = 16
 fat = 32
+source = 'https://shop.giddyyoyo.com/hundo-100-bar-dark-chocolate-bar-certified-organic-62g/'
 
 # https://ocho.co.nz/collections/dark-chocolate-bars/products/100-cacao-solomons
-# source: https://www.myfitnesspal.com/food/calories/100-solomon-islands-caco-879460690
 [[food]]
 name = 'ocho-100%-cacao-solomons-chocolate-bar'
 serving-size = 'half bar (47.5g)'
 protein = 6
 carbs = 15.5
 fat = 22.5
+source = 'https://www.myfitnesspal.com/food/calories/100-solomon-islands-caco-879460690'
 
-# source: https://pacarichocolate.us/pacari-raw-100-organic-chocolate-bar/
 [[food]]
 name = 'pacari-raw-100%-organic-chocolate-bar'
 serving-size = '1 bar (50g)'
@@ -197,8 +197,8 @@ protein = 6
 carbs = 13
 fiber = 5
 fat = 28
+source = 'https://pacarichocolate.us/pacari-raw-100-organic-chocolate-bar/'
 
-# source: https://paschachocolate.com/collections/dark-chocolate-bars/products/new-product-sugar-free-100-cacao-organic-dark-chocolate-with-cocoa-nibs-2-8-oz-bar
 [[food]]
 name = 'pascha-sugar-free-100%-organic-chocolate-bar'
 serving-size = '8 pieces (56g)'
@@ -206,8 +206,8 @@ protein = 8
 carbs = 16
 fiber = 8
 fat = 28
+source = 'https://paschachocolate.com/collections/dark-chocolate-bars/products/new-product-sugar-free-100-cacao-organic-dark-chocolate-with-cocoa-nibs-2-8-oz-bar'
 
-# source: https://pure7chocolate.com/product/pure7-dark/
 [[food]]
 name = 'pure7-80%-dark-chocolate-bar'
 serving-size = '1 bar (56g)'
@@ -215,8 +215,8 @@ protein = 8
 carbs = 32
 fiber = 11
 fat = 18
+source = 'https://pure7chocolate.com/product/pure7-dark/'
 
-# source: https://www.tazachocolate.com/collections/see-it-all/products/100-baking-chocolate-6kg-bag
 [[food]]
 name = 'taza-100%-chocolate-for-baking'
 serving-size = '1 serving (1.5oz or 42g)'
@@ -224,74 +224,75 @@ protein = 6
 carbs = 11
 fiber = 6
 fat = 23
+source = 'https://www.tazachocolate.com/collections/see-it-all/products/100-baking-chocolate-6kg-bag'
 
 # --- end chocolate }}}
 # --- dairy {{{
 
 # also includes beaufort, gruyère, salers, tomme de chèvre, manchego
-# source: https://world.openfoodfacts.org/product/3123930650064/comte-aop-34-mg-fromage-a-pate-pressee-cuite-entremont
 [[food]]
 name = 'comté'
 serving-size = '100g'
 protein = 26
 carbs = 0.3
 fat = 34
+source = 'https://world.openfoodfacts.org/product/3123930650064/comte-aop-34-mg-fromage-a-pate-pressee-cuite-entremont'
 
 # whole milk from cow
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/336070/nutrients
 [[food]]
 name = 'cow-milk'
 serving-size = '8 fl oz (244g)'
 protein = 7.7
 carbs = 12
 fat = 7.9
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/336070/nutrients'
 
-# source: https://world.openfoodfacts.org/product/3445020004435/ghee-bio-planete
 [[food]]
 name = 'ghee'
 serving-size = '100g'
 protein = 0.5
 carbs = 0.5
 fat = 99
+source = 'https://world.openfoodfacts.org/product/3445020004435/ghee-bio-planete'
 
 # whole milk from goat
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/336089/nutrients
 [[food]]
 name = 'goat-milk'
 serving-size = '8 fl oz (244g)'
 protein = 8.7
 carbs = 10.9
 fat = 10
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/336089/nutrients'
 
 # milk from sheep
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/170882/nutrients
 [[food]]
 name = 'sheep-milk'
 serving-size = '8 fl oz (245g)'
 protein = 14.7
 carbs = 13.1
 fat = 17.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170882/nutrients'
 
 # --- end dairy }}}
 # --- egg {{{
 
 # egg white omelet, scrambled, or fried, made without fat
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/339157/nutrients
 [[food]]
 name = 'egg-white'
 serving-size = '1 large egg white (30g)'
 protein = 3.7
 carbs = 0.2
 fat = 0.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339157/nutrients'
 
 # egg omelet or scrambled egg, made without fat
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/339056/nutrients
 [[food]]
 name = 'whole-egg'
 serving-size = '1 large egg (58g)'
 protein = 6.8
 carbs = 1.1
 fat = 5
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339056/nutrients'
 
 # --- end egg }}}
 # --- flavoring {{{
@@ -304,13 +305,13 @@ protein = 0
 carbs = 0
 fat = 0
 
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/547772/nutrients
 [[food]]
 name = 'coconut-vinegar'
 serving-size = '1 tbsp'
 protein = 0
 carbs = 0
 fat = 0
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/547772/nutrients'
 
 # homemade liquid smoke
 [[food]]
@@ -342,7 +343,6 @@ alcohol = 4.5
 
 # almond flour from blanched almonds aka almond powder
 # not to be confused with almond meal, which has coarser texture
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/448425/nutrients
 [[food]]
 name = 'almond-flour'
 serving-size = '100g'
@@ -350,19 +350,19 @@ protein = 21.4
 carbs = 21.4
 fiber = 10.7
 fat = 50
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/448425/nutrients'
 
-# aka arrowroot powder, arrowroot starch
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/170684/nutrients
 [[food]]
 name = 'arrowroot-flour'
+aka = [ 'arrowroot-powder', 'arrowroot-starch' ]
 serving-size = '100g'
 protein = 0.3
 carbs = 88
 fiber = 3.4
 fat = 0.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170684/nutrients'
 
 # gerbs chia seed meal
-# source: https://www.mygerbs.com/shop/chia-seed-meal/
 [[food]]
 name = 'chia-seed-meal'
 serving-size = '100g'
@@ -370,20 +370,20 @@ protein = 14.3
 carbs = 42.9
 fiber = [ 39.3, 0.95 ]
 fat = 32.1
+source = 'https://www.mygerbs.com/shop/chia-seed-meal/'
 
-# aka garbanzo flour
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/174288/nutrients
 [[food]]
 name = 'chickpea-flour'
+aka = [ 'chick-pea-flour', 'garbanzo-flour' ]
 serving-size = '100g'
 protein = 22
 carbs = 58
 fiber = 10.8
 fat = 6.7
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174288/nutrients'
 
 # better body foods organic coconut flour
 # https://betterbodyfoods.com/product/coconut-flour/
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/475563/nutrients
 [[food]]
 name = 'coconut-flour'
 serving-size = '100g'
@@ -392,38 +392,41 @@ carbs = 56.3
 # http://www.pfigueiredo.org/TA26.pdf
 fiber = [ 31.2, 0.56 ]
 fat = 21.9
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/475563/nutrients'
 
-# aka milled flax, flaxseed flour, ground flax, linseed meal
 # https://www.bobsredmill.com/organic-golden-flaxseed-meal.html
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/396925/nutrients
 [[food]]
 name = 'golden-flax-seed-meal'
+aka = [ 'milled-flax', 'flaxseed-flour', 'ground-flax', 'linseed-meal' ]
 serving-size = '100g'
 protein = 23.1
 carbs = 30.8
 # https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 23.1, 0.46 ]
 fat = 34.6
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396925/nutrients'
 
-# gerbs hemp kernel meal aka hemp seed flour/powder
-# source: https://www.mygerbs.com/shop/hemp-kernel-meal/
+# gerbs hemp kernel meal
 [[food]]
 name = 'hemp-seed-meal'
+aka = [ 'hemp-seed-flour', 'hemp-seed-powder' ]
 serving-size = '100g'
 protein = 32.1
 carbs = 7.1
 fiber = 3.6
 fat = 50
+source = 'https://www.mygerbs.com/shop/hemp-kernel-meal/'
 
-# gerbs raw pumpkin seed meal aka pumpkin seed flour/powder
-# source: https://www.mygerbs.com/shop/pumpkin-seed-meal/
+# gerbs raw pumpkin seed meal
 [[food]]
 name = 'pumpkin-seed-meal'
+aka = [ 'pumpkin-seed-flour', 'pumpkin-seed-powder' ]
 serving-size = '100g'
 protein = 25
 carbs = 17.9
 fiber = 3.6
 fat = 46.4
+source = 'https://www.mygerbs.com/shop/pumpkin-seed-meal/'
 
 [[food]]
 name = 'quinoa-flour'
@@ -432,19 +435,20 @@ protein = 14.3
 carbs = 64.3
 fat = 7.1
 
-# gerbs raw sunflower seed meal aka sunflower seed flour/powder
-# source: https://www.mygerbs.com/shop/sunflower-seed-meal-full-oil-content-protein-powder/
+# gerbs raw sunflower seed meal
 [[food]]
 name = 'sunflower-seed-meal'
+aka = [ 'sunflower-seed-flour', 'sunflower-seed-powder' ]
 serving-size = '100g'
 protein = 21.4
 carbs = 21.4
 fiber = 7.1
 fat = 50
+source = 'https://www.mygerbs.com/shop/sunflower-seed-meal-full-oil-content-protein-powder/'
 
-# aka tapioca starch, manioc starch, cassava starch
 [[food]]
 name = 'tapioca-flour'
+aka = [ 'tapioca-starch', 'manioc-starch', 'cassava-starch' ]
 serving-size = '100g'
 protein = 0.2
 carbs = 89
@@ -457,9 +461,9 @@ protein = 13
 carbs = 73
 fat = 2.4
 
-# aka chufa flour
 [[food]]
 name = 'tiger-nut-flour'
+aka = 'chufa-flour'
 serving-size = '100g'
 protein = 21
 carbs = 22
@@ -470,7 +474,6 @@ fat = 50
 
 # --- --- dried fruit {{{
 
-# source: https://fineli.fi/fineli/en/elintarvikkeet/33070
 [[food]]
 name = 'dried-fig'
 serving-size = '100g'
@@ -478,10 +481,11 @@ protein = 3.3
 carbs = 62.5
 fiber = 9.3
 fat = 0.9
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/33070'
 
-# aka dried wolfberry
 [[food]]
 name = 'dried-goji-berry'
+aka = 'dried-wolfberry'
 serving-size = '100g'
 protein = 14
 carbs = 77
@@ -495,7 +499,6 @@ carbs = 77
 fat = 1.2
 
 # persimmons, japanese, dried
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/169942/nutrients
 [[food]]
 name = 'dried-persimmon'
 serving-size = '100g'
@@ -503,6 +506,7 @@ protein = 1.4
 carbs = 73.4
 fiber = 14.5
 fat = 0.6
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169942/nutrients'
 
 [[food]]
 name = 'hachimitsu-umeboshi'
@@ -528,9 +532,9 @@ protein = 2.3
 carbs = 65.5
 fat = 0.2
 
-# aka golden raisin
 [[food]]
 name = 'sultana'
+aka = 'golden-raisin'
 serving-size = '100g'
 protein = 3.4
 carbs = 80
@@ -576,9 +580,9 @@ protein = 0.6
 carbs = 17
 fat = 0
 
-# aka custard apple, pineapple sugar apple (鳳梨釋迦), chirimorinon
 [[food]]
 name = 'atemoya'
+aka = [ 'custard-apple', 'chirimorinon' ]
 serving-size = '100g'
 protein = 1.8
 carbs = 19.4
@@ -592,7 +596,6 @@ carbs = 8.5
 fat = 15
 
 # musa sapientum - banana, without skin
-# source: https://fineli.fi/fineli/en/elintarvikkeet/11049
 [[food]]
 name = 'banana'
 serving-size = '100g'
@@ -600,6 +603,7 @@ protein = 1.2
 carbs = 20.1
 fiber = [ 1.8, 0.56 ]
 fat = 0.4
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/11049'
 
 [[food]]
 name = 'banana-pepper'
@@ -637,7 +641,6 @@ carbs = 7.3
 fat = 0.2
 
 # fresh fig
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/341557/nutrients
 [[food]]
 name = 'fig'
 serving-size = '100g'
@@ -645,16 +648,18 @@ protein = 0.8
 carbs = 19
 fiber = 2.9
 fat = 0.3
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341557/nutrients'
 
-# okinawa goya aka bitter gourd, bitter melon
-# source: https://slism.com/calorie/106205/
+# okinawa goya
 [[food]]
 name = 'goya'
+aka = [ 'bitter-gourd', 'bitter-melon' ]
 serving-size = '100g'
 protein = 1
 carbs = 3.9
 fiber = 2.6
 fat = 0.1
+source = 'https://slism.com/calorie/106205/'
 
 [[food]]
 name = 'grapefruit'
@@ -663,13 +668,14 @@ protein = 0.6
 carbs = 8.1
 fat = 0.1
 
-# source: https://fineli.fi/fineli/en/elintarvikkeet/31552
 [[food]]
 name = 'guava'
 serving-size = '100g'
 protein = 2.5
 carbs = 14.6
+fiber = 5.4
 fat = 0.9
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31552'
 
 [[food]]
 name = 'haskap-berry'
@@ -693,7 +699,6 @@ carbs = 23
 fat = 0.6
 
 # actinidia chinensis - kiwi fruit, without skin
-# source: https://fineli.fi/fineli/en/elintarvikkeet/11050
 [[food]]
 name = 'kiwi'
 serving-size = '100g'
@@ -701,6 +706,7 @@ protein = 0.8
 carbs = 9.8
 fiber = 2.7
 fat = 0.8
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/11050'
 
 [[food]]
 name = 'kumquat'
@@ -723,23 +729,23 @@ protein = 0.9
 carbs = 13
 fat = 0.1
 
-# aka pawpaw
 [[food]]
 name = 'papaya'
+aka = 'pawpaw'
 serving-size = '100g'
 protein = 0.5
 carbs = 11
 fat = 0.3
 
-# aka purple granadilla
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/169108/nutrients
 [[food]]
 name = 'passion-fruit'
+aka = 'purple-granadilla'
 serving-size = '100g'
 protein = 2.2
 carbs = 23.4
 fiber = 10.4
 fat = 0.7
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169108/nutrients'
 
 [[food]]
 name = 'pear'
@@ -748,7 +754,7 @@ protein = 0.4
 carbs = 15
 fat = 0.1
 
-# japanese persimmon
+# persimmons, japanese, raw
 [[food]]
 name = 'persimmon'
 serving-size = '100g'
@@ -756,6 +762,7 @@ protein = 0.6
 carbs = 18.6
 fiber = 3.6
 fat = 0.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169941/nutrients'
 
 [[food]]
 name = 'pineapple'
@@ -787,7 +794,6 @@ carbs = 18.7
 fat = 1.2
 
 # cucurbita pepo - pumpkin
-# source: https://fineli.fi/fineli/en/elintarvikkeet/350
 [[food]]
 name = 'pumpkin'
 serving-size = '100g'
@@ -795,6 +801,7 @@ protein = 0.8
 carbs = 4
 fiber = [ 2.0, 0.7 ]
 fat = 0.1
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/350'
 
 [[food]]
 name = 'raspberry'
@@ -824,9 +831,9 @@ protein = 0.6
 carbs = 7.6
 fat = 0.2
 
-# aka courgette
 [[food]]
 name = 'zucchini'
+aka = 'courgette'
 serving-size = '100g'
 protein = 2.5
 carbs = 5.8
@@ -835,11 +842,11 @@ fat = 0.8
 # --- --- end fresh fruit }}}
 # --- --- pickled fruit {{{
 
-# aka gherkins
 # https://fddb.info/db/en/food/diverse_pickles_cornichons/index.html
 # https://www.fitbit.com/foods/Whole+Pickled+Gherkins/540756868
 [[food]]
 name = 'cornichon'
+aka = 'gherkin'
 serving-size = '100g'
 protein = 0.8
 carbs = 2.6
@@ -853,9 +860,9 @@ protein = 1
 carbs = 3.8
 fat = 15.3
 
-# aka pickles
 [[food]]
 name = 'pickled-cucumber'
+aka = 'pickle'
 serving-size = '1 medium-large spear (100g)'
 protein = 0.3
 carbs = 2.3
@@ -881,10 +888,8 @@ carbs = 8.4
 fat = 0.3
 
 # lime juice, 100%, freshly squeezed
-# ideally okinawa shikuwasa lime
-# aka shiikuwasha, shequasar, taiwan tangerine, flat lemon, hirami lemon
-# or filipino calamansi lime
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/341453/nutrients
+# ideally from okinawa shikuwasa (shiikuwasha, shequasar) lime, taiwan
+# tangerine, flat lemon, hirami lemon or filipino calamansi lime
 [[food]]
 name = 'lime-juice'
 serving-size = '4 fl oz (124g)'
@@ -892,6 +897,7 @@ protein = 0.5
 carbs = 10
 fiber = 0.5
 fat = 0.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341453/nutrients'
 
 # --- --- end squeezed fruit }}}
 
@@ -907,19 +913,19 @@ protein = 1.5
 carbs = 7
 fat = 0.5
 
-# aka brown beech mushroom, brown beech clamshell mushroom
 # http://www.hokto-kinoko.com/whats-kinoko/bunashimeji/
 [[food]]
 name = 'buna-shimeji-mushroom'
+aka = [ 'brown-beech-mushroom', 'brown-beech-clamshell-mushroom' ]
 serving-size = '100g'
 protein = 2
 carbs = 6
 fat = 0
 
-# aka white beech mushroom, white buna shimeji, white clamshell mushroom
 # http://www.hokto-kinoko.com/whats-kinoko/bunapi/
 [[food]]
 name = 'bunapi-shimeji-mushroom'
+aka = [ 'white-beech-mushroom', 'white-buna-shimeji', 'white-clamshell-mushroom' ]
 serving-size = '100g'
 protein = 2
 carbs = 6
@@ -933,26 +939,26 @@ protein = 1.5
 carbs = 6.9
 fat = 0.5
 
-# aka white button mushroom, swiss brown mushroom
 [[food]]
 name = 'crimini-mushroom'
+aka = [ 'white-button-mushroom', 'swiss-brown-mushroom' ]
 serving-size = '100g'
 protein = 2.5
 carbs = 4.3
 fat = 0.1
 
-# aka enoki mushroom
 [[food]]
 name = 'enokitake-mushroom'
+aka = 'enoki-mushroom'
 serving-size = '100g'
 protein = 2.7
 carbs = 7.8
 fat = 0.3
 
-# aka king trumpet mushroom, king oyster mushroom
 # http://www.hokto-kinoko.com/whats-kinoko/king-trumpet/
 [[food]]
 name = 'eryngii-mushroom'
+aka = [ 'king-trumpet-mushroom', 'king-oyster-mushroom' ]
 serving-size = '100g'
 protein = 2
 carbs = 7
@@ -966,26 +972,26 @@ protein = 3.3
 carbs = 6.1
 fat = 0.4
 
-# aka hen-of-the-woods mushroom
 # http://www.hokto-kinoko.com/whats-kinoko/maitake/
 [[food]]
 name = 'maitake-mushroom'
+aka = 'hen-of-the-woods-mushroom'
 serving-size = '100g'
 protein = 1
 carbs = 5
 fat = 0
 
-# aka pine mushroom
 [[food]]
 name = 'matsutake-mushroom'
+aka = 'pine-mushroom'
 serving-size = '100g'
 protein = 2
 carbs = 8.2
 fat = 0.6
 
-# aka king bolete mushroom, cèpe mushroom
 [[food]]
 name = 'porcini-mushroom'
+aka = [ 'king-bolete-mushroom', 'cèpe-mushroom' ]
 serving-size = '100g'
 protein = 2.5
 carbs = 5.1
@@ -1007,9 +1013,9 @@ protein = 2.2
 carbs = 6.8
 fat = 0.5
 
-# aka chestnut mushroom, black poplar, velvet pioppini, tea tree mushroom
 [[food]]
 name = 'yanagi-matsutake-mushroom'
+aka = [ 'chestnut-mushroom', 'black-poplar', 'velvet-pioppini', 'tea-tree-mushroom' ]
 serving-size = '100g'
 protein = 2.5
 carbs = 4.3
@@ -1020,17 +1026,19 @@ fat = 0.1
 
 # --- --- --- black truffle {{{
 
-# uncinatum aka french burgundy truffle
+# uncinatum
 [[food]]
 name = 'burgundy-black-truffle'
+aka = 'french-burgundy-truffle'
 serving-size = '100g'
 protein = 4
 carbs = 42
 fat = 32
 
-# brumale vitt. aka italian muscat truffle
+# brumale vitt.
 [[food]]
 name = 'muscat-black-truffle'
+aka = 'italian-muscat-truffle'
 serving-size = '100g'
 protein = 4
 carbs = 42
@@ -1052,9 +1060,10 @@ protein = 4
 carbs = 42
 fat = 32
 
-# melanosporum vitt. aka périgord, dolce di norcia, prized black truffle
+# melanosporum vitt.
 [[food]]
 name = 'sweet-black-truffle'
+aka = [ 'périgord-truffle', 'dolce-di-norcia-truffle', 'prized-black-truffle' ]
 serving-size = '100g'
 protein = 4
 carbs = 42
@@ -1063,18 +1072,20 @@ fat = 32
 # --- --- --- end black truffle }}}
 # --- --- --- white truffle {{{
 
-# borchii vitt. aka marzuolo white truffle
+# borchii vitt.
 # https://www.megabitenutrition.com/post/five-top-tips-on-truffles
 [[food]]
 name = 'bianchetto-white-truffle'
+aka = 'marzuolo-white-truffle'
 serving-size = '100g'
 protein = 4
 carbs = 42
 fat = 32
 
-# magnatum pico aka white alba, piedmont truffle, white diamond
+# magnatum pico
 [[food]]
 name = 'white-truffle'
+aka = [ 'white-alba-truffle', 'piedmont-truffle', 'white-diamond-truffle' ]
 serving-size = '100g'
 protein = 4
 carbs = 42
@@ -1085,12 +1096,12 @@ fat = 32
 # --- --- end truffle }}}
 # --- --- yeast {{{
 
-# nutritional yeast flakes/powder aka vegetarian support formula,
-# savory yeast flakes
+# nutritional yeast flakes/powder
 # not to be confused with brewer's yeast, torula yeast, active dry yeast
 # or baking yeast
 [[food]]
 name = 'nutritional-yeast'
+aka = [ 'vegetarian-support-formula', 'savory-yeast-flakes' ]
 serving-size = '1 tbsp (8.5g)'
 protein = 3.8
 carbs = 3.1
@@ -1124,48 +1135,47 @@ protein = 3.8
 carbs = 23
 fat = 0.2
 
-# https://www.foodforlife.com/product/breads/ezekiel-49-low-sodium-sprouted-whole-grain-bread
 [[food]]
 name = 'ezekiel-bread'
 serving-size = '1 slice (34g)'
 protein = 4
 carbs = 15
 fat = 0.5
+source = 'https://www.foodforlife.com/product/breads/ezekiel-49-low-sodium-sprouted-whole-grain-bread'
 
-# https://www.foodforlife.com/product/buns/ezekiel-49-sprouted-whole-grain-burger-buns
 [[food]]
 name = 'ezekiel-bun'
 serving-size = '1 bun (76g)'
 protein = 9
 carbs = 34
 fat = 1.5
+source = 'https://www.foodforlife.com/product/buns/ezekiel-49-sprouted-whole-grain-burger-buns'
 
-# https://www.foodforlife.com/product/english-muffins/7-sprouted-grains-english-muffins
 [[food]]
 name = 'ezekiel-english-muffin'
 serving-size = '½ muffin (38g)'
 protein = 4
 carbs = 16
 fat = 1
+source = 'https://www.foodforlife.com/product/english-muffins/7-sprouted-grains-english-muffins'
 
-# https://www.foodforlife.com/product/pocket-breads/ezekiel-49-whole-grain-pocket-bread
 [[food]]
 name = 'ezekiel-pocket-bread'
 serving-size = '1 pocket bread (47g)'
 protein = 7
 carbs = 21
 fat = 0.5
+source = 'https://www.foodforlife.com/product/pocket-breads/ezekiel-49-whole-grain-pocket-bread'
 
-# https://www.foodforlife.com/product/pasta/ezekiel-49-sprouted-whole-grain-spaghetti
 [[food]]
 name = 'ezekiel-spaghetti'
 serving-size = '2 oz (56g, ⅛ container)'
 protein = 8
 carbs = 40
 fat = 2
+source = 'https://www.foodforlife.com/product/pasta/ezekiel-49-sprouted-whole-grain-spaghetti'
 
 # cooked farro
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/596587/nutrients
 [[food]]
 name = 'farro'
 serving-size = '100g'
@@ -1173,6 +1183,7 @@ protein = 13.3
 carbs = 73.3
 fiber = 6.7
 fat = 1.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/596587/nutrients'
 
 # plain corn grits, measured dry
 [[food]]
@@ -1184,7 +1195,6 @@ fat = 2.1
 
 # avena sativa - oats, rolled, oat flakes
 # measured dry
-# source: https://fineli.fi/fineli/en/elintarvikkeet/153
 [[food]]
 name = 'rolled-oats'
 serving-size = '100g'
@@ -1192,6 +1202,7 @@ protein = 13.6
 carbs = 70
 fiber = [ 10.0, 0.46 ]
 fat = 7.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/153'
 
 # cooked long-grain white rice
 [[food]]
@@ -1237,7 +1248,6 @@ carbs = 7
 fat = 1.1
 
 # allium sativum - garlic
-# source: https://fineli.fi/fineli/en/elintarvikkeet/393
 [[food]]
 name = 'garlic'
 serving-size = '100g'
@@ -1245,6 +1255,7 @@ protein = 7.9
 carbs = 18.4
 fiber = 2.1
 fat = 0.6
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/393'
 
 [[food]]
 name = 'ginger-root'
@@ -1293,10 +1304,11 @@ protein = 6
 carbs = 66
 fat = 13
 
-# okinawa yomogi powder aka japanese mugwort
+# okinawa yomogi powder
 # see also: okinawa chomeiso powder
 [[food]]
 name = 'yomogi-powder'
+aka = 'japanese-mugwort-powder'
 serving-size = '100g'
 protein = 16.1
 carbs = 62.4
@@ -1305,7 +1317,8 @@ fat = 4.3
 # --- end herb }}}
 # --- legume {{{
 
-# okinawa beni-imo purple sweet potato aka filipino ube purple yam
+# okinawa beni-imo purple sweet potato
+# see also: filipino ube purple yam
 [[food]]
 name = 'beni-imo-purple-sweet-potato'
 serving-size = '100g'
@@ -1321,9 +1334,10 @@ protein = 3
 carbs = 88.5
 fat = 0.5
 
-# japanese dried sweet potato aka dried murasaki
+# japanese dried sweet potato
 [[food]]
 name = 'dried-sweet-potato'
+aka = 'dried-murasaki'
 serving-size = '100g'
 protein = 3.2
 carbs = 72.6
@@ -1428,7 +1442,6 @@ fat = 4
 # --- nut {{{
 
 # prunus amygdalus - almond
-# source: https://fineli.fi/fineli/en/elintarvikkeet/379
 [[food]]
 name = 'almond'
 serving-size = '100g'
@@ -1436,6 +1449,7 @@ protein = 24.1
 carbs = 19.1
 fiber = [ 12.5, 0.552 ]
 fat = 51.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/379'
 
 [[food]]
 name = 'brazil-nut'
@@ -1509,9 +1523,9 @@ protein = 6.7
 carbs = 26.7
 fat = 66.7
 
-# aka chufa
 [[food]]
 name = 'tiger-nut'
+aka = 'chufa'
 serving-size = '100g'
 protein = 6.1
 carbs = 42.5
@@ -1535,21 +1549,21 @@ carbs = 0
 fat = 14
 
 # better body foods virgin organic coconut oil
-# https://fdc.nal.usda.gov/fdc-app.html#/food-details/602629/nutrients
 [[food]]
 name = 'coconut-oil'
 serving-size = '1 tbsp (14g)'
 protein = 0
 carbs = 0
 fat = 14
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/602629/nutrients'
 
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/389394/nutrients
 [[food]]
 name = 'extra-virgin-olive-oil'
 serving-size = '1 tbsp (14g)'
 protein = 0
 carbs = 0
 fat = 14
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/389394/nutrients'
 
 [[food]]
 name = 'hemp-seed-oil'
@@ -1591,7 +1605,7 @@ protein = 31
 carbs = 0
 fat = 3.6
 
-# aka chicken drumstick & thigh
+# chicken drumstick & thigh
 [[food]]
 name = 'chicken-leg'
 serving-size = '100g'
@@ -1627,7 +1641,7 @@ protein = 25
 carbs = 0
 fat = 11
 
-# aka duck drumstick & thigh
+# duck drumstick & thigh
 [[food]]
 name = 'duck-leg'
 serving-size = '100g'
@@ -1649,7 +1663,7 @@ protein = 30
 carbs = 0
 fat = 2.1
 
-# aka turkey drumstick & thigh
+# turkey drumstick & thigh
 [[food]]
 name = 'turkey-leg'
 serving-size = '100g'
@@ -1669,10 +1683,11 @@ protein = 1.9
 carbs = 1
 fat = 0
 
-# homemade japanese kombu broth/stock aka konbu
+# homemade japanese kombu broth/stock
 # macros unknown
 [[food]]
 name = 'kombu-dashi'
+aka = 'konbu-dashi'
 serving-size = '8 fl oz (224g)'
 protein = 0
 carbs = 0
@@ -1912,7 +1927,6 @@ fat = 7.5
 # --- seed {{{
 
 # salvia hispanica - chia seed
-# source: https://fineli.fi/fineli/en/elintarvikkeet/34847
 [[food]]
 name = 'chia-seed'
 serving-size = '100g'
@@ -1921,45 +1935,46 @@ carbs = 34.6
 # https://www.sciencedirect.com/science/article/pii/S0023643808001345
 fiber = [ 34.4, 0.95 ]
 fat = 33.9
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/34847'
 
 # linum usitatissimus - linseed, whole
 # ideally whole golden flaxseed
-# source: https://fineli.fi/fineli/en/elintarvikkeet/30991?
 [[food]]
 name = 'flax-seed'
+aka = [ 'flaxseed', 'linseed' ]
 serving-size = '100g'
 protein = 22.1
 carbs = 28.8
 # https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 26.4, 0.46 ]
 fat = 43.8
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/30991?'
 
 # cannabis sativa - hemp seed, without hull
-# aka de-hulled or shelled hemp seeds, hemp hearts
-# source: https://fineli.fi/fineli/en/elintarvikkeet/35220
 [[food]]
 name = 'hemp-seed'
+aka = [ 'de-hulled-hemp-seed', 'shelled-hemp-seed', 'hemp-heart' ]
 serving-size = '100g'
 protein = 33
 carbs = 6.4
 fiber = 4
 fat = 53.6
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/35220'
 
 # cucurbita pepo - pumpkin seed
 # pumpkin seed kernels, shelled
-# aka pepitas
-# source: https://fineli.fi/fineli/en/elintarvikkeet/31211
-#         https://www.mygerbs.com/shop/raw-pumpkin-seed-kernels-shelled-pepitas/
+# https://www.mygerbs.com/shop/raw-pumpkin-seed-kernels-shelled-pepitas/
 [[food]]
 name = 'pumpkin-seed'
+aka = [ 'pepita', 'pumpkin-seed-kernel' ]
 serving-size = '100g'
 protein = 35.1
 carbs = 8.9
 fiber = 6
 fat = 48
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31211'
 
 # quinoa, cooked without salt
-# source: https://fineli.fi/fineli/en/elintarvikkeet/31179
 [[food]]
 name = 'quinoa'
 serving-size = '100g'
@@ -1967,10 +1982,12 @@ protein = 4.8
 carbs = 22.9
 fiber = 2.8
 fat = 2.4
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31179'
 
 # raw shelled sunflower seed kernels
 [[food]]
 name = 'sunflower-seed'
+aka = 'sunflower-seed-kernel'
 serving-size = '100g'
 protein = 19
 carbs = 15
@@ -2005,10 +2022,11 @@ protein = 0.7
 carbs = 4.4
 fat = 0.2
 
-# homemade ground blackening seasoning aka blackened seasoning
+# homemade ground blackening seasoning
 # https://www.eatingbirdfood.com/blackened-seasoning/
 [[food]]
 name = 'blackening-seasoning'
+aka = 'blackened-seasoning'
 serving-size = '1 tbsp (7.5g)'
 protein = 1
 carbs = 3
@@ -2184,9 +2202,10 @@ protein = 0.2
 carbs = 1
 fat = 0.1
 
-# ground mustard aka dry mustard, powdered mustard seed
+# ground mustard
 [[food]]
 name = 'mustard-powder'
+aka = [ 'dry-mustard', 'powdered-mustard-seed' ]
 serving-size = '1 tbsp (6.3g)'
 protein = 1.6
 carbs = 1.8
@@ -2324,7 +2343,6 @@ fat = 8.7
 # pistachio butter
 
 # gerbs light salt pumpkin seed butter
-# source: https://www.mygerbs.com/shop/light-salt-pumpkin-seed-butter/
 [[food]]
 name = 'pumpkin-seed-butter'
 serving-size = '100g'
@@ -2332,6 +2350,7 @@ protein = 28.6
 carbs = 14.3
 fiber = 7.1
 fat = 50
+source = 'https://www.mygerbs.com/shop/light-salt-pumpkin-seed-butter/'
 
 # sunflower seed butter
 # tahini aka sesame seed butter
@@ -2384,35 +2403,35 @@ fat = 14
 # --- end supplement }}}
 # --- sweetener {{{
 
-# aka agave nectar
 [[food]]
 name = 'agave-syrup'
+aka = 'agave-nectar'
 serving-size = '1 tbsp'
 protein = 0
 carbs = 13
 fat = 0.1
 
-# aka rice syrup, rice malt syrup
 [[food]]
 name = 'brown-rice-syrup'
+aka = [ 'rice-syrup', 'rice-malt-syrup' ]
 serving-size = '1 tbsp'
 protein = 0.5
 carbs = 15.5
 fat = 0
 
 # better body foods organic coconut palm sugar
-# aka coconut palm sugar, coconut sap sugar, evaporated coconut nectar
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/548922/nutrients
 [[food]]
 name = 'coconut-sugar'
+aka = [ 'coconut-palm-sugar', 'coconut-sap-sugar', 'evaporated-coconut-nectar' ]
 serving-size = '100g'
 protein = 0
 carbs = 100
 fat = 0
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/548922/nutrients'
 
-# aka coconut nectar
 [[food]]
 name = 'coconut-syrup'
+aka = 'coconut-nectar'
 serving-size = '1 tbsp'
 protein = 0
 carbs = 11.5
@@ -2433,7 +2452,7 @@ protein = 0.1
 carbs = 17
 fat = 0
 
-# indian jaggery unrefined brown non-centrifugal sugar aka afghani gur
+# indian jaggery unrefined brown non-centrifugal sugar
 # both dark/light variants
 [[food]]
 name = 'jaggery-brown-sugar'
@@ -2483,10 +2502,11 @@ protein = 0.1
 carbs = 98
 fat = 0.1
 
-# mexican piloncilo unrefined brown non-centrifugal sugar aka panela, panocha
+# mexican piloncilo unrefined brown non-centrifugal sugar
 # both dark/light variants
 [[food]]
 name = 'piloncilo-brown-sugar'
+aka = [ 'panela', 'panocha' ]
 serving-size = '100g'
 protein = 0.1
 carbs = 98
@@ -2512,17 +2532,17 @@ fat = 0
 
 # --- --- meat-alternative {{{
 
-# aka vital wheat gluten, mien chin
 [[food]]
 name = 'seitan'
+aka = [ 'vital-wheat-gluten', 'mien-chin' ]
 serving-size = '100g'
 protein = 75.2
 carbs = 13.8
 fat = 1.9
 
-# aka soft tofu, silk tofu or japanese-style tofu
 [[food]]
 name = 'silken-tofu'
+aka = [ 'soft-tofu', 'silk-tofu', 'japanese-style-tofu' ]
 serving-size = '100g'
 protein = 7.2
 carbs = 1.2
@@ -2552,15 +2572,15 @@ fat = 5.3
 # cashew milk
 # chia seed milk
 
-# source: https://fineli.fi/fineli/en/elintarvikkeet/29014
-#         https://fdc.nal.usda.gov/fdc-app.html#/food-details/170172/nutrients
 [[food]]
 name = 'coconut-milk'
+# https://fdc.nal.usda.gov/fdc-app.html#/food-details/170172/nutrients
 serving-size = '8 fl oz (240g)'
 protein = 4.8
 carbs = 7.9
 fiber = 1.2
 fat = 51
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/29014'
 
 # flax seed milk
 # hazelnut milk
@@ -2603,9 +2623,9 @@ protein = 3.3
 carbs = 11
 fat = 0.2
 
-# aka rocket
 [[food]]
 name = 'arugula'
+aka = 'rocket'
 serving-size = '100g'
 protein = 2.6
 carbs = 3.7
@@ -2668,19 +2688,20 @@ protein = 0.8
 carbs = 4
 fat = 0.2
 
-# aka mirliton squash
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/170402/nutrients
 [[food]]
 name = 'chayote-squash'
+aka = 'mirliton-squash'
 serving-size = '100g'
 protein = 0.8
 carbs = 4.5
 fiber = 1.7
 fat = 0.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170402/nutrients'
 
-# fresh cilantro leaves aka coriander
+# fresh cilantro leaves
 [[food]]
 name = 'cilantro'
+aka = 'coriander'
 serving-size = '100g'
 protein = 2.1
 carbs = 3.7
@@ -2702,7 +2723,6 @@ protein = 2.6
 carbs = 18.6
 fat = 1
 
-# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/342613/nutrients
 [[food]]
 name = 'eggplant'
 serving-size = '100g'
@@ -2710,32 +2730,33 @@ protein = 1
 carbs = 5.9
 fiber = 3
 fat = 0.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342613/nutrients'
 
 # foeniculum vulgare var. azoricum - florence fennel
-# aka finocchio
-# source: https://fineli.fi/fineli/en/elintarvikkeet/30914
 [[food]]
 name = 'fennel'
+aka = 'finocchio'
 serving-size = '100g'
 protein = 0.9
 carbs = 4.2
 fiber = [ 2.4, 0.54 ]
 fat = 0.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/30914'
 
 # capsicum annuum - sweet pepper, green
-# aka green sweet pepper, green capsicum
 # source: https://fineli.fi/fineli/en/elintarvikkeet/387
 [[food]]
 name = 'green-bell-pepper'
+aka = [ 'green-sweet-pepper', 'green-capsicum' ]
 serving-size = '100g'
 protein = 0.9
 carbs = 4.4
 fiber = [ 1.9, 0.58 ]
 fat = 0.3
 
-# aka spring onion, green onion, scallion
 [[food]]
 name = 'green-spring-onion'
+aka = [ 'spring-onion', 'green-onion', 'scallion' ]
 serving-size = '100g'
 protein = 1.8
 carbs = 7.3
@@ -2762,9 +2783,10 @@ protein = 0.9
 carbs = 7
 fat = 0.4
 
-# japanese kabocha squash aka japanese pumpkin
+# japanese kabocha squash
 [[food]]
 name = 'kabocha-squash'
+aka = 'japanese-pumpkin'
 serving-size = '100g'
 protein = 0.7
 carbs = 4.9
@@ -2786,8 +2808,6 @@ carbs = 4.2
 fat = 0.1
 
 # allium cepa - onion
-# source: https://fineli.fi/fineli/en/elintarvikkeet/335
-#         https://fdc.nal.usda.gov/fdc-app.html#/food-details/342625/nutrients
 [[food]]
 name = 'onion'
 serving-size = '100g'
@@ -2795,10 +2815,12 @@ protein = 1.2
 carbs = 6.5
 fiber = [ 1.7, 0.41 ]
 fat = 0.1
+# https://fdc.nal.usda.gov/fdc-app.html#/food-details/342625/nutrients
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/335'
 
-# aka orange sweet pepper, orange capsicum
 [[food]]
 name = 'orange-bell-pepper'
+aka = [ 'orange-sweet-pepper', 'orange-capsicum' ]
 serving-size = '100g'
 protein = 0.9
 carbs = 6.7
@@ -2814,15 +2836,15 @@ carbs = 6.3
 fat = 0.8
 
 # capsicum annuum - sweet pepper, red
-# aka red sweet pepper, red capsicum
-# source: https://fineli.fi/fineli/en/elintarvikkeet/386
 [[food]]
 name = 'red-bell-pepper'
+aka = [ 'red-sweet-pepper', 'red-capsicum' ]
 serving-size = '100g'
 protein = 0.9
 carbs = 6.4
 fiber = [ 1.9, 0.53 ]
 fat = 0.3
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/386'
 
 [[food]]
 name = 'romaine-lettuce'
@@ -2853,9 +2875,9 @@ protein = 2
 carbs = 3.8
 fat = 0.4
 
-# aka bird's eye chili
 [[food]]
 name = 'thai-chili-pepper'
+aka = 'birds-eye-chili'
 serving-size = '100g'
 protein = 1.9
 carbs = 8.8
@@ -2873,15 +2895,15 @@ fiber = [ 1.4, 0.14 ]
 fat = 0.3
 
 # capsicum annuum - sweet pepper, yellow
-# aka yellow sweet pepper, yellow capsicum
-# source: https://fineli.fi/fineli/en/elintarvikkeet/388
 [[food]]
 name = 'yellow-bell-pepper'
+aka = [ 'yellow-sweet-pepper', 'yellow-capsicum' ]
 serving-size = '100g'
 protein = 0.9
 carbs = 7.1
 fiber = [ 2.0, 0.5 ]
 fat = 0.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/388'
 
 # --- --- end fresh vegetable }}}
 # --- --- fermented vegetable {{{
@@ -2913,34 +2935,37 @@ fat = 0.3
 # --- --- end fermented vegetable }}}
 # --- --- sea vegetable {{{
 
-# okinawa asa aka aosa, hitoegusa, aosa nori, ulva lactuca, sea lettuce
-# http://tohoku-food.or.jp/cms/wp-content/uploads/2019/03/aosanori.pdf
+# okinawa asa
 [[food]]
 name = 'hitoegusa-sea-lettuce'
+aka = [ 'aosa', 'hitoegusa', 'aosa-nori', 'ulva-lactuca' ]
 serving-size = '100g'
 protein = 0.6
 carbs = 4.6
 fat = 0.1
+source = 'http://tohoku-food.or.jp/cms/wp-content/uploads/2019/03/aosanori.pdf'
 
-# okinawa mozuku seaweed aka sunui
-# source: https://slism.com/calorie/109037/
+# okinawa mozuku seaweed
 [[food]]
 name = 'mozuku-seaweed'
+aka = 'sunui'
 serving-size = '100g'
 protein = 0.3
 carbs = 2
 fiber = 2
 fat = 0.2
+source = 'https://slism.com/calorie/109037/'
 
-# okinawa umibudo sea grapes aka filipino latok
-# source: https://slism.com/calorie/109012/
+# okinawa umibudo sea grapes, filipino latok sea grapes
 [[food]]
 name = 'umibudo-sea-grape'
+aka = 'latok-sea-grape'
 serving-size = '100g'
 protein = 0.5
 carbs = 1.2
 fiber = 0.8
 fat = 0.1
+source = 'https://slism.com/calorie/109012/'
 
 # --- --- end sea vegetable }}}
 
