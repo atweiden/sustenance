@@ -99,9 +99,12 @@ Each *food* entry may have:
 
 key       | description                                                         | value
 ---       | ---                                                                 | ---
+`aka`     | alternative name by which food is known                             | string
+`aka`     | alternative names by which food is known                            | array of strings
 `fiber`   | grams of total fiber² per serving                                   | number
 `fiber`   | grams of total fiber per serving, `$insoluble-fiber / $total-fiber` | array of floats, array of integers
 `alcohol` | grams of alcohol per serving                                        | number
+`source`  | source of macronutrient data                                        | string
 
 Each *meal* entry must have:
 
