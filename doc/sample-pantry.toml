@@ -470,11 +470,13 @@ fat = 50
 
 # --- --- dried fruit {{{
 
+# source: https://fineli.fi/fineli/en/elintarvikkeet/33070
 [[food]]
 name = 'dried-fig'
 serving-size = '100g'
 protein = 3.3
-carbs = 63.9
+carbs = 62.5
+fiber = 9.3
 fat = 0.9
 
 # aka dried wolfberry
@@ -492,12 +494,14 @@ protein = 2.2
 carbs = 77
 fat = 1.2
 
-# japanese dried persimmon
+# persimmons, japanese, dried
+# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/169942/nutrients
 [[food]]
 name = 'dried-persimmon'
 serving-size = '100g'
 protein = 1.4
 carbs = 73.4
+fiber = 14.5
 fat = 0.6
 
 [[food]]
@@ -632,12 +636,24 @@ protein = 1.3
 carbs = 7.3
 fat = 0.2
 
-# okinawa goya
+# fresh fig
+# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/341557/nutrients
+[[food]]
+name = 'fig'
+serving-size = '100g'
+protein = 0.8
+carbs = 19
+fiber = 2.9
+fat = 0.3
+
+# okinawa goya aka bitter gourd, bitter melon
+# source: https://slism.com/calorie/106205/
 [[food]]
 name = 'goya'
 serving-size = '100g'
 protein = 1
 carbs = 3.9
+fiber = 2.6
 fat = 0.1
 
 [[food]]
@@ -646,6 +662,14 @@ serving-size = '100g'
 protein = 0.6
 carbs = 8.1
 fat = 0.1
+
+# source: https://fineli.fi/fineli/en/elintarvikkeet/31552
+[[food]]
+name = 'guava'
+serving-size = '100g'
+protein = 2.5
+carbs = 14.6
+fat = 0.9
 
 [[food]]
 name = 'haskap-berry'
@@ -668,12 +692,15 @@ protein = 1.7
 carbs = 23
 fat = 0.6
 
+# actinidia chinensis - kiwi fruit, without skin
+# source: https://fineli.fi/fineli/en/elintarvikkeet/11050
 [[food]]
 name = 'kiwi'
 serving-size = '100g'
-protein = 1.1
-carbs = 14.7
-fat = 0.5
+protein = 0.8
+carbs = 9.8
+fiber = 2.7
+fat = 0.8
 
 [[food]]
 name = 'kumquat'
@@ -705,11 +732,13 @@ carbs = 11
 fat = 0.3
 
 # aka purple granadilla
+# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/169108/nutrients
 [[food]]
 name = 'passion-fruit'
 serving-size = '100g'
 protein = 2.2
 carbs = 23.4
+fiber = 10.4
 fat = 0.7
 
 [[food]]
@@ -725,6 +754,7 @@ name = 'persimmon'
 serving-size = '100g'
 protein = 0.6
 carbs = 18.6
+fiber = 3.6
 fat = 0.2
 
 [[food]]
@@ -850,15 +880,17 @@ protein = 0.4
 carbs = 8.4
 fat = 0.3
 
-# freshly-squeezed lime juice
+# lime juice, 100%, freshly squeezed
 # ideally okinawa shikuwasa lime
 # aka shiikuwasha, shequasar, taiwan tangerine, flat lemon, hirami lemon
 # or filipino calamansi lime
+# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/341453/nutrients
 [[food]]
 name = 'lime-juice'
-serving-size = '4 fl oz (112g)'
+serving-size = '4 fl oz (124g)'
 protein = 0.5
-carbs = 9.6
+carbs = 10
+fiber = 0.5
 fat = 0.1
 
 # --- --- end squeezed fruit }}}
@@ -1204,12 +1236,15 @@ protein = 3.5
 carbs = 7
 fat = 1.1
 
+# allium sativum - garlic
+# source: https://fineli.fi/fineli/en/elintarvikkeet/393
 [[food]]
 name = 'garlic'
 serving-size = '100g'
-protein = 6.4
-carbs = 33.1
-fat = 0.5
+protein = 7.9
+carbs = 18.4
+fiber = 2.1
+fat = 0.6
 
 [[food]]
 name = 'ginger-root'
@@ -1293,14 +1328,6 @@ serving-size = '100g'
 protein = 3.2
 carbs = 72.6
 fat = 0.2
-
-# japanese kabocha squash aka japanese pumpkin
-[[food]]
-name = 'kabocha-squash'
-serving-size = '100g'
-protein = 0.7
-carbs = 4.9
-fat = 0.1
 
 # cooked split red lentils
 # assumes 1 cup cooked = 200g cooked
@@ -1516,6 +1543,7 @@ protein = 0
 carbs = 0
 fat = 14
 
+# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/389394/nutrients
 [[food]]
 name = 'extra-virgin-olive-oil'
 serving-size = '1 tbsp (14g)'
@@ -2640,6 +2668,16 @@ protein = 0.8
 carbs = 4
 fat = 0.2
 
+# aka mirliton squash
+# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/170402/nutrients
+[[food]]
+name = 'chayote-squash'
+serving-size = '100g'
+protein = 0.8
+carbs = 4.5
+fiber = 1.7
+fat = 0.1
+
 # fresh cilantro leaves aka coriander
 [[food]]
 name = 'cilantro'
@@ -2664,11 +2702,13 @@ protein = 2.6
 carbs = 18.6
 fat = 1
 
+# source: https://fdc.nal.usda.gov/fdc-app.html#/food-details/342613/nutrients
 [[food]]
 name = 'eggplant'
 serving-size = '100g'
-protein = 0.8
-carbs = 8.7
+protein = 1
+carbs = 5.9
+fiber = 3
 fat = 0.2
 
 # foeniculum vulgare var. azoricum - florence fennel
@@ -2682,12 +2722,16 @@ carbs = 4.2
 fiber = [ 2.4, 0.54 ]
 fat = 0.2
 
+# capsicum annuum - sweet pepper, green
+# aka green sweet pepper, green capsicum
+# source: https://fineli.fi/fineli/en/elintarvikkeet/387
 [[food]]
 name = 'green-bell-pepper'
 serving-size = '100g'
-protein = 2
-carbs = 9
-fat = 0.2
+protein = 0.9
+carbs = 4.4
+fiber = [ 1.9, 0.58 ]
+fat = 0.3
 
 # aka spring onion, green onion, scallion
 [[food]]
@@ -2718,6 +2762,14 @@ protein = 0.9
 carbs = 7
 fat = 0.4
 
+# japanese kabocha squash aka japanese pumpkin
+[[food]]
+name = 'kabocha-squash'
+serving-size = '100g'
+protein = 0.7
+carbs = 4.9
+fat = 0.1
+
 # leeks, raw (bulb and lower leaf-portion)
 [[food]]
 name = 'leek'
@@ -2733,18 +2785,24 @@ protein = 2
 carbs = 4.2
 fat = 0.1
 
+# allium cepa - onion
+# source: https://fineli.fi/fineli/en/elintarvikkeet/335
+#         https://fdc.nal.usda.gov/fdc-app.html#/food-details/342625/nutrients
 [[food]]
 name = 'onion'
 serving-size = '100g'
-protein = 1.1
-carbs = 9
+protein = 1.2
+carbs = 6.5
+fiber = [ 1.7, 0.41 ]
 fat = 0.1
 
+# aka orange sweet pepper, orange capsicum
 [[food]]
 name = 'orange-bell-pepper'
 serving-size = '100g'
 protein = 0.9
 carbs = 6.7
+fiber = 1.2
 fat = 0.2
 
 # fresh parsley
@@ -2755,12 +2813,16 @@ protein = 3
 carbs = 6.3
 fat = 0.8
 
+# capsicum annuum - sweet pepper, red
+# aka red sweet pepper, red capsicum
+# source: https://fineli.fi/fineli/en/elintarvikkeet/386
 [[food]]
 name = 'red-bell-pepper'
 serving-size = '100g'
-protein = 1.9
-carbs = 9
-fat = 0.4
+protein = 0.9
+carbs = 6.4
+fiber = [ 1.9, 0.53 ]
+fat = 0.3
 
 [[food]]
 name = 'romaine-lettuce'
@@ -2800,18 +2862,25 @@ carbs = 8.8
 fiber = 1.5
 fat = 0.4
 
+# lycopersicon esculentum - tomato
+# source: https://fineli.fi/fineli/en/elintarvikkeet/352
 [[food]]
 name = 'tomato'
 serving-size = '100g'
-protein = 0.9
-carbs = 3.9
-fat = 0.2
+protein = 0.6
+carbs = 4.9
+fiber = [ 1.4, 0.14 ]
+fat = 0.3
 
+# capsicum annuum - sweet pepper, yellow
+# aka yellow sweet pepper, yellow capsicum
+# source: https://fineli.fi/fineli/en/elintarvikkeet/388
 [[food]]
 name = 'yellow-bell-pepper'
 serving-size = '100g'
-protein = 1
-carbs = 6.3
+protein = 0.9
+carbs = 7.1
+fiber = [ 2.0, 0.5 ]
 fat = 0.2
 
 # --- --- end fresh vegetable }}}
@@ -2854,21 +2923,23 @@ carbs = 4.6
 fat = 0.1
 
 # okinawa mozuku seaweed aka sunui
-# https://slism.com/calorie/109037/
+# source: https://slism.com/calorie/109037/
 [[food]]
 name = 'mozuku-seaweed'
 serving-size = '100g'
 protein = 0.3
 carbs = 2
+fiber = 2
 fat = 0.2
 
 # okinawa umibudo sea grapes aka filipino latok
-# https://slism.com/calorie/109012/
+# source: https://slism.com/calorie/109012/
 [[food]]
 name = 'umibudo-sea-grape'
 serving-size = '100g'
 protein = 0.5
 carbs = 1.2
+fiber = 0.8
 fat = 0.1
 
 # --- --- end sea vegetable }}}
