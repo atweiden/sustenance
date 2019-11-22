@@ -2814,6 +2814,16 @@ fat = 0
 
 # --- --- meat-alternative {{{
 
+# lupine tempeh
+[[food]]
+name = 'lupeh'
+serving-size = '100g'
+protein = 16.5
+carbs = 14.1
+fiber = 10.6
+fat = 4.8
+source = 'https://mrvegan.ch/lebensmittel/vegan-specials/tofu-seitan-tempeh/853/lupinen-tempeh-lupeh-bio-170g-alberts'
+
 [[food]]
 name = 'seitan'
 aka = [ 'vital-wheat-gluten', 'mien-chin' ]
