@@ -1567,15 +1567,16 @@ fat = 0.2
 # --- --- end potato }}}
 # --- --- lentil {{{
 
+# pigeon peas (red gram), mature seeds, cooked, boiled, without salt
 [[food]]
 name = 'pigeon-pea'
 aka = [ 'cajan-pea', 'congo-bean', 'gandule', 'toor-dal', 'arhar-dal', 'no-eyed-pea' ]
 serving-size = '100g'
-protein = 7.6
-carbs = 17.5
-fiber = [ 1.9, 0.68 ]
+protein = 6.8
+carbs = 23.3
+fiber = 6.7
 fat = 0.4
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31225'
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/172437/nutrients'
 
 # lens culinaris - lentils, red, cooked
 # assumes 1 cup cooked = 200g cooked
@@ -3098,7 +3099,7 @@ name = 'jalapeño'
 serving-size = '100g'
 protein = 0.9
 carbs = 6.5
-fiber = 28
+fiber = 2.8
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168576/nutrients'
 
