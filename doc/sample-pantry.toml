@@ -341,6 +341,18 @@ source = 'https://organicgemini.com/products/gluten-free-flour'
 
 # --- --- dried fruit {{{
 
+# ideally date crown lulu premium emirates dates
+# https://eshop.tesco.com.my/groceries/en-GB/products/7074083406
+# or doñatura dátiles sin hueso bio
+[[food]]
+name = 'dried-date'
+serving-size = '100g'
+protein = 1.8
+carbs = 75
+fiber = 6.7
+fat = 0.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168191/nutrients'
+
 [[food]]
 name = 'dried-fig'
 serving-size = '100g'
@@ -376,36 +388,40 @@ fat = 0.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169942/nutrients'
 
 [[food]]
+name = 'dried-pineapple'
+serving-size = '100g'
+protein = 2.8
+carbs = 75
+fiber = 7.1
+fat = 0.6
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/33077'
+
+[[food]]
 name = 'hachimitsu-umeboshi'
 serving-size = '100g'
 protein = 1.4
 carbs = 22
 fat = 0.2
 
-# date crown lulu premium emirates khenaizi dates
-# https://eshop.tesco.com.my/groceries/en-GB/products/7074083406
+# vitis vinifera - raisin
 [[food]]
-name = 'khenaizi-date'
+name = 'raisin'
 serving-size = '100g'
-protein = 2.8
-carbs = 80
-fat = 0.4
+protein = 2.2
+carbs = 69.8
+fat = 0.5
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/428'
 
-# doñatura dátiles sin hueso bio
-[[food]]
-name = 'pitted-date'
-serving-size = '100g'
-protein = 2.3
-carbs = 65.5
-fat = 0.2
-
+# raisins, golden, seedless
 [[food]]
 name = 'sultana'
 aka = 'golden-raisin'
 serving-size = '100g'
-protein = 3.4
+protein = 3.3
 carbs = 80
-fat = 0.5
+fiber = 3.3
+fat = 0.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168164/nutrients'
 
 [[food]]
 name = 'sun-dried-tomato'
@@ -421,24 +437,30 @@ protein = 1.1
 carbs = 10
 fat = 0.2
 
+# currants, zante, dried
 # not to be confused with true currants
 # https://www.thekitchn.com/whats-the-difference-between-raisins-sultanas-and-currants-223285
 [[food]]
 name = 'zante-currant'
 serving-size = '100g'
-protein = 4.1
-carbs = 74
-fat = 0.3
+protein = 3.4
+carbs = 77
+fiber = 4.4
+fat = 0.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/171724/nutrients'
 
 # --- --- end dried fruit }}}
 # --- --- fresh fruit {{{
 
+# malus - apple, average, with skin
 [[food]]
 name = 'apple'
 serving-size = '100g'
-protein = 0.3
-carbs = 13.8
-fat = 0.2
+protein = 0.2
+carbs = 9.3
+fiber = [ 1.6, 0.63 ]
+fat = 0.1
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/28916'
 
 [[food]]
 name = 'ataulfo-mango'
@@ -451,16 +473,20 @@ fat = 0
 name = 'atemoya'
 aka = [ 'custard-apple', 'chirimorinon' ]
 serving-size = '100g'
-protein = 1.8
-carbs = 19.4
-fat = 0.4
+protein = 1.7
+carbs = 25.2
+fiber = 2.4
+fat = 0.6
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/171725/nutrients'
 
+# persea americana - avocado, without skin and stone
 [[food]]
 name = 'avocado'
 serving-size = '100g'
-protein = 2
-carbs = 8.5
-fat = 15
+protein = 2.6
+carbs = 7.5
+fiber = [ 6.7, 0.3 ]
+fat = 19.4
 
 # musa sapientum - banana, without skin
 [[food]]
@@ -486,12 +512,15 @@ protein = 1.4
 carbs = 10
 fat = 0.5
 
+# vaccinium corymbosum - blueberry
 [[food]]
 name = 'blueberry'
 serving-size = '100g'
-protein = 0.7
-carbs = 14.5
+protein = 0.3
+carbs = 15.8
+fiber = 3.3
 fat = 0.3
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/35596'
 
 [[food]]
 name = 'cherry'
@@ -528,12 +557,14 @@ fiber = 2.6
 fat = 0.1
 source = 'https://slism.com/calorie/106205/'
 
+# citrus paradisi - grapefruit, without skin
 [[food]]
 name = 'grapefruit'
 serving-size = '100g'
 protein = 0.6
-carbs = 8.1
-fat = 0.1
+carbs = 7.9
+fat = 0.3
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/11047'
 
 # plantains, green, raw
 [[food]]
@@ -574,7 +605,9 @@ name = 'jackfruit'
 serving-size = '100g'
 protein = 1.7
 carbs = 23
+fiber = 1.5
 fat = 0.6
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174687/nutrients'
 
 # actinidia chinensis - kiwi fruit, without skin
 [[food]]
@@ -591,7 +624,9 @@ name = 'kumquat'
 serving-size = '100g'
 protein = 1.9
 carbs = 15.9
+fiber = 6.5
 fat = 0.9
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341431/nutrients'
 
 [[food]]
 name = 'mango'
@@ -600,11 +635,13 @@ protein = 0.8
 carbs = 15
 fat = 0.4
 
+# citrus sinensis - orange without skin
 [[food]]
 name = 'orange'
 serving-size = '100g'
-protein = 0.9
-carbs = 13
+protein = 0.6
+carbs = 11
+fiber = [ 2.1, 0.57 ]
 fat = 0.1
 
 [[food]]
@@ -642,19 +679,23 @@ fiber = 3.6
 fat = 0.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169941/nutrients'
 
+# ananas comosus - pineapple, without skin
 [[food]]
 name = 'pineapple'
 serving-size = '100g'
 protein = 0.5
-carbs = 11.8
-fat = 0.1
+carbs = 12.6
+fiber = [ 1.4, 0.86 ]
+fat = 0.4
 
 [[food]]
 name = 'pitaya-dragon-fruit'
 serving-size = '100g'
 protein = 1.4
 carbs = 11.8
+fiber = 1.9
 fat = 0.3
+source = 'https://slism.com/calorie/107111/'
 
 # ripe plantain, raw
 [[food]]
@@ -675,12 +716,15 @@ protein = 0.7
 carbs = 11.4
 fat = 0.3
 
+# punica granatum - pomegranate, without skin
 [[food]]
 name = 'pomegranate'
 serving-size = '100g'
 protein = 1.7
 carbs = 18.7
+fiber = 4
 fat = 1.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31555'
 
 # cucurbita pepo - pumpkin
 [[food]]
@@ -692,12 +736,15 @@ fiber = [ 2.0, 0.7 ]
 fat = 0.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/350'
 
+# rubus idaeus - raspberry
 [[food]]
 name = 'raspberry'
 serving-size = '100g'
-protein = 1.2
-carbs = 11.9
-fat = 0.7
+protein = 1
+carbs = 9.4
+fiber = [ 3.7, 0.89 ]
+fat = 0.8
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/448'
 
 [[food]]
 name = 'saskatoon-berry'
@@ -708,25 +755,44 @@ fat = 0.5
 
 [[food]]
 name = 'star-fruit'
+aka = [ 'starfruit', 'carambola' ]
 serving-size = '100g'
 protein = 1
 carbs = 6.7
+fiber = 2.8
 fat = 0.3
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341540/nutrients'
 
+# fragaria ananassa - strawberry
+[[food]]
+name = 'strawberry'
+serving-size = '100g'
+protein = 0.5
+carbs = 9.6
+fiber = [ 1.9, 0.79 ]
+fat = 0.3
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/447'
+
+# citrullus lanatus - watermelon, without skin
 [[food]]
 name = 'watermelon'
 serving-size = '100g'
-protein = 0.6
-carbs = 7.6
+protein = 0.9
+carbs = 8.2
+fiber = 1.1
 fat = 0.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/11055'
 
+# cucurbita pepo - zucchini, summer squash
 [[food]]
 name = 'zucchini'
 aka = 'courgette'
 serving-size = '100g'
-protein = 2.5
-carbs = 5.8
+protein = 0.7
+carbs = 3.2
+fiber = [ 1, 1 ]
 fat = 0.8
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/389'
 
 # --- --- end fresh fruit }}}
 # --- --- pickled fruit {{{
@@ -741,40 +807,60 @@ protein = 0.8
 carbs = 2.6
 fat = 0.2
 
-# olives, pickled, canned or bottled, green
+# olea europaea sativa - olive, average, without stone, in brine, green
 [[food]]
 name = 'olive'
 serving-size = '20 olives (100g)'
 protein = 1
-carbs = 3.8
+carbs = 3.3
+fiber = 3.3
 fat = 15.3
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/34972'
 
+# cucumis sativus - cucumber, pickled cucumber, without added sugar
 [[food]]
 name = 'pickled-cucumber'
 aka = 'pickle'
 serving-size = '1 medium-large spear (100g)'
-protein = 0.3
-carbs = 2.3
-fat = 0.2
+protein = 0.7
+carbs = 2.4
+fiber = [ 1.1, 0.64 ]
+fat = 0.1
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/347'
 
+# tsukemono, japanese pickles
 # japanese takuan pickled daikon radish, yellow
 [[food]]
 name = 'takuan-pickled-daikon-radish'
 serving-size = '100g'
 protein = 1.4
-carbs = 5.2
-fat = 0.1
+carbs = 5.4
+fiber = 2.6
+fat = 0.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/343684/nutrients'
 
 # --- --- end pickled fruit }}}
 # --- --- squeezed fruit {{{
 
-# freshly-squeezed lemon juice
+# grapefruit juice, 100%, freshly squeezed
+[[food]]
+name = 'grapefruit-juice'
+serving-size = '4 fl oz (124g)'
+protein = 0.6
+carbs = 11.4
+fiber = 0.1
+fat = 0.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341444/nutrients'
+
+# lemon juice, 100%, freshly squeezed
 [[food]]
 name = 'lemon-juice'
 serving-size = '4 fl oz (124g)'
 protein = 0.4
-carbs = 8.4
+carbs = 8.6
+fiber = 0.4
 fat = 0.3
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341450/nutrients'
 
 # lime juice, 100%, freshly squeezed
 # ideally from okinawa shikuwasa (shiikuwasha, shequasar) lime, taiwan
