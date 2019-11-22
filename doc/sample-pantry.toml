@@ -396,8 +396,8 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/475563/nutrients'
 
 # https://www.bobsredmill.com/organic-golden-flaxseed-meal.html
 [[food]]
-name = 'golden-flax-seed-meal'
-aka = [ 'milled-flax', 'flaxseed-flour', 'ground-flax', 'linseed-meal' ]
+name = 'flax-seed-meal'
+aka = [ 'flaxseed-meal', 'flaxseed-flour', 'ground-flax', 'milled-flax', 'linseed-meal' ]
 serving-size = '100g'
 protein = 23.1
 carbs = 30.8
@@ -428,12 +428,15 @@ fiber = 3.6
 fat = 46.4
 source = 'https://www.mygerbs.com/shop/pumpkin-seed-meal/'
 
+# https://www.bobsredmill.com/organic-quinoa-flour.html
 [[food]]
 name = 'quinoa-flour'
 serving-size = '100g'
 protein = 14.3
 carbs = 64.3
-fat = 7.1
+fiber = 7.1
+fat = 5.4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/373794/nutrients'
 
 # gerbs raw sunflower seed meal
 [[food]]
@@ -448,26 +451,32 @@ source = 'https://www.mygerbs.com/shop/sunflower-seed-meal-full-oil-content-prot
 
 [[food]]
 name = 'tapioca-flour'
-aka = [ 'tapioca-starch', 'manioc-starch', 'cassava-starch' ]
+aka = [ 'tapioca-starch', 'manioc-starch', 'cassava-flour' 'cassava-starch' ]
 serving-size = '100g'
-protein = 0.2
-carbs = 89
+protein = 0
+carbs = 88.6
+fiber = 5.7
 fat = 0
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/593835/nutrients'
 
 [[food]]
 name = 'teff-flour'
 serving-size = '100g'
-protein = 13
-carbs = 73
-fat = 2.4
+protein = 12.2
+carbs = 70.7
+fiber = 12.2
+fat = 3.7
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396835/nutrients'
 
 [[food]]
 name = 'tiger-nut-flour'
-aka = 'chufa-flour'
+aka = [ 'chufa-flour', 'chufa-molida', 'tigernut-flour' ]
 serving-size = '100g'
-protein = 21
-carbs = 22
-fat = 50
+protein = 6.7
+carbs = 63.3
+fiber = 33.3
+fat = 23.3
+source = 'https://organicgemini.com/products/gluten-free-flour'
 
 # --- end flour }}}
 # --- fruit {{{
@@ -1454,89 +1463,121 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/379'
 [[food]]
 name = 'brazil-nut'
 serving-size = '100g'
-protein = 14
-carbs = 12
-fat = 67
+protein = 14.3
+carbs = 10.1
+fiber = [ 7.5, 0.19 ]
+fat = 66.4
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/32464'
 
+# anacardium occidentale - nut, cashew nut
 [[food]]
 name = 'cashew'
 serving-size = '100g'
-protein = 18
-carbs = 30
-fat = 44
+protein = 20
+carbs = 22.3
+fiber = [ 3.5, 0.54 ]
+fat = 46.4
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/11086'
 
-# roasted japanese chestnuts
+# castanea sativa - chestnut
 [[food]]
 name = 'chestnut'
 serving-size = '100g'
-protein = 3
-carbs = 45.1
-fat = 0.8
+protein = 3.4
+carbs = 43.4
+fiber = [ 6.8, 0.96 ]
+fat = 2.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/377'
 
+# cocos nucifera - coconut flake
+[[food]]
+name = 'coconut-flake'
+aka = 'shredded-coconut'
+serving-size = '100g'
+protein = 8.1
+carbs = 22.7
+fiber = [ 16.3, 0.82 ]
+fat = 64.5
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/382'
+
+# corylus avellana - nut, hazelnut
 [[food]]
 name = 'hazelnut'
 serving-size = '100g'
-protein = 15
-carbs = 18
-fat = 62
+protein = 14.1
+carbs = 20.9
+fiber = [ 17.5, 0.33 ]
+fat = 61
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/375'
 
 [[food]]
 name = 'macadamia-nut'
 serving-size = '100g'
 protein = 7.9
-carbs = 14
-fat = 76
+carbs = 14.2
+fiber = 8.6
+fat = 75.8
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/32895'
 
+# arachis hypogaea - nut, peanut
 [[food]]
 name = 'peanut'
 serving-size = '100g'
-protein = 24
+protein = 25.6
 carbs = 21
-fat = 50
+fiber = [ 8.5, 0.91 ]
+fat = 43
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/378'
 
+# carya illinoinensis - nut, pecan
 [[food]]
 name = 'pecan'
 serving-size = '100g'
 protein = 9.2
 carbs = 14
+fiber = 9.6
 fat = 72
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/33095'
 
+# pinus spp. - pine nut, pine kernel
 [[food]]
 name = 'pine-nut'
 serving-size = '100g'
-protein = 14
-carbs = 13
-fat = 68
+protein = 17.4
+carbs = 8.7
+fiber = 3.7
+fat = 66.8
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/30968'
 
+# pistacia vera - nut, pistachio nut
 [[food]]
 name = 'pistachio'
 serving-size = '100g'
-protein = 21
-carbs = 28
+protein = 21.4
+carbs = 27
+fiber = 10.3
 fat = 46
-
-# dry, unsweetened, shredded coconut flakes
-[[food]]
-name = 'shredded-coconut'
-serving-size = '100g'
-protein = 6.7
-carbs = 26.7
-fat = 66.7
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31212'
 
 [[food]]
 name = 'tiger-nut'
-aka = 'chufa'
+aka = [ 'chufa', 'tigernut' ]
 serving-size = '100g'
-protein = 6.1
-carbs = 42.5
-fat = 23.7
+protein = 7.5
+carbs = 60
+fiber = 17.5
+fat = 23.5
+source = 'https://world.openfoodfacts.org/product/8437017281351/chufa-de-valencia-ecologica'
 
+# juglans regia - nut, walnut
 [[food]]
 name = 'walnut'
 serving-size = '100g'
-protein = 15
-carbs = 14
-fat = 65
+protein = 15.2
+carbs = 9.9
+fiber = [ 6.7, 0.75 ]
+fat = 65.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/376'
 
 # --- end nut }}}
 # --- oil {{{
@@ -1938,7 +1979,6 @@ fat = 33.9
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/34847'
 
 # linum usitatissimus - linseed, whole
-# ideally whole golden flaxseed
 [[food]]
 name = 'flax-seed'
 aka = [ 'flaxseed', 'linseed' ]
@@ -2970,6 +3010,18 @@ source = 'https://slism.com/calorie/109012/'
 # --- --- end sea vegetable }}}
 
 # --- end vegetable }}}
+# --- water {{{
+
+[[food]]
+name = 'coconut-water'
+serving-size = '8 fl oz (240g)'
+protein = 1.7
+carbs = 8.9
+fiber = 2.6
+fat = 0.5
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
+
+# --- end water }}}
 
 # end food }}}
 # ==============================================================================
