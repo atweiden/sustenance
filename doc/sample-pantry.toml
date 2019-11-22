@@ -116,23 +116,32 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170882/nutrients'
 # --- end dairy }}}
 # --- egg {{{
 
-# egg white omelet, scrambled, or fried, made without fat
+# egg, white only, raw
 [[food]]
 name = 'egg-white'
-serving-size = '1 large egg white (30g)'
-protein = 3.7
+serving-size = '1 large egg white (33g)'
+protein = 3.6
 carbs = 0.2
 fat = 0.1
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339157/nutrients'
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339017/nutrients'
 
-# egg omelet or scrambled egg, made without fat
+# egg, yolk only, raw
+[[food]]
+name = 'egg-yolk'
+serving-size = '1 large egg yolk (17g)'
+protein = 2.7
+carbs = 0.6
+fat = 4.5
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339018/nutrients'
+
+# egg, whole, raw
 [[food]]
 name = 'whole-egg'
 serving-size = '1 large egg (58g)'
-protein = 6.8
-carbs = 1.1
-fat = 5
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339056/nutrients'
+protein = 6.3
+carbs = 0.4
+fat = 4.8
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339003/nutrients'
 
 # --- end egg }}}
 # --- flavoring {{{
