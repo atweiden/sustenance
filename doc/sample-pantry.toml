@@ -2956,12 +2956,15 @@ protein = 1.3
 carbs = 5.5
 fat = 0.1
 
+# daucus carota - carrot
 [[food]]
 name = 'carrot'
 serving-size = '100g'
-protein = 0.9
-carbs = 9.6
+protein = 0.6
+carbs = 8.1
+fiber = [ 2.5, 0.64 ]
 fat = 0.2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/300'
 
 [[food]]
 name = 'cauliflower'
@@ -3079,12 +3082,15 @@ protein = 0.9
 carbs = 3
 fat = 0.1
 
+# peppers, jalapeno, raw
 [[food]]
 name = 'jalapeño'
 serving-size = '100g'
 protein = 0.9
-carbs = 7
+carbs = 6.5
+fiber = 28
 fat = 0.4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168576/nutrients'
 
 # japanese kabocha squash
 [[food]]
@@ -3160,9 +3166,11 @@ fat = 0.3
 [[food]]
 name = 'shishito-pepper'
 serving-size = '100g'
-protein = 1.9
-carbs = 5.7
-fat = 0.3
+protein = 2.4
+carbs = 4.7
+fiber = 1.2
+fat = 0
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/577425/nutrients'
 
 [[food]]
 name = 'spinach'
