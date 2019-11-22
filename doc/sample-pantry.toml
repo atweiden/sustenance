@@ -1493,7 +1493,7 @@ protein = 16.1
 carbs = 11.7
 fiber = [ 7.1, 0.59 ]
 fat = 8
-source = [ 'https://fineli.fi/fineli/en/elintarvikkeet/3710' ]
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/3710'
 
 # tesco madagascan vanilla pod
 [[food]]
