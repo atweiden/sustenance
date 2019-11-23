@@ -78,14 +78,14 @@ carbs = 0.3
 fat = 34
 source = 'https://world.openfoodfacts.org/product/3123930650064/comte-aop-34-mg-fromage-a-pate-pressee-cuite-entremont'
 
-# whole milk from cow
+# liquid milk, raw milk, jersey
 [[food]]
 name = 'cow-milk'
 serving-size = '8 fl oz (244g)'
-protein = 7.7
-carbs = 12
-fat = 7.9
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/336070/nutrients'
+protein = 8.8
+carbs = 11.5
+fat = 12.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'ghee'
@@ -352,36 +352,58 @@ fiber = [ 8.7, 0.64 ]
 fat = 0.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/401'
 
-# prunus armeniaca - apricot, dried
+# apricots, dried
 [[food]]
 name = 'dried-apricot'
 serving-size = '100g'
-protein = 5.2
-carbs = 50.7
-fiber = [ 7.3, 0.52 ]
-fat = 0.5
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/33070'
+protein = 9.2
+carbs = 70.4
+fiber = [ 9.8, 0.56 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# bananas, dried
+[[food]]
+name = 'dried-banana'
+serving-size = '100g'
+protein = 3.8
+carbs = 78.5
+fiber = [ 7.0, 0.71 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# blueberries, dried
+[[food]]
+name = 'dried-blueberry'
+serving-size = '100g'
+protein = 2.7
+carbs = 72.5
+fiber = [ 17.6, 0.83 ]
+fat = 1.9
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# dates, dried
 # ideally date crown lulu premium emirates dates
 # https://eshop.tesco.com.my/groceries/en-GB/products/7074083406
 # or doñatura dátiles sin hueso bio
 [[food]]
 name = 'dried-date'
 serving-size = '100g'
-protein = 1.8
-carbs = 75
-fiber = 6.7
+protein = 2.2
+carbs = 71.3
+fiber = [ 7.0, 0.79 ]
 fat = 0.2
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168191/nutrients'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# figs, dried
 [[food]]
 name = 'dried-fig'
 serving-size = '100g'
-protein = 3.3
-carbs = 62.5
-fiber = 9.3
-fat = 0.9
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/33070'
+protein = 3
+carbs = 75.3
+fiber = [ 10.7, 0.68 ]
+fat = 1.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # goji berries, dried
 [[food]]
@@ -393,6 +415,26 @@ carbs = 77
 fiber = 13
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/173032/nutrients'
+
+# jujube, dried
+[[food]]
+name = 'dried-jujube'
+serving-size = '100g'
+protein = 3.9
+carbs = 71.4
+fiber = [ 12.5, 0.78 ]
+fat = 2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# longans, dried
+[[food]]
+name = 'dried-longan'
+serving-size = '100g'
+protein = 5.1
+carbs = 72.9
+fiber = [ 2.8, 0.64 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # mangifera indica - mango, dried
 [[food]]
@@ -424,15 +466,16 @@ fiber = [ 11.6, 0.61 ]
 fat = 1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/412'
 
-# persimmons, japanese, dried
+# japanese persimmons, dried
 [[food]]
 name = 'dried-persimmon'
+aka = 'dried-kaki'
 serving-size = '100g'
-protein = 1.4
-carbs = 73.4
-fiber = 14.5
-fat = 0.6
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169942/nutrients'
+protein = 1.5
+carbs = 71.3
+fiber = [ 14.0, 0.91 ]
+fat = 1.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'dried-pineapple'
@@ -443,24 +486,35 @@ fiber = 7.1
 fat = 0.6
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/33077'
 
+# strawberries, dried
+[[food]]
+name = 'dried-strawberry'
+serving-size = '100g'
+protein = 0.5
+carbs = 82.8
+fiber = [ 3.0, 0.57 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 [[food]]
 name = 'hachimitsu-umeboshi'
 aka = 'ハチミツ梅干し'
 serving-size = '100g'
 protein = 1.5
-carbs = 23.6
+carbs = 21.1
 fiber = 2.5
 fat = 0.6
 source = 'https://xn--lckygi5d041wvp3chsxa8yp.xyz/?p=340'
 
-# vitis vinifera - raisin
+# grapes, raisins
 [[food]]
 name = 'raisin'
 serving-size = '100g'
-protein = 2.2
-carbs = 69.8
-fat = 0.5
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/428'
+protein = 2.7
+carbs = 80.7
+fiber = [ 4.1, 0.71 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # raisins, golden, seedless
 [[food]]
@@ -483,15 +537,16 @@ fiber = 12.3
 fat = 3
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168567/nutrients'
 
+# mume, umeboshi (pickled and dried mume), salted pickles
 [[food]]
 name = 'umeboshi'
 aka = '梅干し'
 serving-size = '100g'
 protein = 0.9
-carbs = 14.1
-fiber = 3.6
+carbs = 10.5
+fiber = [ 3.6, 0.61 ]
 fat = 0.2
-source = 'https://xn--lckygi5d041wvp3chsxa8yp.xyz/?p=340'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # currants, zante, dried
 # not to be confused with true currants
@@ -527,25 +582,26 @@ fiber = 1
 fat = 0.5
 source = 'http://www.johnvenaproduce.com/products/20'
 
+# atemoya, raw
 [[food]]
 name = 'atemoya'
 aka = [ 'custard-apple', 'chirimorinon' ]
 serving-size = '100g'
-protein = 1.7
-carbs = 25.2
-fiber = 2.4
-fat = 0.6
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/171725/nutrients'
+protein = 1.8
+carbs = 19.4
+fiber = [ 3.3, 0.79 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# persea americana - avocado, without skin and stone
+# avocados, raw
 [[food]]
 name = 'avocado'
 serving-size = '100g'
-protein = 2.6
-carbs = 7.5
-fiber = [ 6.7, 0.3 ]
-fat = 19.4
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11057'
+protein = 2.5
+carbs = 6.2
+fiber = [ 5.3, 0.68 ]
+fat = 18.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # musa sapientum - banana, without skin
 [[food]]
@@ -597,26 +653,37 @@ fiber = [ 1.4, 0.29 ]
 fat = 0.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/28920'
 
-# cucumis sativus - cucumber
+# cucumber, fruit, raw
 [[food]]
 name = 'cucumber'
 serving-size = '100g'
-protein = 0.7
-carbs = 2.1
-fiber = [ 1, 1 ]
+protein = 1
+carbs = 3
+fiber = [ 1.1, 0.82 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/346'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# fresh fig
+# figs, raw
 [[food]]
 name = 'fig'
 serving-size = '100g'
-protein = 0.8
-carbs = 19
-fiber = 2.9
-fat = 0.3
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341557/nutrients'
+protein = 0.6
+carbs = 14.3
+fiber = [ 1.9, 0.63 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# kiwifruit, yellow flesh type, raw
+[[food]]
+name = 'golden-kiwi'
+serving-size = '100g'
+protein = 1.1
+carbs = 14.9
+fiber = [ 1.4, 0.64 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# bitter melon, fruit, raw
 # okinawa goya
 [[food]]
 name = 'goya'
@@ -624,9 +691,9 @@ aka = [ 'bitter-gourd', 'bitter-melon' ]
 serving-size = '100g'
 protein = 1
 carbs = 3.9
-fiber = 2.6
+fiber = [ 2.6, 0.81 ]
 fat = 0.1
-source = 'https://slism.com/calorie/106205/'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # citrus paradisi - grapefruit, without skin
 [[food]]
@@ -637,6 +704,16 @@ carbs = 7.9
 fiber = [ 1.4, 0.64 ]
 fat = 0.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/11047'
+
+# kiwifruit, green flesh type, raw
+[[food]]
+name = 'green-kiwi'
+serving-size = '100g'
+protein = 1
+carbs = 13.5
+fiber = [ 2.5, 0.72 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # plantains, green, raw
 [[food]]
@@ -677,34 +754,25 @@ fiber = 1.5
 fat = 0.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174687/nutrients'
 
-# actinidia chinensis - kiwi fruit, without skin
-[[food]]
-name = 'kiwi'
-serving-size = '100g'
-protein = 0.8
-carbs = 9.8
-fiber = 2.7
-fat = 0.8
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11050'
-
+# kumquats, whole, raw
 [[food]]
 name = 'kumquat'
 serving-size = '100g'
-protein = 1.9
-carbs = 15.9
-fiber = 6.5
-fat = 0.9
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341431/nutrients'
+protein = 0.5
+carbs = 17.5
+fiber = [ 4.6, 0.5 ]
+fat = 0.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# mangifera indica - mango, without skin
+# mangoes, raw
 [[food]]
 name = 'mango'
 serving-size = '100g'
-protein = 0.8
-carbs = 15.7
-fiber = 1.6
-fat = 0.4
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/34361'
+protein = 0.6
+carbs = 16.9
+fiber = [ 1.3, 0.54 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # citrus sinensis - orange without skin
 [[food]]
@@ -716,16 +784,16 @@ fiber = [ 2.1, 0.57 ]
 fat = 0.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/11045'
 
-# carica papaya - papaya, without skin
+# papaya, ripe, raw
 [[food]]
 name = 'papaya'
 aka = 'pawpaw'
 serving-size = '100g'
 protein = 0.5
 carbs = 9.5
-fiber = 1.7
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/34694'
+fiber = [ 2.2, 0.68 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'passion-fruit'
@@ -747,15 +815,26 @@ fiber = [ 3.4, 0.56 ]
 fat = 0.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/28917?'
 
-# persimmons, japanese, raw
+# peaches, raw
+[[food]]
+name = 'peach'
+serving-size = '100g'
+protein = 0.4
+carbs = 10.2
+fiber = [ 1.3, 0.54 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# japanese persimmons, nonastringent, raw
 [[food]]
 name = 'persimmon'
+aka = 'kaki'
 serving-size = '100g'
-protein = 0.6
-carbs = 18.6
-fiber = 3.6
+protein = 0.4
+carbs = 15.9
+fiber = [ 1.6, 0.88 ]
 fat = 0.2
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169941/nutrients'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # ananas comosus - pineapple, without skin
 [[food]]
@@ -767,14 +846,15 @@ fiber = [ 1.4, 0.86 ]
 fat = 0.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/11056'
 
+# pitaya, raw
 [[food]]
 name = 'pitaya-dragon-fruit'
 serving-size = '100g'
 protein = 1.4
 carbs = 11.8
-fiber = 1.9
+fiber = [ 1.9, 0.84 ]
 fat = 0.3
-source = 'https://slism.com/calorie/107111/'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # ripe plantain, raw
 [[food]]
@@ -828,15 +908,16 @@ fiber = [ 3.7, 0.89 ]
 fat = 0.8
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/448'
 
+# carambola, raw
 [[food]]
 name = 'star-fruit'
 aka = [ 'starfruit', 'carambola' ]
 serving-size = '100g'
-protein = 1
-carbs = 6.7
-fiber = 2.8
-fat = 0.3
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341540/nutrients'
+protein = 0.7
+carbs = 7.5
+fiber = [ 1.8, 0.78 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # fragaria ananassa - strawberry
 [[food]]
@@ -858,16 +939,16 @@ fiber = 1.1
 fat = 0.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/11055'
 
-# cucurbita pepo - zucchini, summer squash
+# zucchini, fruit, raw
 [[food]]
 name = 'zucchini'
 aka = 'courgette'
 serving-size = '100g'
-protein = 0.7
-carbs = 3.2
-fiber = [ 1, 1 ]
-fat = 0.8
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/389'
+protein = 1.3
+carbs = 2.8
+fiber = [ 1.3, 0.85 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end fresh fruit }}}
 # --- --- pickled fruit {{{
@@ -882,37 +963,37 @@ fiber = 1.3
 fat = 0.6
 source = 'https://www.ponti.com/en/products/Pickles/Gherkins_in_Wine_Vinegar/51/13'
 
-# olea europaea sativa - olive, average, without stone, in brine, green
+# olives, in brine, ripe
 [[food]]
 name = 'olive'
 serving-size = '100g (20 olives)'
-protein = 1
-carbs = 3.3
-fiber = 3.3
-fat = 15.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/34972'
+protein = 0.8
+carbs = 3.4
+fiber = [ 2.5, 0.84 ]
+fat = 12.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cucumis sativus - cucumber, pickled cucumber, without added sugar
+# cucumber, fruit, pickles, sour type (processed by lactic acid fermentation)
 [[food]]
 name = 'pickled-cucumber'
-aka = 'pickle'
+aka = 'sour-pickle'
 serving-size = '100g (1 medium-large spear)'
-protein = 0.7
-carbs = 2.4
-fiber = [ 1.1, 0.64 ]
-fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/347'
+protein = 1.4
+carbs = 2.5
+fiber = [ 1.4, 0.79 ]
+fat = 0
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# tsukemono, japanese pickles
-# japanese takuan pickled daikon radish, yellow
+# japanese radishes, daikon, root, pickles, "takuan-zuke" (pickled with
+# rice bran and salt), made of salted daikon
 [[food]]
 name = 'takuan-pickled-daikon-radish'
 serving-size = '100g'
-protein = 1.4
-carbs = 5.4
-fiber = 2.6
-fat = 0.2
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/343684/nutrients'
+protein = 1.2
+carbs = 15.2
+fiber = [ 3.5, 0.71 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end pickled fruit }}}
 # --- --- squeezed fruit {{{
@@ -959,6 +1040,15 @@ fiber = 0.2
 fat = 0.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341456/nutrients'
 
+# passion fruit, juice, fresh
+[[food]]
+name = 'passion-fruit-juice'
+serving-size = '100g'
+protein = 0.8
+carbs = 16.2
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # --- --- end squeezed fruit }}}
 
 # --- end fruit }}}
@@ -968,29 +1058,35 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341456/nutrients'
 
 [[food]]
 name = 'black-trumpet-mushroom'
+aka = 'black-chanterelle'
 serving-size = '100g'
 protein = 1.5
 carbs = 7
 fat = 0.5
 
+# mushrooms, beech mushrooms, raw
+# http://www.hokto-kinoko.com/whats-kinoko/bunashimeji/
 [[food]]
 name = 'buna-shimeji-mushroom'
 aka = [ 'brown-beech-mushroom', 'brown-beech-clamshell-mushroom' ]
 serving-size = '100g'
-protein = 2
-carbs = 6
-fat = 0
-source = 'http://www.hokto-kinoko.com/whats-kinoko/bunashimeji/'
+protein = 2.7
+carbs = 5
+fiber = [ 3.7, 0.92 ]
+fat = 0.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# mushrooms, beech mushrooms, raw
+# http://www.hokto-kinoko.com/whats-kinoko/bunapi/
 [[food]]
 name = 'bunapi-shimeji-mushroom'
 aka = [ 'white-beech-mushroom', 'white-buna-shimeji', 'white-clamshell-mushroom' ]
 serving-size = '100g'
-protein = 2
-carbs = 6
-fiber = 1
-fat = 0
-source = 'http://www.hokto-kinoko.com/whats-kinoko/bunapi/'
+protein = 2.7
+carbs = 5
+fiber = [ 3.7, 0.92 ]
+fat = 0.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # golden chanterelle mushroom
 [[food]]
@@ -1000,57 +1096,73 @@ protein = 1.5
 carbs = 6.9
 fat = 0.5
 
+# mushrooms, button mushrooms, fresh, raw
 [[food]]
 name = 'crimini-mushroom'
 aka = [ 'white-button-mushroom', 'swiss-brown-mushroom' ]
 serving-size = '100g'
-protein = 2.5
-carbs = 4.3
-fat = 0.1
+protein = 2.9
+carbs = 2.1
+fiber = [ 2.0, 0.9 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# mushrooms, winter mushrooms, raw
 [[food]]
 name = 'enokitake-mushroom'
 aka = 'enoki-mushroom'
 serving-size = '100g'
 protein = 2.7
-carbs = 7.8
-fat = 0.3
+carbs = 7.6
+fiber = [ 3.9, 0.9 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# mushrooms, king oyster mushrooms, raw
 [[food]]
 name = 'eryngii-mushroom'
 aka = [ 'king-trumpet-mushroom', 'king-oyster-mushroom' ]
 serving-size = '100g'
-protein = 2
-carbs = 7
-fiber = 3
-fat = 0
-source = 'http://www.hokto-kinoko.com/whats-kinoko/king-trumpet/'
+protein = 2.8
+carbs = 6
+fiber = [ 3.4, 0.94 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# mushrooms, oyster mushrooms, raw
 # https://www.hokto-kinoko.co.jp/lang/en/kinoko/shimohurihiratake/
 [[food]]
 name = 'hiratake-mushroom'
+aka = [ 'oyster-mushroom', 'pearl-oyster-mushroom', 'tree-oyster-mushroom' ]
 serving-size = '100g'
 protein = 3.3
-carbs = 6.1
-fat = 0.4
+carbs = 6.2
+fiber = [ 2.6, 0.92 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# mushrooms, maitake, raw
+# http://www.hokto-kinoko.com/whats-kinoko/maitake/
 [[food]]
 name = 'maitake-mushroom'
 aka = 'hen-of-the-woods-mushroom'
 serving-size = '100g'
-protein = 1
-carbs = 5
-fiber = 3
-fat = 0
-source = 'http://www.hokto-kinoko.com/whats-kinoko/maitake/'
+protein = 2
+carbs = 4.4
+fiber = [ 3.5, 0.91 ]
+fat = 0.5
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# mushrooms, matsutake, raw
 [[food]]
 name = 'matsutake-mushroom'
 aka = 'pine-mushroom'
 serving-size = '100g'
 protein = 2
 carbs = 8.2
+fiber = [ 4.7, 0.94 ]
 fat = 0.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'porcini-mushroom'
@@ -1067,22 +1179,27 @@ protein = 3.4
 carbs = 4.4
 fat = 0.6
 
-# first pick fresh donko shiitake
+# mushrooms, shiitake, bed-log cultivation, fresh, raw
 # https://www.hokto-kinoko.co.jp/lang/en/kinoko/namadonko/
 [[food]]
 name = 'shiitake-mushroom'
 serving-size = '100g'
-protein = 2.2
-carbs = 6.8
-fat = 0.5
+protein = 3
+carbs = 5.7
+fiber = [ 4.2, 0.9 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# mushrooms, black poplar mushrooms, raw
 [[food]]
 name = 'yanagi-matsutake-mushroom'
 aka = [ 'chestnut-mushroom', 'black-poplar', 'velvet-pioppini', 'tea-tree-mushroom' ]
 serving-size = '100g'
-protein = 2.5
-carbs = 4.3
+protein = 2.4
+carbs = 4
+fiber = [ 3.0, 0.9 ]
 fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end mushroom }}}
 # --- --- truffle {{{
@@ -1177,12 +1294,14 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/589411/nutrients'
 # --- end fungi }}}
 # --- grain {{{
 
+# amaranth, whole grain, raw
 [[food]]
 name = 'amaranth'
 serving-size = '100g'
-protein = 3.8
-carbs = 19
-fat = 1.6
+protein = 12.7
+carbs = 64.9
+fiber = [ 7.4, 0.85 ]
+fat = 6
 
 # cooked brown rice
 [[food]]
@@ -1250,24 +1369,25 @@ fiber = 6.7
 fat = 1.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/596587/nutrients'
 
-# plain corn grits, measured dry
+# corn, corn grits, yellow kernel, raw
 [[food]]
 name = 'grits'
 serving-size = '100g'
-protein = 7.3
-carbs = 78
-fat = 2.1
+protein = 8.2
+carbs = 76.4
+fiber = [ 2.4, 0.96 ]
+fat = 1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# avena sativa - oats, rolled, oat flakes
-# measured dry
+# common oats, oatmeal, raw
 [[food]]
 name = 'rolled-oats'
 serving-size = '100g'
-protein = 13.6
-carbs = 70
-fiber = [ 10.0, 0.46 ]
-fat = 7.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/153'
+protein = 13.7
+carbs = 69.1
+fiber = [ 9.4, 0.66 ]
+fat = 5.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cooked long-grain white rice
 [[food]]
@@ -1384,16 +1504,16 @@ fat = 4.3
 
 # --- --- bean {{{
 
-# vigna angularis - bean, adzuki bean, boiled without salt
+# adzuki beans, mature seeds, whole, boiled
 [[food]]
 name = 'adzuki-bean'
 aka = [ 'azuki-bean', 'japanese-red-bean', 'english-red-mung-bean' ]
 serving-size = '100g'
-protein = 9.3
-carbs = 26.8
-fiber = [ 5.5, 0.84 ]
-fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31217'
+protein = 8.9
+carbs = 24.2
+fiber = [ 11.8, 0.93 ]
+fat = 1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # phaseolus vulgaris - bean, black bean, turtle bean, in brine, canned
 [[food]]
@@ -1406,16 +1526,16 @@ fiber = 6.9
 fat = 0.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/35638'
 
-# bioitalia 100% organic black-eyed peas, canned
+# cowpeas, mature seeds, whole, dried, boiled
 [[food]]
 name = 'black-eyed-pea'
 aka = 'cowpea'
 serving-size = '100g'
-protein = 7.7
-carbs = 17.7
-fiber = 7.7
-fat = 1.2
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/436911/nutrients'
+protein = 10.2
+carbs = 23.8
+fiber = [ 10.7, 0.93 ]
+fat = 0.9
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # bioitalia 100% organic borlotti beans, canned
 [[food]]
@@ -1449,16 +1569,16 @@ fiber = 5.4
 fat = 0.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31233'
 
-# cicer arietinum - chick pea in unsalted water
+# chickpeas, mature seeds, whole, boiled
 [[food]]
 name = 'garbanzo-bean'
-aka = [ 'chick-pea', 'chickpea' ]
+aka = [ 'chickpea', 'chick-pea' ]
 serving-size = '100g'
-protein = 8.4
-carbs = 22.6
-fiber = [ 5.0, 0.72 ]
+protein = 9.5
+carbs = 27.4
+fiber = [ 11.6, 0.96 ]
 fat = 2.5
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11089'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # whole foods great northern beans, canned
 [[food]]
@@ -1481,25 +1601,26 @@ fiber = [ 2.7, 0.63 ]
 fat = 0.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31547'
 
-# phaseolus vulgaris l. - bean, kidney bean, boiled
+# kidney beans, mature seeds, whole, boiled
 [[food]]
 name = 'kidney-bean'
 serving-size = '100g'
-protein = 8.6
-carbs = 22.7
-fiber = 7.4
-fat = 0.5
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31214'
+protein = 8.5
+carbs = 24.8
+fiber = [ 13.3, 0.89 ]
+fat = 1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# lima beans, canned
+# lima beans, mature seeds, whole, boiled
 [[food]]
 name = 'lima-bean'
+aka = 'sieva-bean'
 serving-size = '100g'
-protein = 3.2
-carbs = 13.6
-fiber = 3.2
-fat = 0.4
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/367111/nutrients'
+protein = 9.6
+carbs = 26
+fiber = [ 10.9, 0.94 ]
+fat = 0.9
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lupins, mature seeds, cooked, boiled, without salt
 # ideally australian sweet lupin
@@ -1533,15 +1654,15 @@ fiber = 23
 fat = 37
 source = 'http://models.life.ku.dk/sites/default/files/Thesis_Mette_Holse.pdf'
 
-# vigna radiata - bean, mung bean, boiled, with salt
+# mung beans, mature seeds, whole, boiled
 [[food]]
 name = 'mung-bean'
 serving-size = '100g'
-protein = 7.7
-carbs = 20.2
-fiber = 5.3
-fat = 0.4
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31213'
+protein = 10.2
+carbs = 22.5
+fiber = [ 5.2, 0.92 ]
+fat = 0.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # organic navy beans, canned
 [[food]]
@@ -1564,16 +1685,36 @@ fiber = 4.8
 fat = 0.8
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/466572/nutrients'
 
-# soya beans, boiled without salt
+# soybeans, mature seeds, whole, green seed coats, roasted
+[[food]]
+name = 'roasted-soybean'
+serving-size = '100g'
+protein = 37.7
+carbs = 33.9
+fiber = [ 18.4, 0.88 ]
+fat = 20.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# scarlet runner beans, mature seeds, whole, boiled
+[[food]]
+name = 'scarlet-runner-bean'
+serving-size = '100g'
+protein = 6.2
+carbs = 22.3
+fiber = [ 7.6, 0.91 ]
+fat = 0.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# soybeans, mature seeds, whole, domestic, yellow seed coats, boiled
 [[food]]
 name = 'soybean'
 aka = 'soya-bean'
 serving-size = '100g'
-protein = 16.1
-carbs = 11.7
-fiber = [ 7.1, 0.59 ]
-fat = 8
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/3710'
+protein = 14.8
+carbs = 8.4
+fiber = [ 6.6, 0.88 ]
+fat = 9.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # tesco madagascan vanilla pod
 [[food]]
@@ -1588,14 +1729,18 @@ source = 'https://www.tesco.com/groceries/en-GB/products/296921851'
 # --- --- end bean }}}
 # --- --- potato {{{
 
+# sweet potato, purple flesh type, tuberous root, without skin, steamed
 # okinawa beni-imo purple sweet potato
 # see also: filipino ube purple yam
 [[food]]
 name = 'beni-imo'
+aka = '紅芋'
 serving-size = '100g'
-protein = 1.3
-carbs = 21.3
+protein = 1.2
+carbs = 31.7
+fiber = [ 2.5, 0.68 ]
 fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # dried okinawa beni-imo purple sweet potato flakes
 [[food]]
@@ -1617,46 +1762,49 @@ fiber = 0.1
 fat = 0.5
 source = 'okinawa product label'
 
-# japanese dried sweet potato
+# sweet potato, mushikiriboshi (sliced and dried after steaming)
+# see also: https://onookinawa.wordpress.com/2016/07/27/potatoes-of-okinawa-%E8%8A%8B/
 [[food]]
 name = 'dried-sweet-potato'
-aka = 'dried-murasaki'
 serving-size = '100g'
-protein = 2.3
-carbs = 71.5
-fiber = 3.6
-fat = 0.7
-source = 'tokyo nakai station product label'
+protein = 1.2
+carbs = 31.4
+fiber = [ 3.0, 0.7 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# russet potatoes, flesh and skin, baked
+# potatoes, tuber, boiled
 [[food]]
-name = 'russet-potato'
+name = 'potato'
 serving-size = '100g'
-protein = 2.6
-carbs = 21.4
+protein = 1.5
+carbs = 16.8
+fiber = [ 1.6, 0.69 ]
 fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# sweet potato, cooked, baked in skin, without salt
+# sweet potato, tuberous root, without skin, baked
 [[food]]
 name = 'sweet-potato'
 serving-size = '100g'
-protein = 2
-carbs = 20.7
+protein = 1.4
+carbs = 39
+fiber = [ 3.5, 0.69 ]
 fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end potato }}}
 # --- --- lentil {{{
 
-# pigeon peas (red gram), mature seeds, cooked, boiled, without salt
+# lentils, mature seeds, whole, boiled
 [[food]]
-name = 'pigeon-pea'
-aka = [ 'cajan-pea', 'congo-bean', 'gandule', 'toor-dal', 'arhar-dal', 'no-eyed-pea' ]
+name = 'lentil'
 serving-size = '100g'
-protein = 6.8
-carbs = 23.3
-fiber = 6.7
-fat = 0.4
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/172437/nutrients'
+protein = 11.2
+carbs = 29.1
+fiber = [ 9.4, 0.9 ]
+fat = 0.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lens culinaris - lentils, red, cooked
 # assumes 1 cup cooked = 200g cooked
@@ -1672,6 +1820,30 @@ fat = 0.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31225'
 
 # --- --- end lentil }}}
+# --- --- pea {{{
+
+# peas, green peas, boiled
+[[food]]
+name = 'green-pea'
+serving-size = '100g'
+protein = 8.3
+carbs = 18.5
+fiber = [ 8.6, 0.9 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# pigeon peas (red gram), mature seeds, cooked, boiled, without salt
+[[food]]
+name = 'pigeon-pea'
+aka = [ 'cajan-pea', 'congo-bean', 'gandule', 'toor-dal', 'arhar-dal', 'no-eyed-pea' ]
+serving-size = '100g'
+protein = 6.8
+carbs = 23.3
+fiber = 6.7
+fat = 0.4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/172437/nutrients'
+
+# --- --- end pea }}}
 
 # --- end legume }}}
 # --- meat {{{
@@ -1744,15 +1916,15 @@ fat = 4
 # --- end meat }}}
 # --- nut {{{
 
-# prunus amygdalus - almond
+# almonds, raw
 [[food]]
 name = 'almond'
 serving-size = '100g'
-protein = 24.1
-carbs = 19.1
-fiber = [ 12.5, 0.552 ]
-fat = 51.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/379'
+protein = 19.6
+carbs = 20.9
+fiber = [ 10.1, 0.92 ]
+fat = 51.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'brazil-nut'
@@ -1773,15 +1945,15 @@ fiber = [ 3.5, 0.54 ]
 fat = 46.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/11086'
 
-# castanea sativa - chestnut
+# chestnuts, japanese chestnuts, boiled
 [[food]]
 name = 'chestnut'
 serving-size = '100g'
-protein = 3.4
-carbs = 43.4
-fiber = [ 6.8, 0.96 ]
-fat = 2.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/377'
+protein = 3.5
+carbs = 36.7
+fiber = [ 6.6, 0.95 ]
+fat = 0.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cocos nucifera - coconut flake
 [[food]]
@@ -1813,15 +1985,15 @@ fiber = 8.6
 fat = 75.8
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/32895'
 
-# arachis hypogaea - nut, peanut
+# peanuts, mature seeds, virginia type, raw
 [[food]]
 name = 'peanut'
 serving-size = '100g'
-protein = 25.6
-carbs = 21
-fiber = [ 8.5, 0.91 ]
-fat = 43
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/378'
+protein = 25.4
+carbs = 18.8
+fiber = [ 7.4, 0.95 ]
+fat = 47.5
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # carya illinoinensis - nut, pecan
 [[food]]
@@ -1833,15 +2005,15 @@ fiber = 9.6
 fat = 72
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/33095'
 
-# pinus spp. - pine nut, pine kernel
+# pine nuts, raw
 [[food]]
 name = 'pine-nut'
 serving-size = '100g'
-protein = 17.4
-carbs = 8.7
-fiber = 3.7
-fat = 66.8
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/30968'
+protein = 15.8
+carbs = 10.6
+fiber = [ 4.1, 0.76 ]
+fat = 68.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pistacia vera - nut, pistachio nut
 [[food]]
@@ -1852,6 +2024,106 @@ carbs = 27
 fiber = 10.3
 fat = 46
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31212'
+
+# almonds, oil-roasted and salted
+[[food]]
+name = 'roasted-almond'
+serving-size = '100g'
+protein = 19.2
+carbs = 22.3
+fiber = [ 11.9, 0.95 ]
+fat = 53.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# brazil nuts, oil-roasted and salted
+[[food]]
+name = 'roasted-brazil-nut'
+serving-size = '100g'
+protein = 14.9
+carbs = 9.6
+fiber = [ 7.2, 0.96 ]
+fat = 69.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# cashew nuts, oil-roasted and salted
+[[food]]
+name = 'roasted-cashew'
+serving-size = '100g'
+protein = 19.8
+carbs = 26.7
+fiber = [ 6.7, 0.88 ]
+fat = 47.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# hazel nuts, skinned, oil-roasted and salted
+[[food]]
+name = 'roasted-hazelnut'
+serving-size = '100g'
+protein = 13.6
+carbs = 13.9
+fiber = [ 7.4, 0.88 ]
+fat = 69.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# macadamia nuts, roasted and salted
+[[food]]
+name = 'roasted-macadamia-nut'
+serving-size = '100g'
+protein = 8.3
+carbs = 12.2
+fiber = [ 6.2, 1.0 ]
+fat = 76.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# peanuts, mature seeds, oil-roasted and salted
+[[food]]
+name = 'roasted-peanut'
+serving-size = '100g'
+protein = 25.5
+carbs = 18.2
+fiber = [ 6.9, 0.93 ]
+fat = 51.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# pecan nuts, oil-roasted and salted
+[[food]]
+name = 'roasted-pecan'
+serving-size = '100g'
+protein = 9.6
+carbs = 13.3
+fiber = [ 7.1, 0.9 ]
+fat = 73.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# pine nuts, roasted
+[[food]]
+name = 'roasted-pine-nut'
+serving-size = '100g'
+protein = 14.6
+carbs = 8.1
+fiber = [ 6.9, 0.93 ]
+fat = 72.5
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# pistachio nuts, roasted and salted
+[[food]]
+name = 'roasted-pistachio'
+serving-size = '100g'
+protein = 17.4
+carbs = 20.9
+fiber = [ 9.2, 0.9 ]
+fat = 56.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# walnuts, roasted
+[[food]]
+name = 'roasted-walnut'
+serving-size = '100g'
+protein = 14.6
+carbs = 11.7
+fiber = [ 7.5, 0.93 ]
+fat = 68.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'tiger-nut'
@@ -2054,24 +2326,44 @@ protein = 1.9
 carbs = 1
 fat = 0
 
-# homemade japanese kombu broth/stock
-# macros unknown
+# soup stock, katsuo-bushi and kombu dashi (stock of katsuo-bushi and
+# dried kombu)
+[[food]]
+name = 'katsuo-bushi-kombu-dashi'
+serving-size = '100g'
+protein = 0.3
+carbs = 0.3
+fat = 0
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# soup stock, kombu dashi (stock of dried kombu)
 [[food]]
 name = 'kombu-dashi'
 aka = 'konbu-dashi'
-serving-size = '8 fl oz (224g)'
-protein = 0
-carbs = 0
+serving-size = '100g'
+protein = 0.1
+carbs = 0.9
 fat = 0
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# japanese mitoku organic yaemon tamari soya sauce
+# soup stock, shiitake dashi (stock of dried shiitake mushroom)
+[[food]]
+name = 'shiitake-dashi'
+serving-size = '100g'
+protein = 0.1
+carbs = 0.9
+fat = 0
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# soy sauce, "tamari-shoyu" (full-bodied soy sauce)
 # http://www.mitoku.com/products/tamari/making_tamari.html
 [[food]]
 name = 'tamari'
 serving-size = '1 tbsp (18g)'
-protein = 1.9
-carbs = 1
+protein = 2.1
+carbs = 2.8
 fat = 0
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # homemade tamarind paste
 [[food]]
@@ -2331,6 +2623,17 @@ fiber = 4
 fat = 53.6
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/35220'
 
+# lotus seeds, mature, dried, shelled and skinned, boiled
+[[food]]
+name = 'lotus-seed'
+aka = [ 'water-lily-seed', 'foxnut' ]
+serving-size = '100g'
+protein = 7.3
+carbs = 25
+fiber = [ 5.0, 0.88 ]
+fat = 0.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # cucurbita pepo - pumpkin seed
 # pumpkin seed kernels, shelled
 # https://www.mygerbs.com/shop/raw-pumpkin-seed-kernels-shelled-pepitas/
@@ -2353,6 +2656,46 @@ carbs = 22.9
 fiber = 2.8
 fat = 2.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31179'
+
+# flax seeds, roasted
+[[food]]
+name = 'roasted-flax-seed'
+serving-size = '100g'
+protein = 21.9
+carbs = 30.5
+fiber = [ 24, 0.62 ]
+fat = 43.5
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# pumpkin seeds, roasted and salted
+[[food]]
+name = 'roasted-pumpkin-seed'
+serving-size = '100g'
+protein = 26.5
+carbs = 12
+fiber = [ 7.3, 0.75 ]
+fat = 51.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# sunflower seeds, oil-roasted and salted
+[[food]]
+name = 'roasted-sunflower-seed'
+serving-size = '100g'
+protein = 20.1
+carbs = 17.2
+fiber = [ 6.9, 0.88 ]
+fat = 56.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# watermelon seeds, roasted and salted
+[[food]]
+name = 'roasted-watermelon-seed'
+serving-size = '100g'
+protein = 29.6
+carbs = 13.4
+fiber = [ 7.1, 0.85 ]
+fat = 46.4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170562/nutrients'
 
 # seeds, sunflower seed kernels, dried
 [[food]]
@@ -2922,7 +3265,30 @@ fat = 0
 # --- end sweetener }}}
 # --- vegan {{{
 
+# --- --- cheese-alternative {{{
+
+# soybeans, natto, "goto-natto" (natto fermented with rice-koji and salt)
+[[food]]
+name = 'natto'
+serving-size = '100g'
+protein = 15.3
+carbs = 24
+fiber = [ 4.9, 0.59 ]
+fat = 8.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# --- --- end cheese-alternative }}}
 # --- --- meat-alternative {{{
+
+# soybeans, tofu, "okinawa-tofu" (firm tofu made in okinawa prefecture)
+[[food]]
+name = 'firm-tofu'
+serving-size = '100g'
+protein = 9.1
+carbs = 0.7
+fiber = [ 0.5, 0.6 ]
+fat = 7.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lupine tempeh
 [[food]]
@@ -2944,35 +3310,37 @@ fiber = 0.6
 fat = 1.9
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168147/nutrients'
 
-# glycine max - tofu, soft, soya product
+# soybeans, tofu, "kinugoshi-tofu" (silken tofu)
 [[food]]
 name = 'silken-tofu'
 aka = [ 'soft-tofu', 'silk-tofu', 'japanese-style-tofu' ]
 serving-size = '100g'
-protein = 8.1
-carbs = 1.9
+protein = 4.9
+carbs = 2
 fiber = [ 0.3, 0.67 ]
-fat = 4.8
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/33501'
+fat = 3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# soybeans, tempeh (fermented soybeans with rhizopus oligospore)
 [[food]]
 name = 'tempeh'
 serving-size = '100g'
-protein = 18.5
-carbs = 9.8
-fiber = [ 4.3, 0.53 ]
-fat = 10.8
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31249'
+protein = 15.8
+carbs = 15.4
+fiber = [ 10.2, 0.79 ]
+fat = 9
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# glycine max - tofu, firm, soya product
+# soybeans, tofu, "momen-tofu" (regular tofu)
 [[food]]
 name = 'tofu'
+aka = [ 'soft-tofu', 'silk-tofu', 'japanese-style-tofu' ]
 serving-size = '100g'
-protein = 17.3
-carbs = 2.8
-fiber = 2.3
-fat = 8.7
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/35619'
+protein = 6.6
+carbs = 1.6
+fiber = [ 0.4, 0.75 ]
+fat = 4.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end meat-alternative }}}
 # --- --- milk-alternative {{{
@@ -2982,15 +3350,16 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/35619'
 # cashew milk
 # chia seed milk
 
+# coconut, coconut milk
 [[food]]
 name = 'coconut-milk'
 # https://fdc.nal.usda.gov/fdc-app.html#/food-details/170172/nutrients
 serving-size = '8 fl oz (240g)'
-protein = 4.8
-carbs = 7.9
-fiber = 1.2
-fat = 51
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/29014'
+protein = 4.6
+carbs = 6.7
+fiber = 0.5
+fat = 38.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # flax seed milk
 # hazelnut milk
@@ -3006,7 +3375,18 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/29014'
 # quinoa milk
 # rice milk
 # sesame seed milk
-# soy milk
+
+# soybeans, soy milk, regular
+[[food]]
+name = 'soy-milk'
+# https://fdc.nal.usda.gov/fdc-app.html#/food-details/336099/nutrients
+serving-size = '8 fl oz (244g)'
+protein = 8.8
+carbs = 7.6
+fiber = 0.5
+fat = 4.9
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # sunflower seed milk
 # sweet potato milk
 # tiger nut milk
@@ -3019,139 +3399,150 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/29014'
 
 # --- --- fresh vegetable {{{
 
-# medicago sativa - sprout, alfalfa
+# bean sprouts, alfalfa sprouts, raw
 [[food]]
 name = 'alfalfa-sprout'
 serving-size = '100g'
-protein = 4
-carbs = 3.3
-fiber = [ 3, 0.37 ]
-fat = 0.7
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11074'
+protein = 1.6
+carbs = 2
+fiber = [ 1.4, 0.93 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# artichoke, boiled
+# globe artichoke, flower bud, boiled
 [[food]]
 name = 'artichoke'
+aka = [ 'globe-artichoke', 'green-artichoke', 'french-artichoke' ]
 serving-size = '100g'
-protein = 3.9
-carbs = 7.9
-fiber = 6.4
-fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/33583'
+protein = 2.1
+carbs = 10.8
+fiber = [ 8.6, 0.27 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# eruca sativa - rocket, arugula
+# rocket salad, leaves, raw
 [[food]]
 name = 'arugula'
 aka = 'rocket'
 serving-size = '100g'
-protein = 2.6
-carbs = 2.1
-fiber = 1.6
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/34159'
+protein = 1.9
+carbs = 3.1
+fiber = [ 2.6, 0.89 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# asparagus officinalis l. - asparagus, raw, cleaned
+# asparagus, green, shoots, boiled
 [[food]]
 name = 'asparagus'
 serving-size = '100g'
-protein = 2.9
-carbs = 5.5
-fiber = [ 3.5, 0.26 ]
-fat = 0.6
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11689'
+protein = 2.6
+carbs = 4.6
+fiber = [ 2.1, 0.76 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# phyllostachys spp. - bamboo shoots, canned
+# bamboo shoots, canned in water
 [[food]]
 name = 'bamboo-shoot'
 serving-size = '100g'
-protein = 1.5
-carbs = 2.1
-fiber = [ 1.4, 0.93 ]
+protein = 2.7
+carbs = 4
+fiber = [ 2.3, 0.78 ]
 fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11135'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cabbage, chinese (pak-choi), raw
-# ideally osaka shirona
+# green bok choy, leaves, boiled
 [[food]]
 name = 'bok-choy'
 aka = [ 'bai-cai', 'pak-choi' ]
 serving-size = '100g'
-protein = 1.5
-carbs = 2.2
-fiber = 1
-fat = 0.2
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170390/nutrients'
+protein = 0.9
+carbs = 2.4
+fiber = [ 1.5, 0.8 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# brassica oleracea var. italica - broccoli
+# broccoli, inflorescence, boiled
 [[food]]
 name = 'broccoli'
 serving-size = '100g'
-protein = 3.9
-carbs = 5.1
-fiber = [ 3.5, 0.46 ]
-fat = 0.5
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/324'
+protein = 3.5
+carbs = 4.3
+fiber = [ 3.7, 0.78 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# brassica oleracea var. gemmifera - brussels sprout
+# brussels sprouts, head, boiled
 [[food]]
 name = 'brussels-sprout'
 serving-size = '100g'
-protein = 3.6
-carbs = 8.3
-fiber = [ 4.4, 0.36 ]
+protein = 5.3
+carbs = 9.8
+fiber = [ 5.2, 0.73 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/327'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# daucus carota - carrot
+# carrot, "kintoki" (oriental type), root with skin, raw
 [[food]]
 name = 'carrot'
 serving-size = '100g'
-protein = 0.6
-carbs = 8.1
-fiber = [ 2.5, 0.64 ]
+protein = 1.8
+carbs = 9.6
+fiber = [ 3.9, 0.62 ]
 fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/300'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# brassica oleracea var. botrytis - cauliflower
+# cauliflower, inflorescence, boiled
 [[food]]
 name = 'cauliflower'
 serving-size = '100g'
-protein = 2
-carbs = 4.6
-fiber = [ 2.2, 0.55 ]
-fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/322'
+protein = 2.7
+carbs = 5.1
+fiber = [ 3.2, 0.78 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# apium graveolens - celery
+# celery, petiole, raw
 [[food]]
 name = 'celery'
 serving-size = '100g'
-protein = 1.1
-carbs = 2.1
-fiber = [ 1, 1 ]
-fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/339'
+protein = 0.4
+carbs = 3.6
+fiber = [ 1.5, 0.8 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# chayote, fruit, green-colored, raw
 [[food]]
 name = 'chayote-squash'
 aka = 'mirliton-squash'
 serving-size = '100g'
-protein = 0.8
-carbs = 4.5
-fiber = 1.7
+protein = 0.6
+carbs = 4.9
+fiber = [ 1.2, 0.83 ]
 fat = 0.1
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170402/nutrients'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# brassica pekinensis - chinese cabbage
+# tomatoes, cherry tomatoes, fruit, raw
+[[food]]
+name = 'cherry-tomato'
+serving-size = '100g'
+protein = 1.1
+carbs = 7.2
+fiber = [ 1.4, 0.71 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# chinese cabbage, head, boiled
 [[food]]
 name = 'chinese-cabbage'
 aka = 'napa-cabbage'
 serving-size = '100g'
-protein = 1.2
-carbs = 2.7
-fiber = [ 1.1, 0.64 ]
-fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/359'
+protein = 1.6
+carbs = 3.1
+fiber = [ 2.2, 0.73 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # coriandrum sativum - coriander, fresh
 [[food]]
@@ -3174,35 +3565,36 @@ fiber = 4
 fat = 0.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342053/nutrients'
 
-# sweet corn, boiled
+# corn, sweet corn, immature kernels, boiled
 [[food]]
 name = 'corn'
 serving-size = '100g'
-protein = 2.7
-carbs = 27.8
-fiber = [ 3.5, 0.91 ]
-fat = 1.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/3040'
+protein = 3.5
+carbs = 18.6
+fiber = [ 3.1, 0.9 ]
+fat = 1.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# zea mays - sweet corn kernels
+# corn, sweet corn, immature kernels, raw
 # ideally zea mays amylosaccharata - maíz chulpe or maíz cancha chulpe kernels
 [[food]]
 name = 'corn-kernel'
 serving-size = '100g'
-protein = 2.8
-carbs = 29.3
-fiber = [ 3.7, 0.92 ]
-fat = 1.4
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/363'
+protein = 3.6
+carbs = 16.8
+fiber = [ 3.0, 0.9 ]
+fat = 1.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# eggplant, japanese type, fruit, raw
 [[food]]
 name = 'eggplant'
 serving-size = '100g'
-protein = 1
-carbs = 5.9
-fiber = 3
-fat = 0.2
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342613/nutrients'
+protein = 1.1
+carbs = 5.1
+fiber = [ 2.2, 0.86 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # foeniculum vulgare var. azoricum - florence fennel
 [[food]]
@@ -3215,58 +3607,59 @@ fiber = [ 2.4, 0.54 ]
 fat = 0.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/30914'
 
-# lactica sativa - garden lettuce
+# lettuce, green leaf lettuce, leaves, raw
 [[food]]
 name = 'garden-lettuce'
+aka = 'green-lettuce'
 serving-size = '100g'
-protein = 0.9
-carbs = 2
-fiber = [ 1.0, 0.8 ]
+protein = 1.4
+carbs = 3.3
+fiber = [ 1.9, 0.74 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/34231'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# capsicum annuum - sweet pepper, green
+# sweet peppers, fruit, green, raw
 [[food]]
 name = 'green-bell-pepper'
 aka = [ 'green-sweet-pepper', 'green-capsicum' ]
 serving-size = '100g'
 protein = 0.9
-carbs = 4.4
-fiber = [ 1.9, 0.58 ]
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/387'
+carbs = 5.1
+fiber = [ 2.3, 0.74 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# brassica oleracea var. capitata f. alba - white cabbage
+# cabbage, green ball, head raw
 [[food]]
 name = 'green-cabbage'
 aka = 'white-cabbage'
 serving-size = '100g'
-protein = 1.2
-carbs = 7.5
-fiber = [ 2.5, 0.44 ]
+protein = 1.4
+carbs = 4.3
+fiber = [ 1.6, 0.81 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/320'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# onions, young green, raw
+# green onion, "wakegi", leaves, raw
 [[food]]
 name = 'green-spring-onion'
 aka = [ 'spring-onion', 'green-onion', 'scallion' ]
 serving-size = '100g'
-protein = 1.8
-carbs = 7.3
-fiber = 2.6
-fat = 0.2
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342624/nutrients'
+protein = 1.6
+carbs = 7.4
+fiber = [ 2.8, 0.89 ]
+fat = 0
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# armoracia - horseradish
+# horseradish, rhizome, raw
 [[food]]
 name = 'horseradish'
 serving-size = '100g'
-protein = 3.9
-carbs = 21.6
-fiber = [ 7.5, 0.84 ]
+protein = 3.1
+carbs = 17.7
+fiber = [ 8.2, 0.9 ]
 fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11589'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lactuca sativa var. capitata - iceberg lettuce
 [[food]]
@@ -3288,55 +3681,56 @@ fiber = 2.8
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168576/nutrients'
 
-# japanese kabocha squash
+# pumpkin and squash, japanese squash, fruit, raw
 [[food]]
 name = 'kabocha-squash'
 aka = 'japanese-pumpkin'
 serving-size = '100g'
 protein = 1.6
-carbs = 13.7
-fiber = 2.8
+carbs = 10.9
+fiber = [ 2.8, 0.75 ]
 fat = 0.1
-source = 'https://slism.com/calorie/106046/'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# leeks, (bulb and lower leaf-portion), raw
+# leeks, bulb and leaves, raw
 [[food]]
 name = 'leek'
 serving-size = '100g'
-protein = 1.5
-carbs = 14.1
-fiber = 1.8
-fat = 0.3
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169246/nutrients'
+protein = 1.6
+carbs = 6.9
+fiber = [ 2.5, 0.84 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# lactuca sativa var. crispa - lettuce
+# lettuce, head lettuce, crisp type, hydroculture, head, raw
 [[food]]
 name = 'lettuce'
 serving-size = '100g'
-protein = 1.1
-carbs = 2
-fiber = [ 1.0, 0.8 ]
+protein = 0.8
+carbs = 2.9
+fiber = [ 1.1, 0.82 ]
 fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# bean sprouts, raw (soybean or mung)
+# bean sprouts, mung bean sprouts, raw
 [[food]]
 name = 'mung-bean-sprout'
 serving-size = '100g'
-protein = 3
-carbs = 5.9
-fiber = 1.8
-fat = 0.2
+protein = 1.7
+carbs = 2.6
+fiber = [ 1.3, 0.92 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# allium cepa - onion
-# https://fdc.nal.usda.gov/fdc-app.html#/food-details/342625/nutrients
+# onions, bulb, raw
 [[food]]
 name = 'onion'
 serving-size = '100g'
-protein = 1.2
-carbs = 6.5
-fiber = [ 1.7, 0.41 ]
+protein = 0.6
+carbs = 8.8
+fiber = [ 1.6, 0.63 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/335'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'orange-bell-pepper'
@@ -3348,15 +3742,15 @@ fiber = 1.2
 fat = 0.2
 source = 'https://www.nutritionix.com/food/orange-bell-pepper'
 
-# petroselinum crispum - parsley
+# parsley, leaves, raw
 [[food]]
 name = 'parsley'
 serving-size = '100g'
-protein = 1.4
-carbs = 9.1
-fiber = [ 8.0, 0.26 ]
-fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/333'
+protein = 4
+carbs = 7.8
+fiber = [ 6.8, 0.91 ]
+fat = 0.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # raphanus sativus var. sativus - radish
 [[food]]
@@ -3368,48 +3762,59 @@ fiber = [ 1.1, 0.91 ]
 fat = 0.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/308'
 
-# capsicum annuum - sweet pepper, red
+# sweet peppers, fruit, red, raw
 [[food]]
 name = 'red-bell-pepper'
 aka = [ 'red-sweet-pepper', 'red-capsicum' ]
 serving-size = '100g'
-protein = 0.9
-carbs = 6.4
-fiber = [ 1.9, 0.53 ]
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/386'
+protein = 1
+carbs = 7.2
+fiber = [ 1.6, 0.69 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# brassica oleracea var. capitata f. rubra - red cabbage
+# cabbage, red cabbage, head raw
 [[food]]
 name = 'red-cabbage'
 aka = 'purple-cabbage'
 serving-size = '100g'
-protein = 1.5
+protein = 2
 carbs = 6.7
-fiber = [ 2.5, 0.44 ]
+fiber = [ 2.8, 0.79 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/321'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# peppers, hot chili, red, raw
+# hot peppers, fruit, raw
 [[food]]
 name = 'red-chili-pepper'
-aka = [ 'birds-eye-chili-pepper', 'thai-chili-pepper' ]
+aka = [ 'birds-eye-chili-pepper', 'hot-pepper', 'thai-chili-pepper' ]
 serving-size = '100g'
-protein = 1.9
-carbs = 8.8
-fiber = 1.5
-fat = 0.4
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170106/nutrients'
+protein = 3.9
+carbs = 16.3
+fiber = [ 10.3, 0.86 ]
+fat = 3.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# lactuca sativa var. longifolia - romaine lettuce
+# lettuce, romaine lettuce, leaves, raw
 [[food]]
 name = 'romaine-lettuce'
 serving-size = '100g'
-protein = 1.1
-carbs = 4.4
-fiber = 1.8
+protein = 1.2
+carbs = 3.4
+fiber = [ 1.9, 0.79 ]
 fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/34233'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# lettuce, sang-chu lettuce, leaves, raw
+[[food]]
+name = 'sangchu-lettuce'
+aka = 'korean-lettuce'
+serving-size = '100g'
+protein = 1.2
+carbs = 2.5
+fiber = [ 2.0, 0.75 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cabbage, savoy, raw
 [[food]]
@@ -3421,25 +3826,25 @@ fiber = 3.1
 fat = 0.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170388/nutrients'
 
-# japanese shishito pepper
+# sweet peppers, "shishito", fruit, raw
 [[food]]
 name = 'shishito-pepper'
 serving-size = '100g'
-protein = 2.4
-carbs = 4.7
-fiber = 1.2
-fat = 0
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/577425/nutrients'
+protein = 1.9
+carbs = 5.7
+fiber = [ 3.6, 0.92 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# spinacia oleracea - spinach
+# spinach, leaves, all season, raw
 [[food]]
 name = 'spinach'
 serving-size = '100g'
-protein = 2.1
-carbs = 2.1
-fiber = [ 1.9, 0.47 ]
-fat = 0.6
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/33456'
+protein = 2.2
+carbs = 3.1
+fiber = [ 2.8, 0.75 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # tamarillo, red, flesh & seed, raw
 [[food]]
@@ -3452,39 +3857,39 @@ fiber = 3.3
 fat = 0.4
 source = 'https://www.foodcomposition.co.nz/downloads/concise-13-edition.pdf'
 
-# lycopersicon esculentum - tomato
+# tomatoes, fruit, raw
 [[food]]
 name = 'tomato'
 serving-size = '100g'
-protein = 0.6
-carbs = 4.9
-fiber = [ 1.4, 0.14 ]
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/352'
+protein = 0.7
+carbs = 4.7
+fiber = [ 1.0, 0.7 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# capsicum annuum - sweet pepper, yellow
+# sweet peppers, fruit, yellow, raw
 [[food]]
 name = 'yellow-bell-pepper'
 aka = [ 'yellow-sweet-pepper', 'yellow-capsicum' ]
 serving-size = '100g'
-protein = 0.9
-carbs = 7.1
-fiber = [ 2.0, 0.5 ]
+protein = 0.8
+carbs = 6.6
+fiber = [ 1.3, 0.69 ]
 fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/388'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end fresh vegetable }}}
 # --- --- fermented vegetable {{{
 
-# cabbage, kimchi (kim chee) style
+# chinese cabbage, head, pickles, kimchi
 [[food]]
 name = 'kimchi'
 serving-size = '100g'
-protein = 1.1
-carbs = 2.4
-fiber = 1.6
-fat = 0.5
-source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/343652/nutrients'
+protein = 2.8
+carbs = 7.9
+fiber = [ 2.7, 0.74 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'sauerkraut'
@@ -3499,6 +3904,16 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/3204'
 # --- --- end fermented vegetable }}}
 # --- --- sea vegetable {{{
 
+# algae, hitoegusa, dried
+[[food]]
+name = 'dried-hitoegusa-sea-lettuce'
+serving-size = '100g'
+protein = 16.6
+carbs = 46.3
+fiber = 44.2
+fat = 1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # okinawa asa
 [[food]]
 name = 'hitoegusa-sea-lettuce'
@@ -3510,27 +3925,27 @@ fiber = 4
 fat = 0.1
 source = 'http://tohoku-food.or.jp/cms/wp-content/uploads/2019/03/aosanori.pdf'
 
-# okinawa mozuku seaweed
+# algae, okinawa-mozuku, salted products, desalted
 [[food]]
 name = 'mozuku-seaweed'
 aka = 'sunui'
 serving-size = '100g'
 protein = 0.3
-carbs = 4
+carbs = 2
 fiber = 2
 fat = 0.2
-source = 'https://slism.com/calorie/109037/'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# okinawa umibudo sea grapes, filipino latok sea grapes
+# algae, green caviar, raw
 [[food]]
 name = 'umibudo-sea-grape'
-aka = 'latok-sea-grape'
+aka = [ '海ぶどう', 'latok-sea-grape' ]
 serving-size = '100g'
 protein = 0.5
-carbs = 2
+carbs = 1.2
 fiber = 0.8
 fat = 0.1
-source = 'https://slism.com/calorie/109012/'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end sea vegetable }}}
 
