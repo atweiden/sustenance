@@ -2663,7 +2663,7 @@ name = 'roasted-flax-seed'
 serving-size = '100g'
 protein = 21.9
 carbs = 30.5
-fiber = [ 24, 0.62 ]
+fiber = [ 24.0, 0.62 ]
 fat = 43.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
