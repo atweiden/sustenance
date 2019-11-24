@@ -448,7 +448,7 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/33065'
 
 # carica papaya - papaya, dried
 [[food]]
-name = 'dried-papapya'
+name = 'dried-papaya'
 serving-size = '100g'
 protein = 4
 carbs = 62.6
@@ -537,10 +537,10 @@ fiber = 12.3
 fat = 3
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168567/nutrients'
 
-# mume, umeboshi (pickled and dried mume), salted pickles
+# mume, "umeboshi" (pickled and dried mume), salted pickles
 [[food]]
 name = 'umeboshi'
-aka = '梅干し'
+aka = [ '梅干し', 'japanese-apricot' ]
 serving-size = '100g'
 protein = 0.9
 carbs = 10.5
@@ -550,7 +550,6 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 # currants, zante, dried
 # not to be confused with true currants
-# https://www.thekitchn.com/whats-the-difference-between-raisins-sultanas-and-currants-223285
 [[food]]
 name = 'zante-currant'
 serving-size = '100g'
@@ -563,15 +562,15 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/171724/nutrients'
 # --- --- end dried fruit }}}
 # --- --- fresh fruit {{{
 
-# malus - apple, average, with skin
+# apples, with skin, raw
 [[food]]
 name = 'apple'
 serving-size = '100g'
 protein = 0.2
-carbs = 9.3
-fiber = [ 1.6, 0.63 ]
-fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/28916'
+carbs = 16.2
+fiber = [ 1.9, 0.74 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'ataulfo-mango'
@@ -603,15 +602,15 @@ fiber = [ 5.3, 0.68 ]
 fat = 18.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# musa sapientum - banana, without skin
+# bananas, raw
 [[food]]
 name = 'banana'
 serving-size = '100g'
-protein = 1.2
-carbs = 20.1
-fiber = [ 1.8, 0.56 ]
-fat = 0.4
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11049'
+protein = 1.1
+carbs = 22.5
+fiber = [ 1.1, 0.91 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pepper, banana, raw
 [[food]]
@@ -633,25 +632,25 @@ fiber = 5.3
 fat = 0.5
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341635/nutrients'
 
-# vaccinium corymbosum - blueberry
+# blueberries, raw
 [[food]]
 name = 'blueberry'
 serving-size = '100g'
-protein = 0.3
-carbs = 15.8
-fiber = 3.3
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/35596'
+protein = 0.5
+carbs = 12.9
+fiber = [ 3.3, 0.85 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# prunus avium, prunus cerasus - cherry with stone
+# sweet cherries, imported from the u.s.a., raw
 [[food]]
 name = 'cherry'
 serving-size = '100g (12 cherries at 8.2g each)'
-protein = 0.8
-carbs = 11.8
-fiber = [ 1.4, 0.29 ]
-fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/28920'
+protein = 1.2
+carbs = 17.1
+fiber = [ 1.4, 0.57 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cucumber, fruit, raw
 [[food]]
@@ -695,15 +694,15 @@ fiber = [ 2.6, 0.81 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# citrus paradisi - grapefruit, without skin
+# grapefruit, red flesh type,  juice sacs, raw
 [[food]]
 name = 'grapefruit'
 serving-size = '100g'
-protein = 0.6
-carbs = 7.9
-fiber = [ 1.4, 0.64 ]
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11047'
+protein = 0.9
+carbs = 9.6
+fiber = [ 0.6, 0.67 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # kiwifruit, green flesh type, raw
 [[food]]
@@ -726,24 +725,25 @@ fiber = 2.2
 fat = 0.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168215/nutrients'
 
+# guava, red flesh type, raw
 [[food]]
 name = 'guava'
 serving-size = '100g'
-protein = 2.5
-carbs = 14.6
-fiber = 5.4
-fat = 0.9
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31552'
+protein = 0.6
+carbs = 9.9
+fiber = [ 5.1, 0.86 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cucumis melo - honeydew melon, without skin
+# muskmelon, open culture, green flesh type, raw
 [[food]]
 name = 'honeydew-melon'
 serving-size = '100g'
-protein = 0.6
-carbs = 8.6
-fiber = [ 0.8, 0.5 ]
+protein = 1
+carbs = 10.4
+fiber = [ 0.5, 0.6 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11203'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
 name = 'jackfruit'
@@ -774,15 +774,15 @@ fiber = [ 1.3, 0.54 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# citrus sinensis - orange without skin
+# oranges, valencia, imported from the u.s.a., juice sacs, raw
 [[food]]
 name = 'orange'
 serving-size = '100g'
-protein = 0.6
-carbs = 11
-fiber = [ 2.1, 0.57 ]
+protein = 1
+carbs = 9.8
+fiber = [ 0.8, 0.63 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11045'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # papaya, ripe, raw
 [[food]]
@@ -805,15 +805,15 @@ fiber = 10.4
 fat = 0.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169108/nutrients'
 
-# pyrus communis - pear, with skin
+# pears, european pears, raw
 [[food]]
 name = 'pear'
 serving-size = '100g'
 protein = 0.3
-carbs = 10.4
-fiber = [ 3.4, 0.56 ]
+carbs = 14.4
+fiber = [ 1.9, 0.63 ]
 fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/28917?'
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # peaches, raw
 [[food]]
@@ -836,15 +836,15 @@ fiber = [ 1.6, 0.88 ]
 fat = 0.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# ananas comosus - pineapple, without skin
+# pineapple, raw
 [[food]]
 name = 'pineapple'
 serving-size = '100g'
-protein = 0.5
-carbs = 12.6
-fiber = [ 1.4, 0.86 ]
-fat = 0.4
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11056'
+protein = 0.6
+carbs = 13.4
+fiber = [ 1.5, 0.93 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pitaya, raw
 [[food]]
@@ -867,46 +867,35 @@ fiber = 2.3
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342002/nutrients'
 
-# prunus domestica - plum, without stone
+# plums, european plums, raw
 # ideally white plums (plums with golden exterior)
 [[food]]
 name = 'plum'
 serving-size = '100g'
-protein = 0.8
-carbs = 10.1
-fiber = [ 1.7, 0.59 ]
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11053'
+protein = 0.7
+carbs = 12.6
+fiber = [ 1.9, 0.53 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# punica granatum - pomegranate, without skin
+# pomegranates, raw
 [[food]]
 name = 'pomegranate'
 serving-size = '100g'
-protein = 1.7
-carbs = 18.7
-fiber = 4
-fat = 1.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31555'
+protein = 0.2
+carbs = 15.5
+fat = 0
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cucurbita pepo - pumpkin
-[[food]]
-name = 'pumpkin'
-serving-size = '100g'
-protein = 0.8
-carbs = 4
-fiber = [ 2.0, 0.7 ]
-fat = 0.1
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/350'
-
-# rubus idaeus - raspberry
+# red raspberries, raw
 [[food]]
 name = 'raspberry'
 serving-size = '100g'
-protein = 1
-carbs = 9.4
-fiber = [ 3.7, 0.89 ]
-fat = 0.8
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/448'
+protein = 1.1
+carbs = 10.2
+fiber = [ 4.7, 0.85 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # carambola, raw
 [[food]]
@@ -919,25 +908,25 @@ fiber = [ 1.8, 0.78 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# fragaria ananassa - strawberry
+# strawberries, raw
 [[food]]
 name = 'strawberry'
 serving-size = '100g'
-protein = 0.5
-carbs = 9.6
-fiber = [ 1.9, 0.79 ]
-fat = 0.3
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/447'
+protein = 0.9
+carbs = 8.5
+fiber = [ 1.4, 0.64 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# citrullus lanatus - watermelon, without skin
+# watermelon, red flesh type, raw
 [[food]]
 name = 'watermelon'
 serving-size = '100g'
-protein = 0.9
-carbs = 8.2
-fiber = 1.1
-fat = 0.2
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/11055'
+protein = 0.6
+carbs = 9.5
+fiber = [ 0.3, 0.67 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # zucchini, fruit, raw
 [[food]]
@@ -1302,28 +1291,34 @@ protein = 12.7
 carbs = 64.9
 fiber = [ 7.4, 0.85 ]
 fat = 6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cooked brown rice
+# rice, short grain, paddy rice, brown, "meshi" (cooked rice)
 [[food]]
 name = 'brown-rice'
 serving-size = '100g'
-protein = 2.3
-carbs = 24
-fat = 0.8
+protein = 2.8
+carbs = 35.6
+fiber = [ 1.4, 0.86 ]
+fat = 1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cooked couscous
+# couscous, cooked with oil and salt
 [[food]]
 name = 'couscous'
 serving-size = '100g'
-protein = 3.8
-carbs = 23
-fat = 0.2
+protein = 5.2
+carbs = 31.1
+fiber = [ 2.3, 0.52 ]
+fat = 3.9
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/29209'
 
 [[food]]
 name = 'ezekiel-bread'
 serving-size = '1 slice (34g)'
 protein = 4
 carbs = 15
+fiber = 3
 fat = 0.5
 source = 'https://www.foodforlife.com/product/breads/ezekiel-49-low-sodium-sprouted-whole-grain-bread'
 
@@ -1332,14 +1327,16 @@ name = 'ezekiel-bun'
 serving-size = '1 bun (76g)'
 protein = 9
 carbs = 34
+fiber = 6
 fat = 1.5
 source = 'https://www.foodforlife.com/product/buns/ezekiel-49-sprouted-whole-grain-burger-buns'
 
 [[food]]
 name = 'ezekiel-english-muffin'
-serving-size = '½ muffin (38g)'
+serving-size = '0.5 muffin (38g)'
 protein = 4
 carbs = 16
+fiber = 3
 fat = 1
 source = 'https://www.foodforlife.com/product/english-muffins/7-sprouted-grains-english-muffins'
 
@@ -1348,14 +1345,16 @@ name = 'ezekiel-pocket-bread'
 serving-size = '1 pocket bread (47g)'
 protein = 7
 carbs = 21
+fiber = 4
 fat = 0.5
 source = 'https://www.foodforlife.com/product/pocket-breads/ezekiel-49-whole-grain-pocket-bread'
 
 [[food]]
 name = 'ezekiel-spaghetti'
-serving-size = '2 oz (56g, ⅛ container)'
+serving-size = '2 oz (56g, 0.125 container)'
 protein = 8
 carbs = 40
+fiber = 7
 fat = 2
 source = 'https://www.foodforlife.com/product/pasta/ezekiel-49-sprouted-whole-grain-spaghetti'
 
@@ -1389,21 +1388,26 @@ fiber = [ 9.4, 0.66 ]
 fat = 5.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cooked long-grain white rice
+# rice, short grain, paddy rice, glutinous rice, well-milled,  "meshi"
+# (cooked rice)
 [[food]]
 name = 'white-rice'
 serving-size = '100g'
-protein = 2.7
-carbs = 28
-fat = 0.3
+protein = 3.5
+carbs = 43.9
+fiber = [ 0.4, 1.0 ]
+fat = 0.5
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cooked wild rice
+# wild rice, cooked
 [[food]]
 name = 'wild-rice'
 serving-size = '100g'
 protein = 4
-carbs = 21
+carbs = 21.3
+fiber = 1.8
 fat = 0.3
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168897/nutrients'
 
 # --- end grain }}}
 # --- herb {{{
@@ -3681,14 +3685,14 @@ fiber = 2.8
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168576/nutrients'
 
-# pumpkin and squash, japanese squash, fruit, raw
+# pumpkin and squash, japanese squash, fruit, boiled
 [[food]]
 name = 'kabocha-squash'
 aka = 'japanese-pumpkin'
 serving-size = '100g'
-protein = 1.6
-carbs = 10.9
-fiber = [ 2.8, 0.75 ]
+protein = 1.9
+carbs = 13.3
+fiber = [ 3.6, 0.78 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
@@ -3750,6 +3754,17 @@ protein = 4
 carbs = 7.8
 fiber = [ 6.8, 0.91 ]
 fat = 0.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# pumpkin and squash, winter squash, fruit, baked
+[[food]]
+name = 'pumpkin'
+aka = 'winter-squash'
+serving-size = '100g'
+protein = 2.5
+carbs = 27.7
+fiber = [ 5.3, 0.74 ]
+fat = 0.4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # raphanus sativus var. sativus - radish
@@ -3904,7 +3919,7 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/3204'
 # --- --- end fermented vegetable }}}
 # --- --- sea vegetable {{{
 
-# algae, hitoegusa, dried
+# algae, "hitoegusa", dried
 [[food]]
 name = 'dried-hitoegusa-sea-lettuce'
 serving-size = '100g'
@@ -3925,7 +3940,7 @@ fiber = 4
 fat = 0.1
 source = 'http://tohoku-food.or.jp/cms/wp-content/uploads/2019/03/aosanori.pdf'
 
-# algae, okinawa-mozuku, salted products, desalted
+# algae, "okinawa-mozuku", salted products, desalted
 [[food]]
 name = 'mozuku-seaweed'
 aka = 'sunui'
