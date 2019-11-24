@@ -1800,10 +1800,16 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 [[food]]
 name = 'lupin-bean'
 aka = [
+  # españa
   'altramuz',
+  # ecuadorian sierra & andean highlands
   'chocho',
   'lupine-bean',
+  # italy
   'lupini-bean',
+  # peru
+  'tarwi',
+  # portugal
   'tremoço'
 ]
 serving-size = '100g'
