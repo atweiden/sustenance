@@ -204,7 +204,10 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/448425/nutrients'
 
 [[food]]
 name = 'arrowroot-flour'
-aka = [ 'arrowroot-powder', 'arrowroot-starch' ]
+aka = [
+  'arrowroot-powder',
+  'arrowroot-starch'
+]
 serving-size = '100g'
 protein = 0.3
 carbs = 88
@@ -212,6 +215,18 @@ carbs = 88
 fiber = [ 3.4, 0.98 ]
 fat = 0.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170684/nutrients'
+
+# shared macros with chickpea-flour
+[[food]]
+name = 'besan-flour'
+aka = 'gram-flour'
+serving-size = '100g'
+protein = 22.4
+carbs = 57.8
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 10.8, 0.79 ]
+fat = 6.7
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174288/nutrients'
 
 # flour, chestnut
 [[food]]
@@ -235,10 +250,13 @@ source = 'https://www.mygerbs.com/shop/chia-seed-meal/'
 
 [[food]]
 name = 'chickpea-flour'
-aka = [ 'chick-pea-flour', 'garbanzo-flour' ]
+aka = [
+  'chick-pea-flour',
+  'garbanzo-flour'
+]
 serving-size = '100g'
-protein = 22
-carbs = 58
+protein = 22.4
+carbs = 57.8
 # https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 10.8, 0.79 ]
 fat = 6.7
@@ -259,7 +277,13 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/475563/nutrients'
 # https://www.bobsredmill.com/organic-golden-flaxseed-meal.html
 [[food]]
 name = 'flax-seed-meal'
-aka = [ 'flaxseed-meal', 'flaxseed-flour', 'ground-flax', 'milled-flax', 'linseed-meal' ]
+aka = [
+  'flaxseed-flour',
+  'flaxseed-meal',
+  'ground-flax',
+  'linseed-meal',
+  'milled-flax'
+]
 serving-size = '100g'
 protein = 23.1
 carbs = 30.8
@@ -271,7 +295,10 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396925/nutrients'
 # gerbs hemp kernel meal
 [[food]]
 name = 'hemp-seed-meal'
-aka = [ 'hemp-seed-flour', 'hemp-seed-powder' ]
+aka = [
+  'hemp-seed-flour',
+  'hemp-seed-powder'
+]
 serving-size = '100g'
 protein = 32.1
 carbs = 7.1
@@ -291,7 +318,10 @@ source = 'https://rawearthproduce.com.au/collections/frontpage/products/lupin-fl
 # gerbs raw pumpkin seed meal
 [[food]]
 name = 'pumpkin-seed-meal'
-aka = [ 'pumpkin-seed-flour', 'pumpkin-seed-powder' ]
+aka = [
+  'pumpkin-seed-flour',
+  'pumpkin-seed-powder'
+]
 serving-size = '100g'
 protein = 25
 carbs = 17.9
@@ -312,7 +342,10 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/373794/nutrients'
 # gerbs raw sunflower seed meal
 [[food]]
 name = 'sunflower-seed-meal'
-aka = [ 'sunflower-seed-flour', 'sunflower-seed-powder' ]
+aka = [
+  'sunflower-seed-flour',
+  'sunflower-seed-powder'
+]
 serving-size = '100g'
 protein = 21.4
 carbs = 21.4
@@ -322,7 +355,12 @@ source = 'https://www.mygerbs.com/shop/sunflower-seed-meal-full-oil-content-prot
 
 [[food]]
 name = 'tapioca-flour'
-aka = [ 'tapioca-starch', 'manioc-starch', 'cassava-flour', 'cassava-starch' ]
+aka = [
+  'cassava-flour',
+  'cassava-starch',
+  'manioc-starch',
+  'tapioca-starch'
+]
 serving-size = '100g'
 protein = 0
 carbs = 88.6
@@ -343,7 +381,11 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396835/nutrients'
 
 [[food]]
 name = 'tiger-nut-flour'
-aka = [ 'chufa-flour', 'chufa-molida', 'tigernut-flour' ]
+aka = [
+  'chufa-flour',
+  'chufa-molida',
+  'tigernut-flour'
+]
 serving-size = '100g'
 protein = 6.7
 carbs = 63.3
@@ -559,7 +601,10 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168567/nutrients'
 # mume, "umeboshi" (pickled and dried mume), salted pickles
 [[food]]
 name = 'umeboshi'
-aka = [ '梅干し', 'japanese-apricot' ]
+aka = [
+  'japanese-apricot',
+  '梅干し'
+]
 serving-size = '100g'
 protein = 0.9
 carbs = 10.5
@@ -604,7 +649,10 @@ source = 'http://www.johnvenaproduce.com/products/20'
 # atemoya, raw
 [[food]]
 name = 'atemoya'
-aka = [ 'custard-apple', 'chirimorinon' ]
+aka = [
+  'chirimorinon',
+  'custard-apple'
+]
 serving-size = '100g'
 protein = 1.8
 carbs = 19.4
@@ -707,7 +755,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # okinawa goya
 [[food]]
 name = 'goya'
-aka = [ 'bitter-gourd', 'bitter-melon' ]
+aka = [
+  'bitter-gourd',
+  'bitter-melon'
+]
 serving-size = '100g'
 protein = 1
 carbs = 3.9
@@ -819,7 +870,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 [[food]]
 name = 'passion-fruit'
-aka = [ 'purple-granadilla', 'maracuya' ]
+aka = [
+  'maracuya',
+  'purple-granadilla'
+]
 serving-size = '100g'
 protein = 2.2
 carbs = 23.4
@@ -925,7 +979,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # carambola, raw
 [[food]]
 name = 'star-fruit'
-aka = [ 'starfruit', 'carambola' ]
+aka = [
+  'carambola',
+  'starfruit'
+]
 serving-size = '100g'
 protein = 0.7
 carbs = 7.5
@@ -1076,7 +1133,7 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 [[food]]
 name = 'black-trumpet-mushroom'
-aka = 'black-chanterelle'
+aka = 'black-chanterelle-mushroom'
 serving-size = '100g'
 protein = 2
 carbs = 7.6
@@ -1089,7 +1146,10 @@ source = 'https://frida.fooddata.dk/food/1100'
 # http://www.hokto-kinoko.com/whats-kinoko/bunashimeji/
 [[food]]
 name = 'buna-shimeji-mushroom'
-aka = [ 'brown-beech-mushroom', 'brown-beech-clamshell-mushroom' ]
+aka = [
+  'brown-beech-clamshell-mushroom',
+  'brown-beech-mushroom'
+]
 serving-size = '100g'
 protein = 2.7
 carbs = 5
@@ -1101,7 +1161,11 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # http://www.hokto-kinoko.com/whats-kinoko/bunapi/
 [[food]]
 name = 'bunapi-shimeji-mushroom'
-aka = [ 'white-beech-mushroom', 'white-buna-shimeji', 'white-clamshell-mushroom' ]
+aka = [
+  'white-beech-mushroom',
+  'white-buna-shimeji-mushroom',
+  'white-clamshell-mushroom'
+]
 serving-size = '100g'
 protein = 2.7
 carbs = 5
@@ -1124,7 +1188,10 @@ source = 'https://frida.fooddata.dk/food/1100'
 # mushrooms, button mushrooms, fresh, raw
 [[food]]
 name = 'crimini-mushroom'
-aka = [ 'white-button-mushroom', 'swiss-brown-mushroom' ]
+aka = [
+  'swiss-brown-mushroom',
+  'white-button-mushroom'
+]
 serving-size = '100g'
 protein = 2.9
 carbs = 2.1
@@ -1146,7 +1213,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # mushrooms, king oyster mushrooms, raw
 [[food]]
 name = 'eryngii-mushroom'
-aka = [ 'king-trumpet-mushroom', 'king-oyster-mushroom' ]
+aka = [
+  'king-oyster-mushroom',
+  'king-trumpet-mushroom'
+]
 serving-size = '100g'
 protein = 2.8
 carbs = 6
@@ -1158,7 +1228,11 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # https://www.hokto-kinoko.co.jp/lang/en/kinoko/shimohurihiratake/
 [[food]]
 name = 'hiratake-mushroom'
-aka = [ 'oyster-mushroom', 'pearl-oyster-mushroom', 'tree-oyster-mushroom' ]
+aka = [
+  'oyster-mushroom',
+  'pearl-oyster-mushroom',
+  'tree-oyster-mushroom'
+]
 serving-size = '100g'
 protein = 3.3
 carbs = 6.2
@@ -1191,7 +1265,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 [[food]]
 name = 'porcini-mushroom'
-aka = [ 'king-bolete-mushroom', 'cèpe-mushroom' ]
+aka = [
+  'cèpe-mushroom',
+  'king-bolete-mushroom'
+]
 serving-size = '100g'
 protein = 3.9
 carbs = 3.9
@@ -1226,7 +1303,12 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # mushrooms, black poplar mushrooms, raw
 [[food]]
 name = 'yanagi-matsutake-mushroom'
-aka = [ 'chestnut-mushroom', 'black-poplar', 'velvet-pioppini', 'tea-tree-mushroom' ]
+aka = [
+  'black-poplar-mushroom',
+  'chestnut-mushroom',
+  'tea-tree-mushroom',
+  'velvet-pioppini-mushroom'
+]
 serving-size = '100g'
 protein = 2.4
 carbs = 4
@@ -1284,7 +1366,11 @@ source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=346_
 # melanosporum vitt.
 [[food]]
 name = 'sweet-black-truffle'
-aka = [ 'périgord-truffle', 'dolce-di-norcia-truffle', 'prized-black-truffle' ]
+aka = [
+  'dolce-di-norcia-truffle',
+  'prized-black-truffle',
+  'périgord-truffle'
+]
 serving-size = '100g'
 protein = 6
 carbs = 9.2
@@ -1310,7 +1396,11 @@ source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=346_
 # magnatum pico
 [[food]]
 name = 'white-truffle'
-aka = [ 'white-alba-truffle', 'piedmont-truffle', 'white-diamond-truffle' ]
+aka = [
+  'piedmont-truffle',
+  'white-alba-truffle',
+  'white-diamond-truffle'
+]
 serving-size = '100g'
 protein = 6
 carbs = 9.2
@@ -1328,7 +1418,11 @@ source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=346_
 # or baking yeast
 [[food]]
 name = 'nutritional-yeast'
-aka = [ 'nutritional-yeast-flakes', 'savory-yeast-flakes', 'vegetarian-support-formula' ]
+aka = [
+  'nutritional-yeast-flake',
+  'savory-yeast-flake',
+  'vegetarian-support-formula'
+]
 serving-size = '1 tbsp (8.5g)'
 protein = 3.9
 carbs = 3.1
@@ -1571,7 +1665,11 @@ fat = 4.3
 # adzuki beans, mature seeds, whole, boiled
 [[food]]
 name = 'adzuki-bean'
-aka = [ 'azuki-bean', 'japanese-red-bean', 'english-red-mung-bean' ]
+aka = [
+  'azuki-bean',
+  'english-red-mung-bean',
+  'japanese-red-bean'
+]
 serving-size = '100g'
 protein = 8.9
 carbs = 24.2
@@ -1637,7 +1735,10 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/31233'
 # chickpeas, mature seeds, whole, boiled
 [[food]]
 name = 'garbanzo-bean'
-aka = [ 'chickpea', 'chick-pea' ]
+aka = [
+  'chick-pea',
+  'chickpea'
+]
 serving-size = '100g'
 protein = 9.5
 carbs = 27.4
@@ -1659,7 +1760,12 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/389328/nutrients'
 # bean, green bean, string bean, boiled without salt
 [[food]]
 name = 'green-bean'
-aka = [ 'french-bean', 'string-bean', 'snap-bean', 'haricot-vert' ]
+aka = [
+  'french-bean',
+  'haricot-vert',
+  'snap-bean',
+  'string-bean'
+]
 serving-size = '100g'
 protein = 2.3
 carbs = 8.1
@@ -1693,7 +1799,13 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # ideally australian sweet lupin
 [[food]]
 name = 'lupin-bean'
-aka = [ 'lupini-bean', 'lupine-bean', 'altramuz', 'chocho', 'tremoço' ]
+aka = [
+  'altramuz',
+  'chocho',
+  'lupine-bean',
+  'lupini-bean',
+  'tremoço'
+]
 serving-size = '100g'
 protein = 15.6
 carbs = 9.9
@@ -1734,7 +1846,12 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # organic navy beans, canned
 [[food]]
 name = 'navy-bean'
-aka = [ 'haricot', 'pearl-haricot-bean', 'white-pea-bean', 'boston-bean' ]
+aka = [
+  'boston-bean',
+  'haricot',
+  'pearl-haricot-bean',
+  'white-pea-bean'
+]
 serving-size = '100g'
 protein = 5.4
 carbs = 15.4
@@ -1938,7 +2055,14 @@ source = 'https://nevo-online.rivm.nl/'
 # pigeon peas (red gram), mature seeds, cooked, boiled, without salt
 [[food]]
 name = 'pigeon-pea'
-aka = [ 'cajan-pea', 'congo-bean', 'gandule', 'toor-dal', 'arhar-dal', 'no-eyed-pea' ]
+aka = [
+  'arhar-dal',
+  'cajan-pea',
+  'congo-bean',
+  'gandule',
+  'no-eyed-pea',
+  'toor-dal'
+]
 serving-size = '100g'
 protein = 6.8
 carbs = 23.3
@@ -2261,7 +2385,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 [[food]]
 name = 'tiger-nut'
-aka = [ 'chufa', 'tigernut' ]
+aka = [
+  'chufa',
+  'tigernut'
+]
 serving-size = '100g'
 protein = 5
 carbs = 52.2
@@ -2739,7 +2866,10 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/34847'
 # linum usitatissimus - linseed, whole
 [[food]]
 name = 'flax-seed'
-aka = [ 'flaxseed', 'linseed' ]
+aka = [
+  'flaxseed',
+  'linseed'
+]
 serving-size = '100g'
 protein = 22.1
 carbs = 28.8
@@ -2751,7 +2881,10 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/30991?'
 # cannabis sativa - hemp seed, without hull
 [[food]]
 name = 'hemp-seed'
-aka = [ 'de-hulled-hemp-seed', 'shelled-hemp-seed', 'hemp-heart' ]
+aka = [
+  'hemp-heart',
+  'shelled-hemp-seed'
+]
 serving-size = '100g'
 protein = 33
 carbs = 6.4
@@ -2762,7 +2895,10 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/35220'
 # lotus seeds, mature, dried, shelled and skinned, boiled
 [[food]]
 name = 'lotus-seed'
-aka = [ 'water-lily-seed', 'foxnut' ]
+aka = [
+  'foxnut',
+  'water-lily-seed'
+]
 serving-size = '100g'
 protein = 7.3
 carbs = 25
@@ -2774,7 +2910,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # https://www.mygerbs.com/shop/raw-pumpkin-seed-kernels-shelled-pepitas/
 [[food]]
 name = 'pumpkin-seed'
-aka = [ 'pepita', 'pumpkin-seed-kernel' ]
+aka = [
+  'pepita',
+  'pumpkin-seed-kernel'
+]
 serving-size = '100g'
 protein = 30.2
 carbs = 10.7
@@ -2827,7 +2966,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # watermelon seeds, roasted and salted
 [[food]]
 name = 'roasted-watermelon-seed'
-aka = [ 'すいかの種', 'スイカの種' ]
+aka = [
+  'スイカの種',
+  'すいかの種'
+]
 serving-size = '100g'
 protein = 29.6
 carbs = 13.4
@@ -3069,7 +3211,10 @@ fat = 0.1
 # ground mustard
 [[food]]
 name = 'mustard-powder'
-aka = [ 'dry-mustard', 'powdered-mustard-seed' ]
+aka = [
+  'dry-mustard',
+  'powdered-mustard-seed'
+]
 serving-size = '1 tbsp (6.3g)'
 protein = 1.6
 carbs = 1.8
@@ -3085,7 +3230,10 @@ fat = 2.3
 
 [[food]]
 name = 'nigella-seed'
-aka = [ 'black-caraway-seed', 'black-cumin' ]
+aka = [
+  'black-caraway-seed',
+  'black-cumin'
+]
 serving-size = '1 tbsp (15g)'
 protein = 3
 carbs = 6
@@ -3287,7 +3435,10 @@ fat = 0.1
 
 [[food]]
 name = 'brown-rice-syrup'
-aka = [ 'rice-syrup', 'rice-malt-syrup' ]
+aka = [
+  'rice-malt-syrup',
+  'rice-syrup'
+]
 serving-size = '1 tbsp'
 protein = 0.5
 carbs = 15.5
@@ -3296,7 +3447,11 @@ fat = 0
 # better body foods organic coconut palm sugar
 [[food]]
 name = 'coconut-sugar'
-aka = [ 'coconut-palm-sugar', 'coconut-sap-sugar', 'evaporated-coconut-nectar' ]
+aka = [
+  'coconut-palm-sugar',
+  'coconut-sap-sugar',
+  'evaporated-coconut-nectar'
+]
 serving-size = '100g'
 protein = 0
 carbs = 100
@@ -3380,7 +3535,10 @@ fat = 0.1
 # both dark/light variants
 [[food]]
 name = 'piloncilo-brown-sugar'
-aka = [ 'panela', 'panocha' ]
+aka = [
+  'panela-brown-sugar',
+  'panocha-brown-sugar'
+]
 serving-size = '100g'
 protein = 0.1
 carbs = 98
@@ -3441,7 +3599,10 @@ source = 'https://mrvegan.ch/lebensmittel/vegan-specials/tofu-seitan-tempeh/853/
 
 [[food]]
 name = 'seitan'
-aka = [ 'vital-wheat-gluten', 'mien-chin' ]
+aka = [
+  'mien-chin',
+  'vital-wheat-gluten'
+]
 serving-size = '100g'
 protein = 75.2
 carbs = 13.8
@@ -3452,7 +3613,11 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168147/nutrients'
 # soybeans, tofu, "kinugoshi-tofu" (silken tofu)
 [[food]]
 name = 'silken-tofu'
-aka = [ 'soft-tofu', 'silk-tofu', 'japanese-style-tofu' ]
+aka = [
+  'japanese-style-tofu',
+  'silk-tofu',
+  'soft-tofu'
+]
 serving-size = '100g'
 protein = 4.9
 carbs = 2
@@ -3473,7 +3638,6 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # soybeans, tofu, "momen-tofu" (regular tofu)
 [[food]]
 name = 'tofu'
-aka = [ 'soft-tofu', 'silk-tofu', 'japanese-style-tofu' ]
 serving-size = '100g'
 protein = 6.6
 carbs = 1.6
@@ -3551,7 +3715,11 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # globe artichoke, flower bud, boiled
 [[food]]
 name = 'artichoke'
-aka = [ 'globe-artichoke', 'green-artichoke', 'french-artichoke' ]
+aka = [
+  'french-artichoke',
+  'globe-artichoke',
+  'green-artichoke'
+]
 serving-size = '100g'
 protein = 2.1
 carbs = 10.8
@@ -3593,7 +3761,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # green bok choy, leaves, boiled
 [[food]]
 name = 'bok-choy'
-aka = [ 'bai-cai', 'pak-choi' ]
+aka = [
+  'bai-cai',
+  'pak-choi'
+]
 serving-size = '100g'
 protein = 0.9
 carbs = 2.4
@@ -3763,7 +3934,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # sweet peppers, fruit, green, raw
 [[food]]
 name = 'green-bell-pepper'
-aka = [ 'green-sweet-pepper', 'green-capsicum' ]
+aka = [
+  'green-capsicum',
+  'green-sweet-pepper'
+]
 serving-size = '100g'
 protein = 0.9
 carbs = 5.1
@@ -3785,7 +3959,11 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # green onion, "wakegi", leaves, raw
 [[food]]
 name = 'green-spring-onion'
-aka = [ 'spring-onion', 'green-onion', 'scallion' ]
+aka = [
+  'green-onion',
+  'scallion',
+  'spring-onion'
+]
 serving-size = '100g'
 protein = 1.6
 carbs = 7.4
@@ -3879,7 +4057,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # sweet pepper orange raw
 [[food]]
 name = 'orange-bell-pepper'
-aka = [ 'orange-sweet-pepper', 'orange-capsicum' ]
+aka = [
+  'orange-capsicum',
+  'orange-sweet-pepper'
+]
 serving-size = '100g'
 protein = 0.8
 carbs = 6.4
@@ -3923,7 +4104,10 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/308'
 # sweet peppers, fruit, red, raw
 [[food]]
 name = 'red-bell-pepper'
-aka = [ 'red-sweet-pepper', 'red-capsicum' ]
+aka = [
+  'red-capsicum',
+  'red-sweet-pepper'
+]
 serving-size = '100g'
 protein = 1
 carbs = 7.2
@@ -3945,7 +4129,11 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # hot peppers, fruit, raw
 [[food]]
 name = 'red-chili-pepper'
-aka = [ 'birds-eye-chili-pepper', 'hot-pepper', 'thai-chili-pepper' ]
+aka = [
+  'birds-eye-chili-pepper',
+  'hot-pepper',
+  'thai-chili-pepper'
+]
 serving-size = '100g'
 protein = 3.9
 carbs = 16.3
@@ -4010,7 +4198,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # not to be confused with tomatillo
 [[food]]
 name = 'tamarillo'
-aka = [ 'tree-tomato', 'tomate-de-árbol' ]
+aka = [
+  'tomate-de-árbol',
+  'tree-tomato'
+]
 serving-size = '100g'
 protein = 2
 carbs = 7.1
@@ -4032,7 +4223,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # sweet peppers, fruit, yellow, raw
 [[food]]
 name = 'yellow-bell-pepper'
-aka = [ 'yellow-sweet-pepper', 'yellow-capsicum' ]
+aka = [
+  'yellow-capsicum',
+  'yellow-sweet-pepper'
+]
 serving-size = '100g'
 protein = 0.8
 carbs = 6.6
@@ -4094,7 +4288,12 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # okinawa asa
 [[food]]
 name = 'hitoegusa-sea-lettuce'
-aka = [ 'aosa', 'hitoegusa', 'aosa-nori', 'ulva-lactuca' ]
+aka = [
+  'aosa',
+  'aosa-nori',
+  'hitoegusa',
+  'ulva-lactuca'
+]
 serving-size = '100g'
 protein = 0.6
 carbs = 8.6
@@ -4116,7 +4315,11 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # algae, green caviar, raw
 [[food]]
 name = 'umibudo-sea-grape'
-aka = [ '海ぶどう', 'latok-sea-grape' ]
+aka = [
+  # filipino version
+  'latok-sea-grape',
+  '海ぶどう'
+]
 serving-size = '100g'
 protein = 0.5
 carbs = 1.2
