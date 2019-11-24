@@ -326,7 +326,8 @@ aka = [ 'tapioca-starch', 'manioc-starch', 'cassava-flour', 'cassava-starch' ]
 serving-size = '100g'
 protein = 0
 carbs = 88.6
-fiber = 5.7
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 5.7, 0.86 ]
 fat = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/593835/nutrients'
 
@@ -335,7 +336,8 @@ name = 'teff-flour'
 serving-size = '100g'
 protein = 12.2
 carbs = 70.7
-fiber = 12.2
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 12.2, 0.81 ]
 fat = 3.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396835/nutrients'
 
@@ -360,7 +362,8 @@ name = 'dried-apple'
 serving-size = '100g'
 protein = 1
 carbs = 68.9
-fiber = [ 8.7, 0.64 ]
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 8.7, 0.45 ]
 fat = 0.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/401'
 
@@ -474,7 +477,8 @@ name = 'dried-peach'
 serving-size = '100g'
 protein = 5.8
 carbs = 64.5
-fiber = [ 11.6, 0.61 ]
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 11.6, 0.54 ]
 fat = 1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/412'
 
@@ -536,7 +540,8 @@ aka = 'golden-raisin'
 serving-size = '100g'
 protein = 3.3
 carbs = 80
-fiber = 3.3
+# insoluble fiber estimated from raisin
+fiber = [ 3.3, 0.71 ]
 fat = 0.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168164/nutrients'
 
@@ -546,7 +551,8 @@ name = 'sun-dried-tomato'
 serving-size = '100g'
 protein = 14.1
 carbs = 55.8
-fiber = 12.3
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 12.3, 0.91 ]
 fat = 3
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168567/nutrients'
 
@@ -568,7 +574,8 @@ name = 'zante-currant'
 serving-size = '100g'
 protein = 3.4
 carbs = 77
-fiber = 4.4
+# insoluble fiber estimated from raisin
+fiber = [ 4.4, 0.71 ]
 fat = 0.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/171724/nutrients'
 
@@ -816,7 +823,8 @@ aka = [ 'purple-granadilla', 'maracuya' ]
 serving-size = '100g'
 protein = 2.2
 carbs = 23.4
-fiber = 10.4
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 10.4, 0.26 ]
 fat = 0.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169108/nutrients'
 
@@ -1054,6 +1062,7 @@ name = 'passion-fruit-juice'
 serving-size = '100g'
 protein = 0.8
 carbs = 16.2
+fiber = 0
 fat = 0.4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
@@ -1454,7 +1463,8 @@ name = 'wild-rice'
 serving-size = '100g'
 protein = 4
 carbs = 21.3
-fiber = 1.8
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 1.8, 0.9 ]
 fat = 0.3
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168897/nutrients'
 
@@ -1652,7 +1662,8 @@ aka = [ 'french-bean', 'string-bean', 'snap-bean', 'haricot-vert' ]
 serving-size = '100g'
 protein = 2.3
 carbs = 8.1
-fiber = [ 2.7, 0.63 ]
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 2.7, 0.57 ]
 fat = 0.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31547'
 
@@ -2066,7 +2077,8 @@ aka = 'shredded-coconut'
 serving-size = '100g'
 protein = 8.1
 carbs = 22.7
-fiber = [ 16.3, 0.82 ]
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 16.3, 0.89 ]
 fat = 64.5
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/382'
 
@@ -2075,11 +2087,12 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/382'
 name = 'hazelnut'
 aka = 'filbert'
 serving-size = '100g'
-protein = 14.1
-carbs = 20.9
-fiber = [ 17.5, 0.33 ]
-fat = 61
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/375'
+protein = 15
+carbs = 15.1
+# insoluble fiber estimated from roasted-hazelnut
+fiber = [ 10.4, 0.88 ]
+fat = 60.8
+source = 'https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1541-4337.2012.00190.x'
 
 [[food]]
 name = 'macadamia-nut'
@@ -2249,11 +2262,12 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 name = 'tiger-nut'
 aka = [ 'chufa', 'tigernut' ]
 serving-size = '100g'
-protein = 7.5
-carbs = 60
-fiber = 17.5
-fat = 23.5
-source = 'https://world.openfoodfacts.org/product/8437017281351/chufa-de-valencia-ecologica'
+protein = 5
+carbs = 52.2
+# insoluble fiber estimated from https://healthybutsmart.com/tiger-nuts/
+fiber = [ 8.9, 0.5 ]
+fat = 24.5
+source = 'https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1541-4337.2012.00190.x'
 
 # juglans regia - nut, walnut
 [[food]]
@@ -2261,7 +2275,8 @@ name = 'walnut'
 serving-size = '100g'
 protein = 15.2
 carbs = 9.9
-fiber = [ 6.7, 0.75 ]
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 6.7, 0.69 ]
 fat = 65.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/376'
 
@@ -2763,7 +2778,8 @@ aka = [ 'pepita', 'pumpkin-seed-kernel' ]
 serving-size = '100g'
 protein = 35.1
 carbs = 8.9
-fiber = 6
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 6.0, 0.73 ]
 fat = 48
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31211'
 
@@ -2773,7 +2789,8 @@ name = 'quinoa'
 serving-size = '100g'
 protein = 4.8
 carbs = 22.9
-fiber = 2.8
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 2.8, 0.87 ]
 fat = 2.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31179'
 
@@ -2824,7 +2841,8 @@ aka = 'sunflower-seed-kernel'
 serving-size = '100g'
 protein = 20.8
 carbs = 20
-fiber = 8.6
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 8.6, 0.8 ]
 fat = 51.5
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170562/nutrients'
 
@@ -3864,7 +3882,9 @@ aka = [ 'orange-sweet-pepper', 'orange-capsicum' ]
 serving-size = '100g'
 protein = 0.8
 carbs = 6.4
-fiber = 1.7
+# insoluble fiber estimated from average of yellow-bell-pepper,
+# red-bell-pepper
+fiber = [ 1.7, 0.69 ]
 fat = 0.3
 source = 'https://nevo-online.rivm.nl/'
 
@@ -3959,7 +3979,9 @@ name = 'savoy-cabbage'
 serving-size = '100g'
 protein = 2
 carbs = 6.1
-fiber = 3.1
+# insoluble fiber estimated from average of chinese-cabbage,
+# green-cabbage, red-cabbage, kimchi
+fiber = [ 3.1, 0.77 ]
 fat = 0.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170388/nutrients'
 
@@ -3984,13 +4006,15 @@ fat = 0.4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # tamarillo, red, flesh & seed, raw
+# not to be confused with tomatillo
 [[food]]
 name = 'tamarillo'
 aka = [ 'tree-tomato', 'tomate-de-árbol' ]
 serving-size = '100g'
 protein = 2
 carbs = 7.1
-fiber = 3.3
+# insoluble fiber estimated from cherry-tomato, tomato
+fiber = [ 3.3, 0.7 ]
 fat = 0.4
 source = 'https://www.foodcomposition.co.nz/downloads/concise-13-edition.pdf'
 
@@ -4034,7 +4058,8 @@ aka = 'sour-cabbage'
 serving-size = '100g'
 protein = 1.1
 carbs = 7.6
-fiber = [ 2.4, 0.46 ]
+# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+fiber = [ 2.4, 0.66 ]
 fat = 0.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/3204'
 
