@@ -944,6 +944,7 @@ fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # watermelon, red flesh type, raw
+# ideally hokkaido densuke watermelon
 [[food]]
 name = 'watermelon'
 serving-size = '100g'
@@ -2769,19 +2770,18 @@ fiber = [ 5.0, 0.88 ]
 fat = 0.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# cucurbita pepo - pumpkin seed
-# pumpkin seed kernels, shelled
+# pumpkin and/or squash seeds, hulled, unroasted
 # https://www.mygerbs.com/shop/raw-pumpkin-seed-kernels-shelled-pepitas/
 [[food]]
 name = 'pumpkin-seed'
 aka = [ 'pepita', 'pumpkin-seed-kernel' ]
 serving-size = '100g'
-protein = 35.1
-carbs = 8.9
+protein = 30.2
+carbs = 10.7
 # https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 6.0, 0.73 ]
-fat = 48
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31211'
+fat = 49.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339482/nutrients'
 
 # quinoa, cooked without salt
 [[food]]
@@ -2827,6 +2827,7 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # watermelon seeds, roasted and salted
 [[food]]
 name = 'roasted-watermelon-seed'
+aka = [ 'すいかの種', 'スイカの種' ]
 serving-size = '100g'
 protein = 29.6
 carbs = 13.4
