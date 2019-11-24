@@ -1080,7 +1080,7 @@ serving-size = '100g'
 protein = 2
 carbs = 7.6
 # https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
-fiber = [ 5, 0.88 ]
+fiber = [ 5.0, 0.88 ]
 fat = 1.3
 source = 'https://frida.fooddata.dk/food/1100'
 
@@ -1116,7 +1116,7 @@ serving-size = '100g'
 protein = 2
 carbs = 7.6
 # https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
-fiber = [ 5, 0.88 ]
+fiber = [ 5.0, 0.88 ]
 fat = 1.3
 source = 'https://frida.fooddata.dk/food/1100'
 
@@ -1586,7 +1586,7 @@ serving-size = '100g'
 protein = 7.9
 carbs = 22.1
 # https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
-fiber = [ 8, 0.75 ]
+fiber = [ 8.0, 0.75 ]
 fat = 1
 source = 'https://nevo-online.rivm.nl/'
 
