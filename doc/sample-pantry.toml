@@ -527,7 +527,7 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/412'
 # japanese persimmons, dried
 [[food]]
 name = 'dried-persimmon'
-aka = 'dried-kaki'
+aka = 'hoshigaki'
 serving-size = '100g'
 protein = 1.5
 carbs = 71.3
@@ -1954,16 +1954,15 @@ fiber = 0.1
 fat = 0.5
 source = 'okinawa product label'
 
-# sweet potato, mushikiriboshi (sliced and dried after steaming)
-# see also: https://onookinawa.wordpress.com/2016/07/27/potatoes-of-okinawa-%E8%8A%8B/
+# made from japanese satsuma-imo sweet potato
 [[food]]
 name = 'dried-sweet-potato'
+aka = 'hoshiimo'
 serving-size = '100g'
-protein = 1.2
-carbs = 31.4
-fiber = [ 3.0, 0.7 ]
-fat = 0.3
-source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+protein = 3.1
+carbs = 71.9
+fat = 0.6
+source = 'okinawa product label'
 
 # potatoes, tuber, boiled
 [[food]]
@@ -1976,6 +1975,8 @@ fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sweet potato, tuberous root, without skin, baked
+# ideally japanese beni-haruka/aoi-haruka satsuma-imo sweet potatoes
+# see also: https://onookinawa.wordpress.com/2016/07/27/potatoes-of-okinawa-%E8%8A%8B/
 [[food]]
 name = 'sweet-potato'
 serving-size = '100g'
