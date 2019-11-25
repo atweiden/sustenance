@@ -211,7 +211,7 @@ aka = [
 serving-size = '100g'
 protein = 0.3
 carbs = 88
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 3.4, 0.98 ]
 fat = 0.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170684/nutrients'
@@ -223,7 +223,7 @@ aka = 'gram-flour'
 serving-size = '100g'
 protein = 22.4
 carbs = 57.8
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 10.8, 0.79 ]
 fat = 6.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174288/nutrients'
@@ -257,7 +257,7 @@ aka = [
 serving-size = '100g'
 protein = 22.4
 carbs = 57.8
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 10.8, 0.79 ]
 fat = 6.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174288/nutrients'
@@ -287,7 +287,7 @@ aka = [
 serving-size = '100g'
 protein = 23.1
 carbs = 30.8
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 23.1, 0.46 ]
 fat = 34.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396925/nutrients'
@@ -364,7 +364,7 @@ aka = [
 serving-size = '100g'
 protein = 0
 carbs = 88.6
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 5.7, 0.86 ]
 fat = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/593835/nutrients'
@@ -374,7 +374,7 @@ name = 'teff-flour'
 serving-size = '100g'
 protein = 12.2
 carbs = 70.7
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 12.2, 0.81 ]
 fat = 3.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396835/nutrients'
@@ -404,7 +404,7 @@ name = 'dried-apple'
 serving-size = '100g'
 protein = 1
 carbs = 68.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 8.7, 0.45 ]
 fat = 0.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/401'
@@ -519,7 +519,7 @@ name = 'dried-peach'
 serving-size = '100g'
 protein = 5.8
 carbs = 64.5
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 11.6, 0.54 ]
 fat = 1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/412'
@@ -575,6 +575,17 @@ fiber = [ 4.1, 0.71 ]
 fat = 0.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# dried figs gently processed with water vapor
+[[food]]
+name = 'soft-dried-fig'
+serving-size = '100g'
+protein = 2.5
+carbs = 59.6
+# insoluble fiber estimated from https://fdc.nal.usda.gov/fdc-app.html#/food-details/326905/nutrients
+fiber = [ 8.3, 0.85 ]
+fat = 0.5
+source = 'okinawa product label'
+
 # raisins, golden, seedless
 [[food]]
 name = 'sultana'
@@ -593,7 +604,7 @@ name = 'sun-dried-tomato'
 serving-size = '100g'
 protein = 14.1
 carbs = 55.8
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 12.3, 0.91 ]
 fat = 3
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168567/nutrients'
@@ -696,7 +707,7 @@ name = 'blackberry'
 serving-size = '100g'
 protein = 1.4
 carbs = 9.6
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 5.3, 0.82 ]
 fat = 0.5
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341635/nutrients'
@@ -793,7 +804,7 @@ aka = 'unripe-plantain'
 serving-size = '100g'
 protein = 1.3
 carbs = 36.7
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.2, 0.8 ]
 fat = 0.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168215/nutrients'
@@ -877,7 +888,7 @@ aka = [
 serving-size = '100g'
 protein = 2.2
 carbs = 23.4
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 10.4, 0.26 ]
 fat = 0.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169108/nutrients'
@@ -940,7 +951,7 @@ aka = 'yellow-plantain'
 serving-size = '100g'
 protein = 1.3
 carbs = 31.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.3, 0.8 ]
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342002/nutrients'
@@ -1032,7 +1043,7 @@ aka = 'gherkin'
 serving-size = '100g'
 protein = 0.3
 carbs = 2.3
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 1.2, 0.77 ]
 fat = 0.2
 source = 'https://frida.fooddata.dk/food/317'
@@ -1137,7 +1148,7 @@ aka = 'black-chanterelle-mushroom'
 serving-size = '100g'
 protein = 2
 carbs = 7.6
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 5.0, 0.88 ]
 fat = 1.3
 source = 'https://frida.fooddata.dk/food/1100'
@@ -1180,7 +1191,7 @@ name = 'chanterelle-mushroom'
 serving-size = '100g'
 protein = 2
 carbs = 7.6
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 5.0, 0.88 ]
 fat = 1.3
 source = 'https://frida.fooddata.dk/food/1100'
@@ -1272,7 +1283,7 @@ aka = [
 serving-size = '100g'
 protein = 3.9
 carbs = 3.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.5, 0.88 ]
 fat = 0.7
 source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=328_1'
@@ -1284,7 +1295,7 @@ aka = 'portabella-mushroom'
 serving-size = '100g'
 protein = 2.1
 carbs = 3.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 1.3, 0.88 ]
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169255/nutrients'
@@ -1461,7 +1472,7 @@ name = 'couscous'
 serving-size = '100g'
 protein = 5.2
 carbs = 31.1
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.3, 0.78 ]
 fat = 3.9
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/29209'
@@ -1558,7 +1569,7 @@ name = 'wild-rice'
 serving-size = '100g'
 protein = 4
 carbs = 21.3
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 1.8, 0.9 ]
 fat = 0.3
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168897/nutrients'
@@ -1684,7 +1695,7 @@ aka = 'turtle-bean'
 serving-size = '100g'
 protein = 7.9
 carbs = 22.1
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 8.0, 0.75 ]
 fat = 1
 source = 'https://nevo-online.rivm.nl/'
@@ -1752,7 +1763,7 @@ name = 'great-northern-bean'
 serving-size = '100g'
 protein = 5.4
 carbs = 15.4
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 4.6, 0.75 ]
 fat = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/389328/nutrients'
@@ -1769,7 +1780,7 @@ aka = [
 serving-size = '100g'
 protein = 2.3
 carbs = 8.1
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.7, 0.57 ]
 fat = 0.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31547'
@@ -1861,7 +1872,7 @@ aka = [
 serving-size = '100g'
 protein = 5.4
 carbs = 15.4
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 5.4, 0.62 ]
 fat = 0.8
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/514018/nutrients'
@@ -1872,7 +1883,7 @@ name = 'pinto-bean'
 serving-size = '100g'
 protein = 4.8
 carbs = 15.2
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 4.8, 0.74 ]
 fat = 0.8
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/466572/nutrients'
@@ -1959,10 +1970,11 @@ source = 'okinawa product label'
 name = 'dried-sweet-potato'
 aka = 'hoshiimo'
 serving-size = '100g'
-protein = 3.1
-carbs = 71.9
-fat = 0.6
-source = 'okinawa product label'
+protein = 2.3
+carbs = 71.5
+fiber = 3.6
+fat = 0.7
+source = 'tokyo nakai station product label'
 
 # potatoes, tuber, boiled
 [[food]]
@@ -1995,7 +2007,7 @@ name = 'brown-lentil'
 serving-size = '100g'
 protein = 8.8
 carbs = 16.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 5.3, 0.92 ]
 fat = 0.7
 source = 'https://nevo-online.rivm.nl/'
@@ -2006,7 +2018,7 @@ name = 'green-lentil'
 serving-size = '100g'
 protein = 8.8
 carbs = 16.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 5.3, 0.92 ]
 fat = 0.7
 source = 'https://nevo-online.rivm.nl/'
@@ -2030,7 +2042,7 @@ name = 'red-lentil'
 serving-size = '100g (0.5 cup)'
 protein = 7.7
 carbs = 20.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 4.8, 0.92 ]
 fat = 0.6
 source = 'https://nevo-online.rivm.nl/'
@@ -2054,7 +2066,7 @@ name = 'green-split-pea'
 serving-size = '100g'
 protein = 7.9
 carbs = 23.2
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 6.6, 0.87 ]
 fat = 1.2
 source = 'https://nevo-online.rivm.nl/'
@@ -2083,7 +2095,7 @@ name = 'yellow-split-pea'
 serving-size = '100g'
 protein = 8.4
 carbs = 25.0
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 6.4, 0.87 ]
 fat = 0.6
 source = 'https://nevo-online.rivm.nl/'
@@ -2176,7 +2188,7 @@ name = 'brazil-nut'
 serving-size = '100g'
 protein = 14.3
 carbs = 10.1
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 7.5, 0.76 ]
 fat = 66.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/32464'
@@ -2187,7 +2199,7 @@ name = 'cashew'
 serving-size = '100g'
 protein = 20
 carbs = 22.3
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 3.5, 0.92 ]
 fat = 46.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/11086'
@@ -2209,7 +2221,7 @@ aka = 'shredded-coconut'
 serving-size = '100g'
 protein = 8.1
 carbs = 22.7
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 16.3, 0.89 ]
 fat = 64.5
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/382'
@@ -2231,7 +2243,7 @@ name = 'macadamia-nut'
 serving-size = '100g'
 protein = 7.9
 carbs = 14.2
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 8.6, 0.79 ]
 fat = 75.8
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/32895'
@@ -2252,7 +2264,7 @@ name = 'pecan'
 serving-size = '100g'
 protein = 9.2
 carbs = 14
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 9.6, 0.8 ]
 fat = 72
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/33095'
@@ -2273,7 +2285,7 @@ name = 'pistachio'
 serving-size = '100g'
 protein = 21.4
 carbs = 27
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 10.3, 0.75 ]
 fat = 46
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31212'
@@ -2410,7 +2422,7 @@ name = 'walnut'
 serving-size = '100g'
 protein = 15.2
 carbs = 9.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 6.7, 0.69 ]
 fat = 65.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/376'
@@ -2880,7 +2892,7 @@ aka = [
 serving-size = '100g'
 protein = 22.1
 carbs = 28.8
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 26.4, 0.46 ]
 fat = 43.8
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/30991?'
@@ -2924,7 +2936,7 @@ aka = [
 serving-size = '100g'
 protein = 30.2
 carbs = 10.7
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 6.0, 0.73 ]
 fat = 49.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339482/nutrients'
@@ -2935,7 +2947,7 @@ name = 'quinoa'
 serving-size = '100g'
 protein = 4.8
 carbs = 22.9
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.8, 0.87 ]
 fat = 2.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31179'
@@ -2991,7 +3003,7 @@ aka = 'sunflower-seed-kernel'
 serving-size = '100g'
 protein = 20.8
 carbs = 20
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 8.6, 0.8 ]
 fat = 51.5
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170562/nutrients'
@@ -3868,7 +3880,7 @@ aka = 'coriander'
 serving-size = '100g'
 protein = 2.4
 carbs = 3.3
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.8, 0.3 ]
 fat = 0.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/34238'
@@ -3879,7 +3891,7 @@ name = 'collard-green'
 serving-size = '100g'
 protein = 3
 carbs = 5.4
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 4.0, 0.39 ]
 fat = 0.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342053/nutrients'
@@ -3922,7 +3934,7 @@ aka = 'finocchio'
 serving-size = '100g'
 protein = 0.9
 carbs = 4.2
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.4, 0.63 ]
 fat = 0.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/30914'
@@ -3994,7 +4006,7 @@ name = 'iceberg-lettuce'
 serving-size = '100g'
 protein = 1.1
 carbs = 2.2
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 1.2, 0.88 ]
 fat = 0.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/331'
@@ -4005,7 +4017,7 @@ name = 'jalapeño'
 serving-size = '100g'
 protein = 0.9
 carbs = 6.5
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.8, 0.6 ]
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168576/nutrients'
@@ -4260,7 +4272,7 @@ aka = 'sour-cabbage'
 serving-size = '100g'
 protein = 1.1
 carbs = 7.6
-# https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
+# insoluble fiber estimated from https://www.prebiotin.com/prebiotin-academy/fiber-content-of-foods/
 fiber = [ 2.4, 0.66 ]
 fat = 0.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/3204'
