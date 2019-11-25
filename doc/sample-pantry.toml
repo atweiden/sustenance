@@ -381,7 +381,6 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396835/nutrients'
 [[food]]
 name = 'tiger-nut-flour'
 aka = [
-  'chufa-flour',
   'chufa-molida',
   'tigernut-flour'
 ]
