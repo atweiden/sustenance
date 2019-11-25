@@ -4304,12 +4304,12 @@ fiber = [ 44.2, 0.0 ]
 fat = 1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# okinawa asa
 [[food]]
 name = 'hitoegusa-sea-lettuce'
 aka = [
   'aosa',
   'aosa-nori',
+  'asa',
   'hitoegusa',
   'ulva-lactuca'
 ]
