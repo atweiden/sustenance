@@ -251,6 +251,7 @@ source = 'https://www.mygerbs.com/shop/chia-seed-meal/'
 [[food]]
 name = 'chickpea-flour'
 aka = [
+  'chana',
   'chick-pea-flour',
   'garbanzo-flour'
 ]
@@ -368,6 +369,7 @@ fiber = [ 5.7, 0.86 ]
 fat = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/593835/nutrients'
 
+# not to be confused with whole teff
 [[food]]
 name = 'teff-flour'
 serving-size = '100g'
@@ -1423,6 +1425,7 @@ source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=346_
 # nutritional yeast flakes/powder
 # not to be confused with brewer's yeast, torula yeast, active dry yeast
 # or baking yeast
+# ideally fortified with vitamin b12
 [[food]]
 name = 'nutritional-yeast'
 aka = [
@@ -1531,6 +1534,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/596587/nutrients'
 # corn, corn grits, yellow kernel, raw
 [[food]]
 name = 'grits'
+aka = 'corn-grits'
 serving-size = '100g'
 protein = 8.2
 carbs = 76.4
@@ -1732,6 +1736,7 @@ source = 'https://nevo-online.rivm.nl/'
 # vicia faba - bean, broad bean, fava bean, boiled with salt
 [[food]]
 name = 'fava-bean'
+aka = 'broad-bean'
 serving-size = '100g'
 protein = 7.6
 carbs = 19.5
@@ -2035,6 +2040,7 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # see also: lentils nutritional information [17]
 [[food]]
 name = 'red-lentil'
+aka = 'masoor-dal'
 serving-size = '100g (0.5 cup)'
 protein = 7.7
 carbs = 20.9
@@ -3176,6 +3182,12 @@ fat = 0.9
 # ground fenugreek
 [[food]]
 name = 'fenugreek'
+aka = [
+  # amharic
+  'abish',
+  # hindi
+  'methi'
+]
 serving-size = '1 tbsp (11g)'
 protein = 2.6
 carbs = 6.5
@@ -3241,11 +3253,18 @@ protein = 1.6
 carbs = 1.8
 fat = 2.3
 
+# not to be confused with kala jeera (hindi)
 [[food]]
 name = 'nigella-seed'
 aka = [
   'black-caraway-seed',
-  'black-cumin'
+  'black-cumin',
+  # hindi
+  'kalonji',
+  # amharic
+  'tikur-azmund',
+  # amharic
+  'tikur-qimem'
 ]
 serving-size = '1 tbsp (15g)'
 protein = 3

@@ -45,6 +45,50 @@
     - all
   - vegetable
     - pearl onion
+- implement missing food from teff love book
+  - ajwain
+    - aka
+      - bishop’s weed
+      - carom seed
+      - netch azmud (amharic)
+      - ajwain (hindi)
+  - prepared horseradish
+    - grated horseradish root preserved in vinegar
+  - new mexico chile powder
+  - bell pea / marrone pea
+  - du poy lentils
+    - aka french lentils
+  - textured soy protein
+  - corn starch
+  - oat flour
+  - potato starch
+    - potato starch extracted from potatoes
+    - not to be confused with potato flour
+      - made from pulverized potatoes
+  - sorghum flour
+    - aka jowar (hindi)
+  - baking powder
+  - baking soda
+  - candied ginger
+  - cream of tartar
+  - instant yeast
+    - ideally rapid rise by fleischmann’s
+  - lasagna noodles
+  - rice paper
+    - aka banh trang (vietnamese)
+  - wine
+  - koseret
+    - aka kosearut
+  - mitmita
+  - shiro powder
+    - look for
+      - spicy variant as miten shiro, kay shiro
+      - lightly-seasoned variant as white shiro, nech shiro
+  - cashew pieces/flakes
+  - beets
+  - butternut squash
+  - kale
+  - okra
 - implement milk-alternatives
   - cull those which don't have diy guides available
 - implement spreads (e.g. nut and seed butters)
