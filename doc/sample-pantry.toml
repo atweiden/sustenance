@@ -3647,11 +3647,40 @@ fiber = 10.6
 fat = 4.8
 source = 'https://mrvegan.ch/lebensmittel/vegan-specials/tofu-seitan-tempeh/853/lupinen-tempeh-lupeh-bio-170g-alberts'
 
+# common wheat, "fu" (wheat gluten cake), "namafu" (steamed dough made
+# from gluten and glutinous rice flour)
+[[food]]
+name = 'nama-fu'
+aka = [
+  # japanese
+  '生麩'
+]
+serving-size = '100g'
+protein = 12.7
+carbs = 26.2
+fiber = [ 0.5, 0.6 ]
+fat = 0.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# see also: homemade seitan [31]
+# look for: kao fu, 烤麸 (china)
 [[food]]
 name = 'seitan'
 aka = [
+  # japan
+  'gurutenmīto',
+  # hong kong
+  'mian-jin',
+  # china
   'mien-chin',
-  'vital-wheat-gluten'
+  # north america & europe
+  'vital-wheat-gluten',
+  'wheat-meat',
+  # chinese
+  '蒸麵筋',
+  # japanese
+  'セイタン',
+  'グルテンミート'
 ]
 serving-size = '100g'
 protein = 75.2
@@ -3693,6 +3722,22 @@ protein = 6.6
 carbs = 1.6
 fiber = [ 0.4, 0.75 ]
 fat = 4.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# common wheat, "fu" (wheat gluten cake), "kamayakifu" (dried by oven
+# baking)
+[[food]]
+name = 'yaki-fu'
+aka = [
+  # japanese
+  '焼き麩',
+  'すき焼き麩'
+]
+serving-size = '100g'
+protein = 28.5
+carbs = 56.9
+fiber = [ 3.7, 0.7 ]
+fat = 2.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end meat-alternative }}}
@@ -4427,6 +4472,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [28]: https://store.trimhealthymama.com/product/simply-sunflower-lecithin-16oz-bag/
 # [29]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/170172/nutrients
 # [30]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/336099/nutrients
+# [31]: http://www.thehongkongcookery.com/2016/09/homemade-chinese-wheat-gluten-mian-jin.html
 
 # end cite }}}
 # ==============================================================================
