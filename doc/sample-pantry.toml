@@ -1465,16 +1465,16 @@ fiber = [ 1.4, 0.86 ]
 fat = 1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# couscous, cooked with oil and salt
+# couscous, cooked
 [[food]]
 name = 'couscous'
 serving-size = '100g'
-protein = 5.2
-carbs = 31.1
+protein = 3.8
+carbs = 23.2
 # insoluble fiber estimated from prebiotin [3]
-fiber = [ 2.3, 0.78 ]
-fat = 3.9
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/29209'
+fiber = [ 1.4, 0.78 ]
+fat = 0.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169700/nutrients'
 
 [[food]]
 name = 'ezekiel-bread'
@@ -1552,15 +1552,27 @@ fiber = [ 9.4, 0.66 ]
 fat = 5.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# rice, short grain, paddy rice, glutinous rice, well-milled,  "meshi"
+# rice, short grain, paddy rice, glutinous rice, well-milled, "meshi"
 # (cooked rice)
 [[food]]
-name = 'white-rice'
+name = 'white-sticky-rice'
+aka = 'white-glutinous-rice'
 serving-size = '100g'
 protein = 3.5
 carbs = 43.9
 fiber = [ 0.4, 1.0 ]
 fat = 0.5
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# rice, short grain, paddy rice, nonglutinous rice, well-milled, "meshi"
+# (cooked rice)
+[[food]]
+name = 'white-rice'
+serving-size = '100g'
+protein = 2.5
+carbs = 37.1
+fiber = [ 0.3, 1.0 ]
+fat = 0.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # wild rice, cooked
