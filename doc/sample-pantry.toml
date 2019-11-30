@@ -1662,10 +1662,15 @@ fat = 13
 # see also: okinawa chomeiso powder
 [[food]]
 name = 'yomogi-powder'
-aka = 'japanese-mugwort-powder'
+aka = [
+  'japanese-mugwort-powder',
+  'japanese-wormwood-powder',
+  '蓬'
+]
 serving-size = '100g'
 protein = 16.1
 carbs = 62.4
+fiber = 0
 fat = 4.3
 
 # --- end herb }}}
