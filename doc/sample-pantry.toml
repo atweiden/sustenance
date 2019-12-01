@@ -1765,8 +1765,12 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/31233'
 [[food]]
 name = 'garbanzo-bean'
 aka = [
-  'chick-pea',
-  'chickpea'
+  'chickpea',
+  # india
+  'chole',
+  # india
+  'kabuli-chana',
+  'white-chickpea'
 ]
 serving-size = '100g'
 protein = 9.5
@@ -2052,12 +2056,17 @@ fat = 0.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lentils red boiled
+# whole indian brown lentils, split and skinned
 # assumes 1 cup cooked = 200g cooked
 # cook 65g dry red lentils to yield 200g (1 cup) cooked red lentils
 # see also: lentils nutritional information [17]
 [[food]]
 name = 'red-lentil'
-aka = 'masoor-dal'
+aka = [
+  'masoor-dal',
+  'orange-lentil',
+  'pink-lentil'
+]
 serving-size = '100g (0.5 cup)'
 protein = 7.7
 carbs = 20.9
@@ -2094,12 +2103,24 @@ source = 'https://nevo-online.rivm.nl/'
 [[food]]
 name = 'pigeon-pea'
 aka = [
+  # india
   'arhar-dal',
   'cajan-pea',
   'congo-bean',
-  'gandule',
+  # latin america
+  'frijole-de-palo',
+  # latin america
+  'gandule-bean',
+  # brazil
+  'guandu-bean',
+  # the philippines
+  'kadyo',
+  # the philippines
+  'kardi',
   'no-eyed-pea',
-  'toor-dal'
+  # india
+  'toor-dal',
+  'tropical-green-pea'
 ]
 serving-size = '100g'
 protein = 6.8

@@ -45,7 +45,8 @@
     - all
   - vegetable
     - pearl onion
-- implement missing food from teff love book
+- implement missing food from vegan richa's indian kitchen cookbook
+- implement missing food from teff love cookbook
   - ajwain
     - aka
       - bishop’s weed
