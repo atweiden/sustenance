@@ -1779,6 +1779,16 @@ fiber = [ 11.6, 0.96 ]
 fat = 2.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# chickpeas, mature seeds, whole, oil-roasted and salted
+[[food]]
+name = 'roasted-chickpeas'
+serving-size = '100g'
+protein = 18.8
+carbs = 62.6
+fiber = [ 21.0, 0.95 ]
+fat = 10.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # whole foods great northern beans, canned
 [[food]]
 name = 'great-northern-bean'
@@ -3459,7 +3469,27 @@ protein = 0
 carbs = 0
 fat = 0
 
-# hemp pro 70 original by manitoba hemp foods harvest
+# ceres organics - organic seaweed - sea salt and vinegar
+[[food]]
+name = 'ceres-organics-seaweed-salt-vinegar'
+serving-size = '100g'
+protein = 20
+carbs = 26.7
+fiber = 20
+fat = 47
+source = 'auckland product label'
+
+# ceres organics - organic seaweed - original snack
+[[food]]
+name = 'ceres-organics-seaweed-original-snack'
+serving-size = '100g'
+protein = 20
+carbs = 26
+fiber = 24
+fat = 47
+source = 'auckland product label'
+
+# manitoba hemp foods harvest - hemp pro 70 original
 [[food]]
 name = 'hemp-seed-protein-powder'
 serving-size = '4 tbsp'
@@ -3467,7 +3497,7 @@ protein = 20
 carbs = 4.5
 fat = 4.5
 
-# justpea pea protein powder [27]
+# justpea - pea protein powder [27]
 [[food]]
 name = 'pea-protein-powder'
 serving-size = '100g'
@@ -3484,13 +3514,24 @@ protein = 0
 carbs = 1
 fat = 4
 
-# trim healthy mama simply sunflower lecithin [28]
+# trim healthy mama - simply sunflower lecithin [28]
 [[food]]
 name = 'sunflower-lecithin'
 serving-size = '1 tbsp (15g)'
 protein = 0
 carbs = 1
 fat = 14
+
+# the happy snack co - crunchy roasted chickpeas - lightly salted
+[[food]]
+name = 'the-happy-snack-co-crunchy-roasted-chickpeas-salted'
+serving-size = '100g'
+protein = 22.5
+carbs = 60.4
+# insoluble fiber estimated from japanese food composition tables [18]
+fiber = [ 20.9, 0.95 ]
+fat = 13
+source = 'auckland product label'
 
 # --- end supplement }}}
 # --- sweetener {{{
