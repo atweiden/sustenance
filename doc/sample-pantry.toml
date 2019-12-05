@@ -473,14 +473,18 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/173032/nutrients'
 
 [[food]]
 name = 'dried-inca-berry'
-aka = 'goldenberry'
+aka = [
+  'aztec-berry',
+  'cape-gooseberry',
+  'goldenberry'
+]
 serving-size = '100g'
-protein = 7
-carbs = 63.7
+protein = 7.3
+carbs = 68.1
 # insoluble fiber estimated from foodwatch.com.au [32]
-fiber = [ 19, 0.79 ]
-fat = 6.7
-source = 'https://world.openfoodfacts.org/product/3760234880133/inca-berries-biologique'
+fiber = [ 19.1, 0.79 ]
+fat = 3.4
+source = 'https://thesourcebulkfoods.com.au/shop/dried-fruit/organic-inca-berries/'
 
 # jujube, dried
 [[food]]
