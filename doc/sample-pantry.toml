@@ -471,6 +471,17 @@ fiber = 13
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/173032/nutrients'
 
+[[food]]
+name = 'dried-inca-berry'
+aka = 'goldenberry'
+serving-size = '100g'
+protein = 7
+carbs = 63.7
+# insoluble fiber estimated from foodwatch.com.au [32]
+fiber = [ 19, 0.79 ]
+fat = 6.7
+source = 'https://world.openfoodfacts.org/product/3760234880133/inca-berries-biologique'
+
 # jujube, dried
 [[food]]
 name = 'dried-jujube'
@@ -4535,6 +4546,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [29]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/170172/nutrients
 # [30]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/336099/nutrients
 # [31]: http://www.thehongkongcookery.com/2016/09/homemade-chinese-wheat-gluten-mian-jin.html
+# [32]: https://foodwatch.com.au/reviews/item/product-review-incaberries-a-new-super-berry.html
 
 # end cite }}}
 # ==============================================================================
