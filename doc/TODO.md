@@ -45,6 +45,26 @@
     - all
   - vegetable
     - pearl onion
+- implement missing food from mayumi's kitchen cookbook
+  - grains
+    - millet
+    - barley
+      - pearled-barley
+      - hulled-barley
+    - hato-mugi
+      - aka pearl-barley
+        - not to be confused with pearled-barley
+  - vegetables
+    - daikon-radish
+    - komatsuna
+      - aka japanese-mustard-spinach
+    - burdock
+    - lotus root
+  - sea vegetables
+    - kombu
+    - wakame
+    - hijiki
+    - arame
 - implement missing food from vegan richa's indian kitchen cookbook
 - implement missing food from teff love cookbook
   - ajwain
