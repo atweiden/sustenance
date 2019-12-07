@@ -102,4 +102,7 @@ $sustenance.gen-average-macros;
 
 # cross-reference food sources for calories/protein/carbs/fat
 $sustenance.gen-report;
+
+# calculate dollars per calorie
+$sustenance.gen-report(:budget);
 ```
