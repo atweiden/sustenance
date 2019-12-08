@@ -3,7 +3,7 @@
 
 # --- chocolate {{{
 
-# chocolate tree belize black pure cacao [1]
+# chocolate tree - belize black pure cacao [1]
 [[food]]
 name = 'chocolate-tree-belize-black-100%-chocolate-bar'
 serving-size = 'half bar (40g)'
@@ -21,7 +21,7 @@ carbs = 16
 fat = 32
 source = 'https://shop.giddyyoyo.com/hundo-100-bar-dark-chocolate-bar-certified-organic-62g/'
 
-# ocho 100% cacao solomons [2]
+# ocho - 100% cacao solomons [2]
 [[food]]
 name = 'ocho-100%-cacao-solomons-chocolate-bar'
 serving-size = 'half bar (47.5g)'
@@ -146,7 +146,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339003/nutrients'
 # --- end egg }}}
 # --- flavoring {{{
 
-# bragg organic raw apple cider vinegar
+# bragg - organic raw apple cider vinegar
 [[food]]
 name = 'apple-cider-vinegar'
 serving-size = '1 tbsp'
@@ -238,7 +238,7 @@ fiber = 10.9
 fat = 3.7
 source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=3100_2'
 
-# gerbs chia seed meal
+# gerbs - chia seed meal
 [[food]]
 name = 'chia-seed-meal'
 serving-size = '100g'
@@ -263,7 +263,7 @@ fiber = [ 10.8, 0.79 ]
 fat = 6.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174288/nutrients'
 
-# better body foods organic coconut flour [4]
+# better body foods - organic coconut flour [4]
 [[food]]
 name = 'coconut-flour'
 serving-size = '100g'
@@ -274,7 +274,7 @@ fiber = [ 31.2, 0.56 ]
 fat = 21.9
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/475563/nutrients'
 
-# bob's red mill organic golden flaxseed meal [6]
+# bob's red mill - organic golden flaxseed meal [6]
 [[food]]
 name = 'flax-seed-meal'
 aka = [
@@ -292,7 +292,7 @@ fiber = [ 23.1, 0.46 ]
 fat = 34.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396925/nutrients'
 
-# gerbs hemp kernel meal
+# gerbs - hemp kernel meal
 [[food]]
 name = 'hemp-seed-meal'
 aka = [
@@ -315,7 +315,7 @@ fiber = 37
 fat = 6.4
 source = 'https://rawearthproduce.com.au/collections/frontpage/products/lupin-flour'
 
-# gerbs raw pumpkin seed meal
+# gerbs - raw pumpkin seed meal
 [[food]]
 name = 'pumpkin-seed-meal'
 aka = [
@@ -329,7 +329,7 @@ fiber = 3.6
 fat = 46.4
 source = 'https://www.mygerbs.com/shop/pumpkin-seed-meal/'
 
-# bob's red mill organic quinoa flour [7]
+# bob's red mill - organic quinoa flour [7]
 [[food]]
 name = 'quinoa-flour'
 serving-size = '100g'
@@ -339,7 +339,7 @@ fiber = 7.1
 fat = 5.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/373794/nutrients'
 
-# gerbs raw sunflower seed meal
+# gerbs - raw sunflower seed meal
 [[food]]
 name = 'sunflower-seed-meal'
 aka = [
@@ -471,6 +471,16 @@ fiber = 13
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/173032/nutrients'
 
+# little beauties - dried gold kiwifruit slices
+[[food]]
+name = 'dried-golden-kiwi'
+serving-size = '100g'
+protein = 12
+carbs = 83.5
+fiber = 7.1
+fat = 2
+source = 'auckland product label'
+
 [[food]]
 name = 'dried-inca-berry'
 aka = [
@@ -566,6 +576,50 @@ carbs = 82.8
 fiber = [ 3.0, 0.57 ]
 fat = 0.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# neuroberry - freeze dried new zealand blackcurrants
+[[food]]
+name = 'freeze-dried-blackcurrant'
+serving-size = '100g'
+protein = 15
+carbs = 66
+# fiber estimated from healthysupplies.co.uk [35]
+fiber = 16.8
+fat = 2
+source = 'auckland product label'
+
+# little beauties - freeze-dried nelson boysenberries
+[[food]]
+name = 'freeze-dried-boysenberry'
+serving-size = '100g'
+protein = 9.5
+carbs = 79.9
+fiber = 35.2
+fat = 4.4
+source = 'auckland product label'
+
+# fresh as - raspberry whole - freeze dried
+[[food]]
+name = 'freeze-dried-raspberry'
+serving-size = '100g'
+protein = 5.8
+carbs = 74.1
+# fiber estimated from usda food data central [33]
+fiber = 42.9
+fat = 2.5
+source = 'auckland product label'
+
+# fresh as - strawberry slices - freeze dried
+[[food]]
+name = 'freeze-dried-strawberry'
+serving-size = '100g'
+protein = 4.3
+carbs = 72.5
+# fiber estimated from usda food data central [34]
+fiber = 21.4
+# less than 1g
+fat = 0.5
+source = 'auckland product label'
 
 # mume, "umeboshi" (pickled and dried mume), seasoned pickles
 [[food]]
@@ -1470,6 +1524,17 @@ fiber = [ 7.4, 0.85 ]
 fat = 6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# pams super foods - amaranth flakes
+[[food]]
+name = 'amaranth-flake'
+serving-size = '100g'
+protein = 15.1
+carbs = 67.8
+# insoluble fiber estimated from amaranth
+fiber = [ 7.4, 0.85 ]
+fat = 7.1
+source = 'auckland product label'
+
 # rice, short grain, paddy rice, brown, "meshi" (cooked rice)
 [[food]]
 name = 'brown-rice'
@@ -1794,16 +1859,6 @@ fiber = [ 11.6, 0.96 ]
 fat = 2.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# chickpeas, mature seeds, whole, oil-roasted and salted
-[[food]]
-name = 'roasted-chickpeas'
-serving-size = '100g'
-protein = 18.8
-carbs = 62.6
-fiber = [ 21.0, 0.95 ]
-fat = 10.4
-source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
-
 # whole foods great northern beans, canned
 [[food]]
 name = 'great-northern-bean'
@@ -1934,6 +1989,26 @@ carbs = 15.2
 fiber = [ 4.8, 0.74 ]
 fat = 0.8
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/466572/nutrients'
+
+# chickpeas, mature seeds, whole, oil-roasted and salted
+[[food]]
+name = 'roasted-chickpea'
+serving-size = '100g'
+protein = 18.8
+carbs = 62.6
+fiber = [ 21.0, 0.95 ]
+fat = 10.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# broad beans, mature seeds, oil-roasted and salted
+[[food]]
+name = 'roasted-fava-bean'
+serving-size = '100g'
+protein = 24.7
+carbs = 46.4
+fiber = [ 14.9, 0.94 ]
+fat = 20.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # soybeans, mature seeds, whole, green seed coats, roasted
 [[food]]
@@ -2511,7 +2586,7 @@ carbs = 0
 fat = 14
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/172336/nutrients'
 
-# better body foods virgin organic coconut oil
+# better body foods - virgin organic coconut oil
 [[food]]
 name = 'coconut-oil'
 serving-size = '1 tbsp (14g)'
@@ -2990,7 +3065,7 @@ fat = 0.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pumpkin and/or squash seeds, hulled, unroasted
-# see also: gerbs raw pumpkin seed kernels [25]
+# see also: gerbs - raw pumpkin seed kernels [25]
 [[food]]
 name = 'pumpkin-seed'
 aka = [
@@ -3015,6 +3090,17 @@ carbs = 22.9
 fiber = [ 2.8, 0.87 ]
 fat = 2.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31179'
+
+# ceres organics - quinoa flakes
+[[food]]
+name = 'quinoa-flake'
+serving-size = '100g'
+protein = 14.1
+carbs = 71.2
+# insoluble fiber estimated from quinoa
+fiber = [ 7.0, 0.87 ]
+fat = 6.1
+source = 'auckland product label'
 
 # flax seeds, roasted
 [[food]]
@@ -3451,6 +3537,16 @@ fat = 8.7
 
 # acorn butter
 # almond butter
+
+# almo - 100% almond crème
+[[food]]
+name = 'almond-crème'
+serving-size = '100g'
+protein = 25.6
+carbs = 5
+fat = 58.1
+source = 'auckland product label'
+
 # cashew butter
 # hazelnut butter
 # hummus aka chickpea/garbanzo spread
@@ -3459,7 +3555,7 @@ fat = 8.7
 # pecan butter
 # pistachio butter
 
-# gerbs light salt pumpkin seed butter
+# gerbs - light salt pumpkin seed butter
 [[food]]
 name = 'pumpkin-seed-butter'
 serving-size = '100g'
@@ -3537,13 +3633,24 @@ protein = 0
 carbs = 1
 fat = 14
 
+# the happy snack co - crunchy roasted fav-va beans - lightly salted
+[[food]]
+name = 'the-happy-snack-co-crunchy-roasted-fava-beans-salted'
+serving-size = '100g'
+protein = 27
+carbs = 51.4
+# insoluble fiber estimated from roasted-fava-bean
+fiber = [ 15.0, 0.95 ]
+fat = 15.7
+source = 'auckland product label'
+
 # the happy snack co - crunchy roasted chickpeas - lightly salted
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-chickpeas-salted'
 serving-size = '100g'
 protein = 22.5
 carbs = 60.4
-# insoluble fiber estimated from japanese food composition tables [18]
+# insoluble fiber estimated from roasted-chickpea
 fiber = [ 20.9, 0.95 ]
 fat = 13
 source = 'auckland product label'
@@ -3570,7 +3677,7 @@ protein = 0.5
 carbs = 15.5
 fat = 0
 
-# better body foods organic coconut palm sugar
+# better body foods - organic coconut palm sugar
 [[food]]
 name = 'coconut-sugar'
 aka = [
@@ -4551,6 +4658,9 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [30]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/336099/nutrients
 # [31]: http://www.thehongkongcookery.com/2016/09/homemade-chinese-wheat-gluten-mian-jin.html
 # [32]: https://foodwatch.com.au/reviews/item/product-review-incaberries-a-new-super-berry.html
+# [33]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/403255/nutrients
+# [34]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/548984/nutrients
+# [35]: https://www.healthysupplies.co.uk/freeze-dried-blackcurrants.html
 
 # end cite }}}
 # ==============================================================================
