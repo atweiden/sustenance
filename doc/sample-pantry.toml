@@ -715,6 +715,16 @@ fiber = [ 1.9, 0.74 ]
 fat = 0.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# apricots, raw
+[[food]]
+name = 'apricot'
+serving-size = '100g'
+protein = 1
+carbs = 8.5
+fiber = [ 1.6, 0.63 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 [[food]]
 name = 'ataulfo-mango'
 serving-size = '100g'
