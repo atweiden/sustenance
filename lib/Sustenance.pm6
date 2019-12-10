@@ -144,7 +144,7 @@ multi method gen-macros(
 {
     my Hash:D @meal =
         gen-macros($.pantry, @.meal)
-            .grep({ .<date> eqv now.Date });
+            .grep({ .<date> eqv DateTime.now.Date });
     my %macros = gen-macros(:@meal);
 }
 
