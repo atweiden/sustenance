@@ -598,6 +598,19 @@ fiber = 35.2
 fat = 4.4
 source = 'auckland product label'
 
+# fresh as - plum slices - freeze dried
+[[food]]
+name = 'freeze-dried-plum'
+serving-size = '100g'
+protein = 3.7
+carbs = 73
+# fiber estimated from plum
+# total = (plum.fiber/plum.carbs) * this.carbs
+# insoluble = plum.same
+fiber = [ 11.0, 0.53 ]
+fat = 1.8
+source = 'auckland product label'
+
 # fresh as - raspberry whole - freeze dried
 [[food]]
 name = 'freeze-dried-raspberry'
