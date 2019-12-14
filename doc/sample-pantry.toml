@@ -471,16 +471,6 @@ fiber = 13
 fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/173032/nutrients'
 
-# little beauties - dried gold kiwifruit slices
-[[food]]
-name = 'dried-golden-kiwi'
-serving-size = '100g'
-protein = 12
-carbs = 83.5
-fiber = 7.1
-fat = 2
-source = 'auckland product label'
-
 [[food]]
 name = 'dried-goldenberry'
 aka = [
@@ -495,6 +485,16 @@ carbs = 68.1
 fiber = [ 19.1, 0.79 ]
 fat = 3.4
 source = 'https://thesourcebulkfoods.com.au/shop/dried-fruit/organic-inca-berries/'
+
+# little beauties - dried gold kiwifruit slices
+[[food]]
+name = 'dried-golden-kiwi'
+serving-size = '100g'
+protein = 12
+carbs = 83.5
+fiber = 7.1
+fat = 2
+source = 'auckland product label'
 
 # jujube, dried
 [[food]]
