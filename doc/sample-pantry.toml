@@ -482,11 +482,11 @@ fat = 2
 source = 'auckland product label'
 
 [[food]]
-name = 'dried-inca-berry'
+name = 'dried-goldenberry'
 aka = [
-  'aztec-berry',
-  'cape-gooseberry',
-  'goldenberry'
+  'dried-aztec-berry',
+  'dried-cape-gooseberry',
+  'dried-inca-berry'
 ]
 serving-size = '100g'
 protein = 7.3
