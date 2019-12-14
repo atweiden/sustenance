@@ -3603,16 +3603,6 @@ protein = 0
 carbs = 0
 fat = 0
 
-# ceres organics - organic seaweed - sea salt and vinegar
-[[food]]
-name = 'ceres-organics-seaweed-salt-vinegar'
-serving-size = '100g'
-protein = 20
-carbs = 26.7
-fiber = 20
-fat = 47
-source = 'auckland product label'
-
 # ceres organics - organic seaweed - original snack
 [[food]]
 name = 'ceres-organics-seaweed-original-snack'
@@ -3620,6 +3610,16 @@ serving-size = '100g'
 protein = 20
 carbs = 26
 fiber = 24
+fat = 47
+source = 'auckland product label'
+
+# ceres organics - organic seaweed - sea salt and vinegar
+[[food]]
+name = 'ceres-organics-seaweed-salt-vinegar'
+serving-size = '100g'
+protein = 20
+carbs = 26.7
+fiber = 20
 fat = 47
 source = 'auckland product label'
 
@@ -3665,6 +3665,17 @@ carbs = 60.4
 # insoluble fiber estimated from roasted-chickpea
 fiber = [ 20.9, 0.95 ]
 fat = 13
+source = 'auckland product label'
+
+# the happy snack co - crunchy roasted chickpeas - spicy tomato & chilli
+[[food]]
+name = 'the-happy-snack-co-crunchy-roasted-chickpeas-spicy-tomato'
+serving-size = '100g'
+protein = 22.5
+carbs = 60.4
+# insoluble fiber estimated from roasted-chickpea
+fiber = [ 20.9, 0.95 ]
+fat = 10.9
 source = 'auckland product label'
 
 # the happy snack co - crunchy roasted fav-va beans - lightly salted
