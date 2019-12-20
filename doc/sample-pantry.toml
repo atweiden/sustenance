@@ -3648,6 +3648,15 @@ protein = 0
 carbs = 1
 fat = 4
 
+# spiral foods - organic natural vegan oven baked mung bean chips
+[[food]]
+name = 'spiral-foods-baked-mung-bean-chips'
+serving-size = '100g'
+protein = 27.2
+carbs = 63.5
+fiber = 13.1
+fat = 0.5
+
 # trim healthy mama - simply sunflower lecithin [28]
 [[food]]
 name = 'sunflower-lecithin'
