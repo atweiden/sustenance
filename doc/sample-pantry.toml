@@ -3389,6 +3389,16 @@ protein = 0.5
 carbs = 3.7
 fat = 0.2
 
+# kashmiri masala powder [36]
+[[food]]
+name = 'kashmiri-masala'
+aka = 'basaar'
+serving-size = '1 tbsp (4.6g)'
+protein = 0.6
+carbs = 1.7
+fat = 0.6
+source = 'https://www.herbies.com.au/shop/herbs-and-spices/sugar-free-blends/kashmiri-curry-masala-also-called-basaar/'
+
 # ground lemongrass
 [[food]]
 name = 'lemongrass'
@@ -4704,6 +4714,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [33]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/403255/nutrients
 # [34]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/548984/nutrients
 # [35]: https://www.healthysupplies.co.uk/freeze-dried-blackcurrants.html
+# [36]: https://mrsrogers.co.nz/product/kashmiri-masala-powder/
 
 # end cite }}}
 # ==============================================================================
