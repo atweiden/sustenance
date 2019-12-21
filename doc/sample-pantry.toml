@@ -567,6 +567,17 @@ fiber = 7.1
 fat = 0.6
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/33077'
 
+# prune, dried, uncooked
+[[food]]
+name = 'dried-prune'
+serving-size = '100g'
+protein = 2.2
+carbs = 63.9
+# fiber estimated from otsuka pharmaceutical co ltd [37]
+fiber = [ 7.2, 0.53 ]
+fat = 0.4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341500/nutrients'
+
 # strawberries, dried
 [[food]]
 name = 'dried-strawberry'
@@ -4724,6 +4735,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [34]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/548984/nutrients
 # [35]: https://www.healthysupplies.co.uk/freeze-dried-blackcurrants.html
 # [36]: https://mrsrogers.co.nz/product/kashmiri-masala-powder/
+# [37]: https://www.otsuka.co.jp/en/health-and-illness/fiber/intake/foods-amount/
 
 # end cite }}}
 # ==============================================================================
