@@ -3008,7 +3008,7 @@ protein = 27
 carbs = 0
 fat = 8.5
 
-# kaviari trout roe caviar [23]
+# kaviari - trout roe caviar [23]
 [[food]]
 name = 'trout-roe-caviar'
 serving-size = '100g'
