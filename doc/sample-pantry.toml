@@ -3641,6 +3641,15 @@ protein = 20
 carbs = 4.5
 fat = 4.5
 
+# nibblish - gently baked mango
+[[food]]
+name = 'nibblish-gently-baked-mango'
+serving-size = '100g'
+protein = 2.9
+carbs = 77.2
+fiber = 9
+fat = 0.3
+
 # justpea - pea protein powder [27]
 [[food]]
 name = 'pea-protein-powder'
