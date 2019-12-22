@@ -3652,6 +3652,24 @@ protein = 20
 carbs = 4.5
 fat = 4.5
 
+# nibblish - gently baked banana
+[[food]]
+name = 'nibblish-gently-baked-banana'
+serving-size = '100g'
+protein = 3.4
+carbs = 49.2
+fiber = 6
+fat = 0.6
+
+# nibblish - gently baked pineapple
+[[food]]
+name = 'nibblish-gently-baked-pineapple'
+serving-size = '100g'
+protein = 2
+carbs = 77.3
+fiber = 8
+fat = 0.6
+
 # nibblish - gently baked mango
 [[food]]
 name = 'nibblish-gently-baked-mango'
