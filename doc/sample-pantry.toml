@@ -64,6 +64,7 @@ protein = 6
 carbs = 11
 fiber = 6
 fat = 23
+oxalate = 210
 source = 'https://www.tazachocolate.com/collections/see-it-all/products/100-baking-chocolate-6kg-bag'
 
 # --- end chocolate }}}
@@ -76,6 +77,7 @@ serving-size = '100g'
 protein = 26
 carbs = 0.3
 fat = 34
+oxalate = 0
 source = 'https://world.openfoodfacts.org/product/3123930650064/comte-aop-34-mg-fromage-a-pate-pressee-cuite-entremont'
 
 # liquid milk, raw milk, jersey
@@ -85,6 +87,7 @@ serving-size = '8 fl oz (244g)'
 protein = 8.8
 carbs = 11.5
 fat = 12.4
+oxalate = 1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
@@ -93,6 +96,7 @@ serving-size = '100g'
 protein = 0.5
 carbs = 0.5
 fat = 99
+oxalate = 0
 source = 'https://world.openfoodfacts.org/product/3445020004435/ghee-bio-planete'
 
 # whole milk from goat
@@ -123,6 +127,7 @@ serving-size = '1 large egg white (33g)'
 protein = 3.6
 carbs = 0.2
 fat = 0.1
+oxalate = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339017/nutrients'
 
 # egg, yolk only, raw
@@ -132,6 +137,7 @@ serving-size = '1 large egg yolk (17g)'
 protein = 2.7
 carbs = 0.6
 fat = 4.5
+oxalate = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339018/nutrients'
 
 # egg, whole, raw
@@ -141,6 +147,7 @@ serving-size = '1 large egg (58g)'
 protein = 6.3
 carbs = 0.4
 fat = 4.8
+oxalate = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339003/nutrients'
 
 # --- end egg }}}
@@ -407,6 +414,7 @@ carbs = 68.9
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 8.7, 0.45 ]
 fat = 0.3
+oxalate = 1.7
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/401'
 
 # apricots, dried
@@ -417,6 +425,7 @@ protein = 9.2
 carbs = 70.4
 fiber = [ 9.8, 0.56 ]
 fat = 0.4
+oxalate = 1.6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # bananas, dried
@@ -448,6 +457,7 @@ protein = 2.2
 carbs = 71.3
 fiber = [ 7.0, 0.79 ]
 fat = 0.2
+oxalate = 100
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # figs, dried
@@ -458,6 +468,7 @@ protein = 3
 carbs = 75.3
 fiber = [ 10.7, 0.68 ]
 fat = 1.1
+oxalate = 60
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # goji berries, dried
@@ -565,6 +576,7 @@ protein = 2.8
 carbs = 75
 fiber = 7.1
 fat = 0.6
+oxalate = 47
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/33077'
 
 # prune, dried, uncooked
@@ -576,6 +588,7 @@ carbs = 63.9
 # fiber estimated from otsuka pharmaceutical co ltd [37]
 fiber = [ 7.2, 0.53 ]
 fat = 0.4
+oxalate = 22
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341500/nutrients'
 
 # strawberries, dried
@@ -664,6 +677,7 @@ protein = 2.7
 carbs = 80.7
 fiber = [ 4.1, 0.71 ]
 fat = 0.2
+oxalate = 10.6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # dried figs gently processed with water vapor
@@ -737,6 +751,7 @@ protein = 0.2
 carbs = 16.2
 fiber = [ 1.9, 0.74 ]
 fat = 0.3
+oxalate = 10
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # apricots, raw
@@ -747,6 +762,7 @@ protein = 1
 carbs = 8.5
 fiber = [ 1.6, 0.63 ]
 fat = 0.3
+oxalate = 0
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
@@ -770,6 +786,7 @@ protein = 1.8
 carbs = 19.4
 fiber = [ 3.3, 0.79 ]
 fat = 0.4
+oxalate = 30
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # avocados, raw
@@ -780,6 +797,7 @@ protein = 2.5
 carbs = 6.2
 fiber = [ 5.3, 0.68 ]
 fat = 18.7
+oxalate = 19
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # bananas, raw
@@ -790,6 +808,7 @@ protein = 1.1
 carbs = 22.5
 fiber = [ 1.1, 0.91 ]
 fat = 0.2
+oxalate = 0.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pepper, banana, raw
@@ -811,6 +830,7 @@ carbs = 9.6
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 5.3, 0.82 ]
 fat = 0.5
+oxalate = 4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341635/nutrients'
 
 # blueberries, raw
@@ -821,6 +841,7 @@ protein = 0.5
 carbs = 12.9
 fiber = [ 3.3, 0.85 ]
 fat = 0.1
+oxalate = 4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sweet cherries, imported from the u.s.a., raw
@@ -831,6 +852,7 @@ protein = 1.2
 carbs = 17.1
 fiber = [ 1.4, 0.57 ]
 fat = 0.1
+oxalate = 1.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cucumber, fruit, raw
@@ -841,6 +863,7 @@ protein = 1
 carbs = 3
 fiber = [ 1.1, 0.82 ]
 fat = 0.1
+oxalate = 20
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # figs, raw
@@ -861,6 +884,7 @@ protein = 1.1
 carbs = 14.9
 fiber = [ 1.4, 0.64 ]
 fat = 0.2
+oxalate = 20
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # bitter melon, fruit, raw
@@ -886,6 +910,7 @@ protein = 0.9
 carbs = 9.6
 fiber = [ 0.6, 0.67 ]
 fat = 0.1
+oxalate = 14
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # kiwifruit, green flesh type, raw
@@ -896,6 +921,7 @@ protein = 1
 carbs = 13.5
 fiber = [ 2.5, 0.72 ]
 fat = 0.1
+oxalate = 20
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # plantains, green, raw
@@ -918,6 +944,7 @@ protein = 0.6
 carbs = 9.9
 fiber = [ 5.1, 0.86 ]
 fat = 0.1
+oxalate = 14
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # muskmelon, open culture, green flesh type, raw
@@ -928,6 +955,7 @@ protein = 1
 carbs = 10.4
 fiber = [ 0.5, 0.6 ]
 fat = 0.1
+oxalate = 0.6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
@@ -937,6 +965,7 @@ protein = 1.7
 carbs = 23
 fiber = 1.5
 fat = 0.6
+oxalate = 10
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174687/nutrients'
 
 # kumquats, whole, raw
@@ -957,6 +986,7 @@ protein = 0.6
 carbs = 16.9
 fiber = [ 1.3, 0.54 ]
 fat = 0.1
+oxalate = 0.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # oranges, valencia, imported from the u.s.a., juice sacs, raw
@@ -967,6 +997,7 @@ protein = 1
 carbs = 9.8
 fiber = [ 0.8, 0.63 ]
 fat = 0.1
+oxalate = 22.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # papaya, ripe, raw
@@ -978,6 +1009,7 @@ protein = 0.5
 carbs = 9.5
 fiber = [ 2.2, 0.68 ]
 fat = 0.2
+oxalate = 1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
@@ -1002,6 +1034,7 @@ protein = 0.3
 carbs = 14.4
 fiber = [ 1.9, 0.63 ]
 fat = 0.1
+oxalate = 1.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # peaches, raw
@@ -1012,6 +1045,7 @@ protein = 0.4
 carbs = 10.2
 fiber = [ 1.3, 0.54 ]
 fat = 0.1
+oxalate = 1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # japanese persimmons, nonastringent, raw
@@ -1033,6 +1067,7 @@ protein = 0.6
 carbs = 13.4
 fiber = [ 1.5, 0.93 ]
 fat = 0.1
+oxalate = 2.4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pitaya, raw
@@ -1055,6 +1090,7 @@ carbs = 31.9
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 2.3, 0.8 ]
 fat = 0.4
+oxalate = 0.5
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342002/nutrients'
 
 # plums, european plums, raw
@@ -1066,6 +1102,7 @@ protein = 0.7
 carbs = 12.6
 fiber = [ 1.9, 0.53 ]
 fat = 0.1
+oxalate = 0
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pomegranates, raw
@@ -1076,6 +1113,7 @@ protein = 0.2
 carbs = 15.5
 fiber = 0
 fat = 0
+oxalate = 14
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # red raspberries, raw
@@ -1086,6 +1124,7 @@ protein = 1.1
 carbs = 10.2
 fiber = [ 4.7, 0.85 ]
 fat = 0.1
+oxalate = 39
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # carambola, raw
@@ -1100,6 +1139,7 @@ protein = 0.7
 carbs = 7.5
 fiber = [ 1.8, 0.78 ]
 fat = 0.1
+oxalate = 5000
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # strawberries, raw
@@ -1110,6 +1150,7 @@ protein = 0.9
 carbs = 8.5
 fiber = [ 1.4, 0.64 ]
 fat = 0.1
+oxalate = 2.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # watermelon, red flesh type, raw
@@ -1121,6 +1162,7 @@ protein = 0.6
 carbs = 9.5
 fiber = [ 0.3, 0.67 ]
 fat = 0.1
+oxalate = 11
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # zucchini, fruit, raw
@@ -1132,6 +1174,7 @@ protein = 1.3
 carbs = 2.8
 fiber = [ 1.3, 0.85 ]
 fat = 0.1
+oxalate = 1.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end fresh fruit }}}
@@ -1157,6 +1200,7 @@ protein = 0.8
 carbs = 3.4
 fiber = [ 2.5, 0.84 ]
 fat = 12.3
+oxalate = 36
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cucumber, fruit, pickles, sour type (processed by lactic acid fermentation)
@@ -1168,6 +1212,7 @@ protein = 1.4
 carbs = 2.5
 fiber = [ 1.4, 0.79 ]
 fat = 0
+oxalate = 0
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # japanese radishes, daikon, root, pickles, "takuan-zuke" (pickled with
@@ -1192,6 +1237,7 @@ protein = 0.6
 carbs = 11.4
 fiber = 0.1
 fat = 0.1
+oxalate = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341444/nutrients'
 
 # lemon juice, 100%, freshly squeezed
@@ -1224,6 +1270,7 @@ protein = 0.9
 carbs = 12.9
 fiber = 0.2
 fat = 0.2
+oxalate = 1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/341456/nutrients'
 
 # passion fruit, juice, fresh
@@ -1295,6 +1342,7 @@ carbs = 7.6
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 5.0, 0.88 ]
 fat = 1.3
+oxalate = 42.1
 source = 'https://frida.fooddata.dk/food/1100'
 
 # mushrooms, button mushrooms, fresh, raw
@@ -1350,6 +1398,7 @@ protein = 3.3
 carbs = 6.2
 fiber = [ 2.6, 0.92 ]
 fat = 0.3
+oxalate = 104.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # mushrooms, maitake, raw
@@ -1387,6 +1436,7 @@ carbs = 3.9
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 2.5, 0.88 ]
 fat = 0.7
+oxalate = 43.6
 source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=328_1'
 
 # mushrooms, portabella, raw
@@ -1410,6 +1460,7 @@ protein = 3
 carbs = 5.7
 fiber = [ 4.2, 0.9 ]
 fat = 0.3
+oxalate = 101.4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # mushrooms, black poplar mushrooms, raw
@@ -1426,6 +1477,7 @@ protein = 2.4
 carbs = 4
 fiber = [ 3.0, 0.9 ]
 fat = 0.1
+oxalate = 80.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end mushroom }}}
@@ -1556,6 +1608,7 @@ protein = 12.7
 carbs = 64.9
 fiber = [ 7.4, 0.85 ]
 fat = 6
+oxalate = 1090
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pams super foods - amaranth flakes
@@ -1577,6 +1630,7 @@ protein = 2.8
 carbs = 35.6
 fiber = [ 1.4, 0.86 ]
 fat = 1
+oxalate = 12.6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # couscous, cooked
@@ -1588,6 +1642,7 @@ carbs = 23.2
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 1.4, 0.78 ]
 fat = 0.2
+oxalate = 8.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169700/nutrients'
 
 [[food]]
@@ -1654,6 +1709,7 @@ protein = 8.2
 carbs = 76.4
 fiber = [ 2.4, 0.96 ]
 fat = 1
+oxalate = 37.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # common oats, oatmeal, raw
@@ -1664,6 +1720,7 @@ protein = 13.7
 carbs = 69.1
 fiber = [ 9.4, 0.66 ]
 fat = 5.7
+oxalate = 40
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # rice, short grain, paddy rice, glutinous rice, well-milled, "meshi"
@@ -1687,6 +1744,7 @@ protein = 2.5
 carbs = 37.1
 fiber = [ 0.3, 1.0 ]
 fat = 0.3
+oxalate = 2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # wild rice, cooked
@@ -1735,6 +1793,7 @@ protein = 6.4
 carbs = 27.5
 fiber = [ 6.2, 0.34 ]
 fat = 0.9
+oxalate = 0
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
@@ -1743,6 +1802,7 @@ serving-size = '100g'
 protein = 1.8
 carbs = 18
 fat = 0.8
+oxalate = 100
 
 # fresh oregano
 [[food]]
@@ -1829,6 +1889,7 @@ carbs = 22.1
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 8.0, 0.75 ]
 fat = 1
+oxalate = 31.2
 source = 'https://nevo-online.rivm.nl/'
 
 # cowpeas, mature seeds, whole, dried, boiled
@@ -1873,6 +1934,7 @@ protein = 7.6
 carbs = 19.5
 fiber = 5.4
 fat = 0.4
+oxalate = 7
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31233'
 
 # chickpeas, mature seeds, whole, boiled
@@ -1891,6 +1953,7 @@ protein = 9.5
 carbs = 27.4
 fiber = [ 11.6, 0.96 ]
 fat = 2.5
+oxalate = 2.4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # whole foods great northern beans, canned
@@ -1919,6 +1982,7 @@ carbs = 8.1
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 2.7, 0.57 ]
 fat = 0.3
+oxalate = 31.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31547'
 
 # kidney beans, mature seeds, whole, boiled
@@ -1929,6 +1993,7 @@ protein = 8.5
 carbs = 24.8
 fiber = [ 13.3, 0.89 ]
 fat = 1
+oxalate = 31.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lima beans, mature seeds, whole, boiled
@@ -2011,6 +2076,7 @@ carbs = 15.4
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 5.4, 0.62 ]
 fat = 0.8
+oxalate = 31.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/514018/nutrients'
 
 # organic pinto beans, canned
@@ -2062,6 +2128,7 @@ protein = 6.2
 carbs = 22.3
 fiber = [ 7.6, 0.91 ]
 fat = 0.6
+oxalate = 7.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # soybeans, mature seeds, whole, domestic, yellow seed coats, boiled
@@ -2073,6 +2140,7 @@ protein = 14.8
 carbs = 8.4
 fiber = [ 6.6, 0.88 ]
 fat = 9.8
+oxalate = 3.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # tesco madagascan vanilla pod
@@ -2140,6 +2208,7 @@ protein = 1.5
 carbs = 16.8
 fiber = [ 1.6, 0.69 ]
 fat = 0.1
+oxalate = 2.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sweet potato, tuberous root, without skin, baked
@@ -2152,6 +2221,7 @@ protein = 1.4
 carbs = 39
 fiber = [ 3.5, 0.69 ]
 fat = 0.2
+oxalate = 14
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end potato }}}
@@ -2166,6 +2236,7 @@ carbs = 16.9
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 5.3, 0.92 ]
 fat = 0.7
+oxalate = 21.2
 source = 'https://nevo-online.rivm.nl/'
 
 # lentils green and brown boiled
@@ -2177,6 +2248,7 @@ carbs = 16.9
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 5.3, 0.92 ]
 fat = 0.7
+oxalate = 21.2
 source = 'https://nevo-online.rivm.nl/'
 
 # lentils, mature seeds, whole, boiled
@@ -2187,6 +2259,7 @@ protein = 11.2
 carbs = 29.1
 fiber = [ 9.4, 0.9 ]
 fat = 0.8
+oxalate = 21.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lentils red boiled
@@ -2207,6 +2280,7 @@ carbs = 20.9
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 4.8, 0.92 ]
 fat = 0.6
+oxalate = 21.2
 source = 'https://nevo-online.rivm.nl/'
 
 # --- --- end lentil }}}
@@ -2285,6 +2359,7 @@ serving-size = '100g'
 protein = 34
 carbs = 1.7
 fat = 35
+oxalate = 0
 
 # cured ham, boneless, approximately 11% fat, roasted
 [[food]]
@@ -2293,6 +2368,7 @@ serving-size = '100g'
 protein = 22.6
 carbs = 0
 fat = 9
+oxalate = 0
 
 [[food]]
 name = 'pork'
@@ -2300,6 +2376,7 @@ serving-size = '100g'
 protein = 26
 carbs = 0
 fat = 14
+oxalate = 0
 
 [[food]]
 name = 'pork-baby-back-rib'
@@ -2307,6 +2384,7 @@ serving-size = '100g'
 protein = 15.9
 carbs = 0
 fat = 23.9
+oxalate = 0
 
 [[food]]
 name = 'pork-chop'
@@ -2314,6 +2392,7 @@ serving-size = '100g'
 protein = 26
 carbs = 0
 fat = 11
+oxalate = 0
 
 [[food]]
 name = 'pork-loin'
@@ -2321,6 +2400,7 @@ serving-size = '100g'
 protein = 26
 carbs = 0
 fat = 8.8
+oxalate = 0
 
 # also includes spareribs
 [[food]]
@@ -2329,6 +2409,7 @@ serving-size = '100g'
 protein = 21
 carbs = 0
 fat = 31
+oxalate = 0
 
 [[food]]
 name = 'pork-shoulder'
@@ -2336,6 +2417,7 @@ serving-size = '100g'
 protein = 23
 carbs = 0
 fat = 21
+oxalate = 0
 
 [[food]]
 name = 'pork-tenderloin'
@@ -2343,6 +2425,7 @@ serving-size = '100g'
 protein = 26
 carbs = 0
 fat = 4
+oxalate = 0
 
 # --- end meat }}}
 # --- nut {{{
@@ -2355,6 +2438,7 @@ protein = 19.6
 carbs = 20.9
 fiber = [ 10.1, 0.92 ]
 fat = 51.8
+oxalate = 407.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
@@ -2365,6 +2449,7 @@ carbs = 10.1
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 7.5, 0.76 ]
 fat = 66.4
+oxalate = 100
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/32464'
 
 # anacardium occidentale - nut, cashew nut
@@ -2376,6 +2461,7 @@ carbs = 22.3
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 3.5, 0.92 ]
 fat = 46.4
+oxalate = 318.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/11086'
 
 # chestnuts, japanese chestnuts, boiled
@@ -2410,6 +2496,7 @@ carbs = 15.1
 # insoluble fiber estimated from roasted-hazelnut
 fiber = [ 10.4, 0.88 ]
 fat = 60.8
+oxalate = 100
 source = 'https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1541-4337.2012.00190.x'
 
 [[food]]
@@ -2430,6 +2517,7 @@ protein = 25.4
 carbs = 18.8
 fiber = [ 7.4, 0.95 ]
 fat = 47.5
+oxalate = 95.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # carya illinoinensis - nut, pecan
@@ -2441,6 +2529,7 @@ carbs = 14
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 9.6, 0.8 ]
 fat = 72
+oxalate = 35.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/33095'
 
 # pine nuts, raw
@@ -2451,6 +2540,7 @@ protein = 15.8
 carbs = 10.6
 fiber = [ 4.1, 0.76 ]
 fat = 68.2
+oxalate = 100
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pistacia vera - nut, pistachio nut
@@ -2462,6 +2552,7 @@ carbs = 27
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 10.3, 0.75 ]
 fat = 46
+oxalate = 49.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31212'
 
 # almonds, oil-roasted and salted
@@ -2492,6 +2583,7 @@ protein = 19.8
 carbs = 26.7
 fiber = [ 6.7, 0.88 ]
 fat = 47.6
+oxalate = 100
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # chestnuts, roasted
@@ -2599,6 +2691,7 @@ carbs = 9.9
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 6.7, 0.69 ]
 fat = 65.2
+oxalate = 24.8
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/376'
 
 # --- end nut }}}
@@ -2653,6 +2746,7 @@ serving-size = '1 tbsp (13.6g)'
 protein = 0
 carbs = 0
 fat = 13.6
+oxalate = 0
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/172334/nutrients'
 
 [[food]]
@@ -2696,6 +2790,7 @@ serving-size = '100g'
 protein = 19
 carbs = 0
 fat = 28
+oxalate = 0
 
 [[food]]
 name = 'chicken-breast'
@@ -2703,6 +2798,7 @@ serving-size = '100g'
 protein = 31
 carbs = 0
 fat = 3.6
+oxalate = 0
 
 # chicken drumstick & thigh
 [[food]]
@@ -2711,6 +2807,7 @@ serving-size = '100g'
 protein = 24
 carbs = 0
 fat = 9
+oxalate = 0
 
 [[food]]
 name = 'chicken-thigh'
@@ -2718,6 +2815,7 @@ serving-size = '100g'
 protein = 25.1
 carbs = 0
 fat = 15.5
+oxalate = 0
 
 [[food]]
 name = 'chicken-wing'
@@ -2725,6 +2823,7 @@ serving-size = '100g'
 protein = 24
 carbs = 0
 fat = 17
+oxalate = 0
 
 [[food]]
 name = 'duck'
@@ -2754,6 +2853,7 @@ serving-size = '100g'
 protein = 29
 carbs = 0.1
 fat = 7.4
+oxalate = 0
 
 [[food]]
 name = 'turkey-breast'
@@ -2761,6 +2861,7 @@ serving-size = '100g'
 protein = 30
 carbs = 0
 fat = 2.1
+oxalate = 0
 
 # turkey drumstick & thigh
 [[food]]
@@ -2769,6 +2870,7 @@ serving-size = '100g'
 protein = 28
 carbs = 0
 fat = 9.4
+oxalate = 0
 
 # --- end poultry }}}
 # --- sauce {{{
@@ -2869,6 +2971,7 @@ serving-size = '100g'
 protein = 25
 carbs = 0
 fat = 11
+oxalate = 0
 
 # chunk light tuna in water
 [[food]]
@@ -2899,6 +3002,7 @@ serving-size = '100g'
 protein = 26
 carbs = 5.1
 fat = 2
+oxalate = 0
 
 [[food]]
 name = 'cod'
@@ -2906,6 +3010,7 @@ serving-size = '100g'
 protein = 23
 carbs = 0
 fat = 0.9
+oxalate = 0
 
 [[food]]
 name = 'crab'
@@ -2913,6 +3018,7 @@ serving-size = '100g'
 protein = 18
 carbs = 0
 fat = 0.7
+oxalate = 0
 
 [[food]]
 name = 'crayfish'
@@ -2934,6 +3040,7 @@ serving-size = '100g'
 protein = 23
 carbs = 0
 fat = 1.6
+oxalate = 0
 
 [[food]]
 name = 'lobster'
@@ -2962,6 +3069,7 @@ serving-size = '100g'
 protein = 19
 carbs = 9.9
 fat = 4.6
+oxalate = 0
 
 [[food]]
 name = 'prawn'
@@ -2976,6 +3084,7 @@ serving-size = '100g'
 protein = 27
 carbs = 0
 fat = 7.5
+oxalate = 0
 
 [[food]]
 name = 'salmon-roe-caviar'
@@ -3004,6 +3113,7 @@ serving-size = '100g'
 protein = 23
 carbs = 1.5
 fat = 1.7
+oxalate = 0
 
 [[food]]
 name = 'tilapia'
@@ -3033,6 +3143,7 @@ serving-size = '100g'
 protein = 29
 carbs = 0
 fat = 0.6
+oxalate = 0
 
 [[food]]
 name = 'whitefish'
@@ -3068,6 +3179,7 @@ carbs = 28.8
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 26.4, 0.46 ]
 fat = 43.8
+oxalate = 0
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/30991?'
 
 # cannabis sativa - hemp seed, without hull
@@ -3112,6 +3224,7 @@ carbs = 10.7
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 6.0, 0.73 ]
 fat = 49.1
+oxalate = 14.3
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339482/nutrients'
 
 # quinoa, cooked without salt
@@ -3273,6 +3386,7 @@ serving-size = '1 tbsp (8g)'
 protein = 1.1
 carbs = 4
 fat = 1.1
+oxalate = 7
 
 # ground cinnamon
 [[food]]
@@ -3391,6 +3505,7 @@ serving-size = '1 tbsp (9.7g)'
 protein = 1.6
 carbs = 7.1
 fat = 0.1
+oxalate = 0
 
 # ground ginger
 [[food]]
@@ -3399,6 +3514,7 @@ serving-size = '1 tbsp (5.2g)'
 protein = 0.5
 carbs = 3.7
 fat = 0.2
+oxalate = 26
 
 # kashmiri masala powder [36]
 [[food]]
@@ -3522,6 +3638,7 @@ serving-size = '1 tbsp (18g)'
 protein = 0
 carbs = 0
 fat = 0
+oxalate = 0
 
 # sesamum indicum - sesame seed, white, without hull
 [[food]]
@@ -3541,6 +3658,7 @@ protein = 0.2
 carbs = 4.7
 fiber = 0.4
 fat = 0.1
+oxalate = 14.8
 
 # ground turmeric
 [[food]]
@@ -3804,6 +3922,7 @@ serving-size = '1 tbsp'
 protein = 0.1
 carbs = 17
 fat = 0
+oxalate = 0
 
 # indian jaggery unrefined brown non-centrifugal sugar
 # both dark/light variants
@@ -3813,6 +3932,7 @@ serving-size = '100g'
 protein = 0.1
 carbs = 98
 fat = 0.1
+oxalate = 0.5
 
 # okinawa kokutō unrefined brown non-centrifugal sugar
 # both dark/light variants
@@ -3823,6 +3943,7 @@ serving-size = '100g'
 protein = 0.1
 carbs = 98
 fat = 0.1
+oxalate = 0.5
 
 [[food]]
 name = 'maple-sugar'
@@ -3845,6 +3966,7 @@ serving-size = '100g'
 protein = 0
 carbs = 75
 fat = 0.1
+oxalate = 0
 
 # mauritius muscovado unrefined brown non-centrifugal sugar
 # not to be confused with turbinado or demerara sugar
@@ -3855,6 +3977,7 @@ serving-size = '100g'
 protein = 0.1
 carbs = 98
 fat = 0.1
+oxalate = 0.5
 
 # mexican piloncilo unrefined brown non-centrifugal sugar
 # both dark/light variants
@@ -3868,6 +3991,7 @@ serving-size = '100g'
 protein = 0.1
 carbs = 98
 fat = 0.1
+oxalate = 0.5
 
 # homemade stevia extract
 [[food]]
@@ -3910,6 +4034,7 @@ protein = 9.1
 carbs = 0.7
 fiber = [ 0.5, 0.6 ]
 fat = 7.2
+oxalate = 13
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lupine tempeh
@@ -3977,6 +4102,7 @@ protein = 4.9
 carbs = 2
 fiber = [ 0.3, 0.67 ]
 fat = 3
+oxalate = 13
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # soybeans, tempeh (fermented soybeans with rhizopus oligospore)
@@ -3997,6 +4123,7 @@ protein = 6.6
 carbs = 1.6
 fiber = [ 0.4, 0.75 ]
 fat = 4.2
+oxalate = 13
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # common wheat, "fu" (wheat gluten cake), "kamayakifu" (dried by oven
@@ -4058,6 +4185,7 @@ protein = 8.8
 carbs = 7.6
 fiber = 0.5
 fat = 4.9
+oxalate = 4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sunflower seed milk
@@ -4080,6 +4208,7 @@ protein = 1.6
 carbs = 2
 fiber = [ 1.4, 0.93 ]
 fat = 0.1
+oxalate = 0
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # globe artichoke, flower bud, boiled
@@ -4095,6 +4224,7 @@ protein = 2.1
 carbs = 10.8
 fiber = [ 8.6, 0.27 ]
 fat = 0.1
+oxalate = 5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # rocket salad, leaves, raw
@@ -4116,6 +4246,7 @@ protein = 2.6
 carbs = 4.6
 fiber = [ 2.1, 0.76 ]
 fat = 0.1
+oxalate = 1.9
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # bamboo shoots, canned in water
@@ -4126,6 +4257,7 @@ protein = 2.7
 carbs = 4
 fiber = [ 2.3, 0.78 ]
 fat = 0.2
+oxalate = 35
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # green bok choy, leaves, boiled
@@ -4140,6 +4272,7 @@ protein = 0.9
 carbs = 2.4
 fiber = [ 1.5, 0.8 ]
 fat = 0.1
+oxalate = 1.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # broccoli, inflorescence, boiled
@@ -4150,6 +4283,7 @@ protein = 3.5
 carbs = 4.3
 fiber = [ 3.7, 0.78 ]
 fat = 0.4
+oxalate = 190
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # brussels sprouts, head, boiled
@@ -4160,6 +4294,7 @@ protein = 5.3
 carbs = 9.8
 fiber = [ 5.2, 0.73 ]
 fat = 0.1
+oxalate = 2.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # carrot, "kintoki" (oriental type), root with skin, raw
@@ -4170,6 +4305,7 @@ protein = 1.8
 carbs = 9.6
 fiber = [ 3.9, 0.62 ]
 fat = 0.2
+oxalate = 10
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cauliflower, inflorescence, boiled
@@ -4180,6 +4316,7 @@ protein = 2.7
 carbs = 5.1
 fiber = [ 3.2, 0.78 ]
 fat = 0.1
+oxalate = 6.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # celery, petiole, raw
@@ -4190,6 +4327,7 @@ protein = 0.4
 carbs = 3.6
 fiber = [ 1.5, 0.8 ]
 fat = 0.1
+oxalate = 7.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # chayote, fruit, green-colored, raw
@@ -4201,6 +4339,7 @@ protein = 0.6
 carbs = 4.9
 fiber = [ 1.2, 0.83 ]
 fat = 0.1
+oxalate = 34
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # tomatoes, cherry tomatoes, fruit, raw
@@ -4222,6 +4361,7 @@ protein = 1.6
 carbs = 3.1
 fiber = [ 2.2, 0.73 ]
 fat = 0.3
+oxalate = 1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # coriandrum sativum - coriander, fresh
@@ -4234,6 +4374,7 @@ carbs = 3.3
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 2.8, 0.3 ]
 fat = 0.4
+oxalate = 5
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/34238'
 
 # collards, raw
@@ -4245,6 +4386,7 @@ carbs = 5.4
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 4.0, 0.39 ]
 fat = 0.6
+oxalate = 5.3
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342053/nutrients'
 
 # corn, sweet corn, immature kernels, boiled
@@ -4255,6 +4397,7 @@ protein = 3.5
 carbs = 18.6
 fiber = [ 3.1, 0.9 ]
 fat = 1.7
+oxalate = 9.9
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # corn, sweet corn, immature kernels, raw
@@ -4276,6 +4419,7 @@ protein = 1.1
 carbs = 5.1
 fiber = [ 2.2, 0.86 ]
 fat = 0.1
+oxalate = 29.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # foeniculum vulgare var. azoricum - florence fennel
@@ -4299,6 +4443,7 @@ protein = 1.4
 carbs = 3.3
 fiber = [ 1.9, 0.74 ]
 fat = 0.1
+oxalate = 13.6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sweet peppers, fruit, green, raw
@@ -4313,6 +4458,7 @@ protein = 0.9
 carbs = 5.1
 fiber = [ 2.3, 0.74 ]
 fat = 0.2
+oxalate = 117.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cabbage, green ball, head raw
@@ -4324,6 +4470,7 @@ protein = 1.4
 carbs = 4.3
 fiber = [ 1.6, 0.81 ]
 fat = 0.1
+oxalate = 35
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # green onion, "wakegi", leaves, raw
@@ -4339,6 +4486,7 @@ protein = 1.6
 carbs = 7.4
 fiber = [ 2.8, 0.89 ]
 fat = 0
+oxalate = 2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # horseradish, rhizome, raw
@@ -4349,6 +4497,7 @@ protein = 3.1
 carbs = 17.7
 fiber = [ 8.2, 0.9 ]
 fat = 0.3
+oxalate = 0
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lactuca sativa var. capitata - iceberg lettuce
@@ -4360,6 +4509,7 @@ carbs = 2.2
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 1.2, 0.88 ]
 fat = 0.2
+oxalate = 0
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/331'
 
 # peppers, jalapeno, raw
@@ -4402,6 +4552,7 @@ protein = 0.8
 carbs = 2.9
 fiber = [ 1.1, 0.82 ]
 fat = 0.2
+oxalate = 13.6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # bean sprouts, mung bean sprouts, raw
@@ -4422,6 +4573,7 @@ protein = 0.6
 carbs = 8.8
 fiber = [ 1.6, 0.63 ]
 fat = 0.1
+oxalate = 3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sweet pepper orange raw
@@ -4438,6 +4590,7 @@ carbs = 6.4
 # red-bell-pepper
 fiber = [ 1.7, 0.69 ]
 fat = 0.3
+oxalate = 117.1
 source = 'https://nevo-online.rivm.nl/'
 
 # parsley, leaves, raw
@@ -4448,6 +4601,7 @@ protein = 4
 carbs = 7.8
 fiber = [ 6.8, 0.91 ]
 fat = 0.7
+oxalate = 166
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # pumpkin and squash, winter squash, fruit, baked
@@ -4469,6 +4623,7 @@ protein = 0.7
 carbs = 2.6
 fiber = [ 1.1, 0.91 ]
 fat = 0.1
+oxalate = 9.2
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/308'
 
 # sweet peppers, fruit, red, raw
@@ -4483,6 +4638,7 @@ protein = 1
 carbs = 7.2
 fiber = [ 1.6, 0.69 ]
 fat = 0.2
+oxalate = 117.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cabbage, red cabbage, head raw
@@ -4494,6 +4650,7 @@ protein = 2
 carbs = 6.7
 fiber = [ 2.8, 0.79 ]
 fat = 0.1
+oxalate = 35
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # hot peppers, fruit, raw
@@ -4509,6 +4666,7 @@ protein = 3.9
 carbs = 16.3
 fiber = [ 10.3, 0.86 ]
 fat = 3.4
+oxalate = 67
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lettuce, romaine lettuce, leaves, raw
@@ -4519,6 +4677,7 @@ protein = 1.2
 carbs = 3.4
 fiber = [ 1.9, 0.79 ]
 fat = 0.2
+oxalate = 0
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lettuce, sang-chu lettuce, leaves, raw
@@ -4530,6 +4689,7 @@ protein = 1.2
 carbs = 2.5
 fiber = [ 2.0, 0.75 ]
 fat = 0.4
+oxalate = 13.6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # cabbage, savoy, raw
@@ -4562,6 +4722,7 @@ protein = 2.2
 carbs = 3.1
 fiber = [ 2.8, 0.75 ]
 fat = 0.4
+oxalate = 2186.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # tamarillo, red, flesh & seed, raw
@@ -4588,6 +4749,7 @@ protein = 0.7
 carbs = 4.7
 fiber = [ 1.0, 0.7 ]
 fat = 0.1
+oxalate = 7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sweet peppers, fruit, yellow, raw
@@ -4602,6 +4764,7 @@ protein = 0.8
 carbs = 6.6
 fiber = [ 1.3, 0.69 ]
 fat = 0.2
+oxalate = 117.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # --- --- end fresh vegetable }}}
@@ -4626,6 +4789,7 @@ carbs = 7.6
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 2.4, 0.66 ]
 fat = 0.1
+oxalate = 1.3
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/3204'
 
 # --- --- end fermented vegetable }}}
@@ -4709,6 +4873,7 @@ protein = 1.7
 carbs = 8.9
 fiber = 2.6
 fat = 0.5
+oxalate = 763.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 
 # --- end water }}}
