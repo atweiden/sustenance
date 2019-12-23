@@ -128,4 +128,4 @@ $sustenance.gen-report(:budget);
 ```
 
 - acidity levels
-- oxylate content
+- oxalate content
