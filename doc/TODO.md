@@ -126,3 +126,6 @@ $sustenance.gen-report;
 # calculate dollars per calorie
 $sustenance.gen-report(:budget);
 ```
+
+- acidity levels
+- oxylate content
