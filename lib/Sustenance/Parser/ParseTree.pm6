@@ -132,6 +132,7 @@ class Food
     has Carbohydrates:D $.carbohydrates is required;
     has Gram:D $.fat is required;
     has Gram:D $.alcohol = 0.0;
+    has Microgram $.oxalate;
 
     # this food is also known as these names
     has FoodName @.aka;
@@ -159,6 +160,7 @@ class Food
         Numeric:D :$fat!,
         :fiber($f),
         Numeric :$alcohol,
+        Numeric :$oxalate,
         :$aka,
         Str :$source
         --> Nil
@@ -175,6 +177,7 @@ class Food
         }
         $!fat = Rat($fat);
         $!alcohol = Rat($alcohol) if $alcohol;
+        $!oxalate = Rat($oxalate) if $oxalate;
         @!aka = |$aka if $aka;
         $!source = $source if $source;
     }
@@ -188,6 +191,7 @@ class Food
             Numeric:D :fat($)! where * >= 0,
             :fiber($),
             Numeric :alcohol($),
+            Numeric :oxalate($),
             :aka($),
             Str :source($)
         )
@@ -208,6 +212,7 @@ class Food
             :%carbohydrates,
             :$.fat,
             :$.alcohol;
+        %hash<oxalate> = $.oxalate if $.oxalate;
         %hash<aka> = @.aka if @.aka;
         %hash<source> = $.source if $.source;
         %hash;

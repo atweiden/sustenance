@@ -127,5 +127,5 @@ $sustenance.gen-report;
 $sustenance.gen-report(:budget);
 ```
 
-- acidity levels
-- oxalate content
+- track acidity of food
+- track oxalate content of food
