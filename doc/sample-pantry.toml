@@ -2688,6 +2688,7 @@ fiber = [ 7.5, 0.93 ]
 fat = 68.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# ceres organics - organic tiger nuts
 [[food]]
 name = 'tiger-nut'
 aka = [
@@ -2695,12 +2696,12 @@ aka = [
   'tigernut'
 ]
 serving-size = '100g'
-protein = 5
-carbs = 52.2
+protein = 4.6
+carbs = 63.6
 # insoluble fiber estimated from 2019 article by dr. ceepie merry [19]
-fiber = [ 8.9, 0.5 ]
-fat = 24.5
-source = 'https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1541-4337.2012.00190.x'
+fiber = [ 33.0, 0.5 ]
+fat = 24.9
+source = 'https://www.huckleberry.co.nz/products/ceres-organics-tiger-nuts'
 
 # juglans regia - nut, walnut
 [[food]]
