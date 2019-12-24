@@ -3783,13 +3783,15 @@ fiber = 20
 fat = 47
 source = 'auckland product label'
 
-# manitoba hemp foods harvest - hemp pro 70 original
+# matakana superfoods - organic hemp protein powder
 [[food]]
-name = 'hemp-seed-protein-powder'
-serving-size = '4 tbsp'
-protein = 20
-carbs = 4.5
-fat = 4.5
+name = 'matakana-superfoods-hemp-protein-powder'
+serving-size = '100g'
+protein = 50
+carbs = 36
+fiber = 16
+fat = 15
+source = 'https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g'
 
 # nibblish - gently baked banana
 [[food]]
