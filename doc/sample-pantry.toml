@@ -1588,6 +1588,15 @@ source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=346_
 # --- --- end truffle }}}
 # --- --- yeast {{{
 
+[[food]]
+name = 'toasted-nutritional-yeast-flake'
+serving-size = '100g'
+protein = 47
+carbs = 40.3
+fiber = 20.5
+fat = 4.8
+source = 'https://thesourcebulkfoods.com.au/shop/cooking/nutritional-yeast-flakes-toasted/'
+
 # nutritional yeast flakes/powder
 # not to be confused with brewer's yeast, torula yeast, active dry yeast
 # or baking yeast
