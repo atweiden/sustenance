@@ -405,6 +405,17 @@ source = 'https://organicgemini.com/products/gluten-free-flour'
 
 # --- --- dried fruit {{{
 
+# australian carina variety currants
+[[food]]
+name = 'australian-currant'
+serving-size = '100g'
+protein = 2.4
+carbs = 77.8
+# insoluble fiber estimated from raisin
+fiber = [ 4.3, 0.71 ]
+fat = 1
+source = 'https://thesourcebulkfoods.com.au/shop/dried-fruit/organic-australian-currants/'
+
 # malus - apple, dried
 [[food]]
 name = 'dried-apple'
