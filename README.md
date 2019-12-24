@@ -104,6 +104,7 @@ key       | description                                                         
 `fiber`   | grams of total fiber² per serving                                   | number
 `fiber`   | grams of total fiber per serving, `$insoluble-fiber / $total-fiber` | array of floats, array of integers
 `alcohol` | grams of alcohol per serving                                        | number
+`oxalate` | micrograms of oxalate per serving                                   | number
 `source`  | source of macronutrient data                                        | string
 
 Each *meal* entry must have:
