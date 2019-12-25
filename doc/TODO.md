@@ -127,5 +127,28 @@ $sustenance.gen-report;
 $sustenance.gen-report(:budget);
 ```
 
-- track acidity of food
-- track oxalate content of food
+- track
+  - cost of food
+  - oxalate content of food
+  - acidity of food
+  - environmental impact of diet
+- implement recommendations from
+  - source
+    - http://www.eatrightpro.org/~/media/eatrightpro%20files/practice/position%20and%20practice%20papers/position%20papers/nutritionathleticperf.ashx
+    - https://www.nomeatathlete.com/nutrients/
+  - e.g.
+    - carbohydrate targets
+- implement micronutrient tracking
+  - e.g.
+    - essential amino acids
+      - especially lysine
+- implement shorthand syntax for meal log
+  - e.g.
+
+```
+[2019-12-22T18:00:00] dried-banana:1, dried-golden-kiwi:1
+
+[2019-12-22T18:00:00]
+dried-banana:1,
+dried-golden-kiwi:1
+```
