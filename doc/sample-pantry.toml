@@ -3635,6 +3635,17 @@ protein = 1
 carbs = 3.7
 fat = 0.9
 
+# homemade ras el hanout [38]
+# consisting of: coriander-seed:0.25, cumin:0.125, crushed-red-pepper:0.08,
+# cinnamon:0.21, paprika:0.17, cardamom:0.08, ginger:0.08, turmeric:0.08
+[[food]]
+name = 'ras-el-hanout'
+serving-size = '1 tbsp (7.5g)'
+protein = 0.7
+carbs = 4.4
+fiber = 0.7
+fat = 0.7
+
 # ground sage
 [[food]]
 name = 'rubbed-sage'
@@ -4942,6 +4953,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [35]: https://www.healthysupplies.co.uk/freeze-dried-blackcurrants.html
 # [36]: https://mrsrogers.co.nz/product/kashmiri-masala-powder/
 # [37]: https://www.otsuka.co.jp/en/health-and-illness/fiber/intake/foods-amount/
+# [38]: https://www.bonappetit.com/recipe/ras-el-hanout-2
 
 # end cite }}}
 # ==============================================================================
