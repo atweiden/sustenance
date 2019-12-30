@@ -3766,6 +3766,16 @@ source = 'https://www.mygerbs.com/shop/light-salt-pumpkin-seed-butter/'
 # --- end spread }}}
 # --- supplement {{{
 
+# uncle harry's - western washington bee pollen [39]
+[[food]]
+name = 'bee-pollen'
+serving-size = '100g'
+protein = 16.1
+carbs = 35.7
+fiber = 5
+fat = 7.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/369145/nutrients'
+
 # plain creatine monohydrate powder
 [[food]]
 name = 'creatine-monohydrate-powder'
@@ -4954,6 +4964,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [36]: https://mrsrogers.co.nz/product/kashmiri-masala-powder/
 # [37]: https://www.otsuka.co.jp/en/health-and-illness/fiber/intake/foods-amount/
 # [38]: https://www.bonappetit.com/recipe/ras-el-hanout-2
+# [39]: https://www.uncleharrys.com/western-washington-bee-pollen-8-oz
 
 # end cite }}}
 # ==============================================================================
