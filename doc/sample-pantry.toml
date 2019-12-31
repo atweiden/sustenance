@@ -1000,6 +1000,15 @@ fat = 0.1
 oxalate = 0.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+[[food]]
+name = 'new-zealand-gooseberry'
+serving-size = '100g'
+protein = 0.6
+carbs = 13.4
+fiber = 4.3
+fat = 0.6
+source = 'https://www.foodcomposition.co.nz/foodfiles/concise-tables/'
+
 # oranges, valencia, imported from the u.s.a., juice sacs, raw
 [[food]]
 name = 'orange'
