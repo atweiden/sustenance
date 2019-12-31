@@ -449,19 +449,21 @@ fiber = [ 7.0, 0.71 ]
 fat = 0.4
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# sowberry (berberis vulgaris), fruit without seeds, dried
 [[food]]
 name = 'dried-barberry'
 aka = [
-  'berberis',
+  # europe
+  'dried-sowberry',
   # iran
   'zereshk'
 ]
 serving-size = '100g'
-protein = 3.5
-carbs = 63.5
-fiber = 10.6
-fat = 0
-source = 'https://nuts.com/driedfruit/barberries/organic.html'
+protein = 3.1
+carbs = 60
+fiber = 5.3
+fat = 0.3
+source = 'http://www.fao.org/3/X6879E/X6879E11.htm'
 
 # blueberries, dried
 [[food]]
