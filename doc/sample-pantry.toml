@@ -649,6 +649,17 @@ fiber = 35.2
 fat = 4.4
 source = 'auckland product label'
 
+# harmony house - freeze dried sweet cherries
+[[food]]
+name = 'freeze-dried-cherry'
+serving-size = '100g'
+protein = 9.5
+carbs = 82
+# insoluble fiber estimated from cherry
+fiber = [ 9.0, 0.57 ]
+fat = 0.8
+source = 'https://www.harmonyhousefoods.com/assets/images/default/PDFs/FDCherries.pdf'
+
 # fresh as - plum slices - freeze dried
 [[food]]
 name = 'freeze-dried-plum'
