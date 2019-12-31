@@ -3811,6 +3811,16 @@ protein = 0
 carbs = 0
 fat = 0
 
+# ceres organics - organic quinoa puffs
+[[food]]
+name = 'ceres-organics-quinoa-puffs'
+serving-size = '100g'
+protein = 14.3
+carbs = 80.9
+fiber = 7.1
+fat = 6.7
+source = 'auckland product label'
+
 # ceres organics - organic seaweed - original snack
 [[food]]
 name = 'ceres-organics-seaweed-original-snack'
