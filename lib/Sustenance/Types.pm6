@@ -157,4 +157,4 @@ multi sub in-time-range(
 
 # end class Time }}}
 
-# vim: set filetype=perl6 foldmethod=marker foldlevel=0 nowrap:
+# vim: set filetype=raku foldmethod=marker foldlevel=0 nowrap:

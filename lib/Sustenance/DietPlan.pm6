@@ -388,4 +388,4 @@ method gen-protein(:$weight! where .so)
     $min..$max;
 }
 
-# vim: set filetype=perl6 foldmethod=marker foldlevel=0 nowrap:
+# vim: set filetype=raku foldmethod=marker foldlevel=0 nowrap:

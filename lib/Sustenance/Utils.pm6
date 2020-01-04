@@ -1,7 +1,7 @@
 use v6;
 unit class Sustenance::Utils;
 
-# hash C<Dateish> types by hand because perl 6 doesn't do this for us
+# hash C<Dateish> types by hand because raku doesn't do this for us
 method hash(Dateish:D $dateish --> Hash:D)
 {
     my %hash = hash($dateish);
@@ -44,4 +44,4 @@ multi sub hash(Date:D $date --> Hash:D)
         :$day;
 }
 
-# vim: set filetype=perl6 foldmethod=marker foldlevel=0 nowrap:
+# vim: set filetype=raku foldmethod=marker foldlevel=0 nowrap:

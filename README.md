@@ -35,7 +35,7 @@ export PERL6LIB=lib
 bin/sustenance --date=2018-05-31 gen-macros sustenance.toml
 ```
 
-**perl6**:
+**raku**:
 
 ```perl6
 use Sustenance;
@@ -61,7 +61,7 @@ bin/sustenance \
   gen-diet-plan
 ```
 
-**perl6**:
+**raku**:
 
 ```perl6
 use Sustenance::DietPlan;
@@ -158,7 +158,7 @@ of carbohydrates.
 
 ### Dependencies
 
-- Rakudo Perl 6
+- Raku
 - [Config::TOML][Config::TOML]
 
 ## Licensing

@@ -320,4 +320,4 @@ multi method ls(::?CLASS:D: Bool:D :meal($)! where .so --> Array[Hash:D])
 
 # end method ls }}}
 
-# vim: set filetype=perl6 foldmethod=marker foldlevel=0 nowrap:
+# vim: set filetype=raku foldmethod=marker foldlevel=0 nowrap:
