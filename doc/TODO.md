@@ -129,7 +129,7 @@ $sustenance.gen-report(:budget);
 
 - track
   - cost of food
-  - acidity of food
+  - alkaline- vs acid-formation of food
   - environmental impact of diet
 - implement recommendations from
   - source
