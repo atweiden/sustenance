@@ -129,7 +129,6 @@ $sustenance.gen-report(:budget);
 
 - track
   - cost of food
-  - oxalate content of food
   - acidity of food
   - environmental impact of diet
 - implement recommendations from
