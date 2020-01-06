@@ -3735,6 +3735,16 @@ fiber = 20
 fat = 47
 source = 'auckland product label'
 
+# matakana superfoods - organic acai berry powder
+[[food]]
+name = 'matakana-superfoods-acai-berry-powder'
+serving-size = '100g'
+protein = 7.7
+carbs = 98.9
+fiber = 31.3
+fat = 14.9
+source = 'https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g'
+
 # matakana superfoods - organic hemp protein powder
 [[food]]
 name = 'matakana-superfoods-hemp-protein-powder'
