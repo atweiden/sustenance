@@ -3903,7 +3903,7 @@ fat = 0
 
 [[food]]
 name = 'honey'
-serving-size = '1 tbsp'
+serving-size = '1 tbsp (21g)'
 protein = 0.1
 carbs = 17
 fat = 0
@@ -3936,7 +3936,7 @@ fat = 0.2
 
 [[food]]
 name = 'maple-syrup'
-serving-size = '1 tbsp'
+serving-size = '1 tbsp (20g)'
 protein = 0
 carbs = 16
 fat = 0
