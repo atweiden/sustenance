@@ -1,6 +1,122 @@
 # ==============================================================================
 # food {{{
 
+# --- branded {{{
+
+# ceres organics - organic quinoa puffs
+[[food]]
+name = 'ceres-organics-quinoa-puffs'
+serving-size = '100g'
+protein = 14.3
+carbs = 80.9
+fiber = 7.1
+fat = 6.7
+source = 'auckland product label'
+
+# ceres organics - organic seaweed - original snack
+[[food]]
+name = 'ceres-organics-seaweed-original-snack'
+serving-size = '100g'
+protein = 20
+carbs = 26
+fiber = 24
+fat = 47
+source = 'auckland product label'
+
+# ceres organics - organic seaweed - sea salt and vinegar
+[[food]]
+name = 'ceres-organics-seaweed-salt-vinegar'
+serving-size = '100g'
+protein = 20
+carbs = 26.7
+fiber = 20
+fat = 47
+source = 'auckland product label'
+
+# matakana superfoods - organic acai berry powder
+[[food]]
+name = 'matakana-superfoods-acai-berry-powder'
+serving-size = '100g'
+protein = 7.7
+carbs = 98.9
+fiber = 31.3
+fat = 14.9
+source = 'https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g'
+
+# nibblish - gently baked banana
+[[food]]
+name = 'nibblish-gently-baked-banana'
+serving-size = '100g'
+protein = 3.4
+carbs = 49.2
+fiber = 6
+fat = 0.6
+source = 'auckland product label'
+
+# nibblish - gently baked pineapple
+[[food]]
+name = 'nibblish-gently-baked-pineapple'
+serving-size = '100g'
+protein = 2
+carbs = 77.3
+fiber = 8
+fat = 0.6
+source = 'auckland product label'
+
+# nibblish - gently baked mango
+[[food]]
+name = 'nibblish-gently-baked-mango'
+serving-size = '100g'
+protein = 2.9
+carbs = 77.2
+fiber = 9
+fat = 0.3
+source = 'auckland product label'
+
+# spiral foods - organic natural vegan oven baked mung bean chips
+[[food]]
+name = 'spiral-foods-baked-mung-bean-chips'
+serving-size = '100g'
+protein = 27.2
+carbs = 63.5
+fiber = 13.1
+fat = 0.5
+source = 'auckland product label'
+
+# the happy snack co - crunchy roasted chickpeas - lightly salted
+[[food]]
+name = 'the-happy-snack-co-crunchy-roasted-chickpeas-salted'
+serving-size = '100g'
+protein = 22.5
+carbs = 60.4
+# insoluble fiber estimated from roasted-chickpea
+fiber = [ 20.9, 0.95 ]
+fat = 13
+source = 'auckland product label'
+
+# the happy snack co - crunchy roasted chickpeas - spicy tomato & chilli
+[[food]]
+name = 'the-happy-snack-co-crunchy-roasted-chickpeas-spicy-tomato'
+serving-size = '100g'
+protein = 22.5
+carbs = 60.4
+# insoluble fiber estimated from roasted-chickpea
+fiber = [ 20.9, 0.95 ]
+fat = 10.9
+source = 'auckland product label'
+
+# the happy snack co - crunchy roasted fav-va beans - lightly salted
+[[food]]
+name = 'the-happy-snack-co-crunchy-roasted-fava-beans-salted'
+serving-size = '100g'
+protein = 27
+carbs = 51.4
+# insoluble fiber estimated from roasted-fava-bean
+fiber = [ 15.0, 0.95 ]
+fat = 15.7
+source = 'auckland product label'
+
+# --- end branded }}}
 # --- chocolate {{{
 
 # chocolate tree - belize black pure cacao [1]
@@ -3718,82 +3834,14 @@ protein = 0
 carbs = 0
 fat = 0
 
-# ceres organics - organic quinoa puffs
+# matakana superfoods - organic hemp protein powder [42]
 [[food]]
-name = 'ceres-organics-quinoa-puffs'
-serving-size = '100g'
-protein = 14.3
-carbs = 80.9
-fiber = 7.1
-fat = 6.7
-source = 'auckland product label'
-
-# ceres organics - organic seaweed - original snack
-[[food]]
-name = 'ceres-organics-seaweed-original-snack'
-serving-size = '100g'
-protein = 20
-carbs = 26
-fiber = 24
-fat = 47
-source = 'auckland product label'
-
-# ceres organics - organic seaweed - sea salt and vinegar
-[[food]]
-name = 'ceres-organics-seaweed-salt-vinegar'
-serving-size = '100g'
-protein = 20
-carbs = 26.7
-fiber = 20
-fat = 47
-source = 'auckland product label'
-
-# matakana superfoods - organic acai berry powder
-[[food]]
-name = 'matakana-superfoods-acai-berry-powder'
-serving-size = '100g'
-protein = 7.7
-carbs = 98.9
-fiber = 31.3
-fat = 14.9
-source = 'https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g'
-
-# matakana superfoods - organic hemp protein powder
-[[food]]
-name = 'matakana-superfoods-hemp-protein-powder'
+name = 'hemp-protein-powder'
 serving-size = '100g'
 protein = 50
 carbs = 36
 fiber = 16
 fat = 15
-source = 'https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g'
-
-# nibblish - gently baked banana
-[[food]]
-name = 'nibblish-gently-baked-banana'
-serving-size = '100g'
-protein = 3.4
-carbs = 49.2
-fiber = 6
-fat = 0.6
-
-# nibblish - gently baked pineapple
-[[food]]
-name = 'nibblish-gently-baked-pineapple'
-serving-size = '100g'
-protein = 2
-carbs = 77.3
-fiber = 8
-fat = 0.6
-
-# nibblish - gently baked mango
-[[food]]
-name = 'nibblish-gently-baked-mango'
-serving-size = '100g'
-protein = 2.9
-carbs = 77.2
-fiber = 9
-fat = 0.3
 
 # justpea - pea protein powder [27]
 [[food]]
@@ -3812,15 +3860,6 @@ protein = 0
 carbs = 1
 fat = 4
 
-# spiral foods - organic natural vegan oven baked mung bean chips
-[[food]]
-name = 'spiral-foods-baked-mung-bean-chips'
-serving-size = '100g'
-protein = 27.2
-carbs = 63.5
-fiber = 13.1
-fat = 0.5
-
 # trim healthy mama - simply sunflower lecithin [28]
 [[food]]
 name = 'sunflower-lecithin'
@@ -3828,39 +3867,6 @@ serving-size = '1 tbsp (15g)'
 protein = 0
 carbs = 1
 fat = 14
-
-# the happy snack co - crunchy roasted chickpeas - lightly salted
-[[food]]
-name = 'the-happy-snack-co-crunchy-roasted-chickpeas-salted'
-serving-size = '100g'
-protein = 22.5
-carbs = 60.4
-# insoluble fiber estimated from roasted-chickpea
-fiber = [ 20.9, 0.95 ]
-fat = 13
-source = 'auckland product label'
-
-# the happy snack co - crunchy roasted chickpeas - spicy tomato & chilli
-[[food]]
-name = 'the-happy-snack-co-crunchy-roasted-chickpeas-spicy-tomato'
-serving-size = '100g'
-protein = 22.5
-carbs = 60.4
-# insoluble fiber estimated from roasted-chickpea
-fiber = [ 20.9, 0.95 ]
-fat = 10.9
-source = 'auckland product label'
-
-# the happy snack co - crunchy roasted fav-va beans - lightly salted
-[[food]]
-name = 'the-happy-snack-co-crunchy-roasted-fava-beans-salted'
-serving-size = '100g'
-protein = 27
-carbs = 51.4
-# insoluble fiber estimated from roasted-fava-bean
-fiber = [ 15.0, 0.95 ]
-fat = 15.7
-source = 'auckland product label'
 
 # --- end supplement }}}
 # --- sweetener {{{
@@ -4874,6 +4880,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [39]: https://www.uncleharrys.com/western-washington-bee-pollen-8-oz
 # [40]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/483267/nutrients
 # [41]: https://www.myoleanfitness.com/do-bcaas-have-calories/
+# [42]: https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g
 
 # end cite }}}
 # ==============================================================================
