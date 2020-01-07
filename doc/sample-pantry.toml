@@ -3687,6 +3687,19 @@ source = 'https://www.mygerbs.com/shop/light-salt-pumpkin-seed-butter/'
 # --- end spread }}}
 # --- supplement {{{
 
+# bcaa powder with typical 2:1:1 ratio of leucine:isoleucine:valine [41]
+# ideally fermented vegan bcaa
+[[food]]
+name = 'bcaa-powder'
+serving-size = '5g'
+# leucine: 4.65 calories per gram
+# isoleucine: 4.65 calories per gram
+# valine: 4.64 calories per gram
+protein = 5.8
+carbs = 0
+fat = 0
+source = 'http://ajcn.nutrition.org/content/52/5/770.abstract'
+
 # uncle harry's - western washington bee pollen [39]
 [[food]]
 name = 'bee-pollen'
@@ -4860,6 +4873,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [38]: https://www.bonappetit.com/recipe/ras-el-hanout-2
 # [39]: https://www.uncleharrys.com/western-washington-bee-pollen-8-oz
 # [40]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/483267/nutrients
+# [41]: https://www.myoleanfitness.com/do-bcaas-have-calories/
 
 # end cite }}}
 # ==============================================================================
