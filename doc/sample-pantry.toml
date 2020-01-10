@@ -1134,6 +1134,16 @@ fiber = [ 1.3, 0.54 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# nectarines, raw
+[[food]]
+name = 'nectarine'
+serving-size = '100g'
+protein = 0.7
+carbs = 10.7
+fiber = [ 1.7, 0.59 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 [[food]]
 name = 'new-zealand-gooseberry'
 serving-size = '100g'
