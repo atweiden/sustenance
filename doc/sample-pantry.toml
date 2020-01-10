@@ -63,16 +63,6 @@ fiber = 6
 fat = 0.6
 source = 'auckland product label'
 
-# nibblish - gently baked pineapple
-[[food]]
-name = 'nibblish-gently-baked-pineapple'
-serving-size = '100g'
-protein = 2
-carbs = 77.3
-fiber = 8
-fat = 0.6
-source = 'auckland product label'
-
 # nibblish - gently baked mango
 [[food]]
 name = 'nibblish-gently-baked-mango'
@@ -83,16 +73,15 @@ fiber = 9
 fat = 0.3
 source = 'auckland product label'
 
-# woolworths - four seasons coleslaw - white cabbage, red cabbage,
-# carrot, celery, spring onion & corn
+# nibblish - gently baked pineapple
 [[food]]
-name = 'woolworths-four-seasons-coleslaw'
+name = 'nibblish-gently-baked-pineapple'
 serving-size = '100g'
-protein = 1.2
-carbs = 5.7
-fiber = 2.9
-fat = 0.1
-source = 'perth product label'
+protein = 2
+carbs = 77.3
+fiber = 8
+fat = 0.6
+source = 'auckland product label'
 
 # spiral foods - organic natural vegan oven baked mung bean chips
 [[food]]
@@ -126,7 +115,7 @@ fiber = [ 20.9, 0.95 ]
 fat = 10.9
 source = 'auckland product label'
 
-# the happy snack co - crunchy roasted fav-va beans - lightly salted
+# the happy snack co - crunchy roasted fava beans - lightly salted
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-fava-beans-salted'
 serving-size = '100g'
@@ -136,6 +125,17 @@ carbs = 51.4
 fiber = [ 15.0, 0.95 ]
 fat = 15.7
 source = 'auckland product label'
+
+# woolworths - four seasons coleslaw - white cabbage, red cabbage,
+# carrot, celery, spring onion & corn
+[[food]]
+name = 'woolworths-four-seasons-coleslaw'
+serving-size = '100g'
+protein = 1.2
+carbs = 5.7
+fiber = 2.9
+fat = 0.1
+source = 'perth product label'
 
 # --- end branded }}}
 # --- chocolate {{{
@@ -387,11 +387,7 @@ source = 'https://www.mygerbs.com/shop/chia-seed-meal/'
 
 [[food]]
 name = 'chickpea-flour'
-aka = [
-  'chana',
-  'chick-pea-flour',
-  'garbanzo-flour'
-]
+aka = 'chana'
 serving-size = '100g'
 protein = 22.4
 carbs = 57.8
