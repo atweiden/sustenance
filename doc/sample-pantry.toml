@@ -33,6 +33,16 @@ fiber = 20
 fat = 47
 source = 'auckland product label'
 
+# gimme organic - premium roasted seaweed - sea salt
+[[food]]
+name = 'gimme-organic-premium-roasted-seaweed-sea-salt'
+serving-size = '100g'
+protein = 1
+carbs = 1
+fiber = 1
+fat = 2
+source = 'perth product label'
+
 # matakana superfoods - organic acai berry powder
 [[food]]
 name = 'matakana-superfoods-acai-berry-powder'
