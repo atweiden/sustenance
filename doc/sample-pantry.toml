@@ -1131,6 +1131,21 @@ fiber = 1.5
 fat = 0.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174687/nutrients'
 
+# horned melon (kiwano)
+[[food]]
+name = 'kiwano'
+aka = [
+  'horned-melon',
+  'spiked-melon'
+]
+serving-size = '100g'
+protein = 1.8
+carbs = 7.6
+# fiber estimated from open food facts [43]
+fiber = 1
+fat = 1.3
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/167791/nutrients'
+
 # kumquats, whole, raw
 [[food]]
 name = 'kumquat'
@@ -4929,6 +4944,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [40]: https://fdc.nal.usda.gov/fdc-app.html#/food-details/483267/nutrients
 # [41]: https://www.myoleanfitness.com/do-bcaas-have-calories/
 # [42]: https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g
+# [43]: https://world.openfoodfacts.org/product/5400112366103/kiwano-delhaize
 
 # end cite }}}
 # ==============================================================================
