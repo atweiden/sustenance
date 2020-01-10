@@ -37,10 +37,10 @@ source = 'auckland product label'
 [[food]]
 name = 'gimme-organic-premium-roasted-seaweed-sea-salt'
 serving-size = '100g'
-protein = 1
-carbs = 1
-fiber = 1
-fat = 2
+protein = 20
+carbs = 20
+fiber = 20
+fat = 40
 source = 'perth product label'
 
 # matakana superfoods - organic acai berry powder
