@@ -1014,6 +1014,17 @@ fiber = [ 1.1, 0.82 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# feijoa, flesh, raw
+[[food]]
+name = 'feijoa'
+aka = 'pineapple-guava'
+serving-size = '100g'
+protein = 0.6
+carbs = 11
+fiber = 3
+fat = 0.4
+source = 'https://www.foodcomposition.co.nz/foodfiles/concise-tables/'
+
 # figs, raw
 [[food]]
 name = 'fig'
