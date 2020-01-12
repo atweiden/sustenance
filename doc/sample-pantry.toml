@@ -3,6 +3,26 @@
 
 # --- branded {{{
 
+# abundant earth by healtheries - puffed corn
+[[food]]
+name = 'abundant-earth-puffed-corn'
+serving-size = '100g'
+protein = 11.6
+carbs = 78.1
+fiber = 13.6
+fat = 4.6
+source = 'perth product label'
+
+# abundant earth by healtheries - puffed rice
+[[food]]
+name = 'abundant-earth-puffed-rice'
+serving-size = '100g'
+protein = 8.3
+carbs = 84.1
+fiber = 3.8
+fat = 1.4
+source = 'perth product label'
+
 # ceres organics - organic quinoa puffs
 [[food]]
 name = 'ceres-organics-quinoa-puffs'
