@@ -1,10 +1,34 @@
 # todo
 
+## core
+
+- implement `Pantry.gen-macros`
+  - because
+    - generating macros requires parsing the pantry
+      - it makes sense to scope the `gen-macros` method to `Pantry`
+    - it would facilitate untyped on-the-fly caloric estimation
+      - e.g.
+        - | my Pantry $pantry .= new(:$file);
+          | $pantry.gen-macros(:food<chickpea>, :servings(1));
+          | $pantry.gen-macros(%(:food<chickpea>, :servings(1)));
+          | $pantry.gen-macros(%(:food<chickpea>, :servings(1)),
+          |                    %(:food<avocado>, :servings(1)));
+          | $pantry.gen-macros('chickpea:1');
+          | $pantry.gen-macros('chickpea', 1);
+    - it would clean up `lib/Sustenance.pm6`
+- implement separation between pantry and meal log
+  - e.g.
+    - put sample-pantry.toml into resources directory
+    - install sample-pantry.toml as `~/.config/sustenance/pantry.toml`
+      at runtime
+      - see also
+        - how https://github.com/atweiden/tantum does it
+
 ## testing
 
 - add travis-ci
 
-## pantry
+## sample pantry
 
 - implement missing soluble/insoluble fiber data
   - flour
