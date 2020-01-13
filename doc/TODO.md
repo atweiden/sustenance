@@ -8,13 +8,15 @@
       - it makes sense to scope the `gen-macros` method to `Pantry`
     - it would facilitate untyped on-the-fly caloric estimation
       - e.g.
-        - | my Pantry $pantry .= new(:$file);
-          | $pantry.gen-macros(:food<chickpea>, :servings(1));
-          | $pantry.gen-macros(%(:food<chickpea>, :servings(1)));
-          | $pantry.gen-macros(%(:food<chickpea>, :servings(1)),
-          |                    %(:food<avocado>, :servings(1)));
-          | $pantry.gen-macros('chickpea:1');
-          | $pantry.gen-macros('chickpea', 1);
+        ```perl6
+        my Pantry $pantry .= new(:$file);
+        $pantry.gen-macros(:food<chickpea>, :servings(1));
+        $pantry.gen-macros(%(:food<chickpea>, :servings(1)));
+        $pantry.gen-macros(%(:food<chickpea>, :servings(1)),
+                           %(:food<avocado>, :servings(1)));
+        $pantry.gen-macros('chickpea:1');
+        $pantry.gen-macros('chickpea', 1);
+        ```
     - it would clean up `lib/Sustenance.pm6`
 - implement separation between pantry and meal log
   - e.g.
