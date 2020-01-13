@@ -118,13 +118,16 @@
 
 ```perl6
 # calculate average macros
-$sustenance.gen-average-macros;
+$sustenance.gen-report(:macros);
 
-# cross-reference food sources for calories/protein/carbs/fat
-$sustenance.gen-report;
+# include cross-referenced food sources in average macros output
+$sustenance.gen-report(:macros, :with-food);
 
 # calculate dollars per calorie
 $sustenance.gen-report(:budget);
+
+# calculate environmental impact of diet
+$sustenance.gen-report(:sustainability);
 ```
 
 - track
