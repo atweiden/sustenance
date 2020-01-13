@@ -2157,11 +2157,12 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/31233'
 
 # chickpeas, mature seeds, whole, boiled
 [[food]]
-name = 'garbanzo-bean'
+name = 'chickpea'
 aka = [
-  'chickpea',
   # india
   'chole',
+  # españa
+  'garbanzo-bean',
   # india
   'kabuli-chana',
   'white-chickpea'
@@ -3885,7 +3886,7 @@ source = 'auckland product label'
 
 # cashew butter
 # hazelnut butter
-# hummus aka chickpea/garbanzo spread
+# hummus aka chickpea spread
 # macadamia nut butter
 # peanut butter
 # pecan butter
