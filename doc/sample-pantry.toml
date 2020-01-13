@@ -124,7 +124,7 @@ fiber = [ 20.9, 0.95 ]
 fat = 13
 source = 'auckland product label'
 
-# the happy snack co - crunchy roasted chickpeas - spicy tomato & chilli
+# the happy snack co - crunchy roasted chickpeas - spicy tomato & chili
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-chickpeas-spicy-tomato'
 serving-size = '100g'
@@ -134,6 +134,17 @@ carbs = 60.4
 fiber = [ 20.9, 0.95 ]
 fat = 10.9
 source = 'auckland product label'
+
+# the happy snack co - crunchy roasted fava beans - red pepper & chili
+[[food]]
+name = 'the-happy-snack-co-crunchy-roasted-fava-beans-red-pepper'
+serving-size = '100g'
+protein = 27
+carbs = 51.4
+# insoluble fiber estimated from roasted-fava-bean
+fiber = [ 15.0, 0.95 ]
+fat = 18.1
+source = 'perth product label'
 
 # the happy snack co - crunchy roasted fava beans - lightly salted
 [[food]]
