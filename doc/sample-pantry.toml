@@ -545,11 +545,8 @@ fat = 3.7
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396835/nutrients'
 
 [[food]]
-name = 'tiger-nut-flour'
-aka = [
-  'chufa-molida',
-  'tigernut-flour'
-]
+name = 'tigernut-flour'
+aka = 'chufa-molida'
 serving-size = '100g'
 protein = 6.7
 carbs = 63.3
@@ -2859,11 +2856,8 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 # ceres organics - organic tiger nuts
 [[food]]
-name = 'tiger-nut'
-aka = [
-  'chufa',
-  'tigernut'
-]
+name = 'tigernut'
+aka = 'chufa'
 serving-size = '100g'
 protein = 4.6
 carbs = 63.6
@@ -4290,7 +4284,7 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 # sunflower seed milk
 # sweet potato milk
-# tiger nut milk
+# tigernut milk
 # walnut milk
 
 # --- --- end milk-alternative }}}
