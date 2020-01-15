@@ -2,6 +2,7 @@ use v6;
 use Sustenance::Parser;
 use Sustenance::Parser::ParseTree;
 use Sustenance::Types;
+use Sustenance::Utils;
 use X::Sustenance;
 unit class Sustenance;
 
@@ -61,10 +62,10 @@ multi method gen-macros(
 )
 {
     my Range:D $date-range = $d1 .. $d2;
-    my Hash:D @meal =
+    my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
-            .grep({ .<date> ~~ $date-range });
-    my %macros = gen-macros(:@meal);
+            .grep({ .date ~~ $date-range });
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi method gen-macros(
@@ -77,11 +78,11 @@ multi method gen-macros(
 )
 {
     my Range:D $date-range = $d1 .. $d2;
-    my Hash:D @meal =
+    my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
-            .grep({ .<date> ~~ $date-range })
-            .grep({ in-time-range(.<time>, $t1, $t2) });
-    my %macros = gen-macros(:@meal);
+            .grep({ .date ~~ $date-range })
+            .grep({ in-time-range(.time, $t1, $t2) });
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi method gen-macros(
@@ -104,10 +105,10 @@ multi method gen-macros(
     my DateTime $dt1 .= new(|%date, |$t1.hash);
     my DateTime $dt2 .= new(|%date, |$t2.hash);
     my Range:D $date-time-range = $dt1 .. $dt2;
-    my Hash:D @meal =
+    my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
-            .grep({ .<date-time> ~~ $date-time-range });
-    my %macros = gen-macros(:@meal);
+            .grep({ .date-time ~~ $date-time-range });
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi method gen-macros(
@@ -117,11 +118,11 @@ multi method gen-macros(
     --> Hash:D
 )
 {
-    my Hash:D @meal =
+    my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
-            .grep({ .<date> eqv $date })
-            .grep({ .<time> eqv $time });
-    my %macros = gen-macros(:@meal);
+            .grep({ .date eqv $date })
+            .grep({ .time eqv $time });
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi method gen-macros(
@@ -130,10 +131,10 @@ multi method gen-macros(
     --> Hash:D
 )
 {
-    my Hash:D @meal =
+    my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
-            .grep({ .<date> eqv $date });
-    my %macros = gen-macros(:@meal);
+            .grep({ .date eqv $date });
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 # generate macros for the current date by default
@@ -142,167 +143,112 @@ multi method gen-macros(
     --> Hash:D
 )
 {
-    my Hash:D @meal =
+    my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
-            .grep({ .<date> eqv DateTime.now.Date });
-    my %macros = gen-macros(:@meal);
+            .grep({ .date eqv DateTime.now.Date });
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
-multi sub gen-macros(Pantry:D $pantry, Meal:D @m --> Array[Hash:D])
+multi sub gen-macros(Pantry:D $pantry, Meal:D @meal --> Array[Mealʹ:D])
 {
-    my Hash:D @meal =
-        @m.map(-> Meal:D $meal {
+    my Mealʹ:D @meal =
+        @meal.map(-> Meal:D $meal {
             my Date:D $date = $meal.date;
             my Time:D $time = $meal.time;
             my DateTime:D $date-time = $meal.date-time;
-            my Portion:D @p = $meal.portion;
-            my Hash:D @portion = gen-macros(@p, $pantry);
-            my %meal =
+            my Portion:D @portion = $meal.portion;
+            my Portionʹ:D @portionʹ = gen-macros($pantry, @portion);
+            my Mealʹ $mealʹ .= new(
                 :$date,
                 :$time,
                 :$date-time,
-                :@portion;
+                :@portionʹ
+            );
         });
 }
 
-multi sub gen-macros(Portion:D @p, Pantry:D $pantry --> Array[Hash:D])
+multi sub gen-macros(Pantry:D $pantry, Portion:D @portion --> Array[Portionʹ:D])
 {
-    my Hash:D @portion =
-        @p.map(-> Portion:D $portion {
+    my Portionʹ:D @portionʹ =
+        @portion.map(-> Portion:D $portion {
             my FoodName:D $name = $portion.food;
             my Serving:D $servings = $portion.servings;
             my Food:D $food =
                 $pantry.food.first({ .name eq $name })
                     // die(X::Sustenance::FoodMissing.new(:$name));
-            my Kilocalorie:D $calories =
-                $food.calories * $servings;
-            my Gram:D $protein =
-                $food.protein * $servings;
-            my Gram:D $carbohydrates-total =
-                $food.carbohydrates.total * $servings;
-            my Gram:D $carbohydrates-net =
-                $food.carbohydrates.net * $servings;
-            my Gram:D $fiber-total =
-                $food.carbohydrates.fiber.total * $servings;
-            my Gram:D $fiber-soluble =
-                $food.carbohydrates.fiber.soluble * $servings;
-            my Gram:D $fiber-insoluble =
-                $food.carbohydrates.fiber.insoluble * $servings;
-            my Gram:D $fat =
-                $food.fat * $servings;
-            my Gram:D $alcohol =
-                $food.alcohol * $servings;
-            my %carbohydrates =
-                :total($carbohydrates-total),
-                :net($carbohydrates-net);
-            my %fiber =
-                :total($fiber-total),
-                :soluble($fiber-soluble),
-                :insoluble($fiber-insoluble);
-            my %macros =
-                :$calories,
-                :$protein,
-                :%carbohydrates,
-                :%fiber,
-                :$fat,
-                :$alcohol;
-            my %portion =
-                :food($name),
-                :$servings,
-                :%macros;
+            my Portionʹ:D $portionʹ =
+                Sustenance::Utils.multiply($food, $servings);
         });
 }
 
-multi sub gen-macros(Hash:D :@meal! --> Hash:D)
+multi sub gen-macros(Mealʹ:D :@mealʹ! --> TotalMacros:D)
 {
-    my Hash:D @macros =
-        @meal.map(-> %meal {
-            my Hash:D @portion = %meal<portion>.Array;
-            my %totals = gen-macros(:@portion);
-            my %macros =
-                :%meal,
-                :%totals;
+    my Mealʹʹ:D @mealʹʹ =
+        @mealʹ.map(-> $mealʹ {
+            my Date:D $date = $mealʹ.date;
+            my Time:D $time = $mealʹ.time;
+            my DateTime:D $date-time = $mealʹ.date-time;
+            my Portionʹ:D @portionʹ = $mealʹ.portion;
+            my Macros:D $macros = gen-macros(:@portionʹ);
+            my Mealʹʹ:D $mealʹʹ =
+                :$date,
+                :$time,
+                :$date-time,
+                :@portionʹ,
+                :$macros;
         });
-    my %totals = gen-macros(:@macros);
-    my %macros =
-        :@macros,
-        :%totals;
+    my Macros:D $macros = gen-macros(:@mealʹʹ);
+    my TotalMacros $total-macros .= new(
+        :@mealʹʹ,
+        :$macros
+    );
 }
 
-multi sub gen-macros(Hash:D :@portion! --> Hash:D)
+multi sub gen-macros(Portionʹ:D :@portionʹ! --> Macros:D)
 {
-    my (Kilocalorie:D $calories,
-        Gram:D $protein,
+    my Macros:D $macros = gen-macros-summed(@portionʹ);
+}
+
+multi sub gen-macros(Mealʹʹ:D :@mealʹʹ! --> Macros:D)
+{
+    my Macros:D $macros = gen-macros-summed(@mealʹʹ);
+}
+
+# accepts array of C<Macros>-containing raku containers
+# sums C<Macros> therein
+# instantiates new C<Macros> instance from summed C<Macros>
+sub gen-macros-summed(@source --> Macros:D)
+{
+    my (Gram:D $protein,
         Gram:D $carbohydrates-total,
-        Gram:D $carbohydrates-net,
         Gram:D $fiber-total,
-        Gram:D $fiber-soluble,
         Gram:D $fiber-insoluble,
         Gram:D $fat,
         Gram:D $alcohol) = 0.0;
-    @portion.map(-> %portion {
-        $calories += %portion<macros><calories>;
-        $protein += %portion<macros><protein>;
-        $carbohydrates-total += %portion<macros><carbohydrates><total>;
-        $carbohydrates-net += %portion<macros><carbohydrates><net>;
-        $fiber-total += %portion<macros><fiber><total>;
-        $fiber-soluble += %portion<macros><fiber><soluble>;
-        $fiber-insoluble += %portion<macros><fiber><insoluble>;
-        $fat += %portion<macros><fat>;
-        $alcohol += %portion<macros><alcohol>;
+    @source.map(-> $source {
+        $protein += $source.macros.protein;
+        $carbohydrates-total += $source.macros.carbohydrates.total;
+        $fiber-total += $source.macros.fiber.total;
+        $fiber-insoluble += $source.macros.fiber.insoluble;
+        $fat += $source.macros.fat;
+        $alcohol += $source.macros.alcohol;
     });
-    my %carbohydrates =
+    my Fiber:D $fiber = do {
+        # could also take weighted average of C<.percent-insoluble>
+        # but this seems simpler
+        my Fraction:D $percent-insoluble = $fiber-insoluble / $fiber-total;
+        Fiber.new(:total($fiber-total), :$percent-insoluble);
+    };
+    my Carbohydrates $carbohydrates .= new(
         :total($carbohydrates-total),
-        :net($carbohydrates-net);
-    my %fiber =
-        :total($fiber-total),
-        :soluble($fiber-soluble),
-        :insoluble($fiber-insoluble);
-    my %macros =
-        :$calories,
+        :$fiber
+    );
+    my Macros $macros .= new(
         :$protein,
-        :%carbohydrates,
-        :%fiber,
+        :$carbohydrates,
         :$fat,
-        :$alcohol;
-}
-
-multi sub gen-macros(Hash:D :@macros! --> Hash:D)
-{
-    my (Kilocalorie:D $calories,
-        Gram:D $protein,
-        Gram:D $carbohydrates-total,
-        Gram:D $carbohydrates-net,
-        Gram:D $fiber-total,
-        Gram:D $fiber-soluble,
-        Gram:D $fiber-insoluble,
-        Gram:D $fat,
-        Gram:D $alcohol) = 0.0;
-    @macros.map(-> %macros {
-        $calories += %macros<totals><calories>;
-        $protein += %macros<totals><protein>;
-        $carbohydrates-total += %macros<totals><carbohydrates><total>;
-        $carbohydrates-net += %macros<totals><carbohydrates><net>;
-        $fiber-total += %macros<totals><fiber><total>;
-        $fiber-soluble += %macros<totals><fiber><soluble>;
-        $fiber-insoluble += %macros<totals><fiber><insoluble>;
-        $fat += %macros<totals><fat>;
-        $alcohol += %macros<totals><alcohol>;
-    });
-    my %carbohydrates =
-        :total($carbohydrates-total),
-        :net($carbohydrates-net);
-    my %fiber =
-        :total($fiber-total),
-        :soluble($fiber-soluble),
-        :insoluble($fiber-insoluble);
-    my %macros =
-        :$calories,
-        :$protein,
-        :%carbohydrates,
-        :%fiber,
-        :$fat,
-        :$alcohol;
+        :$alcohol
+    );
 }
 
 # end method gen-macros }}}

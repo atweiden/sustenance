@@ -122,22 +122,31 @@ class Carbohydrates
 }
 
 # end class Carbohydrates }}}
-# class Food {{{
+# role Macros {{{
 
-class Food
+role Macros
 {
-    has FoodName:D $.name is required;
-    has ServingSize:D $.serving-size is required;
     has Gram:D $.protein is required;
     has Carbohydrates:D $.carbohydrates is required;
     has Gram:D $.fat is required;
     has Gram:D $.alcohol = 0.0;
 
-    # this food is also known as these names
-    has FoodName @.aka;
-    # source of data
-    has DataSource $.source;
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my %carbohydrates = $.carbohydrates.hash;
+        my %hash =
+            :$.protein,
+            :%carbohydrates,
+            :$.fat,
+            :$.alcohol;
+    }
 
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
+    }
+
+    # atwater system
     # 1 gram of protein is 4 kcal
     constant $KCAL-PER-G-PROTEIN = 4;
     # 1 gram of carbohydrates is 4 kcal
@@ -150,6 +159,48 @@ class Food
     constant $KCAL-PER-G-FAT = 9;
     # 1 gram of alcohol is 7 kcal
     constant $KCAL-PER-G-ALCOHOL = 7;
+    method calories(::?CLASS:D: --> Kilocalorie:D)
+    {
+        my Kilocalorie:D $calories-from-protein =
+            $.protein * $KCAL-PER-G-PROTEIN;
+        my Kilocalorie:D $calories-from-carbohydrates =
+            $.carbohydrates.net * $KCAL-PER-G-CARBOHYDRATES;
+        my Kilocalorie:D $calories-from-fiber-soluble =
+            $.carbohydrates.fiber.soluble * $KCAL-PER-G-FIBER-SOLUBLE;
+        my Kilocalorie:D $calories-from-fiber-insoluble =
+            $.carbohydrates.fiber.insoluble * $KCAL-PER-G-FIBER-INSOLUBLE;
+        my Kilocalorie:D $calories-from-fat =
+            $.fat * $KCAL-PER-G-FAT;
+        my Kilocalorie:D $calories-from-alcohol =
+            $.alcohol * $KCAL-PER-G-ALCOHOL;
+        my Kilocalorie:D $calories =
+            [+] $calories-from-protein,
+                $calories-from-carbohydrates,
+                $calories-from-fiber-soluble,
+                $calories-from-fiber-insoluble,
+                $calories-from-fat,
+                $calories-from-alcohol;
+    }
+}
+
+# end role Macros }}}
+# class Food {{{
+
+class Food
+{
+    also does Macros;
+
+    # name of this food
+    has FoodName:D $.name is required;
+
+    # serving size from which macros are derived
+    has ServingSize:D $.serving-size is required;
+
+    # this food is also known as these names
+    has FoodName @.aka;
+
+    # source of data
+    has DataSource $.source;
 
     submethod BUILD(
         Str:D :$!name!,
@@ -217,29 +268,6 @@ class Food
     {
         my Str:D $perl = %.hash.perl;
     }
-
-    method calories(::?CLASS:D: --> Kilocalorie:D)
-    {
-        my Kilocalorie:D $calories-from-protein =
-            $.protein * $KCAL-PER-G-PROTEIN;
-        my Kilocalorie:D $calories-from-carbohydrates =
-            $.carbohydrates.net * $KCAL-PER-G-CARBOHYDRATES;
-        my Kilocalorie:D $calories-from-fiber-soluble =
-            $.carbohydrates.fiber.soluble * $KCAL-PER-G-FIBER-SOLUBLE;
-        my Kilocalorie:D $calories-from-fiber-insoluble =
-            $.carbohydrates.fiber.insoluble * $KCAL-PER-G-FIBER-INSOLUBLE;
-        my Kilocalorie:D $calories-from-fat =
-            $.fat * $KCAL-PER-G-FAT;
-        my Kilocalorie:D $calories-from-alcohol =
-            $.alcohol * $KCAL-PER-G-ALCOHOL;
-        my Kilocalorie:D $calories =
-            [+] $calories-from-protein,
-                $calories-from-carbohydrates,
-                $calories-from-fiber-soluble,
-                $calories-from-fiber-insoluble,
-                $calories-from-fat,
-                $calories-from-alcohol;
-    }
 }
 
 # end class Food }}}
@@ -303,6 +331,26 @@ class Portion
 }
 
 # end class Portion }}}
+# class Portionʹ {{{
+
+class Portionʹ
+{
+    also is Portion;
+
+    # this food, at this serving size, yields these macros
+    has Macros:D $.macros is required;
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my %macros = $.macros.hash;
+        my %hash =
+            :$.food,
+            :$.servings,
+            :%macros;
+    }
+}
+
+# end class Portionʹ }}}
 # class Meal {{{
 
 class Meal
@@ -374,5 +422,81 @@ class Meal
 }
 
 # end class Meal }}}
+# class Mealʹ {{{
+
+# same as C<Meal>, but with C<Portionʹ>s instead of C<Portion>s
+class Mealʹ
+{
+    has Date:D $.date is required;
+    has Time:D $.time is required;
+    has DateTime:D $.date-time is required;
+    has Portionʹ:D @.portionʹ is required;
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my %date = Sustenance::Utils.hash($.date);
+        my %time = $.time.hash;
+        my %date-time = Sustenance::Utils.hash($.date-time);
+        my Hash:D @portionʹ = @.portionʹ.map({ .hash });
+        my %hash =
+            :%date,
+            :%time,
+            :%date-time,
+            :@portionʹ;
+    }
+
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
+    }
+}
+
+# end class Mealʹ }}}
+# class Mealʹʹ {{{
+
+class Mealʹʹ
+{
+    also is Mealʹ;
+
+    # the C<Portionʹ>s in this C<Mealʹ> add up to these macros
+    has Macros:D $.macros is required;
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my %date = Sustenance::Utils.hash($.date);
+        my %time = $.time.hash;
+        my %date-time = Sustenance::Utils.hash($.date-time);
+        my Hash:D @portionʹ = @.portionʹ.map({ .hash });
+        my Hash:D $macros = $.macros.hash;
+        my %hash =
+            :%date,
+            :%time,
+            :%date-time,
+            :@portionʹ,
+            :$macros;
+    }
+}
+
+# end class Mealʹʹ }}}
+# class TotalMacros {{{
+
+class TotalMacros
+{
+    has Mealʹʹ:D @.mealʹʹ is required;
+
+    # the macros in all C<Mealʹʹ>s add up to these macros
+    has Macros:D $.macros is required;
+
+    method hash(::?CLASS:D: --> Hash:D)
+    {
+        my Hash:D @mealʹʹ = @.mealʹʹ.map({ .hash });
+        my Hash:D $macros = $.macros.hash;
+        my %hash =
+            :@mealʹʹ,
+            :$macros;
+    }
+}
+
+# end class TotalMacros }}}
 
 # vim: set filetype=raku foldmethod=marker foldlevel=0 nowrap:
