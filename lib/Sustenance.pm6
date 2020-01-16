@@ -65,7 +65,7 @@ multi method gen-macros(
     my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
             .grep({ .date ~~ $date-range });
-    my TotalMacros:D $macros = gen-total-macros(:@mealʹ);
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi method gen-macros(
@@ -82,7 +82,7 @@ multi method gen-macros(
         gen-macros($.pantry, @.meal)
             .grep({ .date ~~ $date-range })
             .grep({ in-time-range(.time, $t1, $t2) });
-    my TotalMacros:D $macros = gen-total-macros(:@mealʹ);
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi method gen-macros(
@@ -108,7 +108,7 @@ multi method gen-macros(
     my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
             .grep({ .date-time ~~ $date-time-range });
-    my TotalMacros:D $macros = gen-total-macros(:@mealʹ);
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi method gen-macros(
@@ -122,7 +122,7 @@ multi method gen-macros(
         gen-macros($.pantry, @.meal)
             .grep({ .date eqv $date })
             .grep({ .time eqv $time });
-    my TotalMacros:D $macros = gen-total-macros(:@mealʹ);
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi method gen-macros(
@@ -134,7 +134,7 @@ multi method gen-macros(
     my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
             .grep({ .date eqv $date });
-    my TotalMacros:D $macros = gen-total-macros(:@mealʹ);
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 # generate macros for the current date by default
@@ -146,7 +146,7 @@ multi method gen-macros(
     my Mealʹ:D @mealʹ =
         gen-macros($.pantry, @.meal)
             .grep({ .date eqv DateTime.now.Date });
-    my TotalMacros:D $macros = gen-total-macros(:@mealʹ);
+    my TotalMacros:D $macros = gen-macros(:@mealʹ);
 }
 
 multi sub gen-macros(Pantry:D $pantry, Meal:D @meal --> Array[Mealʹ:D])
@@ -180,7 +180,7 @@ multi sub gen-macros(Pantry:D $pantry, Portion:D @portion --> Array[Portionʹ:D]
         });
 }
 
-multi sub gen-macros(Mealʹ:D :@mealʹ! --> TotalMacros:D)
+multi sub gen-macros(Mealʹ:D :@mealʹ! where .so --> TotalMacros:D)
 {
     my Mealʹʹ:D @mealʹʹ =
         @mealʹ.map(-> $mealʹ {
@@ -202,6 +202,11 @@ multi sub gen-macros(Mealʹ:D :@mealʹ! --> TotalMacros:D)
         :@mealʹʹ,
         :$macros
     );
+}
+
+multi sub gen-macros(Mealʹ:D :mealʹ(@)! --> Nil)
+{
+    die(X::Sustenance::MealMissing.new);
 }
 
 multi sub gen-macros(Portionʹ:D :@portionʹ! --> Macros:D)
@@ -249,16 +254,6 @@ sub gen-macros-summed(@source --> Macros:D)
         :$fat,
         :$alcohol
     );
-}
-
-multi sub gen-total-macros(Mealʹ:D :@mealʹ! where .so --> TotalMacros:D)
-{
-    my TotalMacros:D $macros = gen-macros(:@mealʹ);
-}
-
-multi sub gen-total-macros(Mealʹ:D :mealʹ(@)! --> Nil)
-{
-    die(X::Sustenance::MealMissing.new);
 }
 
 # end method gen-macros }}}
