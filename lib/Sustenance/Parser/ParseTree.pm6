@@ -461,7 +461,7 @@ class Mealʹ
             :%date,
             :%time,
             :%date-time,
-            :@portionʹ;
+            :portion(@portionʹ);
     }
 
     method perl(::?CLASS:D: --> Str:D)
@@ -491,7 +491,7 @@ class Mealʹʹ
             :%date,
             :%time,
             :%date-time,
-            :@portionʹ,
+            :portion(@portionʹ),
             :$macros;
     }
 
@@ -502,9 +502,9 @@ class Mealʹʹ
 }
 
 # end class Mealʹʹ }}}
-# class TotalMacros {{{
+# class DietLog {{{
 
-class TotalMacros
+class DietLog
 {
     has Mealʹʹ:D @.mealʹʹ is required;
 
@@ -516,12 +516,12 @@ class TotalMacros
         my Hash:D @mealʹʹ = @.mealʹʹ.map({ .hash });
         my Hash:D $macros = $.macros.hash;
         my %hash =
-            :@mealʹʹ,
+            :meal(@mealʹʹ),
             :$macros;
     }
 }
 
-# end class TotalMacros }}}
+# end class DietLog }}}
 
 # multiply {{{
 
