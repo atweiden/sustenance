@@ -16,135 +16,6 @@ my Str:D &to-json = sub ($arg --> Str:D)
 
 # sub MAIN {{{
 
-# --- gen-diet-plan {{{
-
-multi sub MAIN(
-    'gen-diet-plan',
-    Str:D :$weight! where .so,
-    Str:D :$height! where .so,
-    Str:D :$age! where .so,
-    Str:D :$gender! where .so,
-    Str:D :$activity-level! where .so
-    --> Nil
-)
-{
-    my Sustenance::DietPlan $diet-plan .=
-        new(
-            :$weight,
-            :$height,
-            :$age,
-            :$gender,
-            :$activity-level
-        );
-    gen-diet-plan($diet-plan.hash);
-}
-
-sub gen-diet-plan(%diet-plan --> Nil)
-{
-    say(to-json(%diet-plan));
-}
-
-# --- end gen-diet-plan }}}
-# --- gen-macros {{{
-
-multi sub MAIN(
-    'gen-macros',
-    Str:D $file,
-    Str:D :$d1! where .so,
-    Str:D :$d2! where .so,
-    Str:D :$t1! where .so,
-    Str:D :$t2! where .so
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(:$file);
-    my Date $date1 .= new($d1);
-    my Date $date2 .= new($d2);
-    my Time $time1 .= new($t1);
-    my Time $time2 .= new($t2);
-    my TotalMacros:D $macros =
-        $sustenance.gen-macros($date1, $date2, $time1, $time2);
-    gen-macros($macros);
-}
-
-multi sub MAIN(
-    'gen-macros',
-    Str:D $file,
-    Str:D :date($d)! where .so,
-    Str:D :$t1! where .so,
-    Str:D :$t2! where .so
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(:$file);
-    my Date $date .= new($d);
-    my Time $time1 .= new($t1);
-    my Time $time2 .= new($t2);
-    my TotalMacros:D $macros = $sustenance.gen-macros($date, $time1, $time2);
-    gen-macros($macros);
-}
-
-multi sub MAIN(
-    'gen-macros',
-    Str:D $file,
-    Str:D :date($d)! where .so,
-    Str:D :time($t)! where .so
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(:$file);
-    my Date $date .= new($d);
-    my Time $time .= new($t);
-    my TotalMacros:D $macros = $sustenance.gen-macros($date, $time);
-    gen-macros($macros);
-}
-
-multi sub MAIN(
-    'gen-macros',
-    Str:D $file,
-    Str:D :$d1! where .so,
-    Str:D :$d2! where .so
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(:$file);
-    my Date $date1 .= new($d1);
-    my Date $date2 .= new($d2);
-    my TotalMacros:D $macros = $sustenance.gen-macros($date1, $date2);
-    gen-macros($macros);
-}
-
-multi sub MAIN(
-    'gen-macros',
-    Str:D $file,
-    Str:D :date($d)! where .so
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(:$file);
-    my Date $date .= new($d);
-    my TotalMacros:D $macros = $sustenance.gen-macros($date);
-    gen-macros($macros);
-}
-
-multi sub MAIN(
-    'gen-macros',
-    Str:D $file
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(:$file);
-    my TotalMacros:D $macros = $sustenance.gen-macros;
-    gen-macros($macros);
-}
-
-sub gen-macros($macros --> Nil)
-{
-    my %macros = $macros.hash;
-    say(to-json(%macros));
-}
-
-# --- end gen-macros }}}
 # --- help {{{
 
 multi sub MAIN(
@@ -161,39 +32,258 @@ multi sub MAIN(
 
 multi sub MAIN(
     'ls',
-    Str:D $file,
-    Bool:D :food($)! where .so
+    Bool:D :foods($)! where .so,
+    Bool:D :meals($)! where .so,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
     --> Nil
 )
 {
-    my Sustenance $sustenance .= new(:$file);
-    my Hash:D @ls = $sustenance.ls(:food);
-    ls(@ls);
+    my Sustenance $sustenance .= new(|%opts);
+    my %ls = $sustenance.ls(:foods, :meals);
+    ls(%ls);
 }
 
 multi sub MAIN(
     'ls',
-    Str:D $file,
-    Bool:D :meal($)! where .so
+    Bool:D :foods($)! where .so,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
     --> Nil
 )
 {
-    my Sustenance $sustenance .= new(:$file);
-    my Hash:D @ls = $sustenance.ls(:meal);
-    ls(@ls);
+    my Sustenance $sustenance .= new(|%opts);
+    my %ls = $sustenance.ls(:foods);
+    ls(%ls);
 }
 
-sub ls(Hash:D @ls --> Nil)
+multi sub MAIN(
+    'ls',
+    Bool:D :meals($)! where .so,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
+    --> Nil
+)
 {
-    say(to-json(@ls));
+    my Sustenance $sustenance .= new(|%opts);
+    my %ls = $sustenance.ls(:meals);
+    ls(%ls);
+}
+
+multi sub MAIN(
+    'ls',
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my %ls = $sustenance.ls;
+    ls(%ls);
+}
+
+sub ls(%ls --> Nil)
+{
+    say(to-json(%ls));
 }
 
 # --- end ls }}}
+# --- show {{{
+
+# --- --- dietlog {{{
+
+multi sub MAIN(
+    'show',
+    'dietlog',
+    Str:D :$d1! where .so,
+    Str:D :$d2! where .so,
+    Str:D :$t1! where .so,
+    Str:D :$t2! where .so,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date1 .= new($d1);
+    my Date $date2 .= new($d2);
+    my Time $time1 .= new($t1);
+    my Time $time2 .= new($t2);
+    my DietLog:D $diet-log =
+        $sustenance.show(:diet-log, $date1, $date2, $time1, $time2);
+    show($diet-log);
+}
+
+multi sub MAIN(
+    'show',
+    'dietlog',
+    Str:D $file,
+    Str:D :date($d)! where .so,
+    Str:D :$t1! where .so,
+    Str:D :$t2! where .so,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date .= new($d);
+    my Time $time1 .= new($t1);
+    my Time $time2 .= new($t2);
+    my DietLog:D $diet-log =
+        $sustenance.show(:diet-log, $date, $time1, $time2);
+    show($diet-log);
+}
+
+multi sub MAIN(
+    'show',
+    'dietlog',
+    Str:D $file,
+    Str:D :date($d)! where .so,
+    Str:D :time($t)! where .so,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date .= new($d);
+    my Time $time .= new($t);
+    my DietLog:D $diet-log =
+        $sustenance.show(:diet-log, $date, $time);
+    show($diet-log);
+}
+
+multi sub MAIN(
+    'show',
+    'dietlog',
+    Str:D $file,
+    Str:D :$d1! where .so,
+    Str:D :$d2! where .so,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date1 .= new($d1);
+    my Date $date2 .= new($d2);
+    my DietLog:D $diet-log =
+        $sustenance.show(:diet-log, $date1, $date2);
+    show($diet-log);
+}
+
+multi sub MAIN(
+    'show',
+    'dietlog',
+    Str:D $file,
+    Str:D :date($d)! where .so,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date .= new($d);
+    my DietLog:D $diet-log =
+        $sustenance.show(:diet-log, $date);
+    show($diet-log);
+}
+
+multi sub MAIN(
+    'show',
+    'dietlog',
+    Str:D $file,
+    *%opts (
+        Str :diet-log($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my DietLog:D $diet-log =
+        $sustenance.show(:diet-log);
+    show($diet-log);
+}
+
+# --- --- end dietlog }}}
+# --- --- dietplan {{{
+
+multi sub MAIN(
+    'show',
+    'dietplan',
+    Str:D :$weight! where .so,
+    Str:D :$height! where .so,
+    Str:D :$age! where .so,
+    Str:D :$gender! where .so,
+    Str:D :$activity-level! where .so
+    --> Nil
+)
+{
+    my Sustenance::DietPlan $diet-plan .= new(
+        :$weight,
+        :$height,
+        :$age,
+        :$gender,
+        :$activity-level
+    );
+    show($diet-plan);
+}
+
+# --- --- end dietplan }}}
+
+proto sub show($container --> Nil)
+{
+    my %hash = $container.hash;
+    say(to-json(%hash));
+}
+
+multi sub show(DietLog:D $diet-log --> Nil)
+{*}
+
+multi sub show(Sustenance::DietPlan:D $diet-plan --> Nil)
+{*}
+
+# --- end show }}}
 
 # end sub MAIN }}}
 # sub USAGE {{{
 
-multi sub USAGE('gen-diet-plan' --> Nil)
+multi sub USAGE('ls' --> Nil)
+{
+    constant $HELP = q:to/EOF/.trim;
+    Usage:
+      sustenance [--foods] [--meals] ls
+
+    Options:
+      --foods
+        list foods
+      --meals
+        list meals
+    EOF
+    say($HELP);
+}
+
+multi sub USAGE('show', 'dietplan' --> Nil)
 {
     constant $HELP = q:to/EOF/.trim;
     Usage:
@@ -202,7 +292,7 @@ multi sub USAGE('gen-diet-plan' --> Nil)
                  --age=<age-in-yrs>
                  --gender=<gender>
                  --activity-level=<activity-level>
-                 gen-diet-plan
+                 show dietplan
 
     Options:
       --weight=<body-weight-in-kg>
@@ -235,16 +325,16 @@ multi sub USAGE('gen-diet-plan' --> Nil)
     say($HELP);
 }
 
-multi sub USAGE('gen-macros' --> Nil)
+multi sub USAGE('show', 'dietlog' --> Nil)
 {
     constant $HELP = q:to/EOF/.trim;
     Usage:
-      sustenance gen-macros <file>
-      sustenance [--date=<date>] gen-macros <file>
-      sustenance [--date=<date> --time=<time>] gen-macros <file>
-      sustenance [--date=<date> --t1=<time> --t2=<time>] gen-macros <file>
-      sustenance [--d1=<date> --d2=<date>] gen-macros <file>
-      sustenance [--d1=<date> --d2=<date> --t1=<time> --t2=<time>] gen-macros <file>
+      sustenance [--diet-log=<path>] [--pantry=<path>] show dietlog
+      sustenance [--date=<date>] show dietlog
+      sustenance [--date=<date> --time=<time>] show dietlog
+      sustenance [--date=<date> --t1=<time> --t2=<time>] show dietlog
+      sustenance [--d1=<date> --d2=<date>] show dietlog
+      sustenance [--d1=<date> --d2=<date> --t1=<time> --t2=<time>] show dietlog
 
     Options:
       --date=<yyyy-mm-dd>
@@ -259,22 +349,6 @@ multi sub USAGE('gen-macros' --> Nil)
     say($HELP);
 }
 
-multi sub USAGE('ls' --> Nil)
-{
-    constant $HELP = q:to/EOF/.trim;
-    Usage:
-      sustenance --food ls
-      sustenance --meal ls
-
-    Options:
-      --food
-        list foods
-      --meal
-        list meals
-    EOF
-    say($HELP);
-}
-
 multi sub USAGE(--> Nil)
 {
     constant $HELP = q:to/EOF/.trim;
@@ -282,13 +356,12 @@ multi sub USAGE(--> Nil)
       sustenance [-h] <command>
 
     Commands:
-      help             show help for subcommands
-      gen-diet-plan    make diet plan
-      gen-macros       count calories
-      ls               display information
+      help        output help for subcommands
+      show        show dietlog or dietplan
+      ls          display information
 
     Options:
-      --help
+      -h, --help
         show this help message
     EOF
     say($HELP);

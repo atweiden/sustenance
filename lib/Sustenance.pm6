@@ -259,14 +259,50 @@ sub gen-macros-summed(@source --> Macros:D)
 # end method gen-macros }}}
 # method ls {{{
 
-multi method ls(::?CLASS:D: Bool:D :food($)! where .so --> Array[Hash:D])
+multi method ls(
+    ::?CLASS:D:
+    Bool:D :foods($)! where .so,
+    Bool:D :meals($)! where .so
+    --> Hash:D
+)
 {
-    my Hash:D @ls = $.pantry.food.map({ .hash });
+    my Hash:D @food = $.pantry.food.map({ .hash });
+    my Hash:D @meal = @.meal.map({ .hash });
+    my %ls =
+        :@food,
+        :@meal;
 }
 
-multi method ls(::?CLASS:D: Bool:D :meal($)! where .so --> Array[Hash:D])
+multi method ls(
+    ::?CLASS:D:
+    Bool:D :foods($)! where .so
+    --> Hash:D
+)
 {
-    my Hash:D @ls = @.meal.map({ .hash });
+    my Hash:D @food = $.pantry.food.map({ .hash });
+    my %ls = :@food;
+}
+
+multi method ls(
+    ::?CLASS:D:
+    Bool:D :meals($)! where .so
+    --> Hash:D
+)
+{
+    my Hash:D @meal = @.meal.map({ .hash });
+    my %ls = :@meal;
+}
+
+multi method ls(
+    ::?CLASS:D:
+    --> Hash:D
+)
+{
+    my Hash:D @food = $.pantry.food.map({ .hash });
+    my Hash:D @meal = @.meal.map({ .hash });
+    my %ls =
+        :@food,
+        :@meal;
 }
 
 # end method ls }}}
