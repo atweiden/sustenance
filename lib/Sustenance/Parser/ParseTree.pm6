@@ -135,6 +135,7 @@ role Macros
     {
         my %carbohydrates = $.carbohydrates.hash;
         my %hash =
+            :$.calories,
             :$.protein,
             :%carbohydrates,
             :$.fat,
@@ -146,33 +147,34 @@ role Macros
         my Str:D $perl = %.hash.perl;
     }
 
-    # atwater system
-    # 1 gram of protein is 4 kcal
-    constant $KCAL-PER-G-PROTEIN = 4;
-    # 1 gram of carbohydrates is 4 kcal
-    constant $KCAL-PER-G-CARBOHYDRATES = 4;
-    # 1 gram of soluble fiber is 2 kcal
-    constant $KCAL-PER-G-FIBER-SOLUBLE = 2;
-    # 1 gram of insoluble fiber is 0 kcal
-    constant $KCAL-PER-G-FIBER-INSOLUBLE = 0;
-    # 1 gram of fat is 9 kcal
-    constant $KCAL-PER-G-FAT = 9;
-    # 1 gram of alcohol is 7 kcal
-    constant $KCAL-PER-G-ALCOHOL = 7;
     method calories(::?CLASS:D: --> Kilocalorie:D)
     {
+        # atwater system
+        # 1 gram of protein is 4 kcal
+        my Kilocalorie:D $kcal-per-g-protein = 4.0;
+        # 1 gram of carbohydrates is 4 kcal
+        my Kilocalorie:D $kcal-per-g-carbohydrates = 4.0;
+        # 1 gram of soluble fiber is 2 kcal
+        my Kilocalorie:D $kcal-per-g-fiber-soluble = 2.0;
+        # 1 gram of insoluble fiber is 0 kcal
+        my Kilocalorie:D $kcal-per-g-fiber-insoluble = 0.0;
+        # 1 gram of fat is 9 kcal
+        my Kilocalorie:D $kcal-per-g-fat = 9.0;
+        # 1 gram of alcohol is 7 kcal
+        my Kilocalorie:D $kcal-per-g-alcohol = 7.0;
+
         my Kilocalorie:D $calories-from-protein =
-            $.protein * $KCAL-PER-G-PROTEIN;
+            $.protein * $kcal-per-g-protein;
         my Kilocalorie:D $calories-from-carbohydrates =
-            $.carbohydrates.net * $KCAL-PER-G-CARBOHYDRATES;
+            $.carbohydrates.net * $kcal-per-g-carbohydrates;
         my Kilocalorie:D $calories-from-fiber-soluble =
-            $.carbohydrates.fiber.soluble * $KCAL-PER-G-FIBER-SOLUBLE;
+            $.carbohydrates.fiber.soluble * $kcal-per-g-fiber-soluble;
         my Kilocalorie:D $calories-from-fiber-insoluble =
-            $.carbohydrates.fiber.insoluble * $KCAL-PER-G-FIBER-INSOLUBLE;
+            $.carbohydrates.fiber.insoluble * $kcal-per-g-fiber-insoluble;
         my Kilocalorie:D $calories-from-fat =
-            $.fat * $KCAL-PER-G-FAT;
+            $.fat * $kcal-per-g-fat;
         my Kilocalorie:D $calories-from-alcohol =
-            $.alcohol * $KCAL-PER-G-ALCOHOL;
+            $.alcohol * $kcal-per-g-alcohol;
         my Kilocalorie:D $calories =
             [+] $calories-from-protein,
                 $calories-from-carbohydrates,
@@ -340,6 +342,18 @@ class Portionʹ
     # this food, at this serving size, yields these macros
     has Macros:D $.macros is required;
 
+    method new(
+        *%opts (
+            FoodName:D :food($)! where .so,
+            Serving:D :servings($)! where .so,
+            Macros:D :macros($)! where .so
+        )
+        --> Portion:D
+    )
+    {
+        self.bless(|%opts);
+    }
+
     method hash(::?CLASS:D: --> Hash:D)
     {
         my %macros = $.macros.hash;
@@ -347,6 +361,11 @@ class Portionʹ
             :$.food,
             :$.servings,
             :%macros;
+    }
+
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
     }
 }
 
@@ -475,6 +494,11 @@ class Mealʹʹ
             :@portionʹ,
             :$macros;
     }
+
+    method perl(::?CLASS:D: --> Str:D)
+    {
+        my Str:D $perl = %.hash.perl;
+    }
 }
 
 # end class Mealʹʹ }}}
@@ -498,5 +522,114 @@ class TotalMacros
 }
 
 # end class TotalMacros }}}
+
+# multiply {{{
+
+# --- Fiber {{{
+
+multi sub multiply(
+    Fiber:D $fiber,
+    Numeric:D $num
+    --> Fiber:D
+)
+{
+    my Gram:D $total = $fiber.total * $num;
+    my Fraction:D $percent-insoluble = $fiber.percent-insoluble;
+    my Fiber $multiply .= new([$total, $percent-insoluble]);
+}
+
+multi sub infix:<*>(
+    Fiber:D $fiber,
+    Numeric:D $num
+    --> Fiber:D
+) is export
+{
+    my Fiber:D $multiply = multiply($fiber, $num);
+}
+
+multi sub infix:<*>(
+    Numeric:D $num,
+    Fiber:D $fiber
+    --> Fiber:D
+) is export
+{
+    my Fiber:D $multiply = multiply($fiber, $num);
+}
+
+# --- end Fiber }}}
+# --- Carbohydrates {{{
+
+multi sub multiply(
+    Carbohydrates:D $carbohydrates,
+    Numeric:D $num
+    --> Carbohydrates:D
+)
+{
+    my Gram:D $total = $carbohydrates.total * $num;
+    my Fiber:D $fiber = multiply($carbohydrates.fiber, $num);
+    my Carbohydrates $multiply .= new(:$total, :$fiber);
+}
+
+multi sub infix:<*>(
+    Carbohydrates:D $carbohydrates,
+    Numeric:D $num
+    --> Carbohydrates:D
+) is export
+{
+    my Carbohydrates:D $multiply = multiply($carbohydrates, $num);
+}
+
+multi sub infix:<*>(
+    Numeric:D $num,
+    Carbohydrates:D $carbohydrates
+    --> Carbohydrates:D
+) is export
+{
+    my Carbohydrates:D $multiply = multiply($carbohydrates, $num);
+}
+
+# --- end Carbohydrates }}}
+# --- Food {{{
+
+# yield C<Portionʹ>, because C<Food> remains constant
+multi sub multiply(
+    Food:D $food,
+    Numeric:D $num
+    --> Portionʹ:D
+)
+{
+    my FoodName:D $name = $food.name;
+    my Serving:D $servings = $num;
+    my Macros:D $macros = do {
+        my Gram:D $protein = $food.protein * $num;
+        my Carbohydrates:D $carbohydrates = multiply($food.carbohydrates, $num);
+        my Gram:D $fat = $food.fat * $num;
+        my Gram:D $alcohol = $food.alcohol * $num;
+        Macros.new(:$protein, :$carbohydrates, :$fat, :$alcohol);
+    };
+    my Portionʹ $multiply .= new(:food($name), :$servings, :$macros);
+}
+
+multi sub infix:<*>(
+    Food:D $food,
+    Numeric:D $num
+    --> Portionʹ:D
+) is export
+{
+    my Portionʹ:D $multiply = multiply($food, $num);
+}
+
+multi sub infix:<*>(
+    Numeric:D $num,
+    Food:D $food
+    --> Portionʹ:D
+) is export
+{
+    my Portionʹ:D $multiply = multiply($food, $num);
+}
+
+# --- end Food }}}
+
+# end multiply }}}
 
 # vim: set filetype=raku foldmethod=marker foldlevel=0 nowrap:

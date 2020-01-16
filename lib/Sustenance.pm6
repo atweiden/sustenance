@@ -58,7 +58,7 @@ multi method gen-macros(
     ::?CLASS:D:
     Date:D $d1,
     Date:D $d2
-    --> Hash:D
+    --> TotalMacros:D
 )
 {
     my Range:D $date-range = $d1 .. $d2;
@@ -74,7 +74,7 @@ multi method gen-macros(
     Date:D $d2,
     Time:D $t1,
     Time:D $t2
-    --> Hash:D
+    --> TotalMacros:D
 )
 {
     my Range:D $date-range = $d1 .. $d2;
@@ -90,7 +90,7 @@ multi method gen-macros(
     Date:D $date,
     Time:D $t1,
     Time:D $t2
-    --> Hash:D
+    --> TotalMacros:D
 )
 {
     my UInt:D ($year,
@@ -115,7 +115,7 @@ multi method gen-macros(
     ::?CLASS:D:
     Date:D $date,
     Time:D $time
-    --> Hash:D
+    --> TotalMacros:D
 )
 {
     my Mealʹ:D @mealʹ =
@@ -128,7 +128,7 @@ multi method gen-macros(
 multi method gen-macros(
     ::?CLASS:D:
     Date:D $date
-    --> Hash:D
+    --> TotalMacros:D
 )
 {
     my Mealʹ:D @mealʹ =
@@ -140,7 +140,7 @@ multi method gen-macros(
 # generate macros for the current date by default
 multi method gen-macros(
     ::?CLASS:D:
-    --> Hash:D
+    --> TotalMacros:D
 )
 {
     my Mealʹ:D @mealʹ =
@@ -151,7 +151,7 @@ multi method gen-macros(
 
 multi sub gen-macros(Pantry:D $pantry, Meal:D @meal --> Array[Mealʹ:D])
 {
-    my Mealʹ:D @meal =
+    my Mealʹ:D @mealʹ =
         @meal.map(-> Meal:D $meal {
             my Date:D $date = $meal.date;
             my Time:D $time = $meal.time;
@@ -176,8 +176,7 @@ multi sub gen-macros(Pantry:D $pantry, Portion:D @portion --> Array[Portionʹ:D]
             my Food:D $food =
                 $pantry.food.first({ .name eq $name })
                     // die(X::Sustenance::FoodMissing.new(:$name));
-            my Portionʹ:D $portionʹ =
-                Sustenance::Utils.multiply($food, $servings);
+            my Portionʹ:D $portionʹ = $food * $servings;
         });
 }
 
@@ -188,14 +187,15 @@ multi sub gen-macros(Mealʹ:D :@mealʹ! --> TotalMacros:D)
             my Date:D $date = $mealʹ.date;
             my Time:D $time = $mealʹ.time;
             my DateTime:D $date-time = $mealʹ.date-time;
-            my Portionʹ:D @portionʹ = $mealʹ.portion;
+            my Portionʹ:D @portionʹ = $mealʹ.portionʹ;
             my Macros:D $macros = gen-macros(:@portionʹ);
-            my Mealʹʹ:D $mealʹʹ =
+            my Mealʹʹ $mealʹʹ .= new(
                 :$date,
                 :$time,
                 :$date-time,
                 :@portionʹ,
-                :$macros;
+                :$macros
+            );
         });
     my Macros:D $macros = gen-macros(:@mealʹʹ);
     my TotalMacros $total-macros .= new(
@@ -228,8 +228,8 @@ sub gen-macros-summed(@source --> Macros:D)
     @source.map(-> $source {
         $protein += $source.macros.protein;
         $carbohydrates-total += $source.macros.carbohydrates.total;
-        $fiber-total += $source.macros.fiber.total;
-        $fiber-insoluble += $source.macros.fiber.insoluble;
+        $fiber-total += $source.macros.carbohydrates.fiber.total;
+        $fiber-insoluble += $source.macros.carbohydrates.fiber.insoluble;
         $fat += $source.macros.fat;
         $alcohol += $source.macros.alcohol;
     });
@@ -237,7 +237,7 @@ sub gen-macros-summed(@source --> Macros:D)
         # could also take weighted average of C<.percent-insoluble>
         # but this seems simpler
         my Fraction:D $percent-insoluble = $fiber-insoluble / $fiber-total;
-        Fiber.new(:total($fiber-total), :$percent-insoluble);
+        Fiber.new([$fiber-total, $percent-insoluble]);
     };
     my Carbohydrates $carbohydrates .= new(
         :total($carbohydrates-total),

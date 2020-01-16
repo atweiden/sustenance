@@ -2,6 +2,7 @@
 use v6;
 use Sustenance;
 use Sustenance::DietPlan;
+use Sustenance::Parser::ParseTree;
 use Sustenance::Types;
 
 # &to-json {{{
@@ -61,8 +62,9 @@ multi sub MAIN(
     my Date $date2 .= new($d2);
     my Time $time1 .= new($t1);
     my Time $time2 .= new($t2);
-    my %macros = $sustenance.gen-macros($date1, $date2, $time1, $time2);
-    gen-macros(%macros);
+    my TotalMacros:D $macros =
+        $sustenance.gen-macros($date1, $date2, $time1, $time2);
+    gen-macros($macros);
 }
 
 multi sub MAIN(
@@ -78,8 +80,8 @@ multi sub MAIN(
     my Date $date .= new($d);
     my Time $time1 .= new($t1);
     my Time $time2 .= new($t2);
-    my %macros = $sustenance.gen-macros($date, $time1, $time2);
-    gen-macros(%macros);
+    my TotalMacros:D $macros = $sustenance.gen-macros($date, $time1, $time2);
+    gen-macros($macros);
 }
 
 multi sub MAIN(
@@ -93,8 +95,8 @@ multi sub MAIN(
     my Sustenance $sustenance .= new(:$file);
     my Date $date .= new($d);
     my Time $time .= new($t);
-    my %macros = $sustenance.gen-macros($date, $time);
-    gen-macros(%macros);
+    my TotalMacros:D $macros = $sustenance.gen-macros($date, $time);
+    gen-macros($macros);
 }
 
 multi sub MAIN(
@@ -108,8 +110,8 @@ multi sub MAIN(
     my Sustenance $sustenance .= new(:$file);
     my Date $date1 .= new($d1);
     my Date $date2 .= new($d2);
-    my %macros = $sustenance.gen-macros($date1, $date2);
-    gen-macros(%macros);
+    my TotalMacros:D $macros = $sustenance.gen-macros($date1, $date2);
+    gen-macros($macros);
 }
 
 multi sub MAIN(
@@ -121,8 +123,8 @@ multi sub MAIN(
 {
     my Sustenance $sustenance .= new(:$file);
     my Date $date .= new($d);
-    my %macros = $sustenance.gen-macros($date);
-    gen-macros(%macros);
+    my TotalMacros:D $macros = $sustenance.gen-macros($date);
+    gen-macros($macros);
 }
 
 multi sub MAIN(
@@ -132,12 +134,13 @@ multi sub MAIN(
 )
 {
     my Sustenance $sustenance .= new(:$file);
-    my %macros = $sustenance.gen-macros;
-    gen-macros(%macros);
+    my TotalMacros:D $macros = $sustenance.gen-macros;
+    gen-macros($macros);
 }
 
-sub gen-macros(%macros --> Nil)
+sub gen-macros($macros --> Nil)
 {
+    my %macros = $macros.hash;
     say(to-json(%macros));
 }
 
