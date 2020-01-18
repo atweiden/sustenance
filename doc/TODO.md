@@ -25,6 +25,35 @@
       at runtime
       - see also
         - how https://github.com/atweiden/tantum does it
+- implement diet plan profiles
+  - because
+    - that way you won't have to pass tons of cli flags constantly
+  - involves implementing
+    - main profile
+      - e.g.
+        - `sustenance show dietplan andy`
+    - subprofiles
+      - e.g.
+        - `sustenance show dietplan andy lazy`
+        - `sustenance show dietplan andy poppeye`
+  - e.g.
+    ```toml
+    [[profile]]
+    name = 'andy'
+    weight = 59.4206
+    height = 175.26
+    age = 31
+    gender = 'male'
+    activity-level = 'moderately-active'
+
+      [[profile.mod]]
+      modname = 'lazy'
+      activity-level = 'lightly-active'
+
+      [[profile.mod]]
+      modname = 'poppeye'
+      activity-level = 'very-active'
+    ```
 
 ## testing
 
