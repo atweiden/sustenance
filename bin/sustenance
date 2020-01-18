@@ -35,7 +35,7 @@ multi sub MAIN(
     Bool:D :foods($)! where .so,
     Bool:D :meals($)! where .so,
     *%opts (
-        Str :diet-log($),
+        Str :logbook($),
         Str :pantry($)
     )
     --> Nil
@@ -50,7 +50,7 @@ multi sub MAIN(
     'ls',
     Bool:D :foods($)! where .so,
     *%opts (
-        Str :diet-log($),
+        Str :logbook($),
         Str :pantry($)
     )
     --> Nil
@@ -65,7 +65,7 @@ multi sub MAIN(
     'ls',
     Bool:D :meals($)! where .so,
     *%opts (
-        Str :diet-log($),
+        Str :logbook($),
         Str :pantry($)
     )
     --> Nil
@@ -79,7 +79,7 @@ multi sub MAIN(
 multi sub MAIN(
     'ls',
     *%opts (
-        Str :diet-log($),
+        Str :logbook($),
         Str :pantry($)
     )
     --> Nil
@@ -98,134 +98,6 @@ sub ls(%ls --> Nil)
 # --- end ls }}}
 # --- show {{{
 
-# --- --- dietlog {{{
-
-multi sub MAIN(
-    'show',
-    'dietlog',
-    Str:D :$d1! where .so,
-    Str:D :$d2! where .so,
-    Str:D :$t1! where .so,
-    Str:D :$t2! where .so,
-    *%opts (
-        Str :diet-log($),
-        Str :pantry($)
-    )
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(|%opts);
-    my Date $date1 .= new($d1);
-    my Date $date2 .= new($d2);
-    my Time $time1 .= new($t1);
-    my Time $time2 .= new($t2);
-    my DietLog:D $diet-log =
-        $sustenance.show(:diet-log, $date1, $date2, $time1, $time2);
-    show($diet-log);
-}
-
-multi sub MAIN(
-    'show',
-    'dietlog',
-    Str:D $file,
-    Str:D :date($d)! where .so,
-    Str:D :$t1! where .so,
-    Str:D :$t2! where .so,
-    *%opts (
-        Str :diet-log($),
-        Str :pantry($)
-    )
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(|%opts);
-    my Date $date .= new($d);
-    my Time $time1 .= new($t1);
-    my Time $time2 .= new($t2);
-    my DietLog:D $diet-log =
-        $sustenance.show(:diet-log, $date, $time1, $time2);
-    show($diet-log);
-}
-
-multi sub MAIN(
-    'show',
-    'dietlog',
-    Str:D $file,
-    Str:D :date($d)! where .so,
-    Str:D :time($t)! where .so,
-    *%opts (
-        Str :diet-log($),
-        Str :pantry($)
-    )
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(|%opts);
-    my Date $date .= new($d);
-    my Time $time .= new($t);
-    my DietLog:D $diet-log =
-        $sustenance.show(:diet-log, $date, $time);
-    show($diet-log);
-}
-
-multi sub MAIN(
-    'show',
-    'dietlog',
-    Str:D $file,
-    Str:D :$d1! where .so,
-    Str:D :$d2! where .so,
-    *%opts (
-        Str :diet-log($),
-        Str :pantry($)
-    )
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(|%opts);
-    my Date $date1 .= new($d1);
-    my Date $date2 .= new($d2);
-    my DietLog:D $diet-log =
-        $sustenance.show(:diet-log, $date1, $date2);
-    show($diet-log);
-}
-
-multi sub MAIN(
-    'show',
-    'dietlog',
-    Str:D $file,
-    Str:D :date($d)! where .so,
-    *%opts (
-        Str :diet-log($),
-        Str :pantry($)
-    )
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(|%opts);
-    my Date $date .= new($d);
-    my DietLog:D $diet-log =
-        $sustenance.show(:diet-log, $date);
-    show($diet-log);
-}
-
-multi sub MAIN(
-    'show',
-    'dietlog',
-    Str:D $file,
-    *%opts (
-        Str :diet-log($),
-        Str :pantry($)
-    )
-    --> Nil
-)
-{
-    my Sustenance $sustenance .= new(|%opts);
-    my DietLog:D $diet-log =
-        $sustenance.show(:diet-log);
-    show($diet-log);
-}
-
-# --- --- end dietlog }}}
 # --- --- dietplan {{{
 
 multi sub MAIN(
@@ -250,6 +122,134 @@ multi sub MAIN(
 }
 
 # --- --- end dietplan }}}
+# --- --- logbook {{{
+
+multi sub MAIN(
+    'show',
+    'logbook',
+    Str:D :$d1! where .so,
+    Str:D :$d2! where .so,
+    Str:D :$t1! where .so,
+    Str:D :$t2! where .so,
+    *%opts (
+        Str :logbook($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date1 .= new($d1);
+    my Date $date2 .= new($d2);
+    my Time $time1 .= new($t1);
+    my Time $time2 .= new($t2);
+    my Logbook:D $logbook =
+        $sustenance.show(:logbook, $date1, $date2, $time1, $time2);
+    show($logbook);
+}
+
+multi sub MAIN(
+    'show',
+    'logbook',
+    Str:D $file,
+    Str:D :date($d)! where .so,
+    Str:D :$t1! where .so,
+    Str:D :$t2! where .so,
+    *%opts (
+        Str :logbook($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date .= new($d);
+    my Time $time1 .= new($t1);
+    my Time $time2 .= new($t2);
+    my Logbook:D $logbook =
+        $sustenance.show(:logbook, $date, $time1, $time2);
+    show($logbook);
+}
+
+multi sub MAIN(
+    'show',
+    'logbook',
+    Str:D $file,
+    Str:D :date($d)! where .so,
+    Str:D :time($t)! where .so,
+    *%opts (
+        Str :logbook($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date .= new($d);
+    my Time $time .= new($t);
+    my Logbook:D $logbook =
+        $sustenance.show(:logbook, $date, $time);
+    show($logbook);
+}
+
+multi sub MAIN(
+    'show',
+    'logbook',
+    Str:D $file,
+    Str:D :$d1! where .so,
+    Str:D :$d2! where .so,
+    *%opts (
+        Str :logbook($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date1 .= new($d1);
+    my Date $date2 .= new($d2);
+    my Logbook:D $logbook =
+        $sustenance.show(:logbook, $date1, $date2);
+    show($logbook);
+}
+
+multi sub MAIN(
+    'show',
+    'logbook',
+    Str:D $file,
+    Str:D :date($d)! where .so,
+    *%opts (
+        Str :logbook($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Date $date .= new($d);
+    my Logbook:D $logbook =
+        $sustenance.show(:logbook, $date);
+    show($logbook);
+}
+
+multi sub MAIN(
+    'show',
+    'logbook',
+    Str:D $file,
+    *%opts (
+        Str :logbook($),
+        Str :pantry($)
+    )
+    --> Nil
+)
+{
+    my Sustenance $sustenance .= new(|%opts);
+    my Logbook:D $logbook =
+        $sustenance.show(:logbook);
+    show($logbook);
+}
+
+# --- --- end logbook }}}
 
 proto sub show($container --> Nil)
 {
@@ -257,7 +257,7 @@ proto sub show($container --> Nil)
     say(to-json(%hash));
 }
 
-multi sub show(DietLog:D $diet-log --> Nil)
+multi sub show(Logbook:D $logbook --> Nil)
 {*}
 
 multi sub show(Sustenance::DietPlan:D $diet-plan --> Nil)
@@ -279,6 +279,26 @@ multi sub USAGE('ls' --> Nil)
         list foods
       --meals
         list meals
+    EOF
+    say($HELP);
+}
+
+multi sub USAGE('show' --> Nil)
+{
+    constant $HELP = qq:to/EOF/.trim;
+    Usage:
+      sustenance [--logbook=<path>] [--pantry=<path>] show <command>
+
+    Commands:
+      dietplan        show diet plan
+      logbook         show macros from diet logbook and pantry
+      macros          show macros from specified meals and pantry
+
+    Options:
+      --logbook=<path>
+        Path to logbook (defaults to "$*HOME/.config/sustenance/logbook.toml")
+      --pantry=<path>
+        Path to pantry (defaults to "$*HOME/.config/sustenance/pantry.toml")
     EOF
     say($HELP);
 }
@@ -325,26 +345,25 @@ multi sub USAGE('show', 'dietplan' --> Nil)
     say($HELP);
 }
 
-multi sub USAGE('show', 'dietlog' --> Nil)
+multi sub USAGE('show', 'logbook' --> Nil)
 {
     constant $HELP = q:to/EOF/.trim;
     Usage:
-      sustenance [--diet-log=<path>] [--pantry=<path>] show dietlog
-      sustenance [--date=<date>] show dietlog
-      sustenance [--date=<date> --time=<time>] show dietlog
-      sustenance [--date=<date> --t1=<time> --t2=<time>] show dietlog
-      sustenance [--d1=<date> --d2=<date>] show dietlog
-      sustenance [--d1=<date> --d2=<date> --t1=<time> --t2=<time>] show dietlog
+      sustenance [--date=<date>] show logbook
+      sustenance [--date=<date> --time=<time>] show logbook
+      sustenance [--date=<date> --t1=<time> --t2=<time>] show logbook
+      sustenance [--d1=<date> --d2=<date>] show logbook
+      sustenance [--d1=<date> --d2=<date> --t1=<time> --t2=<time>] show logbook
 
     Options:
       --date=<yyyy-mm-dd>
-        filter macros by date
+        filter logbook by date
       --d1=<yyyy-mm-dd>, --d2=<yyyy-mm-dd>
-        filter macros by date range
+        filter logbook by date range
       --time=<hh:mm:ss>
-        filter macros by time
+        filter logbook by time
       --t1=<hh:mm:ss>, --t2=<hh:mm:ss>
-        filter macros by time range
+        filter logbook by time range
     EOF
     say($HELP);
 }
@@ -357,7 +376,7 @@ multi sub USAGE(--> Nil)
 
     Commands:
       help        output help for subcommands
-      show        show dietlog or dietplan
+      show        show dietplan, logbook or macros
       ls          display information
 
     Options:
