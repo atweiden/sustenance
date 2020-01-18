@@ -259,11 +259,11 @@ multi sub MAIN(
 }
 
 # --- --- end logbook }}}
-# --- --- macros {{{
+# --- --- portions {{{
 
 multi sub MAIN(
     'show',
-    'macros',
+    'portions',
     *@name-servings (Str:D $name-servings, *@)
     *%opts (Str :pantry($))
     --> Nil
@@ -271,11 +271,11 @@ multi sub MAIN(
 {
     my Sustenance $sustenance .= new(|%opts);
     my Logbook:D $logbook =
-        $sustenance.gen-macros(|@name-servings);
+        $sustenance.show(:portions, |@name-servings);
     show($logbook);
 }
 
-# --- --- end macros }}}
+# --- --- end portions }}}
 
 proto sub show($container --> Nil)
 {
@@ -302,9 +302,9 @@ multi sub USAGE('ls' --> Nil)
 
     Options:
       --foods
-        list foods
+        List foods
       --meals
-        list meals
+        List meals
     EOF
     say($HELP);
 }
@@ -317,8 +317,8 @@ multi sub USAGE('show' --> Nil)
 
     Commands:
       dietplan        show diet plan
-      logbook         show macros from diet logbook and pantry
-      macros          show macros from specified meals and pantry
+      logbook         show macros from logbook
+      portions        show macros from portions
 
     Options:
       --logbook=<path>
@@ -383,22 +383,22 @@ multi sub USAGE('show', 'logbook' --> Nil)
 
     Options:
       --date=<yyyy-mm-dd>
-        filter logbook by date
+        Filter logbook by date
       --d1=<yyyy-mm-dd>, --d2=<yyyy-mm-dd>
-        filter logbook by date range
+        Filter logbook by date range
       --time=<hh:mm:ss>
-        filter logbook by time
+        Filter logbook by time
       --t1=<hh:mm:ss>, --t2=<hh:mm:ss>
-        filter logbook by time range
+        Filter logbook by time range
     EOF
     say($HELP);
 }
 
-multi sub USAGE('show', 'macros' --> Nil)
+multi sub USAGE('show', 'portions' --> Nil)
 {
     constant $HELP = q:to/EOF/.trim;
     Usage:
-      sustenance show macros <name>:<servings> [<name>:<servings>...]
+      sustenance show portions <name>:<servings> [<name>:<servings>...]
 
     Name
       | name of food
@@ -417,12 +417,12 @@ multi sub USAGE(| --> Nil)
 
     Commands:
       help        output help for subcommands
-      show        show dietplan, logbook or macros
+      show        show dietplan, logbook or portions
       ls          display information
 
     Options:
       -h, --help
-        show this help message
+        Show this help message
     EOF
     say($HELP);
 }
