@@ -264,15 +264,14 @@ multi sub MAIN(
 multi sub MAIN(
     'show',
     'macros',
-    # pass string with shorthand syntax C<$food-name:$servings>
-    # e.g. "avocado:3"
-    *@portion (Str:D $portion, *@)
+    *@name-servings (Str:D $name-servings, *@)
     *%opts (Str :pantry($))
     --> Nil
 )
 {
     my Sustenance $sustenance .= new(|%opts);
-    my Logbook:D $logbook = $sustenance.pantry.gen-macros(@portion);
+    my Logbook:D $logbook =
+        $sustenance.gen-macros(|@name-servings);
     show($logbook);
 }
 
