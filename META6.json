@@ -3,7 +3,7 @@
     "name"        : "Sustenance",
     "version"     : "0.0.1",
     "author"      : "atweiden",
-    "description" : "Calorie tracker and diet planner",
+    "description" : "Calorie-counting diet planner and tracker",
     "depends"     : ["Config::TOML"],
     "license"     : "Unlicense",
     "source-type" : "git",

@@ -1,6 +1,6 @@
 # Sustenance
 
-Calorie tracker and diet planner
+Calorie-counting diet planner and tracker
 
 ## Synopsis
 
