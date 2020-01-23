@@ -63,6 +63,16 @@ fiber = 20
 fat = 40
 source = 'perth product label'
 
+# macro wholefoods market - australian cricket powder
+[[food]]
+name = 'macro-wholefoods-market-australian-cricket-powder'
+serving-size = '100g'
+protein = 65.6
+carbs = 6.5
+fiber = 6
+fat = 16
+source = 'perth product label'
+
 # matakana superfoods - organic acai berry powder
 [[food]]
 name = 'matakana-superfoods-acai-berry-powder'
