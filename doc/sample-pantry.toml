@@ -63,6 +63,16 @@ fiber = 20
 fat = 40
 source = 'perth product label'
 
+# grilo protein - organic cricket powder
+[[food]]
+name = 'grilo-protein-organic-cricket-powder'
+serving-size = '100g'
+protein = 69
+carbs = 13.7
+fiber = 7
+fat = 15
+source = 'https://griloprotein.com.au/product/organic-cricket-flour/'
+
 # macro wholefoods market - australian cricket powder
 [[food]]
 name = 'macro-wholefoods-market-australian-cricket-powder'
