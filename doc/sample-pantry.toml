@@ -3401,6 +3401,7 @@ source = 'https://fineli.fi/fineli/en/elintarvikkeet/30991?'
 name = 'hemp-seed'
 aka = [
   'hemp-heart',
+  'hulled-hemp-seed',
   'shelled-hemp-seed'
 ]
 serving-size = '100g'
@@ -3517,6 +3518,15 @@ carbs = 20
 fiber = [ 8.6, 0.8 ]
 fat = 51.5
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170562/nutrients'
+
+[[food]]
+name = 'whole-hemp-seed'
+serving-size = '100g'
+protein = 24.8
+carbs = 27.6
+fiber = [ 27.6, 0.8 ]
+fat = 35.5
+source = 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2868018/'
 
 # --- end seed }}}
 # --- spice {{{
