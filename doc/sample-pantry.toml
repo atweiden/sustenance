@@ -754,6 +754,16 @@ fiber = 5.2
 fat = 0.8
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/33065'
 
+# sunny fruit - organic mulberries [44]
+[[food]]
+name = 'dried-mulberry'
+serving-size = '100g'
+protein = 4.6
+carbs = 74.3
+fiber = 13.3
+fat = 2
+source = 'perth product label'
+
 # carica papaya - papaya, dried
 [[food]]
 name = 'dried-papaya'
@@ -5033,6 +5043,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [41]: https://www.myoleanfitness.com/do-bcaas-have-calories/
 # [42]: https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g
 # [43]: https://world.openfoodfacts.org/product/5400112366103/kiwano-delhaize
+# [44]: https://sunnyfruit.com/dried-fruits/
 
 # end cite }}}
 # ==============================================================================
