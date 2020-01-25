@@ -183,7 +183,8 @@ name = 'vasse-valley-raw-hemp-protein'
 serving-size = '100g'
 protein = 43.6
 carbs = 44.8
-fiber = 20.2
+# insoluble fiber estimated from whole-hemp-seed
+fiber = [ 20.2, 0.8 ]
 fat = 13.9
 source = 'perth product label'
 
@@ -193,7 +194,8 @@ name = 'vasse-valley-roasted-hemp-seed-crumble'
 serving-size = '100g'
 protein = 23.1
 carbs = 38.8
-fiber = 36.8
+# insoluble fiber estimated from whole-hemp-seed
+fiber = [ 36.8, 0.8 ]
 fat = 31
 source = 'perth product label'
 
@@ -4000,7 +4002,8 @@ name = 'hemp-protein-powder'
 serving-size = '100g'
 protein = 50
 carbs = 36
-fiber = 16
+# insoluble fiber estimated from whole-hemp-seed
+fiber = [ 16.0, 0.8 ]
 fat = 15
 
 # justpea - pea protein powder [27]
