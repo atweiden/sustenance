@@ -187,6 +187,16 @@ fiber = 20.2
 fat = 13.9
 source = 'perth product label'
 
+# vasse valley - roasted hemp seed crumble
+[[food]]
+name = 'vasse-valley-roasted-hemp-seed-crumble'
+serving-size = '100g'
+protein = 23.1
+carbs = 38.8
+fiber = 36.8
+fat = 31
+source = 'perth product label'
+
 # woolworths - four seasons coleslaw - white cabbage, red cabbage,
 # carrot, celery, spring onion & corn
 [[food]]
