@@ -177,6 +177,16 @@ fiber = [ 15.0, 0.95 ]
 fat = 15.7
 source = 'auckland product label'
 
+# vasse valley - raw hemp protein
+[[food]]
+name = 'vasse-valley-raw-hemp-protein'
+serving-size = '100g'
+protein = 43.6
+carbs = 44.8
+fiber = 20.2
+fat = 13.9
+source = 'perth product label'
+
 # woolworths - four seasons coleslaw - white cabbage, red cabbage,
 # carrot, celery, spring onion & corn
 [[food]]
