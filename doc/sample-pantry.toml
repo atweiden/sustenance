@@ -73,6 +73,28 @@ fiber = 7
 fat = 15
 source = 'https://griloprotein.com.au/product/organic-cricket-flour/'
 
+# honest sea - roasted seaweed snack - sea salt
+[[food]]
+name = 'honest-sea-roasted-seaweed-snack-sea-salt'
+serving-size = '100g'
+protein = 25.7
+carbs = 19.5
+# fiber estimated from gimme-organic-premium-roasted-seaweed-sea-salt
+fiber = 20
+fat = 46.5
+source = 'perth product label'
+
+# honest sea - roasted seaweed snack - sesame
+[[food]]
+name = 'honest-sea-roasted-seaweed-snack-sesame'
+serving-size = '100g'
+protein = 24.8
+carbs = 21.5
+# fiber estimated from gimme-organic-premium-roasted-seaweed-sea-salt
+fiber = 20
+fat = 46
+source = 'perth product label'
+
 # macro wholefoods market - australian cricket powder
 [[food]]
 name = 'macro-wholefoods-market-australian-cricket-powder'
