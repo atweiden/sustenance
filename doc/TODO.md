@@ -172,7 +172,7 @@
 ## functionality
 
 ```perl6
-# calculate average macros
+# calculate average macros (with min/max records)
 $sustenance.gen-report(:macros);
 
 # include cross-referenced food sources in average macros output
