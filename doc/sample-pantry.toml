@@ -105,6 +105,17 @@ fiber = 6
 fat = 16
 source = 'perth product label'
 
+# macro wholefoods market - cacao nibs
+[[food]]
+name = 'macro-wholefoods-market-cacao-nibs'
+serving-size = '100g'
+protein = 13.1
+carbs = 30.2
+# insoluble fiber estimated from prebiotin [3]
+fiber = [ 21.1, 0.83 ]
+fat = 49.9
+source = 'perth product label'
+
 # matakana superfoods - organic acai berry powder
 [[food]]
 name = 'matakana-superfoods-acai-berry-powder'
