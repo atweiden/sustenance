@@ -126,6 +126,16 @@ fiber = 31.3
 fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
+# nature's kitchen - curried pumpkin & corn burgers
+[[food]]
+name = 'natures-kitchen-curried-pumpkin-corn-burgers'
+serving-size = '100g'
+protein = 5.6
+carbs = 29.9
+fiber = 5.4
+fat = 0.5
+source = 'perth product label'
+
 # nature's kitchen - tempeh
 [[food]]
 name = 'natures-kitchen-tempeh'
