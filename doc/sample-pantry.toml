@@ -1428,6 +1428,16 @@ fiber = 0
 fat = 0
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+[[food]]
+name = 'rambutan'
+aka = 'hairy-lychee'
+serving-size = '100g'
+protein = 0.7
+carbs = 14.2
+fiber = 0.3
+fat = 0.1
+source = 'http://myfcd.moh.gov.my/myfcd97/index.php/site/detail_product/106084/0/10/rambutan/0/0/'
+
 # red raspberries, raw
 [[food]]
 name = 'raspberry'
