@@ -126,6 +126,17 @@ fiber = 31.3
 fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
+# nature's kitchen - tempeh
+[[food]]
+name = 'natures-kitchen-tempeh'
+serving-size = '100g'
+protein = 12.6
+carbs = 7.7
+# insoluble fiber estimated from tempeh
+fiber = [ 7.2, 0.79 ]
+fat = 5.5
+source = 'perth product label'
+
 # nibblish - gently baked banana
 [[food]]
 name = 'nibblish-gently-baked-banana'
