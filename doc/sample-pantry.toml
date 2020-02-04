@@ -33,6 +33,16 @@ fiber = 7.1
 fat = 6.7
 source = 'auckland product label'
 
+# ceres organics - organic seaweed - chilli snack
+[[food]]
+name = 'ceres-organics-seaweed-chilli-snack'
+serving-size = '100g'
+protein = 25
+carbs = 33
+fiber = 20
+fat = 36
+source = 'perth product label'
+
 # ceres organics - organic seaweed - original snack
 [[food]]
 name = 'ceres-organics-seaweed-original-snack'
