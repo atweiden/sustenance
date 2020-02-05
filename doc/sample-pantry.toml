@@ -2878,6 +2878,15 @@ fiber = [ 11.9, 0.95 ]
 fat = 53.6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+[[food]]
+name = 'roasted-baru-nut'
+serving-size = '100g'
+protein = 21.9
+carbs = 38
+fiber = 11
+fat = 31.8
+source = 'hobart product label'
+
 # brazil nuts, oil-roasted and salted
 [[food]]
 name = 'roasted-brazil-nut'
