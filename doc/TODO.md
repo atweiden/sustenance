@@ -8,7 +8,7 @@
       - it makes sense to scope the `gen-macros` method to `Pantry`
     - it would facilitate untyped on-the-fly caloric estimation
       - e.g.
-        ```perl6
+        ```raku
         my Pantry $pantry .= new(:$file);
         $pantry.gen-macros(:food<chickpea>, :servings(1));
         $pantry.gen-macros(%(:food<chickpea>, :servings(1)));
@@ -171,7 +171,7 @@
 
 ## functionality
 
-```perl6
+```raku
 # calculate average macros (with min/max records)
 $sustenance.gen-report(:macros);
 

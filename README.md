@@ -37,7 +37,7 @@ bin/sustenance --date=2018-05-31 gen-macros sustenance.toml
 
 **raku**:
 
-```perl6
+```raku
 use Sustenance;
 my Date $date .= new('2018-05-31');
 Sustenance.new(:file<sustenance.toml>).gen-macros($date);
@@ -63,7 +63,7 @@ bin/sustenance \
 
 **raku**:
 
-```perl6
+```raku
 use Sustenance::DietPlan;
 Sustenance::DietPlan.new(
     :weight(59),
