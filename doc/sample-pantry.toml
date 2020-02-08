@@ -63,6 +63,44 @@ fiber = 20
 fat = 47
 source = 'auckland product label'
 
+# dr garlic tasmania - garlic honey roasted cashews
+# ingredients: cashews, garlic, olive oil, salt, cayenne pepper
+[[food]]
+name = 'dr-garlic-tasmania-garlic-honey-roasted-cashews'
+serving-size = '100g'
+protein = 14.5
+carbs = 33.4
+# fiber estimated from roasted-cashew
+fiber = [ 6.7, 0.88 ]
+fat = 45.3
+source = 'hobart product label'
+
+# dr garlic tasmania - garlic lakanto roasted almonds
+# ingredients: almonds, lakanto, garlic, olive oil, salt, gluten-free
+# soy sauce, smoked paprika, garam masala
+[[food]]
+name = 'dr-garlic-tasmania-garlic-lakanto-roasted-almonds'
+serving-size = '100g'
+protein = 19.8
+carbs = 17.2
+# fiber estimated from roasted-almond
+fiber = [ 11.9, 0.95 ]
+fat = 54
+source = 'hobart product label'
+
+# dr garlic tasmania - garlic lakanto roasted cashews
+# ingredients: cashews, lakanto, garlic, olive oil, salt, gluten-free
+# soy sauce, smoked paprika, garam masala
+[[food]]
+name = 'dr-garlic-tasmania-garlic-lakanto-roasted-cashews'
+serving-size = '100g'
+protein = 16.6
+carbs = 24.2
+# fiber estimated from roasted-cashew
+fiber = [ 6.7, 0.88 ]
+fat = 48
+source = 'hobart product label'
+
 # gimme organic - premium roasted seaweed - sea salt
 [[food]]
 name = 'gimme-organic-premium-roasted-seaweed-sea-salt'
