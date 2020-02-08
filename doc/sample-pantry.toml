@@ -4193,6 +4193,15 @@ carbs = 98
 fat = 0.1
 
 [[food]]
+name = 'lakanto'
+serving-size = '100g'
+protein = 0
+# sugar-alcohols.erythritol = 99
+carbs = 5
+fat = 0
+source = 'https://lakanto.com.au/collections/the-lakanto-difference/products/classic-and-golden-monkfruit-bundles'
+
+[[food]]
 name = 'maple-sugar'
 serving-size = '100g'
 protein = 0.1
