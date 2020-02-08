@@ -2202,6 +2202,18 @@ protein = 9
 carbs = 69
 fat = 4.3
 
+# estimate macros from garlic with assumption
+# 1 medium-sized garlic clove weighs 6.5g on average
+# 1 medium-sized roasted garlic clove weighs 0.76g on average
+# = 100g roasted garlic has 8.6X macros of 100g raw garlic
+[[food]]
+name = 'roasted-garlic'
+serving-size = '100g'
+protein = 55
+carbs = 236.5
+fiber = [ 53, 0.34 ]
+fat = 7.7
+
 # fresh rosemary
 [[food]]
 name = 'rosemary'
