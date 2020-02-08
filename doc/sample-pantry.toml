@@ -225,6 +225,15 @@ fiber = 8
 fat = 0.6
 source = 'auckland product label'
 
+# salamanca fruit leathers - fruit roll
+[[food]]
+name = 'salamanca-fruit-leathers-fruit-roll'
+serving-size = '100g'
+protein = 0.3
+carbs = 19.6
+fat = 2.3
+source = 'hobart product label'
+
 # spiral foods - organic natural vegan oven baked mung bean chips
 [[food]]
 name = 'spiral-foods-baked-mung-bean-chips'
