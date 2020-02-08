@@ -2211,7 +2211,7 @@ name = 'roasted-garlic'
 serving-size = '100g'
 protein = 55
 carbs = 236.5
-fiber = [ 53, 0.34 ]
+fiber = [ 53.3, 0.34 ]
 fat = 7.7
 
 # fresh rosemary
