@@ -4022,6 +4022,23 @@ fiber = 0
 fat = 6.7
 source = 'https://anfab.org.au/edit/research_publications/14-119_MountainPepper.pdf'
 
+# provenance growers - pepperberry salt
+[[food]]
+name = 'tasmanian-pepperberry-salt'
+serving-size = '100g'
+# estimate protein/carbs from
+# known macros in tasmanian-pepperberry
+# known kcal (30.1) and sodium (32700 mg) on product label
+# known sodium in 100g salt (38758 mg)
+# assume 100g tasmanian-pepperberry-salt contains
+# 84.4g salt
+# 15.6g tasmanian-pepperberry
+protein = 0.8
+carbs = 3.7
+fiber = 0
+fat = 1.1
+source = 'hobart product label'
+
 # ground turmeric
 [[food]]
 name = 'turmeric'
