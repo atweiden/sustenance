@@ -4012,6 +4012,16 @@ carbs = 4.7
 fiber = 0.4
 fat = 0.1
 
+# tasmannia lanceolata
+[[food]]
+name = 'tasmanian-pepperberry'
+serving-size = '100g'
+protein = 4.8
+carbs = 24
+fiber = 0
+fat = 6.7
+source = 'https://anfab.org.au/edit/research_publications/14-119_MountainPepper.pdf'
+
 # ground turmeric
 [[food]]
 name = 'turmeric'
