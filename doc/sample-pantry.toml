@@ -1185,6 +1185,15 @@ fiber = [ 3.3, 0.85 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+[[food]]
+name = 'boysenberry'
+serving-size = '100g'
+protein = 1.1
+carbs = 11.5
+fiber = 4.3
+fat = 0.7
+source = 'https://www.foodcomposition.co.nz/foodfiles/concise-tables/'
+
 # sweet cherries, imported from the u.s.a., raw
 [[food]]
 name = 'cherry'
