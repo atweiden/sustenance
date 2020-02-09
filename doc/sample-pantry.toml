@@ -2406,7 +2406,10 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # lima beans, mature seeds, whole, boiled
 [[food]]
 name = 'lima-bean'
-aka = 'sieva-bean'
+aka = [
+  'butter-bean',
+  'sieva-bean'
+]
 serving-size = '100g'
 protein = 9.6
 carbs = 26
