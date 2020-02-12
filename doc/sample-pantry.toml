@@ -153,6 +153,17 @@ fiber = 6
 fat = 16
 source = 'perth product label'
 
+# macro wholefoods market - cheeky chickpeas
+[[food]]
+name = 'macro-wholefoods-market-cheeky-chickpeas'
+serving-size = '100g'
+protein = 21.2
+carbs = 58.0
+# insoluble fiber estimated from prebiotin [3]
+fiber = [ 18.3, 0.83 ]
+fat = 15.9
+source = 'sydney product label'
+
 # macro wholefoods market - cacao nibs
 [[food]]
 name = 'macro-wholefoods-market-cacao-nibs'
