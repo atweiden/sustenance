@@ -186,6 +186,89 @@ $sustenance.gen-report(:sustainability);
 ```
 
 - track
+  - saturated fat
+  - cholesterol
+  - sugar alcohols
+    - e.g.
+      - `sugar-alcohols.erythritol = 99`
+    - with separate calorie counts by type of sugar alcohol
+      - monosaccharide polyols or novel sugars
+        - d-tagatose
+          - 1.5 calories per gram
+        - erythritol
+          - 0.2 calories per gram
+            - https://ec.europa.eu/food/sites/food/files/safety/docs/sci-com_scf_out175_en.pdf
+            - https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:285:0009:0012:EN:PDF
+        - mannitol
+          - 1.6 calories per gram
+        - sorbitol
+          - 2.6 calories per gram
+        - xylitol
+          - 2.4 calories per gram
+      - disaccharide polyols or novel sugars
+        - isomalt
+          - 2 calories per gram
+        - lactitol
+          - 2 calories per gram
+        - maltitol
+          - 2.1 calories per gram
+        - trehalose
+          - 4 calories per gram
+      - polysaccharide polyols
+        - hsh
+          - 3 calories per gram
+      - nonnutritive sweeteners
+        - acesulfame-k
+          - 0 calories per gram
+        - aspartame
+          - 4 calories per gram
+        - neotame
+          - 0 calories per gram
+        - saccharin
+          - 0 calories per gram
+        - sucralose
+          - 0 calories per gram
+    - https://www.ncbi.nlm.nih.gov/pubmed/14760578
+    - https://jandonline.org/article/S0002-8223(03)01658-4/fulltext
+  - amino acids
+    - essential
+      - histidine
+      - isoleucine
+      - leucine
+      - lysine
+      - methionine
+      - phenylalanine
+      - threonine
+      - tryptophan
+      - valine
+    - non-essential
+      - alanine
+      - arginine
+      - asparagine
+      - aspartic acid
+      - cysteine
+      - glutamic acid
+      - glutamine
+      - glycine
+      - proline
+      - serine
+      - tyrosine
+  - vitamins
+    - a
+    - b12
+    - b6 (folate)
+    - b9
+    - c
+    - calcium
+    - copper
+    - d
+    - dha / ala
+    - iron
+    - k2
+    - magnesium
+    - manganese
+    - potassium
+    - zinc
   - cost of food
   - alkaline- vs acid-formation of food
   - environmental impact of diet
@@ -195,10 +278,6 @@ $sustenance.gen-report(:sustainability);
     - https://www.nomeatathlete.com/nutrients/
   - e.g.
     - carbohydrate targets
-- implement micronutrient tracking
-  - e.g.
-    - essential amino acids
-      - especially lysine
 - implement shorthand syntax for meal log
   - e.g.
 
