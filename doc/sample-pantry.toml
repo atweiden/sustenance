@@ -1506,7 +1506,7 @@ fat = 0.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/342002/nutrients'
 
 # plums, european plums, raw
-# ideally white plums (plums with golden exterior)
+# ideally white plums (plums with golden exterior) or greengage plums
 [[food]]
 name = 'plum'
 serving-size = '100g'
