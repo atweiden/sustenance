@@ -3715,6 +3715,15 @@ protein = 0.9
 carbs = 3.3
 fat = 0.8
 
+[[food]]
+name = 'black-lime-powder'
+# 5g serving size on product label
+serving-size = '100g'
+protein = 0
+carbs = 11
+fat = 0.2
+source = 'hobart product label'
+
 # ground black pepper
 [[food]]
 name = 'black-pepper'
