@@ -1462,7 +1462,7 @@ fiber = [ 1.9, 0.63 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# solanum muricatum
+# solanum muricatum [45]
 [[food]]
 name = 'pepino'
 serving-size = '100g'
@@ -5277,6 +5277,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [42]: https://www.matakanasuperfoods.com/products/organic-hemp-protein-powder-300g
 # [43]: https://world.openfoodfacts.org/product/5400112366103/kiwano-delhaize
 # [44]: https://sunnyfruit.com/dried-fruits/
+# [45]: https://web.archive.org/web/20070126060813/http://www.5aday.gov/month/exotic_fruit.html
 
 # end cite }}}
 # ==============================================================================
