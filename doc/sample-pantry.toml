@@ -1462,6 +1462,16 @@ fiber = [ 1.9, 0.63 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# solanum muricatum
+[[food]]
+name = 'pepino'
+serving-size = '100g'
+protein = 0
+carbs = 22
+fiber = 5
+fat = 0
+source = 'http://www.foodreference.com/html/art-pepino.html'
+
 # japanese persimmons, nonastringent, raw
 [[food]]
 name = 'persimmon'
