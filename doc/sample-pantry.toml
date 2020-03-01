@@ -236,6 +236,39 @@ fiber = 8
 fat = 0.6
 source = 'auckland product label'
 
+# pickld - crunchy coconut gourmet blend
+[[food]]
+name = 'pickld-crunchy-coconut-gourmet-blend'
+# average servings size: 10g (2 tsp)
+serving-size = '100g'
+protein = 19.1
+carbs = 48.1
+fiber = 20.1
+fat = 29
+source = 'https://www.pickld.com/collections/single-products/products/coconut-seasoning'
+
+# pickld - exotic cumin gourmet blend
+[[food]]
+name = 'pickld-exotic-cumin-gourmet-blend'
+# average servings size: 5g (1 tsp)
+serving-size = '100g'
+protein = 20.9
+carbs = 61.2
+fiber = 21
+fat = 10.7
+source = 'https://www.pickld.com/collections/single-products/products/cumin-seasoning'
+
+# pickld - roasted sesame gourmet blend
+[[food]]
+name = 'pickld-roasted-sesame-gourmet-blend'
+# average servings size: 5g (1 tsp)
+serving-size = '100g'
+protein = 25.9
+carbs = 31.8
+fiber = 18.1
+fat = 37.6
+source = 'https://www.pickld.com/collections/single-products/products/sesame-seasoning'
+
 # salamanca fruit leathers - fruit roll
 [[food]]
 name = 'salamanca-fruit-leathers-fruit-roll'
