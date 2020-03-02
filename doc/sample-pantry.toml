@@ -4733,7 +4733,12 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # chayote, fruit, green-colored, raw
 [[food]]
 name = 'chayote-squash'
-aka = 'mirliton-squash'
+aka = [
+  # australia
+  'choko-squash',
+  # united states
+  'mirliton-squash'
+]
 serving-size = '100g'
 protein = 0.6
 carbs = 4.9
