@@ -206,6 +206,18 @@ fiber = [ 7.2, 0.79 ]
 fat = 5.5
 source = 'perth product label'
 
+# nature's works - tasmanian toasted hazel meal
+# de-fatted hazel meal
+[[food]]
+name = 'natures-works-tasmanian-toasted-hazel-meal'
+serving-size = '100g'
+protein = 26.9
+carbs = 17.2
+# fiber estimated from hazelnut
+fiber = [ 10.4, 0.88 ]
+fat = 30.8
+source = 'hobart product label'
+
 # nibblish - gently baked banana
 [[food]]
 name = 'nibblish-gently-baked-banana'
