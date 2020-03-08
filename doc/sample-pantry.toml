@@ -185,6 +185,17 @@ fiber = 31.3
 fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
+# mitica - crunchy quicos (toasted corn)
+[[food]]
+name = 'mitica-crunchy-quicos'
+serving-size = '100g'
+protein = 10
+carbs = 73.3
+# insoluble fiber estimated from corn-kernel
+fiber = [ 6.7, 0.9 ]
+fat = 15
+source = 'portland product label'
+
 # nature's kitchen - curried pumpkin & corn burgers
 [[food]]
 name = 'natures-kitchen-curried-pumpkin-corn-burgers'
