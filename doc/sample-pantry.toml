@@ -292,6 +292,26 @@ fiber = 18.1
 fat = 37.6
 source = 'https://www.pickld.com/collections/single-products/products/sesame-seasoning'
 
+# pure bliss organics - organic almond pumpkin bites
+[[food]]
+name = 'pure-bliss-organics-organic-almond-pumpkin-bites'
+serving-size = '100g'
+protein = 15.8
+carbs = 31.6
+fiber = 10.5
+fat = 44.7
+source = 'portland product label'
+
+# pure bliss organics - organic walnut hemp bites
+[[food]]
+name = 'pure-bliss-organics-organic-walnut-hemp-bites'
+serving-size = '100g'
+protein = 13.2
+carbs = 31.6
+fiber = 7.9
+fat = 44.7
+source = 'portland product label'
+
 # salamanca fruit leathers - fruit roll
 [[food]]
 name = 'salamanca-fruit-leathers-fruit-roll'
@@ -3136,6 +3156,16 @@ carbs = 11.7
 fiber = [ 7.5, 0.93 ]
 fat = 68.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+[[food]]
+name = 'tamari-roasted-almond'
+serving-size = '100g'
+protein = 21.4
+carbs = 17.9
+# insoluble fiber estimated from roasted-almond
+fiber = [ 10.7, 0.95 ]
+fat = 50
+source = 'portland product label'
 
 # ceres organics - organic tiger nuts
 [[food]]
