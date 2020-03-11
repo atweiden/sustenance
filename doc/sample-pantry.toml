@@ -404,6 +404,29 @@ fiber = [ 15.0, 0.95 ]
 fat = 15.7
 source = 'auckland product label'
 
+# trader joe's - organic carrots of many colors
+# ingredients: organic carrots, sea salt
+[[food]]
+name = 'trader-joes-organic-carrots-of-many-colors'
+serving-size = '100g'
+protein = 7.5
+carbs = 70
+# insoluble fiber estimated from carrot
+fiber = [ 27.5, 0.62 ]
+fat = 3.8
+source = 'portland product label'
+
+# trader joe's - roasted seaweed snack with sea salt
+# ingredients: seaweed, expeller pressed canola oil, sesame oil, sea salt
+[[food]]
+name = 'trader-joes-roasted-seaweed-snack-sea-salt'
+serving-size = '100g'
+protein = 20
+carbs = 20
+fiber = 20
+fat = 40
+source = 'portland product label'
+
 # vasse valley - raw hemp protein
 [[food]]
 name = 'vasse-valley-raw-hemp-protein'
