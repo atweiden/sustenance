@@ -413,7 +413,7 @@ source = 'auckland product label'
 # crimini-mushroom with assumption of 5g fresh mushroom content
 [[food]]
 name = 'trader-joes-mushroom-and-company-umami-seasoning-blend'
-serving-size = '1 tbsp (5g)'
+serving-size = '1 tbsp (12g)'
 protein = 0.7
 carbs = 2.8
 fat = 0.6
