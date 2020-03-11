@@ -421,10 +421,10 @@ source = 'portland product label'
 [[food]]
 name = 'trader-joes-roasted-seaweed-snack-sea-salt'
 serving-size = '100g'
-protein = 20
-carbs = 20
-fiber = 20
-fat = 40
+protein = 26.6
+carbs = 26.6
+fiber = 17.7
+fat = 35.4
 source = 'portland product label'
 
 # vasse valley - raw hemp protein
