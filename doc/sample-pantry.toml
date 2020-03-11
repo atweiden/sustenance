@@ -404,6 +404,21 @@ fiber = [ 15.0, 0.95 ]
 fat = 15.7
 source = 'auckland product label'
 
+# trader joe's mushroom & company - multipurpose umami seasoning blend
+# ingredients: kosher salt, dried onions, ground mustard seed, porcini
+# mushroom powder, white button mushroom powder, crushed red pepper,
+# black pepper, dried thyme
+# macros estimated by averaging onion-powder, mustard-powder,
+# crushed-red-pepper, black-pepper, dried-thyme; porcini-mushroom,
+# crimini-mushroom with assumption of 5g fresh mushroom content
+[[food]]
+name = 'trader-joes-mushroom-and-company-umami-seasoning-blend'
+serving-size = '1 tbsp (5g)'
+protein = 0.7
+carbs = 2.8
+fat = 0.6
+source = 'portland product label'
+
 # trader joe's - organic carrots of many colors
 # ingredients: organic carrots, sea salt
 [[food]]
