@@ -331,6 +331,35 @@ fiber = 13.1
 fat = 0.5
 source = 'auckland product label'
 
+# squirrel & crow - black bean sunflower tempeh
+# ingredients: black beans, water, organic sunflower seeds, less than 2%
+# of tempeh culture (r.oligosporus, rice flour)
+[[food]]
+name = 'squirrel-and-crow-black-bean-sunflower-tempeh'
+serving-size = '100g'
+protein = 10.1
+carbs = 23.4
+# insoluble fiber estimated by taking the lower of black-bean and
+# roasted-sunflower-seed, the food's two primary ingredients, then
+# reducing estimate to be conservative
+fiber = [ 8.8, 0.73 ]
+fat = 7.1
+source = 'portland product label'
+
+# squirrel & crow - lentil tempeh
+# ingredients: organic lentils, water, organic apple cider vinegar,
+# less than 2% of tempeh culture (r.oligosporus, rice flour)
+[[food]]
+name = 'squirrel-and-crow-lentil-tempeh'
+serving-size = '100g'
+protein = 8.8
+carbs = 20.3
+# insoluble fiber estimated from lentil, then reducing estimate to
+# be conservative
+fiber = [ 7.9, 0.88 ]
+fat = 0.4
+source = 'portland product label'
+
 # the happy snack co - crunchy roasted chickpeas - lightly salted
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-chickpeas-salted'
