@@ -23,6 +23,17 @@ fiber = 3.8
 fat = 1.4
 source = 'perth product label'
 
+# albina city nuts - toasted corn
+# ingredients: non-gmo corn, canola oil and/or safflower oil, salt
+[[food]]
+name = 'albina-city-nuts-toasted-corn'
+serving-size = '100g'
+protein = 7.1
+carbs = 67.9
+fiber = 7.1
+fat = 17.9
+source = 'https://www.albinacitynuts.com/shop/toasted-corn-big-bag'
+
 # ceres organics - organic quinoa puffs
 [[food]]
 name = 'ceres-organics-quinoa-puffs'
