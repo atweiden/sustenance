@@ -2529,6 +2529,17 @@ fiber = [ 11.6, 0.96 ]
 fat = 2.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# la conserve della nonna - corona beans
+# ingredients: beans, water, salt
+[[food]]
+name = 'corona-bean'
+serving-size = '100g'
+protein = 6.3
+carbs = 18.8
+fiber = 6.3
+fat = 0.9
+source = 'portland product label'
+
 # vicia faba - bean, broad bean, fava bean, boiled with salt
 [[food]]
 name = 'fava-bean'
