@@ -3,6 +3,66 @@
 
 # --- branded {{{
 
+# a pinch of tasmania - gourmet activated hazelnuts - cherry & native
+# pepperberry
+#
+# ingredients: hazelnuts, cherry, pepperberry, sea salt
+#
+# activated nuts have been soaked in water and salt, which starts the
+# germination process; they are then dehydrated at a low temperature
+# for optimal taste and nutrition; with a delicious cherry coating and
+# a pinch of native pepperberry & salt, these hazelnuts make a fabulous
+# snack or garnish on your favourite meal
+[[food]]
+name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-cherry-and-native-pepperberry'
+serving-size = '100g'
+protein = 12.8
+carbs = 18
+# fiber estimated from roasted-hazelnut
+fiber = [ 7.4, 0.88 ]
+fat = 61.3
+source = 'launceston product label'
+
+# a pinch of tasmania - gourmet activated hazelnuts - merlot (grape)
+# molasses and rosemary
+#
+# ingredients: hazelnuts, grape juice, rosemary, sea salt
+#
+# activated nuts have been soaked in water and salt, which starts the
+# germination process; they are then dehydrated at a low temperature
+# for optimal taste and nutrition; with a coating of merlot grape juice
+# molasses, a sprig of rosemary and a pinch of salt, these hazelnuts
+# make a fabulous snack or garnish on your favourite meal
+[[food]]
+name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-merlot-molasses-and-rosemary'
+serving-size = '100g'
+protein = 12.9
+carbs = 15.6
+# fiber estimated from roasted-hazelnut
+fiber = [ 7.4, 0.88 ]
+fat = 62.1
+source = 'launceston product label'
+
+# a pinch of tasmania - gourmet activated hazelnuts - sweet & spicy
+#
+# ingredients: hazelnuts, brown sugar, ginger, chilli, kaffir lime leaves,
+# garlic, sea salt
+#
+# activated nuts have been soaked in water and salt, which starts the
+# germination process; they are then dehydrated at a low temperature
+# for optimal taste and nutrition; with a sweet and spicy coating and a
+# pinch of salt, these hazelnuts make a fabulous snack or garnish on
+# your favourite meal
+[[food]]
+name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-sweet-and-spicy'
+serving-size = '100g'
+protein = 13
+carbs = 20.4
+# fiber estimated from roasted-hazelnut
+fiber = [ 7.4, 0.88 ]
+fat = 60
+source = 'launceston product label'
+
 # abundant earth by healtheries - puffed corn
 [[food]]
 name = 'abundant-earth-puffed-corn'
