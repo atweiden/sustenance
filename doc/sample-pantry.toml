@@ -323,6 +323,30 @@ fiber = 7.9
 fat = 44.7
 source = 'portland product label'
 
+# pure & purple garlic - italian mix
+# ingredients: tasmanian purple garlic, tasmanian native pepper berries,
+# pink grinder salt, oregano, parsley, capsicum, basil and red onion;
+# chemical and spray free, grown in rich organic soil
+[[food]]
+name = 'pure-and-purple-garlic-italian-mix'
+serving-size = '100g'
+protein = 12.2
+carbs = 38.9
+fat = 2
+source = 'launceston product label'
+
+# pure & purple garlic - original mix
+# ingredients: tasmanian purple garlic, tasmanian native pepper berries
+# (including leaves) and pure australian inland salt; gluten free,
+# chemical and spray free, grown in rich organic soil
+[[food]]
+name = 'pure-and-purple-garlic-original-mix'
+serving-size = '100g'
+protein = 4.4
+carbs = 16.5
+fat = 1.4
+source = 'launceston product label'
+
 # salamanca fruit leathers - fruit roll
 [[food]]
 name = 'salamanca-fruit-leathers-fruit-roll'
