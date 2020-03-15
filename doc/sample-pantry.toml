@@ -303,26 +303,6 @@ fiber = 18.1
 fat = 37.6
 source = 'https://www.pickld.com/collections/single-products/products/sesame-seasoning'
 
-# pure bliss organics - organic almond pumpkin bites
-[[food]]
-name = 'pure-bliss-organics-organic-almond-pumpkin-bites'
-serving-size = '100g'
-protein = 15.8
-carbs = 31.6
-fiber = 10.5
-fat = 44.7
-source = 'portland product label'
-
-# pure bliss organics - organic walnut hemp bites
-[[food]]
-name = 'pure-bliss-organics-organic-walnut-hemp-bites'
-serving-size = '100g'
-protein = 13.2
-carbs = 31.6
-fiber = 7.9
-fat = 44.7
-source = 'portland product label'
-
 # pure & purple garlic - italian mix
 # ingredients: tasmanian purple garlic, tasmanian native pepper berries,
 # pink grinder salt, oregano, parsley, capsicum, basil and red onion;
@@ -346,6 +326,26 @@ protein = 4.4
 carbs = 16.5
 fat = 1.4
 source = 'launceston product label'
+
+# pure bliss organics - organic almond pumpkin bites
+[[food]]
+name = 'pure-bliss-organics-organic-almond-pumpkin-bites'
+serving-size = '100g'
+protein = 15.8
+carbs = 31.6
+fiber = 10.5
+fat = 44.7
+source = 'portland product label'
+
+# pure bliss organics - organic walnut hemp bites
+[[food]]
+name = 'pure-bliss-organics-organic-walnut-hemp-bites'
+serving-size = '100g'
+protein = 13.2
+carbs = 31.6
+fiber = 7.9
+fat = 44.7
+source = 'portland product label'
 
 # salamanca fruit leathers - fruit roll
 [[food]]
