@@ -34,6 +34,78 @@ fiber = 7.1
 fat = 17.9
 source = 'https://www.albinacitynuts.com/shop/toasted-corn-big-bag'
 
+# applestraps - apple
+# ingredients: apple and water; no preservatives, artificial colours &
+# flavours; the peel was left on because it contains flavour, antioxidants
+# and vitamins a, b & c
+[[food]]
+name = 'applestraps-apple'
+serving-size = '100g'
+protein = 0.2
+carbs = 7.1
+fat = 0.1
+source = 'launceston product label'
+
+# applestraps - apple/blackberry
+# ingredients: apple, water and blackberry; no preservatives, artificial
+# colours & flavours; the peel was left on because it contains flavour,
+# antioxidants and vitamins a, b & c
+[[food]]
+name = 'applestraps-apple-blackberry'
+serving-size = '100g'
+protein = 0.2
+carbs = 7.5
+fat = 0.1
+source = 'launceston product label'
+
+# applestraps - apple/honey/vanilla bean
+# ingredients: apple, water, honey and vanilla-bean; no preservatives,
+# artificial colours & flavours; the peel was left on because it contains
+# flavour, antioxidants and vitamins a, b & c
+[[food]]
+name = 'applestraps-apple-honey-vanilla-bean'
+serving-size = '100g'
+protein = 0.2
+carbs = 8
+fat = 0.1
+source = 'launceston product label'
+
+# applestraps - apple/quince
+# ingredients: apple, water and quince; no preservatives, artificial
+# colours & flavours; the peel was left on because it contains flavour,
+# antioxidants and vitamins a, b & c
+[[food]]
+name = 'applestraps-apple-quince'
+serving-size = '100g'
+protein = 0.2
+carbs = 7.3
+fat = 0.1
+source = 'launceston product label'
+
+# applestraps - apple/raspberry
+# ingredients: apple, water and raspberry; no preservatives, artificial
+# colours & flavours; the peel was left on because it contains flavour,
+# antioxidants and vitamins a, b & c
+[[food]]
+name = 'applestraps-apple-raspberry'
+serving-size = '100g'
+protein = 0.2
+carbs = 7.1
+fat = 0.1
+source = 'launceston product label'
+
+# applestraps - apple/rhubarb
+# ingredients: apple, water and rhubarb; no preservatives, artificial
+# colours & flavours; the peel was left on because it contains flavour,
+# antioxidants and vitamins a, b & c
+[[food]]
+name = 'applestraps-apple-rhubarb'
+serving-size = '100g'
+protein = 0.8
+carbs = 4.6
+fat = 0.1
+source = 'launceston product label'
+
 # ceres organics - organic quinoa puffs
 [[food]]
 name = 'ceres-organics-quinoa-puffs'
