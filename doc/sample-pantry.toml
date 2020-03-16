@@ -598,6 +598,18 @@ fiber = [ 27.5, 0.62 ]
 fat = 3.8
 source = 'portland product label'
 
+# trader joe's - organic peanut powder with sea salt
+# ingredients: partially defatted organic peanut flour, sea salt
+[[food]]
+name = 'trader-joes-organic-peanut-powder-with-sea-salt'
+serving-size = '100g'
+protein = 46.7
+carbs = 33.3
+# insoluble fiber estimated from peanut
+fiber = [ 13.3, 0.95 ]
+fat = 13.3
+source = 'portland product label'
+
 # trader joe's - roasted seaweed snack with sea salt
 # ingredients: seaweed, expeller pressed canola oil, sesame oil, sea salt
 [[food]]
