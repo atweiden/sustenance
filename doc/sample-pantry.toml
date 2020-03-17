@@ -1664,6 +1664,16 @@ fiber = 1.5
 fat = 0.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/174687/nutrients'
 
+# jujube, raw
+[[food]]
+name = 'jujube'
+serving-size = '100g'
+protein = 0.8
+carbs = 17
+fiber = [ 1.3, 0.8 ]
+fat = 0.1
+source = 'https://www.ejfa.me/index.php/journal/article/view/965/695'
+
 # horned melon (kiwano)
 [[food]]
 name = 'kiwano'
