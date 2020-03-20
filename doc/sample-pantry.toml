@@ -2545,11 +2545,23 @@ protein = 7.6
 carbs = 75
 fat = 8.4
 
+# dundee - tasmanian garlic granules
+# estimate macros from garlic with assumption
+# 665g fresh garlic yields 265g dehydrated garlic [46]
+# = 100g dehydrated garlic has 2.51X macros of 100g fresh garlic
+[[food]]
+name = 'dehydrated-garlic'
+serving-size = '100g'
+protein = 16.1
+carbs = 69
+fiber = [ 15.6, 0.34 ]
+fat = 2.3
+
 # dr garlic - dehydrated smoked garlic
 # estimate macros from garlic with assumption
 # 1 medium-sized garlic clove weighs 6.5g on average
 # 1 medium-sized roasted garlic clove weighs 0.76g on average
-# = 100g roasted garlic has 8.6X macros of 100g raw garlic
+# = 100g dehyrated smoked garlic has 8.6X macros of 100g fresh garlic
 [[food]]
 name = 'dehydrated-smoked-garlic'
 serving-size = '100g'
@@ -5651,6 +5663,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [43]: https://world.openfoodfacts.org/product/5400112366103/kiwano-delhaize
 # [44]: https://sunnyfruit.com/dried-fruits/
 # [45]: https://web.archive.org/web/20070126060813/http://www.5aday.gov/month/exotic_fruit.html
+# [46]: http://allrecipes.co.uk/recipe/39228/homemade-garlic-granules.aspx
 
 # end cite }}}
 # ==============================================================================
