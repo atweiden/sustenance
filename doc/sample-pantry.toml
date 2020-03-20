@@ -1982,6 +1982,20 @@ fiber = 6.7
 fat = 1.3
 source = 'auckland product label'
 
+# malouf's spice mezza - preserved lemons with honey
+# with pulpy flesh discarded
+# ingredients: lemons, sea salt, lemon juice, honey, cinnamon, coriander,
+# bay leaves, and water added
+[[food]]
+name = 'preserved-lemon-with-honey'
+serving-size = '100g (6.67 tbsp liquid or 1.67 lemon peel)'
+protein = 0.5
+# carbs and fiber estimated from preserved-lemon
+carbs = 13.3
+fiber = 6.7
+fat = 0.2
+source = 'launceston product label'
+
 # japanese radishes, daikon, root, pickles, "takuan-zuke" (pickled with
 # rice bran and salt), made of salted daikon
 [[food]]
