@@ -278,6 +278,18 @@ fiber = 7
 fat = 15
 source = 'https://griloprotein.com.au/product/organic-cricket-flour/'
 
+# happy way - all natural protein powder - vegan choc pea flavour
+# ingredients: protein blend (pea protein isolate, rice protein
+# concentrate), cacao, coconut flour, chia seeds, psyllium husk, maca
+# powder, sweetener (stevia), himalayan rock salt
+[[food]]
+name = 'happy-way-all-natural-protein-powder-vegan-choc-pea-flavour'
+serving-size = '100g'
+protein = 78.9
+carbs = 3.7
+fat = 2.7
+source = 'launceston product label'
+
 # honest sea - roasted seaweed snack - sea salt
 [[food]]
 name = 'honest-sea-roasted-seaweed-snack-sea-salt'
