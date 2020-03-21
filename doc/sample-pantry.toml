@@ -166,6 +166,20 @@ carbs = 4.6
 fat = 0.1
 source = 'launceston product label'
 
+# brookfarm - cacao coconut granola
+# ingredients: puffed rice, coconut flakes (12%), organic golden flaxseed,
+# honey, almonds, sunflower kernels, pumpkin kernels, macadamia oil,
+# organic raw cacao (3%), pecans, vanilla extract, organic tapioca,
+# cinnamon
+[[food]]
+name = 'brookfarm-cacao-coconut-granola'
+serving-size = '100g'
+protein = 16.2
+carbs = 47.2
+fiber = 11.1
+fat = 32.3
+source = 'launceston product label'
+
 # ceres organics - organic quinoa puffs
 [[food]]
 name = 'ceres-organics-quinoa-puffs'
