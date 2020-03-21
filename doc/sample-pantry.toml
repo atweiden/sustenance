@@ -376,6 +376,17 @@ fiber = 31.3
 fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
+# meru miso - mild yellow chickpea miso
+# ingredients: white rice, chickpeas, salt, koji starter (aspergillus
+# oryzae)
+[[food]]
+name = 'meru-miso-mild-yellow-chickpea-miso'
+serving-size = '100g'
+protein = 5.2
+carbs = 17.4
+fat = 1.6
+source = 'launceston product label'
+
 # mitica - crunchy quicos (toasted corn)
 [[food]]
 name = 'mitica-crunchy-quicos'
