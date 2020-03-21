@@ -286,6 +286,28 @@ fiber = 20
 fat = 46
 source = 'perth product label'
 
+# larder fresh - falafel
+# ingredients: water, chickepas, fava beans, fresh onions, fresh herbs
+# and fresh spices, rice bran oil, salt and garlic
+[[food]]
+name = 'larder-fresh-falafel'
+serving-size = '100g'
+protein = 12.2
+carbs = 21.9
+fat = 11.5
+source = 'launceston product label'
+
+# larder fresh - roast carrot, kale & chickpea burger
+# ingredients: chickpeas (51%), roasted carrot (30%), sweet potato,
+# red lentil, sunflower seeds, rice bran oil, salt, spices, kale (1%)
+[[food]]
+name = 'larder-fresh-roast-carrot-kale-chickpea-burger'
+serving-size = '100g'
+protein = 4.7
+carbs = 12.4
+fat = 6.1
+source = 'launceston product label'
+
 # macro wholefoods market - australian cricket powder
 [[food]]
 name = 'macro-wholefoods-market-australian-cricket-powder'
