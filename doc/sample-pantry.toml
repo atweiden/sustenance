@@ -398,6 +398,15 @@ fiber = [ 6.7, 0.9 ]
 fat = 15
 source = 'portland product label'
 
+# molives - chilli green olives
+[[food]]
+name = 'molives-chilli-green-olives'
+serving-size = '100g'
+protein = 2.2
+carbs = 2.8
+fat = 23.8
+source = 'launceston product label'
+
 # nature's kitchen - curried pumpkin & corn burgers
 [[food]]
 name = 'natures-kitchen-curried-pumpkin-corn-burgers'
