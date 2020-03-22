@@ -494,6 +494,19 @@ fiber = 18.1
 fat = 37.6
 source = 'https://www.pickld.com/collections/single-products/products/sesame-seasoning'
 
+# pimp my salad - sea superfoods
+# ingredients: activated & sprouted sunflower seeds, wakame, tasmanian
+# kelp, organic spirulina, gluten-free wasabe (horseradish powder,
+# mustard), tamari (filtered water, soybeans, sea salt), plum vinegar
+# (ume juice, water, sea salt), himalayan pink salt
+[[food]]
+name = 'pimp-my-salad-sea-superfoods'
+serving-size = '100g'
+protein = 22.6
+carbs = 6.7
+fat = 32.3
+source = 'launceston product label'
+
 # pure & purple garlic - italian mix
 # ingredients: tasmanian purple garlic, tasmanian native pepper berries,
 # pink grinder salt, oregano, parsley, capsicum, basil and red onion;
