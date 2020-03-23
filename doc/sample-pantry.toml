@@ -5421,6 +5421,16 @@ fiber = [ 6.8, 0.91 ]
 fat = 0.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# peas, sprouts, raw
+[[food]]
+name = 'pea-sprout'
+serving-size = '100g'
+protein = 3.8
+carbs = 3.2
+fiber = [ 2.2, 0.91 ]
+fat = 0.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # pumpkin and squash, winter squash, fruit, baked
 [[food]]
 name = 'pumpkin'
