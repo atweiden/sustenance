@@ -421,6 +421,7 @@ fat = 15
 source = 'portland product label'
 
 # molives - chilli green olives
+# ingredients: pitted green olives, dried chilli, olive oil and vinegar
 [[food]]
 name = 'molives-chilli-green-olives'
 serving-size = '100g'
@@ -430,6 +431,8 @@ fat = 23.8
 source = 'launceston product label'
 
 # molives - oregano & garlic green olives
+# ingredients: pitted green olives, dried oregano, garlic, olive oil
+# and vinegar
 [[food]]
 name = 'molives-oregano-garlic-green-olives'
 serving-size = '100g'
