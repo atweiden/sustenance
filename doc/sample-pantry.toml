@@ -387,6 +387,28 @@ carbs = 17.4
 fat = 1.6
 source = 'launceston product label'
 
+# meru miso - sweet red miso
+# ingredients: white rice, soy beans, salt, koji starter (aspergillus
+# oryzae)
+[[food]]
+name = 'meru-miso-sweet-red-miso'
+serving-size = '100g'
+protein = 11.3
+carbs = 19.6
+fat = 5.7
+source = 'launceston product label'
+
+# meru miso - sweet white miso
+# ingredients: white rice, soy beans, salt, koji starter (aspergillus
+# oryzae)
+[[food]]
+name = 'meru-miso-sweet-white-miso'
+serving-size = '100g'
+protein = 10.7
+carbs = 26.1
+fat = 5.1
+source = 'launceston product label'
+
 # mitica - crunchy quicos (toasted corn)
 [[food]]
 name = 'mitica-crunchy-quicos'
