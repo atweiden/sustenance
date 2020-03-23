@@ -429,6 +429,15 @@ carbs = 2.8
 fat = 23.8
 source = 'launceston product label'
 
+# molives - oregano & garlic green olives
+[[food]]
+name = 'molives-oregano-garlic-green-olives'
+serving-size = '100g'
+protein = 2.2
+carbs = 3.4
+fat = 23.4
+source = 'launceston product label'
+
 # nature's kitchen - curried pumpkin & corn burgers
 [[food]]
 name = 'natures-kitchen-curried-pumpkin-corn-burgers'
