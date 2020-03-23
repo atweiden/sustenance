@@ -608,6 +608,51 @@ fiber = [ 7.9, 0.88 ]
 fat = 0.4
 source = 'portland product label'
 
+# take & eat - organic tempeh - adzuki bean
+# ingredients: certified organic adzuki beans (min 90%), water, vinegar,
+# starter culture (rhizopus oligosporus)
+[[food]]
+name = 'take-and-eat-organic-tempeh-adzuki-bean'
+serving-size = '100g'
+protein = 7
+carbs = 25
+fat = 0
+source = 'launceston product label'
+
+# take & eat - organic tempeh - australian chickpea
+# ingredients: certified organic chickpeas (min 90%), water, vinegar,
+# starter culture (rhizopus oligosporus)
+[[food]]
+name = 'take-and-eat-organic-tempeh-australian-chickpea'
+serving-size = '100g'
+protein = 13
+carbs = 19
+fat = 2
+source = 'launceston product label'
+
+# take & eat - organic tempeh - chickpea/mung bean/adzuki bean
+# ingredients: certified organic chickpeas (min 30%), certified organic
+# mung beans (min 30%), certified organic adzuki beans (min 30%), water,
+# vinegar, starter culture (rhizopus oligosporus)
+[[food]]
+name = 'take-and-eat-organic-tempeh-chickpea-mung-bean-adzuki-bean'
+serving-size = '100g'
+protein = 9
+carbs = 18.5
+fat = 0.8
+source = 'launceston product label'
+
+# take & eat - organic tempeh - mung bean
+# ingredients: certified organic mung beans (min 90%), water, vinegar,
+# starter culture (rhizopus oligosporus)
+[[food]]
+name = 'take-and-eat-organic-tempeh-mung-bean'
+serving-size = '100g'
+protein = 7
+carbs = 11.5
+fat = 0.4
+source = 'launceston product label'
+
 # the happy snack co - crunchy roasted chickpeas - lightly salted
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-chickpeas-salted'
