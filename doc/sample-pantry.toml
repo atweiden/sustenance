@@ -4200,6 +4200,17 @@ fiber = [ 7.3, 0.75 ]
 fat = 51.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# chef's choice - organic roasted black sesame seeds
+[[food]]
+name = 'roasted-sesame-seed'
+serving-size = '100g'
+protein = 18
+carbs = 38.5
+# insoluble fiber estimated from japanese food composition tables [18]
+fiber = [ 14.5, 0.8 ]
+fat = 50
+source = 'launceston product label'
+
 # sunflower seeds, oil-roasted and salted
 [[food]]
 name = 'roasted-sunflower-seed'
@@ -4602,7 +4613,8 @@ name = 'sesame-seed'
 serving-size = '1 tbsp (9g)'
 protein = 2.1
 carbs = 1.1
-fiber = 1
+# insoluble fiber estimated from japanese food composition tables [18]
+fiber = [ 1.0, 0.8 ]
 fat = 5.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/34245'
 
