@@ -258,6 +258,19 @@ fiber = [ 6.7, 0.88 ]
 fat = 48
 source = 'hobart product label'
 
+# forage & feast - crispy dried fruit slices - salted tomato
+# ingredients: cashews, lakanto, garlic, olive oil, salt, gluten-free
+# soy sauce, smoked paprika, garam masala
+[[food]]
+name = 'forage-and-feast-salted-tomato'
+serving-size = '100g'
+protein = 6.6
+carbs = 28.1
+# fiber estimated from sun-dried-tomato
+fiber = [ 12.3, 0.91 ]
+fat = 0.7
+source = 'launceston product label'
+
 # gimme organic - premium roasted seaweed - sea salt
 [[food]]
 name = 'gimme-organic-premium-roasted-seaweed-sea-salt'
