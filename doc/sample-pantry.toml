@@ -562,6 +562,19 @@ carbs = 6.7
 fat = 32.3
 source = 'launceston product label'
 
+# pimp my salad - super seeds
+# ingredients: sunflower seeds, pumpkin seeds, flax seeds, chia seeds,
+# sesame seeds, poppy seeds, organic nutritional yeast, tamari (filtered
+# water, organic soybeans, sea salt), paprika, rosemary, himalayan
+# pink salt
+[[food]]
+name = 'pimp-my-salad-super-seeds'
+serving-size = '100g'
+protein = 19.3
+carbs = 4.3
+fat = 37.4
+source = 'launceston product label'
+
 # pure & purple garlic - italian mix
 # ingredients: tasmanian purple garlic, tasmanian native pepper berries,
 # pink grinder salt, oregano, parsley, capsicum, basil and red onion;
