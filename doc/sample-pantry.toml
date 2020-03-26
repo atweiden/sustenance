@@ -5758,6 +5758,16 @@ fiber = [ 44.2, 0.0 ]
 fat = 1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# seaweed, dried (includes sea moss, kelp; laver)
+[[food]]
+name = 'dried-seaweed'
+serving-size = '100g'
+protein = 31.8
+carbs = 52.4
+fiber = 5.6
+fat = 4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/343324/nutrients'
+
 [[food]]
 name = 'hitoegusa-sea-lettuce'
 aka = [
