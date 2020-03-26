@@ -259,8 +259,7 @@ fat = 48
 source = 'hobart product label'
 
 # forage & feast - crispy dried fruit slices - salted tomato
-# ingredients: cashews, lakanto, garlic, olive oil, salt, gluten-free
-# soy sauce, smoked paprika, garam masala
+# ingredients: tomatoes (99%), salt (1%)
 [[food]]
 name = 'forage-and-feast-salted-tomato'
 serving-size = '100g'
