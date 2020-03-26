@@ -2905,6 +2905,16 @@ fiber = 6.3
 fat = 0.9
 source = 'portland product label'
 
+# edamame, cooked
+[[food]]
+name = 'edamame'
+serving-size = '100g'
+protein = 11.9
+carbs = 8.9
+fiber = [ 5.2, 0.88 ]
+fat = 5.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339355/nutrients'
+
 # vicia faba - bean, broad bean, fava bean, boiled with salt
 [[food]]
 name = 'fava-bean'
