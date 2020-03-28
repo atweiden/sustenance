@@ -543,7 +543,6 @@ name = 'mindful-foods-yummy-beans'
 serving-size = '100g'
 protein = 11.8
 carbs = 26.9
-# insoluble fiber estimated from corn-kernel
 fiber = 11
 fat = 22.2
 source = 'launceston product label'
