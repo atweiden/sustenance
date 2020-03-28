@@ -270,6 +270,78 @@ fiber = [ 12.3, 0.91 ]
 fat = 0.7
 source = 'launceston product label'
 
+# forager fruits - freeze-dried apple wedges
+# ingredients: 100% tasmanian-grown apples
+# macros estimated from apple at 100:20 ratio
+[[food]]
+name = 'forager-fruits-freeze-dried-apple-wedges'
+serving-size = '100g'
+protein = 1
+carbs = 81
+fiber = [ 9.5, 0.74 ]
+fat = 1.5
+source = 'launceston product label'
+
+# forager fruits - freeze-dried banana bites
+# ingredients: 100% australian-grown bananas
+# macros estimated from banana at 100:25 ratio
+[[food]]
+name = 'forager-fruits-freeze-dried-banana-bites'
+serving-size = '100g'
+protein = 4.4
+carbs = 90
+fiber = [ 4.4, 0.91 ]
+fat = 0.8
+source = 'launceston product label'
+
+# forager fruits - freeze-dried blueberries
+# ingredients: 100% australian-grown blueberries
+# macros estimated from blueberry at 100:15 ratio
+[[food]]
+name = 'forager-fruits-freeze-dried-blueberries'
+serving-size = '100g'
+protein = 3.3
+carbs = 86
+fiber = [ 22, 0.85 ]
+fat = 0.7
+source = 'launceston product label'
+
+# forager fruits - freeze-dried cherries
+# ingredients: 100% tasmanian-grown cherries
+# macros estimated from cherry at 100:30 ratio
+[[food]]
+name = 'forager-fruits-freeze-dried-cherries'
+serving-size = '100g'
+protein = 4
+carbs = 57
+fiber = [ 4.7, 0.57 ]
+fat = 0.3
+source = 'launceston product label'
+
+# forager fruits - freeze-dried mango bites
+# ingredients: 100% australian-grown mangoes
+# macros estimated from mango at 100:30 ratio
+[[food]]
+name = 'forager-fruits-freeze-dried-mango-bites'
+serving-size = '100g'
+protein = 2
+carbs = 56.3
+fiber = [ 4.3, 0.54 ]
+fat = 0.3
+source = 'launceston product label'
+
+# forager fruits - freeze-dried strawberry bites
+# ingredients: 100% australian-grown strawberries
+# macros estimated from strawberry at 100:10 ratio
+[[food]]
+name = 'forager-fruits-freeze-dried-strawberry-bites'
+serving-size = '100g'
+protein = 9
+carbs = 85
+fiber = [ 14, 0.64 ]
+fat = 1
+source = 'launceston product label'
+
 # gimme organic - premium roasted seaweed - sea salt
 [[food]]
 name = 'gimme-organic-premium-roasted-seaweed-sea-salt'
@@ -1520,7 +1592,8 @@ serving-size = '100g'
 protein = 4.3
 carbs = 72.5
 # fiber estimated from usda food data central [34]
-fiber = 21.4
+# insoluble fiber estimated from strawberry
+fiber = [ 21.4, 0.64 ]
 # less than 1g
 fat = 0.5
 source = 'auckland product label'
