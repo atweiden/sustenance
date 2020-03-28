@@ -302,7 +302,7 @@ name = 'forager-fruits-freeze-dried-blueberries'
 serving-size = '100g'
 protein = 3.3
 carbs = 86
-fiber = [ 22, 0.85 ]
+fiber = [ 22.0, 0.85 ]
 fat = 0.7
 source = 'launceston product label'
 
@@ -338,7 +338,7 @@ name = 'forager-fruits-freeze-dried-strawberry-bites'
 serving-size = '100g'
 protein = 9
 carbs = 85
-fiber = [ 14, 0.64 ]
+fiber = [ 14.0, 0.64 ]
 fat = 1
 source = 'launceston product label'
 
