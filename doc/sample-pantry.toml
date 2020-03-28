@@ -493,6 +493,61 @@ carbs = 26.1
 fat = 5.1
 source = 'launceston product label'
 
+# mindful foods - cacao brain power
+# ingredients: activated (buckwheat, sunflower seeds, pepitas, almonds,
+# pecans), coconut chips, honey, macadamias, coconut oil, cacao nibs,
+# cacao powder, ginger, cinnamon, mesquite, maca, nutmeg, vanilla,
+# gingko, gotu kola, brahmi, tulsi
+[[food]]
+name = 'mindful-foods-cacao-brain-power'
+serving-size = '100g'
+protein = 13.6
+carbs = 41
+fiber = 11.8
+fat = 29.6
+source = 'launceston product label'
+
+# mindful foods - golden granola
+# ingredients: activated (buckwheat, sunflower seeds, pepitas, almonds,
+# pecans), coconut chips, oats, raw macadamias, brown rice malt syrup,
+# turmeric, vanilla bean, lemon powder, clove, lemon myrtle, safflower,
+# star anise, pepper
+[[food]]
+name = 'mindful-foods-golden-granola'
+serving-size = '100g'
+protein = 11
+carbs = 49.8
+fiber = 12.4
+fat = 26.8
+source = 'launceston product label'
+
+# mindful foods - korean bbq munchies
+# ingredients: kombucha-activated (almonds, cashews), green lentils, red
+# miso, gochugaro, tamari, rice malt, garlic, onion flakes, black sesame,
+# nigella sativa
+[[food]]
+name = 'mindful-foods-korean-bbq-munchies'
+serving-size = '100g'
+protein = 14.4
+carbs = 16.4
+fat = 31.9
+source = 'launceston product label'
+
+# mindful foods - yummy beans
+# ingredients: activated (lentils, buckwheat, australian insecticide-free
+# sunflower seeds, pepitas, almonds), chickpeas, olive oil, shitake
+# mushroom, sesame seed, yeast flakes, turmeric, nigella sativa, cumin,
+# corinader seed, ginger, black pepper, paprika, rosemary, fennel seed
+[[food]]
+name = 'mindful-foods-yummy-beans'
+serving-size = '100g'
+protein = 11.8
+carbs = 26.9
+# insoluble fiber estimated from corn-kernel
+fiber = 11
+fat = 22.2
+source = 'launceston product label'
+
 # mitica - crunchy quicos (toasted corn)
 [[food]]
 name = 'mitica-crunchy-quicos'
