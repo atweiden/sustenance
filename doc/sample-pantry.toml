@@ -781,6 +781,42 @@ carbs = 20.4
 fat = 42
 source = 'launceston product label'
 
+# rawries - instant vegan burger mix - indian curry
+# ingredients: wholegrain millet, wholegrain brown rice flour, linseed,
+# salt, psyllium husk, onion, garlic, cinnamon, garam masala, cardamom,
+# turmeric, coriander, paprika, cumin, ginger
+[[food]]
+name = 'rawries-instant-vegan-burger-mix-indian-curry'
+serving-size = '100g'
+protein = 10.1
+carbs = 60.7
+fat = 5.2
+source = 'launceston product label'
+
+# rawries - instant vegan burger mix - mexican chipotle
+# ingredients: wholegrain millet, wholegrain brown rice flour, linseed,
+# salt, psyllium husk, onion, garlic, coriander, paprika, chipotle,
+# cumin, oregano
+[[food]]
+name = 'rawries-instant-vegan-burger-mix-mexican-chipotle'
+serving-size = '100g'
+protein = 10.1
+carbs = 60.6
+fat = 5.2
+source = 'launceston product label'
+
+# rawries - instant vegan falafel mix
+# ingredients: wholegrain millet, chickpea flour, wholegrain brown rice
+# flour, salt, psyllium husk, onion, garlic, cumin, coriander, turmeric,
+# paprika, parsley, salt, pepper
+[[food]]
+name = 'rawries-instant-vegan-falafel-mix'
+serving-size = '100g'
+protein = 12.9
+carbs = 56.4
+fat = 4.4
+source = 'launceston product label'
+
 # salamanca fruit leathers - fruit roll
 [[food]]
 name = 'salamanca-fruit-leathers-fruit-roll'
