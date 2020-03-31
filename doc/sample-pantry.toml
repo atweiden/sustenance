@@ -63,6 +63,27 @@ fiber = [ 7.4, 0.88 ]
 fat = 60
 source = 'launceston product label'
 
+# absolute organic - lupin beans
+[[food]]
+name = 'absolute-organic-lupin-beans'
+serving-size = '100g'
+protein = 9.5
+carbs = 10.7
+fiber = 5
+fat = 2.6
+source = 'launceston product label'
+
+# absolute organic - sweet corn
+[[food]]
+name = 'absolute-organic-sweet-corn'
+serving-size = '100g'
+protein = 2
+carbs = 12.8
+# insoluble fiber estimated from corn
+fiber = [ 1.2, 0.9 ]
+fat = 0.8
+source = 'launceston product label'
+
 # abundant earth by healtheries - puffed corn
 [[food]]
 name = 'abundant-earth-puffed-corn'
