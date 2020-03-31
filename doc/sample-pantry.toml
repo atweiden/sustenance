@@ -768,6 +768,19 @@ fiber = 7.9
 fat = 44.7
 source = 'portland product label'
 
+# pure snack - probiotic kale chips - dill & onion
+# ingredients: organic australian-grown kale, single origin chemical-free
+# cashew nuts, australian-grown chemical-free sunflower seeds, vitamin c,
+# onion, dill, himalayan pink salt, rosemary extract, vegan probiotic
+# bacillus coagulans gbi 30-6086
+[[food]]
+name = 'pure-snack-probiotic-kale-chips-dill-and-onion'
+serving-size = '100g'
+protein = 18.2
+carbs = 20.4
+fat = 42
+source = 'launceston product label'
+
 # salamanca fruit leathers - fruit roll
 [[food]]
 name = 'salamanca-fruit-leathers-fruit-roll'
