@@ -3011,13 +3011,15 @@ carbs = 236.5
 fiber = [ 53.3, 0.34 ]
 fat = 7.7
 
-# fresh dill weed
+# dill weed, fresh
 [[food]]
-name = 'dill'
+name = 'dill-weed'
 serving-size = '100g'
 protein = 3.5
 carbs = 7
+fiber = 2.1
 fat = 1.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/172233/nutrients'
 
 # garlic, bulb, raw
 [[food]]
@@ -4694,6 +4696,16 @@ protein = 0.9
 carbs = 3.5
 fat = 0.9
 
+# spices, dill seed
+[[food]]
+name = 'dill-seed'
+serving-size = '1 tbsp (6.6g)'
+protein = 1.1
+carbs = 3.6
+fiber = 1.4
+fat = 1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170925/nutrients'
+
 # ground dried basil
 [[food]]
 name = 'dried-basil'
@@ -4701,6 +4713,16 @@ serving-size = '1 tbsp (3.3g)'
 protein = 0.8
 carbs = 1.6
 fat = 0.1
+
+# spices, dill weed, dried
+[[food]]
+name = 'dried-dill-weed'
+serving-size = '1 tbsp (3.1g)'
+protein = 0.6
+carbs = 1.7
+fiber = 0.4
+fat = 0.1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/171322/nutrients'
 
 # ground dried oregano
 [[food]]
@@ -4789,6 +4811,17 @@ serving-size = '1 tbsp (1.7g)'
 protein = 0.2
 carbs = 1
 fat = 0.1
+
+# homemade montreal steak seasoning [47]
+# consisting of: paprika:2, black-pepper:2, salt:2, dehydrated-garlic:0.1,
+# onion-powder:1, coriander-seed:0.75, dill-seed:1, crushed-red-pepper:1
+[[food]]
+name = 'montreal-steak-seasoning'
+serving-size = '1 tbsp (12g)'
+protein = 1
+carbs = 4.7
+fiber = 0.6
+fat = 0.6
 
 # ground mustard
 [[food]]
