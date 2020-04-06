@@ -1307,6 +1307,49 @@ fiber = [ 31.2, 0.56 ]
 fat = 21.9
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/475563/nutrients'
 
+# corn, corn flour, yellow kernel, raw
+# also includes white kernel
+[[food]]
+name = 'corn-flour'
+aka = [
+  # au/ie/il/nz/uk (usa:cornflour::commonwealth:maizeflour)
+  'maize-flour'
+]
+serving-size = '100g'
+protein = 6.6
+carbs = 76.1
+fiber = [ 1.7, 0.88 ]
+fat = 2.8
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# corn, corn meal, yellow kernel, raw
+# also includes white kernel
+[[food]]
+name = 'corn-meal'
+serving-size = '100g'
+protein = 8.3
+carbs = 72.4
+fiber = [ 7.4, 0.93 ]
+fat = 4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# starch, corn starch
+# not to be confused with cornmeal
+[[food]]
+name = 'corn-starch'
+aka = [
+  # au/ie/il/nz/uk (usa:cornstarch::commonwealth:cornflour)
+  'corn-flour',
+  # europe, latin america
+  'maizena'
+]
+serving-size = '100g'
+protein = 0.1
+carbs = 86.3
+fiber = 0
+fat = 0.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # bob's red mill - organic golden flaxseed meal [6]
 [[food]]
 name = 'flax-seed-meal'
@@ -1324,6 +1367,21 @@ carbs = 30.8
 fiber = [ 23.1, 0.46 ]
 fat = 34.6
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/396925/nutrients'
+
+# corn, corn grits, yellow kernel, raw
+# also includes white kernel
+[[food]]
+name = 'grits'
+aka = [
+  'corn-grits',
+  'polenta'
+]
+serving-size = '100g'
+protein = 8.2
+carbs = 76.4
+fiber = [ 2.4, 0.96 ]
+fat = 1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # gerbs - hemp kernel meal
 [[food]]
@@ -1347,6 +1405,16 @@ carbs = 41
 fiber = 37
 fat = 6.4
 source = 'https://rawearthproduce.com.au/collections/frontpage/products/lupin-flour'
+
+# starch, potato starch
+[[food]]
+name = 'potato-starch'
+serving-size = '100g'
+protein = 0.1
+carbs = 81.6
+fiber = 0
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # gerbs - raw pumpkin seed meal
 [[food]]
@@ -2854,17 +2922,6 @@ carbs = 73.3
 fiber = 6.7
 fat = 1.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/596587/nutrients'
-
-# corn, corn grits, yellow kernel, raw
-[[food]]
-name = 'grits'
-aka = 'corn-grits'
-serving-size = '100g'
-protein = 8.2
-carbs = 76.4
-fiber = [ 2.4, 0.96 ]
-fat = 1
-source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # common oats, oatmeal, raw
 [[food]]
