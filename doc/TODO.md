@@ -54,6 +54,17 @@
       modname = 'poppeye'
       activity-level = 'very-active'
     ```
+- implement food derivatives input syntax
+  - e.g.
+    ```toml
+    [[portion]]
+    name = 'combo'
+    from = {
+      'black-bean': 0.5,
+      'pinto-bean': 0.5
+    }
+    serving = 1
+    ```
 
 ## testing
 
