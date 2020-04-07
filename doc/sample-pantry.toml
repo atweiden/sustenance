@@ -768,6 +768,20 @@ fiber = 7.9
 fat = 44.7
 source = 'portland product label'
 
+# pure snack - probiotic kale chips - cashew vegan cheese
+# ingredients: organic australian-grown kale, single origin chemical-free
+# cashew nuts, australian-grown chemical-free sunflower seeds, vitamin c,
+# organic paprika, nutritional yeast, onion, organic turmeric, red
+# capsicum, himalayan pink salt, organic evaporated coconut nectar,
+# rosemary extract, vegan probiotic bacillus coagulans gbi 30-6086
+[[food]]
+name = 'pure-snack-probiotic-kale-chips-cashew-vegan-cheese'
+serving-size = '100g'
+protein = 15.4
+carbs = 17.8
+fat = 33.1
+source = 'launceston product label'
+
 # pure snack - probiotic kale chips - dill & onion
 # ingredients: organic australian-grown kale, single origin chemical-free
 # cashew nuts, australian-grown chemical-free sunflower seeds, vitamin c,
