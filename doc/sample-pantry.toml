@@ -4542,6 +4542,19 @@ fiber = [ 7.1, 0.85 ]
 fat = 46.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170562/nutrients'
 
+[[food]]
+name = 'sacha-inchi-seed'
+aka = [
+  'inca-peanut',
+  'savi-seed'
+]
+serving-size = '100g'
+protein = 32.1
+carbs = 17.9
+fiber = 17.9
+fat = 46.4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/452927/nutrients'
+
 # seeds, sunflower seed kernels, dried
 [[food]]
 name = 'sunflower-seed'
@@ -5115,6 +5128,16 @@ protein = 80
 carbs = 4
 fiber = 4
 fat = 6
+
+# zego - plant protein [48]
+[[food]]
+name = 'sacha-inchi-protein-powder'
+serving-size = '100g'
+protein = 60.7
+carbs = 28.6
+fiber = 12.5
+fat = 10.7
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/807401/nutrients'
 
 # soy lecithin, granules or powder
 [[food]]
@@ -6204,6 +6227,8 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [44]: https://sunnyfruit.com/dried-fruits/
 # [45]: https://web.archive.org/web/20070126060813/http://www.5aday.gov/month/exotic_fruit.html
 # [46]: http://allrecipes.co.uk/recipe/39228/homemade-garlic-granules.aspx
+# [47]: https://www.chowhound.com/recipes/montreal-steak-seasoning-10590
+# [48]: https://zegofoods.com/shop/seed-fruit/pure-protein/
 
 # end cite }}}
 # ==============================================================================
