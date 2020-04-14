@@ -2961,6 +2961,16 @@ fiber = 13.8
 fat = 6.9
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/469257/nutrients'
 
+# proso millet, milled grain, raw
+[[food]]
+name = 'millet'
+serving-size = '100g'
+protein = 11.3
+carbs = 70.9
+fiber = [ 1.6, 1.0 ]
+fat = 3.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # quinoa, cooked without salt
 [[food]]
 name = 'quinoa'
