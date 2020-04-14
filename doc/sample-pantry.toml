@@ -3003,6 +3003,16 @@ fiber = [ 9.4, 0.66 ]
 fat = 5.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# sorghum, whole grain, raw
+[[food]]
+name = 'sorghum-grain'
+serving-size = '100g'
+protein = 10.3
+carbs = 71.1
+fiber = [ 9.7, 0.93 ]
+fat = 4.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # rice, short grain, paddy rice, glutinous rice, well-milled, "meshi"
 # (cooked rice)
 [[food]]
