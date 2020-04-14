@@ -2937,6 +2937,15 @@ fiber = 6.7
 fat = 1.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/596587/nutrients'
 
+[[food]]
+name = 'kaniwa'
+serving-size = '100g'
+protein = 13.8
+carbs = 65.5
+fiber = 13.8
+fat = 6.9
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/469257/nutrients'
+
 # common oats, oatmeal, raw
 [[food]]
 name = 'rolled-oats'
