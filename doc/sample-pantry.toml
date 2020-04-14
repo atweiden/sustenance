@@ -2983,6 +2983,16 @@ fiber = [ 7.0, 0.87 ]
 fat = 6.1
 source = 'auckland product label'
 
+# rice, bran
+[[food]]
+name = 'rice-bran'
+serving-size = '100g'
+protein = 13.4
+carbs = 48.8
+fiber = [ 20.5, 0.89 ]
+fat = 19.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # common oats, oatmeal, raw
 [[food]]
 name = 'rolled-oats'
