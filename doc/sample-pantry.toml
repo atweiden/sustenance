@@ -2871,6 +2871,21 @@ fiber = [ 1.4, 0.86 ]
 fat = 1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# buckwheat flour, straight
+# not to be confused with kasha, which is toasted
+[[food]]
+name = 'buckwheat'
+aka = [
+  'buckwheat-flour',
+  'buckwheat-groat'
+]
+serving-size = '100g'
+protein = 12
+carbs = 69.6
+fiber = [ 4.3, 0.81 ]
+fat = 3.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # couscous, cooked
 [[food]]
 name = 'couscous'
