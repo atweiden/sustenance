@@ -2946,6 +2946,28 @@ fiber = 13.8
 fat = 6.9
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/469257/nutrients'
 
+# quinoa, cooked without salt
+[[food]]
+name = 'quinoa'
+serving-size = '100g'
+protein = 4.8
+carbs = 22.9
+# insoluble fiber estimated from prebiotin [3]
+fiber = [ 2.8, 0.87 ]
+fat = 2.4
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31179'
+
+# ceres organics - quinoa flakes
+[[food]]
+name = 'quinoa-flake'
+serving-size = '100g'
+protein = 14.1
+carbs = 71.2
+# insoluble fiber estimated from quinoa
+fiber = [ 7.0, 0.87 ]
+fat = 6.1
+source = 'auckland product label'
+
 # common oats, oatmeal, raw
 [[food]]
 name = 'rolled-oats'
@@ -4473,28 +4495,6 @@ carbs = 10.7
 fiber = [ 6.0, 0.73 ]
 fat = 49.1
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/339482/nutrients'
-
-# quinoa, cooked without salt
-[[food]]
-name = 'quinoa'
-serving-size = '100g'
-protein = 4.8
-carbs = 22.9
-# insoluble fiber estimated from prebiotin [3]
-fiber = [ 2.8, 0.87 ]
-fat = 2.4
-source = 'https://fineli.fi/fineli/en/elintarvikkeet/31179'
-
-# ceres organics - quinoa flakes
-[[food]]
-name = 'quinoa-flake'
-serving-size = '100g'
-protein = 14.1
-carbs = 71.2
-# insoluble fiber estimated from quinoa
-fiber = [ 7.0, 0.87 ]
-fat = 6.1
-source = 'auckland product label'
 
 # flax seeds, roasted
 [[food]]
