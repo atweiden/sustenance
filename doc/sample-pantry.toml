@@ -5436,7 +5436,15 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # --- --- end meat-alternative }}}
 # --- --- milk-alternative {{{
 
-# almond milk
+# almond milk, unsweetened
+[[food]]
+name = 'almond-milk'
+serving-size = '8 fl oz (244g)'
+protein = 1.4
+carbs = 1.4
+fat = 2.7
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/781123/nutrients'
+
 # brazil nut milk
 # cashew milk
 # chia seed milk
