@@ -2824,6 +2824,7 @@ source = 'http://www.bda-ieo.it/test/ComponentiAlimento.aspx?Lan=Eng&foodid=346_
 [[food]]
 name = 'nutritional-yeast'
 aka = [
+  'nooch',
   'nutritional-yeast-flake',
   'savory-yeast-flake',
   'vegetarian-support-formula'
