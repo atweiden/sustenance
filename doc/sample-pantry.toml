@@ -724,6 +724,18 @@ carbs = 4.3
 fat = 37.4
 source = 'launceston product label'
 
+# pure & purple garlic - chilli mix - hot
+# ingredients: tasmanian purple garlic, tasmanian native pepper berries
+# (including leaves), pink australian inland salt and chillies; gluten
+# free, chemical and spray free, grown in rich organic soil
+[[food]]
+name = 'pure-and-purple-garlic-chilli-mix-hot'
+serving-size = '100g'
+protein = 5.6
+carbs = 20.2
+fat = 3
+source = 'launceston product label'
+
 # pure & purple garlic - italian mix
 # ingredients: tasmanian purple garlic, tasmanian native pepper berries,
 # pink grinder salt, oregano, parsley, capsicum, basil and red onion;
