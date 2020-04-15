@@ -5462,6 +5462,21 @@ fiber = [ 10.2, 0.79 ]
 fat = 9
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# soybeans, soy protein, textured
+[[food]]
+name = 'textured-vegetable-protein'
+aka = [
+  'textured-soy-protein',
+  'textured-vegan-protein',
+  'tvp'
+]
+serving-size = '100g'
+protein = 46.3
+carbs = 36.7
+fiber = [ 17.8, 0.67 ]
+fat = 3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # soybeans, tofu, "momen-tofu" (regular tofu)
 [[food]]
 name = 'tofu'
