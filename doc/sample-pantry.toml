@@ -3835,7 +3835,7 @@ fat = 60.8
 source = 'https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1541-4337.2012.00190.x'
 
 [[food]]
-name = 'macadamia-nut'
+name = 'macadamia'
 serving-size = '100g'
 protein = 7.9
 carbs = 14.2
@@ -3949,7 +3949,7 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 # macadamia nuts, roasted and salted
 [[food]]
-name = 'roasted-macadamia-nut'
+name = 'roasted-macadamia'
 serving-size = '100g'
 protein = 8.3
 carbs = 12.2
