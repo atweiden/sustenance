@@ -3865,6 +3865,16 @@ fiber = [ 9.6, 0.8 ]
 fat = 72
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/33095'
 
+# pili bunga
+[[food]]
+name = 'pili-nut'
+serving-size = '100g'
+protein = 14.2
+carbs = 6.4
+fiber = 3.2
+fat = 68.5
+source = 'http://www.nanaynona.com/philippinefoodcompositiontable.html'
+
 # pine nuts, raw
 [[food]]
 name = 'pine-nut'
