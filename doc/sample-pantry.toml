@@ -3261,25 +3261,6 @@ fiber = 7.1
 fat = 1.1
 source = 'https://nevo-online.rivm.nl/'
 
-# chickpeas, mature seeds, whole, boiled
-[[food]]
-name = 'chickpea'
-aka = [
-  # india
-  'chole',
-  # españa
-  'garbanzo-bean',
-  # india
-  'kabuli-chana',
-  'white-chickpea'
-]
-serving-size = '100g'
-protein = 9.5
-carbs = 27.4
-fiber = [ 11.6, 0.96 ]
-fat = 2.5
-source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
-
 # la conserve della nonna - corona beans
 # ingredients: beans, water, salt
 [[food]]
@@ -3436,16 +3417,6 @@ fiber = [ 4.8, 0.74 ]
 fat = 0.8
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/466572/nutrients'
 
-# chickpeas, mature seeds, whole, oil-roasted and salted
-[[food]]
-name = 'roasted-chickpea'
-serving-size = '100g'
-protein = 18.8
-carbs = 62.6
-fiber = [ 21.0, 0.95 ]
-fat = 10.4
-source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
-
 # broad beans, mature seeds, oil-roasted and salted
 [[food]]
 name = 'roasted-fava-bean'
@@ -3581,6 +3552,25 @@ source = 'http://www.ifct2017.com/'
 # --- --- end potato }}}
 # --- --- lentil {{{
 
+# chickpeas, mature seeds, whole, boiled
+[[food]]
+name = 'chickpea'
+aka = [
+  # india
+  'chole',
+  # españa
+  'garbanzo-bean',
+  # india
+  'kabuli-chana',
+  'white-chickpea'
+]
+serving-size = '100g'
+protein = 9.5
+carbs = 27.4
+fiber = [ 11.6, 0.96 ]
+fat = 2.5
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # lentils green and brown boiled
 [[food]]
 name = 'green-lentil'
@@ -3674,6 +3664,16 @@ carbs = 52.6
 fiber = [ 9.37, 0.83 ]
 fat = 1.4
 source = 'http://www.ifct2017.com/'
+
+# chickpeas, mature seeds, whole, oil-roasted and salted
+[[food]]
+name = 'roasted-chickpea'
+serving-size = '100g'
+protein = 18.8
+carbs = 62.6
+fiber = [ 21.0, 0.95 ]
+fat = 10.4
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lentil whole, brown (lens culinaris)
 [[food]]
