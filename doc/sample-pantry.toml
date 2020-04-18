@@ -3608,6 +3608,7 @@ fat = 0.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # lentil dal (lens culinaris)
+# use red-lentil for cooked variant
 #
 # note:
 # - assuming 1 cup cooked = 200g cooked
@@ -3664,6 +3665,18 @@ carbs = 52.6
 fiber = [ 9.37, 0.83 ]
 fat = 1.4
 source = 'http://www.ifct2017.com/'
+
+# lentils, red, boiled
+# whole indian brown lentils, split and skinned
+[[food]]
+name = 'red-lentil'
+serving-size = '100g'
+protein = 7.7
+carbs = 20.9
+# insoluble fiber estimated from prebiotin [3]
+fiber = [ 4.8, 0.92 ]
+fat = 0.6
+source = 'https://nevo-online.rivm.nl/'
 
 # chickpeas, mature seeds, whole, oil-roasted and salted
 [[food]]
