@@ -3656,14 +3656,24 @@ fiber = [ 10.4, 0.83 ]
 fat = 0.8
 source = 'http://www.ifct2017.com/'
 
-# black gram, dal (phaseolus mungo)
-# split, not whole
+# black gram, whole (phaseolus mungo)
 [[food]]
-name = 'urad-dal'
+name = 'sabut-urad'
 aka = [
   'black-gram',
   'urad-bean'
 ]
+serving-size = '100g'
+protein = 22
+carbs = 44
+fiber = [ 20.4, 0.76 ]
+fat = 1.6
+source = 'http://www.ifct2017.com/'
+
+# black gram, dal (phaseolus mungo)
+[[food]]
+name = 'urad-dal'
+aka = 'split-black-gram'
 serving-size = '100g'
 protein = 23.1
 carbs = 51
