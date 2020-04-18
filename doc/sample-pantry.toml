@@ -3408,16 +3408,6 @@ fiber = 23
 fat = 37
 source = 'http://models.life.ku.dk/sites/default/files/Thesis_Mette_Holse.pdf'
 
-# mung beans, mature seeds, whole, boiled
-[[food]]
-name = 'mung-bean'
-serving-size = '100g'
-protein = 10.2
-carbs = 22.5
-fiber = [ 5.2, 0.92 ]
-fat = 0.6
-source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
-
 # organic navy beans, canned
 [[food]]
 name = 'navy-bean'
@@ -3602,6 +3592,21 @@ fiber = [ 5.3, 0.92 ]
 fat = 0.7
 source = 'https://nevo-online.rivm.nl/'
 
+# green gram, whole (phaseolus aureus)
+# use mung-bean for cooked variant
+[[food]]
+name = 'hare-mung'
+aka = [
+  'mung-bean',
+  'green-gram'
+]
+serving-size = '100g'
+protein = 22.5
+carbs = 46.1
+fiber = [ 17.0, 0.86 ]
+fat = 1.1
+source = 'http://www.ifct2017.com/'
+
 # lentils, mature seeds, whole, boiled
 [[food]]
 name = 'lentil'
@@ -3645,6 +3650,16 @@ carbs = 52.5
 fiber = [ 10.4, 0.83 ]
 fat = 0.8
 source = 'http://www.ifct2017.com/'
+
+# mung beans, mature seeds, whole, boiled
+[[food]]
+name = 'mung-bean'
+serving-size = '100g'
+protein = 10.2
+carbs = 22.5
+fiber = [ 5.2, 0.92 ]
+fat = 0.6
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # green gram, dal (phaseolus aureus)
 [[food]]
