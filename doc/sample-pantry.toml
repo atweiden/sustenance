@@ -665,6 +665,44 @@ fiber = 8
 fat = 0.6
 source = 'auckland product label'
 
+# pangkarra - australian bean mix - roasted with lemon, thyme, black
+# pepper & sea salt
+# ingredients: australian faba beans (48%), broad beans (48%), lemon,
+# thyme, black pepper, sea salt, and australian canola oil (4%)
+[[food]]
+name = 'pangkarra-australian-bean-mix'
+serving-size = '100g'
+protein = 25.4
+carbs = 47.3
+fiber = 7.8
+fat = 23.4
+source = 'launceston product label'
+
+# pangkarra - australian chickpeas - roasted with garlic & sea salt
+# ingredients: chickpeas (96%), garlic, sea salt, and australian canola
+# oil (2%)
+[[food]]
+name = 'pangkarra-australian-chickpeas'
+serving-size = '100g'
+protein = 20.8
+carbs = 56.2
+fiber = 11
+fat = 14.4
+source = 'launceston product label'
+
+# pangkarra - australian faba beans & chickpeas - roasted with rosemary &
+# sea salt
+# ingredients: australian faba beans (8%), split faba beans (44%),
+# chickpeas (44%), rosemary, sea salt and australian canola oil (4%)
+[[food]]
+name = 'pangkarra-australian-faba-beans-and-chickpeas'
+serving-size = '100g'
+protein = 22.2
+carbs = 54.6
+fiber = 12.8
+fat = 15
+source = 'launceston product label'
+
 # pickld - crunchy coconut gourmet blend
 [[food]]
 name = 'pickld-crunchy-coconut-gourmet-blend'
