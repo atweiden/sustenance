@@ -3597,6 +3597,17 @@ fiber = [ 17.0, 0.86 ]
 fat = 1.1
 source = 'http://www.ifct2017.com/'
 
+# bengal gram, whole (cicer arietinum)
+[[food]]
+name = 'kala-chana'
+aka = 'brown-chickpea'
+serving-size = '100g'
+protein = 18.8
+carbs = 39.6
+fiber = [ 25.2, 0.9 ]
+fat = 5.1
+source = 'http://www.ifct2017.com/'
+
 # lentils, mature seeds, whole, boiled
 [[food]]
 name = 'lentil'
@@ -3711,21 +3722,6 @@ protein = 22
 carbs = 44
 fiber = [ 20.4, 0.76 ]
 fat = 1.6
-source = 'http://www.ifct2017.com/'
-
-# bengal gram, whole (cicer arietinum)
-# use chickpea for cooked variant
-[[food]]
-name = 'safed-chana'
-aka = [
-  'chickpea',
-  'garbanzo-bean'
-]
-serving-size = '100g'
-protein = 18.8
-carbs = 39.6
-fiber = [ 25.2, 0.9 ]
-fat = 5.1
 source = 'http://www.ifct2017.com/'
 
 # black gram, dal (phaseolus mungo)
