@@ -3552,6 +3552,17 @@ source = 'http://www.ifct2017.com/'
 # --- --- end potato }}}
 # --- --- lentil {{{
 
+# bengal gram, dal (cicer arietinum)
+[[food]]
+name = 'chana-dal'
+aka = 'split-brown-chickpea'
+serving-size = '100g'
+protein = 21.6
+carbs = 46.7
+fiber = [ 15.2, 0.84 ]
+fat = 5.3
+source = 'http://www.ifct2017.com/'
+
 # chickpeas, mature seeds, whole, boiled
 [[food]]
 name = 'chickpea'
