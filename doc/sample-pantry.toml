@@ -3623,11 +3623,25 @@ fiber = [ 9.4, 0.9 ]
 fat = 0.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# lentils red boiled
-# whole indian brown lentils, split and skinned
-# assumes 1 cup cooked = 200g cooked
-# cook 65g dry red lentils to yield 200g (1 cup) cooked red lentils
-# see also: lentils nutritional information [17]
+# lentil dal (lens culinaris)
+#
+# note:
+# - assuming 1 cup cooked = 200g cooked
+# - cook 65g dry red lentils to yield 200g (1 cup) cooked red lentils
+# - see also: lentils nutritional information [17]
+#
+# warn:
+# - measures only accurate if measuring, cooking then eating all at once
+# - otherwise requires tracking amounts consumed of original uncooked
+#   measures
+#  - track weight changes to bulk cooked red lentil storage vessel
+#   - e.g.
+#     - scenario
+#       - prepare 500g of uncooked red lentils
+#       - put in storage vessel
+#       - gross total weight of storage vessel becomes 1555g
+#       - consume half of the storage vessel contents?
+#         = red-lentil:2.5
 [[food]]
 name = 'red-lentil'
 aka = [
@@ -3635,13 +3649,12 @@ aka = [
   'orange-lentil',
   'pink-lentil'
 ]
-serving-size = '100g (0.5 cup)'
-protein = 7.7
-carbs = 20.9
-# insoluble fiber estimated from prebiotin [3]
-fiber = [ 4.8, 0.92 ]
-fat = 0.6
-source = 'https://nevo-online.rivm.nl/'
+serving-size = '100g'
+protein = 24.4
+carbs = 52.5
+fiber = [ 10.4, 0.83 ]
+fat = 0.8
+source = 'http://www.ifct2017.com/'
 
 # black gram, dal (phaseolus mungo)
 # split, not whole
