@@ -3641,13 +3641,14 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 #       - put in storage vessel
 #       - gross total weight of storage vessel becomes 1555g
 #       - consume half of the storage vessel contents?
-#         = red-lentil:2.5
+#         = masoor-dal:2.5
 [[food]]
-name = 'red-lentil'
+name = 'masoor-dal'
 aka = [
-  'masoor-dal',
+  'red-lentil',
   'orange-lentil',
-  'pink-lentil'
+  'pink-lentil',
+  'split-brown-lentil'
 ]
 serving-size = '100g'
 protein = 24.4
