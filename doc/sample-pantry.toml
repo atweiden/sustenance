@@ -3646,6 +3646,20 @@ fiber = [ 10.4, 0.83 ]
 fat = 0.8
 source = 'http://www.ifct2017.com/'
 
+# green gram, dal (phaseolus aureus)
+[[food]]
+name = 'mung-dal'
+aka = [
+  'yellow-lentil',
+  'split-mung-bean'
+]
+serving-size = '100g'
+protein = 23.9
+carbs = 51
+fiber = [ 9.37, 0.83 ]
+fat = 1.4
+source = 'http://www.ifct2017.com/'
+
 # lentil whole, brown (lens culinaris)
 [[food]]
 name = 'sabut-masoor'
