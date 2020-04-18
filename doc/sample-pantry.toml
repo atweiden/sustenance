@@ -3643,6 +3643,21 @@ fiber = [ 4.8, 0.92 ]
 fat = 0.6
 source = 'https://nevo-online.rivm.nl/'
 
+# black gram, dal (phaseolus mungo)
+# split, not whole
+[[food]]
+name = 'urad-dal'
+aka = [
+  'black-gram',
+  'urad-bean'
+]
+serving-size = '100g'
+protein = 23.1
+carbs = 51
+fiber = [ 11.9, 0.64 ]
+fat = 1.7
+source = 'http://www.ifct2017.com/'
+
 # --- --- end lentil }}}
 # --- --- pea {{{
 
