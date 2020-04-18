@@ -3554,6 +3554,18 @@ fiber = 3.6
 fat = 0.7
 source = 'tokyo nakai station product label'
 
+# sweet potato, tuberous root, without skin, baked
+# ideally japanese beni-haruka/aoi-haruka satsuma-imo sweet potatoes
+# see also: potatoes of okinawa [16]
+[[food]]
+name = 'japanese-sweet-potato'
+serving-size = '100g'
+protein = 1.4
+carbs = 39
+fiber = [ 3.5, 0.69 ]
+fat = 0.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # potatoes, tuber, boiled
 [[food]]
 name = 'potato'
@@ -3564,17 +3576,17 @@ fiber = [ 1.6, 0.69 ]
 fat = 0.1
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# sweet potato, tuberous root, without skin, baked
+# sweet potato, brown skin (ipomoes batatas)
 # ideally japanese beni-haruka/aoi-haruka satsuma-imo sweet potatoes
 # see also: potatoes of okinawa [16]
 [[food]]
 name = 'sweet-potato'
 serving-size = '100g'
-protein = 1.4
-carbs = 39
-fiber = [ 3.5, 0.69 ]
-fat = 0.2
-source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+protein = 1.3
+carbs = 24.3
+fiber = [ 4.0, 0.64 ]
+fat = 0.3
+source = 'http://www.ifct2017.com/'
 
 # --- --- end potato }}}
 # --- --- lentil {{{
