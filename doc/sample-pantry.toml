@@ -3591,17 +3591,6 @@ source = 'http://www.ifct2017.com/'
 # --- --- end potato }}}
 # --- --- lentil {{{
 
-# lentil whole, brown (lens culinaris)
-[[food]]
-name = 'sabut-masoor'
-aka = 'brown-lentil'
-serving-size = '100g'
-protein = 22.5
-carbs = 48.5
-fiber = [ 16.8, 0.84 ]
-fat = 0.6
-source = 'http://www.ifct2017.com/'
-
 # lentils green and brown boiled
 [[food]]
 name = 'green-lentil'
@@ -3655,6 +3644,17 @@ protein = 24.4
 carbs = 52.5
 fiber = [ 10.4, 0.83 ]
 fat = 0.8
+source = 'http://www.ifct2017.com/'
+
+# lentil whole, brown (lens culinaris)
+[[food]]
+name = 'sabut-masoor'
+aka = 'brown-lentil'
+serving-size = '100g'
+protein = 22.5
+carbs = 48.5
+fiber = [ 16.8, 0.84 ]
+fat = 0.6
 source = 'http://www.ifct2017.com/'
 
 # black gram, whole (phaseolus mungo)
