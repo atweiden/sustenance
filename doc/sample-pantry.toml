@@ -117,6 +117,17 @@ fiber = 7.1
 fat = 17.9
 source = 'https://www.albinacitynuts.com/shop/toasted-corn-big-bag'
 
+# amphora - soft-dried plums
+# ingredients: organically grown plums
+[[food]]
+name = 'amphora-soft-dried-plums'
+serving-size = '100g'
+protein = 2.5
+carbs = 65
+fiber = 7.5
+fat = 0
+source = 'portland product label'
+
 # applestraps - apple
 # ingredients: apple and water; no preservatives, artificial colours &
 # flavours; the peel was left on because it contains flavour, antioxidants
