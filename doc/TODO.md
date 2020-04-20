@@ -186,8 +186,8 @@
 # calculate average macros (with min/max records)
 $sustenance.gen-report(:macros);
 
-# include cross-referenced food sources in average macros output
-$sustenance.gen-report(:macros, :with-food);
+# cross-reference food sources of fat in average macros output
+$sustenance.gen-report(:macros).cross-reference(:fat);
 
 # calculate dollars per calorie
 $sustenance.gen-report(:budget);
@@ -197,7 +197,9 @@ $sustenance.gen-report(:sustainability);
 ```
 
 - track
-  - saturated fat
+  - fat
+    - saturated fat
+    - dha / epa / ala
   - cholesterol
   - sugar alcohols
     - e.g.
@@ -265,20 +267,23 @@ $sustenance.gen-report(:sustainability);
       - serine
       - tyrosine
   - vitamins
-    - a
-    - b12
-    - b6 (folate)
-    - b9
-    - c
+    - vitamin a
+    - vitamin b6 (folate)
+    - vitamin b9
+    - vitamin b12
+    - vitamin c
+    - vitamin d
+    - vitamin k2
+  - minerals
     - calcium
     - copper
-    - d
-    - dha / ala
+    - iodine
     - iron
-    - k2
     - magnesium
     - manganese
     - potassium
+    - selenium
+    - sodium
     - zinc
   - cost of food
   - alkaline- vs acid-formation of food
