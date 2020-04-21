@@ -6433,6 +6433,16 @@ fiber = [ 2, 0 ]
 fat = 0.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# algae, purple laver, dried
+[[food]]
+name = 'nori'
+serving-size = '100g'
+protein = 39.4
+carbs = 38.7
+fiber = 31.2
+fat = 3.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
 # algae, green caviar, raw
 [[food]]
 name = 'umibudo-sea-grape'
