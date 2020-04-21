@@ -586,7 +586,7 @@ serving-size = '100g'
 protein = 13.2
 carbs = 81.5
 # insoluble fiber estimated from buckwheat
-fiber = [ 10, 0.81 ]
+fiber = [ 10.0, 0.81 ]
 fat = 3.4
 source = 'launceston product label'
 
