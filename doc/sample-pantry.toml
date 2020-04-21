@@ -567,6 +567,17 @@ carbs = 16.4
 fat = 31.9
 source = 'launceston product label'
 
+# mindful foods - organic activated buckwheat
+[[food]]
+name = 'mindful-foods-organic-activated-buckwheat'
+serving-size = '100g'
+protein = 13.2
+carbs = 81.5
+# insoluble fiber estimated from buckwheat
+fiber = [ 10, 0.81 ]
+fat = 3.4
+source = 'launceston product label'
+
 # mindful foods - yummy beans
 # ingredients: activated (lentils, buckwheat, australian insecticide-free
 # sunflower seeds, pepitas, almonds), chickpeas, olive oil, shitake
