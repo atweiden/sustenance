@@ -364,6 +364,18 @@ fiber = [ 4.3, 0.54 ]
 fat = 0.3
 source = 'launceston product label'
 
+# forager fruits - freeze-dried pineapple bites
+# ingredients: 100% australian-grown pineapples
+# macros estimated from pineapple at 100:20 ratio
+[[food]]
+name = 'forager-fruits-freeze-dried-pineapple-bites'
+serving-size = '100g'
+protein = 3
+carbs = 67
+fiber = [ 7.5, 0.93 ]
+fat = 0.5
+source = 'launceston product label'
+
 # forager fruits - freeze-dried strawberry bites
 # ingredients: 100% australian-grown strawberries
 # macros estimated from strawberry at 100:10 ratio
