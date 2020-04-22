@@ -464,6 +464,17 @@ carbs = 12.4
 fat = 6.1
 source = 'launceston product label'
 
+# lotus - puffed quinoa
+# ingredients: organic quinoa grain (100%)
+[[food]]
+name = 'lotus-puffed-quinoa'
+serving-size = '100g'
+protein = 10.3
+carbs = 80.2
+fiber = 5.5
+fat = 3.9
+source = 'launceston product label'
+
 # macro wholefoods market - australian cricket powder
 [[food]]
 name = 'macro-wholefoods-market-australian-cricket-powder'
