@@ -31,7 +31,7 @@ time = 10:15:00
 **cli**:
 
 ```sh
-export PERL6LIB=lib
+export RAKUDOLIB=lib
 bin/sustenance --date=2018-05-31 gen-macros sustenance.toml
 ```
 
@@ -51,7 +51,7 @@ kg at 175.26 cm.
 **cli**:
 
 ```sh
-export PERL6LIB=lib
+export RAKUDOLIB=lib
 bin/sustenance \
   --weight=59.4206 \
   --height=175.26 \
