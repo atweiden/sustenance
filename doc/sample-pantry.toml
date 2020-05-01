@@ -5992,6 +5992,7 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 # eggplant, japanese type, fruit, raw
 [[food]]
 name = 'eggplant'
+aka = 'aubergine'
 serving-size = '100g'
 protein = 1.1
 carbs = 5.1
