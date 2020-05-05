@@ -388,6 +388,17 @@ fiber = [ 14.0, 0.64 ]
 fat = 1
 source = 'launceston product label'
 
+# for your own good - caveman crackers
+# ingredients: sunflower seed, pumpkin seed, sesame seed, linseed,
+# psyllium husk, chia seed, hemp seed, thyme, sea salt, black pepper
+[[food]]
+name = 'for-your-own-good-caveman-crackers'
+serving-size = '100g'
+protein = 17.3
+carbs = 5.1
+fat = 39.3
+source = 'launceston product label'
+
 # gimme organic - premium roasted seaweed - sea salt
 [[food]]
 name = 'gimme-organic-premium-roasted-seaweed-sea-salt'
