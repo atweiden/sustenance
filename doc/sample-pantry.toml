@@ -1087,6 +1087,16 @@ fiber = 7.1
 fat = 15.9
 source = 'portland product label'
 
+# trader joe's - crispy crunchy mochi rice nuggets
+# ingredients: rice, palm oil, sea salt, sunflower lecithin
+[[food]]
+name = 'trader-joes-crispy-crunchy-mochi-rice-nuggets'
+serving-size = '100g'
+protein = 6.7
+carbs = 66.7
+fat = 23.3
+source = 'portland product label'
+
 # trader joe's mushroom & company - multipurpose umami seasoning blend
 # ingredients: kosher salt, dried onions, ground mustard seed, porcini
 # mushroom powder, white button mushroom powder, crushed red pepper,
