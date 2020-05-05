@@ -1063,6 +1063,19 @@ fiber = [ 15.0, 0.95 ]
 fat = 15.7
 source = 'auckland product label'
 
+# trader joe's - corn, pea, bean & quinoa crisps
+# ingredients: yellow corn, sunflower oil, yellow split peas, green
+# split peas, black bean grits, white quinoa, salt, pink salt, black
+# pepper
+[[food]]
+name = 'trader-joes-corn-pea-bean-and-quinoa-crisps'
+serving-size = '100g'
+protein = 10.6
+carbs = 60
+fiber = 7.1
+fat = 15.9
+source = 'portland product label'
+
 # trader joe's mushroom & company - multipurpose umami seasoning blend
 # ingredients: kosher salt, dried onions, ground mustard seed, porcini
 # mushroom powder, white button mushroom powder, crushed red pepper,
