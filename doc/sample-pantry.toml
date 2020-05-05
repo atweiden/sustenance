@@ -1148,6 +1148,26 @@ fiber = [ 36.8, 0.8 ]
 fat = 31
 source = 'perth product label'
 
+# whole earth & sea - protein & greens - organic chocolate
+# ingredients: organic protein blend (71%) (pea protein, rice protein,
+# amaranth, hemp protein, quinoa); fermented organic fruit, vegetable &
+# green blend (alfalfa grass, barley grass, wheat grass, apple, blueberry,
+# cranberry, carrot, cilantro, parsley, artichoke, black radish,
+# dandelion, kale celery, beet, spinach, tomato, broccoli, red radish,
+# cabbage, upland cress, cauliflower, arugula, watercress, basil,
+# peppers, swiss chard, spearmint); organic alkalised cocoa powder,
+# organic flavours, organic acerola cherry extract, sweetener (organic
+# steviol glycoside); organic mushroom blend (cordyceps, reishi,
+# himematsutake, shiitake, maitake, turkey tail)
+[[food]]
+name = 'whole-earth-and-sea-protein-and-greens-chocolate'
+serving-size = '100g'
+protein = 60.3
+carbs = 27.9
+fiber = 5.8
+fat = 7.5
+source = 'launceston product label'
+
 # woolworths - four seasons coleslaw - white cabbage, red cabbage,
 # carrot, celery, spring onion & corn
 [[food]]
