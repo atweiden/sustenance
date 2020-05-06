@@ -2415,7 +2415,6 @@ name = 'pepino'
 serving-size = '100g'
 protein = 0.3
 carbs = 7
-fiber = 0.5
 fat = 0
 source = 'http://www.ins.gob.pe/insvirtual/images/otrpubs/pdf/Tabla%20de%20Alimentos.pdf'
 
@@ -6189,6 +6188,22 @@ carbs = 2.9
 fiber = [ 1.1, 0.82 ]
 fat = 0.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+[[food]]
+name = 'manzano-chili-pepper'
+aka = [
+  'apple-pepper',
+  # mexico
+  'chile-manzano',
+  # sudamerica
+  'locoto',
+  'rocoto'
+]
+serving-size = '100g'
+protein = 1.2
+carbs = 8.2
+fat = 0.5
+source = 'http://www.ins.gob.pe/insvirtual/images/otrpubs/pdf/Tabla%20de%20Alimentos.pdf'
 
 # bean sprouts, mung bean sprouts, raw
 [[food]]
