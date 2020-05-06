@@ -197,75 +197,80 @@ $sustenance.gen-report(:sustainability);
 ```
 
 - track
-  - fat
-    - saturated fat
+  - fat in depth
+    - cholesterol
     - dha / epa / ala
-  - cholesterol
-  - sugar alcohols
-    - e.g.
-      - `sugar-alcohols.erythritol = 99`
-    - with separate calorie counts by type of sugar alcohol
-      - monosaccharide polyols or novel sugars
-        - d-tagatose
-          - 1.5 calories per gram
-        - erythritol
-          - 0.2 calories per gram
-            - https://ec.europa.eu/food/sites/food/files/safety/docs/sci-com_scf_out175_en.pdf
-            - https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:285:0009:0012:EN:PDF
-        - mannitol
-          - 1.6 calories per gram
-        - sorbitol
-          - 2.6 calories per gram
-        - xylitol
-          - 2.4 calories per gram
-      - disaccharide polyols or novel sugars
-        - isomalt
-          - 2 calories per gram
-        - lactitol
-          - 2 calories per gram
-        - maltitol
-          - 2.1 calories per gram
-        - trehalose
-          - 4 calories per gram
-      - polysaccharide polyols
-        - hsh
-          - 3 calories per gram
-      - nonnutritive sweeteners
-        - acesulfame-k
-          - 0 calories per gram
-        - aspartame
-          - 4 calories per gram
-        - neotame
-          - 0 calories per gram
-        - saccharin
-          - 0 calories per gram
-        - sucralose
-          - 0 calories per gram
-    - https://www.ncbi.nlm.nih.gov/pubmed/14760578
-    - https://jandonline.org/article/S0002-8223(03)01658-4/fulltext
-  - amino acids
-    - essential
-      - histidine
-      - isoleucine
-      - leucine
-      - lysine
-      - methionine
-      - phenylalanine
-      - threonine
-      - tryptophan
-      - valine
-    - non-essential
-      - alanine
-      - arginine
-      - asparagine
-      - aspartic acid
-      - cysteine
-      - glutamic acid
-      - glutamine
-      - glycine
-      - proline
-      - serine
-      - tyrosine
+    - saturated fat
+  - carbs in depth
+    - fructose
+    - glucose
+    - sucrose
+    - sugar alcohols
+      - e.g.
+        - `sugar-alcohols.erythritol = 99`
+      - with separate calorie counts by type of sugar alcohol
+        - monosaccharide polyols or novel sugars
+          - d-tagatose
+            - 1.5 calories per gram
+          - erythritol
+            - 0.2 calories per gram
+              - https://ec.europa.eu/food/sites/food/files/safety/docs/sci-com_scf_out175_en.pdf
+              - https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:285:0009:0012:EN:PDF
+          - mannitol
+            - 1.6 calories per gram
+          - sorbitol
+            - 2.6 calories per gram
+          - xylitol
+            - 2.4 calories per gram
+        - disaccharide polyols or novel sugars
+          - isomalt
+            - 2 calories per gram
+          - lactitol
+            - 2 calories per gram
+          - maltitol
+            - 2.1 calories per gram
+          - trehalose
+            - 4 calories per gram
+        - polysaccharide polyols
+          - hsh
+            - 3 calories per gram
+        - nonnutritive sweeteners
+          - acesulfame-k
+            - 0 calories per gram
+          - aspartame
+            - 4 calories per gram
+          - neotame
+            - 0 calories per gram
+          - saccharin
+            - 0 calories per gram
+          - sucralose
+            - 0 calories per gram
+      - https://www.ncbi.nlm.nih.gov/pubmed/14760578
+      - https://jandonline.org/article/S0002-8223(03)01658-4/fulltext
+  - protein in depth
+    - amino acids
+      - essential
+        - histidine
+        - isoleucine
+        - leucine
+        - lysine
+        - methionine
+        - phenylalanine
+        - threonine
+        - tryptophan
+        - valine
+      - non-essential
+        - alanine
+        - arginine
+        - asparagine
+        - aspartic acid
+        - cysteine
+        - glutamic acid
+        - glutamine
+        - glycine
+        - proline
+        - serine
+        - tyrosine
   - vitamins
     - vitamin a
     - vitamin b6 (folate)
@@ -288,6 +293,10 @@ $sustenance.gen-report(:sustainability);
   - cost of food
   - alkaline- vs acid-formation of food
   - environmental impact of diet
+    - requirements of
+      - land
+      - water
+    - greenhouse gas emissions
 - implement recommendations from
   - source
     - http://www.eatrightpro.org/~/media/eatrightpro%20files/practice/position%20and%20practice%20papers/position%20papers/nutritionathleticperf.ashx
