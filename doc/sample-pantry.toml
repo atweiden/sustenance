@@ -409,6 +409,17 @@ fiber = 20
 fat = 40
 source = 'perth product label'
 
+# global organics - organic shoyu
+# ingredients: water, organic whole soybeans (15%), organic whole wheat,
+# salt, organic alcohol
+[[food]]
+name = 'global-organics-organic-shoyu'
+serving-size = '100mL'
+protein = 8
+carbs = 5
+fat = 0
+source = 'launceston product label'
+
 # grilo protein - organic cricket powder
 [[food]]
 name = 'grilo-protein-organic-cricket-powder'
@@ -955,6 +966,17 @@ carbs = 63.5
 fiber = 13.1
 fat = 0.5
 source = 'auckland product label'
+
+# spiral foods - tamari
+# ingredients: whole soybeans, water, sea salt, alcohol (approx: ±1.6%
+# alcohol added as a preservative)
+[[food]]
+name = 'spiral-foods-tamari'
+serving-size = '100g'
+protein = 9.8
+carbs = 8.3
+fat = 0.2
+source = 'launceston product label'
 
 # squirrel & crow - black bean sunflower tempeh
 # ingredients: black beans, water, organic sunflower seeds, less than 2%
