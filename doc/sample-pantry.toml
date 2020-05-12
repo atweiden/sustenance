@@ -637,6 +637,17 @@ fiber = 11
 fat = 22.2
 source = 'launceston product label'
 
+# mingle seasoning - spicy mexican spice blend
+# ingredients: garlic, kashmiri chilli, cumin, onion, sweet paprika,
+# black pepper, pink himalayan salt, oregano, parsley
+# macros estimated from kashmiri-masala
+[[food]]
+name = 'mingle-seasoning-spicy-mexican-spice-blend'
+serving-size = '1 tbsp (4.6g)'
+protein = 0.6
+carbs = 1.7
+fat = 0.6
+
 # mitica - crunchy quicos (toasted corn)
 [[food]]
 name = 'mitica-crunchy-quicos'
