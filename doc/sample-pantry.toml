@@ -539,6 +539,17 @@ fiber = 31.3
 fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
+# mayver's - all natural peanut & coconut spread
+[[food]]
+name = 'mayvers-all-natural-peanut-coconut-spread'
+serving-size = '100g'
+protein = 28
+carbs = 18.6
+# insoluble fiber estimated from 90% peanut, 10% coconut-flake
+fiber = [ 8.8, 0.94 ]
+fat = 52
+source = 'launceston product label'
+
 # meru miso - mild yellow chickpea miso
 # ingredients: white rice, chickpeas, salt, koji starter (aspergillus
 # oryzae)
