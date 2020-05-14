@@ -1086,7 +1086,7 @@ fiber = [ 20.9, 0.95 ]
 fat = 13
 source = 'auckland product label'
 
-# the happy snack co - crunchy roasted chickpeas - spicy tomato & chili
+# the happy snack co - crunchy roasted chickpeas - spicy tomato & chilli
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-chickpeas-spicy-tomato'
 serving-size = '100g'
@@ -1097,7 +1097,7 @@ fiber = [ 20.9, 0.95 ]
 fat = 10.9
 source = 'auckland product label'
 
-# the happy snack co - crunchy roasted fava beans - red pepper & chili
+# the happy snack co - crunchy roasted fava beans - red pepper & chilli
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-fava-beans-red-pepper'
 serving-size = '100g'
@@ -5034,7 +5034,7 @@ carbs = 2.7
 fat = 1.6
 
 [[food]]
-name = 'chili-powder'
+name = 'chilli-powder'
 serving-size = '1 tbsp (8g)'
 protein = 1.1
 carbs = 4
@@ -6235,7 +6235,7 @@ fat = 0.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 [[food]]
-name = 'manzano-chili-pepper'
+name = 'manzano-chilli-pepper'
 aka = [
   'apple-pepper',
   # mexico
@@ -6354,11 +6354,11 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 
 # hot peppers, fruit, raw
 [[food]]
-name = 'red-chili-pepper'
+name = 'red-chilli-pepper'
 aka = [
-  'birds-eye-chili-pepper',
+  'birds-eye-chilli-pepper',
   'hot-pepper',
-  'thai-chili-pepper'
+  'thai-chilli-pepper'
 ]
 serving-size = '100g'
 protein = 3.9
