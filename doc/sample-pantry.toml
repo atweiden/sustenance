@@ -540,6 +540,7 @@ fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
 # mayver's - all natural peanut & coconut spread
+# ingredients: just organic peanuts (90%) & coconut (10%)
 [[food]]
 name = 'mayvers-all-natural-peanut-coconut-spread'
 serving-size = '100g'
