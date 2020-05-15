@@ -2,6 +2,32 @@
 
 ## core
 
+- rearchitect `Food` implementation
+  - add multimethod `new` to `Food`
+  - make `Food` into
+    - e.g.
+      - object variant
+      - parameterized role
+    - differentiate between `Food`
+      - from
+        - source entry
+        - `Food` combinations
+      - via
+        - name and attribute
+          - | Food['FromSource']
+            - | has DataSource $.source
+          - | Food['FromFood']
+            - | has Hash[Serving:D,FoodName:D] @.source
+  - give `Food` method `multiply`
+    - which returns `Macros`
+  - adjust existing `Portionʹ` implementation accordingly
+- implement separation between pantry and meal log
+  - e.g.
+    - put sample-pantry.toml into resources directory
+    - install sample-pantry.toml as `~/.config/sustenance/pantry.toml`
+      at runtime
+      - see also
+        - how https://github.com/atweiden/tantum does it
 - implement `Pantry.gen-macros`
   - because
     - generating macros requires parsing the pantry
@@ -18,13 +44,6 @@
         $pantry.gen-macros('chickpea', 1);
         ```
     - it would clean up `lib/Sustenance.pm6`
-- implement separation between pantry and meal log
-  - e.g.
-    - put sample-pantry.toml into resources directory
-    - install sample-pantry.toml as `~/.config/sustenance/pantry.toml`
-      at runtime
-      - see also
-        - how https://github.com/atweiden/tantum does it
 - implement diet plan profiles
   - because
     - that way you won't have to pass tons of cli flags constantly
