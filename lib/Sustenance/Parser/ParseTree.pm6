@@ -186,6 +186,7 @@ role Macros
 }
 
 # end role Macros }}}
+
 # class Food {{{
 
 class Food
@@ -292,6 +293,7 @@ class Pantry
 }
 
 # end class Pantry }}}
+
 # class Portion {{{
 
 class Portion
