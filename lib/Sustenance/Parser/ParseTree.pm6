@@ -502,9 +502,9 @@ class Mealʹʹ
 }
 
 # end class Mealʹʹ }}}
-# class Logbook {{{
+# class DietLog {{{
 
-class Logbook
+class DietLog
 {
     has Mealʹʹ:D @.mealʹʹ is required;
 
@@ -521,7 +521,7 @@ class Logbook
     }
 }
 
-# end class Logbook }}}
+# end class DietLog }}}
 
 # multiply {{{
 
