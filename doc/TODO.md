@@ -72,6 +72,7 @@
 
 ## sample pantry
 
+- convert 1 tbsp measures to 100g
 - implement missing soluble/insoluble fiber data
   - flour
     - almond flour
