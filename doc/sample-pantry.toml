@@ -852,6 +852,16 @@ carbs = 4.3
 fat = 37.4
 source = 'launceston product label'
 
+# power super foods - acai powder
+[[food]]
+name = 'power-super-foods-acai-powder'
+serving-size = '100g'
+protein = 8.7
+carbs = 38
+fiber = 29
+fat = 51.3
+source = 'launceston product label'
+
 # pure & purple garlic - chilli mix - hot
 # ingredients: tasmanian purple garlic, tasmanian native pepper berries
 # (including leaves), pink australian inland salt and chillies; gluten
