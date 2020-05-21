@@ -292,6 +292,20 @@ fiber = [ 6.7, 0.88 ]
 fat = 48
 source = 'hobart product label'
 
+# farmer jo - the sweet canadian, eh - maple granola - with roasted
+# almonds & a sprinkle of sea salt
+# ingredients: wholegrain oats, almonds (7%) (raw almonds, blanched
+# almonds), maple syrup (3%), honey, muscatel raisins, currants, coconut,
+# pumpkin kernels, sunflower kernels, macadamia oil, cinnamon, sea salt
+[[food]]
+name = 'farmer-jo-the-sweet-canadian-eh-maple-granola'
+serving-size = '100g'
+protein = 12.1
+carbs = 62.3
+fiber = 6
+fat = 20.6
+source = 'launceston product label'
+
 # forage & feast - crispy dried fruit slices - salted tomato
 # ingredients: tomatoes (99%), salt (1%)
 [[food]]
@@ -495,6 +509,19 @@ protein = 10.3
 carbs = 80.2
 fiber = 5.5
 fat = 3.9
+source = 'launceston product label'
+
+# loving earth - raw organic activated paleo mix - protein power
+# ingredients: certified organic (activated sunflower seeds, coconut
+# chips, activated flax seeds, activated pumpkin seeds, activated cashews,
+# raw cacao nibs, activated brazil nuts, activated almonds, activated
+# chia seeds)
+[[food]]
+name = 'loving-earth-paleo-mix-protein power'
+serving-size = '100g'
+protein = 17.8
+carbs = 11.9
+fat = 51.1
 source = 'launceston product label'
 
 # macro wholefoods market - australian cricket powder
