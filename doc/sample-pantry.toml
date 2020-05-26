@@ -566,6 +566,18 @@ fiber = 31.3
 fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
+# mayver's - all natural peanut & cacao spread
+# ingredients: just organic peanuts (95%) & cacao powder (5%)
+[[food]]
+name = 'mayvers-all-natural-peanut-cacao-spread'
+serving-size = '100g'
+protein = 23.7
+carbs = 21.5
+# insoluble fiber estimated from 95% peanut, 5% cacao-nib
+fiber = [ 9.0, 0.94 ]
+fat = 48.1
+source = 'launceston product label'
+
 # mayver's - all natural peanut & coconut spread
 # ingredients: just organic peanuts (90%) & coconut (10%)
 [[food]]
