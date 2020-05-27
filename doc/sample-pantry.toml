@@ -1230,6 +1230,17 @@ fiber = [ 13.3, 0.95 ]
 fat = 13.3
 source = 'portland product label'
 
+# trader joe's - plantain chips
+# ingredients: plantains, high oleic sunflower oil, salt
+[[food]]
+name = 'trader-joes-plantain-chips'
+serving-size = '100g'
+protein = 1
+carbs = 67.9
+fiber = 3.6
+fat = 25
+source = 'portland product label'
+
 # trader joe's - roasted seaweed snack with sea salt
 # ingredients: seaweed, expeller pressed canola oil, sesame oil, sea salt
 [[food]]
