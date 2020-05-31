@@ -688,6 +688,18 @@ fiber = 11
 fat = 22.2
 source = 'launceston product label'
 
+# mingle seasoning - fodmap-friendly moroccan spice blend
+# ingredients: cumin, ginger, sweet paprika, allspice, cinnamon, parsley,
+# coriander powder, black pepper, smoked paprika, clove, pink himalayan
+# salt
+# macros estimated from kashmiri-masala
+[[food]]
+name = 'mingle-seasoning-fodmap-friendly-moroccan-spice-blend'
+serving-size = '1 tbsp (4.6g)'
+protein = 0.6
+carbs = 1.7
+fat = 0.6
+
 # mingle seasoning - spicy mexican spice blend
 # ingredients: garlic, kashmiri chilli, cumin, onion, sweet paprika,
 # black pepper, pink himalayan salt, oregano, parsley
