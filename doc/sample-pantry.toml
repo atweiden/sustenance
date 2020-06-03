@@ -1203,6 +1203,17 @@ carbs = 66.7
 fat = 23.3
 source = 'portland product label'
 
+# trader joe's - giant peruvian inca corn - salted
+# ingredients: corn, palm oil, salt
+[[food]]
+name = 'trader-joes-giant-peruvian-inca-corn-salted'
+serving-size = '100g'
+protein = 7.1
+carbs = 74
+fiber = 7.1
+fat = 14.1
+source = 'portland product label'
+
 # trader joe's mushroom & company - multipurpose umami seasoning blend
 # ingredients: kosher salt, dried onions, ground mustard seed, porcini
 # mushroom powder, white button mushroom powder, crushed red pepper,
