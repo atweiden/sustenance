@@ -200,6 +200,51 @@ carbs = 4.6
 fat = 0.1
 source = 'launceston product label'
 
+# artisa - ben lomond - white mould ripened cashew cheese with tasmanian
+# vine ash
+# ingredients: cashew nuts, filtered water, tasmanian sea salt, tasmanian
+# vine ash, cultures
+[[food]]
+name = 'artisa-ben-lomond'
+serving-size = '100g'
+protein = 7.1
+carbs = 7
+fat = 20.5
+source = 'launceston product label'
+
+# artisa - gladstone - cashew nut cheese smoked with tasmanian applewood
+# ingredients: cashew nuts, filtered water, refined organic coconut oil,
+# tasmanian sea salt, probiotic culture
+[[food]]
+name = 'artisa-gladstone'
+serving-size = '100g'
+protein = 13.9
+carbs = 13.6
+fat = 44.4
+source = 'launceston product label'
+
+# artisa - kunanyi - cashew cheese with tasmanian pepperberry
+# ingredients: cashew nuts, water, refined coconut oil, sea salt,
+# tasmanian pepperberry, probiotic culture
+[[food]]
+name = 'artisa-kunanyi'
+serving-size = '100g'
+protein = 11.1
+carbs = 11
+fat = 35.1
+source = 'launceston product label'
+
+# artisa - the derwent - cashew cheese with fennel pollen
+# ingredients: cashew nuts, water, refined coconut oil, sea salt,
+# tasmanian fennel pollen, probiotic culture
+[[food]]
+name = 'artisa-the-derwent'
+serving-size = '100g'
+protein = 11.1
+carbs = 11
+fat = 35.1
+source = 'launceston product label'
+
 # brookfarm - cacao coconut granola
 # ingredients: puffed rice, coconut flakes (12%), organic golden flaxseed,
 # honey, almonds, sunflower kernels, pumpkin kernels, macadamia oil,
@@ -291,6 +336,31 @@ carbs = 24.2
 fiber = [ 6.7, 0.88 ]
 fat = 48
 source = 'hobart product label'
+
+# earnest bean co - organic smoked tofu
+# ingredients: certified organic soybeans, water, nigari, sea salt,
+# natural wood smoke
+[[food]]
+name = 'earnest-bean-co-organic-smoked-tofu'
+serving-size = '100g'
+protein = 19
+carbs = 2.1
+fat = 10.9
+source = 'launceston product label'
+
+# farmer jo - take me home - honey granola - with quinoa, whole almonds
+# and pistachios
+# ingredients: australian wholegrain oats, honey (31%), macadamia oil,
+# wheat flour, almonds (2%), organic puffed brown rice, pistachio kernels
+# (1%), organic puffed quinoa (1%), cinnamon, sea salt
+[[food]]
+name = 'farmer-jo-take-me-home-honey-granola'
+serving-size = '100g'
+protein = 10.4
+carbs = 69.8
+fiber = 7.6
+fat = 17.8
+source = 'launceston product label'
 
 # farmer jo - the sweet canadian, eh - maple granola - with roasted
 # almonds & a sprinkle of sea salt
@@ -498,6 +568,53 @@ serving-size = '100g'
 protein = 4.7
 carbs = 12.4
 fat = 6.1
+source = 'launceston product label'
+
+# lauds - aged cashew cheese
+# ingredients: cashews, coconut oil, water kefir (water, natural
+# cultures), miso paste, nutritional yeast, spices, tasmanian sea salt,
+# preservative - sorbic acid
+[[food]]
+name = 'lauds-aged-cashew-cheese'
+serving-size = '100g'
+protein = 13.5
+carbs = 13.4
+fat =  58.3
+source = 'launceston product label'
+
+# lauds - ashed walnut cheese
+# ingredients: cashews, tasmanian walnuts, coconut oil, water kefir
+# (water, natural cultures), miso paste, nutritional yeast, spices,
+# tasmanian sea salt, cheese ash, preservative - sorbic acid
+[[food]]
+name = 'lauds-ashed-walnut-cheese'
+serving-size = '100g'
+protein = 12.4
+carbs = 9.7
+fat =  63.3
+source = 'launceston product label'
+
+# lauds - smoked oat cheese - pepperberry
+# ingredients: oat milk yoghurt (water, organic oats, cashews, natural
+# cultures), water, tapioca flour, sunflower oil, cashews, nutritional
+# yeast, coconut oil, tasmanian sea salt, carrageenan, miso paste,
+# spices, preservative (sorbic acid)
+[[food]]
+name = 'lauds-smoked-oat-cheese-pepperberry'
+serving-size = '100g'
+protein = 2.2
+carbs = 17.6
+fat =  21.9
+source = 'launceston product label'
+
+# lotus - puffed millet
+# ingredients: puffed organic millet (100%)
+[[food]]
+name = 'lotus-puffed-millet'
+serving-size = '100g'
+protein = 12.6
+carbs = 71
+fat = 4
 source = 'launceston product label'
 
 # lotus - puffed quinoa
@@ -903,6 +1020,15 @@ carbs = 4.3
 fat = 37.4
 source = 'launceston product label'
 
+# pomlife - freeze dried pomegranate arils
+[[food]]
+name = 'pomlife-freeze-dried-pomegranate-arils'
+serving-size = '100g'
+protein = 8.6
+carbs = 76.2
+fat = 7.4
+source = 'launceston product label'
+
 # power super foods - acai powder
 [[food]]
 name = 'power-super-foods-acai-powder'
@@ -1060,6 +1186,18 @@ serving-size = '100g'
 protein = 9.8
 carbs = 8.3
 fat = 0.2
+source = 'launceston product label'
+
+# sprout & kernel - cultured cashew cheese - pepper corn
+# ingredients: organic cashews (95%), organic coconut oil, organic
+# plant-based culture, filtered water, ground black pepper (4%), himalayan
+# pink salt and citric acid
+[[food]]
+name = 'sprout-and-kernel-cultured-cashew-cheese-pepper-corn'
+serving-size = '100g'
+protein = 10.7
+carbs = 10.6
+fat = 31.1
 source = 'launceston product label'
 
 # squirrel & crow - black bean sunflower tempeh
