@@ -259,6 +259,30 @@ fiber = 11.1
 fat = 32.3
 source = 'launceston product label'
 
+# ceres organics - organic brown rice bites
+# ingredients: certified organic brown jasmine rice (94%), certified
+# organic sunflower oil, natural sea salt (1%)
+[[food]]
+name = 'ceres-organics-brown-rice-bites'
+serving-size = '100g'
+protein = 6.8
+carbs = 75.9
+fiber = 4.3
+fat = 7.6
+source = 'launceston product label'
+
+# ceres organics - organic brown rice crackers - with chia
+# ingredients: certified organic brown jasmine rice (91.4%), certified
+# organic sunflower oil, certified organic chia, natural sea salt (1%)
+[[food]]
+name = 'ceres-organics-brown-rice-crackers-with-chia'
+serving-size = '100g'
+protein = 7
+carbs = 76.1
+fiber = 5.1
+fat = 8.2
+source = 'launceston product label'
+
 # ceres organics - organic quinoa puffs
 [[food]]
 name = 'ceres-organics-quinoa-puffs'
@@ -298,6 +322,17 @@ carbs = 26.7
 fiber = 20
 fat = 47
 source = 'auckland product label'
+
+# divine addictions - cacao and coconut granola with hazelnuts and dates
+# ingredients: oats, coconut, hazelnuts, dates, olive oil, honey,
+# buckwheat, cacao, vanilla, himalayan salt
+[[food]]
+name = 'divine-addictions-cacao-and-coconut-granola-with-hazelnuts-and-dates'
+serving-size = '100g'
+protein = 8.2
+carbs = 43
+fat = 27.7
+source = 'launceston product label'
 
 # dr garlic tasmania - garlic honey roasted cashews
 # ingredients: cashews, garlic, olive oil, salt, cayenne pepper
@@ -651,6 +686,17 @@ fiber = 6
 fat = 16
 source = 'perth product label'
 
+# macro wholefoods market - cacao nibs
+[[food]]
+name = 'macro-wholefoods-market-cacao-nibs'
+serving-size = '100g'
+protein = 13.1
+carbs = 30.2
+# insoluble fiber estimated from prebiotin [3]
+fiber = [ 21.1, 0.83 ]
+fat = 49.9
+source = 'perth product label'
+
 # macro wholefoods market - cheeky chickpeas
 [[food]]
 name = 'macro-wholefoods-market-cheeky-chickpeas'
@@ -662,16 +708,42 @@ fiber = [ 18.3, 0.83 ]
 fat = 15.9
 source = 'sydney product label'
 
-# macro wholefoods market - cacao nibs
+# macro wholefoods market - grain bites - italian herbs
+# ingredients: grains (47%) (brown rice & quinoa), linseed, sesame seed,
+# chia seed, tamari sauce, italian herbs (1.5%), salt
 [[food]]
-name = 'macro-wholefoods-market-cacao-nibs'
+name = 'macro-wholefoods-market-grain-bites-italian-herbs'
 serving-size = '100g'
-protein = 13.1
-carbs = 30.2
-# insoluble fiber estimated from prebiotin [3]
-fiber = [ 21.1, 0.83 ]
-fat = 49.9
-source = 'perth product label'
+protein = 18.4
+carbs = 60.8
+fiber = 21.8
+fat = 15.4
+source = 'launceston product label'
+
+# macro wholefoods market - grain bites - spicy seaweed
+# ingredients: grains (47%) (brown rice & quinoa), linseed, sesame seed,
+# chia seed, tamari sauce, nori seaweed (1.4%), salt, cayenne pepper,
+# orange powder
+[[food]]
+name = 'macro-wholefoods-market-grain-bites-spicy-seaweed'
+serving-size = '100g'
+protein = 17.6
+carbs = 67.9
+fiber = 24.6
+fat = 25.3
+source = 'launceston product label'
+
+# macro wholefoods market - quinoa bites - apple & sultana
+# ingredients: apple (62%), quinoa (18%), sultana (8%), buckwheat,
+# sunflower seeds, lemon juice, ground cinnamon
+[[food]]
+name = 'macro-wholefoods-market-quinoa-bites-apple-sultana'
+serving-size = '100g'
+protein = 9.8
+carbs = 79.8
+fiber = 11.6
+fat = 5.4
+source = 'launceston product label'
 
 # matakana superfoods - organic acai berry powder
 [[food]]
@@ -1379,6 +1451,17 @@ fiber = [ 27.5, 0.62 ]
 fat = 3.8
 source = 'portland product label'
 
+# trader joe's - organic mango fruit bar
+# ingredients: organic dried mangoes
+[[food]]
+name = 'trader-joes-organic-mango-fruit-bar'
+serving-size = '100g'
+protein = 0.7
+carbs = 81.1
+fiber = 7.1
+fat = 0
+source = 'portland product label'
+
 # trader joe's - organic peanut powder with sea salt
 # ingredients: partially defatted organic peanut flour, sea salt
 [[food]]
@@ -1413,6 +1496,16 @@ fiber = 17.7
 fat = 35.4
 source = 'portland product label'
 
+# trader joe's - sweet plantain chips
+# ingredients: plantains, palm olein
+[[food]]
+name = 'trader-joes-sweet-plantain-chips'
+serving-size = '100g'
+protein = 1
+carbs = 70.6
+fat = 21.2
+source = 'portland product label'
+
 # vasse valley - raw hemp protein
 [[food]]
 name = 'vasse-valley-raw-hemp-protein'
@@ -1434,6 +1527,18 @@ carbs = 38.8
 fiber = [ 36.8, 0.8 ]
 fat = 31
 source = 'perth product label'
+
+# vegie delights - nutmeat
+# ingredients: water, peanuts (20%), vegetable protein (wheat), onion,
+# salt, minerals (zinc, iron), vitamin b12
+[[food]]
+name = 'vegie-delights-nutmeat'
+serving-size = '100g'
+protein = 26.4
+carbs = 5.5
+fiber = 3.4
+fat = 11
+source = 'launceston product label'
 
 # whole earth & sea - protein & greens - organic chocolate
 # ingredients: organic protein blend (71%) (pea protein, rice protein,
