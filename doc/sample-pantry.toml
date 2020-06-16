@@ -544,7 +544,7 @@ source = 'launceston product label'
 
 # forbidden - certified organic brown rice flakes
 # ingredients: 100% brown rice flakes
-[food]]
+[[food]]
 name = 'forbidden-brown-rice-flakes'
 serving-size = '100g'
 protein = 6.8
