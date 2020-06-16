@@ -323,6 +323,18 @@ fiber = 20
 fat = 47
 source = 'auckland product label'
 
+# connect foods - roasted black beans - pink himalayan salt
+# ingredients: roasted black soybean (98%), pink himalayan salt (1.4%),
+# soybean oil
+[[food]]
+name = 'connect-foods-roasted-black-beans-pink-himalayan-salt'
+serving-size = '100g'
+protein = 45.9
+carbs = 27.3
+fiber = 16.6
+fat = 19.2
+source = 'launceston product label'
+
 # divine addictions - cacao and coconut granola with hazelnuts and dates
 # ingredients: oats, coconut, hazelnuts, dates, olive oil, honey,
 # buckwheat, cacao, vanilla, himalayan salt
@@ -372,6 +384,16 @@ fiber = [ 6.7, 0.88 ]
 fat = 48
 source = 'hobart product label'
 
+# eat rite - tamari seaweed rice crackers
+# ingredients: brown rice, soy sauce (water, soybeans, salt), seaweed
+[[food]]
+name = 'eat-rite-tamari-seaweed-rice-crackers'
+serving-size = '100g'
+protein = 9.6
+carbs = 83.2
+fat = 1.6
+source = 'launceston product label'
+
 # earnest bean co - organic smoked tofu
 # ingredients: certified organic soybeans, water, nigari, sea salt,
 # natural wood smoke
@@ -381,6 +403,19 @@ serving-size = '100g'
 protein = 19
 carbs = 2.1
 fat = 10.9
+source = 'launceston product label'
+
+# farmer jo - salted maple baked muesli - with cashews and roasted almonds
+# ingredients: whole grain oats, seeds (25%) (sunflower seeds, pepitas),
+# nuts (10%) (almonds 7%, cashews 3%), rice malt syrup, coconut, sunflower
+# oil, pure maple syrup (2%), sea salt (0.5%)
+[[food]]
+name = 'farmer-jo-salted-maple-baked-muesli'
+serving-size = '100g'
+protein = 13.7
+carbs = 54.1
+fiber = 7.3
+fat = 27.5
 source = 'launceston product label'
 
 # farmer jo - take me home - honey granola - with quinoa, whole almonds
@@ -505,6 +540,17 @@ protein = 9
 carbs = 85
 fiber = [ 14.0, 0.64 ]
 fat = 1
+source = 'launceston product label'
+
+# forbidden - certified organic brown rice flakes
+# ingredients: 100% brown rice flakes
+[food]]
+name = 'forbidden-brown-rice-flakes'
+serving-size = '100g'
+protein = 6.8
+carbs = 80.3
+fiber = 1.4
+fat = 2
 source = 'launceston product label'
 
 # for your own good - caveman crackers
@@ -669,7 +715,7 @@ source = 'launceston product label'
 # raw cacao nibs, activated brazil nuts, activated almonds, activated
 # chia seeds)
 [[food]]
-name = 'loving-earth-paleo-mix-protein power'
+name = 'loving-earth-paleo-mix-protein-power'
 serving-size = '100g'
 protein = 17.8
 carbs = 11.9
@@ -755,10 +801,34 @@ fiber = 31.3
 fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
+# mayver's - peanut butter - dark roasted - crunchy
+# ingredients: roasted peanuts (99.3%) & sea salt
+[[food]]
+name = 'mayvers-peanut-butter-dark-roasted-crunchy'
+serving-size = '100g'
+protein = 25
+carbs = 21.3
+# insoluble fiber estimated from roasted-peanut
+fiber = [ 7.9, 0.93 ]
+fat = 49.3
+source = 'launceston product label'
+
+# mayver's - peanut butter - extra crunchy
+# ingredients: roasted peanuts (99.3%) & sea salt
+[[food]]
+name = 'mayvers-peanut-butter-extra-crunchy'
+serving-size = '100g'
+protein = 25
+carbs = 21.3
+# insoluble fiber estimated from roasted-peanut
+fiber = [ 7.9, 0.93 ]
+fat = 49.3
+source = 'launceston product label'
+
 # mayver's - all natural peanut & cacao spread
 # ingredients: just organic peanuts (95%) & cacao powder (5%)
 [[food]]
-name = 'mayvers-all-natural-peanut-cacao-spread'
+name = 'mayvers-peanut-cacao-spread'
 serving-size = '100g'
 protein = 23.7
 carbs = 21.5
@@ -770,13 +840,50 @@ source = 'launceston product label'
 # mayver's - all natural peanut & coconut spread
 # ingredients: just organic peanuts (90%) & coconut (10%)
 [[food]]
-name = 'mayvers-all-natural-peanut-coconut-spread'
+name = 'mayvers-peanut-coconut-spread'
 serving-size = '100g'
 protein = 28
 carbs = 18.6
 # insoluble fiber estimated from 90% peanut, 10% coconut-flake
 fiber = [ 8.8, 0.94 ]
 fat = 52
+source = 'launceston product label'
+
+# mayver's - protein+ peanut butter
+# ingredients: roasted peanuts, peanut flour and salt
+[[food]]
+name = 'mayvers-proteinplus-peanut-butter'
+serving-size = '100g'
+protein = 32
+carbs = 22.1
+# insoluble fiber estimated from 90% roasted-peanut
+fiber = [ 9.1, 0.84 ]
+fat = 42.1
+source = 'launceston product label'
+
+# mayver's - protein+ peanut butter - with five super seeds
+# ingredients: peanuts, peanut flour, (chia seeds, linseeds, sunflower
+# seeds, pepitas, quinoa) (5%) and salt
+[[food]]
+name = 'mayvers-proteinplus-peanut-butter-with-five-super-seeds'
+serving-size = '100g'
+protein = 32
+carbs = 22.9
+# insoluble fiber estimated from 80% peanut
+fiber = [ 9.5, 0.76 ]
+fat = 41.8
+source = 'launceston product label'
+
+# mayver's - protein+ peanut butter - with hemp seeds
+# ingredients: peanuts, peanut flour, hemp seeds (5%) and salt
+[[food]]
+name = 'mayvers-proteinplus-peanut-butter-with-hemp-seeds'
+serving-size = '100g'
+protein = 32
+carbs = 21.3
+# insoluble fiber estimated from 85% peanut, 5% hemp-seed
+fiber = [ 8.8, 0.81 ]
+fat = 42.7
 source = 'launceston product label'
 
 # meru miso - mild yellow chickpea miso
@@ -1228,6 +1335,16 @@ serving-size = '100g'
 protein = 12.9
 carbs = 56.4
 fat = 4.4
+source = 'launceston product label'
+
+# sabaton - whole chestnuts
+# ingredients: chestnuts, water
+[[food]]
+name = 'sabaton-whole-chestnuts'
+serving-size = '100g'
+protein = 1.7
+carbs = 21
+fat = 1
 source = 'launceston product label'
 
 # salamanca fruit leathers - fruit roll
