@@ -629,6 +629,18 @@ fiber = 20
 fat = 46
 source = 'perth product label'
 
+# larder fresh - brown rice, mushroom and seaweed burger
+# ingredients: brown rice (47%), carrot, chickpea, sweet potato, mushrooms
+# (5%), sesame seeds, rice bran oil, tamari (from soy), seaweed (0.7%),
+# black sesame seeds, salt
+[[food]]
+name = 'larder-fresh-brown-rice-mushroom-and-seaweed-burger'
+serving-size = '100g'
+protein = 4
+carbs = 29.5
+fat = 5.6
+source = 'launceston product label'
+
 # larder fresh - falafel
 # ingredients: water, chickepas, fava beans, fresh onions, fresh herbs
 # and fresh spices, rice bran oil, salt and garlic
@@ -649,6 +661,17 @@ serving-size = '100g'
 protein = 4.7
 carbs = 12.4
 fat = 6.1
+source = 'launceston product label'
+
+# larder fresh - roast pumpkin & chickpea burger
+# ingredients: pumpkin (30%), chickpea (28%), water, red lentil, rice
+# bran oil, fresh coriander, salt and spices
+[[food]]
+name = 'larder-fresh-roast-pumpkin-chickpea-burger'
+serving-size = '100g'
+protein = 6
+carbs = 15.9
+fat = 6
 source = 'launceston product label'
 
 # lauds - aged cashew cheese
@@ -1067,8 +1090,6 @@ name = 'natures-works-tasmanian-toasted-hazel-meal'
 serving-size = '100g'
 protein = 26.9
 carbs = 17.2
-# fiber estimated from hazelnut
-fiber = [ 10.4, 0.88 ]
 fat = 30.8
 source = 'hobart product label'
 
@@ -1377,6 +1398,30 @@ carbs = 8.3
 fat = 0.2
 source = 'launceston product label'
 
+# sprout & kernel - cultured cashew cheese - chives
+# ingredients: organic cashews (95%), organic coconut oil, organic
+# plant-based culture, filtered water, chives (4%), himalayan pink salt
+# and citric acid
+[[food]]
+name = 'sprout-and-kernel-cultured-cashew-cheese-chives'
+serving-size = '100g'
+protein = 10.7
+carbs = 10.6
+fat = 31.1
+source = 'launceston product label'
+
+# sprout & kernel - cultured cashew cheese - herb
+# ingredients: organic cashews (95%), organic coconut oil, organic
+# plant-based culture, filtered water, herbs & vegetables (4%), himalayan
+# pink salt and citric acid
+[[food]]
+name = 'sprout-and-kernel-cultured-cashew-cheese-herb'
+serving-size = '100g'
+protein = 10.7
+carbs = 10.6
+fat = 31.1
+source = 'launceston product label'
+
 # sprout & kernel - cultured cashew cheese - pepper corn
 # ingredients: organic cashews (95%), organic coconut oil, organic
 # plant-based culture, filtered water, ground black pepper (4%), himalayan
@@ -1675,6 +1720,20 @@ protein = 60.3
 carbs = 27.9
 fiber = 5.8
 fat = 7.5
+source = 'launceston product label'
+
+# wildly good - spiced chickpea burgers - with coriander, parsley & dill
+# ingredients: chickpeas (42%), carrots, onions, wheat flour, celery,
+# herb and spice blend (5%) [spices (2%) (pepper, chilli, sumac), salt,
+# vegetable powders (chickpea, onion), herbs (parsley (3.5%), coriander
+# (1.7%), dill (0.8%), thyme, lemon (0.5%) (oil, peel))], canola oil
+[[food]]
+name = 'wildly-good-spiced-chickpea-burgers'
+serving-size = '100g'
+protein = 4.7
+carbs = 28.1
+fiber = 4.1
+fat = 5.6
 source = 'launceston product label'
 
 # woolworths - four seasons coleslaw - white cabbage, red cabbage,
