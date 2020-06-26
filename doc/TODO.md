@@ -220,6 +220,8 @@ $sustenance.gen-report(:sustainability);
   - fat in depth
     - cholesterol
     - dha / epa / ala
+    - omega-3
+    - omega-6
     - saturated fat
   - carbs in depth
     - fructose
