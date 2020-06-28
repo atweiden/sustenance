@@ -909,6 +909,16 @@ fiber = [ 8.8, 0.81 ]
 fat = 42.7
 source = 'launceston product label'
 
+# melrose - organic molasses - unsulphured black strap molasses
+# ingredients: organic dehydrated cane juice
+[[food]]
+name = 'melrose-organic-molasses'
+serving-size = '100g'
+protein = 6.2
+carbs = 59.5
+fat = 0.1
+source = 'launceston product label'
+
 # meru miso - mild yellow chickpea miso
 # ingredients: white rice, chickpeas, salt, koji starter (aspergillus
 # oryzae)
@@ -1162,6 +1172,9 @@ fat = 15
 source = 'launceston product label'
 
 # pickld - crunchy coconut gourmet blend
+# ingredients: organic desiccated coconut, fermented and roasted lentils,
+# chia seeds, mustard seeds, dried red chillies, black pepper, turmeric
+# and asafoetida (dried gum from root of ferula tree)
 [[food]]
 name = 'pickld-crunchy-coconut-gourmet-blend'
 # average servings size: 10g (2 tsp)
@@ -1173,6 +1186,10 @@ fat = 29
 source = 'https://www.pickld.com/collections/single-products/products/coconut-seasoning'
 
 # pickld - exotic cumin gourmet blend
+# ingredients: fermented and roasted lentils, coriander, cumin, dried
+# mango powder, dried moringa powder, chia seeds, black pepper, mustard
+# seeds, asafoetida (dried gum from root of ferula tree), turmeric,
+# dried curry leaves
 [[food]]
 name = 'pickld-exotic-cumin-gourmet-blend'
 # average servings size: 5g (1 tsp)
@@ -1184,6 +1201,9 @@ fat = 10.7
 source = 'https://www.pickld.com/collections/single-products/products/cumin-seasoning'
 
 # pickld - roasted sesame gourmet blend
+# ingredients: white sesame seeds, black sesame seeds, fermented and
+# roasted lentils, chia seeds, black pepper, mustard seeds, dried red
+# chillies, turmeric and asafoetida (dried gum from root of ferula tree)
 [[food]]
 name = 'pickld-roasted-sesame-gourmet-blend'
 # average servings size: 5g (1 tsp)
@@ -1294,6 +1314,16 @@ carbs = 31.6
 fiber = 7.9
 fat = 44.7
 source = 'portland product label'
+
+# pureharvest - organic rice malt syrup
+# ingredients: organic brown rice
+[[food]]
+name = 'pureharvest-organic-rice-malt-syrup'
+serving-size = '100g'
+protein = 0.5
+carbs = 79.8
+fat = 0
+source = 'launceston product label'
 
 # pure snack - probiotic kale chips - cashew vegan cheese
 # ingredients: organic australian-grown kale, single origin chemical-free
@@ -1573,6 +1603,19 @@ serving-size = '100g'
 protein = 6.7
 carbs = 66.7
 fat = 23.3
+source = 'portland product label'
+
+# trader joe's - everything but the bagel sesame seasoning blend
+# ingredients: sesame seeds, sea salt flakes, dried minced garlic,
+# dried minced onion, black sesame seeds, poppy seeds
+# macros derived from pickld-roasted-sesame-gourmet-blend
+[[food]]
+name = 'trader-joes-everything-but-the-bagel-sesame-seasoning-blend'
+serving-size = '100g'
+protein = 25.9
+carbs = 31.8
+fiber = 18.1
+fat = 37.6
 source = 'portland product label'
 
 # trader joe's - giant peruvian inca corn - salted
