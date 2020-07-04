@@ -245,6 +245,19 @@ carbs = 11
 fat = 35.1
 source = 'launceston product label'
 
+# bean supreme - marinated chilli & lime jackfruit
+# ingredients: jackfruit (52%), water, onion, coconut sugar, sunflower
+# oil, red thai chilli pepper (3%), lime juice (3%), garlic, herbs and
+# spices, vinegar, salt, chilli
+[[food]]
+name = 'bean-supreme-marinated-chilli-lime-jackfruit'
+serving-size = '100g'
+protein = 1.8
+carbs = 14.2
+fiber = 6.3
+fat = 5
+source = 'launceston product label'
+
 # brookfarm - cacao coconut granola
 # ingredients: puffed rice, coconut flakes (12%), organic golden flaxseed,
 # honey, almonds, sunflower kernels, pumpkin kernels, macadamia oil,
@@ -384,6 +397,17 @@ fiber = [ 6.7, 0.88 ]
 fat = 48
 source = 'hobart product label'
 
+# earnest bean co - organic smoked tofu
+# ingredients: certified organic soybeans, water, nigari, sea salt,
+# natural wood smoke
+[[food]]
+name = 'earnest-bean-co-organic-smoked-tofu'
+serving-size = '100g'
+protein = 19
+carbs = 2.1
+fat = 10.9
+source = 'launceston product label'
+
 # eat rite - tamari seaweed rice crackers
 # ingredients: brown rice, soy sauce (water, soybeans, salt), seaweed
 [[food]]
@@ -394,15 +418,17 @@ carbs = 83.2
 fat = 1.6
 source = 'launceston product label'
 
-# earnest bean co - organic smoked tofu
-# ingredients: certified organic soybeans, water, nigari, sea salt,
-# natural wood smoke
+# eatwell - lentil vegie burgers
+# ingredients: carrot, potato, lentil (16%), wheat flour, sweet potato,
+# ground chickpeas, peas, spice blend (herbs & spices, onion & garlic),
+# zucchini
 [[food]]
-name = 'earnest-bean-co-organic-smoked-tofu'
+name = 'eatwell-lentil-vegie-burgers'
 serving-size = '100g'
-protein = 19
-carbs = 2.1
-fat = 10.9
+protein = 6
+carbs = 39.2
+fiber = 8.4
+fat = 0.5
 source = 'launceston product label'
 
 # farmer jo - salted maple baked muesli - with cashews and roasted almonds
@@ -1073,6 +1099,8 @@ fat = 23.4
 source = 'launceston product label'
 
 # nature's kitchen - curried pumpkin & corn burgers
+# ingredients: pumpkin (39%), carrot, sweetcorn (15%), wheat flour,
+# ground chickpea, curry powder (1%), herbs and spices, wheat fibre
 [[food]]
 name = 'natures-kitchen-curried-pumpkin-corn-burgers'
 serving-size = '100g'
@@ -1092,6 +1120,18 @@ carbs = 7.7
 fiber = [ 7.2, 0.79 ]
 fat = 5.5
 source = 'perth product label'
+
+# nature's kitchen - tofu - firm
+# ingredients: soybean, water, mineral salt (511)
+[[food]]
+name = 'natures-kitchen-tofu-firm'
+serving-size = '100g'
+protein = 16.4
+carbs = 2.7
+# insoluble fiber estimated from firm-tofu
+fiber = [ 1.2, 0.6 ]
+fat = 8.2
+source = 'launceston product label'
 
 # nature's works - tasmanian toasted hazel meal
 # de-fatted hazel meal
@@ -1407,6 +1447,18 @@ carbs = 19.6
 fat = 2.3
 source = 'hobart product label'
 
+# simply better foods - organic firm tofu
+# ingredients: soybean, water, mineral salt (511)
+[[food]]
+name = 'simply-better-foods-organic-firm-tofu'
+serving-size = '100g'
+protein = 15.6
+# carbs and fiber estimated from firm-tofu
+carbs = 0.7
+fiber = [ 0.5, 0.6 ]
+fat = 9.8
+source = 'launceston product label'
+
 # spiral foods - organic natural vegan oven baked mung bean chips
 [[food]]
 name = 'spiral-foods-baked-mung-bean-chips'
@@ -1492,6 +1544,18 @@ carbs = 20.3
 fiber = [ 7.9, 0.88 ]
 fat = 0.4
 source = 'portland product label'
+
+# sunfed - chicken-free chicken
+# ingredients: water, pea protein (43%), rice bran oil, pea fibre,
+# pumpkin, natural yeast extract, maize starch
+[[food]]
+name = 'sunfed-chicken-free-chicken'
+serving-size = '100g'
+protein = 36.1
+carbs = 6.7
+fiber = 4.3
+fat = 6.1
+source = 'launceston product label'
 
 # take & eat - organic tempeh - adzuki bean
 # ingredients: certified organic adzuki beans (min 90%), water, vinegar,
@@ -1789,6 +1853,29 @@ carbs = 5.7
 fiber = 2.9
 fat = 0.1
 source = 'perth product label'
+
+# yumi's - falafel - classic
+# ingredients: chickpeas (72%), vegetable oil, dried onions, cumin,
+# garlic, parsley flakes, salt, raising agent (sodium bicarbonate), pepper
+[[food]]
+name = 'yumis-falafel-classic'
+serving-size = '100g'
+protein = 6.5
+carbs = 11.9
+fat = 21.5
+source = 'launceston product label'
+
+# yumi's - falafel - sesame
+# ingredients: chickpeas (65%), vegetable oil, sesame seeds (7%),
+# onions, cumin, garlic, parsley flakes (1%), salt, raising agent
+# (sodium bicarbonate), pepper
+[[food]]
+name = 'yumis-falafel-sesame'
+serving-size = '100g'
+protein = 6.5
+carbs = 11.9
+fat = 21.5
+source = 'launceston product label'
 
 # --- end branded }}}
 # --- chocolate {{{
