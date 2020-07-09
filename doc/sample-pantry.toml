@@ -758,6 +758,17 @@ fiber = 5.5
 fat = 3.9
 source = 'launceston product label'
 
+# lotus - rice flakes - rolled
+# ingredients: wholegrain brown rice (100%)
+[[food]]
+name = 'lotus-rice-flakes-rolled'
+serving-size = '100g'
+protein = 7.5
+carbs = 78.3
+fiber = 3.6
+fat = 2.7
+source = 'launceston product label'
+
 # loving earth - raw organic activated paleo mix - protein power
 # ingredients: certified organic (activated sunflower seeds, coconut
 # chips, activated flax seeds, activated pumpkin seeds, activated cashews,
@@ -1033,7 +1044,7 @@ source = 'launceston product label'
 # ingredients: activated (lentils, buckwheat, australian insecticide-free
 # sunflower seeds, pepitas, almonds), chickpeas, olive oil, shitake
 # mushroom, sesame seed, yeast flakes, turmeric, nigella sativa, cumin,
-# corinader seed, ginger, black pepper, paprika, rosemary, fennel seed
+# coriander seed, ginger, black pepper, paprika, rosemary, fennel seed
 [[food]]
 name = 'mindful-foods-yummy-beans'
 serving-size = '100g'
@@ -1297,6 +1308,18 @@ protein = 8.7
 carbs = 38
 fiber = 29
 fat = 51.3
+source = 'launceston product label'
+
+# power super foods - maqui powder
+# ingredients: certified organic fair trade freeze dried maqui powder
+# (aristotelia chilensis)
+[[food]]
+name = 'power-super-foods-maqui-powder'
+serving-size = '100g'
+protein = 6.3
+carbs = 73.7
+fiber = 12.3
+fat = 9.5
 source = 'launceston product label'
 
 # pure & purple garlic - chilli mix - hot
