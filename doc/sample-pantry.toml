@@ -1692,6 +1692,17 @@ carbs = 66.7
 fat = 23.3
 source = 'portland product label'
 
+# trader joe's - crunch dried honeycrisp apples
+# ingredients: apples
+[[food]]
+name = 'trader-joes-crunch-dried-honeycrisp-apples'
+serving-size = '100g'
+protein = 0.9
+carbs = 94.1
+fiber = 16.5
+fat = 1.2
+source = 'portland product label'
+
 # trader joe's - everything but the bagel sesame seasoning blend
 # ingredients: sesame seeds, sea salt flakes, dried minced garlic,
 # dried minced onion, black sesame seeds, poppy seeds
@@ -1703,6 +1714,17 @@ protein = 25.9
 carbs = 31.8
 fiber = 18.1
 fat = 37.6
+source = 'portland product label'
+
+# trader joe's - freeze dried banana slices
+# ingredients: bananas
+[[food]]
+name = 'trader-joes-freeze-dried-banana-slices'
+serving-size = '100g'
+protein = 5
+carbs = 90
+fiber = 7
+fat = 0
 source = 'portland product label'
 
 # trader joe's - giant peruvian inca corn - salted
