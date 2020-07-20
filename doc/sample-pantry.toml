@@ -128,6 +128,17 @@ fiber = 7.5
 fat = 0
 source = 'portland product label'
 
+# annalisa - four bean mix
+# ingredients: organic butter beans, organic chick peas, organic white
+# beans, organic red kidney beans, water, salt
+[[food]]
+name = 'annalisa-four-bean-mix'
+serving-size = '100g'
+protein = 6.9
+carbs = 22.3
+fat = 1.5
+source = 'launceston product label'
+
 # applestraps - apple
 # ingredients: apple and water; no preservatives, artificial colours &
 # flavours; the peel was left on because it contains flavour, antioxidants
