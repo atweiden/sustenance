@@ -1703,6 +1703,18 @@ fiber = 16.5
 fat = 1.2
 source = 'portland product label'
 
+# trader joe's - dried baby sweet pineapple
+# ingredients: pineapple
+[[food]]
+name = 'trader-joes-dried-baby-sweet-pineapple'
+serving-size = '100g'
+protein = 2.5
+carbs = 80
+# estimate insoluble fiber and fat content by pineapple at 6:1 ratio
+fiber = [ 12.5, 0.93 ]
+fat = 0.6
+source = 'portland product label'
+
 # trader joe's - everything but the bagel sesame seasoning blend
 # ingredients: sesame seeds, sea salt flakes, dried minced garlic,
 # dried minced onion, black sesame seeds, poppy seeds
