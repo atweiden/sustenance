@@ -283,6 +283,20 @@ fiber = 11.1
 fat = 32.3
 source = 'launceston product label'
 
+# byron bay - macadamia muesli - almond fig pear
+# ingredients: organic rolled oats, sunflower kernels, organic pepitas,
+# macadmia nuts (4%), spray free almonds (4%), macadamia honey, sesame
+# seeds, cold-pressed macadmia oil, organic diced figs, organic pear
+# (organic diced pear, rice flour), organic raisins
+[[food]]
+name = 'byron-bay-macadamia-muesli-almond-fig-pear'
+serving-size = '100g'
+protein = 14
+carbs = 54.9
+fiber = 6.6
+fat = 23
+source = 'launceston product label'
+
 # ceres organics - organic brown rice bites
 # ingredients: certified organic brown jasmine rice (94%), certified
 # organic sunflower oil, natural sea salt (1%)
@@ -601,6 +615,61 @@ carbs = 5.1
 fat = 39.3
 source = 'launceston product label'
 
+# fruit wise - fruit straps - apple & apricot
+# ingredients: apple, apricot
+[[food]]
+name = 'fruit-wise-fruit-straps-apple-apricot'
+serving-size = '100g'
+protein = 2.3
+carbs = 78.5
+fiber = 8.5
+fat = 0.9
+source = 'launceston product label'
+
+# fruit wise - fruit straps - apple & cherry
+# ingredients: apple, cherry
+[[food]]
+name = 'fruit-wise-fruit-straps-apple-cherry'
+serving-size = '100g'
+protein = 1.7
+carbs = 82
+fiber = 8
+fat = 0.6
+source = 'launceston product label'
+
+# fruit wise - fruit straps - apple, mango & passion fruit
+# ingredients: apple, mango, passion fruit
+[[food]]
+name = 'fruit-wise-fruit-straps-apple-mango-passion-fruit'
+serving-size = '100g'
+protein = 1.4
+carbs = 82.8
+fiber = 8.8
+fat = 0.8
+source = 'launceston product label'
+
+# fruit wise - fruit straps - apple & strawberry
+# ingredients: apple, strawberry
+[[food]]
+name = 'fruit-wise-fruit-straps-apple-strawberry'
+serving-size = '100g'
+protein = 1.6
+carbs = 81.4
+fiber = 8.4
+fat = 0.7
+source = 'launceston product label'
+
+# fruit wise - fruit straps - apple & tropical
+# ingredients: apple, pineapple, passion fruit, banana, guava, mango
+[[food]]
+name = 'fruit-wise-fruit-straps-apple-tropical'
+serving-size = '100g'
+protein = 1.4
+carbs = 76.2
+fiber = 9.2
+fat = 0.9
+source = 'launceston product label'
+
 # gimme organic - premium roasted seaweed - sea salt
 [[food]]
 name = 'gimme-organic-premium-roasted-seaweed-sea-salt'
@@ -748,6 +817,17 @@ carbs = 17.6
 fat =  21.9
 source = 'launceston product label'
 
+# lotus - barley flakes - rolled
+# ingredients: 100% organic barley
+[[food]]
+name = 'lotus-barley-flakes-rolled'
+serving-size = '100g'
+protein = 8.8
+carbs = 81.4
+fiber = 12.6
+fat = 2.5
+source = 'launceston product label'
+
 # lotus - puffed millet
 # ingredients: puffed organic millet (100%)
 [[food]]
@@ -862,6 +942,19 @@ fiber = 11.6
 fat = 5.4
 source = 'launceston product label'
 
+# macro wholefoods market - toasted coconut clusters
+# ingredients: toasted and salted organic cocnut chips (51%) (organic
+# coconut flakes, sea salt), organic pepitas, organic sunflower seeds,
+# organic raw sugar, organic rice malt syrup, organic chia seeds
+[[food]]
+name = 'macro-wholefoods-market-toasted-coconut-clusters'
+serving-size = '100g'
+protein = 10.8
+carbs = 35.2
+fiber = 8.8
+fat = 49.7
+source = 'launceston product label'
+
 # matakana superfoods - organic acai berry powder
 [[food]]
 name = 'matakana-superfoods-acai-berry-powder'
@@ -894,6 +987,18 @@ carbs = 21.3
 # insoluble fiber estimated from roasted-peanut
 fiber = [ 7.9, 0.93 ]
 fat = 49.3
+source = 'launceston product label'
+
+# mayver's - peanut butter - skin on
+# ingredients: skin on roasted peanuts (99.3%) & sea salt
+[[food]]
+name = 'mayvers-peanut-butter-skin-on'
+serving-size = '100g'
+protein = 28.5
+carbs = 21.5
+# insoluble fiber estimated from roasted-peanut
+fiber = [ 16.3, 0.93 ]
+fat = 44.7
 source = 'launceston product label'
 
 # mayver's - all natural peanut & cacao spread
@@ -1882,12 +1987,12 @@ source = 'launceston product label'
 # amaranth, hemp protein, quinoa); fermented organic fruit, vegetable &
 # green blend (alfalfa grass, barley grass, wheat grass, apple, blueberry,
 # cranberry, carrot, cilantro, parsley, artichoke, black radish,
-# dandelion, kale celery, beet, spinach, tomato, broccoli, red radish,
-# cabbage, upland cress, cauliflower, arugula, watercress, basil,
-# peppers, swiss chard, spearmint); organic alkalised cocoa powder,
-# organic flavours, organic acerola cherry extract, sweetener (organic
-# steviol glycoside); organic mushroom blend (cordyceps, reishi,
-# himematsutake, shiitake, maitake, turkey tail)
+# dandelion, kale, celery, beet, spinach, tomato, broccoli, red radish,
+# cabbage, upland cress, cauliflower, arugula, watercress, basil, peppers,
+# swiss chard, spearmint); organic alkalised cocoa powder, organic
+# flavours, organic acerola cherry extract, sweetener (organic steviol
+# glycoside); organic mushroom blend (cordyceps, reishi, himematsutake,
+# shiitake, maitake, turkey tail)
 [[food]]
 name = 'whole-earth-and-sea-protein-and-greens-chocolate'
 serving-size = '100g'
