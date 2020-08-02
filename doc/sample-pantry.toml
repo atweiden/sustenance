@@ -1013,6 +1013,20 @@ fiber = [ 9.0, 0.94 ]
 fat = 48.1
 source = 'launceston product label'
 
+# mayver's - cacao super spread
+# ingredients: just peanuts, almonds, cashews, date powder, brazil nuts,
+# cacao powder (2.7%), chia seeds, sesame seeds, natural vanilla flavor
+[[food]]
+name = 'mayvers-cacao-super-spread'
+serving-size = '100g'
+protein = 17.6
+carbs = 24.5
+# insoluble fiber estimated from average of peanut, almond, cashew,
+# dried-date, brazil-nut, cacao-nib, chia-seed, sesame-seed
+fiber = [ 8.0, 0.87 ]
+fat = 47.1
+source = 'launceston product label'
+
 # mayver's - all natural peanut & coconut spread
 # ingredients: just organic peanuts (90%) & coconut (10%)
 [[food]]
@@ -1023,6 +1037,20 @@ carbs = 18.6
 # insoluble fiber estimated from 90% peanut, 10% coconut-flake
 fiber = [ 8.8, 0.94 ]
 fat = 52
+source = 'launceston product label'
+
+# mayver's - original super spread
+# ingredients: just peanuts, almonds, cashews, brazil nuts, chia seeds,
+# sesame seeds
+[[food]]
+name = 'mayvers-original-super-spread'
+serving-size = '100g'
+protein = 21
+carbs = 20.7
+# insoluble fiber estimated from average of peanut, almond, cashew,
+# brazil-nut, chia-seed, sesame-seed
+fiber = [ 8.3, 0.88 ]
+fat = 50.6
 source = 'launceston product label'
 
 # mayver's - protein+ peanut butter
@@ -1299,6 +1327,17 @@ carbs = 77.3
 fiber = 8
 fat = 0.6
 source = 'auckland product label'
+
+# nutrisoy - tempeh
+[[food]]
+name = 'nutrisoy-tempeh'
+serving-size = '100g'
+protein = 15
+carbs = 6.9
+# insoluble fiber estimated from tempeh
+fiber = [ 6.5, 0.79 ]
+fat = 5.7
+source = 'launceston product label'
 
 # pangkarra - australian bean mix - roasted with lemon, thyme, black
 # pepper & sea salt
@@ -1741,6 +1780,16 @@ carbs = 11.5
 fat = 0.4
 source = 'launceston product label'
 
+# tassie tom - organic peanut butter
+# ingredients: 100% organic australian peanuts and tasmanian sea salt
+[[food]]
+name = 'tassie-tom-organic-peanut-butter'
+serving-size = '100g'
+protein = 27.7
+carbs = 11.1
+fat = 49.5
+source = 'launceston product label'
+
 # the happy snack co - crunchy roasted chickpeas - lightly salted
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-chickpeas-salted'
@@ -1784,6 +1833,18 @@ carbs = 51.4
 fiber = [ 15.0, 0.95 ]
 fat = 15.7
 source = 'auckland product label'
+
+# the old spikey bridge - crunchy peanut butter
+# ingredients: peanuts (99.98%) and salt
+[[food]]
+name = 'the-old-spikey-bridge-crunchy-peanut-butter'
+serving-size = '100g'
+protein = 30
+carbs = 23
+# insoluble fiber estimated from peanut
+fiber = [ 10.4, 0.95 ]
+fat = 49.9
+source = 'launceston product label'
 
 # trader joe's - corn, pea, bean & quinoa crisps
 # ingredients: yellow corn, sunflower oil, yellow split peas, green
