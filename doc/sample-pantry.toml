@@ -285,8 +285,8 @@ source = 'launceston product label'
 
 # byron bay - macadamia muesli - almond fig pear
 # ingredients: organic rolled oats, sunflower kernels, organic pepitas,
-# macadmia nuts (4%), spray free almonds (4%), macadamia honey, sesame
-# seeds, cold-pressed macadmia oil, organic diced figs, organic pear
+# macadamia nuts (4%), spray free almonds (4%), macadamia honey, sesame
+# seeds, cold-pressed macadamia oil, organic diced figs, organic pear
 # (organic diced pear, rice flour), organic raisins
 [[food]]
 name = 'byron-bay-macadamia-muesli-almond-fig-pear'
@@ -4728,7 +4728,10 @@ source = 'http://www.ifct2017.com/'
 # bengal gram, whole (cicer arietinum)
 [[food]]
 name = 'kala-chana'
-aka = 'brown-chickpea'
+aka = [
+  'brown-chickpea',
+  'kabuli-chana'
+]
 serving-size = '100g'
 protein = 18.8
 carbs = 64.8
