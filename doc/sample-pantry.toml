@@ -1832,7 +1832,7 @@ source = 'launceston product label'
 # ingredients: spanish arborio rice, beetroot (5%), tasmanian native
 # pepperberry (<1%)
 [[food]]
-name = 'the-forager-food-co-risotto-rice-tasmanian-native-pepperberry'
+name = 'the-forager-food-co-risotto-rice-tasmanian-native-pepperberry-beetroot'
 serving-size = '100g'
 protein = 6.4
 carbs = 77.6
