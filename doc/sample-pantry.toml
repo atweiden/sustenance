@@ -283,6 +283,33 @@ fiber = 11.1
 fat = 32.3
 source = 'launceston product label'
 
+# brookfarm - nutty granola - maple vanilla
+# ingredients: rolled oats, coconut, nuts (9%) (macadamias almonds,
+# pecans), organic golden flaxseed (7%), organic tapioca, pumpkin kernels,
+# puffed rice, honey, macadamia oil, maple syrup (4%), sunflower kernels,
+# oat bran, natural vanilla extract (2%), cinnamon
+[[food]]
+name = 'brookfarm-nutty-granola-maple-vanilla'
+serving-size = '100g'
+protein = 14.3
+carbs = 58.3
+fiber = 10.9
+fat = 21.2
+source = 'launceston product label'
+
+# brookfarm - paleo power - macadamia & coconut
+# ingredients: macadamias (22%), almonds, coconut (20%), flaxseed,
+# pecans, pumpkin kernels, macadamia oil, natural vanilla extract,
+# cinnamon
+[[food]]
+name = 'brookfarm-paleo-power-macadamia-coconut'
+serving-size = '100g'
+protein = 20.6
+carbs = 22.4
+fiber = 17.8
+fat = 51.3
+source = 'launceston product label'
+
 # byron bay - macadamia muesli - almond fig pear
 # ingredients: organic rolled oats, sunflower kernels, organic pepitas,
 # macadamia nuts (4%), spray free almonds (4%), macadamia honey, sesame
@@ -295,6 +322,34 @@ protein = 14
 carbs = 54.9
 fiber = 6.6
 fat = 23
+source = 'launceston product label'
+
+# byron bay - macadamia muesli - paleo granola
+# ingredients: sunflower kernels, organic pepitas, organic coconut (11%),
+# spray free almonds (10%), organic pecan nuts (8%), macadamia nuts (7%),
+# macadamia honey, organic pear & apple (4%), goji berries (3%), organic
+# flaxseed, cold-pressed macadamia oil
+[[food]]
+name = 'byron-bay-macadamia-muesli-paleo-granola'
+serving-size = '100g'
+protein = 19.6
+carbs = 24
+fiber = 7.2
+fat = 50.9
+source = 'launceston product label'
+
+# byron bay - macadamia muesli - paleo mix
+# ingredients: sunflower kernels, organic pepitas, organic coconut (10%),
+# spray free almonds (10%), macadamia nuts (8%), organic pecan nuts
+# (8%), organic sultanas (7%), organic pear & apple (5%), goji berries
+# (2%), organic flaxseed (2%)
+[[food]]
+name = 'byron-bay-macadamia-muesli-paleo-mix'
+serving-size = '100g'
+protein = 18.7
+carbs = 24.9
+fiber = 11.2
+fat = 48.1
 source = 'launceston product label'
 
 # ceres organics - organic brown rice bites
@@ -320,6 +375,17 @@ carbs = 76.1
 fiber = 5.1
 fat = 8.2
 source = 'launceston product label'
+
+# ceres organics - quinoa flakes
+[[food]]
+name = 'ceres-organics-quinoa-flakes'
+serving-size = '100g'
+protein = 14.1
+carbs = 71.2
+# insoluble fiber estimated from quinoa
+fiber = [ 7.0, 0.87 ]
+fat = 6.1
+source = 'auckland product label'
 
 # ceres organics - organic quinoa puffs
 [[food]]
@@ -455,6 +521,95 @@ carbs = 39.2
 fiber = 8.4
 fat = 0.5
 source = 'launceston product label'
+
+# eumarrah - cracked freekeh
+# ingredients: roasted green durum wheat
+[[food]]
+name = 'eumarrah-cracked-freekeh'
+serving-size = '100g'
+protein = 25.2
+carbs = 72
+fat = 2.7
+source = 'launceston product label'
+
+# eumarrah - whole freekeh
+# ingredients: roasted green durum wheat
+[[food]]
+name = 'eumarrah-whole-freekeh'
+serving-size = '100g'
+protein = 25.2
+carbs = 72
+fat = 2.7
+source = 'launceston product label'
+
+# ezekiel 4:9 - seven sprouted grains english muffins
+# ingredients: organic sprouted wheat, filtered water, organic malted
+# barley, organic sprouted rye, organic sprouted barley, organic sprouted
+# oats, organic sprouted millet, organic sprouted corn, organic sprouted
+# brown rice, fresh yeast, organic wheat gluten, sea salt
+[[food]]
+name = 'ezekiel-4:9-seven-sprouted-grains-english-muffins'
+serving-size = '100g'
+protein = 10.5
+carbs = 42.1
+fiber = 7.9
+fat = 2.6
+source = 'https://www.foodforlife.com/product/english-muffins/7-sprouted-grains-english-muffins'
+
+# ezekiel 4:9 - sprouted whole grain bread
+# ingredients: organic sprouted wheat, filtered water, organic spouted
+# barley, organic sprouted millet, organic malted barley, organic sprouted
+# lentils, organic sprouted soybeans, organic sprouted spelt, fresh yeast,
+# organic wheat gluten
+[[food]]
+name = 'ezekiel-4:9-sprouted-whole-grain-bread'
+serving-size = '100g'
+protein = 14.7
+carbs = 44.1
+fiber = 8.8
+fat = 1.5
+source = 'https://www.foodforlife.com/product/breads/ezekiel-49-low-sodium-sprouted-whole-grain-bread'
+
+# ezekiel 4:9 - sprouted whole grain burger buns
+# ingredients: organic sprouted wheat, organic sprouted barley, organic
+# sprouted millet, organic malted barley, organic sprouted lentils,
+# organic sprouted soybeans, organic sprouted spelt, filtered water,
+# fresh yeast, organic wheat gluten, sea salt
+[[food]]
+name = 'ezekiel-4:9-sprouted-whole-grain-burger-buns'
+serving-size = '100g'
+protein = 13.2
+carbs = 44.7
+fiber = 6
+fat = 1.3
+source = 'https://www.foodforlife.com/product/buns/ezekiel-49-sprouted-whole-grain-burger-buns'
+
+# ezekiel 4:9 - sprouted whole grain spaghetti
+# ingredients: organic sprouted whole grain wheat, organic sprouted
+# whole grain barley, organic sprouted whole grain millet, organic
+# sprouted whole lentils, organic sprouted whole soybeans, organic
+# sprouted whole grain spelt
+[[food]]
+name = 'ezekiel-4:9-sprouted-whole-grain-spaghetti'
+serving-size = '100g'
+protein = 14.3
+carbs = 71.4
+fiber = 12.5
+fat = 3.6
+source = 'https://www.foodforlife.com/product/pasta/ezekiel-49-sprouted-whole-grain-spaghetti'
+
+# ezekiel 4:9 - whole grain pocket bread
+# ingredients: organic 100% stone ground whole wheat flour, water,
+# fresh carrots, barley flour, millet flour, lentil flour, spelt flour,
+# soy flour, fresh yeast, sea salt
+[[food]]
+name = 'ezekiel-4:9-whole-grain-pocket-bread'
+serving-size = '100g'
+protein = 10.6
+carbs = 44.7
+fiber = 8.5
+fat = 2.1
+source = 'https://www.foodforlife.com/product/pocket-breads/ezekiel-49-whole-grain-pocket-bread'
 
 # farmer jo - salted maple baked muesli - with cashews and roasted almonds
 # ingredients: whole grain oats, seeds (25%) (sunflower seeds, pepitas),
@@ -858,6 +1013,27 @@ protein = 7.5
 carbs = 78.3
 fiber = 3.6
 fat = 2.7
+source = 'launceston product label'
+
+# lotus - soy grits
+# ingredients: dehulled soy beans
+[[food]]
+name = 'lotus-soy-grits'
+serving-size = '100g'
+protein = 40
+carbs = 28.5
+fiber = 12.5
+fat = 19
+source = 'launceston product label'
+
+# lotus - sweet potato flour
+# ingredients: sweet potato flour (100%)
+[[food]]
+name = 'lotus-sweet-potato-flour'
+serving-size = '100g'
+protein = 7.6
+carbs = 77.8
+fat = 2.4
 source = 'launceston product label'
 
 # loving earth - raw organic activated paleo mix - protein power
@@ -1339,6 +1515,17 @@ fiber = [ 6.5, 0.79 ]
 fat = 5.7
 source = 'launceston product label'
 
+# pams super foods - amaranth flakes
+[[food]]
+name = 'pams-super-foods-amaranth-flakes'
+serving-size = '100g'
+protein = 15.1
+carbs = 67.8
+# insoluble fiber estimated from amaranth
+fiber = [ 7.4, 0.85 ]
+fat = 7.1
+source = 'auckland product label'
+
 # pangkarra - australian bean mix - roasted with lemon, thyme, black
 # pepper & sea salt
 # ingredients: australian faba beans (48%), broad beans (48%), lemon,
@@ -1463,6 +1650,15 @@ protein = 8.7
 carbs = 38
 fiber = 29
 fat = 51.3
+source = 'launceston product label'
+
+# power super foods - cacao gold - cacao butter chunks
+[[food]]
+name = 'power-super-foods-cacao-gold-cacao-butter-chunks'
+serving-size = '100g'
+protein = 0
+carbs = 0
+fat = 100
 source = 'launceston product label'
 
 # power super foods - maqui powder
@@ -3980,17 +4176,6 @@ fiber = [ 7.4, 0.85 ]
 fat = 6
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
-# pams super foods - amaranth flakes
-[[food]]
-name = 'amaranth-flake'
-serving-size = '100g'
-protein = 15.1
-carbs = 67.8
-# insoluble fiber estimated from amaranth
-fiber = [ 7.4, 0.85 ]
-fat = 7.1
-source = 'auckland product label'
-
 # rice, short grain, paddy rice, brown, "meshi" (cooked rice)
 [[food]]
 name = 'brown-rice'
@@ -4027,52 +4212,7 @@ fiber = [ 1.4, 0.78 ]
 fat = 0.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169700/nutrients'
 
-[[food]]
-name = 'ezekiel-bread'
-serving-size = '1 slice (34g)'
-protein = 4
-carbs = 15
-fiber = 3
-fat = 0.5
-source = 'https://www.foodforlife.com/product/breads/ezekiel-49-low-sodium-sprouted-whole-grain-bread'
-
-[[food]]
-name = 'ezekiel-bun'
-serving-size = '1 bun (76g)'
-protein = 9
-carbs = 34
-fiber = 6
-fat = 1.5
-source = 'https://www.foodforlife.com/product/buns/ezekiel-49-sprouted-whole-grain-burger-buns'
-
-[[food]]
-name = 'ezekiel-english-muffin'
-serving-size = '0.5 muffin (38g)'
-protein = 4
-carbs = 16
-fiber = 3
-fat = 1
-source = 'https://www.foodforlife.com/product/english-muffins/7-sprouted-grains-english-muffins'
-
-[[food]]
-name = 'ezekiel-pocket-bread'
-serving-size = '1 pocket bread (47g)'
-protein = 7
-carbs = 21
-fiber = 4
-fat = 0.5
-source = 'https://www.foodforlife.com/product/pocket-breads/ezekiel-49-whole-grain-pocket-bread'
-
-[[food]]
-name = 'ezekiel-spaghetti'
-serving-size = '2 oz (56g, 0.125 container)'
-protein = 8
-carbs = 40
-fiber = 7
-fat = 2
-source = 'https://www.foodforlife.com/product/pasta/ezekiel-49-sprouted-whole-grain-spaghetti'
-
-# cooked farro
+# raw farro
 [[food]]
 name = 'farro'
 serving-size = '100g'
@@ -4112,16 +4252,57 @@ fiber = [ 2.8, 0.87 ]
 fat = 2.4
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/31179'
 
-# ceres organics - quinoa flakes
+# rice, short grain, paddy rice, germinated brown rice, raw
 [[food]]
-name = 'quinoa-flake'
+name = 'raw-brown-rice'
 serving-size = '100g'
-protein = 14.1
-carbs = 71.2
+protein = 6.5
+carbs = 74.3
+fiber = [ 3.1, 0.84 ]
+fat = 3.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# couscous
+[[food]]
+name = 'raw-couscous'
+serving-size = '100g'
+protein = 11.5
+carbs = 68.6
+# insoluble fiber estimated from quinoa
+fiber = [ 5.0, 0.87 ]
+fat = 1.1
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/29208'
+
+# quinoa
+[[food]]
+name = 'raw-quinoa'
+serving-size = '100g'
+protein = 11.9
+carbs = 64.2
 # insoluble fiber estimated from quinoa
 fiber = [ 7.0, 0.87 ]
 fat = 6.1
-source = 'auckland product label'
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31175'
+
+# rice, paddy rice, non-glutinous, well-milled, raw
+[[food]]
+name = 'raw-white-rice'
+serving-size = '100g'
+protein = 6.1
+carbs = 77.6
+fiber = [ 0.5, 1.0 ]
+fat = 0.9
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# rice, paddy rice, glutinous rice, well-milled, raw
+[[food]]
+name = 'raw-white-sticky-rice'
+serving-size = '100g'
+protein = 6.4
+carbs = 77.2
+fiber = [ 0.5, 1.0 ]
+fat = 1.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # rice, bran
 [[food]]
@@ -4389,6 +4570,38 @@ fiber = 6.3
 fat = 0.9
 source = 'portland product label'
 
+# adzuki beans, mature seeds, whole, raw
+[[food]]
+name = 'dry-adzuki-bean'
+serving-size = '100g'
+protein = 20.3
+carbs = 58.7
+fiber = [ 17.8, 0.93 ]
+fat = 2.2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# beans, black, mature seeds, raw
+[[food]]
+name = 'dry-black-bean'
+serving-size = '100g'
+protein = 21.6
+carbs = 62.4
+# insoluble fiber estimated from black-bean [3]
+fiber = [ 15.5, 0.75 ]
+fat = 1.4
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/173734/nutrients'
+
+# beans, pinto, mature seeds, raw
+[[food]]
+name = 'dry-pinto-bean'
+serving-size = '100g'
+protein = 21.4
+carbs = 62.6
+# insoluble fiber estimated from pinto-bean [3]
+fiber = [ 15.5, 0.74 ]
+fat = 1.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/175199/nutrients'
+
 # edamame, cooked
 [[food]]
 name = 'edamame'
@@ -4644,6 +4857,25 @@ fiber = [ 3.5, 0.69 ]
 fat = 0.2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# yams, new zealand, red, unpeeled, boiled, drained, no salt added
+[[food]]
+name = 'oca-yam'
+aka = [
+  # australia / new zealand
+  'new-zealand-yam',
+  # scientific name
+  'oxalis-tuberosa',
+  # quechua
+  'uqa'
+]
+serving-size = '100g'
+protein = 1.2
+carbs = 13.6
+# insoluble fiber estimated from sweet-potato
+fiber = [ 1.1, 0.64 ]
+fat = 0.2
+source = 'https://www.foodcomposition.co.nz/downloads/concise-13-edition.pdf'
+
 # potatoes, tuber, boiled
 [[food]]
 name = 'potato'
@@ -4652,6 +4884,26 @@ protein = 1.5
 carbs = 16.8
 fiber = [ 1.6, 0.69 ]
 fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# potatoes, tuber, raw
+[[food]]
+name = 'raw-potato'
+serving-size = '100g'
+protein = 1.6
+carbs = 17.6
+fiber = [ 1.3, 0.54 ]
+fat = 0.1
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# sweet potato, tuberous root, with skin, raw
+[[food]]
+name = 'raw-sweet-potato'
+serving-size = '100g'
+protein = 0.9
+carbs = 33.1
+fiber = [ 2.8, 0.64 ]
+fat = 0.5
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sweet potato, brown skin (ipomoes batatas)
