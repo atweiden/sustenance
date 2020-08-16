@@ -2079,10 +2079,10 @@ fiber = [ 15.0, 0.95 ]
 fat = 15.7
 source = 'auckland product label'
 
-# the old spikey bridge - crunchy peanut butter
+# the olde spikey bridge - crunchy peanut butter
 # ingredients: peanuts (99.98%) and salt
 [[food]]
-name = 'the-old-spikey-bridge-crunchy-peanut-butter'
+name = 'the-olde-spikey-bridge-crunchy-peanut-butter'
 serving-size = '100g'
 protein = 30
 carbs = 23
