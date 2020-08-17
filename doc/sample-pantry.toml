@@ -2198,6 +2198,17 @@ carbs = 2.8
 fat = 0.6
 source = 'portland product label'
 
+# trader joe's - new zealand sweet apple rings
+# ingredients: dried apples
+[[food]]
+name = 'trader-joes-new-zealand-sweet-apple-rings'
+serving-size = '100g'
+protein = 1.3
+carbs = 82.5
+fiber = 7.5
+fat = 0
+source = 'portland product label'
+
 # trader joe's - organic carrots of many colors
 # ingredients: organic carrots, sea salt
 [[food]]
@@ -5000,6 +5011,18 @@ carbs = 29.1
 fiber = [ 9.4, 0.9 ]
 fat = 0.8
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# pisum sativum
+# use yellow-split-pea for cooked variant
+[[food]]
+name = 'matar-dal'
+aka = 'raw-yellow-split-pea'
+serving-size = '100g'
+protein = 20.4
+carbs = 65.9
+fiber = [ 17.0, 0.87 ]
+fat = 1.9
+source = 'http://www.ifct2017.com/'
 
 # lentil dal (lens culinaris)
 # use red-lentil for cooked variant
