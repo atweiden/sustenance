@@ -846,6 +846,16 @@ carbs = 5
 fat = 0
 source = 'launceston product label'
 
+# golden palm - medjool date rolls with coconut
+[[food]]
+name = 'golden-palm-medjool-date-rolls-with-coconut'
+serving-size = '100g'
+protein = 1.8
+carbs = 73.1
+fiber = 7
+fat = 2.8
+source = 'launceston product label'
+
 # grilo protein - organic cricket powder
 [[food]]
 name = 'grilo-protein-organic-cricket-powder'
@@ -4601,6 +4611,16 @@ carbs = 62.4
 fiber = [ 15.5, 0.75 ]
 fat = 1.4
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/173734/nutrients'
+
+# cowpeas, mature seeds, whole, raw
+[[food]]
+name = 'dry-black-eyed-pea'
+serving-size = '100g'
+protein = 23.9
+carbs = 55
+fiber = [ 18.4, 0.93 ]
+fat = 2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # beans, pinto, mature seeds, raw
 [[food]]
