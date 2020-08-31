@@ -269,6 +269,46 @@ fiber = 6.3
 fat = 5
 source = 'launceston product label'
 
+# bega - simply nuts - natural peanut butter
+# ingredients: roasted peanuts (100%)
+[[food]]
+name = 'bega-simply-nuts-natural-peanut-butter'
+serving-size = '100g'
+protein = 27.7
+carbs = 11.1
+fat = 49.5
+source = 'launceston product label'
+
+# bega - simply nuts - natural peanut butter - crunchy
+# ingredients: roasted peanuts (99.5%), salt
+[[food]]
+name = 'bega-simply-nuts-natural-peanut-butter-crunchy'
+serving-size = '100g'
+protein = 27.5
+carbs = 11.3
+fat = 49
+source = 'launceston product label'
+
+# bega - simply nuts - natural peanut butter - crunchy dark roast
+# ingredients: roasted peanuts (99.5%), salt
+[[food]]
+name = 'bega-simply-nuts-natural-peanut-butter-crunchy-dark-roast'
+serving-size = '100g'
+protein = 27.5
+carbs = 11.3
+fat = 49.1
+source = 'launceston product label'
+
+# bega - simply nuts - natural peanut butter - the crunchiest
+# ingredients: roasted peanuts (99.5%), salt
+[[food]]
+name = 'bega-simply-nuts-natural-peanut-butter-the-crunchiest'
+serving-size = '100g'
+protein = 27.5
+carbs = 11.4
+fat = 49
+source = 'launceston product label'
+
 # brookfarm - cacao coconut granola
 # ingredients: puffed rice, coconut flakes (12%), organic golden flaxseed,
 # honey, almonds, sunflower kernels, pumpkin kernels, macadamia oil,
