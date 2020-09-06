@@ -256,6 +256,85 @@ carbs = 11
 fat = 35.1
 source = 'launceston product label'
 
+# basik - quinoa - tri colour
+# ingredients: organic white quinoa, organic red quinoa, organic black
+# quinoa
+[[food]]
+name = 'basik-quinoa-tri-colour'
+serving-size = '100g'
+protein = 13
+carbs = 68
+# insoluble fiber estimated from quinoa
+fiber = [ 3.0, 0.87 ]
+fat = 5
+source = 'launceston product label'
+
+# basque - moroccan couscous
+# ingredients: couscous, dried apricot, pistachio, garlic, shallots,
+# salt, our secret blend of moroccan spices and love
+[[food]]
+name = 'basque-moroccan-couscous'
+serving-size = '100g'
+protein = 11.6
+carbs = 72.4
+fat = 1.6
+source = 'launceston product label'
+
+# basque - moroccan lentils
+# ingredients: puy lentils, shallots, salt, our secret blend of moroccan
+# spices and love
+[[food]]
+name = 'basque-moroccan-lentils'
+serving-size = '100g'
+protein = 24.1
+carbs = 59
+fat = 1.6
+source = 'launceston product label'
+
+# basque - moroccan rice
+# ingredients: arborio rice, dates, orange, hazelnuts, almonds, garlic,
+# shallots, salt, our secret blend of Moroccan spices and love
+[[food]]
+name = 'basque-moroccan-rice'
+serving-size = '100g'
+protein = 6.4
+carbs = 78.5
+fat = 1.6
+source = 'launceston product label'
+
+# basque - paella rice
+# ingredients: bomba rice, garlic, shallots, salt, our secret blend of
+# spanish spices and love
+[[food]]
+name = 'basque-paella-rice'
+serving-size = '100g'
+protein = 6.4
+carbs = 78.5
+fat = 1.6
+source = 'launceston product label'
+
+# basque - thai jasmine rice
+# ingredients: jasmine rice, pineapple, cashew nuts, sultanas, garlic,
+# shallots, salt, our secret blend of thai spices and love
+[[food]]
+name = 'basque-thai-jasmine-rice'
+serving-size = '100g'
+protein = 7
+carbs = 79.8
+fat = 1.6
+source = 'launceston product label'
+
+# basque - tuscan risotto
+# ingredients: arborio rice, porcini mushrooms, garlic, shallots, salt,
+# our secret blend of italian spices and love
+[[food]]
+name = 'basque-tuscan-risotto'
+serving-size = '100g'
+protein = 6.4
+carbs = 78.5
+fat = 1.6
+source = 'launceston product label'
+
 # bean supreme - marinated chilli & lime jackfruit
 # ingredients: jackfruit (52%), water, onion, coconut sugar, sunflower
 # oil, red thai chilli pepper (3%), lime juice (3%), garlic, herbs and
@@ -1181,6 +1260,39 @@ fiber = 8.8
 fat = 49.7
 source = 'launceston product label'
 
+# macro wholefoods market - wholemeal penne
+# ingredients: organic durum wholewheat semolina
+[[food]]
+name = 'macro-wholefoods-market-wholemeal-penne'
+serving-size = '100g'
+protein = 12.6
+carbs = 72.9
+fiber = 8.9
+fat = 2.3
+source = 'launceston product label'
+
+# macro wholefoods market - wholemeal spaghetti
+# ingredients: organic durum wholewheat semolina
+[[food]]
+name = 'macro-wholefoods-market-wholemeal-spaghetti'
+serving-size = '100g'
+protein = 12.6
+carbs = 72.9
+fiber = 8.9
+fat = 2.3
+source = 'launceston product label'
+
+# macro wholefoods market - wholemeal spirals
+# ingredients: organic durum wholewheat semolina
+[[food]]
+name = 'macro-wholefoods-market-wholemeal-spirals'
+serving-size = '100g'
+protein = 12.6
+carbs = 72.9
+fiber = 8.9
+fat = 2.3
+source = 'launceston product label'
+
 # matakana superfoods - organic acai berry powder
 [[food]]
 name = 'matakana-superfoods-acai-berry-powder'
@@ -1723,6 +1835,17 @@ fiber = 12.3
 fat = 9.5
 source = 'launceston product label'
 
+# prometeo - emmer penne - farro dicocco
+# ingredients: organic wholegrain emmer wheat (farro triticum dicoccum)
+[[food]]
+name = 'prometeo-emmer-penne-farro-dicocco'
+serving-size = '100g'
+protein = 13.8
+carbs = 71.6
+fiber = 6.5
+fat = 3.5
+source = 'launceston product label'
+
 # pure & purple garlic - chilli mix - hot
 # ingredients: tasmanian purple garlic, tasmanian native pepper berries
 # (including leaves), pink australian inland salt and chillies; gluten
@@ -1870,6 +1993,18 @@ protein = 0.3
 carbs = 19.6
 fat = 2.3
 source = 'hobart product label'
+
+# sapori mediterranei - couscous
+# ingredients: durum wheat semolina, water
+[[food]]
+name = 'sapori-mediterranei-couscous'
+serving-size = '100g'
+protein = 6
+carbs = 37.1
+# insoluble fiber estimated from couscous
+fiber = [ 2.1, 0.78 ]
+fat = 1
+source = 'launceston product label'
 
 # simply better foods - organic firm tofu
 # ingredients: soybean, water, mineral salt (511)
@@ -2037,6 +2172,16 @@ protein = 7
 carbs = 80.1
 fiber = 2.8
 fat = 0.6
+source = 'launceston product label'
+
+# tasmanian kitchen pantry - bluestone bay
+# ingredients: wakame seaweed, sea salt and herbs
+[[food]]
+name = 'tasmanian-kitchen-pantry-bluestone-bay'
+serving-size = '100g'
+protein = 0.5
+carbs = 0.9
+fat = 0.4
 source = 'launceston product label'
 
 # tassie tom - organic peanut butter
@@ -2358,6 +2503,16 @@ protein = 26.4
 carbs = 5.5
 fiber = 3.4
 fat = 11
+source = 'launceston product label'
+
+# viking platter - dried porcini mushrooms
+# ingredients: porcini 100%
+[[food]]
+name = 'viking-platter-dried-porcini-mushrooms'
+serving-size = '100g'
+protein = 34.7
+carbs = 20.4
+fat = 4.3
 source = 'launceston product label'
 
 # whole earth & sea - protein & greens - organic chocolate
@@ -7620,6 +7775,16 @@ carbs = 2.6
 fiber = [ 1.1, 0.91 ]
 fat = 0.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/308'
+
+# pumpkin and squash, winter squash, fruit, raw
+[[food]]
+name = 'raw-pumpkin'
+serving-size = '100g'
+protein = 1.9
+carbs = 20.6
+fiber = [ 3.5, 0.74 ]
+fat = 0.3
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # sweet peppers, fruit, red, raw
 [[food]]
