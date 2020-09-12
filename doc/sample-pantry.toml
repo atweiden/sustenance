@@ -1303,6 +1303,20 @@ fiber = 31.3
 fat = 14.9
 source = 'https://www.matakanasuperfoods.com/products/organic-acai-berry-powder-100g'
 
+# mayver's - cacao super spread
+# ingredients: just peanuts, almonds, cashews, date powder, brazil nuts,
+# cacao powder (2.7%), chia seeds, sesame seeds, natural vanilla flavor
+[[food]]
+name = 'mayvers-cacao-super-spread'
+serving-size = '100g'
+protein = 17.6
+carbs = 24.5
+# insoluble fiber estimated from average of peanut, almond, cashew,
+# dried-date, brazil-nut, cacao-nib, chia-seed, sesame-seed
+fiber = [ 8.0, 0.87 ]
+fat = 47.1
+source = 'launceston product label'
+
 # mayver's - peanut butter - dark roasted - crunchy
 # ingredients: roasted peanuts (99.3%) & sea salt
 [[food]]
@@ -1349,20 +1363,6 @@ carbs = 21.5
 # insoluble fiber estimated from 95% peanut, 5% cacao-nib
 fiber = [ 9.0, 0.94 ]
 fat = 48.1
-source = 'launceston product label'
-
-# mayver's - cacao super spread
-# ingredients: just peanuts, almonds, cashews, date powder, brazil nuts,
-# cacao powder (2.7%), chia seeds, sesame seeds, natural vanilla flavor
-[[food]]
-name = 'mayvers-cacao-super-spread'
-serving-size = '100g'
-protein = 17.6
-carbs = 24.5
-# insoluble fiber estimated from average of peanut, almond, cashew,
-# dried-date, brazil-nut, cacao-nib, chia-seed, sesame-seed
-fiber = [ 8.0, 0.87 ]
-fat = 47.1
 source = 'launceston product label'
 
 # mayver's - all natural peanut & coconut spread
@@ -4484,8 +4484,8 @@ name = 'raw-couscous'
 serving-size = '100g'
 protein = 11.5
 carbs = 68.6
-# insoluble fiber estimated from quinoa
-fiber = [ 5.0, 0.87 ]
+# insoluble fiber estimated from couscous
+fiber = [ 5.0, 0.78 ]
 fat = 1.1
 source = 'https://fineli.fi/fineli/en/elintarvikkeet/29208'
 
@@ -4816,6 +4816,26 @@ carbs = 55
 fiber = [ 18.4, 0.93 ]
 fat = 2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# beans, cranberry (roman), mature seeds, raw
+[[food]]
+name = 'dry-borlotti-bean'
+serving-size = '100g'
+protein = 23
+carbs = 60.1
+fiber = 24.7
+fat = 1.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/175189/nutrients'
+
+# beans, white, mature seeds, raw
+[[food]]
+name = 'dry-cannellini-bean'
+serving-size = '100g'
+protein = 23.4
+carbs = 60.3
+fiber = 15.2
+fat = 0.9
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/175202/nutrients'
 
 # beans, pinto, mature seeds, raw
 [[food]]
