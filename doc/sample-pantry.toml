@@ -558,6 +558,17 @@ fiber = 16.6
 fat = 19.2
 source = 'launceston product label'
 
+# desert valley date - date coconut rolls
+# ingredients: dates (90%), desiccated coconut (10%)
+[[food]]
+name = 'desert-valley-date-date-coconut-rolls'
+serving-size = '100g'
+protein = 1.8
+carbs = 73.1
+fiber = 7
+fat = 2.8
+source = 'launceston product label'
+
 # divine addictions - cacao and coconut granola with hazelnuts and dates
 # ingredients: oats, coconut, hazelnuts, dates, olive oil, honey,
 # buckwheat, cacao, vanilla, himalayan salt
