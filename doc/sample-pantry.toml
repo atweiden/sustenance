@@ -1199,6 +1199,18 @@ fiber = 6
 fat = 16
 source = 'perth product label'
 
+# macro wholefoods market - brown flaxseed meal
+# ingredients: organic brown flaxseed meal
+[[food]]
+name = 'macro-wholefoods-market-brown-flax-seed-meal'
+serving-size = '100g'
+protein = 18.3
+carbs = 56
+# insoluble fiber estimated from flax-seed-meal
+fiber = [ 27.2, 0.46 ]
+fat = 42.2
+source = 'launceston product label'
+
 # macro wholefoods market - cacao nibs
 [[food]]
 name = 'macro-wholefoods-market-cacao-nibs'
