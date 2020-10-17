@@ -1258,6 +1258,18 @@ fiber = 24.6
 fat = 25.3
 source = 'launceston product label'
 
+# macro wholefoods market - raw buckwheat
+# ingredients: organic buckwheat kernels (100%)
+[[food]]
+name = 'macro-wholefoods-market-raw-buckwheat'
+serving-size = '100g'
+protein = 11.7
+carbs = 76.7
+# insoluble fiber estimated from buckwheat
+fiber = [ 10.3, 0.81 ]
+fat = 2.7
+source = 'launceston product label'
+
 # macro wholefoods market - quinoa bites - apple & sultana
 # ingredients: apple (62%), quinoa (18%), sultana (8%), buckwheat,
 # sunflower seeds, lemon juice, ground cinnamon
@@ -1924,6 +1936,28 @@ carbs = 31.6
 fiber = 7.9
 fat = 44.7
 source = 'portland product label'
+
+# pureharvest - activated almond milk - original
+# ingredients: filtered water, organic activated almonds (10%), organic
+# rice syrup, sea salt
+[[food]]
+name = 'pureharvest-activated-almond-milk-original'
+serving-size = '100mL'
+protein = 0.8
+carbs = 5.9
+fat = 2.6
+source = 'launceston product label'
+
+# pureharvest - coco quench coconut milk
+# ingredients: filtered water, organic coconut milk (20%), organic brown
+# rice, sea salt
+[[food]]
+name = 'pureharvest-coco-quench-coconut-milk'
+serving-size = '100mL'
+protein = 0.5
+carbs = 7.8
+fat = 2.7
+source = 'launceston product label'
 
 # pureharvest - organic rice malt syrup
 # ingredients: organic brown rice
