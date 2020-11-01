@@ -546,6 +546,17 @@ fiber = 20
 fat = 47
 source = 'auckland product label'
 
+# chef's choice - israeli pearl couscous
+# ingredients: wheat flour (100%)
+[[food]]
+name = 'chefs-choice-israeli-pearl-couscous'
+serving-size = '100g'
+protein = 12
+carbs = 84
+fiber = 4
+fat = 1
+source = 'launceston product label'
+
 # connect foods - roasted black beans - pink himalayan salt
 # ingredients: roasted black soybean (98%), pink himalayan salt (1.4%),
 # soybean oil
@@ -1463,6 +1474,16 @@ fiber = [ 8.8, 0.81 ]
 fat = 42.7
 source = 'launceston product label'
 
+# mckenzie's - pearl barley
+[[food]]
+name = 'mckenzies-pearl-barley'
+serving-size = '100g'
+protein = 10.8
+carbs = 75.2
+fiber = 7.6
+fat = 2.9
+source = 'launceston product label'
+
 # melrose - organic molasses - unsulphured black strap molasses
 # ingredients: organic dehydrated cane juice
 [[food]]
@@ -2073,6 +2094,28 @@ protein = 15.6
 carbs = 0.7
 fiber = [ 0.5, 0.6 ]
 fat = 9.8
+source = 'launceston product label'
+
+# slendier - edamame bean fettuccine
+# ingredients: organic edamame bean flour, water
+[[food]]
+name = 'slendier-edamame-bean-fettuccine'
+serving-size = '100g'
+protein = 14.8
+carbs = 11.1
+fiber = 7.1
+fat = 2.9
+source = 'launceston product label'
+
+# slendier - soy bean fettuccine
+# ingredients: organic soy bean flour, water
+[[food]]
+name = 'slendier-soy-bean-fettuccine'
+serving-size = '100g'
+protein = 15
+carbs = 11.2
+fiber = 7.9
+fat = 2.9
 source = 'launceston product label'
 
 # spiral foods - organic natural vegan oven baked mung bean chips
@@ -4893,6 +4936,16 @@ carbs = 60.3
 fiber = 15.2
 fat = 0.9
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/175202/nutrients'
+
+# broad beans, mature seeds, whole, raw
+[[food]]
+name = 'dry-fava-bean'
+serving-size = '100g'
+protein = 26
+carbs = 55.9
+fiber = [ 9.3, 0.86 ]
+fat = 2
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # beans, pinto, mature seeds, raw
 [[food]]
