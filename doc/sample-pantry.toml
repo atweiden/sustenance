@@ -663,6 +663,28 @@ fiber = 8.4
 fat = 0.5
 source = 'launceston product label'
 
+# eco organics - chickpea fettuccine
+# ingredients: certified organic edamame, chickpea (30%)
+[[food]]
+name = 'eco-organics-chickpea-fettuccine'
+serving-size = '100g'
+protein = 42
+carbs = 33.7
+fiber = 21
+fat = 8.6
+source = 'launceston product label'
+
+# eco organics - mung bean fettuccine
+# ingredients: certified organic edamame (90%), mung beans (10%)
+[[food]]
+name = 'eco-organics-mung-bean-fettuccine'
+serving-size = '100g'
+protein = 42.4
+carbs = 55.7
+fiber = 19
+fat = 5.9
+source = 'launceston product label'
+
 # eumarrah - cracked freekeh
 # ingredients: roasted green durum wheat
 [[food]]
@@ -1132,6 +1154,17 @@ protein = 8.8
 carbs = 81.4
 fiber = 12.6
 fat = 2.5
+source = 'launceston product label'
+
+# lotus - whole spelt couscous
+# ingredients: 100% organic barley
+[[food]]
+name = 'lotus-whole-spelt-couscous'
+serving-size = '100g'
+protein = 13
+carbs = 71.2
+fiber = 9.2
+fat = 2.8
 source = 'launceston product label'
 
 # lotus - puffed millet
