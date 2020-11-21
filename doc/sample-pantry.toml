@@ -1277,6 +1277,18 @@ fiber = [ 18.3, 0.83 ]
 fat = 15.9
 source = 'sydney product label'
 
+# macro wholefoods market - golden berries
+# ingredients: organic goldenberries
+[[food]]
+name = 'macro-wholefoods-market-golden-berries'
+serving-size = '100g'
+protein = 7
+carbs = 68.8
+# insoluble fiber estimated from dried-goldenberry
+fiber = [ 18.6, 0.79 ]
+fat = 9.6
+source = 'launceston product label'
+
 # macro wholefoods market - grain bites - italian herbs
 # ingredients: grains (47%) (brown rice & quinoa), linseed, sesame seed,
 # chia seed, tamari sauce, italian herbs (1.5%), salt
@@ -1337,6 +1349,17 @@ protein = 10.8
 carbs = 35.2
 fiber = 8.8
 fat = 49.7
+source = 'launceston product label'
+
+# macro wholefoods market - tri colour quinoa
+# ingredients: organic durum wholewheat semolina
+[[food]]
+name = 'macro-wholefoods-market-tri-colour-quinoa'
+serving-size = '100g'
+protein = 14.2
+carbs = 71.2
+fiber = 7
+fat = 6.1
 source = 'launceston product label'
 
 # macro wholefoods market - wholemeal penne
@@ -1678,6 +1701,28 @@ serving-size = '100g'
 protein = 2.2
 carbs = 3.4
 fat = 23.4
+source = 'launceston product label'
+
+# mount zero - beluga black lentils
+[[food]]
+name = 'mount-zero-beluga-black-lentils'
+serving-size = '100g'
+protein = 18.2
+carbs = 68.6
+# insoluble fiber estimated from sabut-urad
+fiber = [ 10.6, 0.76 ]
+fat = 0.6
+source = 'launceston product label'
+
+# mount zero - persian red lentils
+[[food]]
+name = 'mount-zero-persian-red-lentils'
+serving-size = '100g'
+protein = 18.2
+carbs = 68.6
+# insoluble fiber estimated from sabut-masoor
+fiber = [ 10.6, 0.84 ]
+fat = 0.6
 source = 'launceston product label'
 
 # nature's kitchen - curried pumpkin & corn burgers
@@ -4990,6 +5035,16 @@ carbs = 62.6
 fiber = [ 15.5, 0.74 ]
 fat = 1.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/175199/nutrients'
+
+# broad beans, mature seeds, whole, raw
+[[food]]
+name = 'dry-split-fava-bean'
+serving-size = '100g'
+protein = 18
+carbs = 65.9
+fiber = 8
+fat = 1
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/410155/nutrients'
 
 # edamame, cooked
 [[food]]
