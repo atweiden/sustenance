@@ -546,6 +546,17 @@ fiber = 20
 fat = 47
 source = 'auckland product label'
 
+# chef's choice - arborio rice
+# ingredients: arborio rice (100%)
+[[food]]
+name = 'chefs-choice-arborio-rice'
+serving-size = '100g'
+protein = 6.7
+carbs = 81.4
+fiber = 1
+fat = 0.5
+source = 'launceston product label'
+
 # chef's choice - israeli pearl couscous
 # ingredients: wheat flour (100%)
 [[food]]
@@ -1536,7 +1547,8 @@ name = 'mckenzies-pearl-barley'
 serving-size = '100g'
 protein = 10.8
 carbs = 75.2
-fiber = 7.6
+# insoluble fiber estimated from pearl-barley
+fiber = [ 7.6, 0.87 ]
 fat = 2.9
 source = 'launceston product label'
 
@@ -4634,6 +4646,17 @@ carbs = 70.9
 fiber = [ 1.6, 1.0 ]
 fat = 3.3
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# hordeum vulgare - barley, pearl
+[[food]]
+name = 'pearl-barley'
+aka = 'pearled-barley'
+serving-size = '100g'
+protein = 11.3
+carbs = 70.7
+fiber = [ 7.6, 0.87 ]
+fat = 2
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/151'
 
 # quinoa, cooked without salt
 [[food]]
