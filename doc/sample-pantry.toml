@@ -128,6 +128,26 @@ fiber = 7.5
 fat = 0
 source = 'portland product label'
 
+# annalisa - black beans
+# ingredients: organic black beans, water, salt
+[[food]]
+name = 'annalisa-black-beans'
+serving-size = '100g'
+protein = 6.5
+carbs = 12
+fat = 0.5
+source = 'launceston product label'
+
+# annalisa - chickpeas
+# ingredients: organic chickpeas, water, salt
+[[food]]
+name = 'annalisa-chickpeas'
+serving-size = '100g'
+protein = 8
+carbs = 21.9
+fat = 2
+source = 'launceston product label'
+
 # annalisa - four bean mix
 # ingredients: organic butter beans, organic chick peas, organic white
 # beans, organic red kidney beans, water, salt
@@ -137,6 +157,17 @@ serving-size = '100g'
 protein = 6.9
 carbs = 22.3
 fat = 1.5
+source = 'launceston product label'
+
+# annalisa - kidney beans
+# ingredients: organic butter beans, organic chick peas, organic white
+# beans, organic red kidney beans, water, salt
+[[food]]
+name = 'annalisa-kidney-beans'
+serving-size = '100g'
+protein = 8.5
+carbs = 15.2
+fat = 0.8
 source = 'launceston product label'
 
 # applestraps - apple
@@ -386,6 +417,20 @@ serving-size = '100g'
 protein = 27.5
 carbs = 11.4
 fat = 49
+source = 'launceston product label'
+
+# bragg - sprinkle
+# ingredients: rosemary, onion, garlic, thyme, red bell pepper, carrot,
+# tomato, black pepper, basil, bragg organic extra virgin olive oil,
+# parsley, tarragon, lemon peel, orange peel, bragg organic apple cider
+# vinegar, celery seed, dill seed, oregano, savory, sage, ginger,
+# coriander, bay leaf, turmeric
+[[food]]
+name = 'bragg-sprinkle'
+serving-size = '100g'
+protein = 0
+carbs = 0
+fat = 0
 source = 'launceston product label'
 
 # brookfarm - cacao coconut granola
@@ -1325,16 +1370,16 @@ fiber = 24.6
 fat = 25.3
 source = 'launceston product label'
 
-# macro wholefoods market - raw buckwheat
-# ingredients: organic buckwheat kernels (100%)
+# macro wholefoods market - pinto beans
+# ingredients: organic pinto beans (60%), water
 [[food]]
-name = 'macro-wholefoods-market-raw-buckwheat'
+name = 'macro-wholefoods-market-pinto-beans'
 serving-size = '100g'
-protein = 11.7
-carbs = 76.7
-# insoluble fiber estimated from buckwheat
-fiber = [ 10.3, 0.81 ]
-fat = 2.7
+protein = 7
+carbs = 20.6
+# insoluble fiber estimated from pinto-bean
+fiber = [ 7.2, 0.74 ]
+fat = 0.8
 source = 'launceston product label'
 
 # macro wholefoods market - quinoa bites - apple & sultana
@@ -1347,6 +1392,29 @@ protein = 9.8
 carbs = 79.8
 fiber = 11.6
 fat = 5.4
+source = 'launceston product label'
+
+# macro wholefoods market - raw buckwheat
+# ingredients: organic buckwheat kernels (100%)
+[[food]]
+name = 'macro-wholefoods-market-raw-buckwheat'
+serving-size = '100g'
+protein = 11.7
+carbs = 76.7
+# insoluble fiber estimated from buckwheat
+fiber = [ 10.3, 0.81 ]
+fat = 2.7
+source = 'launceston product label'
+
+# macro wholefoods market - tempeh
+# ingredients: soybeans (60%), water, apple cider vinegar, tempeh culture
+[[food]]
+name = 'macro-wholefoods-market-tempeh'
+serving-size = '100g'
+protein = 12.4
+carbs = 8.1
+fiber = 7.6
+fat = 5
 source = 'launceston product label'
 
 # macro wholefoods market - toasted coconut clusters
@@ -1550,6 +1618,28 @@ carbs = 75.2
 # insoluble fiber estimated from pearl-barley
 fiber = [ 7.6, 0.87 ]
 fat = 2.9
+source = 'launceston product label'
+
+# mckenzie's - yellow split peas
+[[food]]
+name = 'mckenzies-yellow-split-peas'
+serving-size = '100g'
+protein = 24.2
+carbs = 59.5
+# insoluble fiber estimated from matar-dal
+fiber = [ 12.2, 0.87 ]
+fat = 4
+source = 'launceston product label'
+
+# mckenzie's - whole green lentils
+[[food]]
+name = 'mckenzies-whole-green-lentils'
+serving-size = '100g'
+protein = 27.6
+carbs = 60.5
+# insoluble fiber estimated from sabut-masoor
+fiber = [ 17.3, 0.84 ]
+fat = 2.6
 source = 'launceston product label'
 
 # melrose - organic molasses - unsulphured black strap molasses
@@ -2739,8 +2829,30 @@ fiber = 4.1
 fat = 5.6
 source = 'launceston product label'
 
+# woolworths - baby leaves & beetroot
+# ingredients: baby leaves (min. 60%), beetroot (min. 15%), carrot
+[[food]]
+name = 'woolworths-baby-leaves-and-beetroot'
+serving-size = '100g'
+protein = 2.4
+carbs = 3.9
+fiber = 2.6
+fat = 0.1
+source = 'launceston product label'
+
+# woolworths - iceberg lettuce blend
+# ingredients: iceberg lettuce (min. 50%), cabbage, carrot, cos lettuce
+[[food]]
+name = 'woolworths-iceberg-lettuce-blend'
+serving-size = '100g'
+protein = 1.2
+carbs = 3.7
+fiber = 1.8
+fat = 0.1
+source = 'launceston product label'
+
 # woolworths - four seasons coleslaw - white cabbage, red cabbage,
-# carrot, celery, spring onion & corn
+# ingredients: carrot, celery, spring onion & corn
 [[food]]
 name = 'woolworths-four-seasons-coleslaw'
 serving-size = '100g'
