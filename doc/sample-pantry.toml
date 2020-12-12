@@ -1289,16 +1289,6 @@ carbs = 11.9
 fat = 51.1
 source = 'launceston product label'
 
-# macro wholefoods market - australian cricket powder
-[[food]]
-name = 'macro-wholefoods-market-australian-cricket-powder'
-serving-size = '100g'
-protein = 65.6
-carbs = 6.5
-fiber = 6
-fat = 16
-source = 'perth product label'
-
 # macro wholefoods market - brown flaxseed meal
 # ingredients: organic brown flaxseed meal
 [[food]]
@@ -1309,6 +1299,18 @@ carbs = 56
 # insoluble fiber estimated from flax-seed-meal
 fiber = [ 27.2, 0.46 ]
 fat = 42.2
+source = 'launceston product label'
+
+# macro wholefoods market - bulgur wheat
+# ingredients: bulgur wheat
+[[food]]
+name = 'macro-wholefoods-market-bulgur-wheat'
+serving-size = '100g'
+protein = 10.3
+carbs = 73.9
+# insoluble fiber estimated from prebiotin [3]
+fiber = [ 9.5, 0.83 ]
+fat = 2
 source = 'launceston product label'
 
 # macro wholefoods market - cacao nibs
@@ -1332,6 +1334,16 @@ carbs = 58.0
 fiber = [ 18.3, 0.83 ]
 fat = 15.9
 source = 'sydney product label'
+
+# macro wholefoods market - cricket powder
+[[food]]
+name = 'macro-wholefoods-market-cricket-powder'
+serving-size = '100g'
+protein = 65.6
+carbs = 6.5
+fiber = 6
+fat = 16
+source = 'perth product label'
 
 # macro wholefoods market - golden berries
 # ingredients: organic goldenberries
@@ -1404,6 +1416,17 @@ carbs = 76.7
 # insoluble fiber estimated from buckwheat
 fiber = [ 10.3, 0.81 ]
 fat = 2.7
+source = 'launceston product label'
+
+# macro wholefoods market - rigatoni with hemp
+# ingredients: rice flour, hemp flour (14%)
+[[food]]
+name = 'macro-wholefoods-market-rigatoni-with-hemp'
+serving-size = '100g'
+protein = 13.3
+carbs = 70.6
+fiber = 3.1
+fat = 2.5
 source = 'launceston product label'
 
 # macro wholefoods market - tempeh
@@ -1609,6 +1632,39 @@ fiber = [ 8.8, 0.81 ]
 fat = 42.7
 source = 'launceston product label'
 
+# mckenzie's - black beans
+[[food]]
+name = 'mckenzies-black-beans'
+serving-size = '100g'
+protein = 22.4
+carbs = 57.8
+# insoluble fiber estimated from dry-black-bean
+fiber = [ 19.3, 0.75 ]
+fat = 2.8
+source = 'launceston product label'
+
+# mckenzie's - chickpeas
+[[food]]
+name = 'mckenzies-chickpeas'
+serving-size = '100g'
+protein = 24.5
+carbs = 60.1
+# insoluble fiber estimated from kala-chana
+fiber = [ 18.2, 0.9 ]
+fat = 6
+source = 'launceston product label'
+
+# mckenzie's - green split peas
+[[food]]
+name = 'mckenzies-green-split-peas'
+serving-size = '100g'
+protein = 25
+carbs = 57.5
+# insoluble fiber estimated from mckenzies-yellow-split-peas
+fiber = [ 12.9, 0.87 ]
+fat = 3
+source = 'launceston product label'
+
 # mckenzie's - pearl barley
 [[food]]
 name = 'mckenzies-pearl-barley'
@@ -1617,6 +1673,17 @@ protein = 10.8
 carbs = 75.2
 # insoluble fiber estimated from pearl-barley
 fiber = [ 7.6, 0.87 ]
+fat = 2.9
+source = 'launceston product label'
+
+# mckenzie's - red split lentils
+[[food]]
+name = 'mckenzies-red-split-lentils'
+serving-size = '100g'
+protein = 24
+carbs = 62.2
+# insoluble fiber estimated from masoor-dal
+fiber = [ 13.3, 0.83 ]
 fat = 2.9
 source = 'launceston product label'
 
@@ -1738,7 +1805,7 @@ source = 'launceston product label'
 
 # mindful foods - yummy beans
 # ingredients: activated (lentils, buckwheat, australian insecticide-free
-# sunflower seeds, pepitas, almonds), chickpeas, olive oil, shitake
+# sunflower seeds, pepitas, almonds), chickpeas, olive oil, shiitake
 # mushroom, sesame seed, yeast flakes, turmeric, nigella sativa, cumin,
 # coriander seed, ginger, black pepper, paprika, rosemary, fennel seed
 [[food]]
@@ -6978,13 +7045,14 @@ carbs = 1.7
 fat = 0.6
 source = 'https://www.herbies.com.au/shop/herbs-and-spices/sugar-free-blends/kashmiri-curry-masala-also-called-basaar/'
 
-# ground lemongrass
+# lemon grass (citronella), raw
 [[food]]
 name = 'lemongrass'
-serving-size = '1 tbsp (4.8g)'
-protein = 0.1
-carbs = 1.2
-fat = 0
+serving-size = '100g'
+protein = 1.8
+carbs = 25.3
+fat = 0.5
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/168573/nutrients'
 
 # ground marjoram
 [[food]]
@@ -8097,6 +8165,18 @@ carbs = 7.8
 fiber = [ 6.8, 0.91 ]
 fat = 0.7
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
+
+# squash, summer, scallop, raw
+[[food]]
+name = 'pattypan-squash'
+aka = 'pâtisson-squash'
+serving-size = '100g'
+protein = 1.2
+carbs = 3.8
+# insoluble fiber estimated from yellow-squash
+fiber = [ 1.2, 0.8 ]
+fat = 0.2
+source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/169289/nutrients'
 
 # peas, sprouts, raw
 [[food]]
