@@ -1119,6 +1119,15 @@ fiber = 20
 fat = 46
 source = 'perth product label'
 
+# kialla pure foods - organic mung beans
+[[food]]
+name = 'kialla-pure-foods-organic-mung-beans'
+serving-size = '100g'
+protein = 24.5
+carbs = 63.3
+fat = 1
+source = 'launceston product label'
+
 # larder fresh - brown rice, mushroom and seaweed burger
 # ingredients: brown rice (47%), carrot, chickpea, sweet potato, mushrooms
 # (5%), sesame seeds, rice bran oil, tamari (from soy), seaweed (0.7%),
@@ -1643,6 +1652,16 @@ fiber = [ 19.3, 0.75 ]
 fat = 2.8
 source = 'launceston product label'
 
+# mckenzie's - borlotti beans
+[[food]]
+name = 'mckenzies-borlotti-beans'
+serving-size = '100g'
+protein = 21.7
+carbs = 60.1
+fiber = 18.7
+fat = 2.9
+source = 'launceston product label'
+
 # mckenzie's - chickpeas
 [[food]]
 name = 'mckenzies-chickpeas'
@@ -1652,6 +1671,17 @@ carbs = 60.1
 # insoluble fiber estimated from kala-chana
 fiber = [ 18.2, 0.9 ]
 fat = 6
+source = 'launceston product label'
+
+# mckenzie's - french-style lentils
+[[food]]
+name = 'mckenzies-french-style-lentils'
+serving-size = '100g'
+protein = 25.1
+carbs = 58.8
+# insoluble fiber estimated from mckenzies-yellow-split-peas
+fiber = [ 13.4, 0.84 ]
+fat = 2.2
 source = 'launceston product label'
 
 # mckenzie's - green split peas
