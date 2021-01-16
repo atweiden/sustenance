@@ -138,6 +138,16 @@ carbs = 12
 fat = 0.5
 source = 'launceston product label'
 
+# annalisa - butter beans
+# ingredients: beans, water, salt
+[[food]]
+name = 'annalisa-butter-beans'
+serving-size = '100g'
+protein = 6.9
+carbs = 24.6
+fat = 0.8
+source = 'launceston product label'
+
 # annalisa - chickpeas
 # ingredients: organic chickpeas, water, salt
 [[food]]
@@ -160,13 +170,22 @@ fat = 1.5
 source = 'launceston product label'
 
 # annalisa - kidney beans
-# ingredients: organic butter beans, organic chick peas, organic white
-# beans, organic red kidney beans, water, salt
+# ingredients: organic red kidney beans, water, salt
 [[food]]
 name = 'annalisa-kidney-beans'
 serving-size = '100g'
 protein = 8.5
 carbs = 15.2
+fat = 0.8
+source = 'launceston product label'
+
+# annalisa - lentils
+# ingredients: organic lentils, water, salt
+[[food]]
+name = 'annalisa-lentils'
+serving-size = '100g'
+protein = 7.4
+carbs = 12.7
 fat = 0.8
 source = 'launceston product label'
 
@@ -599,6 +618,17 @@ serving-size = '100g'
 protein = 6.7
 carbs = 81.4
 fiber = 1
+fat = 0.5
+source = 'launceston product label'
+
+# chef's choice - bomba spanish paella rice
+# ingredients: bomba paella rice (100%)
+[[food]]
+name = 'chefs-choice-bomba-spanish-paella-rice'
+serving-size = '100g'
+protein = 6.9
+carbs = 79.3
+fiber = 1.4
 fat = 0.5
 source = 'launceston product label'
 
@@ -1119,6 +1149,51 @@ fiber = 20
 fat = 46
 source = 'perth product label'
 
+# keep it cleaner - chickpea pasta
+# ingredients: chickpea flour (100%)
+[[food]]
+name = 'keep-it-cleaner-chickpea-pasta'
+serving-size = '100g'
+protein = 25
+carbs = 71
+# insoluble fiber estimated from chickpea-flour
+fiber = [ 15.0, 0.79 ]
+fat = 6
+source = 'launceston product label'
+
+# keep it cleaner - corn and sweet potato spaghetti
+# ingredients: corn flour (95%), sweet potato powder (5%)
+[[food]]
+name = 'keep-it-cleaner-corn-and-sweet-potato-spaghetti'
+serving-size = '100g'
+protein = 5.2
+carbs = 80
+fiber = 2
+fat = 1.8
+source = 'launceston product label'
+
+# keep it cleaner - green pea pasta
+# ingredients: green pea flour (100%)
+[[food]]
+name = 'keep-it-cleaner-green-pea-pasta'
+serving-size = '100g'
+protein = 22
+carbs = 73
+fiber = 10
+fat = 1.6
+source = 'launceston product label'
+
+# keep it cleaner - red lentil pasta
+# ingredients: red lentil flour (100%)
+[[food]]
+name = 'keep-it-cleaner-red-lentil-pasta'
+serving-size = '100g'
+protein = 26
+carbs = 70
+fiber = 10
+fat = 1.3
+source = 'launceston product label'
+
 # kialla pure foods - organic mung beans
 [[food]]
 name = 'kialla-pure-foods-organic-mung-beans'
@@ -1332,6 +1407,17 @@ carbs = 30.2
 fiber = [ 21.1, 0.83 ]
 fat = 49.9
 source = 'perth product label'
+
+# macro wholefoods market - chickpeas
+[[food]]
+name = 'macro-wholefoods-market-chickpeas'
+serving-size = '100g'
+protein = 7.5
+carbs = 22.2
+# insoluble fiber estimated from chickpea
+fiber = [ 8.0, 0.96 ]
+fat = 0.3
+source = 'launceston product label'
 
 # macro wholefoods market - cheeky chickpeas
 [[food]]
@@ -1780,6 +1866,19 @@ serving-size = '100g'
 protein = 10.7
 carbs = 26.1
 fat = 5.1
+source = 'launceston product label'
+
+# mindful foods - birchia paleo prebiotic
+# ingredients: activated nuts & seeds (buckwheat, almonds, pepitas,
+# pecans), rolled white quinoa, black chia seed, toasted coconut chips,
+# golden linseed, raw macadamias, ginger, cinnamon, mesquite, maca powder
+[[food]]
+name = 'mindful-foods-birchia-paleo-prebiotic'
+serving-size = '100g'
+protein = 12.9
+carbs = 63.0
+fiber = 13.8
+fat = 20.4
 source = 'launceston product label'
 
 # mindful foods - cacao brain power
@@ -2234,6 +2333,16 @@ carbs = 31.6
 fiber = 7.9
 fat = 44.7
 source = 'portland product label'
+
+# pure food essentials - popped amaranth
+# ingredients: popped organic amaranth
+[[food]]
+name = 'pure-food-essentials-popped-amaranth'
+serving-size = '100g'
+protein = 15.5
+carbs = 71.1
+fat = 7
+source = 'launceston product label'
 
 # pureharvest - activated almond milk - original
 # ingredients: filtered water, organic activated almonds (10%), organic
@@ -2744,6 +2853,61 @@ fiber = 7
 fat = 0
 source = 'portland product label'
 
+# trader joe's - freeze dried blueberries
+# ingredients: free dried blueberries
+[[food]]
+name = 'trader-joes-freeze-dried-blueberries'
+serving-size = '100g'
+protein = 2.9
+carbs = 91.2
+fiber = 17.7
+fat = 0
+source = 'portland product label'
+
+# trader joe's - freeze dried mango
+# ingredients: mango
+[[food]]
+name = 'trader-joes-freeze-dried-mango'
+serving-size = '100g'
+protein = 4.2
+carbs = 91.7
+fiber = 6.3
+fat = 0
+source = 'portland product label'
+
+# trader joe's - freeze dried raspberries
+# ingredients: freeze dried raspberries
+[[food]]
+name = 'trader-joes-freeze-dried-raspberries'
+serving-size = '100g'
+protein = 5.9
+carbs = 85.3
+fiber = 32.4
+fat = 1.5
+source = 'portland product label'
+
+# trader joe's - freeze dried red seedless grape slices
+# ingredients: dried red seedless grapes
+[[food]]
+name = 'trader-joes-freeze-dried-red-seedless-grape-slices'
+serving-size = '100g'
+protein = 2.9
+carbs = 91.2
+fiber = 5.9
+fat = 0
+source = 'portland product label'
+
+# trader joe's - freeze dried strawberries
+# ingredients: freeze dried strawberries
+[[food]]
+name = 'trader-joes-freeze-dried-strawberries'
+serving-size = '100g'
+protein = 5.9
+carbs = 85.3
+fiber = 14.7
+fat = 1.5
+source = 'portland product label'
+
 # trader joe's - giant peruvian inca corn - salted
 # ingredients: corn, palm oil, salt
 [[food]]
@@ -2903,6 +3067,26 @@ source = 'launceston product label'
 # flavours, organic acerola cherry extract, sweetener (organic steviol
 # glycoside); organic mushroom blend (cordyceps, reishi, himematsutake,
 # shiitake, maitake, turkey tail)
+#
+# amino acid profile (per 35.5g)
+# alanine: 0.6g
+# arginine: 1.2g
+# aspartic acid: 1.6g
+# cystine: 0.1g
+# glutamic acid: 2.4g
+# glycine: 0.6g
+# histidine: 0.3g
+# isoleucine: 0.7g
+# leucine: 1.2g
+# lysine: 1.0g
+# methionine: 0.1g
+# phenylalanine: 0.8g
+# proline: 0.6g
+# serine: 0.7g
+# threonine: 0.5g
+# tryptophan: 0.1g
+# tyrosine: 0.5g
+# valine: 0.7g
 [[food]]
 name = 'whole-earth-and-sea-protein-and-greens-chocolate'
 serving-size = '100g'
