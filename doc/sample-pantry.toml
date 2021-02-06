@@ -261,6 +261,17 @@ carbs = 4.6
 fat = 0.1
 source = 'launceston product label'
 
+# arrocerías antonio tomás - paella rice
+# ingredients: 100% rice
+[[food]]
+name = 'arrocerías-antonio-tomás-paella-rice'
+serving-size = '100g'
+protein = 7
+carbs = 77.9
+fiber = 1.4
+fat = 0.5
+source = 'launceston product label'
+
 # artisa - ben lomond - white mould ripened cashew cheese with tasmanian
 # vine ash
 # ingredients: cashew nuts, filtered water, tasmanian sea salt, tasmanian
@@ -654,6 +665,16 @@ carbs = 27.3
 fiber = 16.6
 fat = 19.2
 source = 'launceston product label'
+
+# cooperativa del campo virgen de la esperanza - arroz calasparra
+# ingredients: rice 100%
+[[food]]
+name = 'cooperativa-del-campo-virgen-de-la-esperanza-arroz-calasparra'
+serving-size = '100g'
+protein = 7.5
+carbs = 75.4
+fat = 1.8
+source = 'http://www.arrozdecalasparra.com/images/pdf/analisis_nutri.pdf'
 
 # desert valley date - date coconut rolls
 # ingredients: dates (90%), desiccated coconut (10%)
@@ -1296,17 +1317,6 @@ fiber = 12.6
 fat = 2.5
 source = 'launceston product label'
 
-# lotus - whole spelt couscous
-# ingredients: 100% organic barley
-[[food]]
-name = 'lotus-whole-spelt-couscous'
-serving-size = '100g'
-protein = 13
-carbs = 71.2
-fiber = 9.2
-fat = 2.8
-source = 'launceston product label'
-
 # lotus - puffed millet
 # ingredients: puffed organic millet (100%)
 [[food]]
@@ -1360,6 +1370,17 @@ carbs = 77.8
 fat = 2.4
 source = 'launceston product label'
 
+# lotus - whole spelt couscous
+# ingredients: 100% organic barley
+[[food]]
+name = 'lotus-whole-spelt-couscous'
+serving-size = '100g'
+protein = 13
+carbs = 71.2
+fiber = 9.2
+fat = 2.8
+source = 'launceston product label'
+
 # loving earth - raw organic activated paleo mix - protein power
 # ingredients: certified organic (activated sunflower seeds, coconut
 # chips, activated flax seeds, activated pumpkin seeds, activated cashews,
@@ -1409,6 +1430,7 @@ fat = 49.9
 source = 'perth product label'
 
 # macro wholefoods market - chickpeas
+# ingredients: organic chickpeas (60%), water
 [[food]]
 name = 'macro-wholefoods-market-chickpeas'
 serving-size = '100g'
@@ -1439,6 +1461,19 @@ carbs = 6.5
 fiber = 6
 fat = 16
 source = 'perth product label'
+
+# macro wholefoods market - 4 bean mix
+# ingredients: organic four bean mix (60%) (organic chickpeas, organic
+# red kidney beans, organic baby lima beans, organic borlotti beans),
+# water
+[[food]]
+name = 'macro-wholefoods-market-four-bean-mix'
+serving-size = '100g'
+protein = 6.8
+carbs = 19.2
+fiber = 5.5
+fat = 0.7
+source = 'launceston product label'
 
 # macro wholefoods market - golden berries
 # ingredients: organic goldenberries
@@ -1477,6 +1512,18 @@ fiber = 24.6
 fat = 25.3
 source = 'launceston product label'
 
+# macro wholefoods market - lentils
+# ingredients: organic lentils (60%), water
+[[food]]
+name = 'macro-wholefoods-market-lentils'
+serving-size = '100g'
+protein = 7.2
+carbs = 20
+# insoluble fiber estimated from lentil
+fiber = [ 7.5, 0.9 ]
+fat = 0.5
+source = 'launceston product label'
+
 # macro wholefoods market - pinto beans
 # ingredients: organic pinto beans (60%), water
 [[food]]
@@ -1511,6 +1558,18 @@ carbs = 76.7
 # insoluble fiber estimated from buckwheat
 fiber = [ 10.3, 0.81 ]
 fat = 2.7
+source = 'launceston product label'
+
+# macro wholefoods market - red kidney beans
+# ingredients: organic red kidney beans (60%), water
+[[food]]
+name = 'macro-wholefoods-market-red-kidney-beans'
+serving-size = '100g'
+protein = 8
+carbs = 22.2
+# insoluble fiber estimated from kidney-bean
+fiber = [ 9.7, 0.89 ]
+fat = 0.5
 source = 'launceston product label'
 
 # macro wholefoods market - rigatoni with hemp
@@ -1557,6 +1616,17 @@ protein = 14.2
 carbs = 71.2
 fiber = 7
 fat = 6.1
+source = 'launceston product label'
+
+# macro wholefoods market - wholegrain freekeh
+# ingredients: wholegrain freekeh
+[[food]]
+name = 'macro-wholefoods-market-wholegrain-freekeh'
+serving-size = '100g'
+protein = 12.6
+carbs = 88.5
+fiber = 16.5
+fat = 2.7
 source = 'launceston product label'
 
 # macro wholefoods market - wholemeal penne
@@ -2214,6 +2284,18 @@ carbs = 6.7
 fat = 32.3
 source = 'launceston product label'
 
+# pimp my salad - spiced sprouted sunflower seeds
+# ingredients: activated & sprouted sunflower seeds (77%), tamari (10%;
+# filtered water, organic soybeans, sea salt), cayenne, organic evaporated
+# coconut nectar, cumin, garlic, onion, himalayan pinkn salt
+[[food]]
+name = 'pimp-my-salad-spiced-sprouted-sunflower-seeds'
+serving-size = '100g'
+protein = 17.6
+carbs = 4.6
+fat = 36.1
+source = 'launceston product label'
+
 # pimp my salad - super seeds
 # ingredients: sunflower seeds, pumpkin seeds, flax seeds, chia seeds,
 # sesame seeds, poppy seeds, organic nutritional yeast, tamari (filtered
@@ -2302,6 +2384,30 @@ carbs = 38.9
 fat = 2
 source = 'launceston product label'
 
+# pure & purple garlic - lemon myrtle mix
+# ingredients: tasmanian purple garlic, tasmanian native pepper berries
+# (including leaves), lemon myrtle, lemon zest and pure australian inland
+# salt; gluten free, chemical and spray free, grown in rich organic soil
+[[food]]
+name = 'pure-and-purple-garlic-lemon-myrtle-mix'
+serving-size = '100g'
+protein = 5.3
+carbs = 16.9
+fat = 1.6
+source = 'launceston product label'
+
+# pure & purple garlic - orange & fennel mix
+# ingredients: tasmanian purple garlic, tasmanian native pepper berries,
+# pepper leaves, lake salt, fennel seeds and orange zest; chemical and
+# spray free, grown in rich organic soil
+[[food]]
+name = 'pure-and-purple-garlic-orange-and-fennel-mix'
+serving-size = '100g'
+protein = 6.1
+carbs = 22.4
+fat = 2.9
+source = 'launceston product label'
+
 # pure & purple garlic - original mix
 # ingredients: tasmanian purple garlic, tasmanian native pepper berries
 # (including leaves) and pure australian inland salt; gluten free,
@@ -2312,6 +2418,18 @@ serving-size = '100g'
 protein = 4.4
 carbs = 16.5
 fat = 1.4
+source = 'launceston product label'
+
+# pure & purple garlic - rosemary mix
+# ingredients: tasmanian purple garlic, tasmanian native pepper berries
+# (including leaves), rosemary and pure australian inland salt; gluten
+# free, chemical and spray free, grown in rich organic soil
+[[food]]
+name = 'pure-and-purple-garlic-rosemary-mix'
+serving-size = '100g'
+protein = 4.9
+carbs = 17.4
+fat = 2.2
 source = 'launceston product label'
 
 # pure bliss organics - organic almond pumpkin bites
@@ -5441,6 +5559,17 @@ fiber = [ 9.3, 0.86 ]
 fat = 2
 source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
+# phaseolus vulgaris - bean, white bean, navy bean
+[[food]]
+name = 'dry-navy-bean'
+serving-size = '100g'
+protein = 22.1
+carbs = 52.6
+# insoluble fiber estimated from navy-bean
+fiber = [ 15.3, 0.62 ]
+fat = 1.9
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/34380'
+
 # beans, pinto, mature seeds, raw
 [[food]]
 name = 'dry-pinto-bean'
@@ -5451,6 +5580,16 @@ carbs = 62.6
 fiber = [ 15.5, 0.74 ]
 fat = 1.2
 source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/175199/nutrients'
+
+# soybeans, mature seeds, whole, domestic, yellow seed coats, raw
+[[food]]
+name = 'dry-soybean'
+serving-size = '100g'
+protein = 33.8
+carbs = 29.5
+fiber = [ 17.9, 0.92 ]
+fat = 19.7
+source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/25/1374049_1r12_1.xlsx'
 
 # broad beans, mature seeds, whole, raw
 [[food]]
