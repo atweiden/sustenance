@@ -504,6 +504,22 @@ fiber = 17.8
 fat = 51.3
 source = 'launceston product label'
 
+# bush dust
+#
+# best used on bread as a snack or pre-dinner bread by dipping in olive
+# oil then in the dust, or lightly sprinkle over your favourite cheese
+# or potato dishes for an added zing
+#
+# ingredients: a flavoursome combination of macadmia nuts, tasmanian
+# native pepper, bush tomatoes, herbs and spices
+[[food]]
+name = 'bush-dust'
+serving-size = '100g'
+protein = 10.1
+carbs = 24.5
+fat = 37.6
+source = 'launceston product label'
+
 # byron bay - macadamia muesli - almond fig pear
 # ingredients: organic rolled oats, sunflower kernels, organic pepitas,
 # macadamia nuts (4%), spray free almonds (4%), macadamia honey, sesame
@@ -1148,6 +1164,44 @@ carbs = 3.7
 fat = 2.7
 source = 'launceston product label'
 
+# happy way - all natural protein powder - vegan vanilla flavour
+# ingredients: pea protein isolate, rice protein isolate, organic coconut
+# flour, super food mix (organic chia seeds, organic psyllium husk,
+# organic maca powder), natural vanilla flavouring, sweetener (organic
+# stevia), organic himalayan rock salt (gluten free)
+#
+# amino acid profile
+#
+# essential amino acids (per 100g)
+#
+# isoleucine (bcaa): 3.1g
+# leucine (bcaa): 6.4g
+# lysine: 5.6g
+# methionine: 0.9g
+# phenylalanine: 4.3g
+# tryptophan: 0.8g
+# valine (bcaa): 3.3g
+# histidine: 2.0g
+#
+# non-essential amino acids (per 100g)
+#
+# alanine: 3.4g
+# arginine: 6.8g
+# aspartic acid: 9.0g
+# cysteine: 0.8g
+# glutamic acid: 13.1g
+# glycine: 3.2g
+# proline: 3.5g
+# serine: 4.1g
+# tyrosine: 3.0g
+[[food]]
+name = 'happy-way-all-natural-protein-powder-vegan-vanilla-flavour'
+serving-size = '100g'
+protein = 72.2
+carbs = 11.2
+fat = 0.5
+source = 'launceston product label'
+
 # honest sea - roasted seaweed snack - sea salt
 [[food]]
 name = 'honest-sea-roasted-seaweed-snack-sea-salt'
@@ -1347,6 +1401,16 @@ protein = 7.5
 carbs = 78.3
 fiber = 3.6
 fat = 2.7
+source = 'launceston product label'
+
+# lotus - soybeans
+# ingredients: organic soya beans (100%)
+[[food]]
+name = 'lotus-soybeans'
+serving-size = '100g'
+protein = 34.1
+carbs = 35.2
+fat = 15.2
 source = 'launceston product label'
 
 # lotus - soy grits
@@ -2708,6 +2772,17 @@ fiber = [ 7.9, 0.88 ]
 fat = 0.4
 source = 'portland product label'
 
+# sun rice - black rice
+# ingredients: black rice
+[[food]]
+name = 'sun-rice-black-rice'
+serving-size = '100g'
+protein = 8.5
+carbs = 76.7
+fiber = 4.5
+fat = 3.1
+source = 'launceston product label'
+
 # sunfed - chicken-free chicken
 # ingredients: water, pea protein (43%), rice bran oil, pea fibre,
 # pumpkin, natural yeast extract, maize starch
@@ -3226,6 +3301,17 @@ protein = 4.7
 carbs = 28.1
 fiber = 4.1
 fat = 5.6
+source = 'launceston product label'
+
+# woolworths - arborio risotto rice
+# ingredients: arborio rice
+[[food]]
+name = 'woolworths-arborio-risotto-rice'
+serving-size = '100g'
+protein = 7.3
+carbs = 74
+fiber = 0.5
+fat = 0.5
 source = 'launceston product label'
 
 # woolworths - baby leaves & beetroot
