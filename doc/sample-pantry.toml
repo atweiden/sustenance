@@ -1371,6 +1371,17 @@ fiber = 12.6
 fat = 2.5
 source = 'launceston product label'
 
+# lotus - freekeh - cracked
+# ingredients: wheat at freekeh stage (harvested green) 100%
+[[food]]
+name = 'lotus-freekeh-cracked'
+serving-size = '100g'
+protein = 14.9
+carbs = 73.7
+fiber = 12.9
+fat = 2.5
+source = 'launceston product label'
+
 # lotus - puffed millet
 # ingredients: puffed organic millet (100%)
 [[food]]
@@ -1598,6 +1609,18 @@ carbs = 20.6
 # insoluble fiber estimated from pinto-bean
 fiber = [ 7.2, 0.74 ]
 fat = 0.8
+source = 'launceston product label'
+
+# macro wholefoods market - psyllium husk
+# ingredients: organic psyllium husk
+[[food]]
+name = 'macro-wholefoods-market-psyllium-husk'
+serving-size = '100g'
+protein = 1.8
+carbs = 89.1
+# insoluble fiber estimated from psyllium-husk
+fiber = [ 89.1, 0.17 ]
+fat = 1.5
 source = 'launceston product label'
 
 # macro wholefoods market - quinoa bites - apple & sultana
@@ -7791,6 +7814,17 @@ carbs = 4
 fiber = 4
 fat = 6
 
+# plantago - psyllium husks
+[[food]]
+name = 'psyllium-husk'
+serving-size = '100g'
+protein = 1.5
+# carbs and fiber content from ajcn [49]
+carbs = 85.7
+fiber = [ 85.7, 0.17 ]
+fat = 0.6
+source = 'https://fineli.fi/fineli/en/elintarvikkeet/31681'
+
 # zego - plant protein [48]
 [[food]]
 name = 'sacha-inchi-protein-powder'
@@ -8994,6 +9028,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/170174/nutrients'
 # [46]: http://allrecipes.co.uk/recipe/39228/homemade-garlic-granules.aspx
 # [47]: https://www.chowhound.com/recipes/montreal-steak-seasoning-10590
 # [48]: https://zegofoods.com/shop/seed-fruit/pure-protein/
+# [49]: https://pubmed.ncbi.nlm.nih.gov/9497178/
 
 # end cite }}}
 # ==============================================================================
