@@ -1670,6 +1670,19 @@ fiber = 3.1
 fat = 2.5
 source = 'launceston product label'
 
+# macro wholefoods market - tamari almonds
+# ingredients: almonds (91%), tamari sauce (9%) (soya bean, water, salt,
+# koji seed)
+[[food]]
+name = 'macro-wholefoods-market-tamari-almonds'
+serving-size = '100g'
+protein = 21
+carbs = 16.9
+# insoluble fiber estimated from almond
+fiber = [ 10.5, 0.92 ]
+fat = 55.2
+source = 'launceston product label'
+
 # macro wholefoods market - tempeh
 # ingredients: soybeans (60%), water, apple cider vinegar, tempeh culture
 [[food]]
@@ -1679,6 +1692,18 @@ protein = 12.4
 carbs = 8.1
 fiber = 7.6
 fat = 5
+source = 'launceston product label'
+
+# macro wholefoods market - certified organic tigernuts
+# ingredients: organic tigernuts
+[[food]]
+name = 'macro-wholefoods-market-tigernuts'
+serving-size = '100g'
+protein = 4.4
+carbs = 60.5
+fiber = [ 15.1, 0.5 ]
+# insoluble fiber estimated from tigernut
+fat = 25.4
 source = 'launceston product label'
 
 # macro wholefoods market - toasted coconut clusters
@@ -2804,6 +2829,16 @@ protein = 8.5
 carbs = 76.7
 fiber = 4.5
 fat = 3.1
+source = 'launceston product label'
+
+# sun rice - koshihikari
+# ingredients: koshihikari white rice
+[[food]]
+name = 'sun-rice-koshihikari'
+serving-size = '100g'
+protein = 6
+carbs = 79.6
+fat = 0.3
 source = 'launceston product label'
 
 # sunfed - chicken-free chicken
