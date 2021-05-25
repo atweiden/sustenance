@@ -1045,6 +1045,17 @@ fiber = 1.4
 fat = 2
 source = 'launceston product label'
 
+# forbidden - certified organic red rice
+# ingredients: parboiled red rice
+[[food]]
+name = 'forbidden-red-rice'
+serving-size = '100g'
+protein = 9.4
+carbs = 72.2
+fiber = 3.9
+fat = 2.5
+source = 'launceston product label'
+
 # for your own good - caveman crackers
 # ingredients: sunflower seed, pumpkin seed, sesame seed, linseed,
 # psyllium husk, chia seed, hemp seed, thyme, sea salt, black pepper
@@ -1382,6 +1393,17 @@ fiber = 12.9
 fat = 2.5
 source = 'launceston product label'
 
+# lotus - freekeh - whole
+# ingredients: wheat at freekeh stage (harvested green) 100%
+[[food]]
+name = 'lotus-freekeh-whole'
+serving-size = '100g'
+protein = 14.9
+carbs = 73.7
+fiber = 12.9
+fat = 2.5
+source = 'launceston product label'
+
 # lotus - puffed millet
 # ingredients: puffed organic millet (100%)
 [[food]]
@@ -1491,6 +1513,18 @@ carbs = 73.9
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 9.5, 0.83 ]
 fat = 2
+source = 'launceston product label'
+
+# macro wholefoods market - cacao crunch toppers
+# ingredients: seeds (70%) (sunflower seeds, pepitas), honey (12%),
+# almonds (11%), cacao powder (3%), puffed quinoa (2.5%), cinnamon
+[[food]]
+name = 'macro-wholefoods-market-cacao-crunch-toppers'
+serving-size = '100g'
+protein = 21.7
+carbs = 24.8
+fiber = 9.9
+fat = 41.1
 source = 'launceston product label'
 
 # macro wholefoods market - cacao nibs
@@ -1723,6 +1757,17 @@ source = 'launceston product label'
 # ingredients: organic durum wholewheat semolina
 [[food]]
 name = 'macro-wholefoods-market-tri-colour-quinoa'
+serving-size = '100g'
+protein = 14.2
+carbs = 71.2
+fiber = 7
+fat = 6.1
+source = 'launceston product label'
+
+# macro wholefoods market - white quinoa
+# ingredients: organic white quinoa
+[[food]]
+name = 'macro-wholefoods-market-white-quinoa'
 serving-size = '100g'
 protein = 14.2
 carbs = 71.2
@@ -3381,6 +3426,17 @@ protein = 2.4
 carbs = 3.9
 fiber = 2.6
 fat = 0.1
+source = 'launceston product label'
+
+# woolworths - basmati rice
+# ingredients: basmati rice
+[[food]]
+name = 'woolworths-basmati-rice'
+serving-size = '100g'
+protein = 8.6
+carbs = 80.9
+fiber = 1.8
+fat = 0.5
 source = 'launceston product label'
 
 # woolworths - iceberg lettuce blend
