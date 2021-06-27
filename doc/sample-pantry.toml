@@ -1382,6 +1382,17 @@ fiber = 12.6
 fat = 2.5
 source = 'launceston product label'
 
+# lotus - durum wheat couscous
+# ingredients: 100% organic durum wheat semolina, water
+[[food]]
+name = 'lotus-durum-wheat-couscous'
+serving-size = '100g'
+protein = 11
+carbs = 75.8
+fiber = 3.8
+fat = 1.7
+source = 'launceston product label'
+
 # lotus - freekeh - cracked
 # ingredients: wheat at freekeh stage (harvested green) 100%
 [[food]]
@@ -1468,7 +1479,7 @@ fat = 2.4
 source = 'launceston product label'
 
 # lotus - whole spelt couscous
-# ingredients: 100% organic barley
+# ingredients: 100% organic wholegrain spelt flour, water
 [[food]]
 name = 'lotus-whole-spelt-couscous'
 serving-size = '100g'
@@ -1619,6 +1630,17 @@ protein = 17.6
 carbs = 67.9
 fiber = 24.6
 fat = 25.3
+source = 'launceston product label'
+
+# macro wholefoods market - jasmine rice
+# ingredients: organic jasmine rice
+[[food]]
+name = 'macro-wholefoods-market-jasmine-rice'
+serving-size = '100g'
+protein = 8.7
+carbs = 78
+fiber = 0.9
+fat = 1.3
 source = 'launceston product label'
 
 # macro wholefoods market - lentils
@@ -1847,6 +1869,18 @@ source = 'launceston product label'
 # ingredients: roasted peanuts (99.3%) & sea salt
 [[food]]
 name = 'mayvers-peanut-butter-dark-roasted-crunchy'
+serving-size = '100g'
+protein = 25
+carbs = 21.3
+# insoluble fiber estimated from roasted-peanut
+fiber = [ 7.9, 0.93 ]
+fat = 49.3
+source = 'launceston product label'
+
+# mayver's - peanut butter - dark roasted - extra crunchy
+# ingredients: roasted peanuts (99.3%) & sea salt
+[[food]]
+name = 'mayvers-peanut-butter-dark-roasted-extra-crunchy'
 serving-size = '100g'
 protein = 25
 carbs = 21.3
@@ -3352,6 +3386,37 @@ carbs = 20.4
 fat = 4.3
 source = 'launceston product label'
 
+# vital protein - vanilla
+# ingredients: 100% pea protein isolate, natural vanilla flavour,
+# thaumatin & monk fruit
+#
+# amino acid profile (per 100g)
+# alanine: 4.3g
+# arginine: 8.7g
+# aspartic acid: 11.5g
+# cystine: 1.0g
+# glutamic acid: 16.8g
+# glycine: 4.1g
+# histidine: 2.5g
+# isoleucine: 4.5g
+# leucine: 8.4g
+# lysine: 7.2
+# methionine: 1.1g
+# phenylalanine: 5.5g
+# proline: 4.5g
+# serine: 5.3g
+# threonine: 3.9g
+# tryptophan: 1.0g
+# tyrosine: 3.8g
+# valine: 5.0g
+[[food]]
+name = 'vital-protein-vanilla'
+serving-size = '100g'
+protein = 80
+carbs = 19.2
+fat = 5.4
+source = 'launceston product label'
+
 # whole earth & sea - protein & greens - organic chocolate
 # ingredients: organic protein blend (71%) (pea protein, rice protein,
 # amaranth, hemp protein, quinoa); fermented organic fruit, vegetable &
@@ -3439,6 +3504,17 @@ fiber = 1.8
 fat = 0.5
 source = 'launceston product label'
 
+# woolworths - four seasons coleslaw - white cabbage, red cabbage,
+# ingredients: carrot, celery, spring onion & corn
+[[food]]
+name = 'woolworths-four-seasons-coleslaw'
+serving-size = '100g'
+protein = 1.2
+carbs = 5.7
+fiber = 2.9
+fat = 0.1
+source = 'perth product label'
+
 # woolworths - iceberg lettuce blend
 # ingredients: iceberg lettuce (min. 50%), cabbage, carrot, cos lettuce
 [[food]]
@@ -3450,16 +3526,16 @@ fiber = 1.8
 fat = 0.1
 source = 'launceston product label'
 
-# woolworths - four seasons coleslaw - white cabbage, red cabbage,
-# ingredients: carrot, celery, spring onion & corn
+# woolworths - thai jasmine rice
+# ingredients: fragrant thai jasmine rice
 [[food]]
-name = 'woolworths-four-seasons-coleslaw'
+name = 'woolworths-thai-jasmine-rice'
 serving-size = '100g'
-protein = 1.2
-carbs = 5.7
-fiber = 2.9
-fat = 0.1
-source = 'perth product label'
+protein = 7
+carbs = 79.9
+fiber = 1.2
+fat = 0.5
+source = 'launceston product label'
 
 # yumi's - falafel - classic
 # ingredients: chickpeas (72%), vegetable oil, dried onions, cumin,
