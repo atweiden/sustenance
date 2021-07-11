@@ -1502,6 +1502,30 @@ carbs = 11.9
 fat = 51.1
 source = 'launceston product label'
 
+# macro wholefoods market - adzuki beans
+# ingredients: organic adzuki beans (60%), water
+[[food]]
+name = 'macro-wholefoods-market-adzuki-beans'
+serving-size = '100g'
+protein = 6.5
+carbs = 21.3
+# insoluble fiber estimated from dry-adzuki-bean
+fiber = [ 6.4, 0.93 ]
+fat = 0.5
+source = 'launceston product label'
+
+# macro wholefoods market - black beans
+# ingredients: organic black beans (60%), water
+[[food]]
+name = 'macro-wholefoods-market-black-beans'
+serving-size = '100g'
+protein = 5.4
+carbs = 20
+# insoluble fiber estimated from dry-black-bean
+fiber = [ 5.4, 0.75 ]
+fat = 0.4
+source = 'launceston product label'
+
 # macro wholefoods market - brown flaxseed meal
 # ingredients: organic brown flaxseed meal
 [[food]]
@@ -1548,6 +1572,17 @@ carbs = 30.2
 fiber = [ 21.1, 0.83 ]
 fat = 49.9
 source = 'perth product label'
+
+# macro wholefoods market - cannellini beans
+# ingredients: organic cannellini beans (60%), water
+[[food]]
+name = 'macro-wholefoods-market-cannellini-beans'
+serving-size = '100g'
+protein = 6.5
+carbs = 20.3
+fiber = 6.3
+fat = 0.7
+source = 'launceston product label'
 
 # macro wholefoods market - chickpeas
 # ingredients: organic chickpeas (60%), water
