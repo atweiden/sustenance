@@ -3561,6 +3561,17 @@ fiber = 1.8
 fat = 0.1
 source = 'launceston product label'
 
+# woolworths - kale leaf & spinach
+# ingredients: kale (60%), baby spinach (40%)
+[[food]]
+name = 'woolworths-kale-leaf-and-spinach'
+serving-size = '100g'
+protein = 1.9
+carbs = 5.6
+fiber = 3.3
+fat = 0.1
+source = 'launceston product label'
+
 # woolworths - thai jasmine rice
 # ingredients: fragrant thai jasmine rice
 [[food]]
