@@ -1538,6 +1538,18 @@ fiber = [ 27.2, 0.46 ]
 fat = 42.2
 source = 'launceston product label'
 
+# macro wholefoods market - brown rice
+# ingredients: organic brown rice
+[[food]]
+name = 'macro-wholefoods-market-brown-rice'
+serving-size = '100g'
+protein = 7.9
+carbs = 72.6
+# insoluble fiber estimated from raw-brown-rice
+fiber = [ 3.5, 0.84 ]
+fat = 3.1
+source = 'launceston product label'
+
 # macro wholefoods market - bulgur wheat
 # ingredients: bulgur wheat
 [[food]]
