@@ -2795,6 +2795,17 @@ carbs = 56.4
 fat = 4.4
 source = 'launceston product label'
 
+# riviana - brown basmati rice
+# ingredients: wholegrain brown basmati rice
+[[food]]
+name = 'riviana-brown-basmati-rice'
+serving-size = '100g'
+protein = 11.7
+carbs = 91.5
+fiber = 9.3
+fat = 4.2
+source = 'launceston product label'
+
 # sabaton - whole chestnuts
 # ingredients: chestnuts, water
 [[food]]
