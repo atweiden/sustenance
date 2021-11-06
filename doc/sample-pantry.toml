@@ -670,6 +670,75 @@ fiber = 4
 fat = 1
 source = 'launceston product label'
 
+# coles kitchen - certified organic - australian stir-fry
+# ingredients: organic cabbage (65%), organic carrot (20%), organic kale
+# (15%)
+[[food]]
+name = 'coles-kitchen-certified-organic-australian-stir-fry'
+serving-size = '100g'
+protein = 1.8
+carbs = 6.9
+fiber = 3
+fat = 0.1
+source = 'launceston product label'
+
+# coles kitchen - certified organic - australian coleslaw
+# ingredients: organic cabbage (65%), organic carrot (20%), organic kale
+# (15%)
+[[food]]
+name = 'coles-kitchen-certified-organic-australian-coleslaw'
+serving-size = '100g'
+protein = 1.3
+carbs = 6.3
+fiber = 2.8
+fat = 0.1
+source = 'launceston product label'
+
+# coles kitchen - roasting vegetables with garlic and rosemary
+# ingredients: australian vegetable medley (98%) [carrot (31%), pumpkin
+# (30%), red onion (25%), zucchini (12%)], garlic (1%), rosemary (0.5%)
+[[food]]
+name = 'coles-kitchen-roasting-vegetables-with-garlic-and-rosemary'
+serving-size = '100g'
+protein = 1.1
+carbs = 7
+fiber = 2.4
+fat = 0.2
+source = 'launceston product label'
+
+# coles kitchen - veggie shreds - australian beetroot slaw
+# ingredients: broccoli (42%), beetroot (30%), carrot (28%)
+[[food]]
+name = 'coles-kitchen-veggie-shreds-australian-beetroot-slaw'
+serving-size = '100g'
+protein = 2.7
+carbs = 8.1
+fiber = 3.6
+fat = 0.1
+source = 'launceston product label'
+
+# coles kitchen - veggie shreds - australian coleslaw
+# ingredients: cabbage (75%), carrot (25%)
+[[food]]
+name = 'coles-kitchen-veggie-shreds-australian-coleslaw'
+serving-size = '100g'
+protein = 1.3
+carbs = 6.6
+fiber = 2.9
+fat = 0.1
+source = 'launceston product label'
+
+# coles kitchen - certified organic - australian stir-fry
+# ingredients: pea protein
+[[food]]
+name = 'coles-pea-protein-powder'
+serving-size = '100g'
+protein = 79.2
+carbs = 4.7
+fiber = 3.2
+fat = 7.6
+source = 'launceston product label'
+
 # connect foods - roasted black beans - pink himalayan salt
 # ingredients: roasted black soybean (98%), pink himalayan salt (1.4%),
 # soybean oil
@@ -1211,6 +1280,34 @@ serving-size = '100g'
 protein = 72.2
 carbs = 11.2
 fat = 0.5
+source = 'launceston product label'
+
+# hart & soul - mediterranean couscous
+# ingredients: precooked durum wheat semolina (88%), tomato (6%), olives
+# (1.7%), garlic (1.5%), zucchini (1%), sesame seeds, herbs (0.4%)
+# (oregano, chives), black pepper
+[[food]]
+name = 'hart-and-soul-mediterranean-couscous'
+serving-size = '100g'
+protein = 12.1
+carbs = 73.5
+# insoluble fiber estimated from couscous
+fiber = [ 5.5, 0.78 ]
+fat = 3.2
+source = 'launceston product label'
+
+# hart & soul - moroccan couscous
+# ingredients: precooked durum wheat semolina (89%), tomato (2.6%),
+# sunflower seeds (2.1%), garlic, red capsicum (1.6%), onion, cumin
+# (0.4%), mint (0.2%), chilli, coriander (0.1%)
+[[food]]
+name = 'hart-and-soul-moroccan-couscous'
+serving-size = '100g'
+protein = 15.3
+carbs = 70.6
+# insoluble fiber estimated from couscous
+fiber = [ 4.6, 0.78 ]
+fat = 3.6
 source = 'launceston product label'
 
 # honest sea - roasted seaweed snack - sea salt
@@ -2111,6 +2208,17 @@ fiber = [ 13.3, 0.83 ]
 fat = 2.9
 source = 'launceston product label'
 
+# mckenzie's - yellow split lentils
+[[food]]
+name = 'mckenzies-yellow-split-lentils'
+serving-size = '100g'
+protein = 22.8
+carbs = 61.3
+# insoluble fiber estimated from masoor-dal
+fiber = [ 10.2, 0.83 ]
+fat = 2.5
+source = 'launceston product label'
+
 # mckenzie's - yellow split peas
 [[food]]
 name = 'mckenzies-yellow-split-peas'
@@ -2825,6 +2933,18 @@ carbs = 19.6
 fat = 2.3
 source = 'hobart product label'
 
+# san remo - couscous
+# ingredients: durum wheat semolina
+[[food]]
+name = 'san-remo-couscous'
+serving-size = '100g'
+protein = 12.5
+carbs = 75
+# insoluble fiber estimated from couscous
+fiber = [ 3.0, 0.78 ]
+fat = 2
+source = 'launceston product label'
+
 # sapori mediterranei - couscous
 # ingredients: durum wheat semolina, water
 [[food]]
@@ -2869,6 +2989,30 @@ protein = 15
 carbs = 11.2
 fiber = 7.9
 fat = 2.9
+source = 'launceston product label'
+
+# soulseed - natural hemp protein
+# ingredients: 100% australian cold-milled hemp protein powder
+[[food]]
+name = 'soulseed-natural-hemp-protein'
+serving-size = '100g'
+protein = 52
+carbs = 31.5
+fiber = 16.3
+fat = 14.2
+source = 'launceston product label'
+
+# soyco - hi-protein firm tofu
+# ingredients: non-gmo soybean extrac (99%) [water, soybeans], firming
+# agent (magnesium chloride)
+[[food]]
+name = 'soyco-hi-protein-firm-tofu'
+serving-size = '100g'
+protein = 15.9
+carbs = 7.2
+# insoluble fiber estimated from firm-tofu
+fiber = [ 4.9, 0.6 ]
+fat = 2.2
 source = 'launceston product label'
 
 # spiral foods - organic natural vegan oven baked mung bean chips
