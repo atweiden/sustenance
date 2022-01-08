@@ -670,6 +670,40 @@ fiber = 4
 fat = 1
 source = 'launceston product label'
 
+# coles - brown basmati rice
+# ingredients: brown basmati rice
+[[food]]
+name = 'coles-brown-basmati-rice'
+serving-size = '100g'
+protein = 9.7
+carbs = 86.2
+fiber = 4.2
+fat = 0.1
+source = 'launceston product label'
+
+# coles - certified organic - chickpeas
+# ingredients: organic chickpeas (60%), water, salt
+[[food]]
+name = 'coles-chickpeas'
+serving-size = '100g'
+protein = 6.5
+carbs = 20.8
+fiber = 6.4
+fat = 2.4
+source = 'launceston product label'
+
+# coles - certified organic - four bean mix
+# ingredients: organic beans (60%) (butter beans, flageolet beans,
+# chickpeas, red kidney beans), water, salt
+[[food]]
+name = 'coles-four-bean-mix'
+serving-size = '100g'
+protein = 7.6
+carbs = 20.7
+fiber = 5.4
+fat = 0.9
+source = 'launceston product label'
+
 # coles kitchen - certified organic - australian stir-fry
 # ingredients: organic cabbage (65%), organic carrot (20%), organic kale
 # (15%)
@@ -728,7 +762,19 @@ fiber = 2.9
 fat = 0.1
 source = 'launceston product label'
 
-# coles kitchen - certified organic - australian stir-fry
+# coles kitchen - veggie shreds - australian superfood
+# ingredients: cabbage (35%), carrot (20%), beetroot (14%), kale (11%),
+# daikon radish (11%), celery (9%)
+[[food]]
+name = 'coles-kitchen-veggie-shreds-australian-superfood'
+serving-size = '100g'
+protein = 1.2
+carbs = 6.4
+fiber = 2.4
+fat = 0.1
+source = 'launceston product label'
+
+# coles - pea protein
 # ingredients: pea protein
 [[food]]
 name = 'coles-pea-protein-powder'
@@ -737,6 +783,18 @@ protein = 79.2
 carbs = 4.7
 fiber = 3.2
 fat = 7.6
+source = 'launceston product label'
+
+# coles - peanuts - raw - skin on
+# ingredients: peanuts
+[[food]]
+name = 'coles-peanuts-raw-skin-on'
+serving-size = '100g'
+protein = 24.7
+carbs = 17.1
+# insoluble fiber estimated from peanut
+fiber = [ 8.2, 0.95 ]
+fat = 47.1
 source = 'launceston product label'
 
 # connect foods - roasted black beans - pink himalayan salt
@@ -1533,6 +1591,16 @@ fiber = 5.5
 fat = 3.9
 source = 'launceston product label'
 
+# lotus - rapadura sugar
+# ingredients: organic rapadura sugar
+[[food]]
+name = 'lotus-rapadura-sugar'
+serving-size = '100g'
+protein = 0.3
+carbs = 86.6
+fat = 0
+source = 'launceston product label'
+
 # lotus - rice flakes - rolled
 # ingredients: wholegrain brown rice (100%)
 [[food]]
@@ -1597,6 +1665,18 @@ serving-size = '100g'
 protein = 17.8
 carbs = 11.9
 fat = 51.1
+source = 'launceston product label'
+
+# lucky - cashew pieces - toasted
+# ingredients: cashews
+[[food]]
+name = 'lucky-cashew-pieces-toasted'
+serving-size = '100g'
+protein = 15.3
+carbs = 35.7
+# insoluble fiber estimated from cashew
+fiber = [ 3.0, 0.92 ]
+fat = 46.4
 source = 'launceston product label'
 
 # macro wholefoods market - adzuki beans
@@ -2031,6 +2111,18 @@ carbs = 21.3
 # insoluble fiber estimated from roasted-peanut
 fiber = [ 7.9, 0.93 ]
 fat = 49.3
+source = 'launceston product label'
+
+# mayver's - peanut butter - dark roasted - smunchy
+# ingredients: 100% roasted peanuts
+[[food]]
+name = 'mayvers-peanut-butter-dark-roasted-smunchy'
+serving-size = '100g'
+protein = 26
+carbs = 17
+# insoluble fiber estimated from roasted-peanut
+fiber = [ 8.0, 0.93 ]
+fat = 47
 source = 'launceston product label'
 
 # mayver's - peanut butter - extra crunchy
@@ -2515,6 +2607,8 @@ fat = 0.6
 source = 'auckland product label'
 
 # nutrisoy - tempeh
+# ingredients: non–genetically modified soybeans (50%), water, cider
+# vinegar, soy sauce (contains wheat), spices and rhizopus culture
 [[food]]
 name = 'nutrisoy-tempeh'
 serving-size = '100g'
@@ -7941,6 +8035,7 @@ name = 'nigella-seed'
 aka = [
   'black-caraway-seed',
   'black-cumin',
+  'black-seed',
   # hindi
   'kalonji',
   # amharic
