@@ -155,7 +155,7 @@
 - implement missing food from teff love cookbook
   - ajwain
     - aka
-      - bishop’s weed
+      - bishop's weed
       - carom seed
       - netch azmud (amharic)
       - ajwain (hindi)
@@ -179,7 +179,7 @@
   - candied ginger
   - cream of tartar
   - instant yeast
-    - ideally rapid rise by fleischmann’s
+    - ideally rapid rise by fleischmann's
   - lasagna noodles
   - rice paper
     - aka banh trang (vietnamese)
