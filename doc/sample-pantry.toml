@@ -2607,7 +2607,7 @@ fat = 0.6
 source = 'auckland product label'
 
 # nutrisoy - tempeh
-# ingredients: non–genetically modified soybeans (50%), water, cider
+# ingredients: non-genetically modified soybeans (50%), water, cider
 # vinegar, soy sauce (contains wheat), spices and rhizopus culture
 [[food]]
 name = 'nutrisoy-tempeh'
