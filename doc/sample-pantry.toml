@@ -1999,6 +1999,18 @@ fiber = 8.8
 fat = 49.7
 source = 'launceston product label'
 
+# macro wholefoods market - tofu - perfectly firm
+# ingredients: soybeans extract (99%) (water, soybeans), firming agent
+# (magnesium chloride)
+[[food]]
+name = 'macro-wholefoods-market-tofu-perfectly-firm'
+serving-size = '100g'
+protein = 14.7
+carbs = 6
+fiber = 4.8
+fat = 7.1
+source = 'launceston product label'
+
 # macro wholefoods market - tri colour quinoa
 # ingredients: organic durum wholewheat semolina
 [[food]]
