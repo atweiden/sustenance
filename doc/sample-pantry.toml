@@ -1390,6 +1390,15 @@ fiber = 20
 fat = 46
 source = 'perth product label'
 
+# honest to goodness - maple butter
+[[food]]
+name = 'honest-to-goodness-maple-butter'
+serving-size = '100g'
+protein = 0
+carbs = 83
+fat = 0
+source = 'launceston product label'
+
 # keep it cleaner - chickpea pasta
 # ingredients: chickpea flour (100%)
 [[food]]
@@ -3682,6 +3691,18 @@ protein = 26.4
 carbs = 5.5
 fiber = 3.4
 fat = 11
+source = 'launceston product label'
+
+# vegie delights - nutolene
+# ingredients: water, peanuts (47%), salt, minerals (zinc, iron),
+# vitamin b12
+[[food]]
+name = 'vegie-delights-nutolene'
+serving-size = '100g'
+protein = 14.1
+carbs = 8.9
+fiber = 7.4
+fat = 23.2
 source = 'launceston product label'
 
 # viking platter - dried porcini mushrooms
