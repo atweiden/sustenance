@@ -2587,6 +2587,41 @@ fiber = [ 1.2, 0.6 ]
 fat = 8.2
 source = 'launceston product label'
 
+# nature's way - protein
+#
+# amino acid profile
+#
+# essential amino acids (per 100g)
+#
+# isoleucine (bcaa): 4.3g
+# leucine (bcaa): 7.2
+# lysine: 5.5g
+# methionine: 1.2g
+# phenylalanine: 4.6g
+# threonine: 3.3g
+# tryptophan: 1.2g
+# valine (bcaa): 4.4g
+# histidine: 2.3g
+#
+# non-essential amino acids (per 100g)
+#
+# alanine: 3.8g
+# arginine: 6.7g
+# aspartic acid: 10.2g
+# cysteine: 1.1g
+# glutamic acid: 16.8g
+# glycine: 3.7g
+# proline: 4.5g
+# serine: 4.6g
+# tyrosine: 3.3g
+[[food]]
+name = 'natures-way-protein'
+serving-size = '100g'
+protein = 87
+carbs = 1
+fat = 3.3
+source = 'launceston product label'
+
 # nature's works - tasmanian toasted hazel meal
 # de-fatted hazel meal
 [[food]]
