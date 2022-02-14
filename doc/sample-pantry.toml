@@ -1688,6 +1688,19 @@ fiber = [ 3.0, 0.92 ]
 fat = 46.4
 source = 'launceston product label'
 
+# macro mike - powdered peanut butter - sweet original
+# ingredients: peanut protein, faba bean protein, coconut nectar,
+# coconut milk powder, himalayan rock salt, guar gum, monk fruit extract
+[[food]]
+name = 'macro-mike-powdered-peanut-butter-sweet-original'
+serving-size = '100g'
+protein = 54.9
+carbs = 28
+# insoluble fiber estimated from peanut
+fiber = [ 12.9, 0.95 ]
+fat = 9.9
+source = 'melbourne product label'
+
 # macro wholefoods market - adzuki beans
 # ingredients: organic adzuki beans (60%), water
 [[food]]
@@ -2588,6 +2601,7 @@ fat = 8.2
 source = 'launceston product label'
 
 # nature's way - protein
+# ingredients: soy protein 99.99% isolate, vitamin b1 (thiamin)
 #
 # amino acid profile
 #
