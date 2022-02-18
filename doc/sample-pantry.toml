@@ -449,6 +449,16 @@ carbs = 11.4
 fat = 49
 source = 'launceston product label'
 
+# blue lotus foods - tofu
+# ingredients: water, organic soybeans, mineral salt 511 (nigari)
+[[food]]
+name = 'blue-lotus-foods-tofu'
+serving-size = '100g'
+protein = 12
+carbs = 3.3
+fat = 6.1
+source = 'melbourne product label'
+
 # bragg - sprinkle
 # ingredients: rosemary, onion, garlic, thyme, red bell pepper, carrot,
 # tomato, black pepper, basil, bragg organic extra virgin olive oil,
@@ -669,6 +679,17 @@ carbs = 84
 fiber = 4
 fat = 1
 source = 'launceston product label'
+
+# coles - black beans
+# ingredients: black beans (61%), water, salt
+[[food]]
+name = 'coles-black-beans'
+serving-size = '100g'
+protein = 4.1
+carbs = 11.4
+fiber = 5.1
+fat = 0.5
+source = 'melbourne product label'
 
 # coles - brown basmati rice
 # ingredients: brown basmati rice
@@ -3794,6 +3815,40 @@ protein = 80
 carbs = 19.2
 fat = 5.4
 source = 'launceston product label'
+
+# wellness road - faba bean protein powder
+# ingredients: faba bean protein powder (100%)
+[[food]]
+name = 'wellness-road-faba-bean-protein-powder'
+serving-size = '100g'
+protein = 82.4
+carbs = 2.5
+fiber = 1.1
+fat = 7.2
+source = 'melbourne product label'
+
+# wellness road - lentil, pea and sweet potato pro rice
+# ingredients: lentil flour (50%) [yellow lentil flour, red lentil flour],
+# pea flour (47%), sweet potato powder (3%)
+[[food]]
+name = 'wellness-road-lentil-pea-and-sweet-potato-pro-rice'
+serving-size = '100g'
+protein = 22.5
+carbs = 62.8
+fiber = 6.8
+fat = 1.8
+source = 'melbourne product label'
+
+# wellness road - soy protein crisps
+# ingredients: soy protein isolate (60%), rice flour, salt
+[[food]]
+name = 'wellness-road-soy-protein-crisps'
+serving-size = '100g'
+protein = 58.8
+carbs = 31
+fiber = 2.7
+fat = 0.5
+source = 'melbourne product label'
 
 # whole earth & sea - protein & greens - organic chocolate
 # ingredients: organic protein blend (71%) (pea protein, rice protein,
