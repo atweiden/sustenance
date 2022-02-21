@@ -761,6 +761,19 @@ fiber = 2.4
 fat = 0.2
 source = 'launceston product label'
 
+# coles kitchen - traditional vegetables - ready to stir fry
+# ingredients: carrot (20%), zucchini (17%), broccoli (16%), capsicum
+# (12%), red cabbage (10%), red onion (10%), baby corn (8%), green beans
+# (7%)
+[[food]]
+name = 'coles-kitchen-traditional-vegetables'
+serving-size = '100g'
+protein = 2
+carbs = 6.6
+fiber = 2.9
+fat = 0.3
+source = 'melbourne product label'
+
 # coles kitchen - veggie shreds - australian beetroot slaw
 # ingredients: broccoli (42%), beetroot (30%), carrot (28%)
 [[food]]
