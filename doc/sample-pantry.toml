@@ -2133,6 +2133,16 @@ fiber = 8.9
 fat = 2.3
 source = 'launceston product label'
 
+# maharajah's choice - rice flakes - medium
+# ingredients: 100% rice flakes
+[[food]]
+name = 'maharajahs-choice-rice-flakes-medium'
+serving-size = '100g'
+protein = 7.4
+carbs = 72
+fat = 3
+source = 'melbourne product label'
+
 # matakana superfoods - organic acai berry powder
 [[food]]
 name = 'matakana-superfoods-acai-berry-powder'
