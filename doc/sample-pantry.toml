@@ -3165,6 +3165,17 @@ fiber = [ 2.1, 0.78 ]
 fat = 1
 source = 'launceston product label'
 
+# s&b - nanami togarashi
+# ingredients: chili pepper, orange peel, black sesame seed, white sesame
+# seed, japanese pepper, ginger, seaweed
+[[food]]
+name = 's-and-b-nanami-togarashi'
+serving-size = '100g'
+protein = 0
+carbs = 0
+fat = 0
+source = 'melbourne product label'
+
 # simply better foods - organic firm tofu
 # ingredients: soybean, water, mineral salt (511)
 [[food]]
