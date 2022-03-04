@@ -4004,6 +4004,18 @@ fiber = 3.3
 fat = 0.1
 source = 'launceston product label'
 
+# woolworths - mixed rainbow vegetables
+# ingredients: potato, carrot, onion, zucchini
+[[food]]
+name = 'woolworths-mixed-rainbow-vegetables'
+serving-size = '100g'
+# macros estimated from coles-kitchen-roasting-vegetables-with-garlic-and-rosemary
+protein = 1.1
+carbs = 7
+fiber = 2.4
+fat = 0.2
+source = 'launceston product label'
+
 # woolworths - thai jasmine rice
 # ingredients: fragrant thai jasmine rice
 [[food]]
