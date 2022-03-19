@@ -831,6 +831,17 @@ fiber = [ 8.2, 0.95 ]
 fat = 47.1
 source = 'launceston product label'
 
+# coles - quinoa flakes
+# ingredients: organic white quinoa flakes
+[[food]]
+name = 'coles-quinoa-flakes'
+serving-size = '100g'
+protein = 11.9
+carbs = 69.8
+fiber = 8
+fat = 5.8
+source = 'melbourne product label'
+
 # connect foods - roasted black beans - pink himalayan salt
 # ingredients: roasted black soybean (98%), pink himalayan salt (1.4%),
 # soybean oil
