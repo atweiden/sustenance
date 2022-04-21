@@ -617,6 +617,16 @@ fiber = 7.1
 fat = 6.7
 source = 'auckland product label'
 
+# ceres organics - quinoa rice penne
+[[food]]
+name = 'ceres-organics-quinoa-rice-penne'
+serving-size = '100g'
+protein = 8.5
+carbs = 79.1
+fiber = 1
+fat = 1.1
+source = 'gold coast product label'
+
 # ceres organics - organic seaweed - chilli snack
 [[food]]
 name = 'ceres-organics-seaweed-chilli-snack'
