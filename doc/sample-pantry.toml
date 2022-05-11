@@ -3132,6 +3132,17 @@ carbs = 56.4
 fat = 4.4
 source = 'launceston product label'
 
+# red tractor - quick cook quinoa
+# ingredients: pre-cooked quinoa
+[[food]]
+name = 'red-tractor-quick-cook-quinoa'
+serving-size = '100g'
+protein = 14
+carbs = 70.4
+fiber = 2
+fat = 6
+source = 'gold coast product label'
+
 # riviana - brown basmati rice
 # ingredients: wholegrain brown basmati rice
 [[food]]
