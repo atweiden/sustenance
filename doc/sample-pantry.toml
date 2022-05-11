@@ -2642,6 +2642,19 @@ fiber = 5.4
 fat = 0.5
 source = 'perth product label'
 
+# nature's kitchen - lentil & kale koftas
+# ingredients: potato, carrot, wheat flour, split red lentils (14%), kale
+# (6%), chickpea kibble, thickener (maize starch), peas, herbs and spices
+# [parsley, paprika, turmeric, fenugreek, coriander, cumin, chilli]
+[[food]]
+name = 'natures-kitchen-lentil-and-kale-koftas'
+serving-size = '100g'
+protein = 7
+carbs = 10.6
+fiber = 5.4
+fat = 1
+source = 'gold coast product label'
+
 # nature's kitchen - tempeh
 [[food]]
 name = 'natures-kitchen-tempeh'
