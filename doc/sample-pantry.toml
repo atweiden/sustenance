@@ -2678,6 +2678,16 @@ fiber = [ 1.2, 0.6 ]
 fat = 8.2
 source = 'launceston product label'
 
+# nature's kitchen - tofu - silken
+# ingredients: soybean extract [water, soybean], firming agents (575, 516)
+[[food]]
+name = 'natures-kitchen-tofu-silken'
+serving-size = '100g'
+protein = 5
+carbs = 0.6
+fat = 2.3
+source = 'gold coast product label'
+
 # nature's way - protein
 # ingredients: soy protein 99.99% isolate, vitamin b1 (thiamin)
 #
