@@ -1454,6 +1454,47 @@ carbs = 83
 fat = 0
 source = 'launceston product label'
 
+# huon salmon - tasmanian wood-roasted salmon
+# ingredients: atlantic salmon (salmo salar), salt, natural wood smoke
+[[food]]
+name = 'huon-salmon-tasmanian-wood-roasted-salmon'
+serving-size = '100g'
+protein = 25.2
+carbs = 0.3
+fat = 8.5
+source = 'gold coast product label'
+
+# john west - wild alaskan pink salmon
+# ingredients: salmon, salt
+[[food]]
+name = 'john-west-wild-alaskan-pink-salmon'
+serving-size = '100g'
+protein = 23
+carbs = 0.6
+fat = 5.7
+source = 'gold coast product label'
+
+# john west - wild caught salmon slices - in spring water
+# ingredients: salmon (60%), water, salt
+[[food]]
+name = 'john-west-wild-caught-salmon-slices-in-spring-water'
+serving-size = '100g'
+protein = 23.9
+carbs = 0.6
+fat = 2.1
+source = 'gold coast product label'
+
+# john west - wild caught smoked kippers - fillets in brine
+# ingredients: naturally smoked herring fillets (kippers) (75%),
+# water, salt
+[[food]]
+name = 'john-west-wild-caught-smoked-kippers-fillets-in-brine'
+serving-size = '100g'
+protein = 18.6
+carbs = 0.6
+fat = 19.5
+source = 'gold coast product label'
+
 # keep it cleaner - chickpea pasta
 # ingredients: chickpea flour (100%)
 [[food]]
