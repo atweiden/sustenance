@@ -1464,6 +1464,23 @@ carbs = 0.3
 fat = 8.5
 source = 'gold coast product label'
 
+# impossible - beef
+# ingredients: water, plan protein (21%) (soy), sunflower oil,
+# coconut oil, thickener (ins 461), glutamic acid, natural flavours,
+# cultured dextrose, modified starch, yeast extract, soy leghemoglobin
+# (genetically modified), salt, antioxidant (ins 307b), vitamins and
+# minerals (zinc gluconate, niacin (vitamin b3), thiamine hydrochloride
+# (vitamin b1), pyridoxine hydrochloride (vitamin b6), riboflavin
+# (vitamin b2), vitamin b12
+[[food]]
+name = 'impossible-beef'
+serving-size = '100g'
+protein = 16.7
+carbs = 13
+fiber = 4.8
+fat = 11.4
+source = 'gold coast product label'
+
 # john west - wild alaskan pink salmon
 # ingredients: salmon, salt
 [[food]]
