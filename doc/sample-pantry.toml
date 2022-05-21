@@ -449,6 +449,24 @@ carbs = 11.4
 fat = 49
 source = 'launceston product label'
 
+# beyond meat - beyond burger
+# ingredients: water, pea protein (17%), expeller-pressed canola oil,
+# refined coconut oil, rice protein, natural flavours, dried yeast,
+# cocoa butter, thickener (461), potato starch, salt, gelling agent (508),
+# beetroot juice (for colour), apple extract, pomegranate concentrate,
+# antioxidant (322 from sunflower), vinegar, lemon juice concentrate,
+# vitamins (niacin [niacinamide], vitamin b6 [pyridoxine hydrochloride],
+# vitamin b12 [cyanocobalamin], pantothenic acid [calcium pantothenate]),
+# minerals (zinc [zinc sulphate])
+[[food]]
+name = 'beyond-meat-beyond-burger'
+serving-size = '100g'
+protein = 17.7
+carbs = 8
+fiber = 1.8
+fat = 12.4
+source = 'gold coast product label'
+
 # blue lotus foods - tofu
 # ingredients: water, organic soybeans, mineral salt 511 (nigari)
 [[food]]
