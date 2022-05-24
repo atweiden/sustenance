@@ -396,6 +396,21 @@ carbs = 78.5
 fat = 1.6
 source = 'launceston product label'
 
+# bean supreme - beetroot burgers
+# ingredients: black beans (49%), beetroot (23%), onion, caramelised
+# onion, pumpkin seeds, vegetable oil, buckwheat (3.2%), quinoa (2.6%),
+# gelling agents (methylcellulose - from plant fibre, carrageenan -
+# from red seaweed, locust bean gum - from carob seeds), sea salt,
+# spices, yeast extract
+[[food]]
+name = 'bean-supreme-beetroot-burgers'
+serving-size = '100g'
+protein = 6.7
+carbs = 22.9
+fiber = 6.7
+fat = 4.9
+source = 'gold coast product label'
+
 # bean supreme - marinated chilli & lime jackfruit
 # ingredients: jackfruit (52%), water, onion, coconut sugar, sunflower
 # oil, red thai chilli pepper (3%), lime juice (3%), garlic, herbs and
@@ -408,6 +423,38 @@ carbs = 14.2
 fiber = 6.3
 fat = 5
 source = 'launceston product label'
+
+# bean supreme - parsley, sage & rosemary sausages
+# ingredients: tofu (37%) (water, soy beans, firming agent (calcium
+# sulphate)), onion, gluten, water, coconut oil (hydrogenated), gelling
+# agents (methylcellulose - from plant fibre, carrageenan - from red
+# seaweed, locust bean gum - from carob seed), wheat fibre, yeast extract,
+# potato starch, yeast, sugar, vegetable protein (soy, wheat), parsley
+# (1%), salt, garlic, caramelised sugar, black pepper, oregano, rosemary
+# (0.1%), sage (0.1%)
+[[food]]
+name = 'bean-supreme-parsley-sage-rosemary-sausages'
+serving-size = '100g'
+protein = 12.7
+carbs = 13.2
+fiber = 5.1
+fat = 5.6
+source = 'gold coast product label'
+
+# bean supreme - wholefood mince
+# ingredients: tomato, shiitake mushrooms (18%), kiwi quinoa, puy lentils
+# (9%), black beans (7%), carrots, buckwheat, chickpeas, cauliflower,
+# apple, celery, soy sauce (gluten free), caramelised sugar, pumpkin
+# seeds, onion, yeast extract, salt, sunflower oil, coconut sugar,
+# smoked paprika, mushroom, garlic, rosemary, black pepper
+[[food]]
+name = 'bean-supreme-wholefood-mince'
+serving-size = '100g'
+protein = 5
+carbs = 16.5
+fiber = 4.3
+fat = 2
+source = 'gold coast product label'
 
 # bega - simply nuts - natural peanut butter
 # ingredients: roasted peanuts (100%)
