@@ -2371,6 +2371,19 @@ fiber = [ 16.3, 0.93 ]
 fat = 44.7
 source = 'launceston product label'
 
+# mayver's - peanut butter - super omega-3
+# ingredients: roasted peanuts (98.6%), algal oil (dha), mct oil (organic
+# coconut) (1%), sea salt
+[[food]]
+name = 'mayvers-peanut-butter-super-omega-3'
+serving-size = '100g'
+protein = 24.4
+carbs = 23.1
+# insoluble fiber estimated from roasted-peanut
+fiber = [ 9.0, 0.93 ]
+fat = 49.5
+source = 'gold coast product label'
+
 # mayver's - all natural peanut & cacao spread
 # ingredients: just organic peanuts (95%) & cacao powder (5%)
 [[food]]
