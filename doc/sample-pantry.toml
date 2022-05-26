@@ -906,6 +906,17 @@ fiber = [ 8.2, 0.95 ]
 fat = 47.1
 source = 'launceston product label'
 
+# coles - pink salmon
+# ingredients: wild pink salmon (99%), salt - pink salmon (oncorhynchus
+# gorbuscha) wild caught in the north eastern pacific ocean (fao area 67)
+[[food]]
+name = 'coles-pink-salmon'
+serving-size = '100g'
+protein = 20.9
+carbs = 0
+fat = 4.8
+source = 'gold coast product label'
+
 # coles - quinoa flakes
 # ingredients: organic white quinoa flakes
 [[food]]
@@ -1487,6 +1498,21 @@ carbs = 70.6
 fiber = [ 4.6, 0.78 ]
 fat = 3.6
 source = 'launceston product label'
+
+# hart & soul - veg panang
+# ingredients: panang curry sauce - water, coconut milk (11.1%), chickpea,
+# carrot, peas, coconut sugar (3%), lemongrass, garlic, shallot, galangal,
+# rice bran oil, chilli, salt, kaffir lime leaves, spices (0.1%); cooked
+# rice satchel - brown jasmin rice (40%), quinoa (2.5%), red rice (2.5%),
+# chia seed (1.4%), rice bran oil
+[[food]]
+name = 'hart-and-soul-veg-panang'
+serving-size = '100g'
+protein = 4.2
+carbs = 31.4
+fiber = 3.2
+fat = 6.2
+source = 'gold coast product label'
 
 # honest sea - roasted seaweed snack - sea salt
 [[food]]
@@ -4051,6 +4077,18 @@ carbs = 2.5
 fiber = 1.1
 fat = 7.2
 source = 'melbourne product label'
+
+# wellness road - lentil, pea and cauliflower pro rice
+# ingredients: lentil flour (50%) [yellow lentil flour, red lentil flour],
+# pea flour (47%), cauliflower powder (3%)
+[[food]]
+name = 'wellness-road-lentil-pea-and-cauliflower-pro-rice'
+serving-size = '100g'
+protein = 22.5
+carbs = 62.8
+fiber = 6.3
+fat = 0.5
+source = 'gold coast product label'
 
 # wellness road - lentil, pea and sweet potato pro rice
 # ingredients: lentil flour (50%) [yellow lentil flour, red lentil flour],
