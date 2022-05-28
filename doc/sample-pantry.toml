@@ -4153,6 +4153,19 @@ fiber = 5.8
 fat = 7.5
 source = 'launceston product label'
 
+# wildly good - kale sweet potato burgers - with chickpeas, carrots & corn
+# ingredients: chickpea (40%), sweet potato (13%), wheat flour, onion,
+# carrot (6%), garlic, corn (3.5%), kale (2%), canola oil, salt, spices
+# (cumin, pepper), citric acid, coriander leaves, sodium bicarbonate
+[[food]]
+name = 'wildly-good-kale-sweet-potato-burgers'
+serving-size = '100g'
+protein = 5.6
+carbs = 26.2
+fiber = 5
+fat = 4
+source = 'gold coast product label'
+
 # wildly good - spiced chickpea burgers - with coriander, parsley & dill
 # ingredients: chickpeas (42%), carrots, onions, wheat flour, celery,
 # herb and spice blend (5%) [spices (2%) (pepper, chilli, sumac), salt,
