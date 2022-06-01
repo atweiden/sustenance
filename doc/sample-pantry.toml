@@ -3472,6 +3472,16 @@ carbs = 8.3
 fat = 0.2
 source = 'launceston product label'
 
+# spiral foods - umeboshi
+# ingredients: organi ume plum (78.8%), sea salt, organic shiso leaves
+[[food]]
+name = 'spiral-foods-umeboshi'
+serving-size = '100g'
+protein = 0
+carbs = 7
+fat = 0
+source = 'gold coast product label'
+
 # sprout & kernel - cultured cashew cheese - chives
 # ingredients: organic cashews (95%), organic coconut oil, organic
 # plant-based culture, filtered water, chives (4%), himalayan pink salt
