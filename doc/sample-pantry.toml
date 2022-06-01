@@ -4268,6 +4268,18 @@ fiber = 2.4
 fat = 0.2
 source = 'launceston product label'
 
+# woolworths - roast mixed vegetables - garlic & rosemary
+# ingredients: sweet potato, potato, carrot, red onion, garlic (1%),
+# rosemary (0.4%), preservative (223) (sulphites)
+[[food]]
+name = 'woolworths-roast-mixed-vegetables-garlic-rosemary'
+serving-size = '100g'
+protein = 1.7
+carbs = 12.7
+fiber = 2.6
+fat = 0.5
+source = 'gold coast product label'
+
 # woolworths - thai jasmine rice
 # ingredients: fragrant thai jasmine rice
 [[food]]
