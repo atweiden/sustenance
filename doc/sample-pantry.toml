@@ -4092,7 +4092,7 @@ source = 'melbourne product label'
 # ingredients: lentil flour (50%) [yellow lentil flour, red lentil flour],
 # pea flour (47%), cauliflower powder (3%)
 [[food]]
-name = 'wellness-road-lentil-pea-and-cauliflower-pro-rice'
+name = 'wellness-road-lentil-pea-cauliflower-pro-rice'
 serving-size = '100g'
 protein = 22.5
 carbs = 62.8
@@ -4104,7 +4104,7 @@ source = 'gold coast product label'
 # ingredients: lentil flour (50%) [yellow lentil flour, red lentil flour],
 # pea flour (47%), sweet potato powder (3%)
 [[food]]
-name = 'wellness-road-lentil-pea-and-sweet-potato-pro-rice'
+name = 'wellness-road-lentil-pea-sweet-potato-pro-rice'
 serving-size = '100g'
 protein = 22.5
 carbs = 62.8
