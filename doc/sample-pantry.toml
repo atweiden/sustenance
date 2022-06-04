@@ -514,6 +514,86 @@ fiber = 1.8
 fat = 12.4
 source = 'gold coast product label'
 
+# bisque tempeh - lupin tempeh - bbq
+# ingredients: australian lupin beans (85%), organic apple cider vinegar,
+# culture starter (rhizopus oligosporus), water, organic chilli powder,
+# organic smoked paprika, mustard powder, organic garlic powder, organic
+# dried thyme, organic coconut sugar, organic pepper, salt
+[[food]]
+name = 'bisque-tempeh-lupin-tempeh-bbq'
+serving-size = '100g'
+protein = 13.6
+carbs = 19.8
+fiber = 13.1
+fat = 0.7
+source = 'gold coast product label'
+
+# bisque tempeh - lupin tempeh - furikake
+# ingredients: australian lupin beans (85%), organic apple cider vinegar,
+# culture starter (rhizopus oligosporus), water, organic dulse flakes,
+# organic nori flakes, organic white sesame seeds, mustard powder,
+# organic onion flakes, organic chilli flakes, salt
+[[food]]
+name = 'bisque-tempeh-lupin-tempeh-furikake'
+serving-size = '100g'
+protein = 14.3
+carbs = 18.7
+fiber = 13.1
+fat = 2.2
+source = 'gold coast product label'
+
+# bisque tempeh - lupin tempeh - original
+# ingredients: australian lupin beans (85%), organic apple cider vinegar,
+# culture starter (rhizopus oligosporus), water
+[[food]]
+name = 'bisque-tempeh-lupin-tempeh-original'
+serving-size = '100g'
+protein = 13.3
+carbs = 18.4
+fiber = 13.1
+fat = 0.5
+source = 'gold coast product label'
+
+# bisque tempeh - lupin tempeh - tamari
+# ingredients: australian lupin beans (85%), organic apple cider vinegar,
+# culture starter (rhizopus oligosporus), water, organic tamari (soy),
+# organic fresh ginger, organic fresh garlic, organic coconut sugar
+[[food]]
+name = 'bisque-tempeh-lupin-tempeh-tamari'
+serving-size = '100g'
+protein = 13.3
+carbs = 19
+fiber = 13.1
+fat = 0.5
+source = 'gold coast product label'
+
+# bite me fine foods - red lentil fakki patties
+# ingredients: organic potatoes, organic chickpeas, organic tomatoes,
+# organic red lentils (9%), organic carrots, organic celery, organic
+# capsicum, organic onion, organic rice flour, gmo-free canola oil,
+# himalayan salt
+[[food]]
+name = 'bite-me-fine-foods-red-lentil-fakki-patties'
+serving-size = '100g'
+protein = 4.6
+carbs = 25
+fiber = 5.1
+fat = 1.4
+source = 'gold coast product label'
+
+# bite me fine foods - spicy quinoa falafel
+# ingredients: organic chickpeas (66%), organic sweet potato, organic
+# quinoa (9%), organic carrot, organic coconut oil, organic rice flour,
+# himalayan salt, organic birds eye chilli
+[[food]]
+name = 'bite-me-fine-foods-spicy-quinoa-falafel'
+serving-size = '100g'
+protein = 7.9
+carbs = 27.6
+fiber = 7
+fat = 20.7
+source = 'gold coast product label'
+
 # blue lotus foods - tofu
 # ingredients: water, organic soybeans, mineral salt 511 (nigari)
 [[food]]
@@ -2926,6 +3006,62 @@ fiber = 8
 fat = 0.6
 source = 'auckland product label'
 
+# nutriem - vegiredi - plant-based deli slices - ham style
+# ingredients: water, gluten from wheat (35%), durum wheat flour (8%),
+# chickpea flour, extra virgin olive oil, red beetroot powder, natural
+# flavouring, tamari sauce, salt, coconut oil, soft wheat flour,
+# sourdough, mixture of spices and aromatic herbs
+[[food]]
+name = 'nutriem-vegiredi-plant-based-deli-slices-ham-style'
+serving-size = '100g'
+protein = 30
+carbs = 16.9
+fiber = 0.9
+fat = 7.5
+source = 'gold coast product label'
+
+# nutriem - vegiredi - plant-based deli slices - pepper
+# ingredients: water, gluten from wheat (32%), durum wheat flour (8%),
+# chickpea flour, extra virgin olive oil, red beetroot powder, natural
+# flavouring, tamari sauce, salt, black pepper (1.5%), soft wheat flour,
+# sourdough, coconut oil, mixture of spices and aromatic herbs
+[[food]]
+name = 'nutriem-vegiredi-plant-based-deli-slices-pepper'
+serving-size = '100g'
+protein = 29
+carbs = 16.4
+fiber = 1.4
+fat = 7.8
+source = 'gold coast product label'
+
+# nutriem - vegiredi - plant-based deli slices - smoked turkey style
+# ingredients: water, gluten from wheat (34%), durum wheat flour (8%),
+# chickpea flour, natural flavourings, extra virgin olive oil, tamari
+# sauce, salt, coconut oil, soft wheat flour, sourdough, mixture of
+# spices and aromatic herbs
+[[food]]
+name = 'nutriem-vegiredi-plant-based-deli-slices-smoked-turkey-style'
+serving-size = '100g'
+protein = 29
+carbs = 17.5
+fiber = 1.5
+fat = 7.1
+source = 'gold coast product label'
+
+# nutriem - vegiredi - plant-based deli slices - spicy salami style
+# ingredients: water, gluten from wheat (32%), durum wheat flour (8%),
+# chickpea flour, extra virgin olive oil, natural flavouring, tamari
+# sauce, mixture of spices and aromatic herbs, coconut oil, soft wheat
+# flour, sourdough, salt
+[[food]]
+name = 'nutriem-vegiredi-plant-based-deli-slices-spicy-salami-style'
+serving-size = '100g'
+protein = 30
+carbs = 17
+fiber = 2
+fat = 7
+source = 'gold coast product label'
+
 # nutrisoy - tempeh
 # ingredients: non-genetically modified soybeans (50%), water, cider
 # vinegar, soy sauce (contains wheat), spices and rhizopus culture
@@ -3393,6 +3529,28 @@ carbs = 0
 fat = 0
 source = 'melbourne product label'
 
+# shilu's vegetarian - chickpea, potato & spinach curry
+# ingredients: chickpea, tomato, onion, potato, spinach, spices, ginger,
+# garlic, salt, olive oil
+[[food]]
+name = 'shilus-vegetarian-chickpea-potato-spinach-curry'
+serving-size = '100g'
+protein = 3.2
+carbs = 8.7
+fat = 1.4
+source = 'gold coast product label'
+
+# shilu's vegetarian - mung bean & red lentil dal
+# ingredients: mung bean, red lentil, tomato, onion, spices, salt,
+# garlic, salt, olive oil
+[[food]]
+name = 'shilus-vegetarian-mung-bean-red-lentil-dal'
+serving-size = '100g'
+protein = 3.7
+carbs = 6.6
+fat = 0.4
+source = 'gold coast product label'
+
 # simply better foods - organic firm tofu
 # ingredients: soybean, water, mineral salt (511)
 [[food]]
@@ -3580,6 +3738,21 @@ fiber = 4.3
 fat = 6.1
 source = 'launceston product label'
 
+# suzy spoon's vegetarian butcher - sausage - polenta, sun-dried tomato
+# & basil
+# ingredients: non-gm polenta (37%), yellow split peas (10%), brown rice
+# (10%), sun-dried tomatoes (5%), miso (water, soybean, rice, salt),
+# potato, non-GM canola oil, garlic, nutritional yeast, bamboo fibre,
+# psyllium husks, basil; sausage skins (edible) - plant-based natural
+# polysaccharides
+[[food]]
+name = 'suzy-spoons-vegetarian-butcher-sausage-polenta-sun-dried-tomato-basil'
+serving-size = '100g'
+protein = 4.4
+carbs = 16.3
+fat = 6.9
+source = 'gold coast product label'
+
 # take & eat - organic tempeh - adzuki bean
 # ingredients: certified organic adzuki beans (min 90%), water, vinegar,
 # starter culture (rhizopus oligosporus)
@@ -3657,6 +3830,28 @@ protein = 27.7
 carbs = 11.1
 fat = 49.5
 source = 'launceston product label'
+
+# taste fine food co - spiced onion fritters
+# ingredients: onion, ginger, garlic, carom seeds, chilli powder, spices,
+# salt, chickpea flour, canola oil
+[[food]]
+name = 'taste-fine-food-co-spiced-onion-fritters'
+serving-size = '100g'
+protein = 6.5
+carbs = 15.5
+fat = 2
+source = 'gold coast product label'
+
+# taste fine food co - spinach fritters
+# ingredients: spinach, onion, ginger, carom seeds, garlic, chilli powder,
+# spices, salt, chickpea flour, canola oil
+[[food]]
+name = 'taste-fine-food-co-spinach-fritters'
+serving-size = '100g'
+protein = 4.6
+carbs = 11
+fat = 2.5
+source = 'gold coast product label'
 
 # the forager food co - risotto rice - tasmanian asparagus, peas and lemon
 # ingredients: spanish arborio rice, tasmanian peas (5%), asparagus
@@ -4313,6 +4508,31 @@ protein = 6.5
 carbs = 11.9
 fat = 21.5
 source = 'launceston product label'
+
+# yummy karma - broccoli & brown rice bites
+# ingredients: broccoli (53%), brown rice (20%), mixed vegetables,
+# corn flour, oil, herbs & spices, cooking salt, vinegar, garlic
+[[food]]
+name = 'yummy-karma-sweet-potato-broccoli-brown-rice-bites'
+serving-size = '100g'
+protein = 4.3
+carbs = 17.9
+fiber = 2.9
+fat = 3.1
+source = 'gold coast product label'
+
+# yummy karma - sweet potato & quinoa bites
+# ingredients: sweet potato (36%), mixed vegetables, quinoa (18%),
+# corn flour, rice flour, oil, cooking salt, herbs & spices, vinegar,
+# garlic
+[[food]]
+name = 'yummy-karma-sweet-potato-quinoa-bites'
+serving-size = '100g'
+protein = 2.8
+carbs = 29.7
+fiber = 3.4
+fat = 3
+source = 'gold coast product label'
 
 # --- end branded }}}
 # --- chocolate {{{
