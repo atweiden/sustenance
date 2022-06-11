@@ -1672,6 +1672,37 @@ carbs = 0.6
 fat = 2.1
 source = 'gold coast product label'
 
+# john west - wild caught tuna slices - in spring water
+# ingredients: purse seine or pole and line caught yellowfin tuna
+# (thunnus albacares) (60%), water, salt
+[[food]]
+name = 'john-west-wild-caught-tuna-slices-in-spring-water'
+serving-size = '100g'
+protein = 26.5
+carbs = 0.6
+fat = 0.9
+source = 'gold coast product label'
+
+# john west - wild scottish mackerel - fillets in brine
+# ingredients: atlantic mackerel (72%), water, salt
+[[food]]
+name = 'john-west-wild-scottish-mackerel-fillets-in-brine'
+serving-size = '100g'
+protein = 19.5
+carbs = 0.6
+fat = 20.5
+source = 'gold coast product label'
+
+# john west - wild scottish sardines - in spring water
+# ingredients: sardines (68%), springwater, salt
+[[food]]
+name = 'john-west-wild-scottish-sardines-in-spring-water'
+serving-size = '100g'
+protein = 18.5
+carbs = 0.6
+fat = 14.3
+source = 'gold coast product label'
+
 # john west - wild caught smoked kippers - fillets in brine
 # ingredients: naturally smoked herring fillets (kippers) (75%),
 # water, salt
@@ -3726,6 +3757,19 @@ carbs = 79.6
 fat = 0.3
 source = 'launceston product label'
 
+# sunfed - boar-free bacon
+# ingredients: water, pea protein (35%), cold pressed extra virgin olive
+# oil, yeast extract, pea fibre, hickory liquid smoke (2%), smoked salt
+# (beech, hickory), fermented red rice powder, citric acid (0.08%)
+[[food]]
+name = 'sunfed-boar-free-bacon'
+serving-size = '100g'
+protein = 37.6
+carbs = 6.3
+fiber = 1.5
+fat = 8.2
+source = 'gold coast product label'
+
 # sunfed - chicken-free chicken
 # ingredients: water, pea protein (43%), rice bran oil, pea fibre,
 # pumpkin, natural yeast extract, maize starch
@@ -4369,6 +4413,22 @@ protein = 5.6
 carbs = 26.2
 fiber = 5
 fat = 4
+source = 'gold coast product label'
+
+# wildly good - original veggie burgers - with sweet potato, zucchini
+# & corn
+# ingredients: chickpeas, carrot (14%), wheat flour, sweet potato (10%),
+# celery, zucchini (8%), herb and spice blend (dehydrated vegetable
+# powders (onion, garlic, tomato), natural flavours, yeast extract,
+# salt, spices, herbs and herb extracts (mustard, thyme, rosemary),
+# vinegar powder), potato, split peas, corn (3%)
+[[food]]
+name = 'wildly-good-original-veggie-burgers'
+serving-size = '100g'
+protein = 6.1
+carbs = 29.1
+fiber = 3.6
+fat = 1.3
 source = 'gold coast product label'
 
 # wildly good - spiced chickpea burgers - with coriander, parsley & dill
