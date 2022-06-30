@@ -3770,6 +3770,19 @@ fiber = 1.5
 fat = 8.2
 source = 'gold coast product label'
 
+# sunfed - bull-free beef
+# ingredients: water, pea protein (30%), nz beet juice (6%), yeast
+# extract, coconut oil, cold pressed extra virgin olive oil, pea fibre,
+# cocoa butter
+[[food]]
+name = 'sunfed-bull-free-beef'
+serving-size = '100g'
+protein = 24.8
+carbs = 5.8
+fiber = 2
+fat = 7.1
+source = 'gold coast product label'
+
 # sunfed - chicken-free chicken
 # ingredients: water, pea protein (43%), rice bran oil, pea fibre,
 # pumpkin, natural yeast extract, maize starch
