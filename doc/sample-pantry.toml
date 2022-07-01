@@ -717,6 +717,28 @@ fiber = 11.2
 fat = 48.1
 source = 'launceston product label'
 
+# ceres organics - adzuki beans
+# ingredients: certified organic black beans (60%), water
+[[food]]
+name = 'ceres-organics-adzuki-beans'
+serving-size = '100g'
+protein = 6.9
+carbs = 26
+fiber = 3
+fat = 0.2
+source = 'gold coast product label'
+
+# ceres organics - black beans
+# ingredients: certified organic black beans (60%), water
+[[food]]
+name = 'ceres-organics-black-beans'
+serving-size = '100g'
+protein = 8.2
+carbs = 24.4
+fiber = 6.4
+fat = 0.8
+source = 'gold coast product label'
+
 # ceres organics - organic brown rice bites
 # ingredients: certified organic brown jasmine rice (94%), certified
 # organic sunflower oil, natural sea salt (1%)
@@ -740,6 +762,17 @@ carbs = 76.1
 fiber = 5.1
 fat = 8.2
 source = 'launceston product label'
+
+# ceres organics - chickpeas
+# ingredients: certified organic chickpeas (60%), water
+[[food]]
+name = 'ceres-organics-chickpeas'
+serving-size = '100g'
+protein = 7.6
+carbs = 32.1
+fiber = 6.9
+fat = 2
+source = 'gold coast product label'
 
 # ceres organics - quinoa flakes
 [[food]]
@@ -4545,6 +4578,17 @@ serving-size = '100g'
 protein = 1.7
 carbs = 12.7
 fiber = 2.6
+fat = 0.5
+source = 'gold coast product label'
+
+# woolworths - stir fry mix - traditional vegetables
+# ingredients: cabbage, carrot, broccoli, capsicum, zucchini, onion
+[[food]]
+name = 'woolworths-stir-fry-mix-traditional-vegetables'
+serving-size = '100g'
+protein = 1.7
+carbs = 4.4
+fiber = 2.4
 fat = 0.5
 source = 'gold coast product label'
 
