@@ -1705,6 +1705,17 @@ carbs = 0.6
 fat = 2.1
 source = 'gold coast product label'
 
+# john west - wild caught smoked kippers - fillets in brine
+# ingredients: naturally smoked herring fillets (kippers) (75%),
+# water, salt
+[[food]]
+name = 'john-west-wild-caught-smoked-kippers-fillets-in-brine'
+serving-size = '100g'
+protein = 18.6
+carbs = 0.6
+fat = 19.5
+source = 'gold coast product label'
+
 # john west - wild caught tuna slices - in spring water
 # ingredients: purse seine or pole and line caught yellowfin tuna
 # (thunnus albacares) (60%), water, salt
@@ -1734,17 +1745,6 @@ serving-size = '100g'
 protein = 18.5
 carbs = 0.6
 fat = 14.3
-source = 'gold coast product label'
-
-# john west - wild caught smoked kippers - fillets in brine
-# ingredients: naturally smoked herring fillets (kippers) (75%),
-# water, salt
-[[food]]
-name = 'john-west-wild-caught-smoked-kippers-fillets-in-brine'
-serving-size = '100g'
-protein = 18.6
-carbs = 0.6
-fat = 19.5
 source = 'gold coast product label'
 
 # keep it cleaner - chickpea pasta
