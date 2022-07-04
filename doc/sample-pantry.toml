@@ -1824,6 +1824,18 @@ carbs = 29.5
 fat = 5.6
 source = 'launceston product label'
 
+# larder fresh - brown rice, mushroom and seaweed burger - v2
+# ingredients: carrot, brown rice (21%), sweet potato, mushrooms (10%),
+# chickpea, sesame seeds, rice bran oil, tamari (from soy), chickpea
+# flour, seaweed (1%), black sesame seeds, salt
+[[food]]
+name = 'larder-fresh-brown-rice-mushroom-seaweed-burger-v2'
+serving-size = '100g'
+protein = 5.4
+carbs = 27.7
+fat = 3.2
+source = 'gold coast product label'
+
 # larder fresh - falafel
 # ingredients: water, chickepas, fava beans, fresh onions, fresh herbs
 # and fresh spices, rice bran oil, salt and garlic
@@ -1834,18 +1846,6 @@ protein = 12.2
 carbs = 21.9
 fat = 11.5
 source = 'launceston product label'
-
-# larder fresh - brown rice, mushroom and seaweed burger
-# ingredients: carrot, brown rice (21%), sweet potato, mushrooms (10%),
-# chickpea, sesame seeds, rice bran oil, tamari (from soy), chickpea
-# flour, seaweed (1%), black sesame seeds, salt
-[[food]]
-name = 'larder-fresh-brown-rice-mushroom-seaweed-burger'
-serving-size = '100g'
-protein = 5.4
-carbs = 27.7
-fat = 3.2
-source = 'gold coast product label'
 
 # larder fresh - roast carrot, kale & chickpea burger
 # ingredients: chickpeas (51%), roasted carrot (30%), sweet potato,
