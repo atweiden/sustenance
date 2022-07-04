@@ -717,6 +717,17 @@ fiber = 11.2
 fat = 48.1
 source = 'launceston product label'
 
+# byron bay peanut butter co - crunchy
+# ingredients: queensland hi-oleic peanuts and australian macrobiotic
+# sea salt
+[[food]]
+name = 'byron-bay-peanut-butter-co-crunchy'
+serving-size = '100g'
+protein = 24.2
+carbs = 9.6
+fat = 54
+source = 'gold coast product label'
+
 # ceres organics - adzuki beans
 # ingredients: certified organic black beans (60%), water
 [[food]]
@@ -1824,6 +1835,18 @@ carbs = 21.9
 fat = 11.5
 source = 'launceston product label'
 
+# larder fresh - brown rice, mushroom and seaweed burger
+# ingredients: carrot, brown rice (21%), sweet potato, mushrooms (10%),
+# chickpea, sesame seeds, rice bran oil, tamari (from soy), chickpea
+# flour, seaweed (1%), black sesame seeds, salt
+[[food]]
+name = 'larder-fresh-brown-rice-mushroom-seaweed-burger'
+serving-size = '100g'
+protein = 5.4
+carbs = 27.7
+fat = 3.2
+source = 'gold coast product label'
+
 # larder fresh - roast carrot, kale & chickpea burger
 # ingredients: chickpeas (51%), roasted carrot (30%), sweet potato,
 # red lentil, sunflower seeds, rice bran oil, salt, spices, kale (1%)
@@ -1835,6 +1858,17 @@ carbs = 12.4
 fat = 6.1
 source = 'launceston product label'
 
+# larder fresh - roast carrot, kale & chickpea burger - v2
+# ingredients: chickpeas (51%), roasted carrot (30%), sweet potato,
+# red lentil, sunflower seeds, rice bran oil, salt, spices, kale (1%)
+[[food]]
+name = 'larder-fresh-roast-carrot-kale-chickpea-burger-v2'
+serving-size = '100g'
+protein = 6.2
+carbs = 26.4
+fat = 4.3
+source = 'gold coast product label'
+
 # larder fresh - roast pumpkin & chickpea burger
 # ingredients: pumpkin (30%), chickpea (28%), water, red lentil, rice
 # bran oil, fresh coriander, salt and spices
@@ -1845,6 +1879,17 @@ protein = 6
 carbs = 15.9
 fat = 6
 source = 'launceston product label'
+
+# larder fresh - roast pumpkin & chickpea burger - v2
+# ingredients: pumpkin (30%), chickpea (28%), water, red lentil, rice
+# bran oil, fresh coriander, salt and spices
+[[food]]
+name = 'larder-fresh-roast-pumpkin-chickpea-burger-v2'
+serving-size = '100g'
+protein = 6.1
+carbs = 25.7
+fat = 4.1
+source = 'gold coast product label'
 
 # lauds - aged cashew cheese
 # ingredients: cashews, coconut oil, water kefir (water, natural
@@ -3454,6 +3499,33 @@ carbs = 79.8
 fat = 0
 source = 'launceston product label'
 
+# pure life organic sprouted bakery - sprouted bread - ezekiel
+# ingredients: certified biodynamic wheat, spelt, barley, lentils,
+# millet, mung beans - all sprouted in filtered water; cooking aid:
+# certified organic extra virgin olive oil (trace amounts to release
+# loaf from baking pan)
+[[food]]
+name = 'pure-life-organic-sprouted-bakery-sprouted-bread-ezekiel'
+serving-size = '100g'
+protein = 10.9
+carbs = 46.3
+fiber = 8.5
+fat = 2.9
+source = 'gold coast product label'
+
+# pure life organic sprouted bakery - sprouted bread - spelt
+# ingredients: certified biodynamic spelt sprouted in filtered water
+# (100%); cooking aid: certified organic extra virgin olive oil (trace
+# amounts to release loaf from baking pan)
+[[food]]
+name = 'pure-life-organic-sprouted-bakery-sprouted-bread-spelt'
+serving-size = '100g'
+protein = 9.7
+carbs = 45.4
+fiber = 5.8
+fat = 2
+source = 'gold coast product label'
+
 # pure snack - probiotic kale chips - cashew vegan cheese
 # ingredients: organic australian-grown kale, single origin chemical-free
 # cashew nuts, australian-grown chemical-free sunflower seeds, vitamin c,
@@ -4459,6 +4531,20 @@ protein = 5.6
 carbs = 26.2
 fiber = 5
 fat = 4
+source = 'gold coast product label'
+
+# wildly good - kale & zucchini fritter bites - with parsley
+# ingredients: reconstituted potatoes, carrot, zucchini (14%), green peas,
+# besan flour, rice flour, kale (3%), canola oil, garlic, rice flakes,
+# lemon juice, raising agent (sodium bicarbonate), salt, parsley (0.4%),
+# basil, maize starch, citrus fibre, white pepper, rosemary extract
+[[food]]
+name = 'wildly-good-kale-zucchini-fritter-bites'
+serving-size = '100g'
+protein = 3.8
+carbs = 26.7
+fiber = 4.9
+fat = 4.6
 source = 'gold coast product label'
 
 # wildly good - original veggie burgers - with sweet potato, zucchini
