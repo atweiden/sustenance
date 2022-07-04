@@ -1638,6 +1638,18 @@ fiber = 3.2
 fat = 6.2
 source = 'gold coast product label'
 
+# hiltona - organic prunes
+# ingredients: 100% organic aussie prunes
+[[food]]
+name = 'hiltona-organic-prunes'
+serving-size = '100g'
+protein = 1.6
+carbs = 66.1
+# insoluble fiber estimated from dried-prune
+fiber = [ 7.1, 0.53 ]
+fat = 1
+source = 'gold coast product label'
+
 # honest sea - roasted seaweed snack - sea salt
 [[food]]
 name = 'honest-sea-roasted-seaweed-snack-sea-salt'
