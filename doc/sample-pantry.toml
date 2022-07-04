@@ -14,7 +14,7 @@
 # a pinch of native pepperberry & salt, these hazelnuts make a fabulous
 # snack or garnish on your favourite meal
 [[food]]
-name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-cherry-and-native-pepperberry'
+name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-cherry-native-pepperberry'
 serving-size = '100g'
 protein = 12.8
 carbs = 18
@@ -34,7 +34,7 @@ source = 'launceston product label'
 # molasses, a sprig of rosemary and a pinch of salt, these hazelnuts
 # make a fabulous snack or garnish on your favourite meal
 [[food]]
-name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-merlot-molasses-and-rosemary'
+name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-merlot-molasses-rosemary'
 serving-size = '100g'
 protein = 12.9
 carbs = 15.6
@@ -54,7 +54,7 @@ source = 'launceston product label'
 # pinch of salt, these hazelnuts make a fabulous snack or garnish on
 # your favourite meal
 [[food]]
-name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-sweet-and-spicy'
+name = 'a-pinch-of-tasmania-gourmet-activated-hazelnuts-sweet-spicy'
 serving-size = '100g'
 protein = 13
 carbs = 20.4
@@ -952,7 +952,7 @@ source = 'launceston product label'
 # ingredients: australian vegetable medley (98%) [carrot (31%), pumpkin
 # (30%), red onion (25%), zucchini (12%)], garlic (1%), rosemary (0.5%)
 [[food]]
-name = 'coles-kitchen-roasting-vegetables-with-garlic-and-rosemary'
+name = 'coles-kitchen-roasting-vegetables-with-garlic-rosemary'
 serving-size = '100g'
 protein = 1.1
 carbs = 7
@@ -1089,7 +1089,7 @@ source = 'launceston product label'
 # ingredients: oats, coconut, hazelnuts, dates, olive oil, honey,
 # buckwheat, cacao, vanilla, himalayan salt
 [[food]]
-name = 'divine-addictions-cacao-and-coconut-granola-with-hazelnuts-and-dates'
+name = 'divine-addictions-cacao-coconut-granola-with-hazelnuts-dates'
 serving-size = '100g'
 protein = 8.2
 carbs = 43
@@ -1773,7 +1773,7 @@ source = 'launceston product label'
 # keep it cleaner - corn and sweet potato spaghetti
 # ingredients: corn flour (95%), sweet potato powder (5%)
 [[food]]
-name = 'keep-it-cleaner-corn-and-sweet-potato-spaghetti'
+name = 'keep-it-cleaner-corn-sweet-potato-spaghetti'
 serving-size = '100g'
 protein = 5.2
 carbs = 80
@@ -2998,7 +2998,7 @@ source = 'perth product label'
 # (6%), chickpea kibble, thickener (maize starch), peas, herbs and spices
 # [parsley, paprika, turmeric, fenugreek, coriander, cumin, chilli]
 [[food]]
-name = 'natures-kitchen-lentil-and-kale-koftas'
+name = 'natures-kitchen-lentil-kale-koftas'
 serving-size = '100g'
 protein = 7
 carbs = 10.6
@@ -3225,7 +3225,7 @@ source = 'launceston product label'
 # ingredients: australian faba beans (8%), split faba beans (44%),
 # chickpeas (44%), rosemary, sea salt and australian canola oil (4%)
 [[food]]
-name = 'pangkarra-australian-faba-beans-and-chickpeas'
+name = 'pangkarra-australian-faba-beans-chickpeas'
 serving-size = '100g'
 protein = 22.2
 carbs = 54.6
@@ -3406,7 +3406,7 @@ source = 'launceston product label'
 # pepper leaves, lake salt, fennel seeds and orange zest; chemical and
 # spray free, grown in rich organic soil
 [[food]]
-name = 'pure-and-purple-garlic-orange-and-fennel-mix'
+name = 'pure-and-purple-garlic-orange-fennel-mix'
 serving-size = '100g'
 protein = 6.1
 carbs = 22.4
@@ -3546,7 +3546,7 @@ source = 'launceston product label'
 # onion, dill, himalayan pink salt, rosemary extract, vegan probiotic
 # bacillus coagulans gbi 30-6086
 [[food]]
-name = 'pure-snack-probiotic-kale-chips-dill-and-onion'
+name = 'pure-snack-probiotic-kale-chips-dill-onion'
 serving-size = '100g'
 protein = 18.2
 carbs = 20.4
@@ -4123,7 +4123,7 @@ source = 'portland product label'
 # split peas, black bean grits, white quinoa, salt, pink salt, black
 # pepper
 [[food]]
-name = 'trader-joes-corn-pea-bean-and-quinoa-crisps'
+name = 'trader-joes-corn-pea-bean-quinoa-crisps'
 serving-size = '100g'
 protein = 10.6
 carbs = 60
@@ -4512,7 +4512,7 @@ source = 'melbourne product label'
 # tyrosine: 0.5g
 # valine: 0.7g
 [[food]]
-name = 'whole-earth-and-sea-protein-and-greens-chocolate'
+name = 'whole-earth-and-sea-protein-greens-chocolate'
 serving-size = '100g'
 protein = 60.3
 carbs = 27.9
@@ -4591,7 +4591,7 @@ source = 'launceston product label'
 # woolworths - baby leaves & beetroot
 # ingredients: baby leaves (min. 60%), beetroot (min. 15%), carrot
 [[food]]
-name = 'woolworths-baby-leaves-and-beetroot'
+name = 'woolworths-baby-leaves-beetroot'
 serving-size = '100g'
 protein = 2.4
 carbs = 3.9
@@ -4635,7 +4635,7 @@ source = 'launceston product label'
 # woolworths - kale leaf & spinach
 # ingredients: kale (60%), baby spinach (40%)
 [[food]]
-name = 'woolworths-kale-leaf-and-spinach'
+name = 'woolworths-kale-leaf-spinach'
 serving-size = '100g'
 protein = 1.9
 carbs = 5.6
@@ -4648,7 +4648,7 @@ source = 'launceston product label'
 [[food]]
 name = 'woolworths-mixed-rainbow-vegetables'
 serving-size = '100g'
-# macros estimated from coles-kitchen-roasting-vegetables-with-garlic-and-rosemary
+# macros estimated from coles-kitchen-roasting-vegetables-with-garlic-rosemary
 protein = 1.1
 carbs = 7
 fiber = 2.4
