@@ -1817,7 +1817,7 @@ source = 'launceston product label'
 # (5%), sesame seeds, rice bran oil, tamari (from soy), seaweed (0.7%),
 # black sesame seeds, salt
 [[food]]
-name = 'larder-fresh-brown-rice-mushroom-and-seaweed-burger'
+name = 'larder-fresh-brown-rice-mushroom-seaweed-burger'
 serving-size = '100g'
 protein = 4
 carbs = 29.5
