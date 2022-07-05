@@ -1770,6 +1770,53 @@ carbs = 0.6
 fat = 14.3
 source = 'gold coast product label'
 
+# juiced life - cacao protein ball
+# ingredients: rolled oats, pitted dates, almond meal, pea protein,
+# desiccated coconut, coconut oil, natural honey, cacao powder (5.5%),
+# celtic salt
+[[food]]
+name = 'juiced-life-cacao-protein-ball'
+serving-size = '100g'
+protein = 16
+carbs = 41.6
+fat = 25.1
+source = 'gold coast product label'
+
+# juiced life - matcha protein ball
+# ingredients: raw cashew nuts, desiccated coconut, brown rice syrup,
+# coconut oil, pea protein, matcha powder (1%), wheat grass powder,
+# raw crushed pistachio
+[[food]]
+name = 'juiced-life-matcha-protein-ball'
+serving-size = '100g'
+protein = 12.8
+carbs = 23.8
+fat = 46.3
+source = 'gold coast product label'
+
+# juiced life - peanut butter protein ball
+# ingredients: rolled oats, pitted dates, almond meal, pea protein,
+# crushed peanuts, 100% peanut butter (12%), coconut oil, natural honey,
+# cacao powder, celtic salt
+[[food]]
+name = 'juiced-life-peanut-butter-protein-ball'
+serving-size = '100g'
+protein = 22.4
+carbs = 41.5
+fat = 34.6
+source = 'gold coast product label'
+
+# juiced life - vegan choc protein ball
+# ingredients: raw cashew nuts, desiccated coconut, brown rice syrup,
+# cacao powder, coconut oil, pea protein, sesame seeds
+[[food]]
+name = 'juiced-life-vegan-choc-protein-ball'
+serving-size = '100g'
+protein = 13.9
+carbs = 26.2
+fat = 41.3
+source = 'gold coast product label'
+
 # keep it cleaner - chickpea pasta
 # ingredients: chickpea flour (100%)
 [[food]]
@@ -3767,6 +3814,16 @@ fiber = 13.1
 fat = 0.5
 source = 'auckland product label'
 
+# spiral foods - premium roasted cashews - unsalted
+# ingredients: 100% cashew nuts
+[[food]]
+name = 'spiral-foods-premium-roasted-cashews-unsalted'
+serving-size = '100g'
+protein = 18
+carbs = 32
+fat = 47
+source = 'gold coast product label'
+
 # spiral foods - tamari
 # ingredients: whole soybeans, water, sea salt, alcohol (approx: ±1.6%
 # alcohol added as a preservative)
@@ -3925,6 +3982,18 @@ serving-size = '100g'
 protein = 4.4
 carbs = 16.3
 fat = 6.9
+source = 'gold coast product label'
+
+# suzy spoon's vegetarian butcher - seitan fillets
+# ingredients: gluten flour (78%), miso (soybeans, water, rice, salt)
+# (5%), soy sauce, unbleached flour, non-GMO canola oil, nutritional
+# yeast, yeast extract, onion, garlic, pepper
+[[food]]
+name = 'suzy-spoons-vegetarian-butcher-seitan-fillets'
+serving-size = '100g'
+protein = 29.5
+carbs = 8
+fat = 4.6
 source = 'gold coast product label'
 
 # take & eat - organic tempeh - adzuki bean
@@ -4358,6 +4427,42 @@ protein = 1
 carbs = 70.6
 fat = 21.2
 source = 'portland product label'
+
+# uncle harry's vegan grill - mushroom natraburger
+# ingredients: mushrooms (26%), wheat (14%), flour (9%), carrots (9%),
+# sunflower seeds (9%), onions (8%), celery (4%), shallots (2%), vegetable
+# oil (2%), parsley, herbs and spices, sesame oil, water
+[[food]]
+name = 'uncle-harrys-vegan-grill-mushroom-natraburger'
+serving-size = '100g'
+protein = 8.5
+carbs = 30
+fat = 7.1
+source = 'gold coast product label'
+
+# uncle harry's vegan grill - original natraburger
+# ingredients: wheat, carrots, sunflower seeds, celery, onions, barley,
+# parsley, water, herbs and spices and sunflower oil
+[[food]]
+name = 'uncle-harrys-vegan-grill-original-natraburger'
+serving-size = '100g'
+protein = 8.6
+carbs = 33.3
+fiber = 5.3
+fat = 5
+source = 'gold coast product label'
+
+# uncle harry's vegan grill - sweet potato & couscous natraburger
+# ingredients: sweet potato (28%), wheat, carrots, sunflower seeds,
+# celery, onions, couscous (2%), parsley, water, herbs and spices
+[[food]]
+name = 'uncle-harrys-vegan-grill-sweet-potato-couscous-natraburger'
+serving-size = '100g'
+protein = 6.6
+carbs = 32.3
+fiber = 5.3
+fat = 3.7
+source = 'gold coast product label'
 
 # vasse valley - raw hemp protein
 [[food]]
