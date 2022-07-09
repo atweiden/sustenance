@@ -604,6 +604,18 @@ carbs = 3.3
 fat = 6.1
 source = 'melbourne product label'
 
+# blue mountains creamery - cashew cheese - chilli and chive
+# ingredients: organic cashews (95%), organic coconut oil, organic
+# plant-based culture, filtered water, chilli (2%), chives (2%), himalayan
+# pink salt and citric acid
+[[food]]
+name = 'blue-mountains-creamery-cashew-cheese-chilli-and-chive'
+serving-size = '100g'
+protein = 10.7
+carbs = 11.1
+fat = 31.9
+source = 'gold coast product label'
+
 # bragg - sprinkle
 # ingredients: rosemary, onion, garlic, thyme, red bell pepper, carrot,
 # tomato, black pepper, basil, bragg organic extra virgin olive oil,
@@ -1074,6 +1086,18 @@ carbs = 75.4
 fat = 1.8
 source = 'http://www.arrozdecalasparra.com/images/pdf/analisis_nutri.pdf'
 
+# damona - mozzarella - tomato + herbs
+# ingredients: soymilk, coconut oil, tapioca starch, carrageenan, sea
+# salt, sundried tomato, red pepper flakes, herbs, white wine vinegar,
+# lemon juice, vinegar and fermented sugar
+[[food]]
+name = 'damona-mozzarella-tomato-herbs'
+serving-size = '100g'
+protein = 3.5
+carbs = 8.4
+fat = 26.6
+source = 'gold coast product label'
+
 # desert valley date - date coconut rolls
 # ingredients: dates (90%), desiccated coconut (10%)
 [[food]]
@@ -1319,6 +1343,19 @@ carbs = 62.3
 fiber = 6
 fat = 20.6
 source = 'launceston product label'
+
+# fine cultures - macadamia + cashew camembert
+# ingredients: soy milk (filtered water, whole soybeans, sunflower oil,
+# sugar, rice syrup, mineral salts (calcium carbonate), sea salt),
+# coconut oil, water, cashews, macadamia nuts, tapioca starch, agar,
+# nutritional yeast, salt, lemon, coconut sugar, lactic acid, xantham gum
+[[food]]
+name = 'fine-cultures-macadamia-cashew-camembert'
+serving-size = '100g'
+protein = 7.1
+carbs = 17.9
+fat = 42.9
+source = 'gold coast product label'
 
 # forage & feast - crispy dried fruit slices - salted tomato
 # ingredients: tomatoes (99%), salt (1%)
@@ -3243,6 +3280,33 @@ fiber = [ 6.5, 0.79 ]
 fat = 5.7
 source = 'launceston product label'
 
+# nutrisoy - tempeh - mildly spiced
+# ingredients: non-genetically modified soybeans (50%), water, cider
+# vinegar, sea salt, spices, herbs and rhizopus culture
+[[food]]
+name = 'nutrisoy-tempeh-mildly-spiced'
+serving-size = '100g'
+protein = 15
+carbs = 7.1
+# insoluble fiber estimated from tempeh
+fiber = [ 6.6, 0.79 ]
+fat = 5.7
+source = 'gold coast product label'
+
+# nutrisoy - tofu - teriyaki
+# ingredients: non-gmo soybean extract (94%) (water, soybeans), water,
+# soy sauce (wheat), rice wine, sunflower oil, firming agent (magnesium
+# chloride)
+[[food]]
+name = 'nutrisoy-tofu-teriyaki'
+serving-size = '100g'
+protein = 15
+carbs = 14
+# insoluble fiber estimated from firm-tofu
+fiber = [ 7.9, 0.6 ]
+fat = 4
+source = 'gold coast product label'
+
 # pams super foods - amaranth flakes
 [[food]]
 name = 'pams-super-foods-amaranth-flakes'
@@ -3996,6 +4060,18 @@ carbs = 8
 fat = 4.6
 source = 'gold coast product label'
 
+# suzy spoon's vegetarian butcher - shredded seitan
+# ingredients: gluten flour (78%), miso (soybeans, water, rice, salt)
+# (5%), soy sauce, unbleached flour, non-GMO canola oil, nutritional
+# yeast, yeast extract, onion, garlic, pepper
+[[food]]
+name = 'suzy-spoons-vegetarian-butcher-shredded-seitan'
+serving-size = '100g'
+protein = 29.5
+carbs = 8
+fat = 4.6
+source = 'gold coast product label'
+
 # take & eat - organic tempeh - adzuki bean
 # ingredients: certified organic adzuki beans (min 90%), water, vinegar,
 # starter culture (rhizopus oligosporus)
@@ -4094,6 +4170,17 @@ serving-size = '100g'
 protein = 4.6
 carbs = 11
 fat = 2.5
+source = 'gold coast product label'
+
+# taste fine food co - vegetable samosa
+# ingredients: potato, peas, ginger, garlic, chilli powder, spices,
+# salt, curry leaf, plain flour, cumin, canola oil
+[[food]]
+name = 'taste-fine-food-co-spiced-vegetable-samosa'
+serving-size = '100g'
+protein = 5.7
+carbs = 33.2
+fat = 3.8
 source = 'gold coast product label'
 
 # the forager food co - risotto rice - tasmanian asparagus, peas and lemon
