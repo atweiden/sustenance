@@ -10498,6 +10498,8 @@ source = 'http://www.mext.go.jp/component/english/__icsFiles/afieldfile/2017/12/
 [[food]]
 name = 'umibudo-sea-grape'
 aka = [
+  # indonesia
+  'rumput-laut-bulung-buni',
   # the philippines
   'latok-sea-grape',
   '海ぶどう'
