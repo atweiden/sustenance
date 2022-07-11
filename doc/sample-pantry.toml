@@ -3856,7 +3856,7 @@ fat = 14.2
 source = 'launceston product label'
 
 # soyco - hi-protein firm tofu
-# ingredients: non-gmo soybean extrac (99%) [water, soybeans], firming
+# ingredients: non-gmo soybean extract (99%) [water, soybeans], firming
 # agent (magnesium chloride)
 [[food]]
 name = 'soyco-hi-protein-firm-tofu'
