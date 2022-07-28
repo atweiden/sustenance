@@ -1632,6 +1632,30 @@ carbs = 11.2
 fat = 0.5
 source = 'launceston product label'
 
+# harris farm markets - side salad - green tabbouleh
+# ingredients: burgal (45%) [cracked wheat, water], parsley, tomato,
+# cucumber, onion, canola oil, vinegar, lemon juice, garlic, mint,
+# salt, pepper
+[[food]]
+name = 'harris-farm-markets-side-salad-green-tabbouleh'
+serving-size = '100g'
+protein = 1.7
+carbs = 6.7
+fat = 8.4
+source = 'gold coast product label'
+
+# harris farm markets - side salad - roast veg couscous
+# ingredients: couscous (51%) [durum wheat, water], roast vegetables (43%)
+# [pumpkin, carrot, capsicum, onion], dressing (canola oil, lemon juice,
+# vinegar, cumin, paprika, pepitas, turmeric, salt, pepper), parsley
+[[food]]
+name = 'harris-farm-markets-side-salad-roast-veg-couscous'
+serving-size = '100g'
+protein = 3.5
+carbs = 19.7
+fat = 5
+source = 'gold coast product label'
+
 # hart & soul - mediterranean couscous
 # ingredients: precooked durum wheat semolina (88%), tomato (6%), olives
 # (1.7%), garlic (1.5%), zucchini (1%), sesame seeds, herbs (0.4%)
@@ -3077,6 +3101,60 @@ fiber = [ 10.6, 0.84 ]
 fat = 0.6
 source = 'launceston product label'
 
+# natural pulse - vegan sausages - italian sun-dried tomato
+# ingredients: brown rice, organic polenta, organic millet, tomato puree,
+# coconut oil, rice bran oil, sun-dried tomato (3%), green bell pepper,
+# basil, salt, flaxseed meal, pepper, psyllium husk, fenugreek; sausage
+# casing: plant-based natural polysaccharides
+[[food]]
+name = 'natural-pulse-vegan-sausages-italian-sun-dried-tomato'
+serving-size = '100g'
+protein = 2.8
+carbs = 21
+fat = 5.2
+source = 'gold coast product label'
+
+# natural pulse - vegan sausages - mushroom, hemp and sumac
+# ingredients: brown rice, organic polenta, organic millet, mushroom,
+# onion, hulled hemp seeds (4%), coconut oil, sumac (3%), rice bran oil,
+# 7 spice mix, sea salt, paprika, flaxseed, nutritional yeast, psyllium
+# husk; sausage casing: plant-based natural polysaccharides
+[[food]]
+name = 'natural-pulse-vegan-sausages-mushroom-hemp-sumac'
+serving-size = '100g'
+protein = 3.9
+carbs = 20
+fat = 7.3
+source = 'gold coast product label'
+
+# natural pulse - vegan sausages - original umami flavour
+# ingredients: brown rice, millet, polenta, cashew, nutritional yeast,
+# coconut oil, rice bran oil, flax seed, psyllium husk, basil rub,
+# paprika, onion powder, garlic powder, oregano, cayenne pepper, pepper,
+# marjoram, coriander, ginger powder; sausage casing: plant-based natural
+# polysaccharides
+[[food]]
+name = 'natural-pulse-vegan-sausages-original-umami-flavour'
+serving-size = '100g'
+protein = 3.9
+carbs = 24.4
+fat = 8.5
+source = 'gold coast product label'
+
+# natural pulse - vegan sausages - spicy smoked chipotle
+# ingredients: brown rice, organic polenta, organic millet, cashew,
+# coconut oil, rice bran oil, red bell pepper (5%), paprika, smoked
+# paprika, chipotle chilli, salt, nutritional yeast, flaxseed meal,
+# psyllium husk, garlic, chilli flakes, pepper; sausage casing:
+# plant-based natural polysaccharides
+[[food]]
+name = 'natural-pulse-vegan-sausages-spicy-smoked-chipotle'
+serving-size = '100g'
+protein = 3.9
+carbs = 24.4
+fat = 8.5
+source = 'gold coast product label'
+
 # nature's kitchen - curried pumpkin & corn burgers
 # ingredients: pumpkin (39%), carrot, sweetcorn (15%), wheat flour,
 # ground chickpea, curry powder (1%), herbs and spices, wheat fibre
@@ -3291,6 +3369,20 @@ carbs = 7.1
 # insoluble fiber estimated from tempeh
 fiber = [ 6.6, 0.79 ]
 fat = 5.7
+source = 'gold coast product label'
+
+# nutrisoy - tofu - spicy
+# ingredients: non-gmo soybean extract (94%) (water, soybeans), water,
+# soy sauce (wheat), sunflower oil, spices, herbs, firming agent
+# (magnesium chloride)
+[[food]]
+name = 'nutrisoy-tofu-spicy'
+serving-size = '100g'
+protein = 16.3
+carbs = 8.5
+# insoluble fiber estimated from firm-tofu
+fiber = [ 6.3, 0.6 ]
+fat = 5.2
 source = 'gold coast product label'
 
 # nutrisoy - tofu - teriyaki
@@ -3868,6 +3960,34 @@ fiber = [ 4.9, 0.6 ]
 fat = 2.2
 source = 'launceston product label'
 
+# soyco - japanese tofu
+# ingredients: non-gmo soybean extract (98%) [water, soybeans], water,
+# soy sauce, cooking rice wine, sunflower oil and firming agent
+# (magnesium chloride)
+[[food]]
+name = 'soyco-japanese-tofu'
+serving-size = '100g'
+protein = 14.6
+carbs = 6.8
+# insoluble fiber estimated from tofu
+fiber = [ 2.2, 0.75 ]
+fat = 10.2
+source = 'gold coast product label'
+
+# soyco - thai tofu
+# ingredients: non-gmo soybean extract (98%) [water, soybeans], marinade
+# (soy sauce, water, paprika, chilli, black pepper, basil), sunflower
+# oil and firming agent (magnesium chloride)
+[[food]]
+name = 'soyco-thai-tofu'
+serving-size = '100g'
+protein = 16.3
+carbs = 8.5
+# insoluble fiber estimated from tofu
+fiber = [ 6.3, 0.75 ]
+fat = 5.3
+source = 'gold coast product label'
+
 # spiral foods - organic natural vegan oven baked mung bean chips
 [[food]]
 name = 'spiral-foods-baked-mung-bean-chips'
@@ -4032,6 +4152,19 @@ carbs = 6.7
 fiber = 4.3
 fat = 6.1
 source = 'launceston product label'
+
+# super soy - tofu
+# ingredients: non-gmo soybean extract (99%) [water, soybeans], firming
+# agent (magnesium chloride)
+[[food]]
+name = 'super-soy-tofu'
+serving-size = '100g'
+protein = 14.7
+carbs = 6
+# insoluble fiber estimated from firm-tofu
+fiber = [ 4.8, 0.6 ]
+fat = 7.1
+source = 'gold coast product label'
 
 # suzy spoon's vegetarian butcher - sausage - polenta, sun-dried tomato
 # & basil
