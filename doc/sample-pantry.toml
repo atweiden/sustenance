@@ -1064,6 +1064,18 @@ fiber = 8
 fat = 5.8
 source = 'melbourne product label'
 
+# coles - spiced basmati
+# ingredients: cooked basmati rice (98%), sunflower oil, salt, spices
+# (0.05%) [cinnamon, turmeric]
+[[food]]
+name = 'coles-spiced-basmati'
+serving-size = '100g'
+protein = 2.3
+carbs = 30
+fiber = 1.5
+fat = 1.7
+source = 'gold coast product label'
+
 # connect foods - roasted black beans - pink himalayan salt
 # ingredients: roasted black soybean (98%), pink himalayan salt (1.4%),
 # soybean oil
@@ -1096,6 +1108,31 @@ serving-size = '100g'
 protein = 3.5
 carbs = 8.4
 fat = 26.6
+source = 'gold coast product label'
+
+# dari's - hearty chicken soup
+# ingredients: chicken broth (70%) (water, free range chicken bones),
+# free range chicken breast (11%), zucchini, carrot, onion, celery,
+# chicken stock, corn starch, turmeric
+[[food]]
+name = 'daris-hearty-chicken-soup'
+serving-size = '100g'
+protein = 2.6
+carbs = 3.2
+fiber = 0.5
+fat = 0.4
+source = 'gold coast product label'
+
+# dari's - lentil soup
+# ingredients: water, lentils (18%), carrot, onion, lemon juice, salt,
+# vegetable stock, ginger, turmeric, chilli
+[[food]]
+name = 'daris-lentil-soup'
+serving-size = '100g'
+protein = 4.1
+carbs = 13.5
+fiber = 2.9
+fat = 0.5
 source = 'gold coast product label'
 
 # desert valley date - date coconut rolls
@@ -1900,6 +1937,16 @@ carbs = 80
 fiber = 2
 fat = 1.8
 source = 'launceston product label'
+
+# keep it cleaner - fermented cabbage
+# ingredients: cabbage (green and red cabbage (91%)), garlic, carrot, salt
+[[food]]
+name = 'keep-it-cleaner-fermented-cabbage'
+serving-size = '100g'
+protein = 0
+carbs = 6.1
+fat = 0
+source = 'gold coast product label'
 
 # keep it cleaner - green pea pasta
 # ingredients: green pea flour (100%)
@@ -3101,6 +3148,30 @@ fiber = [ 10.6, 0.84 ]
 fat = 0.6
 source = 'launceston product label'
 
+# ocean blue - smoked salmon - sliced
+# ingredients: norwegian atlantic salmon (salmo salar) (97%), sea salt
+# (3%)
+[[food]]
+name = 'ocean-blue-smoked-salmon-sliced'
+serving-size = '100g'
+protein = 21.3
+carbs = 0
+fat = 8.8
+source = 'gold coast product label'
+
+# old el paso - refried beans - mild
+# ingredients: cooked pinto beans (63%), water, sunflower oil, salt,
+# onion powder
+[[food]]
+name = 'old-el-paso-refried-beans-mild'
+serving-size = '100g'
+protein = 5
+carbs = 16.6
+# insoluble fiber estimated from pinto-bean
+fiber = [ 5.6, 0.74 ]
+fat = 1.5
+source = 'gold coast product label'
+
 # natural pulse - vegan sausages - italian sun-dried tomato
 # ingredients: brown rice, organic polenta, organic millet, tomato puree,
 # coconut oil, rice bran oil, sun-dried tomato (3%), green bell pepper,
@@ -3529,6 +3600,49 @@ carbs = 4.3
 fat = 37.4
 source = 'launceston product label'
 
+# pitango - soup - chicken, sweet corn & noodle
+# ingredients: free range chicken stock 68% (water, chicken bones, carrot,
+# onion, herb, spice), vegetables (17%) (corn 6%, celery 6%, onion 4%,
+# garlic), free range chicken (5%), water, noodles (3%) (contains gluten),
+# corn starch, salt, herbs, spices, sunflower oil
+[[food]]
+name = 'pitango-soup-chicken-sweet-corn-noodle'
+serving-size = '100g'
+protein = 2.2
+carbs = 6.7
+fiber = 0.6
+fat = 0.8
+source = 'gold coast product label'
+
+# pitango - soup - chicken & veg
+# ingredients: free range chicken stock (47%) [water, free range chicken
+# bones (20%)], free range chicken (10%), vegetables (30%) (carrot,
+# sweet corn, green peas, onion, sweet potato, water, tapioca starch,
+# garlic, yeast extract, natural stock powder, carrot juice concentrate,
+# onion powder, black pepper
+[[food]]
+name = 'pitango-soup-chicken-veg'
+serving-size = '100g'
+protein = 4.9
+carbs = 6.4
+fat = 5.3
+source = 'gold coast product label'
+
+# pitango - soup - chicken & vegetable
+# ingredients: free range chicken stock 46% (water, chicken bones, carrot,
+# onion, herb, spice), vegetables (45%) (potato 17%, carrot 12%, corn 7%,
+# onion, sweet potato 3%, peas garlic), free range chicken (5%), water,
+# salt, corn starch, white wine, thyme, sweet paprika, sunflower oil,
+# black pepper
+[[food]]
+name = 'pitango-soup-chicken-vegetable'
+serving-size = '100g'
+protein = 2.1
+carbs = 6.8
+fiber = 1.2
+fat = 0.2
+source = 'gold coast product label'
+
 # pomlife - freeze dried pomegranate arils
 [[food]]
 name = 'pomlife-freeze-dried-pomegranate-arils'
@@ -3767,6 +3881,16 @@ protein = 18.2
 carbs = 20.4
 fat = 42
 source = 'launceston product label'
+
+# raw c - rawsome coconut goodness
+# ingredients: 100% pure coconut water
+[[food]]
+name = 'raw-c-rawsome-coconut-goodness'
+serving-size = '100mL'
+protein = 0
+carbs = 5
+fat = 0
+source = 'gold coast product label'
 
 # rawries - instant vegan burger mix - indian curry
 # ingredients: wholegrain millet, wholegrain brown rice flour, linseed,
