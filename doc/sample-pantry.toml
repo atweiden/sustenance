@@ -2838,6 +2838,19 @@ fiber = [ 9.0, 0.93 ]
 fat = 49.5
 source = 'gold coast product label'
 
+# mayver's - peanut butter - super prebiotic
+# ingredients: roasted peanuts (94.2%), inulin (5%) (prebiotic), sea salt,
+# bacillus coagulans (probiotic)
+[[food]]
+name = 'mayvers-peanut-butter-super-prebiotic'
+serving-size = '100g'
+protein = 23.8
+carbs = 25
+# insoluble fiber estimated from roasted-peanut
+fiber = [ 12.0, 0.93 ]
+fat = 46.8
+source = 'gold coast product label'
+
 # mayver's - all natural peanut & cacao spread
 # ingredients: just organic peanuts (95%) & cacao powder (5%)
 [[food]]
@@ -4613,6 +4626,19 @@ carbs = 23
 # insoluble fiber estimated from peanut
 fiber = [ 10.4, 0.95 ]
 fat = 49.9
+source = 'launceston product label'
+
+# thomson's deli - chicken breast supreme
+# ingredients: chicken (81%), water, maize starch, salt, miner salts (451,
+# 508), soy protein, maltodextrin, vegetable gum (407a), dextrose, flavour
+# (soy, flavour enhancers (627, 631)), yeast extract, emulsifier (322)
+# (soy)
+[[food]]
+name = 'thomsons-deli-chicken-breast-supreme'
+serving-size = '100g'
+protein = 18.7
+carbs = 0.5
+fat = 3.9
 source = 'launceston product label'
 
 # trader joe's - california persimmons
