@@ -924,6 +924,19 @@ fiber = 6.4
 fat = 2.4
 source = 'launceston product label'
 
+# coles - cooked rice - seven ancient grains
+# ingredients: cooked grains (98.4%) (medium grain brown rice, green
+# lentils, millet seeds, quinoa, sorghum, amaranth, chia seeds), sunflower
+# oil, salt
+[[food]]
+name = 'coles-cooked-rice-seven-ancient-grains'
+serving-size = '100g'
+protein = 5.1
+carbs = 46.9
+fiber = 3.8
+fat = 1.3
+source = 'gold coast product label'
+
 # coles - certified organic - four bean mix
 # ingredients: organic beans (60%) (butter beans, flageolet beans,
 # chickpeas, red kidney beans), water, salt
@@ -1063,6 +1076,19 @@ carbs = 69.8
 fiber = 8
 fat = 5.8
 source = 'melbourne product label'
+
+# coles - refried beans
+# ingredients: beans (56%) (pinto beans, pink beans), water, jalapenos
+# (2%) (jalapeno pepper, water, salt, citric acid, calcium chloride),
+# tomato paste, salt, jalapenos purée, onion powder, garlic powder
+[[food]]
+name = 'coles-refried-beans'
+serving-size = '100g'
+protein = 6
+carbs = 22.2
+fiber = 4
+fat = 0.5
+source = 'gold coast product label'
 
 # coles - spiced basmati
 # ingredients: cooked basmati rice (98%), sunflower oil, salt, spices
@@ -1392,6 +1418,30 @@ serving-size = '100g'
 protein = 7.1
 carbs = 17.9
 fat = 42.9
+source = 'gold coast product label'
+
+# fine fettle - flats - carrot + pepita
+# ingredients: carrots (67%), pepitas (13%), linseed, sunflower seeds,
+# maple syrup, salt, spices
+[[food]]
+name = 'fine-fettle-flats-carrot-pepita'
+serving-size = '100g'
+protein = 17.9
+carbs = 30.8
+fiber = 14
+fat = 36.4
+source = 'gold coast product label'
+
+# fine fettle - flats - cauliflower + turmeric
+# ingredients: cauliflower (44%), pear, onion, linseed, buckwheat, hemp,
+# water, sesame seeds, salt, lemon juice, turmeric (0.5%), spices
+[[food]]
+name = 'fine-fettle-flats-cauliflower-turmeric'
+serving-size = '100g'
+protein = 20.5
+carbs = 46.8
+fiber = 22
+fat = 30
 source = 'gold coast product label'
 
 # forage & feast - crispy dried fruit slices - salted tomato
@@ -1806,6 +1856,18 @@ fiber = 4.8
 fat = 11.4
 source = 'gold coast product label'
 
+# john west - protein+ - calcium rich tuna
+# ingredients: msc certified purse seine caught skipjack tuna (katsuwonus
+# pelamis) (65%), springwater, tuna bone powder (calcium source) (4%),
+# salt
+[[food]]
+name = 'john-west-proteinplus-calcium-rich-tuna'
+serving-size = '100g'
+protein = 21.8
+carbs = 0.5
+fat = 1
+source = 'gold coast product label'
+
 # john west - wild alaskan pink salmon
 # ingredients: salmon, salt
 [[food]]
@@ -1824,6 +1886,16 @@ serving-size = '100g'
 protein = 23.9
 carbs = 0.6
 fat = 2.1
+source = 'gold coast product label'
+
+# john west - wild caught sardines - in spring water
+# ingredients: sardines (68%), springwater, salt
+[[food]]
+name = 'john-west-wild-caught-sardines-in-spring-water'
+serving-size = '100g'
+protein = 18.5
+carbs = 0.5
+fat = 14.3
 source = 'gold coast product label'
 
 # john west - wild caught smoked kippers - fillets in brine
@@ -4227,6 +4299,17 @@ protein = 8.5
 carbs = 76.7
 fiber = 4.5
 fat = 3.1
+source = 'launceston product label'
+
+# sun rice - cooked rice - brown rice
+# ingredients: cooked organic brown rice (water, organic brown rice)
+[[food]]
+name = 'sun-rice-cooked-rice-brown-rice'
+serving-size = '100g'
+protein = 3.7
+carbs = 36.1
+fiber = 2.4
+fat = 0.5
 source = 'launceston product label'
 
 # sun rice - koshihikari
