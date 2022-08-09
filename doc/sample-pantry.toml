@@ -4013,6 +4013,18 @@ carbs = 56.4
 fat = 4.4
 source = 'launceston product label'
 
+# red tractor - oats - instant - creamy style
+# ingredients: australian wholegrain organic oats (100%)
+[[food]]
+name = 'red-tractor-oats-instant-creamy-style'
+serving-size = '100g'
+protein = 12.4
+carbs = 67.1
+# insoluble fiber estimated from rolled-oats
+fiber = [ 10.3, 0.66 ]
+fat = 8.5
+source = 'gold coast product label'
+
 # red tractor - quick cook quinoa
 # ingredients: pre-cooked quinoa
 [[food]]
