@@ -117,6 +117,16 @@ fiber = 7.1
 fat = 17.9
 source = 'https://www.albinacitynuts.com/shop/toasted-corn-big-bag'
 
+# always fresh - artichoke hearts
+# ingredients: artichokes (61%), water, salt, acidity regulator (330)
+[[food]]
+name = 'always-fresh-artichoke-hearts'
+serving-size = '100g'
+protein = 2.4
+carbs = 3.6
+fat = 0.1
+source = 'gold coast product label'
+
 # amphora - soft-dried plums
 # ingredients: organically grown plums
 [[food]]
@@ -890,6 +900,17 @@ carbs = 84
 fiber = 4
 fat = 1
 source = 'launceston product label'
+
+# clearly premium - smoked ocean trout
+# ingredients: ocean trout (oncorhynchus mykiss) (97%), sea salt (3%),
+# natural wood smoke
+[[food]]
+name = 'clearly-premium-smoked-ocean-trout'
+serving-size = '100g'
+protein = 22.6
+carbs = 0
+fat = 7.2
+source = 'gold coast product label'
 
 # coles - black beans
 # ingredients: black beans (61%), water, salt
@@ -1669,6 +1690,16 @@ fiber = 7
 fat = 15
 source = 'https://griloprotein.com.au/product/organic-cricket-flour/'
 
+# h2 coco - coconut water - pure
+# ingredients: 100% coconut water
+[[food]]
+name = 'h2-coco-coconut-water-pure'
+serving-size = '100g'
+protein = 0
+carbs = 4.8
+fat = 0
+source = 'gold coast product label'
+
 # happy way - all natural protein powder - vegan choc pea flavour
 # ingredients: protein blend (pea protein isolate, rice protein
 # concentrate), cacao, coconut flour, chia seeds, psyllium husk, maca
@@ -2380,6 +2411,43 @@ carbs = 72.6
 fiber = [ 3.5, 0.84 ]
 fat = 3.1
 source = 'launceston product label'
+
+# macro wholefoods market - brown rice - middle eastern style
+# ingredients: water, organic whole grain brown rice (47%), organic
+# extra virgin olive oil, sea salt, organic spices, organic garlic powder
+[[food]]
+name = 'macro-wholefoods-market-brown-rice-middle-eastern-style'
+serving-size = '100g'
+protein = 4.3
+carbs = 36.6
+fiber = 2.6
+fat = 2.7
+source = 'gold coast product label'
+
+# macro wholefoods market - brown rice, quinoa & chia seeds
+# ingredients: water, organic whole grain brown rice (43%), organic
+# garlic powder, organic black chia seeds, organic sunflower oil,
+# organic red quinoa, sea salt
+[[food]]
+name = 'macro-wholefoods-market-brown-rice-quinoa-chia-seeds'
+serving-size = '100g'
+protein = 4.6
+carbs = 38
+fiber = 2.6
+fat = 2.9
+source = 'gold coast product label'
+
+# macro wholefoods market - brown rice & riceberry
+# ingredients: water, organic whole grain brown rice (39%), organic
+# whole grain riceberry (9%), organic sunflower oil
+[[food]]
+name = 'macro-wholefoods-market-brown-rice-riceberry'
+serving-size = '100g'
+protein = 3.7
+carbs = 36.6
+fiber = 2.2
+fat = 1.5
+source = 'gold coast product label'
 
 # macro wholefoods market - bulgur wheat
 # ingredients: bulgur wheat
@@ -3967,6 +4035,16 @@ carbs = 20.4
 fat = 42
 source = 'launceston product label'
 
+# raw c - pure natural coconut water
+# ingredients: 100% pure natural coconut water
+[[food]]
+name = 'raw-c-pure-natural-coconut-water'
+serving-size = '100mL'
+protein = 0
+carbs = 4.1
+fat = 0
+source = 'gold coast product label'
+
 # raw c - rawsome coconut goodness
 # ingredients: 100% pure coconut water
 [[food]]
@@ -4653,6 +4731,54 @@ carbs = 0.5
 fat = 3.9
 source = 'launceston product label'
 
+# tilda - basmati rice - coconut
+# ingredients: natural basmati rice - steamed (89%), coconut cream
+# (7.5%), desiccated coconut (2.3%), sunflower oil, lime leaf
+[[food]]
+name = 'tilda-basmati-rice-coconut'
+serving-size = '100g'
+protein = 3.4
+carbs = 26.7
+fiber = 1.5
+fat = 5
+source = 'gold coast product label'
+
+# tilda - basmati rice - coconut, chilli & lemongrass
+# ingredients: natural basmati rice - steamed (84%), coconut cream (9%),
+# desiccated coconut (2%), sunflower oil, red chilli (0.8%), lemongrass
+# (0.6%), sugar, brown mustard seeds, salt, pepper sauce, black pepper
+[[food]]
+name = 'tilda-basmati-rice-coconut-chilli-lemongrass'
+serving-size = '100g'
+protein = 2.4
+carbs = 22.8
+fiber = 1.4
+fat = 6
+source = 'gold coast product label'
+
+# tilda - basmati rice - pure
+# ingredients: natural basmati rice - steamed (98%), rice bran oil
+[[food]]
+name = 'tilda-basmati-rice-pure'
+serving-size = '100g'
+protein = 2.9
+carbs = 28.9
+fiber = 0.7
+fat = 1.9
+source = 'gold coast product label'
+
+# tilda - basmati rice - wholegrain
+# ingredients: natural wholegrain basmati rice - steamed (98%), rice
+# bran oil, acacia fibre
+[[food]]
+name = 'tilda-basmati-rice-wholegrain'
+serving-size = '100g'
+protein = 2.8
+carbs = 26.3
+fiber = 3
+fat = 2.1
+source = 'gold coast product label'
+
 # trader joe's - california persimmons
 # ingredients: persimmons
 [[food]]
@@ -5192,6 +5318,18 @@ fiber = 1.8
 fat = 0.5
 source = 'launceston product label'
 
+# woolworths - carrot & zucchini spaghetti
+# ingredients: carrot (50%), zucchini (50%)
+[[food]]
+name = 'woolworths-carrot-zucchini-spaghetti'
+serving-size = '100g'
+# macros estimated from 50/50 mix of carrot and zucchini
+protein = 1.6
+carbs = 6.2
+fiber = [ 2.6, 0.68 ]
+fat = 0.2
+source = 'gold coast product label'
+
 # woolworths - four seasons coleslaw - white cabbage, red cabbage,
 # ingredients: carrot, celery, spring onion & corn
 [[food]]
@@ -5236,6 +5374,16 @@ carbs = 7
 fiber = 2.4
 fat = 0.2
 source = 'launceston product label'
+
+# woolworths - 100% pure coconut water
+# ingredients: 100% coconut water
+[[food]]
+name = 'woolworths-pure-coconut-water'
+serving-size = '100g'
+protein = 0
+carbs = 3.6
+fat = 0
+source = 'gold coast product label'
 
 # woolworths - roast mixed vegetables - garlic & rosemary
 # ingredients: sweet potato, potato, carrot, red onion, garlic (1%),
@@ -5293,6 +5441,19 @@ protein = 6.5
 carbs = 11.9
 fat = 21.5
 source = 'launceston product label'
+
+# yumi's - veggie minis - roasted veggies & oregano
+# ingredients: vegetables (58%) (sweet potato, pumpkin, green pea,
+# spinach, onion, dried potato, garlic), chickpea, canola oil, yeast
+# extract, salt, pepper, oregano (0.1%)
+[[food]]
+name = 'yumis-veggie-minis-roasted-veggies-oregano'
+serving-size = '100g'
+protein = 7.7
+carbs = 26.4
+fiber = 6.6
+fat = 9
+source = 'gold coast product label'
 
 # yummy karma - broccoli & brown rice bites
 # ingredients: broccoli (53%), brown rice (20%), mixed vegetables,
