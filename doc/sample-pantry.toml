@@ -1649,6 +1649,21 @@ fiber = 9.2
 fat = 0.9
 source = 'launceston product label'
 
+# fruit wise - fruit straps - five flavours
+# ingredients: apple & apricot - apple (79%), apricot (21%); apple &
+# cherry - apple (85%), cherry (15%); apple, mango & passionfruit -
+# apple (91%), mango (5%), passionfruit (4%); apple & strawberry - apple
+# (86%), strawberry (14%); apple & tropical - apple (94%), tropical blend
+# (pineapple (3%), passionfruit (1%), banana (1%), guava (1%), mango (1%))
+[[food]]
+name = 'fruit-wise-fruit-straps-five-flavours'
+serving-size = '100g'
+protein = 1.6
+carbs = 80.6
+fiber = 8.6
+fat = 0.1
+source = 'gold coast product label'
+
 # gimme organic - premium roasted seaweed - sea salt
 [[food]]
 name = 'gimme-organic-premium-roasted-seaweed-sea-salt'
@@ -2512,7 +2527,7 @@ source = 'launceston product label'
 name = 'macro-wholefoods-market-cheeky-chickpeas'
 serving-size = '100g'
 protein = 21.2
-carbs = 58.0
+carbs = 58
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 18.3, 0.83 ]
 fat = 15.9
@@ -3154,7 +3169,7 @@ source = 'launceston product label'
 name = 'mindful-foods-birchia-paleo-prebiotic'
 serving-size = '100g'
 protein = 12.9
-carbs = 63.0
+carbs = 63
 fiber = 13.8
 fat = 20.4
 source = 'launceston product label'
@@ -4103,6 +4118,18 @@ fiber = [ 10.3, 0.66 ]
 fat = 8.5
 source = 'gold coast product label'
 
+# red tractor - paleo protein - raw superfood mix
+# ingredients: flaxseed brown, kibbled sunflower seeds, natural diced
+# almonds, golden flax crumble, chia seeds, pumpkin seeds, sesame seeds
+[[food]]
+name = 'red-tractor-paleo-protein-raw-superfood-mix'
+serving-size = '100g'
+protein = 25.5
+carbs = 33.5
+fiber = 26.2
+fat = 31.2
+source = 'gold coast product label'
+
 # red tractor - quick cook quinoa
 # ingredients: pre-cooked quinoa
 [[food]]
@@ -4425,6 +4452,29 @@ carbs = 79.6
 fat = 0.3
 source = 'launceston product label'
 
+# sun valley - 100% true fruit - plum & apple
+# ingredients: 100% dried fruit puree (plum, apple)
+[[food]]
+name = 'sun-valley-true-fruit-plum-apple'
+serving-size = '100g'
+protein = 2.1
+carbs = 90.7
+fiber = 13.9
+fat = 0.1
+source = 'gold coast product label'
+
+# sun valley - 100% true fruit - tropical fruit salad
+# ingredients: 100% dried fruit puree (apple, pineapple, banana, mango,
+# passionfruit)
+[[food]]
+name = 'sun-valley-true-fruit-tropical-fruit-salad'
+serving-size = '100g'
+protein = 1.7
+carbs = 95.3
+fiber = 13.1
+fat = 0.1
+source = 'gold coast product label'
+
 # sunfed - boar-free bacon
 # ingredients: water, pea protein (35%), cold pressed extra virgin olive
 # oil, yeast extract, pea fibre, hickory liquid smoke (2%), smoked salt
@@ -4626,6 +4676,42 @@ carbs = 33.2
 fat = 3.8
 source = 'gold coast product label'
 
+# tasti - smooshed wholefood balls - cacao brownie
+# ingredients: dates, cashews, cacao (8%), coconut, a hint of natural
+# flavour
+[[food]]
+name = 'tasti-smooshed-wholefood-balls-cacao-brownie'
+serving-size = '100g'
+protein = 10
+carbs = 61.1
+fiber = 6.5
+fat = 17.6
+source = 'gold coast product label'
+
+# tasti - smooshed wholefood balls - peanut butter & caramel
+# ingredients: dates, peanuts (44%), coconut, sea salt, a hint of
+# natural flavour
+[[food]]
+name = 'tasti-smooshed-wholefood-balls-peanut-butter-caramel'
+serving-size = '100g'
+protein = 16.3
+carbs = 53
+fiber = 8.6
+fat = 22.4
+source = 'gold coast product label'
+
+# tasti - smooshed wholefood balls - salted caramel
+# ingredients: dates, peanuts, almonds, coconut, a hint of natural
+# caramel flavour, salt
+[[food]]
+name = 'tasti-smooshed-wholefood-balls-salted-caramel'
+serving-size = '100g'
+protein = 10
+carbs = 61.1
+fiber = 6.5
+fat = 17.6
+source = 'gold coast product label'
+
 # the forager food co - risotto rice - tasmanian asparagus, peas and lemon
 # ingredients: spanish arborio rice, tasmanian peas (5%), asparagus
 # (4%), lemon (<1%)
@@ -4777,6 +4863,30 @@ protein = 2.8
 carbs = 26.3
 fiber = 3
 fat = 2.1
+source = 'gold coast product label'
+
+# tom & luke - snackaballs - peanut butter & cacao
+# ingredients: dates (52%), peanuts (32%), cacao powder (7%), peanut
+# butter (5%), desiccated coconut, sea salt (<1%)
+[[food]]
+name = 'tom-and-luke-snackaballs-peanut-butter-cacao'
+serving-size = '100g'
+protein = 12.5
+carbs = 52.8
+fiber = 6.8
+fat = 23.3
+source = 'gold coast product label'
+
+# tom & luke - snackaballs - salted caramel
+# ingredients: dates (53%), cashew nuts (25%), pea protein, desiccated
+# coconut, raisins (4%), natural caramel flavour (1%), sea salt (1%)
+[[food]]
+name = 'tom-and-luke-snackaballs-salted-caramel'
+serving-size = '100g'
+protein = 12.5
+carbs = 52.8
+fiber = 6.8
+fat = 23.3
 source = 'gold coast product label'
 
 # trader joe's - california persimmons
@@ -8384,7 +8494,7 @@ source = 'https://fdc.nal.usda.gov/fdc-app.html#/food-details/172437/nutrients'
 name = 'yellow-split-pea'
 serving-size = '100g'
 protein = 8.4
-carbs = 25.0
+carbs = 25
 # insoluble fiber estimated from prebiotin [3]
 fiber = [ 6.4, 0.87 ]
 fat = 0.6
