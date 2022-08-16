@@ -1318,6 +1318,17 @@ carbs = 72
 fat = 2.7
 source = 'launceston product label'
 
+# ever green - hard tofu - firm
+# ingredients: soya bean extract (soybeans, water), calcium sulphate (516)
+[[food]]
+name = 'ever-green-hard-tofu-firm'
+serving-size = '100g'
+protein = 15
+carbs = 5.4
+fiber = 4.4
+fat = 6.4
+source = 'gold coast product label'
+
 # ezekiel 4:9 - seven sprouted grains english muffins
 # ingredients: organic sprouted wheat, filtered water, organic malted
 # barley, organic sprouted rye, organic sprouted barley, organic sprouted
