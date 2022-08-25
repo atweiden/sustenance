@@ -2510,6 +2510,17 @@ fiber = [ 21.1, 0.83 ]
 fat = 49.9
 source = 'perth product label'
 
+# macro wholefoods market - cacao powder
+# ingredients: organic cacao powder
+[[food]]
+name = 'macro-wholefoods-market-cacao-powder'
+serving-size = '100g'
+protein = 25.4
+carbs = 50.9
+fiber = 26.7
+fat = 14.6
+source = 'gold coast product label'
+
 # macro wholefoods market - cannellini beans
 # ingredients: organic cannellini beans (60%), water
 [[food]]
@@ -5419,6 +5430,20 @@ fiber = 4.1
 fat = 5.6
 source = 'launceston product label'
 
+# wildly good - sweetcorn fritter bites - with baby peas & spring onion
+# ingredients: sweetcorn (27%), reconstituted potatoes, reconstituted
+# polenta, green peas (5%), carrots, chickpea flour, kale, canola oil,
+# spring onion (2.5%), lemon juice, ginger, maize starch, citrus fibre,
+# garlic, salt, cumin, turmeric, black pepper, rosemary extract
+[[food]]
+name = 'wildly-good-sweetcorn-fritter-bites'
+serving-size = '100g'
+protein = 4.8
+carbs = 33.1
+fiber = 5
+fat = 8.3
+source = 'gold coast product label'
+
 # woolworths - arborio risotto rice
 # ingredients: arborio rice
 [[food]]
@@ -5564,6 +5589,18 @@ carbs = 11.9
 fat = 21.5
 source = 'launceston product label'
 
+# yumi's - falafel - classic - v2
+# ingredients: chickpeas (56%), water, canola oil, dehydrated potatoes,
+# cumin (2%), garlic (1.5%), salt, parsley (1%), mineral salt (sodium
+# bicarbonate), turmeric, pepper
+[[food]]
+name = 'yumis-falafel-classic-v2'
+serving-size = '100g'
+protein = 6.3
+carbs = 29.9
+fat = 13.1
+source = 'gold coast product label'
+
 # yumi's - falafel - sesame
 # ingredients: chickpeas (65%), vegetable oil, sesame seeds (7%),
 # onions, cumin, garlic, parsley flakes (1%), salt, raising agent
@@ -5575,6 +5612,18 @@ protein = 6.5
 carbs = 11.9
 fat = 21.5
 source = 'launceston product label'
+
+# yumi's - falafel - sesame - v2
+# ingredients: chickpeas (51%), water, canola oil, onion (9%), sesame
+# seeds (8%), dehydrated potatoes, cumin, garlic (1%), salt, parsley
+# (1%), mineral salt (sodium bicarbonate), turmeric, pepper
+[[food]]
+name = 'yumis-falafel-sesame-v2'
+serving-size = '100g'
+protein = 8.4
+carbs = 29.1
+fat = 16.3
+source = 'gold coast product label'
 
 # yumi's - veggie minis - roasted veggies & oregano
 # ingredients: vegetables (58%) (sweet potato, pumpkin, green pea,
