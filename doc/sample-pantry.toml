@@ -2918,6 +2918,17 @@ fiber = [ 7.9, 0.93 ]
 fat = 49.3
 source = 'launceston product label'
 
+# mayver's - peanut butter - manuka
+# ingredients: roasted peanuts, manuka honey (7%), peanut oil, sea salt
+[[food]]
+name = 'mayvers-peanut-butter-manuka'
+serving-size = '100g'
+protein = 22.7
+carbs = 25.1
+fiber = 7.2
+fat = 44.8
+source = 'gold coast product label'
+
 # mayver's - peanut butter - skin on
 # ingredients: skin on roasted peanuts (99.3%) & sea salt
 [[food]]
@@ -5623,6 +5634,30 @@ serving-size = '100g'
 protein = 8.4
 carbs = 29.1
 fat = 16.3
+source = 'gold coast product label'
+
+# yumi's - veggie bites - pumpkin & spinach
+# ingredients: pumpkin (35%), chickpeas, sweet potato, canola oil, besan
+# flour, spinch (5%), potato starch, onion, garlic, salt, yeast extract,
+# parsley, curry powder, vegetable gum (460, 466), pepper, oregano (0.1%)
+[[food]]
+name = 'yumis-veggie-bites-pumpkin-spinach'
+serving-size = '100g'
+protein = 6.6
+carbs = 28.4
+fat = 6.4
+source = 'gold coast product label'
+
+# yumi's - veggie bites - roasted veggies & peas
+# ingredients: chickpeas, sweet potato (17%), besan flour, pumpkin (13%),
+# canola oil, peas (10%), spinach (8%), onion (4.5%), garlic, yeast
+# extract, salt, pepper, oregano (0.1%)
+[[food]]
+name = 'yumis-veggie-bites-roasted-veggies-peas'
+serving-size = '100g'
+protein = 7.9
+carbs = 26.3
+fat = 9.1
 source = 'gold coast product label'
 
 # yumi's - veggie minis - roasted veggies & oregano
