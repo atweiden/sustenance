@@ -912,6 +912,28 @@ carbs = 0
 fat = 7.2
 source = 'gold coast product label'
 
+# clive of india - curry powder - authentic
+# ingredients: coriander, turmeric, fennel, black pepper, cumin, chilli
+# powder, fenugreek, garlic, ginger, salt
+[[food]]
+name = 'clive-of-india-curry-powder-authentic'
+serving-size = '100g'
+protein = 0
+carbs = 0
+fat = 0
+source = 'gold coast product label'
+
+# clive of india - curry powder - hot
+# ingredients: coriander, turmeric, chilli pepper, cumin, fennel, garlic,
+# fenugreek, salt, clove, cinnamon, ginger, cardamon, nutmeg
+[[food]]
+name = 'clive-of-india-curry-powder-hot'
+serving-size = '100g'
+protein = 0
+carbs = 0
+fat = 0
+source = 'gold coast product label'
+
 # coles - black beans
 # ingredients: black beans (61%), water, salt
 [[food]]
@@ -5634,6 +5656,20 @@ serving-size = '100g'
 protein = 8.4
 carbs = 29.1
 fat = 16.3
+source = 'gold coast product label'
+
+# yumi's - fritters - thai spiced
+# ingredients: pumpkin (35%), sweet potato, chickpea (22%), dried potato,
+# red capsicum (6%), onion, canola oil, garlic, chilli, spring onion,
+# salt, lemongrass (0.5%), coriander (0.5%), ginger, turmeric, lime
+# leaf, pepper
+[[food]]
+name = 'yumis-fritters-thai-spiced'
+serving-size = '100g'
+protein = 6.3
+carbs = 26.6
+fiber = 5.5
+fat = 1.6
 source = 'gold coast product label'
 
 # yumi's - veggie bites - pumpkin & spinach
