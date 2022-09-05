@@ -3479,7 +3479,7 @@ source = 'gold coast product label'
 # (6%), chickpea kibble, thickener (maize starch), peas, herbs and spices
 # [parsley, paprika, turmeric, fenugreek, coriander, cumin, chilli]
 [[food]]
-name = 'natures-kitchen-lentil-kale-koftas-v2'
+name = 'natures-kitchen-lentil-kale-koftas-spiced'
 serving-size = '100g'
 protein = 7
 carbs = 31.8
