@@ -1098,6 +1098,18 @@ fiber = [ 8.2, 0.95 ]
 fat = 47.1
 source = 'launceston product label'
 
+# coles - peanuts - unsalted - australian
+# ingredients: peanuts (98%), peanut oil
+[[food]]
+name = 'coles-peanuts-unsalted-australian'
+serving-size = '100g'
+protein = 31.2
+carbs = 12.9
+# insoluble fiber estimated from peanut
+fiber = [ 7.8, 0.95 ]
+fat = 51.3
+source = 'gold coast product label'
+
 # coles - pink salmon
 # ingredients: wild pink salmon (99%), salt - pink salmon (oncorhynchus
 # gorbuscha) wild caught in the north eastern pacific ocean (fao area 67)
