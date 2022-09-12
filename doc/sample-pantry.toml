@@ -506,6 +506,32 @@ carbs = 11.4
 fat = 49
 source = 'launceston product label'
 
+# ben's original - beans, garlic and brown rice
+# ingredients: steamed brown rice (82%), beans (11%), onion, vegetable
+# oil, garlic (1.5%), flavour, salt, processing aid (contains soy), pepper
+[[food]]
+name = 'bens-original-beans-garlic-brown-rice'
+serving-size = '100g'
+protein = 3.5
+carbs = 31.3
+fiber = 2.3
+fat = 2.6
+source = 'gold coast product label'
+
+# ben's original - lentils, turmeric and brown rice
+# ingredients: steamed brown rice (77%), green lentils (11%), onion,
+# lemon juice (from concentrate), vegetable oil, garlic, flavour, salt,
+# pepper, turmeric (0.2%), processing aid (contains soy), cardamom,
+# colour (turmeric oleoresin)
+[[food]]
+name = 'bens-original-lentils-turmeric-brown-rice'
+serving-size = '100g'
+protein = 3.8
+carbs = 31.2
+fiber = 2.5
+fat = 2
+source = 'gold coast product label'
+
 # beyond meat - beyond burger
 # ingredients: water, pea protein (17%), expeller-pressed canola oil,
 # refined coconut oil, rice protein, natural flavours, dried yeast,
@@ -4231,6 +4257,19 @@ carbs = 91.5
 fiber = 9.3
 fat = 4.2
 source = 'launceston product label'
+
+# riviana - coconut basmati rice
+# ingredients: cooked basmati rice (88%) (basmati rice, water), water,
+# coconut (4.8%) (coconut paste, coconut milk), sunflower oil, salt,
+# coconut flavour
+[[food]]
+name = 'riviana-coconut-basmati-rice'
+serving-size = '100g'
+protein = 3.7
+carbs = 33
+fiber = 1.5
+fat = 3.2
+source = 'gold coast product label'
 
 # sabaton - whole chestnuts
 # ingredients: chestnuts, water
