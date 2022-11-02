@@ -1101,6 +1101,17 @@ fiber = 2.4
 fat = 0.1
 source = 'launceston product label'
 
+# coles - lentils
+# ingredients: lentils (60%), water, salt
+[[food]]
+name = 'coles-lentils'
+serving-size = '100g'
+protein = 7.7
+carbs = 17.7
+fiber = 4.6
+fat = 0.5
+source = 'gold coast product label'
+
 # coles - pea protein
 # ingredients: pea protein
 [[food]]
