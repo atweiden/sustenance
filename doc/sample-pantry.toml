@@ -506,6 +506,27 @@ carbs = 11.4
 fat = 49
 source = 'launceston product label'
 
+# ben's original - brown, red and wild rice medley
+# ingredients: steamed brown rice (76%), steamed red rice (11%), steamed
+# wild rice (11%), vegetable oil
+[[food]]
+name = 'bens-original-brown-red-wild-rice-medley'
+serving-size = '100g'
+protein = 3.2
+carbs = 28.9
+fat = 2
+source = 'gold coast product label'
+
+# ben's original - brown rice
+# ingredients: steamed brown rice (98%), vegetable oil
+[[food]]
+name = 'bens-original-brown-rice'
+serving-size = '100g'
+protein = 2.7
+carbs = 28.5
+fat = 2
+source = 'gold coast product label'
+
 # ben's original - beans, garlic and brown rice
 # ingredients: steamed brown rice (82%), beans (11%), onion, vegetable
 # oil, garlic (1.5%), flavour, salt, processing aid (contains soy), pepper
@@ -4933,6 +4954,19 @@ carbs = 23
 fiber = [ 10.4, 0.95 ]
 fat = 49.9
 source = 'launceston product label'
+
+# the spice tailor - classic lentil tarka daal
+# ingredients: cooked lentils (44%) (water, lentils (bengal gram, red
+# lentil)), water, onions, sunflower oil, garlic, tomato paste, salt,
+# ground and whole spices, ginger, cumin, mustard seeds
+[[food]]
+name = 'the-spice-tailor-classic-lentil-tarka-daal'
+serving-size = '100g'
+protein = 5.4
+carbs = 18
+fiber = 3.6
+fat = 3.1
+source = 'gold coast product label'
 
 # thomson's deli - chicken breast supreme
 # ingredients: chicken (81%), water, maize starch, salt, miner salts (451,
