@@ -797,6 +797,62 @@ carbs = 9.6
 fat = 54
 source = 'gold coast product label'
 
+# celebrate health - asian style soybean and grains
+# ingredients: water, grains (25%) (brown rice, red sorghum), soybeans
+# (10%), vegetable (food acid (acetic acid)), soy sauce, apple juice
+# concentrate, miso paste (soy), sesame seeds, chia seeds, dehydrated
+# garlic, spices, corn starch, vegetable fibre
+[[food]]
+name = 'celebrate-health-asian-style-soybean-grains'
+serving-size = '100g'
+protein = 5.7
+carbs = 27.1
+fiber = 2.9
+fat = 4.2
+source = 'gold coast product label'
+
+# celebrate health - indian style ancient grains and turmeric
+# ingredients: water, ancient grains (18%) (brown rice, red sorghum),
+# chickpeas, coconut milk (coconut extract, water, food acid (citric
+# acid)), desiccated coconut, lentils, himalayan pink salt, spices
+# (turmeric (0.1%)), corn starch, vegetable powders, vegetable fibre,
+# vegetable oil
+[[food]]
+name = 'celebrate-health-indian-style-ancient-grains-turmeric'
+serving-size = '100g'
+protein = 4.5
+carbs = 22.5
+fiber = 4
+fat = 6.4
+source = 'gold coast product label'
+
+# celebrate health - mexican style black rice and red beans
+# ingredients: tomato, grains (black rice (10%), corn, quinoa), water,
+# red beans (10%), vegetable (food acid (acetic acid)), herbs and spices,
+# pink himalayan salt, dehydrated garlic, corn starch, garlic powder,
+# vegetable oil, oregano extract
+[[food]]
+name = 'celebrate-health-mexican-style-black-rice-red-beans'
+serving-size = '100g'
+protein = 3.4
+carbs = 18.7
+fiber = 3.8
+fat = 0.8
+source = 'gold coast product label'
+
+# celebrate health - tuscan style italian beans and tomato
+# ingredients: beans (40%) (cannellini, borlotti), tomato (40%), lentils,
+# water, fire-roasted capsicum, pink himalayan salt, vegetable powders,
+# basil
+[[food]]
+name = 'celebrate-health-tuscan-style-italian-beans-tomato'
+serving-size = '100g'
+protein = 7
+carbs = 22.7
+fiber = 7.6
+fat = 0.5
+source = 'gold coast product label'
+
 # ceres organics - adzuki beans
 # ingredients: certified organic black beans (60%), water
 [[food]]
