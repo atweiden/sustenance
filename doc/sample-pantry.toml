@@ -138,6 +138,62 @@ fiber = 7.5
 fat = 0
 source = 'portland product label'
 
+# amy's kitchen - indian golden lentil soup
+# ingredients: water, vegetables (organic carrots, organic tomato purée,
+# shallots, organic garlic) (13%), organic yellow split peas (6%), organic
+# red lentils (5%), organic olive oil, organic ginger purée (water,
+# organic ginger), sea salt, organic spices, organic turmeric, organic
+# black pepper
+[[food]]
+name = 'amys-kitchen-indian-golden-lentil-soup'
+serving-size = '100g'
+protein = 3.2
+carbs = 9.1
+fat = 3.9
+source = 'gold coast product label'
+
+# amy's kitchen - lentil soup
+# ingredients: water, organic vegetables (organic celery, organic carrots,
+# organic onions, organic potatoes) (23%), organic green lentils (11%),
+# organic olive oil, sea salt, bay leaves
+[[food]]
+name = 'amys-kitchen-lentil-soup'
+serving-size = '100g'
+protein = 3
+carbs = 9.7
+fat = 2.4
+source = 'gold coast product label'
+
+# amy's kitchen - lentil vegetable soup
+# ingredients: organic vegetables (organic onions, organic carrots,
+# organic celery, organic potatoes, organic spinach, organic green beans,
+# organic diced tomatoes, organic garlic) (49%), water, organic green
+# lentils (8%), organic olive oil, sea salt, organic balsamic vinegar
+# (organic wine vinegar, organic grape must), organic black pepper,
+# organic spices, bay leaves
+[[food]]
+name = 'amys-kitchen-lentil-vegetable-soup'
+serving-size = '100g'
+protein = 2.6
+carbs = 10
+fat = 1.6
+source = 'gold coast product label'
+
+# amy's kitchen - quinoa, kale and red lentil soup
+# ingredients: water, organic vegetables (organic onions, organic tomato
+# purée (organic tomatoes, salt), organic kale, organic green onions,
+# organic garlic, organic jalapeño peppers) (25%), organic quinoa (4%),
+# organic red lentils (3%), organic olive oil, organic coriander, sea
+# salt, organic ginger purée (water, organic ginger), organic turmeric,
+# organic black pepper
+[[food]]
+name = 'amys-kitchen-quinoa-kale-red-lentil-soup'
+serving-size = '100g'
+protein = 1.7
+carbs = 7.4
+fat = 2.2
+source = 'gold coast product label'
+
 # annalisa - black beans
 # ingredients: organic black beans, water, salt
 [[food]]
@@ -5022,6 +5078,19 @@ protein = 5.4
 carbs = 18
 fiber = 3.6
 fat = 3.1
+source = 'gold coast product label'
+
+# the spice tailor - spicy tarka lentil daal
+# ingredients: cooked lentils (50%) (water, lentils (pigeon pea, mung
+# lentil)), water, onions, sunflower oil, tomato paste, garlic, ginger,
+# spices, salt, cumin, green chilli, mustard seeds, turmeric
+[[food]]
+name = 'the-spice-tailor-spicy-tarka-lentil-daal'
+serving-size = '100g'
+protein = 6.3
+carbs = 19.5
+fiber = 3.2
+fat = 6.5
 source = 'gold coast product label'
 
 # thomson's deli - chicken breast supreme
