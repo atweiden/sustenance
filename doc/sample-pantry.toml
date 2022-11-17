@@ -4683,6 +4683,17 @@ fiber = [ 7.9, 0.88 ]
 fat = 0.4
 source = 'portland product label'
 
+# sunbeam - australian sunmuscat sultanas
+# ingredients: australian sunmuscat sultanas (100%)
+[[food]]
+name = 'sunbeam-australian-sunmuscat-sultanas'
+serving-size = '100g'
+protein = 2.6
+carbs = 64.1
+fiber = 3.3
+fat = 0.3
+source = 'gold coast product label'
+
 # sun rice - black rice
 # ingredients: black rice
 [[food]]
