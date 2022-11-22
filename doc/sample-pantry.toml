@@ -179,6 +179,21 @@ carbs = 10
 fat = 1.6
 source = 'gold coast product label'
 
+# amy's kitchen - minestrone soup
+# ingredients: water, organic vegetables (organic diced tomatoes, organic
+# onions, organic carrots, organic potatoes, organic celery, organic green
+# beans, organic peas, organic leeks, organic garlic) (49%), organic
+# kidney beans (5%), organic pasta (organic durum wheat semolina flour,
+# water) (2%), sea salt, organic high oleic safflower and/or sunflower
+# oil, organic spices, organic basil, organic black pepper
+[[food]]
+name = 'amys-kitchen-minestrone-soup'
+serving-size = '100g'
+protein = 1.5
+carbs = 7.5
+fat = 1.3
+source = 'gold coast product label'
+
 # amy's kitchen - quinoa, kale and red lentil soup
 # ingredients: water, organic vegetables (organic onions, organic tomato
 # purée (organic tomatoes, salt), organic kale, organic green onions,
@@ -192,6 +207,18 @@ serving-size = '100g'
 protein = 1.7
 carbs = 7.4
 fat = 2.2
+source = 'gold coast product label'
+
+# amy's kitchen - split pea soup
+# ingredients: water, organic vegetables (organic onions, organic celery,
+# organic carrots, organic garlic) (21%), organic green split peas (10%),
+# sea salt, organic basil, bay leaves, organic black pepper
+[[food]]
+name = 'amys-kitchen-split-pea-soup'
+serving-size = '100g'
+protein = 2.9
+carbs = 8.3
+fat = 0.4
 source = 'gold coast product label'
 
 # annalisa - black beans
@@ -5091,6 +5118,19 @@ fiber = 3.6
 fat = 3.1
 source = 'gold coast product label'
 
+# the spice tailor - punjabi chickpea masala
+# ingredients: cooked chickpeas (34%) (chickpea, water), water, onions,
+# sunflower oil, tomato paste, ginger, salt, ground and whole spices,
+# garlic, coriander powder, cumin, pomegranate seeds
+[[food]]
+name = 'the-spice-tailor-punjabi-chickpea-masala'
+serving-size = '100g'
+protein = 4.1
+carbs = 19.1
+fiber = 4.4
+fat = 4.6
+source = 'gold coast product label'
+
 # the spice tailor - spicy tarka lentil daal
 # ingredients: cooked lentils (50%) (water, lentils (pigeon pea, mung
 # lentil)), water, onions, sunflower oil, tomato paste, garlic, ginger,
@@ -5142,6 +5182,24 @@ fiber = 1.4
 fat = 6
 source = 'gold coast product label'
 
+# tilda - basmati rice - peri peri
+# ingredients: natural basmati rice - steamed (74%), onions, red
+# peppers (4%), green peppers (4%), sunflower oil, tomato paste (1.5%),
+# white wine vinegar, peri peri sauce (0.9%) (water, vinegar, rapeseed
+# oil, bird's eye chilli powder (<0.1%), salt, cornflour, onion powder,
+# lemon juice (<0.1%), paprika), red chilli (0.8%), lemon zest (0.6%),
+# vegetable stock powder (rice flour, salt, onions, parsnips, carrots,
+# olive oil, turmeric, parsley), garlic (0.4%), smoked paprika (0.3%),
+# salt, oregano (0.2%), parsley, turmeric
+[[food]]
+name = 'tilda-basmati-rice-peri-peri'
+serving-size = '100g'
+protein = 2.5
+carbs = 25.3
+fiber = 1.8
+fat = 2.5
+source = 'gold coast product label'
+
 # tilda - basmati rice - pure
 # ingredients: natural basmati rice - steamed (98%), rice bran oil
 [[food]]
@@ -5163,6 +5221,21 @@ protein = 2.8
 carbs = 26.3
 fiber = 3
 fat = 2.1
+source = 'gold coast product label'
+
+# tilda - rice - wholegrain - hot jalapeño
+# ingredients: natural wholegrain long grain rice - steamed (77%),
+# onions, jalapeños (4.8%), green peppers, sunflower oil, acacia fibre,
+# vegetable stock powder (rice flour, salt, onions, parsnips, carrots,
+# olive oil, turmeric, parsley), coriander, lime juice (0.8%), garlic,
+# lime zest (0.3%), salt, natural flavouring
+[[food]]
+name = 'tilda-rice-wholegrain-hot-jalapeño'
+serving-size = '100g'
+protein = 2.1
+carbs = 22.2
+fiber = 3
+fat = 4.2
 source = 'gold coast product label'
 
 # tom & luke - snackaballs - peanut butter & cacao
