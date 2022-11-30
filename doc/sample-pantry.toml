@@ -947,6 +947,18 @@ fiber = 3
 fat = 0.2
 source = 'gold coast product label'
 
+# ceres organics - banana blossom
+# ingredients: water, certified organic banana blossom (48%), natural
+# sea salt, certified organic lime juice
+[[food]]
+name = 'ceres-organics-banana-blossom'
+serving-size = '100g'
+protein = 1.5
+carbs = 6.8
+fiber = 3
+fat = 0
+source = 'gold coast product label'
+
 # ceres organics - black beans
 # ingredients: certified organic black beans (60%), water
 [[food]]
@@ -2796,6 +2808,17 @@ fiber = 6
 fat = 16
 source = 'perth product label'
 
+# macro wholefoods market - currants
+# ingredients: currants (99%), canola oil
+[[food]]
+name = 'macro-wholefoods-market-currants'
+serving-size = '100g'
+protein = 2.8
+carbs = 70.9
+fiber = 6
+fat = 0.8
+source = 'gold coast product label'
+
 # macro wholefoods market - 4 bean mix
 # ingredients: organic four bean mix (60%) (organic chickpeas, organic
 # red kidney beans, organic baby lima beans, organic borlotti beans),
@@ -2939,6 +2962,18 @@ carbs = 70.6
 fiber = 3.1
 fat = 2.5
 source = 'launceston product label'
+
+# macro wholefoods market - rolled oats
+# ingredients: organic whole grain oats (100%)
+[[food]]
+name = 'macro-wholefoods-market-rolled-oats'
+serving-size = '100g'
+protein = 13.4
+carbs = 66.4
+# insoluble fiber estimated from rolled-oats
+fiber = [ 11.3, 0.66 ]
+fat = 9
+source = 'gold coast product label'
 
 # macro wholefoods market - tamari almonds
 # ingredients: almonds (91%), tamari sauce (9%) (soya bean, water, salt,
@@ -3602,6 +3637,40 @@ carbs = 16.6
 # insoluble fiber estimated from pinto-bean
 fiber = [ 5.6, 0.74 ]
 fat = 1.5
+source = 'gold coast product label'
+
+# only organic - revive - minted peas, broccoli, kale and chia
+# ingredients: vegetables (49%) (certified organic potato, certified
+# organic peas (14%), certified organic sweet potato, certified organic
+# broccoli (4.5%), certified organic onion, certified organic kale (2.5%),
+# certified organic spinach, certified organic celery), water, certified
+# organic ground rice, certified organic olive oil, certified organic chia
+# (0.5%), certified organic salt, herbs (certified organic parsley,
+# certified organic mint), certified organic spices
+[[food]]
+name = 'only-organic-revive-minted-peas-broccoli-kale-chia'
+serving-size = '100g'
+protein = 1.7
+carbs = 9
+fiber = 1.5
+fat = 1.5
+source = 'gold coast product label'
+
+# only organic - spring greens and ancient grains risotto
+# ingredients: vegetables (52%) (certified organic peas (10%), certified
+# organic carrot, certified organic pumpkin, certified organic sweet
+# potato, certified organic onion, certified organic spinach (3.5%),
+# certified organic capsicum), water, certified organic brown rice (3%),
+# certified organic quinoa (2.5%), certified organic tomato paste,
+# certified organic oats (1.5%), certified organic spices, certified
+# organic salt, certified organic parsley, certified organic garlic
+[[food]]
+name = 'only-organic-spring-greens-ancient-grains-risotto'
+serving-size = '100g'
+protein = 1.8
+carbs = 12.6
+fiber = 2.1
+fat = 0.6
 source = 'gold coast product label'
 
 # natural pulse - vegan sausages - italian sun-dried tomato
@@ -4382,6 +4451,17 @@ protein = 12.9
 carbs = 56.4
 fat = 4.4
 source = 'launceston product label'
+
+# red tractor - brown rice flakes
+# ingredients: brown rice flakes (100%)
+[[food]]
+name = 'red-tractor-brown-rice-flakes'
+serving-size = '100g'
+protein = 7.5
+carbs = 78
+fiber = 3.6
+fat = 2.7
+source = 'gold coast product label'
 
 # red tractor - oats - instant - creamy style
 # ingredients: australian wholegrain organic oats (100%)
@@ -5223,6 +5303,46 @@ fiber = 3
 fat = 2.1
 source = 'gold coast product label'
 
+# tilda - masala rice
+# ingredients: natural basmati rice - steamed (79%), onions (5%), carrots
+# (4%), tomato paste (3%), coconut cream, sunflower oil, masala spice mix
+# (1%), coriander (0.7%), ginger, garlic, salt, cayenne pepper (<0.1%),
+# turmeric
+[[food]]
+name = 'tilda-masala-rice'
+serving-size = '100g'
+protein = 3.1
+carbs = 23.8
+fiber = 1.5
+fat = 2.7
+source = 'gold coast product label'
+
+# tilda - rice - wholegrain - basmati and quinoa
+# ingredients: natural wholegrain basmati rice - steamed (90%), natural
+# yellow and red quinoa - steamed (7%), sunflower oil, vegetable stock
+# powder (rice flour, salt, onions, parsnips, carrots, olive oil,
+# turmeric, parsley), acacia fibre, salt
+[[food]]
+name = 'tilda-rice-wholegrain-basmati-quinoa'
+serving-size = '100g'
+protein = 2.9
+carbs = 27
+fiber = 3
+fat = 2.1
+source = 'gold coast product label'
+
+# tilda - rice - wholegrain - basmati and wild
+# ingredients: natural wholegrain basmati rice - steamed (89%), natural
+# wild rice - steamed (10%), rice bran oil, acacia fibre
+[[food]]
+name = 'tilda-rice-wholegrain-basmati-wild'
+serving-size = '100g'
+protein = 3.1
+carbs = 26.3
+fiber = 3
+fat = 2.6
+source = 'gold coast product label'
+
 # tilda - rice - wholegrain - hot jalapeño
 # ingredients: natural wholegrain long grain rice - steamed (77%),
 # onions, jalapeños (4.8%), green peppers, sunflower oil, acacia fibre,
@@ -5915,6 +6035,17 @@ carbs = 79.9
 fiber = 1.2
 fat = 0.5
 source = 'launceston product label'
+
+# woolworths - wild alaskan salmon - in springwater
+# ingredients: pink salmon (61%) (oncorhynchus gorbuscha wild caught in
+# the northeast pacific ocean), springwater (38%), salt
+[[food]]
+name = 'woolworths-wild-alaskan-salmon-in-springwater'
+serving-size = '100g'
+protein = 16.3
+carbs = 0.3
+fat = 1.4
+source = 'gold coast product label'
 
 # yumi's - falafel - classic
 # ingredients: chickpeas (72%), vegetable oil, dried onions, cumin,
