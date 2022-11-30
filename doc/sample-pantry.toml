@@ -1066,6 +1066,40 @@ fiber = 20
 fat = 47
 source = 'auckland product label'
 
+# chantal organics - chickpeas
+# ingredients: certified organic chickpeas (60%), water, sea salt
+[[food]]
+name = 'chantal-organics-chickpeas'
+serving-size = '100g'
+protein = 6.6
+carbs = 20.6
+fiber = 4.8
+fat = 2.6
+source = 'gold coast product label'
+
+# chantal organics - lentils
+# ingredients: certified organic lentils (60%), water, sea salt
+[[food]]
+name = 'chantal-organics-lentils'
+serving-size = '100g'
+protein = 7.7
+carbs = 17.7
+fiber = 4.6
+fat = 0.4
+source = 'gold coast product label'
+
+# chantal organics - mixed beans
+# ingredients: certified organic mixed beans (60%) (red kidney beans,
+# butter beans, chickpeas, navy beans), water, sea salt
+[[food]]
+name = 'chantal-organics-mixed-beans'
+serving-size = '100g'
+protein = 4.9
+carbs = 18.6
+fiber = 8.4
+fat = 0.4
+source = 'gold coast product label'
+
 # chef's choice - arborio rice
 # ingredients: arborio rice (100%)
 [[food]]
@@ -3984,6 +4018,15 @@ fiber = [ 7.9, 0.6 ]
 fat = 4
 source = 'gold coast product label'
 
+# pams - tofu - firm
+[[food]]
+name = 'pams-tofu-firm'
+serving-size = '100g'
+protein = 12.5
+carbs = 4.5
+fat = 3.3
+source = 'gold coast product label'
+
 # pams super foods - amaranth flakes
 [[food]]
 name = 'pams-super-foods-amaranth-flakes'
@@ -5301,6 +5344,20 @@ protein = 2.8
 carbs = 26.3
 fiber = 3
 fat = 2.1
+source = 'gold coast product label'
+
+# tilda - egg fried rice
+# ingredients: natural long grain rice - steamed (81%), scrambled egg (6%)
+# (whole free range egg, water, cornflour, lemon juice, salt, white
+# pepper), peas (4%), onions (4%), sunflower oil, ginger, natural
+# flavourings, salt, garlic
+[[food]]
+name = 'tilda-egg-fried-rice'
+serving-size = '100g'
+protein = 3.2
+carbs = 25.3
+fiber = 1.7
+fat = 2.8
 source = 'gold coast product label'
 
 # tilda - masala rice
