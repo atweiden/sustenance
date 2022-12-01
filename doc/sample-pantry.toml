@@ -3707,6 +3707,21 @@ fiber = 2.1
 fat = 0.6
 source = 'gold coast product label'
 
+# naked kitchen - eat well - peanut satay and kumara bowl
+# ingredients: potato, water, tomato, kumara (12%), carrot, peanut
+# (6%), onion, green beans, capsicum, coconut cream, soy sauce (gluten
+# free), sunflower oil, spinach, yeast extract, coconut sugar, tamarind,
+# lemongrass, sea salt, ginger, curry powder, turmeric, black pepper,
+# red chilli
+[[food]]
+name = 'naked-kitchen-eat-well-peanut-satay-kumara-bowl'
+serving-size = '100g'
+protein = 2.9
+carbs = 9.2
+fiber = 1.8
+fat = 5.3
+source = 'gold coast product label'
+
 # natural pulse - vegan sausages - italian sun-dried tomato
 # ingredients: brown rice, organic polenta, organic millet, tomato puree,
 # coconut oil, rice bran oil, sun-dried tomato (3%), green bell pepper,
