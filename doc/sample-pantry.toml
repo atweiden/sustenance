@@ -534,6 +534,18 @@ fiber = 5.1
 fat = 5.6
 source = 'gold coast product label'
 
+# bean supreme - tofu - plain - firm style
+# ingredients: water, non-gmo soybeans, firming agent (calcium sulphate)
+[[food]]
+name = 'bean-supreme-tofu-plain-firm-style'
+serving-size = '100g'
+protein = 13.2
+carbs = 3.1
+# insoluble fiber estimated from firm-tofu
+fiber = [ 1.9, 0.6 ]
+fat = 6.5
+source = 'gold coast product label'
+
 # bean supreme - wholefood mince
 # ingredients: tomato, shiitake mushrooms (18%), kiwi quinoa, puy lentils
 # (9%), black beans (7%), carrots, buckwheat, chickpeas, cauliflower,
@@ -5454,6 +5466,17 @@ fiber = 6.8
 fat = 23.3
 source = 'gold coast product label'
 
+# tonzu - tofu - original
+# ingredients: certified organic activated whole soybeans, filtered water,
+# natural coagulant nigari 511
+[[food]]
+name = 'tonzu-tofu-original'
+serving-size = '100g'
+protein = 12
+carbs = 3.4
+fat = 4.4
+source = 'gold coast product label'
+
 # trader joe's - california persimmons
 # ingredients: persimmons
 [[food]]
@@ -6117,6 +6140,18 @@ serving-size = '100g'
 protein = 16.3
 carbs = 0.3
 fat = 1.4
+source = 'gold coast product label'
+
+# yolo - medjool dates
+# ingredients: 100% natural unpitted medjool dates
+[[food]]
+name = 'yolo-medjool-dates'
+serving-size = '100g'
+protein = 1.8
+carbs = 81.7
+# insoluble fiber estimated from dried-date
+fiber = [ 6.7, 0.79 ]
+fat = 0.1
 source = 'gold coast product label'
 
 # yumi's - falafel - classic
