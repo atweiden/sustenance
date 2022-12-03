@@ -2821,6 +2821,18 @@ fiber = 6.3
 fat = 0.7
 source = 'launceston product label'
 
+# macro wholefoods market - cashews - natural
+# ingredients: natural cashew nuts (100%)
+[[food]]
+name = 'macro-wholefoods-market-cashews-natural'
+serving-size = '100g'
+protein = 17
+carbs = 22.7
+# insoluble fiber estimated from cashew
+fiber = [ 5.9, 0.92 ]
+fat = 49.2
+source = 'gold coast product label'
+
 # macro wholefoods market - chickpeas
 # ingredients: organic chickpeas (60%), water
 [[food]]
@@ -3685,7 +3697,41 @@ fiber = [ 5.6, 0.74 ]
 fat = 1.5
 source = 'gold coast product label'
 
-# only organic - revive - minted peas, broccoli, kale and chia
+# only organic - coconut quinoa and vegetable curry
+# ingredients: water, vegetables (38%) (certified organic cauliflower,
+# certified organic carrot, certified organic pumpkin, certified organic
+# onion, certified organic sweetcorn, certified organic spinach),
+# certified organic coconut milk (5%), certified organic quinoa (4.5%),
+# certified organic red lentils, certified organic tomato paste,
+# certified organic ground rice, certified organic spices, certified
+# organic salt, certified organic garlic
+[[food]]
+name = 'only-organic-coconut-quinoa-vegetable-curry'
+serving-size = '100g'
+protein = 2.3
+carbs = 10.7
+fiber = 2.1
+fat = 1.7
+source = 'gold coast product label'
+
+# only organic - creamy pumpkin and pearl barley risotto
+# ingredients: vegetables (49%) (certified organic carrot, certified
+# organic sweetcorn, certified organic pumpkin (11%), certified organic
+# onion, certified organic peas, certified organic capsicum), water,
+# certified organic coconut milk, certified organic barley (4.5%),
+# certified organic red lentils, certified organic tomato paste,
+# certified organic wheat flour, certified organic spices, certified
+# organic salt, certified organic garlic
+[[food]]
+name = 'only-organic-creamy-pumpkin-pearl-barley-risotto'
+serving-size = '100g'
+protein = 2.4
+carbs = 14.4
+fiber = 2.9
+fat = 1.6
+source = 'gold coast product label'
+
+# only organic - minted peas, broccoli, kale and chia
 # ingredients: vegetables (49%) (certified organic potato, certified
 # organic peas (14%), certified organic sweet potato, certified organic
 # broccoli (4.5%), certified organic onion, certified organic kale (2.5%),
@@ -3694,7 +3740,7 @@ source = 'gold coast product label'
 # (0.5%), certified organic salt, herbs (certified organic parsley,
 # certified organic mint), certified organic spices
 [[food]]
-name = 'only-organic-revive-minted-peas-broccoli-kale-chia'
+name = 'only-organic-minted-peas-broccoli-kale-chia'
 serving-size = '100g'
 protein = 1.7
 carbs = 9
@@ -3716,6 +3762,23 @@ serving-size = '100g'
 protein = 1.8
 carbs = 12.6
 fiber = 2.1
+fat = 0.6
+source = 'gold coast product label'
+
+# only organic - vegetables and lentil bolognese
+# ingredients: water, vegetables (35%) (certified organic carrot,
+# certified organic sweet potato, certified organic onion, certified
+# organic cauliflower, certified organic capsicum, certified organic
+# celery), certified organic tomato paste, certified organic brown rice,
+# certified organic red lentils (5%), certified organic ground rice,
+# certified organic spices, certified organic salt, certified organic
+# olive oil, certified organic garlic, certified organic parsley
+[[food]]
+name = 'only-organic-vegetables-lentil-bolognese'
+serving-size = '100g'
+protein = 2.9
+carbs = 15.9
+fiber = 2.7
 fat = 0.6
 source = 'gold coast product label'
 
@@ -5786,6 +5849,18 @@ carbs = 5.5
 fiber = 3.4
 fat = 11
 source = 'launceston product label'
+
+# vegie delights - nutmeat - v2
+# ingredients: water, vegetable protein (wheat), peanuts (20%), onion,
+# salt, minerals (zinc, iron), vitamin b12
+[[food]]
+name = 'vegie-delights-nutmeat-v2'
+serving-size = '100g'
+protein = 26.4
+carbs = 5.5
+fiber = 2
+fat = 11
+source = 'gold coast product label'
 
 # vegie delights - nutolene
 # ingredients: water, peanuts (47%), salt, minerals (zinc, iron),
