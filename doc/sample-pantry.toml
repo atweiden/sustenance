@@ -3797,6 +3797,16 @@ fiber = 2.7
 fat = 0.6
 source = 'gold coast product label'
 
+# oqua - coconut water
+# ingredients: certified organic coconut water
+[[food]]
+name = 'oqua-coconut-water'
+serving-size = '100g'
+protein = 0
+carbs = 6
+fat = 0
+source = 'gold coast product label'
+
 # naked kitchen - eat well - peanut satay and kumara bowl
 # ingredients: potato, water, tomato, kumara (12%), carrot, peanut
 # (6%), onion, green beans, capsicum, coconut cream, soy sauce (gluten
@@ -5239,6 +5249,17 @@ protein = 10
 carbs = 61.1
 fiber = 6.5
 fat = 17.6
+source = 'gold coast product label'
+
+# the baron - corn nibbles - sea salt
+# ingredients: wholegrain corn (84%), high oleic sunflower oil, sea salt
+[[food]]
+name = 'the-baron-corn-nibbles-sea-salt'
+serving-size = '100g'
+protein = 7.1
+carbs = 74
+carbs = 9.5
+fat = 14.5
 source = 'gold coast product label'
 
 # the forager food co - risotto rice - tasmanian asparagus, peas and lemon
