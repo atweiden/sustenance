@@ -1100,6 +1100,21 @@ fiber = 4.6
 fat = 0.4
 source = 'gold coast product label'
 
+# chantal organics - mexican style beans
+# ingredients: certified organic red kidney beans (60%), water, certified
+# organic yellow and green pepper (7.2%), certified organic onion,
+# certified organic double concentrated tomato paste, certified organic
+# extra virgin olive oil, sea salt, certified organic red hot chilli
+# (0.3%), oregano, certified organic acidity regulator (citric acid)
+[[food]]
+name = 'chantal-organics-mexican-style-beans'
+serving-size = '100g'
+protein = 5.8
+carbs = 13.9
+fiber = 5.2
+fat = 1.7
+source = 'gold coast product label'
+
 # chantal organics - mixed beans
 # ingredients: certified organic mixed beans (60%) (red kidney beans,
 # butter beans, chickpeas, navy beans), water, sea salt
