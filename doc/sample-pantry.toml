@@ -1497,6 +1497,17 @@ fiber = 2.9
 fat = 0.5
 source = 'gold coast product label'
 
+# deep cove - wild caught sardines - in springwater
+# ingredients: sardines (sardinella longiceps or sardinella gibbosa wild
+# caught in pacific or indian ocean) (72%), spring water (28%), salt
+[[food]]
+name = 'deep-cove-wild-caught-sardines-in-springwater'
+serving-size = '100g'
+protein = 23.8
+carbs = 0
+fat = 2.8
+source = 'launceston product label'
+
 # desert valley date - date coconut rolls
 # ingredients: dates (90%), desiccated coconut (10%)
 [[food]]
