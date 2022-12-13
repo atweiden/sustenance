@@ -1160,6 +1160,17 @@ fiber = 4
 fat = 1
 source = 'launceston product label'
 
+# cinderella - instant mashed potatoes
+# ingredients: potatoes (100%)
+[[food]]
+name = 'cinderella-instant-mashed-potatoes'
+serving-size = '100g'
+protein = 9
+carbs = 79
+fiber = 7
+fat = 0
+source = 'gold coast product label'
+
 # clearly premium - smoked ocean trout
 # ingredients: ocean trout (oncorhynchus mykiss) (97%), sea salt (3%),
 # natural wood smoke
