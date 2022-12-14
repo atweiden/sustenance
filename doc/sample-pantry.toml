@@ -282,6 +282,17 @@ carbs = 12.7
 fat = 0.8
 source = 'launceston product label'
 
+# aoraki - freshwater king salmon - cold smoked
+# ingredients: freshwater king salmon (oncorhynchus tshawytscha), salt,
+# golden syrup, black rum and oak wood smoke
+[[food]]
+name = 'aoraki-freshwater-king-salmon-cold-smoked'
+serving-size = '100g'
+protein = 24.2
+carbs = 0.5
+fat = 15.8
+source = 'gold coast product label'
+
 # applestraps - apple
 # ingredients: apple and water; no preservatives, artificial colours &
 # flavours; the peel was left on because it contains flavour, antioxidants
@@ -409,6 +420,17 @@ protein = 11.1
 carbs = 11
 fat = 35.1
 source = 'launceston product label'
+
+# barry's bay cheese - gruyere
+# ingredients: pasteurised cow's milk, non fat milk solids, culture,
+# rennet, sea salt
+[[food]]
+name = 'barrys-bay-cheese-gruyere'
+serving-size = '100g'
+protein = 26.2
+carbs = 1.3
+fat = 33.6
+source = 'gold coast product label'
 
 # basik - quinoa - tri colour
 # ingredients: organic white quinoa, organic red quinoa, organic black
