@@ -6318,6 +6318,18 @@ carbs = 0.3
 fat = 1.4
 source = 'gold coast product label'
 
+# woolworths - wild alaskan salmon - lightly smoked
+# ingredients: pink salmon (66%) (oncorhynchus gorbuscha wild caught in
+# the northeast pacific ocean), water (26%), sunflower oil (7%), salt,
+# chilli powder, corn starch, natural smoke flavour, garlic powder
+[[food]]
+name = 'woolworths-wild-alaskan-salmon-lightly-smoked'
+serving-size = '100g'
+protein = 15
+carbs = 0.3
+fat = 7.3
+source = 'gold coast product label'
+
 # yolo - medjool dates
 # ingredients: 100% natural unpitted medjool dates
 [[food]]
