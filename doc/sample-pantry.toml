@@ -1017,6 +1017,28 @@ fiber = 6.4
 fat = 0.8
 source = 'gold coast product label'
 
+# ceres organics - black eyed beans
+# ingredients: certified organic black eyed beans (60%), water
+[[food]]
+name = 'ceres-organics-black-eyed-beans'
+serving-size = '100g'
+protein = 8.8
+carbs = 23.4
+fiber = 3.5
+fat = 0.7
+source = 'gold coast product label'
+
+# ceres organics - brown lentils
+# ingredients: certified organic brown lentils (60%), water
+[[food]]
+name = 'ceres-organics-brown-lentils'
+serving-size = '100g'
+protein = 7
+carbs = 19.6
+fiber = 4.6
+fat = 0.5
+source = 'gold coast product label'
+
 # ceres organics - organic brown rice bites
 # ingredients: certified organic brown jasmine rice (94%), certified
 # organic sunflower oil, natural sea salt (1%)
@@ -2488,6 +2510,18 @@ serving-size = '100g'
 protein = 24.5
 carbs = 63.3
 fat = 1
+source = 'launceston product label'
+
+# la morena - refried bayo beans with chipotle and adobo
+# ingredients: bayo beans (65%), water, adobo (7.7%) (tomato, water,
+# vinegar, iodized salt, spices and garlic), vegetable oil, onion,
+# iodized salt and chipotle pepper (3%)
+[[food]]
+name = 'la-morena-refried-bayo-beans-chipotle-adobo'
+serving-size = '100g'
+protein = 5.3
+carbs = 16.1
+fat = 4.2
 source = 'launceston product label'
 
 # larder fresh - brown rice, mushroom and seaweed burger
