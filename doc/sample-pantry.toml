@@ -568,6 +568,19 @@ fiber = [ 1.9, 0.6 ]
 fat = 6.5
 source = 'gold coast product label'
 
+# bean supreme - tofu - plain - organic
+# ingredients: water, organic non-gmo soybeans, firming agent (calcium
+# sulphate)
+[[food]]
+name = 'bean-supreme-tofu-plain-organic'
+serving-size = '100g'
+protein = 12.4
+carbs = 5.1
+# insoluble fiber estimated from tofu
+fiber = [ 3.7, 0.75 ]
+fat = 6.4
+source = 'gold coast product label'
+
 # bean supreme - wholefood mince
 # ingredients: tomato, shiitake mushrooms (18%), kiwi quinoa, puy lentils
 # (9%), black beans (7%), carrots, buckwheat, chickpeas, cauliflower,
