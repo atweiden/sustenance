@@ -1063,6 +1063,28 @@ fiber = 5.1
 fat = 8.2
 source = 'launceston product label'
 
+# ceres organics - butter beans
+# ingredients: certified organic butter beans (60%), water
+[[food]]
+name = 'ceres-organics-butter-beans'
+serving-size = '100g'
+protein = 7.4
+carbs = 21.5
+fiber = 7.1
+fat = 0.6
+source = 'gold coast product label'
+
+# ceres organics - cannellini beans
+# ingredients: certified organic cannellini beans (60%), water
+[[food]]
+name = 'ceres-organics-cannellini-beans'
+serving-size = '100g'
+protein = 7
+carbs = 18.2
+fiber = 7.4
+fat = 0.5
+source = 'gold coast product label'
+
 # ceres organics - chickpeas
 # ingredients: certified organic chickpeas (60%), water
 [[food]]
@@ -2327,6 +2349,16 @@ serving-size = '100g'
 protein = 23
 carbs = 0.6
 fat = 5.7
+source = 'gold coast product label'
+
+# john west - wild alaskan red salmon
+# ingredients: salmon, salt
+[[food]]
+name = 'john-west-wild-alaskan-red-salmon'
+serving-size = '100g'
+protein = 22.8
+carbs = 0.6
+fat = 8.1
 source = 'gold coast product label'
 
 # john west - wild caught salmon slices - in spring water
@@ -5651,6 +5683,18 @@ protein = 2.1
 carbs = 22.2
 fiber = 3
 fat = 4.2
+source = 'gold coast product label'
+
+# tom & luke - snackaballs - cacao, mint and almond
+# ingredients: dates (57%), almonds (20%), desiccated coconut, cacao
+# powder (8%), raisins (5%), peppermint oil (<1%)
+[[food]]
+name = 'tom-and-luke-snackaballs-cacao-mint-almond'
+serving-size = '100g'
+protein = 7.7
+carbs = 58.6
+fiber = 7.5
+fat = 19.4
 source = 'gold coast product label'
 
 # tom & luke - snackaballs - peanut butter & cacao
