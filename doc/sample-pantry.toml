@@ -2341,6 +2341,17 @@ carbs = 0.5
 fat = 1
 source = 'gold coast product label'
 
+# john west - tuna - in spring water
+# ingredients: purse seine caught skipjack tuna (katsuwonus pelamis)
+# (65%), springwater, salt
+[[food]]
+name = 'john-west-tuna-in-spring-water'
+serving-size = '100g'
+protein = 25.7
+carbs = 0.5
+fat = 1
+source = 'gold coast product label'
+
 # john west - wild alaskan pink salmon
 # ingredients: salmon, salt
 [[food]]
