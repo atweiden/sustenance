@@ -3951,6 +3951,20 @@ carbs = 6
 fat = 0
 source = 'gold coast product label'
 
+# naked kitchen - california wellness bowl - with red lentils and ginger
+# ingredients: tomatoes, water, onion, butter beans (10%), red lentils
+# (6%), green beans, carrot, fennel, parsnip, spinach, olive oil, ginger
+# (1%), sea salt, coriander, honey, garlic, lemon juice, cayenne,
+# turmeric, fennel seed
+[[food]]
+name = 'naked-kitchen-california-wellness-bowl-red-lentils-ginger'
+serving-size = '100g'
+protein = 2.7
+carbs = 8.3
+fiber = 2.3
+fat = 1.4
+source = 'gold coast product label'
+
 # naked kitchen - eat well - peanut satay and kumara bowl
 # ingredients: potato, water, tomato, kumara (12%), carrot, peanut
 # (6%), onion, green beans, capsicum, coconut cream, soy sauce (gluten
