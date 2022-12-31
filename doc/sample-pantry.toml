@@ -2555,6 +2555,17 @@ carbs = 63.3
 fat = 1
 source = 'launceston product label'
 
+# la morena - refried bayo beans
+# ingredients: bayo beans (70%), water, vegetable oil, onion and
+# iodized salt
+[[food]]
+name = 'la-morena-refried-bayo-beans'
+serving-size = '100g'
+protein = 5
+carbs = 16.3
+fat = 9.3
+source = 'gold coast product label'
+
 # la morena - refried bayo beans with chipotle and adobo
 # ingredients: bayo beans (65%), water, adobo (7.7%) (tomato, water,
 # vinegar, iodized salt, spices and garlic), vegetable oil, onion,
@@ -2565,7 +2576,18 @@ serving-size = '100g'
 protein = 5.3
 carbs = 16.1
 fat = 4.2
-source = 'launceston product label'
+source = 'gold coast product label'
+
+# la morena - refried black beans
+# ingredients: black beans (70%), water, vegetable oil, onion and
+# iodized salt
+[[food]]
+name = 'la-morena-refried-black-beans'
+serving-size = '100g'
+protein = 5.5
+carbs = 16.1
+fat = 8.4
+source = 'gold coast product label'
 
 # larder fresh - brown rice, mushroom and seaweed burger
 # ingredients: brown rice (47%), carrot, chickpea, sweet potato, mushrooms
@@ -3339,6 +3361,17 @@ protein = 7.4
 carbs = 72
 fat = 3
 source = 'melbourne product label'
+
+# masterfoods - all-purpose blend
+# ingredients: salt, rice flour, paprika (5%), onion (4%), pepper (2%),
+# garlic, vegetable oil, basil, celery seed, colour (paprika oleoresin)
+[[food]]
+name = 'masterfoods-all-purpose-blend'
+serving-size = '100g'
+protein = 2.6
+carbs = 16.9
+fat = 2.4
+source = 'gold coast product label'
 
 # matakana superfoods - organic acai berry powder
 [[food]]
