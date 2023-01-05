@@ -5813,6 +5813,17 @@ fiber = 6.8
 fat = 23.3
 source = 'gold coast product label'
 
+# tonzu - tofu - firm
+# ingredients: certified organic activated whole soybeans, filtered water,
+# natural coagulant pure nigari
+[[food]]
+name = 'tonzu-tofu-firm'
+serving-size = '100g'
+protein = 12.5
+carbs = 4.5
+fat = 3.3
+source = 'gold coast product label'
+
 # tonzu - tofu - original
 # ingredients: certified organic activated whole soybeans, filtered water,
 # natural coagulant nigari 511
