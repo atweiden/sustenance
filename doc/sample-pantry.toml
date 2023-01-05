@@ -1051,6 +1051,19 @@ fiber = 4.3
 fat = 7.6
 source = 'launceston product label'
 
+# ceres organics - organic brown rice crackers - sea salt and vinegar
+# ingredients: certified organic jasmine brown rice (92%), certified
+# organic sunflower oil, certified organic rice wine vinegar (1.8%),
+# sea salt (1.2%)
+[[food]]
+name = 'ceres-organics-brown-rice-crackers-sea-salt-vinegar'
+serving-size = '100g'
+protein = 6.6
+carbs = 74.2
+fiber = 4.2
+fat = 7.5
+source = 'gold coast product label'
+
 # ceres organics - organic brown rice crackers - with chia
 # ingredients: certified organic brown jasmine rice (91.4%), certified
 # organic sunflower oil, certified organic chia, natural sea salt (1%)
@@ -2554,6 +2567,16 @@ protein = 24.5
 carbs = 63.3
 fat = 1
 source = 'launceston product label'
+
+# la morena - red mexican salsa - homemade style
+# ingredients: tomato, onion, pepper, coriander and iodized salt
+[[food]]
+name = 'la-morena-red-mexican-salsa-homemade-style'
+serving-size = '100g'
+protein = 5.5
+carbs = 16.1
+fat = 8.4
+source = 'gold coast product label'
 
 # la morena - refried bayo beans
 # ingredients: bayo beans (70%), water, vegetable oil, onion and
@@ -5159,6 +5182,17 @@ protein = 2.6
 carbs = 64.1
 fiber = 3.3
 fat = 0.3
+source = 'gold coast product label'
+
+# sun-maid - raisins
+# ingredients: california seedless raisins
+[[food]]
+name = 'sun-maid-raisins'
+serving-size = '100g'
+protein = 3
+carbs = 82.8
+fiber = 5.9
+fat = 0.7
 source = 'gold coast product label'
 
 # sun rice - black rice
