@@ -1140,6 +1140,17 @@ fiber = 1
 fat = 1.1
 source = 'gold coast product label'
 
+# ceres organics - rolled oats
+[[food]]
+name = 'ceres-organics-rolled-oats'
+serving-size = '100g'
+protein = 13.2
+carbs = 67.8
+# insoluble fiber estimated from rolled-oats
+fiber = [ 10.2, 0.66 ]
+fat = 6.5
+source = 'gold coast product label'
+
 # ceres organics - organic seaweed - chilli snack
 [[food]]
 name = 'ceres-organics-seaweed-chilli-snack'
@@ -5589,6 +5600,16 @@ carbs = 23
 fiber = [ 10.4, 0.95 ]
 fat = 49.9
 source = 'launceston product label'
+
+# the soy works - tofu - extra firm
+# ingredients: water, non-gmo soybeans, firming agent (511)
+[[food]]
+name = 'the-soy-works-tofu-extra-firm'
+serving-size = '100g'
+protein = 14.7
+carbs = 4.9
+fat = 4.6
+source = 'gold coast product label'
 
 # the spice tailor - classic lentil tarka daal
 # ingredients: cooked lentils (44%) (water, lentils (bengal gram, red
