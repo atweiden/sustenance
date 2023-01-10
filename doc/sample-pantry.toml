@@ -5498,6 +5498,31 @@ fiber = 6.5
 fat = 17.6
 source = 'gold coast product label'
 
+# tempeh deli - lupine tempeh - mediterranean
+# ingredients: lupin beans (non-gmo) (95%), water, cider vinegar,
+# rhizopus culture, paprika, thyme, oregano, rosemary, parsley, onion
+# powder, garlic powder
+[[food]]
+name = 'tempeh-deli-lupine-tempeh-mediterranean'
+serving-size = '100g'
+protein = 16
+carbs = 25.7
+fiber = 11.2
+fat = 2
+source = 'gold coast product label'
+
+# tempeh deli - lupine tempeh - seaweed tamari
+# ingredients: lupin beans (non-gmo) (95%), water, cider vinegar,
+# rhizopus culture, tamari, wakame seaweed, sesame seed
+[[food]]
+name = 'tempeh-deli-lupine-tempeh-seaweed-tamari'
+serving-size = '100g'
+protein = 16.1
+carbs = 25.4
+fiber = 12.7
+fat = 3.6
+source = 'gold coast product label'
+
 # the baron - corn nibbles - sea salt
 # ingredients: wholegrain corn (84%), high oleic sunflower oil, sea salt
 [[food]]
@@ -5832,6 +5857,18 @@ protein = 12.5
 carbs = 52.8
 fiber = 6.8
 fat = 23.3
+source = 'gold coast product label'
+
+# tonzu - tempeh - original
+# ingredients: certified organic activated whole soybeans (99.9%),
+# certified organic rice flour, rhizopus culture
+[[food]]
+name = 'tonzu-tempeh-original'
+serving-size = '100g'
+protein = 17.4
+carbs = 8.7
+fiber = 1.3
+fat = 8.4
 source = 'gold coast product label'
 
 # tonzu - tofu - firm
