@@ -24,7 +24,7 @@ time = 10:15:00
 
   # eat 150g rolled oats
   [[meal.portion]]
-  food = 'oats'
+  food = 'rolled-oats'
   servings = 1.5
 ```
 
