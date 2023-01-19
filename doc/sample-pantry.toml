@@ -526,6 +526,37 @@ fiber = 6.7
 fat = 4.9
 source = 'gold coast product label'
 
+# bean supreme - cauliflower masala burgers
+# ingredients: chickpeas (31%), potato, carrot, cauliflower (11%),
+# onion, vegetable oil, quinoa (2%), gelling agents (methylcellulose -
+# from plant fibre, locust bean gum - from carob seeds, carrageenan - from
+# red seaweed), coriander, potato fibre, sea salt, spices, green chilli,
+# ginger, chia seeds, garlic, nutritional yeast, turmeric (0.2%)
+[[food]]
+name = 'bean-supreme-cauliflower-masala-burgers'
+serving-size = '100g'
+protein = 5.8
+carbs = 23.7
+fiber = 7.3
+fat = 4.1
+source = 'gold coast product label'
+
+# bean supreme - hemp burgers
+# ingredients: green peas (44%), onion, chickpeas (15%), hemp (6%)
+# (seeds, protein), spinach (4.5), vegetable oil, kale (2%), coriander,
+# gelling agents (methylcellulose - from plant fibre, locust bean gum -
+# from carob seeds, carrageenan - from red seaweed), sweetcorn, salt,
+# potato fibre, lemon juice concentrate, parsley, paprika, garlic, cumin,
+# black pepper
+[[food]]
+name = 'bean-supreme-hemp-burgers'
+serving-size = '100g'
+protein = 9.3
+carbs = 22.5
+fiber = 7.3
+fat = 6.8
+source = 'gold coast product label'
+
 # bean supreme - marinated chilli & lime jackfruit
 # ingredients: jackfruit (52%), water, onion, coconut sugar, sunflower
 # oil, red thai chilli pepper (3%), lime juice (3%), garlic, herbs and
@@ -1064,6 +1095,19 @@ fiber = 4.2
 fat = 7.5
 source = 'gold coast product label'
 
+# ceres organics - organic brown rice crackers - seaweed
+# ingredients: certified organic jasmine brown rice (92%), certified
+# organic sunflower oil, sea salt (1.2%), seaweed (0.7%), certified
+# organic green tea
+[[food]]
+name = 'ceres-organics-brown-rice-crackers-seaweed'
+serving-size = '100g'
+protein = 6.8
+carbs = 75.3
+fiber = 4.3
+fat = 7.6
+source = 'gold coast product label'
+
 # ceres organics - organic brown rice crackers - with chia
 # ingredients: certified organic brown jasmine rice (91.4%), certified
 # organic sunflower oil, certified organic chia, natural sea salt (1%)
@@ -1140,7 +1184,21 @@ fiber = 1
 fat = 1.1
 source = 'gold coast product label'
 
+# ceres organics - raisins
+# ingredients: certified organic raisins (99.5%), certified organic
+# sunflower oil
+[[food]]
+name = 'ceres-organics-raisins'
+serving-size = '100g'
+protein = 2.5
+carbs = 77.5
+# insoluble fiber estimated from raisin
+fiber = [ 5.0, 0.71 ]
+fat = 0
+source = 'gold coast product label'
+
 # ceres organics - rolled oats
+# ingredients: certified organic whole grain oats
 [[food]]
 name = 'ceres-organics-rolled-oats'
 serving-size = '100g'
@@ -2045,6 +2103,28 @@ carbs = 5.1
 fat = 39.3
 source = 'launceston product label'
 
+# fruit hitz - dried new zealand apple chips
+# ingredients: 100% new zealand apples
+[[food]]
+name = 'fruit-hitz-dried-new-zealand-apple-chips'
+serving-size = '100g'
+protein = 1.4
+carbs = 89.3
+fiber = 14.1
+fat = 2.1
+source = 'gold coast product label'
+
+# fruit hitz - dried new zealand apple rings
+# ingredients: 100% new zealand apples
+[[food]]
+name = 'fruit-hitz-dried-new-zealand-apple-rings'
+serving-size = '100g'
+protein = 1.3
+carbs = 82.8
+fiber = 10.2
+fat = 1.3
+source = 'gold coast product label'
+
 # fruit wise - fruit straps - apple & apricot
 # ingredients: apple, apricot
 [[food]]
@@ -2738,6 +2818,17 @@ protein = 2.2
 carbs = 17.6
 fat =  21.9
 source = 'launceston product label'
+
+# little beauties - freeze-dried feijoa wedges
+# ingredients: new zealand feijoa
+[[food]]
+name = 'little-beauties-freeze-dried-feijoa-wedges'
+serving-size = '100g'
+protein = 4.4
+carbs = 90.1
+fiber = 20
+fat = 2.3
+source = 'gold coast product label'
 
 # lotus - barley flakes - rolled
 # ingredients: 100% organic barley
