@@ -5553,6 +5553,19 @@ carbs = 33.2
 fat = 3.8
 source = 'gold coast product label'
 
+# tasti - smooshed protein balls - dark cacao brownie
+# ingredients: dates, almonds, cacao (14%) (mass, powder and extract),
+# sunflower seeds, soy protein, raisins, coconut, a hint of natural
+# flavour
+[[food]]
+name = 'tasti-smooshed-protein-balls-dark-cacao-brownie'
+serving-size = '100g'
+protein = 17.2
+carbs = 49.5
+fiber = 8.2
+fat = 21.3
+source = 'gold coast product label'
+
 # tasti - smooshed wholefood balls - cacao brownie
 # ingredients: dates, cashews, cacao (8%), coconut, a hint of natural
 # flavour
