@@ -4149,6 +4149,21 @@ fiber = 1.8
 fat = 5.3
 source = 'gold coast product label'
 
+# naked kitchen - eat well - vegetable, chickpea and noodle soup
+# ingredients:water, vegetables (21%) (carrot, onion, celery, courgette,
+# spring onion), chickpeas (15%), rice noodles (2%), tomato, sunflower
+# oil, sea salt, parsley, lemon juice, vegetable stock powder, yeast
+# extract, curry powder, garlic, turmeric (0.1%), black pepper, oregano,
+# thyme
+[[food]]
+name = 'naked-kitchen-eat-well-vegetable-chickpea-noodle-soup'
+serving-size = '100g'
+protein = 1.7
+carbs = 8.4
+fiber = 2.7
+fat = 1.8
+source = 'gold coast product label'
+
 # natural pulse - vegan sausages - italian sun-dried tomato
 # ingredients: brown rice, organic polenta, organic millet, tomato puree,
 # coconut oil, rice bran oil, sun-dried tomato (3%), green bell pepper,
