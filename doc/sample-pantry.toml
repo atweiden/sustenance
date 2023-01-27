@@ -1153,6 +1153,19 @@ fiber = 6.9
 fat = 2
 source = 'gold coast product label'
 
+# ceres organics - mixed beans
+# ingredients: certified organic mixed beans (certified organic chickpeas,
+# certified organic borlotti, certified organic red kidney, cannellini)
+# (60%), water
+[[food]]
+name = 'ceres-organics-mixed-beans'
+serving-size = '100g'
+protein = 6.9
+carbs = 18.6
+fiber = 6
+fat = 0.8
+source = 'gold coast product label'
+
 # ceres organics - quinoa flakes
 [[food]]
 name = 'ceres-organics-quinoa-flakes'
