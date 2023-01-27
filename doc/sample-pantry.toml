@@ -4965,6 +4965,16 @@ carbs = 56.4
 fat = 4.4
 source = 'launceston product label'
 
+# real foods - natural brown rice flakes
+# ingredients: brown rice flakes (100%)
+[[food]]
+name = 'real-foods-natural-brown-rice-flakes'
+serving-size = '100g'
+protein = 8
+carbs = 80
+fat = 2
+source = 'gold coast product label'
+
 # red tractor - brown rice flakes
 # ingredients: brown rice flakes (100%)
 [[food]]
