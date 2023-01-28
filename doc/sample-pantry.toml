@@ -4089,6 +4089,23 @@ fiber = 1.5
 fat = 1.5
 source = 'gold coast product label'
 
+# only organic - pumpkin, red lentils, coconut and turmeric
+# ingredients: water, vegetables (40%) (certified organic pumpkin (12%),
+# certified organic carrot, certified organic onion, certified organic
+# capsicum, certified organic sweetcorn, certified organic tomato paste,
+# certified organic spinach), certified organic coconut milk (9%),
+# certified organic red lentils (6%), certified organic ground rice,
+# certified organic salt, certified organic spices, certified organic
+# garlic, certified organic turmeric
+[[food]]
+name = 'only-organic-pumpkin-red-lentils-coconut-turmeric'
+serving-size = '100g'
+protein = 2.4
+carbs = 9.5
+fiber = 2.2
+fat = 2.1
+source = 'gold coast product label'
+
 # only organic - spring greens and ancient grains risotto
 # ingredients: vegetables (52%) (certified organic peas (10%), certified
 # organic carrot, certified organic pumpkin, certified organic sweet
