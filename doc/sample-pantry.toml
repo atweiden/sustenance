@@ -1059,6 +1059,17 @@ fiber = 3.5
 fat = 0.7
 source = 'gold coast product label'
 
+# ceres organics - borlotti beans
+# ingredients: certified organic borlotti beans (60%), water
+[[food]]
+name = 'ceres-organics-borlotti-beans'
+serving-size = '100g'
+protein = 7.6
+carbs = 19.8
+fiber = 7
+fat = 0.8
+source = 'gold coast product label'
+
 # ceres organics - brown lentils
 # ingredients: certified organic brown lentils (60%), water
 [[food]]
