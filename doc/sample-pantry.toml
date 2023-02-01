@@ -1093,6 +1093,30 @@ fiber = 4.3
 fat = 7.6
 source = 'launceston product label'
 
+# ceres organics - organic brown rice crackers - chia
+# ingredients: certified organic brown jasmine rice (91.4%), certified
+# organic sunflower oil, certified organic chia, natural sea salt (1%)
+[[food]]
+name = 'ceres-organics-brown-rice-crackers-chia'
+serving-size = '100g'
+protein = 7
+carbs = 76.1
+fiber = 5.1
+fat = 8.2
+source = 'launceston product label'
+
+# ceres organics - organic brown rice crackers - original
+# ingredients: certified organic jasmine brown rice (94%), certified
+# organic sunflower oil, natural sea salt
+[[food]]
+name = 'ceres-organics-brown-rice-crackers-original'
+serving-size = '100g'
+protein = 6.8
+carbs = 75.9
+fiber = 4.3
+fat = 7.6
+source = 'gold coast product label'
+
 # ceres organics - organic brown rice crackers - sea salt and vinegar
 # ingredients: certified organic jasmine brown rice (92%), certified
 # organic sunflower oil, certified organic rice wine vinegar (1.8%),
@@ -1119,17 +1143,25 @@ fiber = 4.3
 fat = 7.6
 source = 'gold coast product label'
 
-# ceres organics - organic brown rice crackers - with chia
-# ingredients: certified organic brown jasmine rice (91.4%), certified
-# organic sunflower oil, certified organic chia, natural sea salt (1%)
+# ceres organics - burger mix - red lentil and black sesame
+# ingredients: certified organic red lentils (28%), certified organic
+# oats, certified organic polenta, certified organic chickpea flour,
+# certified organic sunflower seeds, certified organic sesame seeds
+# (hulled), certified organic black sesame (6%), herb salt (sea salt,
+# certified organic carrot, certified organic celery, certified organic
+# leek, certified organic parsley, certified organic celery leaves,
+# certified organic thyme, certified organic basil, certified organic
+# lovage, certified organic dill, certified organic savory), certified
+# organic psyllium, certified organic garlic powder, certified organic
+# onion powder
 [[food]]
-name = 'ceres-organics-brown-rice-crackers-with-chia'
+name = 'ceres-organics-burger-mix-red-lentil-black-sesame'
 serving-size = '100g'
-protein = 7
-carbs = 76.1
-fiber = 5.1
-fat = 8.2
-source = 'launceston product label'
+protein = 18.7
+carbs = 54.2
+fiber = 17.7
+fat = 14.3
+source = 'gold coast product label'
 
 # ceres organics - butter beans
 # ingredients: certified organic butter beans (60%), water
