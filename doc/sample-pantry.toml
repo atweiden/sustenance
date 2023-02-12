@@ -889,6 +889,16 @@ fiber = 17.8
 fat = 51.3
 source = 'launceston product label'
 
+# brunswick - wild sardines - in spring water
+# ingredients: sardines (fish) (70%), spring water (30%)
+[[food]]
+name = 'brunswick-wild-sardines-in-spring-water'
+serving-size = '100g'
+protein = 20.2
+carbs = 0
+fat = 8.8
+source = 'gold coast product label'
+
 # bush dust
 #
 # best used on bread as a snack or pre-dinner bread by dipping in olive
@@ -4068,6 +4078,18 @@ carbs = 0
 fat = 8.8
 source = 'gold coast product label'
 
+# old el paso - mexe beans - mild
+# ingredients: cooked pinto beans (44%), salt, spices, garlic powder,
+# firming agent (calcium chloride), onion powder, paprika extract
+[[food]]
+name = 'old-el-paso-mexe-beans-mild'
+serving-size = '100g'
+protein = 4.7
+carbs = 13.3
+fiber = 4.8
+fat = 1.2
+source = 'gold coast product label'
+
 # old el paso - refried beans - mild
 # ingredients: cooked pinto beans (63%), water, sunflower oil, salt,
 # onion powder
@@ -5968,6 +5990,17 @@ protein = 3.2
 carbs = 25.3
 fiber = 1.7
 fat = 2.8
+source = 'gold coast product label'
+
+# tilda - jasmine rice - fragrant
+# ingredients: natural jasmine rice - steamed (98%), rice bran oil
+[[food]]
+name = 'tilda-jasmine-rice-fragrant'
+serving-size = '100g'
+protein = 3.2
+carbs = 35.6
+fiber = 0.3
+fat = 2.3
 source = 'gold coast product label'
 
 # tilda - masala rice
