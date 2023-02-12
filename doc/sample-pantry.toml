@@ -1354,6 +1354,17 @@ fiber = 8.4
 fat = 0.4
 source = 'gold coast product label'
 
+# chantal organics - rolled oats - quick cooking
+# ingredients: certified organic rolled oats
+[[food]]
+name = 'chantal-organics-rolled-oats-quick-cooking'
+serving-size = '100g'
+protein = 16
+carbs = 67
+fiber = 9.8
+fat = 6.3
+source = 'gold coast product label'
+
 # chef's choice - arborio rice
 # ingredients: arborio rice (100%)
 [[food]]
