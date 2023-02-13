@@ -5816,6 +5816,18 @@ fiber = [ 20.9, 0.95 ]
 fat = 13
 source = 'auckland product label'
 
+# the happy snack co - crunchy roasted chickpeas - lightly salted - v2
+# ingredients: chickpeas (90%), non-gmo canola oil, sea salt (0.6%)
+[[food]]
+name = 'the-happy-snack-co-crunchy-roasted-chickpeas-salted-v2'
+serving-size = '100g'
+protein = 17.5
+carbs = 59.4
+# insoluble fiber estimated from roasted-chickpea
+fiber = [ 11.9, 0.95 ]
+fat = 16
+source = 'gold coast product label'
+
 # the happy snack co - crunchy roasted chickpeas - spicy tomato & chilli
 [[food]]
 name = 'the-happy-snack-co-crunchy-roasted-chickpeas-spicy-tomato'
