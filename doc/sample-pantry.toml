@@ -2736,6 +2736,17 @@ carbs = 63.3
 fat = 1
 source = 'launceston product label'
 
+# king pin bbq - american smoked hickory salt
+# ingredients: salt, vegetable powder, herbs and spices, smoke powder,
+# mustard seeds, chilli
+[[food]]
+name = 'king-pin-bbq-american-smoked-hickory-salt'
+serving-size = '100g'
+protein = 2.8
+carbs = 9
+fat = 5.5
+source = 'gold coast product label'
+
 # la morena - red mexican salsa - homemade style
 # ingredients: tomato, onion, pepper, coriander and iodized salt
 [[food]]
