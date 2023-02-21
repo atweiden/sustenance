@@ -1058,6 +1058,17 @@ fiber = 6.4
 fat = 0.8
 source = 'gold coast product label'
 
+# ceres organics - black beluga lentils
+# ingredients: certified organic black beluga lentils (60%), water
+[[food]]
+name = 'ceres-organics-black-eyed-beans'
+serving-size = '100g'
+protein = 6
+carbs = 21
+fiber = 7
+fat = 0
+source = 'gold coast product label'
+
 # ceres organics - black eyed beans
 # ingredients: certified organic black eyed beans (60%), water
 [[food]]
@@ -2049,6 +2060,16 @@ protein = 20.5
 carbs = 46.8
 fiber = 22
 fat = 30
+source = 'gold coast product label'
+
+# fish4ever - azores tuna chunks - in brine
+# ingredients: skipjack tuna (70%), water, sea salt
+[[food]]
+name = 'fish4ever-azores-tuna-chunks-in-brine'
+serving-size = '100g'
+protein = 22.3
+carbs = 0
+fat = 0.7
 source = 'gold coast product label'
 
 # forage & feast - crispy dried fruit slices - salted tomato
