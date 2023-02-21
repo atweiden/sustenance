@@ -1061,7 +1061,7 @@ source = 'gold coast product label'
 # ceres organics - black beluga lentils
 # ingredients: certified organic black beluga lentils (60%), water
 [[food]]
-name = 'ceres-organics-black-eyed-beans'
+name = 'ceres-organics-black-beluga-lentils'
 serving-size = '100g'
 protein = 6
 carbs = 21
